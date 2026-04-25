@@ -1,0 +1,157 @@
+# YOUSPEAK input configuration for Espanso
+# https://espanso.org
+#
+# Install this file to your Espanso match directory:
+#   macOS:   ~/Library/Application Support/espanso/match/youspeak.yml
+#   Linux:   ~/.config/espanso/match/youspeak.yml
+#   Windows: %APPDATA%\espanso\match\youspeak.yml
+#
+# Then restart Espanso (`espanso restart` on the command line).
+#
+# Usage:
+#   Type a colon-prefixed canon word, e.g., ":doxakallos",
+#   and Espanso substitutes the PUA-encoded glyph sequence.
+#   Renders correctly only if a YOUSPEAK font is installed; otherwise
+#   the glyph positions render as fallback boxes (recoverable via the
+#   reverse transliterator).
+#
+#   To insert just a morpheme (e.g., just doxa, for custom compounds):
+#     ":m:doxa" → <doxa-glyph>
+#
+#   Canon-word triggers are bare-word after colon; morpheme triggers
+#   use ":m:" prefix to avoid accidental substitution of common text.
+#
+# Compatibility:
+#   Espanso runs as a user-space daemon on macOS, Linux, Windows. No
+#   special system permissions beyond Accessibility on macOS (which
+#   Espanso prompts for on first run).
+
+matches:
+
+  # ----- canon words (triggers: ":word") -----
+
+  - trigger: ":doxakallos"
+    replace: ""
+  - trigger: ":kallodoxa"
+    replace: ""
+  - trigger: ":orthophanes"
+    replace: ""
+  - trigger: ":doxalgia"
+    replace: ""
+  - trigger: ":anagnoristasis"
+    replace: ""
+  - trigger: ":metastrophesis"
+    replace: ""
+  - trigger: ":athaumasma"
+    replace: ""
+  - trigger: ":synophora"
+    replace: ""
+  - trigger: ":kallophanes"
+    replace: ""
+  - trigger: ":dokimance"
+    replace: ""
+  - trigger: ":artiance"
+    replace: ""
+  - trigger: ":verisleight"
+    replace: ""
+  - trigger: ":candence"
+    replace: ""
+  - trigger: ":complerescence"
+    replace: ""
+  - trigger: ":diplosemy"
+    replace: ""
+  - trigger: ":veriseem"
+    replace: ""
+  # ----- Core Canon (v2, post-Constitution 2026-04-24) -----
+  - trigger: ":kimance"
+    replace: ""
+  - trigger: ":kinqing"
+    replace: ""
+  - trigger: ":tacitkin"
+    replace: ""
+  - trigger: ":mushinance"
+    replace: ""
+
+  # ----- morphemes (triggers: ":m:morpheme") -----
+  # For building compound words not yet in canon
+
+  - trigger: ":m:doxa"
+    replace: ""
+  - trigger: ":m:kallos"
+    replace: ""
+  - trigger: ":m:ortho"
+    replace: ""
+  - trigger: ":m:phanes"
+    replace: ""
+  - trigger: ":m:algia"
+    replace: ""
+  - trigger: ":m:anagno"
+    replace: ""
+  - trigger: ":m:stasis"
+    replace: ""
+  - trigger: ":m:meta"
+    replace: ""
+  - trigger: ":m:strophe"
+    replace: ""
+  - trigger: ":m:thauma"
+    replace: ""
+  - trigger: ":m:syn"
+    replace: ""
+  - trigger: ":m:phora"
+    replace: ""
+  - trigger: ":m:cand"
+    replace: ""
+  - trigger: ":m:dokim"
+    replace: ""
+  - trigger: ":m:arti"
+    replace: ""
+  - trigger: ":m:veri"
+    replace: ""
+  - trigger: ":m:compler"
+    replace: ""
+  - trigger: ":m:diplos"
+    replace: ""
+  - trigger: ":m:sema"
+    replace: ""
+  - trigger: ":m:ki"
+    replace: ""
+  - trigger: ":m:qing"
+    replace: ""
+  - trigger: ":m:kin"
+    replace: ""
+  - trigger: ":m:tacit"
+    replace: ""
+  - trigger: ":m:mushin"
+    replace: ""
+
+  # ----- structural marks -----
+
+  - trigger: ":ys:sep"       # compound-separator
+    replace: ""
+  - trigger: ":ys:ro"        # reading-annotation open
+    replace: ""
+  - trigger: ":ys:rc"        # reading-annotation close
+    replace: ""
+  - trigger: ":ys:pair"      # diplosemic-pair indicator
+    replace: ""
+  - trigger: ":ys:canon"     # canon-mark
+    replace: ""
+
+  # ----- convenience utilities -----
+
+  - trigger: ":ys:help"
+    replace: |
+      YOUSPEAK Input Quick Reference
+      ------------------------------
+      Canon words (type colon + word):
+        :doxakallos :kallodoxa :orthophanes :doxalgia
+        :anagnoristasis :metastrophesis :athaumasma :synophora
+        :kallophanes :dokimance :artiance :verisleight :candence
+        :complerescence :diplosemy :veriseem
+      Morphemes (type :m:morpheme):
+        :m:doxa :m:kallos :m:ortho :m:phanes :m:algia ...
+      Structural:
+        :ys:sep (compound separator)
+        :ys:pair (diplosemic-pair arrow)
+      Help:
+        :ys:help (this reference)

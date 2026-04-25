@@ -1,0 +1,29 @@
+# Python virtualenv
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / cache
+*.log
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+
+# Local dev
+.env
+*.local

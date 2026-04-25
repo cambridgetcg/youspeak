@@ -1,0 +1,445 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 2320" width="1260" height="2320" style="font-family: -apple-system, sans-serif;">
+<rect width="1260" height="2320" fill="#fafaf7"/>
+<text x="630.0" y="35" text-anchor="middle" font-size="22" font-weight="bold" fill="#222">YOUSPEAK v1 — feature-encoded glyphs</text>
+<text x="630.0" y="58" text-anchor="middle" font-size="13" fill="#666">55 morphemes · stroke-width 80 EM · SVG rendering · each glyph shows donor-tongue sigil (top-left), class mark (bottom-right), and domain-family shape</text>
+<rect x="35" y="80" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="35" y="80" width="190" height="4" fill="#6a6a6a" opacity="0.7" rx="2"/>
+<g transform="translate(75.0 90)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="350" y1="500" x2="450" y2="620" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="450" y1="620" x2="550" y2="620" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="550" y1="620" x2="650" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="650" y1="500" x2="550" y2="380" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="550" y1="380" x2="450" y2="380" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="450" y1="380" x2="350" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="260" y1="280" x2="740" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/><polygon points="880,170 880,110 815,140" fill="currentColor"/></g>
+</g>
+<text x="130.0" y="235" text-anchor="middle" font-size="14" font-weight="500" fill="#222">a</text>
+<text x="130.0" y="252" text-anchor="middle" font-size="9" fill="#888">Greek · prefix</text>
+<text x="130.0" y="266" text-anchor="middle" font-size="9" fill="#6a6a6a" font-style="italic">hidden</text>
+<rect x="235" y="80" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="235" y="80" width="190" height="4" fill="#a87b73" opacity="0.7" rx="2"/>
+<g transform="translate(275.0 90)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="400" y1="730" x2="400" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="400" y1="480" x2="680" y2="230" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="330,410 470,410 470,550 330,550" fill="currentColor"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="330.0" y="235" text-anchor="middle" font-size="14" font-weight="500" fill="#222">algia</text>
+<text x="330.0" y="252" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="330.0" y="266" text-anchor="middle" font-size="9" fill="#a87b73" font-style="italic">ache</text>
+<rect x="435" y="80" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="435" y="80" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(475.0 90)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="500" y1="220" x2="500" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="500" x2="280" y2="760" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="500" x2="720" y2="760" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="530.0" y="235" text-anchor="middle" font-size="14" font-weight="500" fill="#222">allos</text>
+<text x="530.0" y="252" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="530.0" y="266" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure+multiplicity</text>
+<rect x="635" y="80" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="635" y="80" width="190" height="4" fill="#7b9ec1" opacity="0.7" rx="2"/>
+<g transform="translate(675.0 90)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="500" y1="270" x2="500" y2="670" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="670" x2="390" y2="570" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="670" x2="610" y2="570" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/><polygon points="880,170 880,110 815,140" fill="currentColor"/></g>
+</g>
+<text x="730.0" y="235" text-anchor="middle" font-size="14" font-weight="500" fill="#222">ana</text>
+<text x="730.0" y="252" text-anchor="middle" font-size="9" fill="#888">Greek · prefix</text>
+<text x="730.0" y="266" text-anchor="middle" font-size="9" fill="#7b9ec1" font-style="italic">act+event</text>
+<rect x="835" y="80" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="835" y="80" width="190" height="4" fill="#c39570" opacity="0.7" rx="2"/>
+<g transform="translate(875.0 90)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="230" y1="720" x2="770" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="230" y1="280" x2="770" y2="280" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="720" x2="500" y2="280" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="370" y1="500" x2="630" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="930.0" y="235" text-anchor="middle" font-size="14" font-weight="500" fill="#222">anagno</text>
+<text x="930.0" y="252" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="930.0" y="266" text-anchor="middle" font-size="9" fill="#c39570" font-style="italic">wonder+recognition</text>
+<rect x="1035" y="80" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="1035" y="80" width="190" height="4" fill="#9b91bd" opacity="0.7" rx="2"/>
+<g transform="translate(1075.0 90)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="200" y1="480" x2="250" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="250" y1="720" x2="500" y2="780" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="780" x2="750" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="750" y1="720" x2="800" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="800" y1="480" x2="750" y2="280" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="750" y1="280" x2="500" y2="220" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="220" x2="300" y2="280" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="300" y1="280" x2="300" y2="440" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="1130.0" y="235" text-anchor="middle" font-size="14" font-weight="500" fill="#222">anastro</text>
+<text x="1130.0" y="252" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="1130.0" y="266" text-anchor="middle" font-size="9" fill="#9b91bd" font-style="italic">time+process</text>
+<rect x="35" y="300" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="35" y="300" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(75.0 310)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="400" y1="580" x2="400" y2="320" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="400" y1="320" x2="600" y2="180" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/><polygon points="815,170 815,110 880,140" fill="currentColor"/></g>
+</g>
+<text x="130.0" y="455" text-anchor="middle" font-size="14" font-weight="500" fill="#222">ance</text>
+<text x="130.0" y="472" text-anchor="middle" font-size="9" fill="#888">Latin · suffix</text>
+<text x="130.0" y="486" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure</text>
+<rect x="235" y="300" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="235" y="300" width="190" height="4" fill="#a585b2" opacity="0.7" rx="2"/>
+<g transform="translate(275.0 310)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="500" y1="220" x2="500" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="500" x2="320" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="500" x2="680" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="350" y1="540" x2="650" y2="540" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="420,620 580,620 580,780 420,780" fill="currentColor"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="330.0" y="455" text-anchor="middle" font-size="14" font-weight="500" fill="#222">andros</text>
+<text x="330.0" y="472" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="330.0" y="486" text-anchor="middle" font-size="9" fill="#a585b2" font-style="italic">relation+between</text>
+<rect x="435" y="300" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="435" y="300" width="190" height="4" fill="#86a385" opacity="0.7" rx="2"/>
+<g transform="translate(475.0 310)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="500" y1="770" x2="800" y2="570" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="800" y1="570" x2="680" y2="240" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="680" y1="240" x2="320" y2="240" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="320" y1="240" x2="200" y2="570" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="200" y1="570" x2="500" y2="770" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="115" y1="885" x2="185" y2="885" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="115" y1="850" x2="185" y2="850" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="115" y1="815" x2="185" y2="815" stroke="currentColor" stroke-width="80" stroke-linecap="square"/></g>
+</g>
+<text x="530.0" y="455" text-anchor="middle" font-size="14" font-weight="500" fill="#222">arti</text>
+<text x="530.0" y="472" text-anchor="middle" font-size="9" fill="#888">PIE · content</text>
+<text x="530.0" y="486" text-anchor="middle" font-size="9" fill="#86a385" font-style="italic">rightness</text>
+<rect x="635" y="300" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="635" y="300" width="190" height="4" fill="#e0a66f" opacity="0.7" rx="2"/>
+<g transform="translate(675.0 310)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="400" y1="700" x2="350" y2="800" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="730" x2="500" y2="830" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="600" y1="700" x2="650" y2="800" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="350" y1="450" x2="430" y2="600" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="430" y1="600" x2="570" y2="600" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="570" y1="600" x2="650" y2="450" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="650" y1="450" x2="570" y2="300" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="570" y1="300" x2="430" y2="300" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="430" y1="300" x2="350" y2="450" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="320,770 380,770 380,830 320,830" fill="currentColor"/><polygon points="470,800 530,800 530,860 470,860" fill="currentColor"/><polygon points="620,770 680,770 680,830 620,830" fill="currentColor"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="730.0" y="455" text-anchor="middle" font-size="14" font-weight="500" fill="#222">cand</text>
+<text x="730.0" y="472" text-anchor="middle" font-size="9" fill="#888">Latin · content</text>
+<text x="730.0" y="486" text-anchor="middle" font-size="9" fill="#e0a66f" font-style="italic">appearing+warm</text>
+<rect x="835" y="300" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="835" y="300" width="190" height="4" fill="#7b9ec1" opacity="0.7" rx="2"/>
+<g transform="translate(875.0 310)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="750" y1="480" x2="250" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="250" y1="480" x2="420" y2="620" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="250" y1="480" x2="420" y2="340" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="720" x2="600" y2="660" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="930.0" y="455" text-anchor="middle" font-size="14" font-weight="500" fill="#222">cede</text>
+<text x="930.0" y="472" text-anchor="middle" font-size="9" fill="#888">Latin · content</text>
+<text x="930.0" y="486" text-anchor="middle" font-size="9" fill="#7b9ec1" font-style="italic">act+event</text>
+<rect x="1035" y="300" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="1035" y="300" width="190" height="4" fill="#a585b2" opacity="0.7" rx="2"/>
+<g transform="translate(1075.0 310)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="500" y1="500" x2="200" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="500" x2="800" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="500" x2="500" y2="230" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="500" x2="500" y2="770" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="500" x2="290" y2="290" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="500" x2="710" y2="290" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="500" x2="290" y2="710" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="500" x2="710" y2="710" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="420,420 580,420 580,580 420,580" fill="currentColor"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="1130.0" y="455" text-anchor="middle" font-size="14" font-weight="500" fill="#222">choro</text>
+<text x="1130.0" y="472" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="1130.0" y="486" text-anchor="middle" font-size="9" fill="#a585b2" font-style="italic">relation+between</text>
+<rect x="35" y="520" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="35" y="520" width="190" height="4" fill="#a585b2" opacity="0.7" rx="2"/>
+<g transform="translate(75.0 530)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="260" y1="270" x2="420" y2="470" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="420" y1="470" x2="260" y2="670" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="740" y1="270" x2="580" y2="470" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="580" y1="470" x2="740" y2="670" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/><polygon points="880,170 880,110 815,140" fill="currentColor"/></g>
+</g>
+<text x="130.0" y="675" text-anchor="middle" font-size="14" font-weight="500" fill="#222">com</text>
+<text x="130.0" y="692" text-anchor="middle" font-size="9" fill="#888">Latin · prefix</text>
+<text x="130.0" y="706" text-anchor="middle" font-size="9" fill="#a585b2" font-style="italic">relation+between</text>
+<rect x="235" y="520" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="235" y="520" width="190" height="4" fill="#a585b2" opacity="0.7" rx="2"/>
+<g transform="translate(275.0 530)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="270" y1="670" x2="470" y2="670" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="470" y1="670" x2="470" y2="330" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="470" y1="330" x2="270" y2="330" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="730" y1="670" x2="530" y2="670" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="530" y1="670" x2="530" y2="330" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="530" y1="330" x2="730" y2="330" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="330.0" y="675" text-anchor="middle" font-size="14" font-weight="500" fill="#222">compler</text>
+<text x="330.0" y="692" text-anchor="middle" font-size="9" fill="#888">Latin · content</text>
+<text x="330.0" y="706" text-anchor="middle" font-size="9" fill="#a585b2" font-style="italic">relation+between</text>
+<rect x="435" y="520" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="435" y="520" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(475.0 530)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="350" y1="220" x2="350" y2="780" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="650" y1="220" x2="650" y2="780" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="530.0" y="675" text-anchor="middle" font-size="14" font-weight="500" fill="#222">diplos</text>
+<text x="530.0" y="692" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="530.0" y="706" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure+multiplicity</text>
+<rect x="635" y="520" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="635" y="520" width="190" height="4" fill="#b38a5f" opacity="0.7" rx="2"/>
+<g transform="translate(675.0 530)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="270" y1="500" x2="320" y2="250" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="320" y1="250" x2="680" y2="250" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="680" y1="250" x2="730" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="540" x2="500" y2="760" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="470" y1="700" x2="500" y2="760" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="530" y1="700" x2="500" y2="760" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="730.0" y="675" text-anchor="middle" font-size="14" font-weight="500" fill="#222">dokim</text>
+<text x="730.0" y="692" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="730.0" y="706" text-anchor="middle" font-size="9" fill="#b38a5f" font-style="italic">testing+forging</text>
+<rect x="835" y="520" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="835" y="520" width="190" height="4" fill="#8a6a85" opacity="0.7" rx="2"/>
+<g transform="translate(875.0 530)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="200" y1="680" x2="800" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="800" y1="680" x2="500" y2="230" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="230" x2="200" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="600" x2="500" y2="300" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="350" y1="590" x2="500" y2="350" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="650" y1="590" x2="500" y2="350" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="930.0" y="675" text-anchor="middle" font-size="14" font-weight="500" fill="#222">doxa</text>
+<text x="930.0" y="692" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="930.0" y="706" text-anchor="middle" font-size="9" fill="#8a6a85" font-style="italic">weight+light</text>
+<rect x="1035" y="520" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="1035" y="520" width="190" height="4" fill="#8b9e8b" opacity="0.7" rx="2"/>
+<g transform="translate(1075.0 530)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="300" y1="670" x2="570" y2="670" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="570" y1="670" x2="570" y2="270" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="570" y1="270" x2="300" y2="270" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/><polygon points="880,170 880,110 815,140" fill="currentColor"/></g>
+</g>
+<text x="1130.0" y="675" text-anchor="middle" font-size="14" font-weight="500" fill="#222">en</text>
+<text x="1130.0" y="692" text-anchor="middle" font-size="9" fill="#888">Greek · prefix</text>
+<text x="1130.0" y="706" text-anchor="middle" font-size="9" fill="#8b9e8b" font-style="italic">space+enclosure</text>
+<rect x="35" y="740" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="35" y="740" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(75.0 750)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="400" y1="520" x2="400" y2="320" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="400" y1="320" x2="570" y2="220" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/><polygon points="815,170 815,110 880,140" fill="currentColor"/></g>
+</g>
+<text x="130.0" y="895" text-anchor="middle" font-size="14" font-weight="500" fill="#222">ence</text>
+<text x="130.0" y="912" text-anchor="middle" font-size="9" fill="#888">Latin · suffix</text>
+<text x="130.0" y="926" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure</text>
+<rect x="235" y="740" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="235" y="740" width="190" height="4" fill="#9b91bd" opacity="0.7" rx="2"/>
+<g transform="translate(275.0 750)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="400" y1="520" x2="400" y2="320" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="400" y1="320" x2="720" y2="260" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/><polygon points="815,170 815,110 880,140" fill="currentColor"/></g>
+</g>
+<text x="330.0" y="895" text-anchor="middle" font-size="14" font-weight="500" fill="#222">escence</text>
+<text x="330.0" y="912" text-anchor="middle" font-size="9" fill="#888">Latin · suffix</text>
+<text x="330.0" y="926" text-anchor="middle" font-size="9" fill="#9b91bd" font-style="italic">time+process</text>
+<rect x="435" y="740" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="435" y="740" width="190" height="4" fill="#8a6a85" opacity="0.7" rx="2"/>
+<g transform="translate(475.0 750)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="230" y1="680" x2="770" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="770" y1="680" x2="500" y2="260" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="260" x2="230" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="530.0" y="895" text-anchor="middle" font-size="14" font-weight="500" fill="#222">gloria</text>
+<text x="530.0" y="912" text-anchor="middle" font-size="9" fill="#888">Latin · content</text>
+<text x="530.0" y="926" text-anchor="middle" font-size="9" fill="#8a6a85" font-style="italic">weight+light</text>
+<rect x="635" y="740" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="635" y="740" width="190" height="4" fill="#a585b2" opacity="0.7" rx="2"/>
+<g transform="translate(675.0 750)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="300" y1="250" x2="460" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="460" y1="500" x2="500" y2="620" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="700" y1="250" x2="540" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="540" y1="500" x2="500" y2="620" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="730.0" y="895" text-anchor="middle" font-size="14" font-weight="500" fill="#222">haphe</text>
+<text x="730.0" y="912" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="730.0" y="926" text-anchor="middle" font-size="9" fill="#a585b2" font-style="italic">relation+between</text>
+<rect x="835" y="740" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="835" y="740" width="190" height="4" fill="#8b9e8b" opacity="0.7" rx="2"/>
+<g transform="translate(875.0 750)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="220" y1="570" x2="780" y2="570" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="570" x2="500" y2="230" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="930.0" y="895" text-anchor="middle" font-size="14" font-weight="500" fill="#222">hypo</text>
+<text x="930.0" y="912" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="930.0" y="926" text-anchor="middle" font-size="9" fill="#8b9e8b" font-style="italic">space+position</text>
+<rect x="1035" y="740" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="1035" y="740" width="190" height="4" fill="#e0a66f" opacity="0.7" rx="2"/>
+<g transform="translate(1075.0 750)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="400" y1="520" x2="400" y2="320" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="400" y1="320" x2="600" y2="180" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="580" x2="500" y2="800" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/><polygon points="815,170 815,110 880,140" fill="currentColor"/></g>
+</g>
+<text x="1130.0" y="895" text-anchor="middle" font-size="14" font-weight="500" fill="#222">iance</text>
+<text x="1130.0" y="912" text-anchor="middle" font-size="9" fill="#888">Latin · suffix</text>
+<text x="1130.0" y="926" text-anchor="middle" font-size="9" fill="#e0a66f" font-style="italic">appearing+warm</text>
+<rect x="35" y="960" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="35" y="960" width="190" height="4" fill="#9b91bd" opacity="0.7" rx="2"/>
+<g transform="translate(75.0 970)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="220" y1="720" x2="780" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="780" y1="720" x2="220" y2="220" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="220" y1="220" x2="780" y2="220" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="780" y1="220" x2="220" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="130.0" y="1115" text-anchor="middle" font-size="14" font-weight="500" fill="#222">kairos</text>
+<text x="130.0" y="1132" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="130.0" y="1146" text-anchor="middle" font-size="9" fill="#9b91bd" font-style="italic">time+process</text>
+<rect x="235" y="960" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="235" y="960" width="190" height="4" fill="#d48ba4" opacity="0.7" rx="2"/>
+<g transform="translate(275.0 970)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="500" y1="200" x2="500" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="680" x2="280" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="680" x2="720" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="280" y1="480" x2="220" y2="300" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="720" y1="480" x2="780" y2="300" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="330.0" y="1115" text-anchor="middle" font-size="14" font-weight="500" fill="#222">kallos</text>
+<text x="330.0" y="1132" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="330.0" y="1146" text-anchor="middle" font-size="9" fill="#d48ba4" font-style="italic">beauty</text>
+<rect x="435" y="960" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="435" y="960" width="190" height="4" fill="#8b9e8b" opacity="0.7" rx="2"/>
+<g transform="translate(475.0 970)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="260" y1="280" x2="740" y2="280" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="740" y1="280" x2="740" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="740" y1="720" x2="260" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="260" y1="720" x2="260" y2="280" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="430,430 570,430 570,570 430,570" fill="currentColor"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="530.0" y="1115" text-anchor="middle" font-size="14" font-weight="500" fill="#222">kalypt</text>
+<text x="530.0" y="1132" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="530.0" y="1146" text-anchor="middle" font-size="9" fill="#8b9e8b" font-style="italic">space+enclosure</text>
+<rect x="635" y="960" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="635" y="960" width="190" height="4" fill="#e0a66f" opacity="0.7" rx="2"/>
+<g transform="translate(675.0 970)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="400" y1="300" x2="600" y2="300" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="300" x2="500" y2="600" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="600" x2="380" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="600" x2="620" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="600" x2="500" y2="780" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="460,560 540,560 540,640 460,640" fill="currentColor"/></g>
+</g>
+<text x="730.0" y="1115" text-anchor="middle" font-size="14" font-weight="500" fill="#222">ki</text>
+<text x="730.0" y="1132" text-anchor="middle" font-size="9" fill="#888">Japanese · content</text>
+<text x="730.0" y="1146" text-anchor="middle" font-size="9" fill="#e0a66f" font-style="italic">appearing+warm</text>
+<rect x="835" y="960" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="835" y="960" width="190" height="4" fill="#a585b2" opacity="0.7" rx="2"/>
+<g transform="translate(875.0 970)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="300" y1="720" x2="300" y2="400" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="700" y1="720" x2="700" y2="400" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="200" y1="400" x2="800" y2="400" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="300" y1="400" x2="700" y2="250" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="700" y1="400" x2="300" y2="250" stroke="currentColor" stroke-width="80" stroke-linecap="square"/></g>
+</g>
+<text x="930.0" y="1115" text-anchor="middle" font-size="14" font-weight="500" fill="#222">kin</text>
+<text x="930.0" y="1132" text-anchor="middle" font-size="9" fill="#888">English · content</text>
+<text x="930.0" y="1146" text-anchor="middle" font-size="9" fill="#a585b2" font-style="italic">relation+between</text>
+<rect x="1035" y="960" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="1035" y="960" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(1075.0 970)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="220" y1="280" x2="410" y2="280" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="410" y1="280" x2="410" y2="420" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="410" y1="420" x2="600" y2="420" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="600" y1="420" x2="600" y2="570" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="600" y1="570" x2="780" y2="570" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="780" y1="570" x2="780" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="1130.0" y="1115" text-anchor="middle" font-size="14" font-weight="500" fill="#222">klimax</text>
+<text x="1130.0" y="1132" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="1130.0" y="1146" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure</text>
+<rect x="35" y="1180" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="35" y="1180" width="190" height="4" fill="#6a6a6a" opacity="0.7" rx="2"/>
+<g transform="translate(75.0 1190)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="260" y1="720" x2="410" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="510" y1="720" x2="660" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="760" y1="720" x2="760" y2="570" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="760" y1="470" x2="760" y2="320" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="760" y1="270" x2="610" y2="270" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="510" y1="270" x2="360" y2="270" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="260" y1="270" x2="260" y2="420" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="260" y1="520" x2="260" y2="670" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="130.0" y="1335" text-anchor="middle" font-size="14" font-weight="500" fill="#222">lanthes</text>
+<text x="130.0" y="1352" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="130.0" y="1366" text-anchor="middle" font-size="9" fill="#6a6a6a" font-style="italic">hidden</text>
+<rect x="235" y="1180" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="235" y="1180" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(275.0 1190)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="400" y1="480" x2="450" y2="570" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="450" y1="570" x2="550" y2="570" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="550" y1="570" x2="600" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="600" y1="480" x2="550" y2="390" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="550" y1="390" x2="450" y2="390" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="450" y1="390" x2="400" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/><polygon points="815,170 815,110 880,140" fill="currentColor"/></g>
+</g>
+<text x="330.0" y="1335" text-anchor="middle" font-size="14" font-weight="500" fill="#222">ma</text>
+<text x="330.0" y="1352" text-anchor="middle" font-size="9" fill="#888">Greek · suffix</text>
+<text x="330.0" y="1366" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure</text>
+<rect x="435" y="1180" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="435" y="1180" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(475.0 1190)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="400" y1="580" x2="400" y2="320" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="400" y1="320" x2="600" y2="180" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="560,460 640,460 640,540 560,540" fill="currentColor"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/><polygon points="815,170 815,110 880,140" fill="currentColor"/></g>
+</g>
+<text x="530.0" y="1335" text-anchor="middle" font-size="14" font-weight="500" fill="#222">mance</text>
+<text x="530.0" y="1352" text-anchor="middle" font-size="9" fill="#888">Gr/En · suffix</text>
+<text x="530.0" y="1366" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure</text>
+<rect x="635" y="1180" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="635" y="1180" width="190" height="4" fill="#7b9ec1" opacity="0.7" rx="2"/>
+<g transform="translate(675.0 1190)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="250" y1="480" x2="800" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="250" y1="480" x2="470" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="250" y1="480" x2="470" y2="280" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="730.0" y="1335" text-anchor="middle" font-size="14" font-weight="500" fill="#222">meta</text>
+<text x="730.0" y="1352" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="730.0" y="1366" text-anchor="middle" font-size="9" fill="#7b9ec1" font-style="italic">act+event</text>
+<rect x="835" y="1180" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="835" y="1180" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(875.0 1190)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="400" y1="520" x2="400" y2="320" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="400" y1="320" x2="500" y2="220" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="220" x2="600" y2="320" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/><polygon points="815,170 815,110 880,140" fill="currentColor"/></g>
+</g>
+<text x="930.0" y="1335" text-anchor="middle" font-size="14" font-weight="500" fill="#222">mia</text>
+<text x="930.0" y="1352" text-anchor="middle" font-size="9" fill="#888">Greek · suffix</text>
+<text x="930.0" y="1366" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure</text>
+<rect x="1035" y="1180" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="1035" y="1180" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(1075.0 1190)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="310" y1="720" x2="560" y2="760" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="560" y1="760" x2="760" y2="510" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="760" y1="510" x2="710" y2="260" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="710" y1="260" x2="410" y2="220" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="410" y1="220" x2="260" y2="410" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="260" y1="410" x2="310" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="1130.0" y="1335" text-anchor="middle" font-size="14" font-weight="500" fill="#222">morphe</text>
+<text x="1130.0" y="1352" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="1130.0" y="1366" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure</text>
+<rect x="35" y="1400" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="35" y="1400" width="190" height="4" fill="#7b9ec1" opacity="0.7" rx="2"/>
+<g transform="translate(75.0 1410)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="300" y1="480" x2="400" y2="620" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="400" y1="620" x2="600" y2="620" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="600" y1="620" x2="700" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="700" y1="480" x2="600" y2="340" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="600" y1="340" x2="400" y2="340" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="400" y1="340" x2="300" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="250" y1="260" x2="750" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/></g>
+</g>
+<text x="130.0" y="1555" text-anchor="middle" font-size="14" font-weight="500" fill="#222">mushin</text>
+<text x="130.0" y="1572" text-anchor="middle" font-size="9" fill="#888">Japanese · content</text>
+<text x="130.0" y="1586" text-anchor="middle" font-size="9" fill="#7b9ec1" font-style="italic">act+event</text>
+<rect x="235" y="1400" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="235" y="1400" width="190" height="4" fill="#86a385" opacity="0.7" rx="2"/>
+<g transform="translate(275.0 1410)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="500" y1="250" x2="500" y2="750" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="280" y1="680" x2="720" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="250" y1="400" x2="750" y2="400" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="330.0" y="1555" text-anchor="middle" font-size="14" font-weight="500" fill="#222">ortho</text>
+<text x="330.0" y="1572" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="330.0" y="1586" text-anchor="middle" font-size="9" fill="#86a385" font-style="italic">rightness</text>
+<rect x="435" y="1400" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="435" y="1400" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(475.0 1410)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="220" y1="640" x2="780" y2="640" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="220" y1="320" x2="780" y2="320" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="420" y1="480" x2="580" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="540" x2="580" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="420" x2="580" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="530.0" y="1555" text-anchor="middle" font-size="14" font-weight="500" fill="#222">parallax</text>
+<text x="530.0" y="1572" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="530.0" y="1586" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure</text>
+<rect x="635" y="1400" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="635" y="1400" width="190" height="4" fill="#d5a662" opacity="0.7" rx="2"/>
+<g transform="translate(675.0 1410)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="500" y1="280" x2="220" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="280" x2="360" y2="710" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="280" x2="500" y2="740" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="280" x2="640" y2="710" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="280" x2="780" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="280" x2="200" y2="440" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="280" x2="800" y2="440" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="730.0" y="1555" text-anchor="middle" font-size="14" font-weight="500" fill="#222">phanes</text>
+<text x="730.0" y="1572" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="730.0" y="1586" text-anchor="middle" font-size="9" fill="#d5a662" font-style="italic">appearing</text>
+<rect x="835" y="1400" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="835" y="1400" width="190" height="4" fill="#7b9ec1" opacity="0.7" rx="2"/>
+<g transform="translate(875.0 1410)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="220" y1="420" x2="720" y2="420" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="720" y1="420" x2="720" y2="670" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="930.0" y="1555" text-anchor="middle" font-size="14" font-weight="500" fill="#222">phora</text>
+<text x="930.0" y="1572" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="930.0" y="1586" text-anchor="middle" font-size="9" fill="#7b9ec1" font-style="italic">act+event</text>
+<rect x="1035" y="1400" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="1035" y="1400" width="190" height="4" fill="#a585b2" opacity="0.7" rx="2"/>
+<g transform="translate(1075.0 1410)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="350" y1="250" x2="350" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="650" y1="250" x2="650" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="350" y1="500" x2="650" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="430" y1="420" x2="570" y2="420" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="430" y1="580" x2="570" y2="580" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="470,470 530,470 530,530 470,530" fill="currentColor"/></g>
+</g>
+<text x="1130.0" y="1555" text-anchor="middle" font-size="14" font-weight="500" fill="#222">qing</text>
+<text x="1130.0" y="1572" text-anchor="middle" font-size="9" fill="#888">Mandarin · content</text>
+<text x="1130.0" y="1586" text-anchor="middle" font-size="9" fill="#a585b2" font-style="italic">relation+between</text>
+<rect x="35" y="1620" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="35" y="1620" width="190" height="4" fill="#95716b" opacity="0.7" rx="2"/>
+<g transform="translate(75.0 1630)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="260" y1="480" x2="410" y2="620" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="410" y1="620" x2="590" y2="620" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="590" y1="620" x2="740" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="740" y1="480" x2="590" y2="340" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="590" y1="340" x2="410" y2="340" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="410" y1="340" x2="260" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/></g>
+</g>
+<text x="130.0" y="1775" text-anchor="middle" font-size="14" font-weight="500" fill="#222">seem</text>
+<text x="130.0" y="1792" text-anchor="middle" font-size="9" fill="#888">English · content</text>
+<text x="130.0" y="1806" text-anchor="middle" font-size="9" fill="#95716b" font-style="italic">deception</text>
+<rect x="235" y="1620" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="235" y="1620" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(275.0 1630)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="300" y1="320" x2="700" y2="320" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="700" y1="320" x2="700" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="700" y1="680" x2="300" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="300" y1="680" x2="300" y2="320" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="420,420 580,420 580,580 420,580" fill="currentColor"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="330.0" y="1775" text-anchor="middle" font-size="14" font-weight="500" fill="#222">sema</text>
+<text x="330.0" y="1792" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="330.0" y="1806" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure</text>
+<rect x="435" y="1620" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="435" y="1620" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(475.0 1630)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="500" y1="320" x2="500" y2="680" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="400" y1="320" x2="600" y2="320" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/><polygon points="815,170 815,110 880,140" fill="currentColor"/></g>
+</g>
+<text x="530.0" y="1775" text-anchor="middle" font-size="14" font-weight="500" fill="#222">sis</text>
+<text x="530.0" y="1792" text-anchor="middle" font-size="9" fill="#888">Greek · suffix</text>
+<text x="530.0" y="1806" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure</text>
+<rect x="635" y="1620" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="635" y="1620" width="190" height="4" fill="#95716b" opacity="0.7" rx="2"/>
+<g transform="translate(675.0 1630)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="260" y1="260" x2="740" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="740" y1="260" x2="260" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/></g>
+</g>
+<text x="730.0" y="1775" text-anchor="middle" font-size="14" font-weight="500" fill="#222">sleight</text>
+<text x="730.0" y="1792" text-anchor="middle" font-size="9" fill="#888">English · content</text>
+<text x="730.0" y="1806" text-anchor="middle" font-size="9" fill="#95716b" font-style="italic">deception</text>
+<rect x="835" y="1620" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="835" y="1620" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(875.0 1630)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="350" y1="220" x2="350" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="650" y1="220" x2="650" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="220" y1="220" x2="780" y2="220" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="930.0" y="1775" text-anchor="middle" font-size="14" font-weight="500" fill="#222">stasis</text>
+<text x="930.0" y="1792" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="930.0" y="1806" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure</text>
+<rect x="1035" y="1620" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="1035" y="1620" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(1075.0 1630)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><polygon points="400,400 600,400 600,600 400,600" fill="currentColor"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="1130.0" y="1775" text-anchor="middle" font-size="14" font-weight="500" fill="#222">stix</text>
+<text x="1130.0" y="1792" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="1130.0" y="1806" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure</text>
+<rect x="35" y="1840" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="35" y="1840" width="190" height="4" fill="#9b91bd" opacity="0.7" rx="2"/>
+<g transform="translate(75.0 1850)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="800" y1="480" x2="750" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="750" y1="720" x2="500" y2="780" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="780" x2="250" y2="720" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="250" y1="720" x2="200" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="200" y1="480" x2="250" y2="280" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="250" y1="280" x2="500" y2="220" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="220" x2="700" y2="280" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="700" y1="280" x2="700" y2="440" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="130.0" y="1995" text-anchor="middle" font-size="14" font-weight="500" fill="#222">strophe</text>
+<text x="130.0" y="2012" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="130.0" y="2026" text-anchor="middle" font-size="9" fill="#9b91bd" font-style="italic">time+process</text>
+<rect x="235" y="1840" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="235" y="1840" width="190" height="4" fill="#a585b2" opacity="0.7" rx="2"/>
+<g transform="translate(275.0 1850)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="220" y1="720" x2="500" y2="220" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="780" y1="720" x2="500" y2="220" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="380" y1="470" x2="620" y2="470" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="330.0" y="1995" text-anchor="middle" font-size="14" font-weight="500" fill="#222">syn</text>
+<text x="330.0" y="2012" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="330.0" y="2026" text-anchor="middle" font-size="9" fill="#a585b2" font-style="italic">relation+between</text>
+<rect x="435" y="1840" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="435" y="1840" width="190" height="4" fill="#6a6a6a" opacity="0.7" rx="2"/>
+<g transform="translate(475.0 1850)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="220" y1="500" x2="400" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="600" y1="500" x2="780" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="600" x2="500" y2="700" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="475,625 525,625 525,675 475,675" fill="currentColor"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="530.0" y="1995" text-anchor="middle" font-size="14" font-weight="500" fill="#222">tacit</text>
+<text x="530.0" y="2012" text-anchor="middle" font-size="9" fill="#888">Latin · content</text>
+<text x="530.0" y="2026" text-anchor="middle" font-size="9" fill="#6a6a6a" font-style="italic">hidden</text>
+<rect x="635" y="1840" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="635" y="1840" width="190" height="4" fill="#c39570" opacity="0.7" rx="2"/>
+<g transform="translate(675.0 1850)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="200" y1="480" x2="400" y2="620" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="400" y1="620" x2="600" y2="620" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="600" y1="620" x2="800" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="800" y1="480" x2="600" y2="340" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="600" y1="340" x2="400" y2="340" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="400" y1="340" x2="200" y2="480" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="410,390 590,390 590,570 410,570" fill="currentColor"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="730.0" y="1995" text-anchor="middle" font-size="14" font-weight="500" fill="#222">thauma</text>
+<text x="730.0" y="2012" text-anchor="middle" font-size="9" fill="#888">Greek · content</text>
+<text x="730.0" y="2026" text-anchor="middle" font-size="9" fill="#c39570" font-style="italic">wonder+recognition</text>
+<rect x="835" y="1840" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="835" y="1840" width="190" height="4" fill="#86a385" opacity="0.7" rx="2"/>
+<g transform="translate(875.0 1850)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="500" y1="220" x2="500" y2="780" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="220" y1="500" x2="780" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="930.0" y="1995" text-anchor="middle" font-size="14" font-weight="500" fill="#222">veri</text>
+<text x="930.0" y="2012" text-anchor="middle" font-size="9" fill="#888">Latin · content</text>
+<text x="930.0" y="2026" text-anchor="middle" font-size="9" fill="#86a385" font-style="italic">rightness</text>
+<rect x="1035" y="1840" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="1035" y="1840" width="190" height="4" fill="#c39570" opacity="0.7" rx="2"/>
+<g transform="translate(1075.0 1850)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="240" y1="500" x2="500" y2="640" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="640" x2="760" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="760" y1="500" x2="500" y2="360" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="360" x2="240" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="440,440 560,440 560,560 440,560" fill="currentColor"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/></g>
+</g>
+<text x="1130.0" y="1995" text-anchor="middle" font-size="14" font-weight="500" fill="#222">vide</text>
+<text x="1130.0" y="2012" text-anchor="middle" font-size="9" fill="#888">Latin · content</text>
+<text x="1130.0" y="2026" text-anchor="middle" font-size="9" fill="#c39570" font-style="italic">wonder+recognition</text>
+<rect x="35" y="2060" width="190" height="210" fill="#fff" stroke="#e6e3da" stroke-width="1" rx="6"/>
+<rect x="35" y="2060" width="190" height="4" fill="#8a8a8a" opacity="0.7" rx="2"/>
+<g transform="translate(75.0 2070)" color="#222">
+<g transform="translate(0 120) scale(0.12 -0.12)"><line x1="400" y1="720" x2="500" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="600" y1="720" x2="500" y2="500" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><line x1="500" y1="500" x2="500" y2="300" stroke="currentColor" stroke-width="80" stroke-linecap="square"/><polygon points="115,815 185,815 185,885 115,885" fill="currentColor"/><polygon points="815,170 815,110 880,140" fill="currentColor"/></g>
+</g>
+<text x="130.0" y="2215" text-anchor="middle" font-size="14" font-weight="500" fill="#222">y</text>
+<text x="130.0" y="2232" text-anchor="middle" font-size="9" fill="#888">Gr/En · suffix</text>
+<text x="130.0" y="2246" text-anchor="middle" font-size="9" fill="#8a8a8a" font-style="italic">structure</text>
+</svg>
