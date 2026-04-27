@@ -101,6 +101,28 @@ This inversion is one of the most striking features of Mandaeism: the word that 
 - **The Twelve** (*tresar*) — the twelve zodiacal signs, further agents of cosmic entrapment
 - The material world is structured by planetary and zodiacal powers that are *evil* — astrology in Mandaeism is not divination but demonology
 
+### The Tripartite Soul
+
+Mandaean anthropology distinguishes three soul-elements within every person:
+
+1. **Nishimta** (ܢܝܫܝܡܬܐ) — The *soul* proper: the light-element, derived directly from the World of Light. Cognate with Hebrew *neshamah* (נשמה, "breath, soul"), from root *n-sh-m* (to breathe). This is the divine spark trapped in matter.
+
+2. **Ruha** (ܪܘܗܐ) — The *spirit*: the ambivalent element, associated with the material world and with Ruha d-Qudsha. Can be purified or corrupted. Cognate with Hebrew *ruaḥ*.
+
+3. **Mana** (ܡܐܢܐ) — The *mind/consciousness*: divine awareness. Also called *adam kasia* ("hidden Adam") when referring to the inner divine element in humans. From the root *m-n-y* (to reckon, think), cognate with Hebrew *manah* (to count).
+
+**At death:** A successful *masiqta* merges *nishimta* and *ruha* into a new entity called the **ustuna** (ʿuṣṭuna, "trunk/pillar"). The *ustuna* then reunites with its heavenly counterpart (*dmuta*) in the **Mshunia Kushta** — the "Realm of Truth," where ideal heavenly counterparts of earthly things dwell. This is comparable to Plato's *hyperuranion* (realm of Forms) but is lived theology, not philosophical abstraction.
+
+### Dmuta — The Heavenly Counterpart
+
+**Dmuta** (ܕܡܘܬܐ) = "image, likeness, heavenly counterpart." From root *d-m-y/w* (to resemble), cognate with Hebrew *demut* (דמות, as in Genesis 1:26: *b-tselem elohim ki-dmutenu*, "in the image of God, according to our likeness").
+
+Every person, every spirit, and every place has both an earthly reality and a heavenly *dmuta*. The eschatological goal of Mandaean life is reunion with one's *dmuta* — becoming what one has always been in the World of Light. Transformation (*mshuneh*) in Mandaeism is not becoming something different but **revealing what already exists on the heavenly plane**.
+
+Manda d-Hiia himself is called **Dmuthaiyi** ("Counterpart of Life") — he is the heavenly mirror-image of the Life principle, sent down to awaken the trapped *dmuta* in human souls.
+
+**YOUSPEAK significance:** The *dmuta* concept — that every word, every reality, has a heavenly counterpart waiting to be united with — resonates with YOUSPEAK's forge method. When we forge a new word, we are not inventing but *discovering* the compound that was always waiting in the convergence-space between traditions. The forge is a *masiqta* for language: reuniting scattered linguistic elements with their ideal form.
+
 ### Ur (the Primal Sea)
 
 Below the World of Darkness lies **Ur** — the primal dark water, chaotic and terrifying. *Ur* may be cognate with Hebrew *ʾōr* (light!) — if so, another inversion — or may be an independent Mesopotamian element (cf. the city of Ur). The cosmic structure is vertical:
@@ -246,7 +268,7 @@ An illustrated scroll depicting the soul's journey through the *maṭarāthā* a
 |------|---------|---------|---------|-------------------|
 | **Hayyi Rabbi** | ܗܝܝ ܪܒܝ | Great Life (God) | Hebrew ḥayyim, Arabic ḥayāt | divine-names |
 | **Manda d-Hiia** | ܡܢܕܐ ܕܗܝܝ | Knowledge of Life (Revealer) | Hebrew madda', Aramaic manda'a | sacred-knowledge |
-| **Nhurā** | ܢܗܘܪܐ | Light (divine substance) | Hebrew nēr (lamp), Aramaic nehōrā | divine-substance |
+| **Nhurā** | ܢܗܘܪܐ | Light (divine substance) | Root N-H-R = BOTH "shine" AND "flow": Heb. nahar (river/shine), Ar. nūr (light)/nahr (river) | divine-substance |
 | **Hshukā** | ܗܫܘܟܐ | Darkness (anti-divine) | Hebrew ḥōshek | anti-divine |
 | **Ruha** | ܪܘܗܐ | Spirit (demonized) | Hebrew rūaḥ, Syriac rūḥā | anti-divine (inverted) |
 | **Kushta** | ܟܘܫܛܐ | Truth/handclasp/cosmic order | Hebrew kōsher (rightness) | truth/ritual |
@@ -255,7 +277,9 @@ An illustrated scroll depicting the soul's journey through the *maṭarāthā* a
 | **Yardna** | ܝܪܕܢܐ | Flowing water (= Jordan) | Hebrew Yardēn (Jordan) | purification |
 | **Nishimta** | ܢܝܫܝܡܬܐ | Soul (trapped light) | Hebrew neshāmāh | theological-anthropology |
 | **Pthahil** | ܦܬܗܝܠ | Demiurge (imperfect creator) | pthah (open) + il (God) | cosmology |
-| **Uthrā** | ܐܘܬܪܐ | Angel of light | '-t-r (abundance) | divine-hierarchy |
+| **Uthrā** | ܐܘܬܪܐ | Angel/being of light | Debated: ʿ-ṯ-r (riches) or w-t-r (to exceed/excel; Haberl 2017) | divine-hierarchy |
+| **Dmutā** | ܕܡܘܬܐ | Image/heavenly counterpart | d-m-y (to resemble), Heb. demut (Gen 1:26) | theological-anthropology |
+| **Mana** | ܡܐܢܐ | Mind/divine consciousness | m-n-y (to reckon), Heb. manah | theological-anthropology |
 | **Tibil** | ܛܝܒܝܠ | Material world | Hebrew tēbēl (world) | cosmology |
 | **Maṭarta** | ܡܛܪܬܐ | Way-station (soul's journey) | n-ṭ-r (guard/watch) | eschatology |
 | **Rasta** | ܪܣܬܐ | White ritual garment | — | ritual-objects |
