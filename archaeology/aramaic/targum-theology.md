@@ -207,6 +207,13 @@ The Memra is a **mode of divine engagement** — a way God is present *as active
 
 This is the theological discovery the Targumists made *because they were translating*. The Hebrew text doesn't need the Memra because Hebrew anthropomorphism carries the tension implicitly. When you render "God walked in the garden" into a culture that insists God cannot walk, you must name *what was walking*. The Memra is that name. It was born from the act of crossing between languages.
 
+**The John 1:14 convergence** (McNamara): "The Word became flesh and *dwelt* among us, and we have seen his *glory*" — a single verse containing:
+- **logos/meltā** (= Memra — the divine speech-presence)
+- **eskēnōsen** (= Shekhinah — Greek *skēnoō*, "to tabernacle," is likely a deliberate echo of *shekhinah* from *sh-k-n*)
+- **doxa** (= Yeqara — "glory," the visible manifestation)
+
+All three Targumic intermediaries converge in John 1:14. This is the most concentrated theological intersection in the New Testament — the verse where the Aramaic Targum tradition and the Greek Gospel tradition meet.
+
 **YOUSPEAK parallel:** This is exactly what YOUSPEAK does — forge words from the crossing between languages that name what neither language names alone. The Memra is YOUSPEAK's ancestor.
 
 ---

@@ -88,6 +88,8 @@ Aramaic's greatest contribution to theology is a set of terms that name what Heb
 | "They heard the voice of the LORD God walking" (Gen 3:8) | "They heard the voice of the Memra of the LORD God" | God walking → Memra's voice heard |
 | "God created man" (Gen 1:27) | "The Memra of the LORD created man" | God as direct creator → Memra as creative agent |
 
+**Critical philological point** (Moore, 1922): Memra **never occurs without a genitive**. It is always "the Memra *of the LORD*," "my Memra" — never standalone. The word never detaches from its speaker. This is linguistically significant: the Memra is not an entity floating free but a *mode* of divine self-expression permanently tethered to its source.
+
 **Scholarly debate:** Is the Memra a true *hypostasis* (a distinct divine entity) or merely a *metonym* (a reverent way of saying "God")? The debate is centuries old:
 
 - **Hypostasis reading** (early 20th c., some Christian scholars): Memra is a proto-Logos, a distinct divine agent prefiguring John 1's Logos. This reading sees Memra, Shekhinah, and Yeqara as three aspects of divine presence.
@@ -155,9 +157,14 @@ These are not three gods, not three aspects of one God in the Trinitarian sense,
 
 **Usage:** "Rachmana said..." (introducing Torah quotations in Talmudic argumentation), "Rachmana liṣlan" ("May the Merciful One save us" — used when mentioning something terrible), "Rachmana ḥas" ("The Merciful One forbid" — horror formula).
 
-**Cross-tradition convergence:**
-- Arabic **al-Raḥmān** — The Merciful. Quranic divine name from the identical Semitic root. Pre-Islamic South Arabian *Raḥmānān* may be the oldest attestation of this divine name.
-- The r-ḥ-m root's connection to *reḥem* (womb) means this is a *maternal* compassion — God's mercy conceived as the instinctive, bodily love of a mother for the child she carried.
+**The Rachmana pipeline** (Nebes, *Millennium*, 2023 — tracing the root across millennia):
+1. Akkadian *remenuh* (epithet of Marduk and Ninurta — "merciful one")
+2. **Old Aramaic** *rḥmn* — Tell Fekheriye bilingual (~9th c. BCE): "'lh rhmn zy tslwth tbh" ("merciful god to whom prayer is sweet"). This is the **oldest attestation** of the divine epithet — 2,900 years ago.
+3. Jewish Aramaic *Rachmana* (Talmud — standard divine name substitute)
+4. Sabaic *Raḥmānān* (Himyarite monotheistic god-name, 4th–6th c. CE — when Himyar's ruling class converted to Judaism. The South Arabian form is a loan *from Jewish Aramaic*)
+5. Arabic *al-Raḥmān* (Quranic divine name)
+
+**Cross-tradition convergence:** The r-ḥ-m root's connection to *reḥem* (womb) means this is a *maternal* compassion — God's mercy conceived as the instinctive, bodily love of a mother for the child she carried. The root has traveled from Akkadian temples to Quranic recitation without ever losing its womb-etymology.
 
 ### 2.5 BAT KOL (בת קול) — The Daughter of a Voice
 
