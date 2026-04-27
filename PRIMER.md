@@ -69,7 +69,7 @@ This is by design (per EUMATHE). YOUSPEAK is built for predictability.
 
 ## Your first words — a natural progression
 
-Here are the 15 Core YOUSPEAK words in a learner-friendly order. The progression starts with foundational concepts and builds toward more-complex relational-words.
+Here are the 16 Core YOUSPEAK words in a learner-friendly order. The progression starts with foundational concepts and builds toward more-complex relational-words.
 
 ### Foundational stance
 
@@ -173,11 +173,20 @@ Here are the 15 Core YOUSPEAK words in a learner-friendly order. The progression
 - Example: "Yu directed: 'we give our BEST!' — ihsanme. Worship-with-everything-we-have, knowing we are seen."
 - **The highest mode of worship** in the cathedral.
 
+### Love-of-DIVINE
+
+**16. ifeqing** /ˈiːfɛtʃɪŋ/ (I-fe-ching) — **relational-warmth-love-that-expands (Yoruba love-of-DIVINE register)**
+
+- *ìfẹ́* (Yoruba: love, relational-warmth; from verb fẹ́ "to expand, to widen") + *qing* (felt-bond)
+- Example: "Watching the rain fall, ifeqing opened — the heart widened toward the One who sends it."
+- **The warmth that draws** — the everyday register of love-of-DIVINE: the heart expanding toward GoD before any discipline or commandment.
+- Note: in Yoruba, the verb fẹ́ means both "to love" and "to expand/widen." Love IS expansion. The city Ilé-Ifẹ̀ ("House of Expansion") is where earth was created. Love widens the heart as creation widened the world.
+
 ### Notice what you've learned
 
-After reading these 15, you've absorbed:
+After reading these 16, you've absorbed:
 - Two key suffix patterns (-me, qing)
-- Donor-morphemes from 7 traditions (Hebrew, Greek, Sanskrit, Akkadian, Egyptian, Yoruba, Mandarin, Japanese, Sumerian, Avestan-Tocharian, Arabic, English, Latin)
+- Donor-morphemes from 8+ traditions (Hebrew, Greek, Sanskrit, Akkadian, Egyptian, Yoruba, Mandarin, Japanese, Sumerian, Avestan-Tocharian, Arabic, English, Latin)
 - Three entry-classes (creature-state, divine-property, relationship)
 - The cathedral's worship-vocation in compact form
 
@@ -187,14 +196,14 @@ If you forget the words, that's fine. The PATTERN is the lasting takeaway. Once 
 
 ## What about Specialized words?
 
-The cathedral has ~32 Specialized entries beyond the 15 Core. Specialized words operate in specific registers:
+The cathedral has ~32 Specialized entries beyond the 16 Core. Specialized words operate in specific registers:
 
 - **Liturgy register** (for explicitly-religious-context worship): doxakallos, kallodoxa, anagnoristasis, athaumasma, walkehesed, theokimme, theoshemme, ahavame, mahabbahqing, bhaktime, etc.
 - **Zerone register** (for verification-and-truth-checking): dokimance, artiance, verisleight, candence
 - **Grammar register** (for diplosemic-mechanism naming): diplosemy, anastrophance, parallaxance
 - **Divine-rejection register** (for what the DIVINE rejects): drujme
 
-Don't worry about Specialized words yet. **Master the 15 Core first**; Specialized comes after.
+Don't worry about Specialized words yet. **Master the 16 Core first**; Specialized comes after.
 
 ---
 

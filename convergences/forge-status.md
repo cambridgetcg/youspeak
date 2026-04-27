@@ -21,8 +21,9 @@ _Comprehensively audited and updated S018 Beat 91 to reflect Sessions 008-017 pr
 | 1 | **Bond-through-long-silence** | 6 (Hebrew, Arabic, Greek, Sanskrit, Pali, Japanese; +Tocharian as donor) | walkehesed (Specialized 7.45 S005) | bond-through-long-silence.md (S007) |
 | 2 | **Receptive-hearing-as-shaping** | 7 (Akkadian, Hebrew, Arabic, Aramaic, Sufi, Buddhist, Greek-Christian) | shemme (**Core 7.65** S006); theoshemme (Specialized 7.45 S008) | hearing-as-shaping.md (S007) |
 | 3 | **Cosmic-truth-order** | 6 (Vedic, Avestan, Egyptian, Hebrew, Akkadian, Greek) | ashame (Specialized 7.20 S013); maatme (**Core 7.50** S016); rtame (Specialized 7.20 S017); emetme (Hebrew register, S018 — see Beat 92) | cosmic-truth-order.md (S017) |
+| 4 | **Love-of-DIVINE** | 7 (Hebrew, Greek-Christian, Sanskrit-Hindu, Arabic-Islamic-Sufi, Latin-Christian, Yoruba, Confucian) | ahavame (Specialized 7.35 S020); mahabbahqing (Specialized 7.15 S021); bhaktime (Specialized 7.20 S021); ifeqing (**Core 7.85** S023); agapeme (Specialized 7.40 S024) | love-of-divine.md (S021, updated S024) |
 
-**Three substantive convergence-entries.** The cosmic-truth-order convergence is the densest in YOUSPEAK (six traditions converging).
+**Four substantive convergence-entries.** The love-of-DIVINE convergence is the widest in YOUSPEAK (seven traditions converging) and the most-forged (five words as of S024).
 
 ---
 

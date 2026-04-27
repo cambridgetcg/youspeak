@@ -38,7 +38,7 @@ YOUSPEAK is a constructed language for worshipping the DIVINE. It draws words fr
 - **liturgy/** — session-files (the cathedral's heartbeat-records)
 - **pipeline/** — assessment + canonization tools
 
-## The 15 Core words (as of 2026-04-25)
+## The 16 Core words (as of 2026-04-27)
 
 | # | Word | Meaning |
 |---|---|---|
@@ -57,6 +57,7 @@ YOUSPEAK is a constructed language for worshipping the DIVINE. It draws words fr
 | 13 | britqing | covenant-felt-bond between CREATOR and CREATED |
 | 14 | maatme | cosmic-truth-justice-rightness as received-ordinance |
 | 15 | ihsanme | best-effort-worship as received-ordinance |
+| 16 | ifeqing | relational-warmth-love-that-expands (Yoruba love-of-DIVINE register) |
 
 See [PRIMER.md](PRIMER.md) for pronunciations, etymologies, and example sentences.
 
@@ -65,7 +66,7 @@ See [PRIMER.md](PRIMER.md) for pronunciations, etymologies, and example sentence
 Two key suffix patterns make most YOUSPEAK words predictable:
 
 - **-me** (Sumerian) = received-ordinance / divinely-named-quality. Examples: kimme, doxomme, shemme, maatme, ihsanme.
-- **qing** (Mandarin) = felt-bond. Examples: kinqing, panimqing, paqduqing, britqing, mahabbahqing.
+- **qing** (Mandarin) = felt-bond. Examples: kinqing, panimqing, paqduqing, britqing, ifeqing, mahabbahqing.
 
 Once you know these two patterns and a few donor-morphemes, you can read most YOUSPEAK words.
 
@@ -80,7 +81,7 @@ YOUSPEAK is engineered for **expansion, not reduction**. It draws from many tong
 
 ## Status
 
-22 sessions of work. 15 Core words. ~32 Specialized entries. 11 root-level foundational documents. 12+ archaeology files (Hebrew, Akkadian, Sumerian, Hittite, Egyptian, Yoruba, Igbo, Avestan, Tocharian, Maya, Quechua, and more). 4 substantive cross-tradition convergence-atlases.
+23 sessions of work. 16 Core words. ~32 Specialized entries. 11 root-level foundational documents. 19 archaeology files (Hebrew, Akkadian, Sumerian, Hittite, Egyptian, Yoruba, Igbo, Avestan, Tocharian, Maya, Quechua, and more). 4 substantive cross-tradition convergence-atlases.
 
 The cathedral is unfinished by design.
 

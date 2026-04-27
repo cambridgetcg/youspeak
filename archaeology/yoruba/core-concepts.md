@@ -109,6 +109,34 @@ These three fusions are not decorative. They are ontologically load-bearing for 
 
 ---
 
+### 6. ìfẹ́
+
+**Gloss:** love — the relational-warmth-bond; the desire-that-expands; the felt-connection between persons and between creature-and-DIVINE.
+
+**Etymology:** from verb *fẹ́* — to want, to desire, to expand/widen. The nominal *ìfẹ́* thus carries both the relational (want/desire directed-toward-another) and the cosmological (expansion/widening-of-being). Love-as-that-which-expands-the-world. Tonal: ìfẹ́ (high-tone final) = love/desire; Ifẹ̀ (low-tone final) = expansion (as in Ilé-Ifẹ̀, "House of Expansion," the Yoruba holy city where earth was widened from primordial waters). The semantic overlap is theologically productive: love widens the heart as creation widened the world.
+
+**Yoruba metaphysics:** ìfẹ́ is the relational-warmth-that-seeks-connection within the àṣẹ-orí-ìwà framework. It operates at multiple levels: between persons, between human and orisha, between worshipper and Olódùmarè. Yoruba theological tradition positions ìfẹ́ within a **tripartite architecture of complete love**: ìfẹ́ (warmth-bond, attraction, desire-toward), àánú (compassionate coolness/mercy — the *tùtù* dimension: sacred coolness, clarity, divine favor), and ìdáríjì (restorative forgiveness that repairs broken relationship). Together these three constitute complete love; ìfẹ́ alone is necessary-but-not-sufficient.
+
+The proverb *"Ìfẹ́ tí kò ní ìwà je bí iná tí kò ní omi"* — "Love without character is like fire without water" — positions ìwà (character) as the *container* of ìfẹ́. Uncontained love becomes destructive; love-within-character is life-giving. This parallels but does not duplicate the Hebrew emphasis on commanded-disposition (ahavah); in Yoruba, character contains love rather than commandment directing it.
+
+**Relational chain:** àṣẹ flows from Olódùmarè → orí carries destiny → ìwà realizes or squanders it → ìfẹ́ is the love-warmth-that-draws-the-soul toward alignment. The felt-bond between CREATED and CREATOR is ìfẹ́ operating in its highest register.
+
+**Ọ̀ṣun connection:** Ọ̀ṣun, the orisha most associated with ìfẹ́, was the sole female deity among the original orisha sent to create earth. When male orisha excluded her, creation failed; her "gentle power" (ìfẹ́-as-cosmogonic-necessity) restored life. Love is not decorative in Yoruba cosmogony; it is structurally necessary for creation to proceed.
+
+**Distinctions English fuses:**
+- English "love" is sentiment-default; ìfẹ́ is structural/ethical/cosmological, not reducible to emotion.
+- English "love" separates from justice/mercy; Yoruba ìfẹ́ requires àánú (mercy/coolness) and ìdáríjì (restoration) to be complete.
+- English "love" does not imply expansion; Yoruba ìfẹ́ (from fẹ́, expand/widen) carries cosmological expansion as root-meaning.
+- Hebrew ahavah is commanded-disposition; ìfẹ́ is relational-warmth-contained-by-character.
+- Arabic mahabbah is mystical-binding-toward-annihilation; ìfẹ́ is expansion, not annihilation.
+- Sanskrit bhakti is disciplined-self-surrender; ìfẹ́ is relational-warmth-that-draws.
+
+**YOUSPEAK donor use:** morpheme for relational-warmth-love, expansion-love, love-within-cult-economy. Candidate compounds: *ifeqing* (the felt-bond of Yoruba relational-love — Niger-Congo + Sino-Tibetan = poly 8 = Core-eligible), *ifeme* (relational-love-as-received-ordinance).
+
+**Scholarly basis:** Idowu (1962) on Olódùmarè as loving-creator; Abimbola (1977, 2005) on Ifá as "oasis of wisdom, love, and morality"; Olupona (2011) on Ilé-Ifẹ̀'s sacred geography; Ogunnaike (Harvard CSWR) on theosis in Yoruba spirituality.
+
+---
+
 ## Unnamed regions (gaps available for forging, Yoruba-sourced)
 
 1. **The alignment-with-orí state.** The quality of a life that is successfully aligned with its destined-head — vocation pursued, talents used, life-shape met. Not "fulfilled" (too generic) and not "self-actualized" (too Maslow). Uniquely Yoruba: the metaphysical-fit of the person-in-time with the person-chosen-before-time. *(Donors: orí + -ance, or orí + Greek telos.)*
@@ -133,6 +161,7 @@ These three fusions are not decorative. They are ontologically load-bearing for 
 | **ẹ̀wà** | beauty-as-character | Greek (kallos), Latin (-ance), Sanskrit (śobha) |
 | **ẹ̀mí** | breath-loan | Greek (pneuma), Latin (spiritus), Sanskrit (prāṇa) |
 | **ọmọlúwàbí** | complete-character-person | contractable; pair with Latin (-ance), Greek (-ia) |
+| **ìfẹ́** | relational-warmth-love; expansion-love | Mandarin (qing), Sumerian (me) — candidate *ifeqing* (poly 8, Core-eligible) |
 | **ẹ̀rí** (eri) | witness, testimony | Greek (martys), Hebrew (edut) — candidate for YOUSPEAK Zerone-register |
 
 ---
@@ -146,6 +175,7 @@ What Yoruba preserves that no living European tongue preserves compactly:
 3. **Virtue-beauty identity (ìwà l'ẹ̀wà)** — the fusion modernity severed.
 4. **Breath-as-loan-from-the-creator (ẹ̀mí)** — life-principle-as-held-in-trust.
 5. **Character-completeness-as-aesthetic-ideal (ọmọlúwàbí)** — moral and aesthetic excellence as one phenomenon.
+6. **Love-as-expansion-and-relational-warmth (ìfẹ́)** — love carries cosmological expansion (from fẹ́ = widen) and requires character (ìwà) as container; the tripartite architecture (ìfẹ́ + àánú + ìdáríjì) names complete love.
 
 Paired with other archaeology:
 

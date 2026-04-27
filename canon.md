@@ -4,12 +4,12 @@ _The growing scripture of YOUSPEAK. Every word here has survived assessment and 
 
 **Post-Constitution structure (2026-04-24):** Canon splits into two tiers —
 
-- **[Core Canon](canon/core/)** — words meeting all 6 Constitutional foundations. **Currently: 14 words** (Sessions 001-016; 3 entry-classes; -me family is most-productive morpheme-family with 4 Core members from 4 donor-traditions; relationship-class articulates CREATOR-CREATED from 3 traditions; pyramid-civilizations directive S016 added maatme).
+- **[Core Canon](canon/core/)** — words meeting all 6 Constitutional foundations. **Currently: 20 words** (Sessions 001-025; 5 entry-classes; -me family is most-productive morpheme-family with 7 Core members from 7 donor-traditions; sacrifice-register canonisation S025 added qorbme, hotepme, tapasme, danaqing).
 - **Specialized Canon** — the 16 pre-Constitution words, all re-audited against the v2 rubric (see [CANON-AUDIT.md](CANON-AUDIT.md)). All scored below Core threshold but remain valid within their specialized register. Organised by `domain`: liturgy (9) · zerone (5) · grammar (2).
 
 ---
 
-## Core Canon (14 words — 2026-04-24 / 2026-04-25)
+## Core Canon (20 words — 2026-04-24 / 2026-04-27)
 
 **kimance** — _the attentive-here-ness of a person attending-with-gaze-open_
 - **Weighted v2:** 7.60/10 · Japanese ki + Latin -mance (cross-family)
@@ -79,6 +79,36 @@ _The growing scripture of YOUSPEAK. Every word here has survived assessment and 
 - [experiment 136](labs/logos/experiments/core/136-maatme.md) · [canon](canon/core/maatme.md)
 - Fourteenth Core; forged in Liturgy Session 016 Beat 82 in direct response to Yu's directive on pyramid-civilization-languages; **sixth -me family member; fourth -me Core** (kimme + doxomme + shemme + maatme); complements ashame (Avestan; S013) — together articulate the cosmic-truth-order register from Egyptian and Avestan (two of three asha-ṛta-ma'at triple-witness traditions); six-tradition convergence on cosmic-truth-order (Egyptian ma'at + Avestan asha + Vedic ṛta + Hebrew emet + Akkadian kittu + Greek alētheia); the -me family is YOUSPEAK's most-productive morpheme-family
 
+**ihsanme** — _best-effort-worship as received-ordinance (Arabic ihsan register)_
+- **Weighted v2:** 7.50/10 (threshold-exact) · Arabic ihsan + Sumerian me (Afro-Asiatic Semitic + language-isolate; **first Arabic-donor Core entry**)
+- [experiment 141](labs/logos/experiments/core/141-ihsanme.md) · [canon](canon/core/ihsanme.md)
+- Fifteenth Core; forged in Liturgy Session 020; direct response to Yu's intention-directive "we give our BEST!"; seventh -me family Core member; ihsan = "to worship as if you see Him" (hadith of Jibril); the cathedral's working-mode made word
+
+**ifeqing** — _relational-warmth-love-that-expands (Yoruba love-of-DIVINE register)_
+- **Weighted v2:** 7.85/10 · Yoruba ìfẹ́ + Mandarin qing (Niger-Congo + Sino-Tibetan; **first Niger-Congo + Sino-Tibetan forge; first African-tradition love-of-DIVINE word**)
+- [experiment 145](labs/logos/experiments/core/145-ifeqing.md) · [canon](canon/core/ifeqing.md)
+- Sixteenth Core; forged in Liturgy Session 023; seventh qing-family member (fourth Core qing); love-as-expansion from verb fẹ́ "to widen"; poly 8 = two non-IE families; fourth forge in love-of-DIVINE convergence (alongside ahavame, mahabbahqing, bhaktime); the everyday-warmth register of love-of-DIVINE
+
+**qorbme** — _sacrifice-as-drawing-near-as-received-ordinance (Semitic qorb register)_
+- **Weighted v2:** 8.05/10 · Proto-Semitic q-r-b + Sumerian me (Afro-Asiatic + language-isolate; **first sacrifice-register aligned Core entry**)
+- [experiment 147](labs/logos/experiments/core/147-qorbme.md) · [canon](canon/core/qorbme.md)
+- Seventeenth Core; forged in Session 025 (sacrifice-register canonisation); eleventh -me family member; four-tradition convergence on sacrifice named after proximity (Hebrew qorban, Arabic qurban, Akkadian qurbanu, Greek prosphora parallel); kinship and sacrifice share one root: to sacrifice is to draw near
+
+**hotepme** — _offering-peace-as-received-ordinance (Egyptian hotep register)_
+- **Weighted v2:** 8.00/10 · Egyptian htp + Sumerian me (Afro-Asiatic + language-isolate; **second Egyptian-donor Core entry; pairs with maatme**)
+- [experiment 148](labs/logos/experiments/core/148-hotepme.md) · [canon](canon/core/hotepme.md)
+- Eighteenth Core; forged in Session 025; twelfth -me family member; pre-fragmentation root where offering = peace = satisfaction = cosmic-rest; three-tradition convergence (Egyptian hotep, Hebrew shelamim, Yoruba ebo); companion to maatme in the Egyptian register
+
+**danaqing** — _gift-giving-as-felt-bond (Sanskrit dana register)_
+- **Weighted v2:** 8.00/10 · Sanskrit dāna + Mandarin qing (Indo-European + Sino-Tibetan; **strongest polyphone in sacrifice register; first sacrifice-register qing entry**)
+- [experiment 149](labs/logos/experiments/core/149-danaqing.md) · [canon](canon/core/danaqing.md)
+- Nineteenth Core; forged in Session 025; eighth qing-family member; five-tradition convergence on sacrifice-as-gift (Sanskrit, Hebrew ×2, Akkadian, Yoruba); Rigvedic link between dāna and satya — generosity participates in cosmic truth
+
+**tapasme** — _inner-fire-self-discipline-as-received-ordinance (Sanskrit tapas register)_
+- **Weighted v2:** 7.85/10 · Sanskrit tapas + Sumerian me (Indo-European + language-isolate; **first Sanskrit-Sumerian sacrifice compound**)
+- [experiment 150](labs/logos/experiments/core/150-tapasme.md) · [canon](canon/core/tapasme.md)
+- Twentieth Core; forged in Session 025; thirteenth -me family member; five-tradition convergence on internalized sacrifice (Vedic tapas, Islamic jihad al-nafs, Pauline logikē latreia, Sufi fanāʾ, Buddhist viriya); one word spanning cosmogonic heat, sacrificial fire, self-discipline, and devotional burning
+
 See [labs/logos/forge/core-forge-round-1-findings.md](labs/logos/forge/core-forge-round-1-findings.md) for the forge-audit + grammar-emergence observations, and [DIAGNOSTIC-polyphone-learnability.md](DIAGNOSTIC-polyphone-learnability.md) for the Session-003 finding on the rubric's implicit trade-off.
 
 **Specialized-tier additions from Session 004** (not Core):
@@ -88,6 +118,18 @@ See [labs/logos/forge/core-forge-round-1-findings.md](labs/logos/forge/core-forg
 **Divine-property register (opened Session 005)** — Liturgy-Original tier per THEOBASIS Corollary 2; under current rubric held at refine 7.45; under proposed Amendment II both canonize:
 - **walkehesed** — GoD's bond-through-long-silence (Tocharian walke + Hebrew ḥesed, 7.45 Specialized); first divine-property YOUSPEAK coinage; [experiment 126](labs/logos/experiments/core/126-walkehesed.md); creature-pole companion walkekin (Core)
 - **theokimme** — GoD's constitutive-attention (Greek theos + Japanese ki + Sumerian me, 7.45 Specialized); three-tradition divine-property; [experiment 127](labs/logos/experiments/core/127-theokimme.md); creature-pole companion kimme (Core)
+
+**Love-of-DIVINE Specialized additions from Sessions 020-024:**
+- **ahavame** — Hebrew ahavah + Sumerian me; commanded-disposition register (7.35 Specialized S020); [experiment 142](labs/logos/experiments/core/142-ahavame.md) · [canon](canon/core/ahavame.md)
+- **mahabbahqing** — Arabic mahabbah + Mandarin qing; felt-mystical-binding register (7.15 Specialized S021); [experiment 143](labs/logos/experiments/core/143-mahabbahqing.md) · [canon](canon/core/mahabbahqing.md)
+- **bhaktime** — Sanskrit bhakti + Sumerian me; disciplined-devotional-surrender register (7.20 Specialized S021); [experiment 144](labs/logos/experiments/core/144-bhaktime.md) · [canon](canon/core/bhaktime.md)
+- **agapeme** — Greek agape + Sumerian me; sacrificial-self-giving register (7.40 Specialized S024); first Greek-Christian love-of-DIVINE entry; highest-scoring love-of-DIVINE Specialized entry; [experiment 146](labs/logos/experiments/core/146-agapeme.md) · [canon](canon/core/agapeme.md) · [archaeology](archaeology/greek/divine-love.md)
+
+See [convergences/love-of-divine.md](convergences/love-of-divine.md) for the full seven-tradition convergence (5 of 7 forged; 2 remain: caritasme Latin, Confucian-related).
+
+**Sacrifice-anti-vocabulary (divine-rejection register) from Session 025:**
+- **molkme** — Phoenician molk + Sumerian me; coerced-votive-sacrifice as divinely-named-anti-ordinance (7.70 Specialized S025); first Phoenician-donor entry; first sacrifice-anti-vocabulary entry; companion to drujme; [experiment 151](labs/logos/experiments/core/151-molkme.md) · [canon](canon/core/molkme.md); "nor did it enter my mind" (Jeremiah 7:31) — extraction-disguised-as-sacrifice
+- **nextlame** — Nahuatl nextla- + Sumerian me; cosmic-debt-sacrifice as divinely-named-anti-ordinance (7.45 Specialized S025); first Nahuatl/Uto-Aztecan donor in YOUSPEAK; second sacrifice-anti-vocabulary entry; names the debt-theology where sacrifice = repayment; [experiment 152](labs/logos/experiments/core/152-nextlame.md) · [canon](canon/core/nextlame.md)
 
 **Amendment I** (Session 002, proposed, pending Yu): worship-register threshold 7.0 + tradition-diversity. Would canonize 6 prior worship-register refines (proskynance, shukhance, kavvance, sraddhance, satance, eikhalgia).
 
