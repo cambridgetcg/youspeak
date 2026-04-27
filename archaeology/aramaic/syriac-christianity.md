@@ -159,6 +159,38 @@ The theological logic:
 
 **The epistemology:** This is a **participatory epistemology** — you cannot know divine things by standing outside them. You must develop *sukkālē* by entering into the reality you seek to understand. The observer is transformed by what they observe.
 
+#### LBESH (ܠܒܫ) — The Clothing Metaphor
+
+**Etymology:** Root *l-b-sh* (to put on, to clothe). Cognate with Hebrew *lavash*.
+
+**Ephrem's master metaphor for incarnation and salvation history:** Brock identifies four episodes in Ephrem's "clothing" arc:
+
+1. **Creation:** Adam and Eve originally clothed in a "Robe of Glory" (*esthlā d-shubḥā*)
+2. **Fall:** They lose the Robe; God clothes them in garments of skin
+3. **Incarnation:** God "puts on" (*lbesh*) a body from Mary — "He clothed Himself in a body." Mary gives Christ "a body as a tiny garment" and receives in return a "Robe of Glory"
+4. **Baptism:** Christ laid the Robe of Glory in the Jordan, making it available for humanity to "put on" at baptism
+5. **Resurrection:** The just re-enter Paradise clothed in Robes of Glory
+
+God also "puts on" language: **"He clothed Himself in our language, so that He might clothe us in His mode of life."** This sentence is the theological key to YOUSPEAK: divine self-communication happens through linguistic *clothing* — God wears human words so humans can wear divine life. The incarnation is a translation event.
+
+**The exchange:** "He gave us divinity, we gave Him humanity." Ephrem names Christ's humanity as Temple, Throne, Garment, and Weapon — four metaphors for the same mystery of divine self-clothing.
+
+**YOUSPEAK significance:** The *lbesh* metaphor suggests that words are garments — God clothes divine reality in human language, and the act of forging new words is participation in this divine self-clothing. When YOUSPEAK creates a compound that didn't exist before, it is weaving a new garment for a reality that was previously naked (unnamed).
+
+#### MILTHA (ܡܠܬܐ) — Word/Thing/Substance/Manifestation
+
+**Etymology:** Root *m-l-l* (to speak, to utter). **Different root from Targumic Memra** (*'-m-r*, "to say/command").
+
+**The Peshitta's John 1:1:** *B-rēshīth īthawhī hwā meltā* ("In the beginning was the Miltha"). The choice of *miltha* rather than *memra* is theologically significant:
+- **Memra** (*'-m-r*) = word-as-commanded-speech, the divine utterance that creates and acts
+- **Miltha** (*m-l-l*) = word-as-substance/thing/manifestation — carries meanings of "word," "thing," "matter," "substance"
+
+The Peshitta's Logos is not just speech (as Memra would imply) but *substance-that-speaks* — the Word that is simultaneously a Thing. This is a theological contribution unique to Syriac: the incarnation is not just God *speaking* into the world (Memra theology) but God *being a thing* in the world.
+
+**Note:** In the Old Syriac (pre-Peshitta), *miltha* in John's Prologue is treated as **feminine**. Ephrem preserves this feminine treatment. The Peshitta revision altered it to masculine — another instance of the gender-suppression pattern.
+
+**Forge candidate: milthame** (Syriac miltha + Sumerian me). Word-as-substance-manifestation, received as ordinance. Fills a gap distinct from memrame: where memrame names God-present-as-speech-act, milthame names God-present-as-substance-that-is-also-word. Score estimate: 7.40–7.65.
+
 #### GĀLYĀTĀ (ܓܠܝܬܐ) — Revelations
 
 **Etymology:** From *g-l-y* (to reveal, to uncover). Cognate with Hebrew *galah* (to uncover/reveal) and *galut* (exile — the state of being uncovered, exposed).
@@ -295,6 +327,10 @@ Words and morphemes from Syriac Christianity available for YOUSPEAK forging:
 | ʿōnīthā | Liturgical | congregational-refrain (people's-voice-answering) | worship-form |
 | īḥīdāyā | Ascetic | the-single-one / monastic (= becoming-like-Christ) | spiritual-identity |
 | rūḥā | Pneumatological | spirit (feminine — maternal divine) | divine-names |
+| lbesh | Ephrem | clothing-metaphor (incarnation-as-divine-garment) | divine-embodiment |
+| milthā | Peshitta | word-as-substance/thing (distinct from memra) | divine-communication |
+| qurbānā | Liturgical | Eucharist/offering (cognate with Hebrew qorban/YOUSPEAK qorbme) | worship-form |
+| maranathā | Primitive liturgy | "Our Lord, come!" (fossilized Aramaic in Greek NT) | eschatology |
 
 ### Forge Candidates (Syriac-specific)
 
