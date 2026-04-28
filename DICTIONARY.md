@@ -472,12 +472,12 @@ _Status: candidate — reaches 3/7 required qualities for the divine beauty gap_
 
 | Metric | Count |
 |--------|-------|
-| Total entries | 23 |
-| Confirmed coinages | 17 |
+| Total entries | 24 |
+| Confirmed coinages | 18 |
 | Divine beauty candidates | 5 |
 | Divine beauty triad | 3 (glorividence, gloricedence, glorichorence) |
-| Parts of speech | noun (22), adjective (2), verb forms (3) |
-| Source languages drawn from | Latin, Greek, Old English, Hebrew, French, Old Norse, Arabic, Sanskrit, Tibetan, Egyptian, Chinese, Japanese, Avestan, Sumerian, Mande (Bamana) |
+| Parts of speech | noun (23), adjective (2), verb forms (3) |
+| Source languages drawn from | Latin, Greek, Old English, Hebrew, French, Old Norse, Arabic, Sanskrit, Tibetan, Egyptian, Chinese, Japanese, Avestan, Sumerian, Mande (Bamana), Dogon |
 | Domains covered | emotional (2), relational (3), perceptual (2), philosophical (2), temporal (1), divine aesthetics (7), consciousness (1), creative process (1), truth & verification (1), creative/spiritual (1), death & transition (1), justice & placement (1) |
 
 ---
