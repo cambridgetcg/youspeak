@@ -343,3 +343,52 @@ Scope: Lojong (Seven Point Mind Training; key slogans; *bdag-gzhan brje-ba* exch
 - **Recognition as eschatological mechanism**: The Bardo Thödol's theory is that liberation is always recognition (*rtogs-pa*), never acquisition. You do not get something new at death; you recognize what was always there. This is the most radical form of the "already-home" convergence pattern.
 
 **S035 totals: ~62 convergences mapped (4 new: Receiving-as-discipline, Wind-as-substance, Dual-soul, Temporally-designed-transmission; 5 deepened); 15 forged; 6 in pipeline (caritasme, renme, darśaname, bhaktame [S034] + tongleme, terme [new S035]); 40+ await forging.**
+
+---
+
+## S036 — Coptic Excavation
+
+*Added: 2026-04-29, Session 036*
+
+**Excavation**: `archaeology/coptic/desert-monastery-vocabulary.md` (336 lines) + `archaeology/coptic/christology-liturgy-synthesis.md` (299 lines); 635 lines total.
+
+### File 1: Desert & Monastery Vocabulary (S035-6 — written prior session)
+
+Scope: Coptic alphabet origins (Demotic Egyptian + 7 Greek letters); Bohairic dialect as liturgical standard; desert-father vocabulary (*apophthegmata*, *hesychia*, *nepsis*, *logismos*, *apatheia*, *prosoche*, *kardia*, *kenosis*, *theosis*, *anachoresis*); the Four Coptic Virtues (*melete*, *nepsis*, *proseuchē*, *hesychia*); *pneuma*/*nous*/*kardia* tripartite anthropology; *kenosis* as divine movement enabling theosis; *apophthegmata patrum* as genre; 336 lines.
+
+### File 2: Christology + Liturgy of St. Mark + Convergences + Synthesis
+
+Scope: Miaphysite Christology (mia physis — one united nature; union-without-confusion; permanent incarnational fusion; matter-as-theosis-capable); Egyptian pagan substrate (Osirian death-resurrection template; Ma'at / heart-judgment; Isis-Mary convergence with linguistic and iconographic evidence; ankh-cross resonance); Liturgy of St. Mark structure (three reconciliation prayers; fraction theology; Kyrie eleison as ground-note; Adam/Watos tonal modes as pre-Christian Egyptian music; Epiclesis; Axios acclamation); Coptic calendar / Nayrouz (Egyptian civil calendar descendant; flood-as-grace theology; fasting architecture — ~210 days/year); 299 lines.
+
+### New forge candidates (S036)
+
+| Candidate | Coptic/Egyptian source | Target | Polyphone | Estimate | Priority |
+|---|---|---|---|---|---|
+| **ma'atme** | Egyptian *Ma'at* (truth + justice + cosmic order simultaneously) | Truth-as-justice / cosmic-order-that-is-simultaneously-truth; filling the gap between YOUSPEAK's separate TRUTH and JUSTICE hierarchy levels | Afro-Asiatic (Egyptian) + ? (needs second non-IE for poly-8 Core path) | Specialized 7.40–7.60; Core path possible | **HIGH** — genuine conceptual gap; Ma'at unifies what YOUSPEAK separates |
+| **axiome** | Greek *axios* / Coptic ⲁⲝⲓⲟⲥ — "worthy!" | Community-recognition as constitutive act; the seeing that calls something into being; ordination-by-acclamation | Greek (IE) + Egyptian (Afro-Asiatic) = poly 7 | Specialized 7.35–7.55 | MED-HIGH — *axios* is non-YOUSPEAK register but concept is unique |
+| **fractome** | Coptic fraction theology (*breaking that distributes*) | Dismemberment-as-gift; the body broken so it can feed the many; generosity through division; what looks like destruction is multiplication | Latin *fractio* (IE) + Coptic/Egyptian = poly 7 ceiling | Specialized 7.30–7.50 | MED — concept strong; word construction needs care |
+
+### Deepened convergences (S036)
+
+| Convergence | New contribution | Updated traditions | Notes |
+|---|---|---|---|
+| **Wind-as-spiritual-substance** | Egyptian *ka* (animating breath-force distinguishing living from dead) — 7th tradition | *rlung* + *prāṇa* + *rûaḥ* + *pneuma* + *qi* + *sunsum* + *ka* | Cluster now 7 traditions; strongest convergence in the cathedral by tradition-count; forge word will carry extraordinary weight |
+| **Inversion-as-spiritual-technology** | Coptic fraction theology (breaking = distribution/multiplication) — 2nd major example after tonglen | Tibetan tonglen + Coptic fraction | Different inversion-mechanism (breath vs. breaking) but same structural logic: what looks like loss/destruction is gain/multiplication; the pattern is cross-traditional |
+| **Disciplined-longing-as-spiritual-practice** | Coptic fasting calendar (~210 days/year) — most formally-structured example in cathedral | Tibetan lojong (59 slogans) + Desert Father *melete* (daily meditation) + Coptic fasting calendar | Coptic contributes the calendar-architecture form: ache structured into the communal year, not just individual practice |
+| **Divine-maternal-as-transmission-medium** | Isis-Mary fusion — iconographic and theological evidence; Theotokos defined Ephesus 431 CE | Egyptian Isis (*lactans*) + Coptic/Christian Mary (Theotokos) | The divine-maternal is not just symbol but transmission-medium (nursing = life-transfer; bearing = incarnation-vehicle); connects to Sanskrit *prakṛti* (material nature as divine-feminine ground) |
+| **Heart-as-spiritual-battleground** | Desert Father *kardia* theology — extensive vocabulary of heart-states | Hebrew *lev* + Chinese *xīn* + Tibetan *snying* + Coptic *kardia* | Four traditions; heart as the site where transformation happens, not the mind; YOUSPEAK's own "heart-signal" language has deep cross-traditional support |
+
+### New method findings (S036)
+
+- **Substrate-archaeology principle formalized**: Coptic Christianity is the clearest case in the cathedral of a tradition that inherits, transforms, and re-transmits a pre-existing theological civilization. Egypt did not receive Christianity as a blank slate — it received it as a culture with 2,000+ years of death-resurrection, divine-mother, cosmic-justice, and heart-judgment theology. The principle: *excavate the pre-Christian substrate before interpreting the Christian vocabulary.*
+- **Iconographic-linguistic convergence**: The Isis-Mary fusion is simultaneously visual, theological, and linguistic. When artistic tradition is this persistent (4th-century Isis lactans → 20th-century Madonna), the corresponding linguistic forms carry the same fusion-weight. Iconography is evidence for linguistic inheritance.
+- **Liturgical calendar as ache-architecture**: The Coptic fasting cycle (~210 days/year) is the most elaborate formal structure for *disciplined longing* found in the cathedral so far. It is communal, calendrically-binding, and bodily. The ache is not just felt — it is *built into the year*. This is the external, institutional form of YOUSPEAK's foundational insight (longing as motor).
+- **Miaphysite Christology as forge-precedent**: The theological claim that two genuine realities can be permanently united without losing their particularity is the closest doctrinal parallel to YOUSPEAK's forge method — multiple roots united in one word, neither lost, neither confused. The Coptic church's central Christological claim mirrors the cathedral's own linguistic-architectural principle.
+- **Fraction theology completes the inversion-pattern**: After tonglen (S035), the Coptic fraction is the second major tradition to encode *inversion as spiritual technology*. The pattern is now cross-traditional. Worth naming as an independent convergence.
+
+### S036 pipeline update
+
+Pipeline additions: **ma'atme** (HIGH), **axiome** (MED-HIGH)
+Wind cluster: now 7 traditions → forge word for this convergence elevated to **HIGH PRIORITY**
+
+**S036 totals: ~68 convergences mapped (5 new deepened: Wind-as-substance now 7 traditions, Inversion-as-spiritual-technology confirmed cross-traditional, Disciplined-longing-as-architecture, Divine-maternal-as-transmission, Heart-as-battleground); 15 forged; 8 in pipeline (caritasme, renme, darśaname, bhaktame [S034] + tongleme, terme [S035] + ma'atme, axiome [S036]); archaeology files: 35 traditions.**
