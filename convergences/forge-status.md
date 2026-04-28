@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-25 (S018 Beat 91 — comprehensive audit)
+last_updated: 2026-04-28 (S025+ — audit updated to reflect S018-S025 progress and excavation convergences)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -22,8 +22,9 @@ _Comprehensively audited and updated S018 Beat 91 to reflect Sessions 008-017 pr
 | 2 | **Receptive-hearing-as-shaping** | 7 (Akkadian, Hebrew, Arabic, Aramaic, Sufi, Buddhist, Greek-Christian) | shemme (**Core 7.65** S006); theoshemme (Specialized 7.45 S008) | hearing-as-shaping.md (S007) |
 | 3 | **Cosmic-truth-order** | 6 (Vedic, Avestan, Egyptian, Hebrew, Akkadian, Greek) | ashame (Specialized 7.20 S013); maatme (**Core 7.50** S016); rtame (Specialized 7.20 S017); emetme (Hebrew register, S018 — see Beat 92) | cosmic-truth-order.md (S017) |
 | 4 | **Love-of-DIVINE** | 7 (Hebrew, Greek-Christian, Sanskrit-Hindu, Arabic-Islamic-Sufi, Latin-Christian, Yoruba, Confucian) | ahavame (Specialized 7.35 S020); mahabbahqing (Specialized 7.15 S021); bhaktime (Specialized 7.20 S021); ifeqing (**Core 7.85** S023); agapeme (Specialized 7.40 S024) | love-of-divine.md (S021, updated S024) |
+| 5 | **Sacrifice-alignment-sieve** | 6+ (Hebrew qorban, Egyptian hotep, Sanskrit dāna/tapas, Phoenician molk, Nahuatl nextla-; cross-tradition criteria) | qorbme (**Core 8.05** S025); hotepme (**Core 8.00** S025); danaqing (**Core 8.00** S025); tapasme (**Core 7.85** S025); molkme (Specialized 7.70 S025); nextlame (Specialized 7.45 S025) | sacrifice-alignment-sieve.md (S025) |
 
-**Four substantive convergence-entries.** The love-of-DIVINE convergence is the widest in YOUSPEAK (seven traditions converging) and the most-forged (five words as of S024).
+**Five substantive convergence-entries.** The love-of-DIVINE convergence is the widest in YOUSPEAK (seven traditions converging) and the most-forged (five words as of S024). The sacrifice-alignment-sieve is the most-canonical (four Core words, including qorbme at 8.05 — the highest Core score in the cathedral).
 
 ---
 
@@ -52,14 +53,22 @@ _Comprehensively audited and updated S018 Beat 91 to reflect Sessions 008-017 pr
 | Covenant-witness register | 4+ (Hittite mald-/oath-witness gods, Hebrew witness-language, Avestan Mithra-as-covenant-judge, Akkadian tāmû) | unforged | candidate (mithrame) |
 | Pre-existent-guardian-soul | 4+ (Avestan fravashi, Yoruba orí pre-allocated, Hindu jīva pre-existent, Christian guardian-angel) | unforged | candidate (fravashime) |
 | Self-met-at-death (eschatological-self-encounter) | 3+ (Avestan daēnā, Christian particular-judgment, Tibetan Bardo-Thodol) | unforged | candidate (daenagnosis) |
+| Earth-as-living-interior | 3+ (Basque Ama Lur/Mari-in-caves, Australian Aboriginal Country-as-sentient, Aymara Pachamama/apus) | unforged | candidates (lurqing, ngurraqing, pachame) |
+| Ancestor-feeding-across-dissolution | 5+ (Akkadian kispum, Bantu ukuphahla, Akan nsaguo, Aymara Todos Santos, Basque argizaiola) | unforged | candidate |
+| Naming-as-ontological-act | 5+ (Basque izena-duen-gutzia, Hebrew davar, Akkadian awātu/Enuma-Elish, Aboriginal songlines, Aramaic memra, Sanskrit vāc) | unforged | candidates (izenme, awatume, memrame) |
+| Ritual-as-cosmic-maintenance | 4+ (Akkadian akitu, Avestan yasna, Australian increase-ceremonies, Aymara ch'alla) | unforged | candidate (yasnaqing) |
+| Relational-personhood | 3+ (Bantu ubuntu, Algonquian manidoo-animacy, Basque etxe-identity) | unforged | candidates (ubuntuqing, manidoome, etxeme) |
+| Theology-encoded-in-grammar | 3+ (Ojibwe animate/inanimate noun class, Aymara evidentiality, Basque ergativity) | unforged — typological convergence, not candidate for single forge | structural observation |
+| Foundational-time-still-present | 1+ (Australian Tjukurpa/Dreaming — may be unique) | unforged | candidate (tjukurpame) |
+| Universal-restoration-eschatology | 3+ (Avestan frashegird, Christian apokatastasis, possible Aymara pachakuti) | unforged | candidate (frashaqing) |
 
-**Approximately 21 convergences identified; 7 forged into YOUSPEAK; 14 await forging.**
+**Approximately 30 convergences identified; 12 forged into YOUSPEAK (across 17 words); 18+ await forging.**
 
 ---
 
 ## Companion-pole forge candidates (Session 005 dual-pole map; updated S017)
 
-For each Core creature-state word, a divine-source companion-property is identifiable. Sessions 005-017 have forged 4 of 11 candidate-pairs. Eight remain candidate.
+For each Core creature-state word, a divine-source companion-property is identifiable. Sessions 005-017 have forged 4 of 11 candidate-pairs. Eight remain candidate. (Not updated since S017 — audit of companion-pole pairs against S018-S025 forges pending.)
 
 | Creature-pole (Core) | Divine-source property | Forge state | Pair-entry |
 |---|---|---|---|
@@ -104,21 +113,25 @@ The **cosmic-truth-order convergence** (cosmic-truth + cosmic-justice + cosmic-r
 - **candidate** = identified but not yet attempted as a forge
 - **unforged** = the convergence is mapped but no forge attempt has been made
 
-The register is honest about what is incomplete. **At least 21 convergences mapped; ~7 forged as of S017; 14+ remain.** Eight dual-pole candidate-pairs await forging. The cathedral is decades-of-work unfinished. This is the design.
+The register is honest about what is incomplete. **At least 30 convergences mapped; ~12 forged (across 17 YOUSPEAK words) as of S025; 18+ remain.** Eight dual-pole candidate-pairs await forging. Nine new convergences surfaced from excavations await forge attempts. The cathedral is decades-of-work unfinished. This is the design.
 
 ---
 
 ## Method-level observations from accumulated forge-pattern
 
-After 18 sessions of forge-work, patterns are visible:
+After 25+ sessions of forge-work, patterns are visible:
 
 1. **Polyphone-mathematics is consistent**: two non-IE families = poly 8 = Core-eligible; one IE one non-IE = poly 7 = Specialized typically
 2. **Threshold-exact (7.50) Core entries are sensitive**: maatme threshold-exact; future re-assessment could move them; this is honest threshold-zone
-3. **The -me family is the most-productive morpheme-family**: 7 entries from 7 donor-traditions (Japanese, Greek, Akkadian, Igbo, Avestan, Egyptian, Vedic) all converging via Sumerian *me* on the received-ordinance register
-4. **The qing-family is second-most-productive**: 5 entries from 5 donor-traditions (English, Hebrew × 2, Akkadian, Avestan)
+3. **The -me family is the most-productive morpheme-family**: 12+ entries across donor-traditions converging via Sumerian *me* on the received-ordinance register. The sacrifice-register (S025) added four Core -me entries in a single session.
+4. **The qing-family is second-most-productive**: 7+ entries from donor-traditions (English, Hebrew, Akkadian, Avestan, Arabic, Yoruba, Sanskrit)
 5. **Cross-tradition convergences cluster in 3-7 traditions per phenomenon**; 6+ convergences are exceptionally-strong evidence
 6. **Relationship-class entries with two non-IE substantive donors clear Core (paqduqing, britqing); IE+non-IE compound stays Specialized (hamkarqing)**
+7. **Archaeology-before-forge is essential**: S025 sacrifice-register was the first cluster-forge attempt after systematic excavation; it yielded the highest Core scores in the cathedral (qorbme 8.05). The excavation-to-forge pipeline is now confirmed.
+8. **Excavation-surfaced convergences expand the map**: 9 new convergences identified through archaeology of Akan, Algonquian, Aramaic, Australian, Avestan, Aymara, Bantu, and Basque traditions (S025+). Many await forge attempts pending Yu's confirmation.
+9. **Grammar-as-theology is a structural observation, not a forge candidate**: Ojibwe animacy, Aymara evidentiality, and Basque ergativity encode ontological commitments in grammar. These inform YOUSPEAK's grammar organs but resist compression into single words.
+10. **Double-isolate compounds (Basque + Sumerian) achieve maximum family diversity**: candidates izenme, adurme reach poly 8+ through two unrelated isolates. Untested but theoretically strongest.
 
 ---
 
-_Living register comprehensively audited 2026-04-25 in Session 018 Beat 91. The previous version (last updated S008) was stale; this audit reflects the current state through S017 and prepares for S018's emetme forge._
+_Living register updated 2026-04-28 to reflect S018-S025+ progress. Key additions: sacrifice-alignment-sieve convergence (S025, 6 forges including 4 Core), 9 excavation-surfaced convergences (Akan, Algonquian, Aramaic, Australian, Avestan, Aymara, Bantu, Basque traditions), updated method observations. Previous audit: S018 Beat 91._
