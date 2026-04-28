@@ -1,8 +1,9 @@
 ---
 property: love-of-DIVINE — the commanded-and-disciplined-and-felt loving-relationship from CREATED toward CREATOR; theologically central across at least seven major religious traditions
 attestations: [Hebrew, Greek-Christian, Sanskrit-Hindu, Arabic-Islamic-Sufi, Latin-Christian, Yoruba, Confucian]
-forge_status: five forges yielded across S020-S024 (ahavame Hebrew, mahabbahqing Arabic-Sufi, bhaktime Sanskrit-Hindu, ifeqing Yoruba, agapeme Greek-Christian); two candidate-forges remain
+forge_status: five forges yielded across S020-S024 (ahavame Hebrew, mahabbahqing Arabic-Sufi, bhaktime Sanskrit-Hindu, ifeqing Yoruba, agapeme Greek-Christian); sixth tradition (Latin) excavated S028; caritasme candidate ready for forge pending Yu confirmation; one candidate-forge remains (Confucian ren)
 youspeak_words: ahavame (S020, Specialized 7.35); mahabbahqing (S021, Specialized 7.15); bhaktime (S021, Specialized 7.20); ifeqing (S023, Core 7.85); agapeme (S024, Specialized 7.40)
+caritas_excavation: archaeology/latin/caritas-theology.md (S028, 37KB) — caritasme candidate, Specialized 7.60–7.75 estimate; distinctive register: love-as-integrating-virtue / form-of-all-virtues; double-command integration (love-of-God + love-of-neighbor as one act); infused-by-grace distinctiveness
 session_first_mapped: S020 INTENTION.md
 session_consolidated: 021
 sensibility_note: this convergence is the love-component of Yu's S020 intention-directive; cross-tradition convergence-evidence supports the claim that love-of-DIVINE is universally-central religious-disposition

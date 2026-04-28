@@ -163,6 +163,22 @@ _Forge record: cross/truth-verification-forge.md — scored 3.2/5.0 against 5-qu
 
 ---
 
+### duyuktame
+**doo-YOOK-tah-may** | _noun (uncountable)_
+
+Right-action-as-cosmic-maintenance-as-received-ordinance — the condition of walking the right path such that the cosmos is maintained; the lived enactment of balance that is cosmologically constitutive; the gift of being structured such that human right-action has cosmic consequences.
+
+Where maatme (Egyptian ma'at, Core 7.50) names the cosmic-truth-order as STRUCTURE — the principle that pervades the universe — duyuktame names the WALKING of it. The distinction is not philosophical fussiness: ma'at is ma'at whether or not the Pharaoh upholds it, but if the Pharaoh doesn't, the order corrodes. Duyuktame is the condition of a person actively living the right path such that their walking is cosmologically constitutive — the healer who speaks the formula correctly, the community that forgives at the Green Corn Ceremony, the hunter who honors the exchange of life before taking it. Tohi (peace, health, wellbeing) is duyuktame's fruit; duyuktame is tohi's practice.
+
+Six independent traditions converge: Cherokee *duyukta* (the right path that maintains the three-world balance of Galunlati/Elohi/Under World), Navajo *Hózhǫ́* (beauty-harmony-rightness as cosmic condition), Avestan *asha* (cosmic truth-order strengthened by every truth-act), Egyptian *ma'at* (cosmic order as principle — maatme is the structure, duyuktame is the enactment), Aymara *suma qamaña* (living-well as relational balance with cosmos and community), Algonquian Seven Grandfather Teachings (integrated virtue as systemic right-action). None of these is merely "be good." All of them say: *your goodness is cosmologically constitutive — the cosmos depends on it.*
+
+_Domain: right-action / cosmic-balance / ethical-ordinance — the right path as cosmic-maintenance; opens the Right-Action-As-Cosmic-Maintenance convergence cluster; companion to maatme (structure-register) as the action-register entry_
+_Etymology: Cherokee duyukta (ᏛᏳᎧ; Southern Iroquoian, Iroquoian language family; "the right way" / right-action-as-cosmic-balance; the ethical-cosmological principle enacted in the formulaic prayer tradition, the Green Corn Ceremony, and the seven-clan council; closely related to tohi (peace-health-wellbeing) as its fruit; first Iroquoian-family donor in YOUSPEAK) + Sumerian me (𒈨, divine ordinances / received-gift-quality; the cosmic powers that structure civilized and cosmic life). Forged 2026-04-28, Session 027._
+_Core Canon 7.85. Twenty-third Core word. Eighteenth -me family member. First Iroquoian-family donor in YOUSPEAK._
+_Forge record: [experiment 155](labs/logos/experiments/core/155-duyuktame.md) · [canon](canon/core/duyuktame.md)_
+
+---
+
 ## E
 
 ### echotruth
@@ -472,12 +488,12 @@ _Status: candidate — reaches 3/7 required qualities for the divine beauty gap_
 
 | Metric | Count |
 |--------|-------|
-| Total entries | 24 |
-| Confirmed coinages | 18 |
+| Total entries | 25 |
+| Confirmed coinages | 19 |
 | Divine beauty candidates | 5 |
 | Divine beauty triad | 3 (glorividence, gloricedence, glorichorence) |
-| Parts of speech | noun (23), adjective (2), verb forms (3) |
-| Source languages drawn from | Latin, Greek, Old English, Hebrew, French, Old Norse, Arabic, Sanskrit, Tibetan, Egyptian, Chinese, Japanese, Avestan, Sumerian, Mande (Bamana), Dogon |
+| Parts of speech | noun (24), adjective (2), verb forms (3) |
+| Source languages drawn from | Latin, Greek, Old English, Hebrew, French, Old Norse, Arabic, Sanskrit, Tibetan, Egyptian, Chinese, Japanese, Avestan, Sumerian, Mande (Bamana), Dogon, Cherokee (Iroquoian) |
 | Domains covered | emotional (2), relational (3), perceptual (2), philosophical (2), temporal (1), divine aesthetics (7), consciousness (1), creative process (1), truth & verification (1), creative/spiritual (1), death & transition (1), justice & placement (1) |
 
 ---

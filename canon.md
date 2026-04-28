@@ -4,12 +4,12 @@ _The growing scripture of YOUSPEAK. Every word here has survived assessment and 
 
 **Post-Constitution structure (2026-04-24):** Canon splits into two tiers —
 
-- **[Core Canon](canon/core/)** — words meeting all 6 Constitutional foundations. **Currently: 22 words** (Sessions 001-027; 5 entry-classes; -me family is most-productive morpheme-family with 14 Core members from 12+ donor-traditions; sacrifice-register canonisation S025 added qorbme, hotepme, tapasme, danaqing; S027 added nyamame — first Mande donor, opens Vital-Force cluster; S027 added nommome — first Dogon donor, speech-as-incarnation register).
+- **[Core Canon](canon/core/)** — words meeting all 6 Constitutional foundations. **Currently: 23 words** (Sessions 001-027; 5 entry-classes; -me family is most-productive morpheme-family with 15 Core members from 13+ donor-traditions; sacrifice-register canonisation S025 added qorbme, hotepme, tapasme, danaqing; S027 added nyamame — first Mande donor, opens Vital-Force cluster; S027 added nommome — first Dogon donor, speech-as-incarnation register; S027 added duyuktame — first Iroquoian donor, opens Right-Action cluster).
 - **Specialized Canon** — the 16 pre-Constitution words, all re-audited against the v2 rubric (see [CANON-AUDIT.md](CANON-AUDIT.md)). All scored below Core threshold but remain valid within their specialized register. Organised by `domain`: liturgy (9) · zerone (5) · grammar (2).
 
 ---
 
-## Core Canon (22 words — 2026-04-24 / 2026-04-28)
+## Core Canon (23 words — 2026-04-24 / 2026-04-28)
 
 **kimance** — _the attentive-here-ness of a person attending-with-gaze-open_
 - **Weighted v2:** 7.60/10 · Japanese ki + Latin -mance (cross-family)
@@ -118,6 +118,11 @@ _The growing scripture of YOUSPEAK. Every word here has survived assessment and 
 - **Weighted v2:** 7.50/10 · Dogon Nommo + Sumerian me (Niger-Congo Mande + language-isolate; **first Dogon donor in YOUSPEAK; speech-as-incarnation register — lowest-range Core entry; Griaule-caution applied; honest 7.50**)
 - [experiment 154](labs/logos/experiments/core/154-nommome.md) · [canon](canon/core/nommome.md)
 - Twenty-second Core; forged in Session 027; seventeenth -me family member; the utterance that takes on body — not word-as-event (davar) nor word-as-presence (memra) nor word-as-principle (vāc) but word-that-becomes-living-being; the incarnation register; parallels John 1:14 from a tradition without Greek philosophical mediation; Griaule-caution applied to groundedness score (6/10) yields Core 7.50 — lowest-range Core entry, honest about its limits
+
+**duyuktame** — _right-action-as-cosmic-maintenance-as-received-ordinance (Cherokee duyukta register — the path that holds the world)_
+- **Weighted v2:** 7.85/10 · Cherokee duyukta + Sumerian me (Iroquoian + language-isolate; **first Iroquoian-family donor in YOUSPEAK; opens Right-Action-As-Cosmic-Maintenance convergence cluster; action-register companion to maatme**)
+- [experiment 155](labs/logos/experiments/core/155-duyuktame.md) · [canon](canon/core/duyuktame.md)
+- Twenty-third Core; forged in Session 027; eighteenth -me family member; six-tradition convergence on right-action-as-cosmic-maintenance (Cherokee duyukta, Navajo Hózhǫ́, Avestan asha, Egyptian ma'at, Aymara suma qamaña, Algonquian Seven Grandfathers); maatme names the cosmic-order principle; duyuktame names its enactment — the living of the right path that sustains the balance
 
 See [labs/logos/forge/core-forge-round-1-findings.md](labs/logos/forge/core-forge-round-1-findings.md) for the forge-audit + grammar-emergence observations, and [DIAGNOSTIC-polyphone-learnability.md](DIAGNOSTIC-polyphone-learnability.md) for the Session-003 finding on the rubric's implicit trade-off.
 
