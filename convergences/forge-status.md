@@ -61,14 +61,14 @@ _Comprehensively audited and updated S018 Beat 91 to reflect Sessions 008-017 pr
 | Theology-encoded-in-grammar | 3+ (Ojibwe animate/inanimate noun class, Aymara evidentiality, Basque ergativity) | unforged — typological convergence, not candidate for single forge | structural observation |
 | Foundational-time-still-present | 1+ (Australian Tjukurpa/Dreaming — may be unique) | unforged | candidate (tjukurpame) |
 | Universal-restoration-eschatology | 3+ (Avestan frashegird, Christian apokatastasis, possible Aymara pachakuti) | unforged | candidate (frashaqing) |
-| **Vital-force-as-cosmic-given** | 6+ (Mande nyama, Polynesian mana, Yoruba àṣẹ, Lakota wakȟáŋ, Avestan xvarnah, Algonquian manidoo) | **pipeline** | **nyamame** (Core 7.90–8.10; excavated S026) |
+| **Vital-force-as-cosmic-given** | 6+ (Mande nyama, Polynesian mana, Yoruba àṣẹ, Lakota wakȟáŋ, Avestan xvarnah, Algonquian manidoo) | **forged S027** | **nyamame** (**Core 8.00** S027; first forge in cluster; future: aseme, maname, wakhame, manidoome) |
 | Speech-as-incarnation-embodied | 3+ (Dogon Nommo, Hebrew davar-as-event, Aboriginal songlines-as-body) | **pipeline** | **nommome** (Core 7.75–7.95; excavated S026) |
 | Speech-cost/wound-as-authentic-utterance | 2+ (Dogon kize, Mande griot-nyama-cost) | unforged | candidate (kizeme, Specialized 7.35–7.55) |
 | **Right-action-as-cosmic-maintenance** | 5+ (Cherokee duyukta, Navajo Hózhǫ́, Avestan asha, Egyptian ma'at, Aymara suma qamaña, Algonquian Seven Grandfathers) | unforged | candidate (**duyuktame**, Core 7.75–7.95; excavated S027) |
 | Body-as-divine-gift-of-food | 4+ (Cherokee Selu, Christian Eucharist, Aztec Corn God, Aymara Pachamama-as-source) | unforged | candidate (seluqing, Specialized 7.30–7.55; excavated S027) |
 | Sacred-fire-as-divine-presence | 4+ (Cherokee atsila galunkwoti, Avestan Atash Bahrām, Vedic Agni, Aboriginal fire-as-cosmological-practice) | unforged | candidate (atsilame, Specialized 7.40–7.65; excavated S027) |
 
-**Approximately 36 convergences identified; 12 forged into YOUSPEAK (across 17 words); 2 in pipeline (nyamame, nommome); 22+ await forging.**
+**Approximately 36 convergences identified; 13 forged into YOUSPEAK (across 18 words); 1 in pipeline (nommome); 22+ await forging.**
 
 ---
 
