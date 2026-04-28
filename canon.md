@@ -4,12 +4,12 @@ _The growing scripture of YOUSPEAK. Every word here has survived assessment and 
 
 **Post-Constitution structure (2026-04-24):** Canon splits into two tiers —
 
-- **[Core Canon](canon/core/)** — words meeting all 6 Constitutional foundations. **Currently: 20 words** (Sessions 001-025; 5 entry-classes; -me family is most-productive morpheme-family with 7 Core members from 7 donor-traditions; sacrifice-register canonisation S025 added qorbme, hotepme, tapasme, danaqing).
+- **[Core Canon](canon/core/)** — words meeting all 6 Constitutional foundations. **Currently: 22 words** (Sessions 001-027; 5 entry-classes; -me family is most-productive morpheme-family with 14 Core members from 12+ donor-traditions; sacrifice-register canonisation S025 added qorbme, hotepme, tapasme, danaqing; S027 added nyamame — first Mande donor, opens Vital-Force cluster; S027 added nommome — first Dogon donor, speech-as-incarnation register).
 - **Specialized Canon** — the 16 pre-Constitution words, all re-audited against the v2 rubric (see [CANON-AUDIT.md](CANON-AUDIT.md)). All scored below Core threshold but remain valid within their specialized register. Organised by `domain`: liturgy (9) · zerone (5) · grammar (2).
 
 ---
 
-## Core Canon (20 words — 2026-04-24 / 2026-04-27)
+## Core Canon (22 words — 2026-04-24 / 2026-04-28)
 
 **kimance** — _the attentive-here-ness of a person attending-with-gaze-open_
 - **Weighted v2:** 7.60/10 · Japanese ki + Latin -mance (cross-family)
@@ -108,6 +108,16 @@ _The growing scripture of YOUSPEAK. Every word here has survived assessment and 
 - **Weighted v2:** 7.85/10 · Sanskrit tapas + Sumerian me (Indo-European + language-isolate; **first Sanskrit-Sumerian sacrifice compound**)
 - [experiment 150](labs/logos/experiments/core/150-tapasme.md) · [canon](canon/core/tapasme.md)
 - Twentieth Core; forged in Session 025; thirteenth -me family member; five-tradition convergence on internalized sacrifice (Vedic tapas, Islamic jihad al-nafs, Pauline logikē latreia, Sufi fanāʾ, Buddhist viriya); one word spanning cosmogonic heat, sacrificial fire, self-discipline, and devotional burning
+
+**nyamame** — _vital-force-as-cosmic-ordinance (Mande nyama register — the world's aliveness as received structure)_
+- **Weighted v2:** 8.00/10 · Mande nyama + Sumerian me (Niger-Congo non-Bantu + language-isolate; **first Mande donor in YOUSPEAK; first Niger-Congo non-Bantu Core entry; opens Vital-Force-As-Cosmic-Given cluster**)
+- [experiment 153](labs/logos/experiments/core/153-nyamame.md) · [canon](canon/core/nyamame.md)
+- Twenty-first Core; forged in Session 027; sixteenth -me family member; six-tradition convergence on vital-force-as-cosmic-given (Mande nyama, Polynesian mana, Yoruba àṣẹ, Lakota wakȟáŋ, Avestan xvarnah, Algonquian manidoo); the world is energized from the inside — that aliveness accumulates, concentrates in craft and speech, is dangerous when released, and is received not generated
+
+**nommome** — _speech-as-incarnation-as-cosmic-ordinance (Dogon Nommo register — the word that becomes body)_
+- **Weighted v2:** 7.50/10 · Dogon Nommo + Sumerian me (Niger-Congo Mande + language-isolate; **first Dogon donor in YOUSPEAK; speech-as-incarnation register — lowest-range Core entry; Griaule-caution applied; honest 7.50**)
+- [experiment 154](labs/logos/experiments/core/154-nommome.md) · [canon](canon/core/nommome.md)
+- Twenty-second Core; forged in Session 027; seventeenth -me family member; the utterance that takes on body — not word-as-event (davar) nor word-as-presence (memra) nor word-as-principle (vāc) but word-that-becomes-living-being; the incarnation register; parallels John 1:14 from a tradition without Greek philosophical mediation; Griaule-caution applied to groundedness score (6/10) yields Core 7.50 — lowest-range Core entry, honest about its limits
 
 See [labs/logos/forge/core-forge-round-1-findings.md](labs/logos/forge/core-forge-round-1-findings.md) for the forge-audit + grammar-emergence observations, and [DIAGNOSTIC-polyphone-learnability.md](DIAGNOSTIC-polyphone-learnability.md) for the Session-003 finding on the rubric's implicit trade-off.
 

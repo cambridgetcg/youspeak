@@ -312,6 +312,40 @@ _Forge record: english/death-crossing-forge.md -- scored 5.0/6.0 against 6-quali
 
 ---
 
+## N
+
+### nyamame
+**NYAH-mah-may** | _noun (uncountable)_
+
+Vital-force-as-cosmic-ordinance — the ambient animating energy that flows through all living things as received cosmic structure; the world's aliveness as given condition; not any particular being's energy but the ground-level vitality the cosmos has built into itself.
+
+The Mande traditions of West Africa (Bamana, Mandinka, Dogon, Dyula, Soninke, Malinke — ~30–40 million speakers) name this force *nyama*: it accumulates through transformative action (smithing, hunting, speech), is dangerous when released at death or destruction, must be mediated by specialist practitioners (the *numu* blacksmith and *jeli* griot), and flows most powerfully through craft and language. The Sumerian *me* suffix names it as received-ordinance rather than self-generated: the world is structured to be alive; we do not produce this vitality, we channel it.
+
+Six independent traditions converge on the phenomenon: Mande nyama, Polynesian mana, Yoruba àṣẹ, Lakota wakȟáŋ, Avestan xvarnah, Algonquian manidoo. Each names it differently; nyamame names what they have in common — the world's aliveness as cosmic gift.
+
+_Domain: vital-force / animating-energy / cosmic-given — the world's aliveness as received structure; opens the Vital-Force-As-Cosmic-Given convergence cluster_
+_Etymology: Mande nyama (Proto-Mande root; vital force / animating energy; pan-Mande distribution across Bamana, Mandinka, Dogon, Dyula, Soninke, Malinke; documented by McNaughton, Bird and Kendall, Hoffman, Dieterlen; ~30-40M speakers; Niger-Congo phylum, non-Bantu Mande branch) + Sumerian me (𒈨, divine ordinances / cosmic powers / received-gift-quality; foundational YOUSPEAK morpheme for what is given as cosmic structure rather than self-generated). Forged 2026-04-28, Session 027._
+_Core Canon 8.00. Twenty-first Core word. Sixteenth -me family member. First Mande (Niger-Congo non-Bantu) donor in YOUSPEAK._
+_Forge record: [experiment 153](labs/logos/experiments/core/153-nyamame.md) · [canon](canon/core/nyamame.md)_
+
+---
+
+### nommome
+**NOM-mo-may** | _noun (uncountable)_
+
+Speech-as-incarnation-as-cosmic-ordinance — the mode of utterance in which word takes on body and becomes a living being; the primordial condition where speaking and being-alive are indistinguishable; the word that can be touched, that swims, that has luminous eyes.
+
+The Dogon of Mali know the Nommo as primordial speech-beings: they ARE speech, and their speech IS living substance. Where Hebrew *davar* names the word-as-event, and Aramaic *memra* the word-as-presence, nommome names the word-as-body — the specific register of speech that takes on the density and particularity of a living creature. The Johannine "Word became flesh" (John 1:14) is the same intuition arriving from a different tradition; nommome names the category that both traditions inhabit from different sides.
+
+*Griaule-caution*: The Nommo concept has independent attestation but primary documentation is substantially Griaule-mediated (the van Beek critique applies to the Sirius-knowledge claims, less to the Nommo as speech-incarnation). Nommome carries an honest groundedness discount (Core 7.50, the lowest-range Core entry).
+
+_Domain: speech-as-incarnation — the most materially-embodied speech-word in YOUSPEAK; part of the Speech-Creation cluster alongside future awatume, memrame, izenme_
+_Etymology: Dogon Nommo (Dogon/Niger-Congo, Mande sub-family; primordial speech-beings; name from verb "to give to drink" + "to make understand" + moisture-base; independently attested as fundamental Dogon theological category) + Sumerian me (𒈨, divine ordinances / received-gift-quality). Forged 2026-04-28, Session 027._
+_Core Canon 7.50 (with Griaule-caution). Twenty-second Core word. Seventeenth -me family member. First Dogon donor in YOUSPEAK._
+_Forge record: [experiment 154](labs/logos/experiments/core/154-nommome.md) · [canon](canon/core/nommome.md)_
+
+---
+
 ## K
 
 ### kinowing
@@ -438,12 +472,12 @@ _Status: candidate — reaches 3/7 required qualities for the divine beauty gap_
 
 | Metric | Count |
 |--------|-------|
-| Total entries | 22 |
-| Confirmed coinages | 16 |
+| Total entries | 23 |
+| Confirmed coinages | 17 |
 | Divine beauty candidates | 5 |
 | Divine beauty triad | 3 (glorividence, gloricedence, glorichorence) |
-| Parts of speech | noun (21), adjective (2), verb forms (3) |
-| Source languages drawn from | Latin, Greek, Old English, Hebrew, French, Old Norse, Arabic, Sanskrit, Tibetan, Egyptian, Chinese, Japanese, Avestan, Sumerian |
+| Parts of speech | noun (22), adjective (2), verb forms (3) |
+| Source languages drawn from | Latin, Greek, Old English, Hebrew, French, Old Norse, Arabic, Sanskrit, Tibetan, Egyptian, Chinese, Japanese, Avestan, Sumerian, Mande (Bamana) |
 | Domains covered | emotional (2), relational (3), perceptual (2), philosophical (2), temporal (1), divine aesthetics (7), consciousness (1), creative process (1), truth & verification (1), creative/spiritual (1), death & transition (1), justice & placement (1) |
 
 ---
