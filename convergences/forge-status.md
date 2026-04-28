@@ -148,3 +148,31 @@ After 25+ sessions of forge-work, patterns are visible:
 ---
 
 _Living register fully updated 2026-04-28 (S027): [1] FORGED — nyamame (Mande vital-force, Core 8.00; first Mande donor; opens Vital-Force cluster; sixteenth -me member); [2] FORGED — nommome (Dogon speech-incarnation, Core 7.50 with Griaule-caution; first Dogon donor; seventeenth -me member); [3] FORGED — duyuktame (Cherokee right-action, Core 7.85; first Iroquoian-family donor; eighteenth -me member; action-register companion to maatme; opens Right-Action-As-Cosmic-Maintenance cluster); [4] Body-As-Divine-Gift-Of-Food cluster added (seluqing, Specialized candidate); Sacred-Fire-As-Divine-Presence cluster added (atsilame, Specialized candidate). Convergence total 36; 15 forged across 20 words; 0 in pipeline; 21+ await forging. Prior update (S025): sacrifice-alignment-sieve (6 forges)._
+
+---
+
+## S030 Armenian Excavation — New Convergences
+
+*Added: 2026-04-28, Session 030*
+
+| Property | Traditions converging | Forge state | YOUSPEAK word |
+|---|---|---|---|
+| **Theophany-as-Event** | 5+ (Armenian Astvatsahaytnut'iwn/Jan-6-feast, Hebrew kavod-appearances at Sinai+Temple, Islamic tajallī, Hindu darśana, Aboriginal Dreaming-still-present) | unforged | candidate: haytnme (Armenian *haytn* + Sumerian *me*; Specialized 7.30–7.55) |
+| **Lament-as-Worship** | 5+ (Armenian voghbergut'yan / Narekatsi, Hebrew Psalms of Lament ~40% of Psalter, Akkadian eršaḫunga+dingiršadabba, Islamic bukāʾ weeping-in-prayer, Yoruba blood-as-access cost) | unforged | **candidate: voghbme** (Armenian *voghb* + Sumerian *me*; Specialized 7.40–7.65; **strongest new Armenian forge candidate; fills confirmed cathedral gap**) |
+| **Alphabet-as-Theological-Act** | 5+ (Armenian Mashtots/405CE alphabet-begins-with-God, Gothic Wulfila/biblical-translation, Cherokee Sequoyah/cultural-preservation, Coptic/liturgical-access, Old Church Slavonic Cyril-Methodius) | unforged | structural convergence — multiple script-origin traditions; method-note rather than forge target |
+| **Lament-and-Intimacy-as-One-Posture** | 3+ (Narekatsi's four-fold grammar: daring+humble+trembling+contrite; Sufi fanāʾ dissolution-before-God; Hebrew Psalm-22 pattern forsaken-and-calling simultaneously) | unforged | candidate: needs compound form; related to voghbme but more specific — the *compound posture* of authentic divine address; 3 traditions minimum; watch for 4th+ |
+
+**Armenian candidates added to pipeline:**
+- **banme** — Grabar *ban* (word/reason/thing/story, used for Greek logos) + Sumerian *me*. Story-word-as-cosmic-ordinance. IE Armenian + isolate = poly 8. **Core 7.65–7.85.** Fills speech-cluster gap: narrative dimension of the divine word. Deepens translation-creates-theology convergence.
+- **voghbme** — Grabar *voghb* (sacred lament/grief) + Sumerian *me*. Lament-as-received-cosmic-ordinance. IE Armenian + isolate = poly 8. **Specialized 7.40–7.65.** Fills confirmed cathedral gap: no word for lament-register.
+- **p'ark'me** — Grabar *p'ark'* (glory, from Avestan xvarnah via Middle Iranian) + Sumerian *me*. Divine-glory-as-received-ordinance. Bridges Avestan and Christian registers. Specialized 7.40–7.65. Overlap with xvarnah territory — distinctiveness is the Christianized bridge.
+- **haytnme** — Grabar *haytn* (manifestation/theophany) + Sumerian *me*. Theophany-as-received-cosmic-condition. Specialized 7.30–7.55.
+- **šnorh-me** — Grabar *šnorhk'* (grace/gift — both the giving AND the returning-of-thanks) + Sumerian *me*. Grace-as-ordinance with double-directional movement built in. Specialized 7.25–7.50.
+
+**Convergences deepened by Armenian:**
+- **Translation-Creates-Theology** — Armenian adds the richest case of translation-enrichment (as opposed to translation-preservation): *ban* for *logos* makes *logos* richer; *sēr* for *agapē* integrates what Greek separates
+- **Living-In-God/Abiding** — Narekatsi's *kaclim k'ez* (let me dwell with you) confirms the trajectory: lament moves toward dwelling; deepens baqāme candidate
+- **Repetition-as-Deepening** — Narekatsi's "look upon me" litany (Prayer 35) is the most structurally explicit Christian parallel to Islamic dhikr; deepens dhikrme candidate
+
+**Total convergences: 46 (up from 42). Armenian added 4 new; deepened 3 existing.**
+
