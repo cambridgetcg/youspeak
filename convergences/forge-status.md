@@ -392,3 +392,59 @@ Pipeline additions: **ma'atme** (HIGH), **axiome** (MED-HIGH)
 Wind cluster: now 7 traditions → forge word for this convergence elevated to **HIGH PRIORITY**
 
 **S036 totals: ~68 convergences mapped (5 new deepened: Wind-as-substance now 7 traditions, Inversion-as-spiritual-technology confirmed cross-traditional, Disciplined-longing-as-architecture, Divine-maternal-as-transmission, Heart-as-battleground); 15 forged; 8 in pipeline (caritasme, renme, darśaname, bhaktame [S034] + tongleme, terme [S035] + ma'atme, axiome [S036]); archaeology files: 35 traditions.**
+
+---
+
+## S037 — Cushitic–Berber Excavation
+
+*Added: 2026-04-29, Session 037*
+
+**Excavation**: `archaeology/cushitic_berber/oromo-waaqa-ayyaana.md` (298 lines) + `archaeology/cushitic_berber/berber-tifinagh-tuareg.md` (262 lines); 560 lines total.
+
+### File 1: Oromo — Waaqa, Ayyaana, Safuu (Cushitic/Afroasiatic)
+
+Scope: Oromo Waaqeffanna theology (non-Abrahamic East African monotheism); Waaqa as high-god (Waaqa Tokkicha — One God; relational possessive *keenya* = Our Waaqa); ayyaana (distributed spirit-aspect constituting each creature's vitality; individual + clan + cosmological force + blessing + festival); safuu (sacred-relational-order; the interpersonal-cosmological fabric; *safuu cabse du'a dhufa* — violate safuu, death comes); Gadaa (age-grade governance as Waaqa-delegated bounded-time-authority); qa'ee (homeland as ontological-belonging; exile as spirit-severing); Sidamo (Magáno, woma, seera); Hadiyya (Waaqa + agricultural overlay); Somali Waaq substrate (displacement archaeology: Waaq → Alle). 298 lines.
+
+### File 2: Berber/Tifinagh/Tuareg — Amazigh Cosmology (Berber/Afroasiatic)
+
+Scope: Tifinagh script origins (Libyco-Berber, ~3rd c. BCE; Numidian inscriptions; Neo-Tifinagh modernization); Tuareg Tifinagh as **women's script** (dual-script theology: Arabic = formal/Islamic surface; Tifinagh = intimate/pre-Islamic substrate); Numidian theonyms (Bonchor, Ifri/Africa etymology, Anzar rain-deity, Tafukt sun-deity); Tuareg Kel Essuf (wilderness-spirits; essuf = sacred-empty-space; aman iman = "water is soul"); tende ceremony (mortar-drum; grain-vessel inverted to spirit-vessel = third inversion-technology instance); ehan/tisiway (love-longing as primary use of sacred Tifinagh script — independent confirmation of YOUSPEAK's longing-as-motor); Anzar sacred-marriage-as-gift-economy; Guanche (Canary Islands preserved pre-Islamic Berber theology: Acoran/Abora, Magec, Guayota). 262 lines.
+
+### New forge candidates (S037)
+
+| Candidate | Source | Target | Polyphone | Estimate | Priority |
+|---|---|---|---|---|---|
+| **ehanme** | Tuareg *ehan* (longing/love ache) | Sacred-ache as primary speech act; longing as content of the sacred script; love-as-cosmologically-primary | Afroasiatic (Berber) + ? | Specialized 7.40–7.60 | **VERY HIGH** — maps directly onto YOUSPEAK founding metaphor; only tradition in cathedral that reserved sacred script for longing-poetry |
+| **ayyaanme** | Oromo *ayyaana* | Spirit-aspect as constitutive divine-distribution; guardian-self that IS rather than accompanies; Waaqa's presence through creature's vitality | Afroasiatic (Cushitic) + ? | Specialized 7.35–7.55 | HIGH — genuine conceptual gap; distributed-presence theology |
+| **safuume** | Oromo *safuu* | Relational-sacred-order; cosmological dignity as interpersonal-ethical ground; moral horror at order-violation | Afroasiatic (Cushitic) + ? | Specialized 7.35–7.50 | HIGH — complements *maatme*; distinct interpersonal register |
+| **amanme** | Tuareg *aman iman* | Soul as water-in-motion; life as flowing-gift; community-forming flow | Afroasiatic (Berber) + ? | Specialized 7.30–7.50 | HIGH — water-soul identity claim; complements *ayyaanme* |
+| **essufme** | Tuareg *essuf* | Sacred-wilderness; undifferentiated-void as presence; the empty-beyond-community | Afroasiatic (Berber) + ? | Specialized 7.25–7.45 | MED — unique gap; wilderness-as-sacred-presence |
+| **ifrime** | Amazigh *ifri* | Original-dwelling; sacred-hollow as womb-of-emergence; origin-as-shelter | Afroasiatic (Berber) + ? | Specialized 7.20–7.40 | MED-HIGH — fills origin-as-hollow register |
+
+### Deepened convergences (S037)
+
+| Convergence | New contribution | Updated traditions | Notes |
+|---|---|---|---|
+| **Inversion-as-Spiritual-Technology** | Tuareg tende: grain-mortar inverted to spirit-drum (3rd mechanism) | Tibetan tonglen + Coptic fraction + Tuareg tende | Now 3 traditions, 3 distinct mechanisms (breath-inversion / breaking-distribution / vessel-inversion). Pattern is robust. Warrants dedicated forge candidate |
+| **Distributed-Presence Monotheism** | Oromo Waaqa/ayyaana: God present through distributed spirit-aspects; no institutional intermediary needed | Akan Onyame/kra + Egyptian Ra/ka + Hebrew YHWH/rûaḥ + Oromo Waaqa/ayyaana | New convergence. Four traditions (3 African + 1 Semitic) solve transcendence-problem through distributed-spirit cosmology rather than institutions |
+| **Sacred-Order-as-Relational-Fabric** | Oromo *safuu* — interpersonal-ethical form of cosmic order | Egyptian Ma'at + Avestan asha + Vedic ṛta + Oromo safuu | Deepens ma'at cluster; safuu adds the specifically interpersonal-relational scale |
+| **Sacred-Marriage-as-Gift-Economy** | Amazigh Anzar: community-as-bride receives rain-as-gift | Sumerian Inanna/Dumuzi + Hebrew Song of Songs + Coptic fraction-Eucharist + Amazigh Anzar | New convergence; erotic register of divine-human relationship as life-gift-economy |
+| **Feminine-Sacred-Preservation** | Tuareg women hold Tifinagh + tende + love-poetry; Guanche *Idafahán* | Coptic/Egyptian (Theotokos/Isis) + Akan (Obaatanpa) + Tuareg women + Guanche virgins | New convergence; feminine figures as actual preservation-agents of sacred vocabulary when formal-religious surface shifts |
+| **Wind-as-Substance** | Oromo *ayyaana* (spirit from sky/above); Tuareg *aman iman* (water-face of the breath-soul cluster) | 8 traditions confirmed; water-soul face now added | Tuareg adds water-soul as adjacent pattern; ayyaana adds 9th variant |
+
+### Key synthesis (S037)
+
+**Longing as primary**: The most significant single finding of S037 is the Tuareg *ehan/tisiway* pattern — a living tradition that reserved its sacred writing system primarily for love-longing poetry. This is independent external confirmation of YOUSPEAK's foundational metaphor (longing as motor). The cathedral's deepest architectural claim now has an ethnographic witness.
+
+**Distributed-presence monotheism as African pattern**: Oromo/Akan/Egyptian all solve the transcendence-problem the same way — not institutions but distributed-spirit cosmology. The pattern holds across Afroasiatic (Egyptian, Cushitic) and Niger-Congo (Akan) families. This is a pan-African theological convergence distinct from Abrahamic solutions.
+
+**Safuu as *maatme* complement confirmed**: Egyptian Ma'at is cosmological-scale; Oromo safuu is interpersonal-relational-scale. They are the same pattern at different scales of magnification. Two forge words needed to honor both scales.
+
+**Inversion-technology now 3 traditions**: The pattern is confirmed cross-traditional. A forge word for the inversion-technology itself would have poly-3 minimum; with Tibetan (Sino-Tibetan) + Afroasiatic (Cushitic/Berber) + one additional = possible poly-7 Specialized.
+
+### S037 pipeline update
+
+Pipeline additions: **ehanme** (VERY HIGH), **ayyaanme** (HIGH), **safuume** (HIGH), **amanme** (HIGH), **essufme** (MED), **ifrime** (MED-HIGH)
+New convergences: Distributed-Presence-Monotheism, Sacred-Marriage-as-Gift-Economy, Feminine-Sacred-Preservation
+Deepened convergences: Inversion-as-Spiritual-Technology (now 3 traditions), Sacred-Order-as-Relational-Fabric, Wind-as-Substance (now 9 traditions with water-face)
+
+**S037 totals: ~78 convergences mapped (6 new: Distributed-Presence-Monotheism [new], Sacred-Marriage-as-Gift-Economy [new], Feminine-Sacred-Preservation [new], deepened Inversion-technology, Sacred-Order, Wind-cluster extended); 15 forged; 14 in pipeline (8 prior + 6 new: ehanme [VERY HIGH], ayyaanme, safuume, amanme, essufme, ifrime); archaeology files: 37 traditions (36 + cushitic_berber/ 2 files).**
