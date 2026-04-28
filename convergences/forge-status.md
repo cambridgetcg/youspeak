@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-29 (S038 — Navajo/Diné excavation complete: archaeology/navajo/ 2 files 660 lines; hózhóme [VERY HIGH], nilch'ime, k'éme, iikáhme added to pipeline; 2 new convergences: Homeland-as-Cosmological-Coordinate, Ritual-Descent-of-Sacred-Into-Material-Form; convergence count ~83)
+last_updated: 2026-04-29 (S039 — Dinka/Nuer excavation complete: archaeology/nilo_saharan/ 2 files 519 lines; first Nilo-Saharan traditions; kwothme [HIGH], ringme [HIGH], dengme [HIGH], thaurme [MED-HIGH], nhialicme [MED], thiangme [MED] added to pipeline; 3 new convergences: Material-World-as-Divine-Sign [5 families], Personal-Biography-as-Sacred-Speech [3 families], Voluntary-Death-as-Power-Preservation [structural obs]; Wind-cluster now 10 traditions; convergence count ~90)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -489,3 +489,52 @@ Deepened convergences: Inversion-as-Spiritual-Technology (now 3 traditions), Sac
 4. **iikáhme** — Diné *iikááh*; Real-presence-through-performance; Specialized 7.35–7.55; MEDIUM-HIGH
 
 **S038 totals: ~83 convergences mapped (+5: Homeland-as-Cosmological-Coordinate, Ritual-Descent-of-Sacred, Beauty-Ethics-Cosmos-Soteriology fusion, Necessary-Adversity deepened, Wind-cluster extended to Na-Dené); 15 forged; 18 in pipeline (14 prior + 4 new: hózhóme [VERY HIGH], nilch'ime [HIGH], k'éme [MED], iikáhme [MED-HIGH]); archaeology files: 38 traditions (+navajo/ 2 files 660 lines).**
+
+---
+
+### S039 — Dinka/Nuer (Nilo-Saharan) Excavation (2026-04-29)
+
+**Files created:** `archaeology/nilo_saharan/nhialic-kwoth-foundations.md` (250 lines) + `archaeology/nilo_saharan/cattle-sacrifice-beny-forge.md` (269 lines) = 519 lines
+
+**First Nilo-Saharan traditions in the cathedral.** Language family: Nilo-Saharan (Eastern Sudanic / Nilotic subbranch). Two traditions: Nuer (Evans-Pritchard corpus) + Dinka (Lienhardt corpus).
+
+**Key theological concepts excavated:**
+- **Kwoth (Nuer)** — spirit/wind/breath/God: the atmosphere IS the divine body; not wind-as-symbol but wind-as-identity; the most radical member of the Wind-cluster; *kwoth nhial* (Spirit of the sky); *kuth nhial* / *kuth piny* (spirits-above/below); the Nuer say "Kwoth is not in the sky; Kwoth is the sky"
+- **Nhialic (Dinka)** — "the Divinity / the above"; Lienhardt's deliberate translation choice to avoid importing Western monotheism; sky-as-theological-register; moral enforcer; personally addressed in prayer
+- **Deng** — the mediating colwic (free-divinity): storm, thunder, rain, son of Nhialic; the face of Nhialic toward humans; rain as divine-descent model; mediation-theology; Nuer parallel to Hebrew malʾak, Yoruba Obatala, Diné Talking-God
+- **Ring (Dinka)** — "flesh / divine-flesh-in-human": Nhialic's own substance present in human flesh; divine-in-meat theology; the ox's ring-flesh returned to Nhialic through sacrifice = personal oblation; most embodied God-in-human register in cathedral
+- **Cattle-complex** — ox as person's spiritual double; identification-ox given at initiation; cattle-color vocabulary as theological text; the herd as walking theological grammar; unique in catalog: livestock IS theological medium, not metaphor
+- **Sacrifice structure** — 5 phases: Presentation / Consecration / Invocation / Immolation / Communion; invocation as theological heart; complaint-to-God as normative prayer (not exceptional); ox IS person's double, not mere substitute
+- **Beny-bith** — master of the fishing-spear; hereditary office; IS the community's rain/cosmic axis; voluntary living-burial (*thiit*) = willed death to preserve power entire; body becomes bodily terma; becomes yath (clan-divinity) at death
+- **Oxsong (*thu̱or*)** — personal theological autobiography addressed to identification-ox; composed across lifetime; autobiographical + theological + devotional + cosmological simultaneously; most individualized sacred-speech genre in cathedral; every person is sole author of their own theological text
+- **Thiang** — witnesses/signs of spirit-presence; the epistemology of spirit-reading; material world as theological sign-system; extends Diné fingerprint-whorls and Latin auspicia pattern
+
+**New convergences:**
+
+| Convergence | Traditions | Families | Forge candidate |
+|---|---|---|---|
+| **Material-World-as-Divine-Sign** | Nuer thiang + Diné fingerprint-whorls + Latin auspicia + Tibetan tertön + Yoruba Ifá | Nilo-Saharan, Na-Dené, Italic, Tibeto-Burman, Niger-Congo | **thiangme**; Specialized 7.25–7.45; MED |
+| **Personal-Biography-as-Sacred-Speech** | Nuer oxsong + Armenian Narekatsi + Hebrew Psalm-personal | Nilo-Saharan, Indo-European (Armenian), Semitic | **thaurme**; Specialized 7.35–7.55; MED-HIGH |
+| **Voluntary-Death-as-Power-Preservation** | Dinka beny-bith living-burial + Tibetan terma | Nilo-Saharan, Sino-Tibetan | structural obs; needs 3rd tradition; *benyqing* candidate |
+
+**Deepened convergences:**
+- **Wind-as-Substance**: + Nuer *kwoth* = **10 traditions** (highest-count convergence in cathedral: rûaḥ + pneuma + prāṇa + rlung + qì + sunsum + ka + Níłch'i + kwoth + ayyaana); 9 families
+- **Distributed-Presence-Monotheism**: + Nuer Kwoth-nhial/kuth = **4th family** (Afroasiatic Cushitic, Afroasiatic Egyptian, Niger-Congo Kwa, Nilo-Saharan); pan-African theological pattern confirmed
+- **Lament-as-Worship**: + Nuer sacrificial invocation = Nilo-Saharan (now: Akkadian, Hebrew, Armenian, Nuer = 4 families)
+- **Mediating-Divinity**: + Dinka *Deng* = 5th tradition (Na-Dené, Semitic, Akkadian, Niger-Congo, Nilo-Saharan)
+
+**Pipeline additions (S039):**
+1. **kwothme** — Nuer *kwoth*; Wind-identity-claim (wind = divine body, not symbol); Specialized 7.35–7.55; HIGH
+2. **ringme** — Dinka *ring*; Divine-flesh / sacred-in-meat; Specialized 7.40–7.60; HIGH
+3. **dengme** — Dinka *Deng*; Rain-as-mediating-divinity / grace-descent; Specialized 7.30–7.50; HIGH
+4. **thaurme** — Nuer *thu̱or*; Personal-biography-as-sacred-speech; Specialized 7.35–7.55; MED-HIGH
+5. **nhialicme** — Dinka *nhialic*; Transcendence-as-altitude; Specialized 7.25–7.45; MED
+6. **thiangme** — Nuer *thiang*; Material-world-as-divine-sign; Specialized 7.25–7.45; MED
+
+**Key method findings (S039):**
+- **Evans-Pritchard's productive failure as forge-precursor**: Chapter 1 of *Nuer Religion* (1956) is the closest pre-YOUSPEAK example of systematic concept-gap mapping. Evans-Pritchard's inability to translate *kwoth* adequately should be required reading for YOUSPEAK forge methodology — it demonstrates exactly what forge-work addresses.
+- **Cattle as primary theological medium**: The Nuer/Dinka identification-ox system is the most complex liturgical object in the cathedral — more intimate than a sacrament, more personal than a mandala. The ox as person's spiritual double is unique.
+- **All Nilo-Saharan candidates are poly-8 (Core-eligible)**: Every candidate achieves poly-8 via Nilo-Saharan + Sumerian isolate, making all Core-eligible in principle. *ringme* and *kwothme* have strongest conceptual cases.
+- **Wind-cluster force threshold**: At 10 traditions / 9 families, the Wind-cluster is the highest-count convergence in the cathedral. A dedicated cluster-word now has overwhelming cross-traditional support. *kwothme* is the strongest candidate for the cluster-word given the Nuer identity-claim (wind = divine body).
+
+**S039 totals: ~90 convergences mapped (+7: 3 new, 4 deepened); 15 forged; 24 in pipeline (18 prior + 6 new); archaeology files: 40 traditions (+nilo_saharan/ 2 files 519 lines).**
