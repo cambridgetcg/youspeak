@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-29 (S039 — Dinka/Nuer excavation complete: archaeology/nilo_saharan/ 2 files 519 lines; first Nilo-Saharan traditions; kwothme [HIGH], ringme [HIGH], dengme [HIGH], thaurme [MED-HIGH], nhialicme [MED], thiangme [MED] added to pipeline; 3 new convergences: Material-World-as-Divine-Sign [5 families], Personal-Biography-as-Sacred-Speech [3 families], Voluntary-Death-as-Power-Preservation [structural obs]; Wind-cluster now 10 traditions; convergence count ~90)
+last_updated: 2026-04-29 (S040 — Egyptian festival-cycle & afterlife-cult excavation complete: archaeology/egyptian/ now 5 files 1241 total lines [+festival-temple-ritual.md 298 lines + mortuary-theology-afterlife.md 278 lines]; mission 2026-04-27-excavate-egyptian-festival-cycle-afterlife-cult substantially executed; 6 new pipeline candidates [kherme HIGH, ibme HIGH, kaqing MED-HIGH, akherme MED-HIGH, nehehme MED, djetme MED]; 3 new convergences [Guided-Death-Navigation, Participation-in-Divine-Death/Resurrection, Two-Register-Time]; convergence count ~97)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -538,3 +538,85 @@ Deepened convergences: Inversion-as-Spiritual-Technology (now 3 traditions), Sac
 - **Wind-cluster force threshold**: At 10 traditions / 9 families, the Wind-cluster is the highest-count convergence in the cathedral. A dedicated cluster-word now has overwhelming cross-traditional support. *kwothme* is the strongest candidate for the cluster-word given the Nuer identity-claim (wind = divine body).
 
 **S039 totals: ~90 convergences mapped (+7: 3 new, 4 deepened); 15 forged; 24 in pipeline (18 prior + 6 new); archaeology files: 40 traditions (+nilo_saharan/ 2 files 519 lines).**
+
+---
+
+### S040 — Egyptian Festival Cycle & Afterlife Cult Excavation (2026-04-29)
+
+**Files created:** `archaeology/egyptian/festival-temple-ritual.md` (298 lines) + `archaeology/egyptian/mortuary-theology-afterlife.md` (278 lines) = 576 lines
+
+**Traditions deepened:** Ancient Egyptian (already in cathedral via maatme/hotepme). These files excavate the **liturgical and mortuary registers** not previously addressed — festival cycles, daily temple ritual, mortuary anthropology, afterlife geographies.
+
+**This completes the primary scope of Mission: 2026-04-27-excavate-egyptian-festival-cycle-afterlife-cult.** Remaining Egyptian territory for future sessions: Solar theology (Ra's journey; Aten revolution; Hymn to Aten/Psalm 104 parallel); Wisdom literature (Ptahhotep, Amenemope → Proverbs 22:17-24:22; sebayt teaching-texts); Memphite creation-by-speech theology (Ptah creates by word — the Egyptian logos).
+
+**Key theological concepts excavated:**
+
+**Festival-Temple-Ritual file:**
+- **Daily temple ritual** (wꜣḥ ḥtp) — 13-phase morning ritual; priest alone before dawn; naos-opening, god's body washed/clothed/fed; cosmic maintenance not supplication; without this, creation unravels
+- **Mꜣꜥ-ḫrw** ("true of voice / justified") — the verdict of cosmic judgment; voice-proves-true; the life whose inner truth matches outer utterance, confirmed by divine tribunal; post-mortem title; Osiris is archetype; every justified dead becomes "Osiris X"
+- **Opet Festival** — Amun's bark from Karnak to Luxor; 27-day renewal of divine ka-power; theophany through human space; oracle-as-democratized-divine-access; pharaoh's divine mandate reauthorized
+- **Beautiful Festival of the Valley** — Amun crosses Nile to west bank tombs; living and dead feast together; annual communion through the death-boundary; family reunion with ancestors
+- **Khoiak Festival** — 30-day Osiris cycle; corn-Osiris (grain sprouting in god-shaped mold); djed-pillar raising = Osiris resurrection = ma'at restored; vegetation-deity-cycle most literalized in the catalog
+- **Sokar Festival** — circumambulation as protective rite; night = death / dawn = resurrection; Ptah-Sokar-Osiris syncretic triad
+- **Neheh / Djet time theology** — *nḥḥ* (cyclical eternal time: sacred return) vs. *ḏt* (permanent eternal time: frozen completion); two-register time theology unique in catalog
+- **Temple spatial theology** — movement from light (outer court) to primordial-dark-before-creation (inner sanctuary); walking inward = walking backward to the origin-moment; spatial-eschatology inverted
+
+**Mortuary-Theology-Afterlife file:**
+- **Multi-soul anthropology** — ka (vital-force-double; fed by mortuary cult), ba (mobile self; travels freely), akh (achieved integrated spirit; justified dead), ib (heart as complete moral record; can testify against you), ren (name as living person-dimension; erasure = death), sheut (shadow as real spiritual component), sahu (transfigured resurrection body)
+- **Pyramid Texts** (~2400 BCE) — oldest religious texts in human history; 800 spells; king becomes Ra or Osiris; celestial ladder ascent; dangerous Duat navigation
+- **Coffin Texts** — democratization of eternal life; elite officials appropriate royal afterlife
+- **Book of the Dead** — New Kingdom popular manual; 200 chapters; illustrated papyrus; Chapter 125 (heart-weighing); guided navigation of Duat; personal copy purchased for deceased
+- **Heart-weighing (psyhostasia)** — Hall of Double Ma'at; 42 assessors + Negative Confession; Anubis/scales/feather of ma'at; Thoth records; Ammit the Devourer awaits; second death = annihilation (not punishment but cessation of existence); the heart knows you and cannot lie on your behalf
+- **Osirian mortuary identification** — every justified dead becomes "Osiris X"; identification is total; individual death participates in Osiris's cosmic death-vindication pattern; most radical identity-fusion theology in the ancient world
+- **Royal ka-theology** — pharaoh's ka supplemented by divine ka at birth; mediates between human and divine through ontological structure, not virtue or merit; permanently installed infrastructure
+- **Neheh/Djet time** — cyclical solar time (Ra's return each dawn = every death reversible) vs. completed Osirian time (the justified dead enter frozen-perfection); temporal duality embedded in mortuary theology
+- **Duat** — the 12-hour/12-gate underworld transit zone; lake of fire; sixth-hour union of Ra (living solar) and Osiris (completed mortuary) = source of each dawn's light
+- **Field of Reeds (Aaru)** — perfected Egypt; eternal fertile abundance; ushabtis answer labor-calls on behalf of the dead; even afterlife has delegatable obligations
+
+**New forge candidates (S040):**
+
+| Candidate | Egyptian root | Concept | YOUSPEAK register | Score estimate | Priority |
+|---|---|---|---|---|---|
+| **kherme** | *ḫrw* (voice) + *mꜣꜥ* (true/ma'at-aligned) | The life declared coherent by divine verdict; voice-proves-true; inner truth = outer utterance = cosmic confirmation | Specialized | 7.35–7.55 | HIGH |
+| **ibme** | *ỉb* (heart as complete moral record) | The heart that knows you; interior self that cannot lie about who you were; the undeniable witness of the self | Specialized | 7.40–7.60 | HIGH |
+| **kaqing** | *kꜣ* (ka, vital-force-double) | The divine life-force instantiated in a person; the vitality-double that requires communion (feeding) to persist | Specialized | 7.40–7.60 | MED-HIGH |
+| **akherme** | *ꜣḫ* (akh, achieved spirit) | The achieved-integrated self; the person justified and fully themselves; more real in death than in life | Specialized | 7.35–7.55 | MED-HIGH |
+| **nehehme** | *nḥḥ* (cyclical eternal time) | Sacred-time-as-return; the cyclic eternal; the moment that recurs without being merely repeated | Specialized | 7.25–7.45 | MED |
+| **djetme** | *ḏt* (permanent eternal time) | Completed-permanence; frozen-perfection; the eternal that does not cycle but simply endures | Specialized | 7.20–7.40 | MED |
+
+**New convergences opened (S040):**
+
+| Convergence | Traditions | Families | Forge candidate |
+|---|---|---|---|
+| **Guided-Death-Navigation** | Egyptian Book of the Dead + Tibetan Bardo Thodol + Avestan Hāδōxt Nask | Afroasiatic, Sino-Tibetan, Iranian | *bardome* (Tibetan, MED already in pipeline); structural obs that all three constitute the same convergence |
+| **Participation-in-Divine-Death/Resurrection** | Egyptian "Osiris X" total identification + Christian baptism into death (Romans 6) + possible Dionysiac sparagmos | Afroasiatic, Italic/Greek | **osirisme** candidate or *passionme* (Specialized 7.30–7.55; the individual death absorbed into the divine-death-pattern) |
+| **Two-Register Time** (neheh/djet) | Egyptian *nḥḥ*+*ḏt* + Avestan *zruvan* (infinite/limited time) + Hindu *kāla* + *mahākāla* (time/great-time) | Afroasiatic, Iranian, Indo-Aryan | *nehehme* primary candidate; structural observation that cyclic/linear bifurcation recurs |
+
+**Deepened convergences (S040):**
+
+| Convergence | Extension | Notes |
+|---|---|---|
+| **Ritual-as-cosmic-maintenance** | + Egyptian daily temple ritual = 5 traditions (Akkadian akitu, Avestan yasna, Australian increase-ceremonies, Aymara ch'alla, **Egyptian priestly wꜣḥ ḥtp**) | Most intimate and most personal of all the maintenance-rituals: one priest, alone, before dawn |
+| **Ancestor-feeding-across-dissolution** | + Egyptian mortuary cult / Beautiful Festival of the Valley = 7 traditions | The Beautiful Festival is the most architecturally elaborated ancestor-communion: Amun's crossing brings the living god to the dead |
+| **Self-met-at-death** | + Egyptian heart-weighing as Heart-as-objective-record | Previously: Avestan daēnā (deeds-embodied-as-soul-image) + Tibetan Bardo (deities-as-self-projections). Egyptian adds a third form: the heart that knows you and cannot lie; testimony externalizing the interior self |
+| **Naming-as-ontological-act** | + Egyptian *ren*: name-erasure = death; speaking the name maintains the person's existence | Strongest single-instance in the catalog: systematic name-erasure (damnatio memoriae-style) as literal execution of the person |
+| **Distributed-Presence Monotheism** | Egyptian *ka* theology + Royal ka-divine-supplement | Egyptian contribution: the divine life-force is distributed INTO each person's ka at birth; the king's ka receives an additional divine-ka supplement making the divine-in-human relationship structural |
+| **Material-World-as-Divine-Sign** | + Egyptian thiang (already in pipeline); now: Egyptian Book of the Dead imagery — every hieroglyph in a tomb is a divine-sign; the tomb is entirely constituted by theological-sign-text | Extends S039 convergence: the Egyptian mortuary complex is perhaps the most intense Material-World-as-Divine-Sign environment in history |
+
+**Key method findings (S040):**
+
+- **The heart-as-betrayer claim is unique**: Every tradition addresses the heart as seat of spiritual life (Chinese xīn, Hebrew lev, Coptic kardia, Arabic qalb). But only Egyptian theology specifically claims the heart can TESTIFY AGAINST ITS OWNER. The *ib* is not a loyal inner companion — it is the objective record that knows you better than you know yourself. This is a distinct sub-register within Heart-as-Spiritual-Battleground.
+- **Osirian identification as total participation**: The "Osiris X" formula is the most extreme form of participation-theology in the catalog — more total than Christian baptism-into-death (where Paul maintains "we died with Christ" in past tense), more explicit than Dionysiac identification. The individual doesn't emulate the god; the individual *becomes the god's name extended into that individual's case*. YOUSPEAK: the forge-word does not merely describe the concept; it participates in the concept.
+- **Two-register time is a recurring structural solution**: Egyptian neheh/djet, Avestan zurvan akarana/zurvan daregho-chvadhāta, Hindu kāla/mahākāla all distinguish cyclic-sacred-time from permanent-eternal-time. The distinction is not equivalent to Western linear/nonlinear divide. It is: *the eternal that returns* vs. *the eternal that holds*. Both are eternal; their difference is in how eternity holds things.
+- **Spatial theology as cosmological necessity**: Egyptian temple design (outer → inner = manifest → primordial) and mortuary geography (east/west = living/dead) show that sacred space is never merely symbolic — it *is* the cosmic map. The physical layout of the world is a theological argument. YOUSPEAK's own spatial grammar (determinatives, glyph positioning) inherits this principle.
+- **The daily ritual as most intimate cosmic-maintenance**: At 10 traditions, the Ritual-as-cosmic-maintenance convergence is confirmed. But the Egyptian morning ritual is distinctive: not an annual festival (akitu), not a communal ceremony (yasna), not a pilgrimage (hajj) — it is a **daily, solitary, pre-dawn servicing of the divine body**. The intimacy-scale is unique. This is maintenance as personal care, not public performance.
+
+**S040 pipeline additions:**
+1. **kherme** — Egyptian *ḫrw* + *mꜣꜥ*; Life-declared-coherent-by-cosmic-verdict; Specialized 7.35–7.55; HIGH
+2. **ibme** — Egyptian *ỉb*; Heart-as-complete-moral-record; Specialized 7.40–7.60; HIGH
+3. **kaqing** — Egyptian *kꜣ*; Vital-force-double; Specialized 7.40–7.60; MED-HIGH
+4. **akherme** — Egyptian *ꜣḫ*; Achieved-integrated-spirit; Specialized 7.35–7.55; MED-HIGH
+5. **nehehme** — Egyptian *nḥḥ*; Cyclic-eternal-time-as-return; Specialized 7.25–7.45; MED
+6. **djetme** — Egyptian *ḏt*; Completed-permanent-time; Specialized 7.20–7.40; MED
+
+**S040 totals: ~97 convergences mapped (+7: 3 new [Guided-Death-Navigation, Participation-in-Divine-Death/Resurrection, Two-Register-Time], 4 deepened [Ritual-as-cosmic-maintenance to 5 traditions, Ancestor-feeding to 7, Self-met-at-death 3rd form, Naming-as-ontological-act strongest instance]); 15 forged; 30 in pipeline (24 prior + 6 new: kherme [HIGH], ibme [HIGH], kaqing [MED-HIGH], akherme [MED-HIGH], nehehme [MED], djetme [MED]); archaeology files: 42 traditions (+egyptian/ 2 new files = 5 total Egyptian files; 576 new lines; 1241 total Egyptian lines).**
