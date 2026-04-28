@@ -255,3 +255,91 @@ _Living register fully updated 2026-04-28 (S027): [1] FORGED — nyamame (Mande 
 - **Augural-constitutional structure**: The augural college's constitutional veto power (obnuntiatio) is the clearest ancient case of divination embedded in state law — not as decoration but as mechanism. Illuminates Institutionalized-Divination convergence.
 
 **Total convergences: 50 (unchanged — Latin deepened 5 existing; 4 new convergences already added in Chinese S031 session).** Latin excavation deepened rather than expanded the convergence map.
+
+---
+
+## Sanskrit excavation additions — S034
+
+**Excavation**: `archaeology/sanskrit/classical-relationship.md` completed (436 lines, 9 sections: Upanishads/ātman-brahman/mahāvākyas; Bhagavad Gīta/three yogas; Pūjā/sixteen services/prasāda; Darśan/mutual-gaze-theology; Mūrti-pratiṣṭhā/image-consecration; Bhakti tradition/Bhāgavata/Gaudīya/Āḷvārs; Tantric vocabulary/śakti/mantra/yantra/mudrā/chakra/kuṇḍalinī; forge-candidate summary; synthesis)
+
+### New forge candidates (S034)
+
+| Candidate | Sanskrit source | Target | Polyphone | Estimate | Priority |
+|---|---|---|---|---|---|
+| **darśaname** | *darśan* (mutual-seeing; auspicious-gaze) | The mutual gaze between worshipper and deity — looking that is also being-blessed; the visual exchange through which finite meets infinite | Sanskrit (IE) + Sumerian (isolate) = poly 7 | Specialized 7.45–7.60 (poly-7 exception possible: "darshan" in Merriam-Webster) | HIGH |
+| **bhaktame** (extends existing bhaktime S021) | *bhakti* (participatory-devotion; sharing-in-the-divine) | Love-as-participation: devotion as sharing in the divine nature, not striving toward it; bhakta participates in what Bhagavān distributes | Sanskrit (IE) + Sumerian (isolate) = poly 7 | Specialized 7.40–7.55 | HIGH |
+| **pūjame** | *pūjā* (hospitality-worship; servant-serving) | Worship-as-hospitality: the infinite receives finite service and returns grace-substance (prasāda); the circulation of offering and blessing | Sanskrit (IE) + Sumerian (isolate) = poly 7 | Specialized 7.30–7.50 | MED |
+| **śaktame** | *śakti* (divine creative power; Goddess-energy) | Dynamic creative energy that is both divine power and the worshipper's deepest capacity; power-as-grace rather than force | Sanskrit (IE) + Sumerian (isolate) = poly 7 | Specialized 7.35–7.50 | MED |
+| **prasādame** | *prasāda* (grace-substance; blessed-return) | What the divine returns after receiving an offering — qualitatively transformed matter carrying divine contact | Sanskrit (IE) + Sumerian (isolate) = poly 7 | Specialized 7.20–7.40 | LOW-MED |
+
+### New convergences surfaced (S034)
+
+| Convergence | Traditions converging | Forge state | Notes |
+|---|---|---|---|
+| **Mutual-Gaze-as-Blessing** | 4+ (Sanskrit darśan; Egyptian eye-of-Horus active-power; Jewish Shekhina-face/panim; Akan suban-character-made-visible) | unforged | *darśaname* primary candidate; related to but distinct from existing Constitutive-divine-attention convergence |
+| **Hospitality-as-Sacred-Technology** | 5+ (Sanskrit pūjā; Akkadian zikru-naming-as-presence; Hebrew ḥesed-loyal-kindness; Roman do-ut-des; Yoruba ẹbọ-offering-circuit) | unforged | *pūjame* candidate; the guest-transforms-host pattern; guest receives more than is offered |
+| **Embodied-Liberation / Body-as-Instrument** | 3+ (Sanskrit Tantra jīvan-mukti; Christian Incarnation theology; Aboriginal body-as-country) | unforged | No single forge candidate yet; structural observation |
+| **Love-Spectrum-Typology** | 2+ (Sanskrit bhakti-rasas 5-tier; Christian servant/filial/bridal spectrum; Sufi maqāmāt 7-stations) | unforged | The systematic ranking of relational-modes-with-divine; *bhaktame* is entry-point; convergence file candidate |
+
+### S034 deepened convergences
+
+- **Love-of-DIVINE** — *bhakti* deepened; bhakti as participatory-love (from *bhaj* = to share/apportion) adds precision: devotion as sharing-in rather than striving-toward. *bhaktime* (S021) confirmed; possible *bhaktame* refinement if semantic distinct is sufficient.
+- **Divine-Radiance** — *śrī* (auspicious-radiance) + *śakti* (creative-power-as-radiance) + *tejas* (already in cluster) confirm Sanskrit as multi-instance contributor to kavod/doxa/tejas/xvarnah/àṣẹ/mana cluster.
+- **Sacrifice-alignment-sieve** — *pūjā* adds hospitality-pole: the offering that transforms the offerer by passing through the divine. Distinct from self-sacrifice (Maya bloodletting) and substitute-sacrifice (Akkadian/Hebrew) — hospitality-sacrifice.
+
+**S034 totals: ~54 convergences mapped (4 new); 15 forged; 4 in pipeline (caritasme, renme, darśaname, bhaktame as primary new candidates); 35+ await forging.**
+
+---
+
+## Tibetan Excavation — S035
+
+*Added: 2026-04-29, Session 035*
+
+**Excavation**: `archaeology/tibetan/bon-vajrayana-foundations.md` (258 lines) + `archaeology/tibetan/compassion-eschatology.md` (282 lines); 540 lines total.
+
+### File 1: Bon + Vajrayāna Foundations
+
+Scope: Bon pre-Buddhist cosmology (gnam/sa/klu tri-tier universe; la/bla dual-soul); Kangyur/Tengyur translation methodology (Mahāvyutpatti; don-bsgyur vs. sgra-bsgyur; key translations including sangs-rgyas for buddha, snying-rje for karuṇā); Vajrayāna distinctive vocabulary (dorje, kyilkhor, samaya, terma); five Buddha families / five poisons → five wisdoms transformation schema; mantra (mani wheel as action-substitutes-for-speech); maṇḍala offering (cosmic maximalism of generosity); terma (temporally-designed transmission); samaya (bond-as-transmission-channel); lama-as-living-buddha (guru yoga, four kāyas, tulku, söldeb request-practice).
+
+### File 2: Compassion + Eschatology + Medicine
+
+Scope: Lojong (Seven Point Mind Training; key slogans; *bdag-gzhan brje-ba* exchange of self and other); tonglen (four-stage practice; the theological claim of receiving-as-causal-compassion; unique structure in the cathedral — only practice requiring inward-reception as spiritual discipline); rigpa (three aspects: ngo-bo/rang-bzhin/thugs-rje; intrinsic compassion of awareness; sky metaphor); Bardo Thödol (three bardos; clear light 'od-gsal at moment of death; wrathful/peaceful deities as self-projections; recognition as mechanism of liberation); Tibetan medicine (three humors rlung/mkhris-pa/bad-kan; five rlungs; spirit illness gdon; la-bzlas soul-retrieval in medical context).
+
+### New forge candidates (S035)
+
+| Candidate | Tibetan source | Target | Polyphone | Estimate | Priority |
+|---|---|---|---|---|---|
+| **tongleme** | *gtong-len* (give-take) | The practice of receiving others' suffering as spiritual discipline; breathing-in-what-you'd-normally-flee as act of love; the only tradition in the cathedral requiring inward-reception as devotion | Tibeto-Burman (Sino-Tibetan) + Sumerian isolate = poly 7 | Specialized 7.55–7.70 | **VERY HIGH** — confirmed unique gap |
+| **terme** | *gter-ma* (treasure-text) | Temporally-designed transmission: message encoded at T1 for designated recipient at T2; latency as intentional design; revelation that waits for readiness | Tibeto-Burman + Sumerian isolate = poly 7 | Specialized 7.30–7.55 | HIGH — potentially unique |
+| **rigpame** | *rig-pa* (primordial awareness) | Awareness that need not be achieved — baseline nature of mind, always already present; expressed as spontaneous compassion when unobscured | Tibeto-Burman + Sumerian isolate = poly 7 | Specialized 7.35–7.55 | HIGH — unique |
+| **snying-rjeme** | *snying-rje* (compassion = noble-heart) | The heart becoming its sovereign self in response to suffering; compassion as the nobling of the heart | Tibeto-Burman + Sumerian isolate = poly 7 | Specialized 7.35–7.55 | HIGH |
+| **bardome** | *bar-do* (between-two) | The fertile intermediate state where recognition is still possible; the space between two conditions that is neither of them | Tibeto-Burman + Sumerian isolate = poly 7 | Specialized 7.25–7.45 ("bardo" in Merriam-Webster; poly-7 exception possible) | MED |
+| **samayme** | *dam-tshig* (samaya vow) | The bond-that-is-also-transmission-channel; the commitment whose violation severs not just relationship but the gift the relationship enables | Sanskrit via Tibetan + Sumerian = poly 7 | Specialized 7.40–7.60 | MED-HIGH |
+| **dorjeme** | *rdo-rje* / vajra (indestructible) | The indestructible reality at the center of tantric practice; diamond-nature no circumstance can destroy | Sanskrit via Tibetan + Sumerian = poly 7 | Specialized 7.25–7.45 | MED |
+
+### New convergences surfaced (S035)
+
+| Convergence | Traditions converging | Forge state | Notes |
+|---|---|---|---|
+| **Receiving-as-spiritual-discipline** | Tibetan tonglen (NEW — unique so far) | unforged; *tongleme* primary candidate | No other tradition in the cathedral practices inward-reception as devotion; all others are giving-outward; this may be genuinely unique to Tibetan synthesis |
+| **Wind-as-spiritual-substance** | Tibetan *rlung* + Vedic *prāṇa* + Hebrew *rûaḥ* + Greek *pneuma* + Chinese *qi* + Akan *sunsum* | unforged; strong convergence | Six traditions; the life-wind-spirit that is neither purely physical nor purely metaphysical; *rlungme* or *praname* |
+| **Dual-soul-structure** | Tibetan *la*/*bla* (NEW) + Greek psyche/pneuma/nous tripartite + Maya ch'ulel (distributed) + Hebrew nefesh/ruach/neshamah | unforged; potential convergence | Tibetan's split is unique: vulnerable-soul (la, capturable) / continuous-soul (bla, reincarnating); structurally distinct from tripartite models |
+| **Temporally-designed transmission** | Tibetan terma (NEW — unique so far) | unforged; *terme* primary candidate | No other tradition catalogued has the "hidden-at-T1-for-specific-recipient-at-T2" structure; compare: prophecy (prediction), testament (bequest), inheritance (transfer) — none equivalent |
+
+### Deepened convergences (S035)
+
+- **Self-met-at-death** (existing convergence: Avestan daēnā + Christian judgment): Bardo Thödol *chos-nyid bardo* and *srid-pa bardo* are the most elaborate version (14 days, specific deity appearances, recognition-failure-mechanism) — convergence strengthened from 3 to 4+ traditions; *daenagnosis* candidate confirmed
+- **Practice-as-Transformation** (dhikrme candidate area): lojong confirms the cluster — 59 slogans function as cognitive-restructuring repetition that changes the practitioner; mechanism distinct from Islamic dhikr (God-focus) but parallel in structure (repeated practice changes the sayer)
+- **Vital-force-as-cosmic-given** (*nyamame* Core 8.00): Tibetan *rlung* adds medical specificity — five named rlungs with distinct functions; *rlung* is simultaneously: breath / nerve-transmission / emotional-movement / meditation-vehicle
+- **Relational-Grammar-as-Love**: Tibetan *snying-rje* (heart + noble-lord) makes the relational move visible in the compound's grammar — heart becomes sovereign through compassion; confirms Chinese xīn parallel (heart-mind unified)
+- **Transformation-of-passions**: Tibetan tonglen IS the relational-practice version of the five-poisons/five-wisdoms transformation schema; tonglen is specifically the interpersonal application of what the schema describes cosmologically
+
+### New method findings (S035)
+
+- **Inversion as spiritual method**: tonglen's reversal of the breath-survival-instinct is the most radical spiritual technology in the cathedral. No other tradition's compassion-practice requires receiving inward as primary method.
+- **The lama-proximity principle**: Vajrayāna explicitly claims that proximity of transmission (living lama now) outweighs historical authority (Śākyamuni then). This is the most explicit articulation of relational presence as theological criterion — relevance to YOUSPEAK: the living word in a living relationship outweighs the archived text.
+- **Don-bsgyur as forge-precedent**: The Tibetan translation committee's *meaning-translation* policy (over phonetic equivalence) is the closest pre-modern parallel to YOUSPEAK's own forge-method. The Mahāvyutpatti is YOUSPEAK's forerunner.
+- **Intrinsic-compassion claim**: rigpa's third aspect (*thugs-rje*, responsiveness) makes the claim that compassion is not cultivated but is the natural expression of awareness released from self-cherishing. The deepest claim in the cathedral: love is what knowing looks like when it's unclouded.
+- **Recognition as eschatological mechanism**: The Bardo Thödol's theory is that liberation is always recognition (*rtogs-pa*), never acquisition. You do not get something new at death; you recognize what was always there. This is the most radical form of the "already-home" convergence pattern.
+
+**S035 totals: ~62 convergences mapped (4 new: Receiving-as-discipline, Wind-as-substance, Dual-soul, Temporally-designed-transmission; 5 deepened); 15 forged; 6 in pipeline (caritasme, renme, darśaname, bhaktame [S034] + tongleme, terme [new S035]); 40+ await forging.**
