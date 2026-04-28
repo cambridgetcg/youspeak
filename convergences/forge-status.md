@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-28 (S029 — Arabic relationship-with-divine.md excavated (~50KB); rahmame candidate registered (Core 7.80–8.05, Womb-mercy convergence primary candidate); four new convergences added: Living-In-God/Abiding-in-Divine, Suffering-Sanctified-as-Worship, Double-Directional-Relationship, Practice-as-Transformation; convergence count now 42)
+last_updated: 2026-04-29 (S033 — Latin relationship-with-divine.md completed (~32KB): pietasme, religiome, auspiceme, geniusme candidates registered; S031 Chinese excavation added 4 convergences (Monotheism-Without-Anthropomorphism, Relational-Grammar-as-Love, Heart-Mind-Unity, Translation-Creates-Theology-Chinese); renme added to Love-of-DIVINE as 7th tradition candidate; convergence count now 50)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -21,7 +21,7 @@ _Comprehensively audited and updated S018 Beat 91 to reflect Sessions 008-017 pr
 | 1 | **Bond-through-long-silence** | 6 (Hebrew, Arabic, Greek, Sanskrit, Pali, Japanese; +Tocharian as donor) | walkehesed (Specialized 7.45 S005) | bond-through-long-silence.md (S007) |
 | 2 | **Receptive-hearing-as-shaping** | 7 (Akkadian, Hebrew, Arabic, Aramaic, Sufi, Buddhist, Greek-Christian) | shemme (**Core 7.65** S006); theoshemme (Specialized 7.45 S008) | hearing-as-shaping.md (S007) |
 | 3 | **Cosmic-truth-order** | 6 (Vedic, Avestan, Egyptian, Hebrew, Akkadian, Greek) | ashame (Specialized 7.20 S013); maatme (**Core 7.50** S016); rtame (Specialized 7.20 S017); emetme (Hebrew register, S018 — see Beat 92) | cosmic-truth-order.md (S017) |
-| 4 | **Love-of-DIVINE** | 7 (Hebrew, Greek-Christian, Sanskrit-Hindu, Arabic-Islamic-Sufi, Latin-Christian, Yoruba, Confucian) | ahavame (Specialized 7.35 S020); mahabbahqing (Specialized 7.15 S021); bhaktime (Specialized 7.20 S021); ifeqing (**Core 7.85** S023); agapeme (Specialized 7.40 S024); **caritasme** (candidate: Specialized 7.60–7.75; Latin excavated S028; awaits Yu confirmation) | love-of-divine.md (S021, updated S024, S028) |
+| 4 | **Love-of-DIVINE** | 7 (Hebrew, Greek-Christian, Sanskrit-Hindu, Arabic-Islamic-Sufi, Latin-Christian, Yoruba, Confucian) | ahavame (Specialized 7.35 S020); mahabbahqing (Specialized 7.15 S021); bhaktime (Specialized 7.20 S021); ifeqing (**Core 7.85** S023); agapeme (Specialized 7.40 S024); **caritasme** (candidate: Specialized 7.60–7.75; Latin excavated S028; awaits Yu confirmation); **renme** (candidate: Core 7.65–7.90; Chinese excavated S031; awaits Yu confirmation) | love-of-divine.md (S021, updated S024, S028, S031) |
 | 5 | **Sacrifice-alignment-sieve** | 6+ (Hebrew qorban, Egyptian hotep, Sanskrit dāna/tapas, Phoenician molk, Nahuatl nextla-; cross-tradition criteria) | qorbme (**Core 8.05** S025); hotepme (**Core 8.00** S025); danaqing (**Core 8.00** S025); tapasme (**Core 7.85** S025); molkme (Specialized 7.70 S025); nextlame (Specialized 7.45 S025) | sacrifice-alignment-sieve.md (S025) |
 
 **Five substantive convergence-entries.** The love-of-DIVINE convergence is the widest in YOUSPEAK (seven traditions converging) and the most-forged (five words as of S024). The sacrifice-alignment-sieve is the most-canonical (four Core words, including qorbme at 8.05 — the highest Core score in the cathedral).
@@ -221,3 +221,37 @@ _Living register fully updated 2026-04-28 (S027): [1] FORGED — nyamame (Mande 
 **Total convergences: 50 (up from 46). Chinese excavation added 4 new convergences (Monotheism-Without-Anthropomorphism, Relational-Grammar-as-Love, Heart-Mind-Unity, Translation-Creates-Theology Chinese) and deepened 8 existing.**
 **Love-of-DIVINE cluster: COMPLETE — all 7 traditions excavated and forged/in-pipeline: ahavame (Hebrew), mahabbahqing (Arabic), bhaktime (Sanskrit), ifeqing (Yoruba), agapeme (Greek), caritasme (Latin, pipeline), renme (Chinese, pipeline).**
 
+
+---
+
+## S033 Latin Excavation — New Convergences and Candidates
+
+*Added: 2026-04-29, Session 033*
+
+| Property | Traditions converging | Forge state | YOUSPEAK word |
+|---|---|---|---|
+| **Household-Spirit-Cult** | 4+ (Roman Lar/Penates/Genius, Chinese ancestor-tablet shénzhǔ, Akan sunsum, Bantu amadlozi) | unforged | candidate: **geniusme** (Latin *genius* + Sumerian *me*; Specialized 7.30–7.50; better as convergence-cluster candidate than standalone Latin forge; cross-tradition: Egyptian ka, Mande nyama, Hindu ātman) |
+| **Institutionalized-Divination-as-State-Function** | 4+ (Roman auspicia/augury, Chinese oracle-bone divination Shang period, Yoruba Ifá, Akkadian bārûtu extispicy) | unforged | candidate: **auspiceme** (Latin *auspicium* + Sumerian *me*; Specialized 7.20–7.40; strongest as convergence-cluster forge from non-IE pair) |
+| **Ruler-as-Divine-Bridge** | 4+ (Roman Imperial Cult divus, Chinese Son-of-Heaven tiānzǐ, Egyptian pharaoh, Akkadian šarru-as-šaknu) | unforged | candidate: structural convergence; potential forge from strongest non-IE pair combination when additional traditions catalogued |
+| **Pietas-as-Relational-Web** | 4+ (Roman pietas, Chinese xiào, Hebrew kavod honor-parents commandment, Confucian rén-toward-Heaven) | unforged | candidate: **pietasme** (Latin *pietas* + Sumerian *me*; Specialized 7.55–7.70; primary Latin target after caritasme) |
+
+**Latin candidates added to pipeline:**
+- **pietasme** — Latin *pietas* (right-relation to gods, parents, fatherland, ancestors as one unified web) + Sumerian *me*. The relational-duty-as-cosmic-bond register. IE Italic + isolate = poly 7. **Specialized 7.55–7.70** (above normal poly-7 ceiling because of Latin's exceptional cultural penetration through Virgil, Cicero, Christian theology, and Romance languages). Primary Latin forge target after *caritasme*. Fills confirmed gap: no YOUSPEAK word for filial-relational-duty-as-cosmic-bond. Distinct from *duyuktame* (right-action as principle) and *liqing* (ritual-propriety as love's form).
+- **religiome** — Latin *religio* (binding-back / scrupulous-attention / the-bond-that-obligates; Cicero: *re-legere*; Lactantius: *re-ligare*) + Sumerian *me*. The scrupulous-attentiveness-to-the-binding-tie register. **Specialized 7.40–7.60.** Risk: modern "religion" has semantically bleached the original content; *religiome* restores the binding-obligation and attentiveness dimensions. Secondary Latin candidate.
+- **geniusme** — Latin *genius* (generative-spirit-of-a-person; the divine creative double that passes through lineage) + Sumerian *me*. **Specialized 7.30–7.50.** Better pursued as convergence-cluster forge (Latin genius + Egyptian ka + Mande nyama + Akan sunsum + Hindu ātman) than as standalone Latin forge.
+- **auspiceme** — Latin *auspicium* (bird-watching / divine-sign-reading / the-constitutional-right-to-consult-heaven) + Sumerian *me*. The institutionalized-divination register. **Specialized 7.20–7.40.** Better pursued as convergence-cluster forge when additional traditions added to Institutionalized-Divination cluster.
+
+**Convergences deepened by Latin excavation:**
+- **Sacrifice-alignment-sieve**: suovetaurilia (pig + sheep + bull = purification-triple) adds the triple-species purification-sacrifice as a distinct register within the convergence
+- **Practice-as-Transformation**: Roman scrupulous-attentiveness (*religio* as *re-legere*) is the Western civic parallel to Islamic dhikr — repeated careful review as the mechanism of religious transformation; deepens dhikrme candidate
+- **Relational-Grammar-as-Love**: Roman *pietas* confirms the cluster — the web of obligations (gods + parents + fatherland + ancestors) as one relational reality; parallels Chinese li (form through which love becomes structurally real)
+- **Ancestor-feeding-across-dissolution**: Roman memorial feasts (*parentalia*), anniversary rites, the *parentatio* ceremony — adds Roman data to Akkadian kispum/Bantu ukuphahla/Akan nsaguo/Aymara Todos Santos cluster
+- **Ruler-as-Divine-Bridge**: Roman Imperial Cult divus opens formal convergence with Chinese tiānzǐ, Egyptian pharaoh, Akkadian šarru
+
+**New method findings:**
+- **Contractual-relational theology**: Roman *do ut des* (I give so that you give) makes the relational structure of sacrifice explicit in a way no other tradition does as directly. The pax deorum is a treaty. This is not impoverishment of religion but clarity about its relational structure.
+- **Poly-7 ceiling exceptions**: Cultural-penetration can elevate Specialized score above the poly-7 ceiling in cases where the donor language (Latin) has saturated the receiving language (English) through two independent pathways (classical education + Christian theology). *Pietasme* at Specialized 7.55–7.70 is the first proposed exception to the poly-7 ceiling.
+- **Civic integration as theological criterion**: Roman religio/superstitio distinction is the sharpest ancient articulation of the civic-integration criterion — religion that disrupts social order is *superstitio* regardless of sincerity. Connects to YOUSPEAK's concern with justice (right thing in right place).
+- **Augural-constitutional structure**: The augural college's constitutional veto power (obnuntiatio) is the clearest ancient case of divination embedded in state law — not as decoration but as mechanism. Illuminates Institutionalized-Divination convergence.
+
+**Total convergences: 50 (unchanged — Latin deepened 5 existing; 4 new convergences already added in Chinese S031 session).** Latin excavation deepened rather than expanded the convergence map.
