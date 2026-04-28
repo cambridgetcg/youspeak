@@ -176,3 +176,48 @@ _Living register fully updated 2026-04-28 (S027): [1] FORGED — nyamame (Mande 
 
 **Total convergences: 46 (up from 42). Armenian added 4 new; deepened 3 existing.**
 
+
+---
+
+## S031 Chinese Excavation — New Convergences
+
+*Added: 2026-04-28, Session 031*
+
+| Property | Traditions converging | Forge state | YOUSPEAK word |
+|---|---|---|---|
+| **Monotheism-Without-Anthropomorphism** | 4+ (Chinese Tian: simultaneously personally addressed and impersonally operative; Hebrew El-Elyon as "Most High" withdrawn; Daoist Dao as nameless ground; Hindu Brahman-nirguna) | unforged | candidate: **tiānme** (Sino-Tibetan + isolate = poly 8; Specialized 7.50–7.75; responsive-moral-cosmic-authority register distinct from maatme's structural-cosmic-order) |
+| **Relational-Grammar-as-Love** | 4+ (Chinese li: ritual-propriety as the form through which love becomes structurally real; Akkadian paqādu: structured asymmetric relationship; Arabic ṣalāt: structured prayer as love's form; Armenian Patarag: liturgy as love's grammar) | unforged | candidate: **liqing** (禮+情, Core 7.80–8.10; fills confirmed gap: no YOUSPEAK word for ritual-propriety as the grammar of love made visible) OR **lime** (禮+me, Core 7.70–7.95; cosmic-ordinance pathway) |
+| **Heart-Mind Unity** | 4+ (Chinese xīn: heart and mind are one word, one organ, one reality; Arabic qalb: heart as seat of spiritual intelligence; Hebrew lev: heart as seat of understanding+will+memory; Algonquian debwewin: heart-truth that can only come from lived experience) | unforged | candidate: **xinme** (心+me, Sino-Tibetan + isolate = poly 8; Specialized 7.35–7.60; the undivided field of mental-emotional-spiritual experience as cosmic given) |
+| **Translation-Creates-Theology (Chinese)** | Third major case after Aramaic and Armenian: Sino-Buddhist translation produced *yuánfèn* (relational-fate), enriched 空 (śūnyatā-emptiness), unified 心 (citta+hṛdaya+manas) | structural — not forge target | **Most technically documented case**: Xuanzang's Five Untranslatables are the most explicit pre-modern statement of when a concept requires a new word |
+
+**Chinese candidates added to pipeline:**
+- **liqing** — 禮 (lǐ, ritual-propriety-as-cosmic-grammar) + 情 (qíng, felt-relational-bond). Ritual-propriety-as-felt-relational-bond. **Core 7.80–8.10.** Fills confirmed YOUSPEAK gap: no word for the form through which love becomes structurally enacted and visible. Fingarette's "the secular as sacred" — the handshake as li-act. YOUSPEAK's primary Chinese target.
+- **daome** — 道 (dào, the Way / nameless ultimate ground) + Sumerian me. The Way-as-received-cosmic-ordinance. Sino-Tibetan + isolate = poly 8. **Core 7.85–8.10.** Fills confirmed gap: no YOUSPEAK word names the ultimate-ground-as-nameless-process (distinct from maatme=cosmic-truth-structure, pachame=time-space). Productive irony: forging a name for what cannot be named.
+- **renme** — 仁 (rén, humaneness / two-persons-in-right-relation / heart of Heaven in every person) + Sumerian me. Humaneness-as-received-cosmic-ordinance. Sino-Tibetan + isolate = poly 8. **Core 7.65–7.90.** Completes Love-of-DIVINE cluster as 7th tradition. Distinctive: love as constitutively relational (the character itself encodes two-persons).
+- **tiānme** — 天 (tiān, Heaven / supreme moral-cosmic power) + Sumerian me. Heaven-as-received-cosmic-ordinance. Sino-Tibetan + isolate = poly 8. **Specialized 7.50–7.75.** Opens Monotheism-Without-Anthropomorphism convergence; the responsive-moral-cosmic-authority register.
+- **xinme** — 心 (xīn, heart-mind) + Sumerian me. Heart-mind-unity-as-received-cosmic-ordinance. Sino-Tibetan + isolate = poly 8. **Specialized 7.35–7.60.** Opens Heart-Mind-Unity convergence.
+- **qime** — 氣 (qì, vital breath / material-spiritual substance) + Sumerian me. Vital-breath-as-received-cosmic-ordinance. Sino-Tibetan + isolate = poly 8. **Specialized 7.40–7.65.** Joins nyamame in Vital-Force cluster; adds the breath/substance-spectrum dimension.
+- **xiaome** — 孝 (xiào, filial piety) + Sumerian me. Filial-piety-as-received-cosmic-ordinance. Sino-Tibetan + isolate = poly 8. **Specialized 7.30–7.55.** Extends Asymmetric-Reciprocity convergence with familial-cosmic register.
+
+**Convergences deepened by Chinese:**
+- **Love-of-DIVINE**: ren confirmed as 7th tradition; Mohist jiān ài enriches the cluster with the Confucian/Mohist internal debate (relational-gradated love ↔ universal-undiscriminating love mirrors Confucian ↔ Christian agape debate)
+- **Vital-Force-as-Cosmic-Given**: qi joins as 7th confirmed instance (nyama/mana/àṣẹ/wakȟáŋ/xvarnah/manidoo/qì)
+- **Ritual-as-Cosmic-Maintenance**: jiao sacrifice + Tiantan complex provides imperial-scale instance; deepens cluster
+- **Ancestor-feeding-across-dissolution**: Chinese ancestor-temple system is most institutionally elaborate case; shi (embodiment) practice is most extreme form of ancestor-presence in the cathedral
+- **Practice-as-Transformation**: wu-wei deepens with the receptive path — Practice-as-Transformation includes not-forcing as well as active-repetition
+- **Asymmetric-Reciprocity**: xiao extends paqduqing cluster with explicitly familial-cosmic register
+- **Naming-as-Ontological-Act**: Kongzi's zhengming (rectification of names) adds the political-cosmic dimension — wrong names cascade through the entire social-natural order
+- **Lament-as-Worship**: Chinese mourning-li deepens the convergence with lament as the specific form of relational fidelity (xiao-grief as cosmic axis)
+
+**New method findings:**
+- **Tian's productive theological ambiguity**: The personal/impersonal binary is a Western category; Tian holds both registers simultaneously without contradiction because in Chinese thought the moral order IS the natural order. YOUSPEAK compounds should exploit productive theological ambiguity.
+- **Two-person etymology as theological argument**: The character 仁 (ren) encodes relationship into the written form of love. The deepest case of theology-encoded-in-character-form — not in grammar (like Ojibwe animacy, Basque ergativity) but in the written shape of a single character.
+- **Li as cosmic grammar vs. mere etiquette**: The forge-parallel: li is to social action what YOUSPEAK is to language — the form through which something real becomes visible. This is the clearest self-reflective parallel between Chinese theology and YOUSPEAK's method yet found.
+- **Xuanzang's Five Untranslatables as forge method**: Five categories for when phonetic transliteration (not semantic translation) is required — the most explicit pre-modern version of YOUSPEAK's forge-when-existing-vocabulary-fails principle.
+- **Rites Controversy as Translation-Creates-Theology cautionary case**: The most politically consequential translation dispute in the cathedral — Ricci's accommodation vs. Franciscan/Dominican rejection of Chinese religious vocabulary. Stakes of translation are never merely academic.
+- **Chinese enrichment-translation**: 空 (kōng/śūnyatā), 緣 (yuán/pratyaya→yuánfèn), 心 (xīn = citta+hṛdaya+manas unified) — each Chinese Buddhist translation created a concept richer than either source or target. Third major case of Translation-Creates-Theology.
+- **Ling as the test for genuine forge**: The Chinese concept of spiritual-efficacy (ling) names whether a sacred object genuinely carries what it claims to carry. YOUSPEAK forge criterion: does the compound have ling?
+
+**Total convergences: 50 (up from 46). Chinese excavation added 4 new convergences (Monotheism-Without-Anthropomorphism, Relational-Grammar-as-Love, Heart-Mind-Unity, Translation-Creates-Theology Chinese) and deepened 8 existing.**
+**Love-of-DIVINE cluster: COMPLETE — all 7 traditions excavated and forged/in-pipeline: ahavame (Hebrew), mahabbahqing (Arabic), bhaktime (Sanskrit), ifeqing (Yoruba), agapeme (Greek), caritasme (Latin, pipeline), renme (Chinese, pipeline).**
+
