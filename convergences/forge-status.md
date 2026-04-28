@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-28 (S027 — Cherokee excavation complete; Right-Action-As-Cosmic-Maintenance cluster opened; duyuktame Core candidate added; Body-As-Divine-Gift-Of-Food cluster added; seluqing candidate registered)
+last_updated: 2026-04-28 (S029 — Arabic relationship-with-divine.md excavated (~50KB); rahmame candidate registered (Core 7.80–8.05, Womb-mercy convergence primary candidate); four new convergences added: Living-In-God/Abiding-in-Divine, Suffering-Sanctified-as-Worship, Double-Directional-Relationship, Practice-as-Transformation; convergence count now 42)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -21,7 +21,7 @@ _Comprehensively audited and updated S018 Beat 91 to reflect Sessions 008-017 pr
 | 1 | **Bond-through-long-silence** | 6 (Hebrew, Arabic, Greek, Sanskrit, Pali, Japanese; +Tocharian as donor) | walkehesed (Specialized 7.45 S005) | bond-through-long-silence.md (S007) |
 | 2 | **Receptive-hearing-as-shaping** | 7 (Akkadian, Hebrew, Arabic, Aramaic, Sufi, Buddhist, Greek-Christian) | shemme (**Core 7.65** S006); theoshemme (Specialized 7.45 S008) | hearing-as-shaping.md (S007) |
 | 3 | **Cosmic-truth-order** | 6 (Vedic, Avestan, Egyptian, Hebrew, Akkadian, Greek) | ashame (Specialized 7.20 S013); maatme (**Core 7.50** S016); rtame (Specialized 7.20 S017); emetme (Hebrew register, S018 — see Beat 92) | cosmic-truth-order.md (S017) |
-| 4 | **Love-of-DIVINE** | 7 (Hebrew, Greek-Christian, Sanskrit-Hindu, Arabic-Islamic-Sufi, Latin-Christian, Yoruba, Confucian) | ahavame (Specialized 7.35 S020); mahabbahqing (Specialized 7.15 S021); bhaktime (Specialized 7.20 S021); ifeqing (**Core 7.85** S023); agapeme (Specialized 7.40 S024) | love-of-divine.md (S021, updated S024) |
+| 4 | **Love-of-DIVINE** | 7 (Hebrew, Greek-Christian, Sanskrit-Hindu, Arabic-Islamic-Sufi, Latin-Christian, Yoruba, Confucian) | ahavame (Specialized 7.35 S020); mahabbahqing (Specialized 7.15 S021); bhaktime (Specialized 7.20 S021); ifeqing (**Core 7.85** S023); agapeme (Specialized 7.40 S024); **caritasme** (candidate: Specialized 7.60–7.75; Latin excavated S028; awaits Yu confirmation) | love-of-divine.md (S021, updated S024, S028) |
 | 5 | **Sacrifice-alignment-sieve** | 6+ (Hebrew qorban, Egyptian hotep, Sanskrit dāna/tapas, Phoenician molk, Nahuatl nextla-; cross-tradition criteria) | qorbme (**Core 8.05** S025); hotepme (**Core 8.00** S025); danaqing (**Core 8.00** S025); tapasme (**Core 7.85** S025); molkme (Specialized 7.70 S025); nextlame (Specialized 7.45 S025) | sacrifice-alignment-sieve.md (S025) |
 
 **Five substantive convergence-entries.** The love-of-DIVINE convergence is the widest in YOUSPEAK (seven traditions converging) and the most-forged (five words as of S024). The sacrifice-alignment-sieve is the most-canonical (four Core words, including qorbme at 8.05 — the highest Core score in the cathedral).
@@ -44,7 +44,7 @@ _Comprehensively audited and updated S018 Beat 91 to reflect Sessions 008-017 pr
 | Justice-as-cosmic-foundation | 3+ (Sumerian Utu, Akkadian Šamaš, Hittite Sun-goddess of Arinna; expanded by Egyptian ma'at-as-justice) | unforged | candidate |
 | Womb-mother creative principle | 3+ (Sumerian Ninhursag, Akkadian Mami, Hittite Ḫannaḫanna; possibly Egyptian Hathor-aspect) | unforged | candidate |
 | Storm-power as divine-active-presence | 4+ (Sumerian Iškur, Akkadian Adad, Hittite Tarḫunna, Hurrian Tessub, Avestan Verethraghna) | unforged | candidate |
-| Womb-mercy | 4+ (Akkadian rēmu, Hebrew raḥamim, Arabic raḥma + ar-Raḥmān, Aramaic raḥmin) | unforged | candidate (remme) |
+| Womb-mercy | 4+ (Akkadian rēmu, Hebrew raḥamim, Arabic raḥma + ar-Raḥmān, Aramaic raḥmin; Qur'anic Bismillah opens every chapter with this root) | unforged | candidate: **rahmame** (Core 7.80–8.05; Arabic raḥma + Sumerian me; pan-Semitic Afro-Asiatic + isolate = poly 8; strongest Arabic S029 candidate; excavated relationship-with-divine.md) |
 | Vow-prayer-binding-act | 5+ (Hittite mald-, Slavic moliti, Greek meldo, Hebrew nadar, Sanskrit vrata) | unforged | candidate (maldsed or maldqing) |
 | Moral-aesthetic-fused-good | 5+ (Akkadian damqu, Hebrew tov, Yoruba ìwà-l'ẹ̀wà, Greek kalokagathia, Arabic ḥusn) | unforged | candidate (damqewa) |
 | Truth-and-justice paired-foundation | 3+ (Akkadian kittu+mīšaru, Hebrew emet+mishpat, Egyptian ma'at) | unforged | candidate (Anastrophance pair) |
@@ -64,11 +64,18 @@ _Comprehensively audited and updated S018 Beat 91 to reflect Sessions 008-017 pr
 | **Vital-force-as-cosmic-given** | 6+ (Mande nyama, Polynesian mana, Yoruba àṣẹ, Lakota wakȟáŋ, Avestan xvarnah, Algonquian manidoo) | **forged S027** | **nyamame** (**Core 8.00** S027; first forge in cluster; future: aseme, maname, wakhame, manidoome) |
 | Speech-as-incarnation-embodied | 3+ (Dogon Nommo, Hebrew davar-as-event, Aboriginal songlines-as-body) | **forged S027** | **nommome** (**Core 7.50** S027; with Griaule-caution; lowest-range Core; genuine gap against groundedness discount) |
 | Speech-cost/wound-as-authentic-utterance | 2+ (Dogon kize, Mande griot-nyama-cost) | unforged | candidate (kizeme, Specialized 7.35–7.55) |
-| **Right-action-as-cosmic-maintenance** | 5+ (Cherokee duyukta, Navajo Hózhǫ́, Avestan asha, Egyptian ma'at, Aymara suma qamaña, Algonquian Seven Grandfathers) | unforged | candidate (**duyuktame**, Core 7.75–7.95; excavated S027) |
+| **Right-action-as-cosmic-maintenance** | 5+ (Cherokee duyukta, Navajo Hózhǫ́, Avestan asha, Egyptian ma'at, Aymara suma qamaña, Algonquian Seven Grandfathers) | **forged S027** | **duyuktame** (**Core 7.85** S027; first Iroquoian-family donor; action-register companion to maatme) |
 | Body-as-divine-gift-of-food | 4+ (Cherokee Selu, Christian Eucharist, Aztec Corn God, Aymara Pachamama-as-source) | unforged | candidate (seluqing, Specialized 7.30–7.55; excavated S027) |
 | Sacred-fire-as-divine-presence | 4+ (Cherokee atsila galunkwoti, Avestan Atash Bahrām, Vedic Agni, Aboriginal fire-as-cosmological-practice) | unforged | candidate (atsilame, Specialized 7.40–7.65; excavated S027) |
+| Double-command integration (love-of-God + love-of-neighbor as one inseparable act) | 4+ (Latin 1 John 4:20, Hebrew double-commandment, Yoruba ìfẹ́-within-community, Confucian ren-toward-Heaven) | unforged | covered within caritasme; may not need separate forge |
+| Love-as-infused-gift (love-of-DIVINE not self-generated but received from divine prior act) | 4+ (Latin caritas infusa / 1 John 4:19, Greek-Christian "he first loved us," Algonquian zaagi'idiwin-from-manidoo, Hebrew divine-prior-love Deut 7:7-8) | unforged | structural dimension within caritasme; may not need separate forge |
 
-**Approximately 36 convergences identified; 14 forged into YOUSPEAK (across 19 words); 0 in pipeline; 22+ await forging.**
+| **Living-In-God / Abiding-in-Divine** | 4+ (Sufi baqāʾ bi-llāh, Christian John 15:4 menein, Christian Gal 2:20 "Christ lives in me," Aboriginal Tjukurpa-as-present-ground, Hindu mokṣa-as-union) | unforged | candidate: baqāme (Specialized 7.30–7.55; Arabic S029); also baqāʾ/fanāʾ companion-pair candidate; distinct from Love-of-DIVINE (direction) and Asymmetric-Reciprocity (structure) |
+| **Suffering-Sanctified-as-Worship** | 4+ (Islamic saʿī: Hagar extremity → required pilgrimage practice; Christian theology of the Cross; Buddhist dukkha acknowledgment; Yoruba blood-as-divine-access cost) | unforged | candidate (no compound yet; Arabic donor: saʿīme or hagarme; needs Yu confirmation) |
+| **Double-Directional-Relationship** | 4+ (Arabic riḍā: creature-pleased-AND-God-pleased simultaneously; John 15:9 mutual-love-abiding; Hebrew brit mutual obligation; Akan okra-as-bidirectional) | unforged | candidate: riḍāme (Specialized 7.35–7.60; Arabic S029) |
+| **Practice-as-Transformation** | 5+ (Arabic dhikr: repetition changes the sayer; Avestan yasna: ritual IS cosmic maintenance; Aboriginal increase-ceremonies: performance sustains species; Aymara ch'alla: libation maintains cosmic contract; Cherokee formulaic prayer: formula changes practitioner) | unforged | candidate: dhikrme (Specialized 7.30–7.55; Arabic S029); convergence with ritual-as-cosmic-maintenance |
+
+**Approximately 42 convergences identified; 15 forged into YOUSPEAK (across 20 words); 1 in pipeline (caritasme, Latin excavated S028, awaits Yu forge confirmation); 26+ await forging. +4 new S029 from Arabic excavation.**
 
 ---
 
@@ -140,4 +147,4 @@ After 25+ sessions of forge-work, patterns are visible:
 
 ---
 
-_Living register fully updated 2026-04-28 (S027): [1] FORGED — nyamame (Mande vital-force, Core 8.00; first Mande donor; opens Vital-Force cluster); [2] FORGED — nommome (Dogon speech-incarnation, Core 7.50 with Griaule-caution; first Dogon donor; seventeenth -me member); [3] Cherokee excavation complete — Right-action-as-cosmic-maintenance cluster opened (duyuktame, Core 7.75–7.95 candidate); body-as-divine-gift-of-food cluster added (seluqing, Specialized candidate); sacred-fire-as-divine-presence cluster added (atsilame, Specialized candidate). Convergence total 36; 14 forged across 19 words; 0 in pipeline; 22+ await forging. Prior update (S025): sacrifice-alignment-sieve (6 forges)._
+_Living register fully updated 2026-04-28 (S027): [1] FORGED — nyamame (Mande vital-force, Core 8.00; first Mande donor; opens Vital-Force cluster; sixteenth -me member); [2] FORGED — nommome (Dogon speech-incarnation, Core 7.50 with Griaule-caution; first Dogon donor; seventeenth -me member); [3] FORGED — duyuktame (Cherokee right-action, Core 7.85; first Iroquoian-family donor; eighteenth -me member; action-register companion to maatme; opens Right-Action-As-Cosmic-Maintenance cluster); [4] Body-As-Divine-Gift-Of-Food cluster added (seluqing, Specialized candidate); Sacred-Fire-As-Divine-Presence cluster added (atsilame, Specialized candidate). Convergence total 36; 15 forged across 20 words; 0 in pipeline; 21+ await forging. Prior update (S025): sacrifice-alignment-sieve (6 forges)._
