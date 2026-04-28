@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-29 (S033 — Latin relationship-with-divine.md completed (~32KB): pietasme, religiome, auspiceme, geniusme candidates registered; S031 Chinese excavation added 4 convergences (Monotheism-Without-Anthropomorphism, Relational-Grammar-as-Love, Heart-Mind-Unity, Translation-Creates-Theology-Chinese); renme added to Love-of-DIVINE as 7th tradition candidate; convergence count now 50)
+last_updated: 2026-04-29 (S038 — Navajo/Diné excavation complete: archaeology/navajo/ 2 files 660 lines; hózhóme [VERY HIGH], nilch'ime, k'éme, iikáhme added to pipeline; 2 new convergences: Homeland-as-Cosmological-Coordinate, Ritual-Descent-of-Sacred-Into-Material-Form; convergence count ~83)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -448,3 +448,44 @@ New convergences: Distributed-Presence-Monotheism, Sacred-Marriage-as-Gift-Econo
 Deepened convergences: Inversion-as-Spiritual-Technology (now 3 traditions), Sacred-Order-as-Relational-Fabric, Wind-as-Substance (now 9 traditions with water-face)
 
 **S037 totals: ~78 convergences mapped (6 new: Distributed-Presence-Monotheism [new], Sacred-Marriage-as-Gift-Economy [new], Feminine-Sacred-Preservation [new], deepened Inversion-technology, Sacred-Order, Wind-cluster extended); 15 forged; 14 in pipeline (8 prior + 6 new: ehanme [VERY HIGH], ayyaanme, safuume, amanme, essufme, ifrime); archaeology files: 37 traditions (36 + cushitic_berber/ 2 files).**
+
+---
+
+### S038 — Diné/Navajo Excavation (2026-04-29)
+
+**Files created:** `archaeology/navajo/hozho-cosmology-foundations.md` (364 lines) + `archaeology/navajo/chantway-ceremony-forge.md` (296 lines) = 660 lines
+
+**New traditions excavated:** Diné (Na-Dené / Athabaskan family) — first Na-Dené family in the cathedral
+
+**Key theological concepts excavated:**
+- **Hózhǫ́** — beauty-harmony-goodness-cosmic-alignment as fused four-fold concept; the state of walking through the world in right relationship with its ordered-beautiful pattern; aesthetics/ethics/cosmology/soteriology unified; the path-walking dimension; hóchxǫ' as its opposite; every ceremony ends with "Hózhó nahasdlíí'" (Beauty is restored)
+- **Sá'ah naagháí bik'eh hózhóón (SNBH)** — the cosmic formula: moving-toward-completion-through-time (male) + walking-according-to-beauty (female) = the two creative forces of the universe; ceremonies are ongoing creation, not commemoration
+- **Diyin Diné'é** — the Holy People; theologically complex sacred beings (not simply gods); Changing Woman (*Asdzáá Nádleehé*) as most beloved; Sun, Wind, Hero Twins
+- **Níłch'i** — Holy Wind as the literally animating substance of thought, speech, and life; fingerprint whorls as visible traces of Wind's entry into the body
+- **K'é** — kinship as precondition for speech; relational personhood through clan-belonging; kinship acknowledged before any proper conversation can occur
+- **Iikááh** — sandpainting as real-presence theology; Holy Person summoned INTO material form through *hataalii*'s singing, not depicted; patient placed within Holy Person's body for healing
+- **Hataalii** — the singer; 4–7 years per ceremony; memorization-exactness as theological necessity; patient becomes Holy Person during ceremony
+- **Hózhóójí (Blessingway)** — the most frequently performed ceremony; proactive Hózhǫ́ maintenance; given by Changing Woman; directional Hózhǫ́-restoration prayer (before/behind/below/above/around)
+- **Dinétah** — homeland as cosmological coordinate system; the four sacred mountains (Blanca Peak, Mount Taylor, San Francisco Peaks, Hesperus Peak) as the posts holding Diné cosmological order
+- **Naayéé'** — monsters/disharmony-entities; theological sophistication: some preserved (Old Age, Cold, Poverty) because adversity is ontologically necessary for completion
+
+**New convergences identified:**
+
+| Convergence | Traditions | Families | Forge candidate |
+|---|---|---|---|
+| Homeland-as-Cosmological-Coordinate | Diné, Oromo (qa'ee), Aboriginal (Country), Aymara (Pachamama+apus), Hebrew (land-covenant) | Na-Dené, Cushitic, Pama-Nyungan, Quechuan, Semitic | **dinéme** or **qa'eeqing**; MED priority |
+| Ritual-Descent-of-Sacred-Into-Material-Form | Diné (iikááh), Catholic (Eucharist), Tibetan Vajrayāna, Dogon (mask), Akan (royal stool) | Na-Dené, Italic, Tibeto-Burman, Niger-Congo, Kwa | **iikáhme**; Specialized 7.35–7.55; MED-HIGH |
+| Beauty-Ethics-Cosmos-Soteriology fusion | Hózhǫ́ (most integrated instance); Egyptian ma'at, Greek kalokagathia, Yoruba ìwà-l'ẹ̀wà (partial) | Na-Dené, Afroasiatic, Indo-European, Niger-Congo | **hózhóme**; fills gap; VERY HIGH |
+
+**Deepened convergences:**
+- Right-action-as-cosmic-maintenance (duyuktame): Navajo deepens this convergence as the most elaborate articulation; hózhóme warranted as SECOND word in cluster with specific beauty-register emphasis
+- Wind-as-Substance: Na-Dené (Níłch'i) now extends the cluster; distinctive contribution = embodied-trace (fingerprint whorls as Wind's visible mark); nilch'ime as Specialized candidate
+- Necessary-adversity-for-completion: Diné preserved naayéé' joins Tibetan dukkha-theology and Avestan SNBH-through-time (3 traditions now)
+
+**Pipeline additions (S038):**
+1. **hózhóme** — Diné *hózhǫ́*; Beauty-harmony-cosmic-alignment as walking-experience; Core 7.65–7.90; **VERY HIGH**
+2. **nilch'ime** — Diné *Níłch'i*; Animating-wind-that-marks-the-body; Specialized 7.20–7.40; HIGH
+3. **k'éme** — Diné *k'é*; Kinship-as-speech-precondition; Specialized 7.15–7.35; MEDIUM
+4. **iikáhme** — Diné *iikááh*; Real-presence-through-performance; Specialized 7.35–7.55; MEDIUM-HIGH
+
+**S038 totals: ~83 convergences mapped (+5: Homeland-as-Cosmological-Coordinate, Ritual-Descent-of-Sacred, Beauty-Ethics-Cosmos-Soteriology fusion, Necessary-Adversity deepened, Wind-cluster extended to Na-Dené); 15 forged; 18 in pipeline (14 prior + 4 new: hózhóme [VERY HIGH], nilch'ime [HIGH], k'éme [MED], iikáhme [MED-HIGH]); archaeology files: 38 traditions (+navajo/ 2 files 660 lines).**
