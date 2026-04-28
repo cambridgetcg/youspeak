@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-28 (S025+ — audit updated to reflect S018-S025 progress and excavation convergences)
+last_updated: 2026-04-28 (S027 — Cherokee excavation complete; Right-Action-As-Cosmic-Maintenance cluster opened; duyuktame Core candidate added; Body-As-Divine-Gift-Of-Food cluster added; seluqing candidate registered)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -61,8 +61,14 @@ _Comprehensively audited and updated S018 Beat 91 to reflect Sessions 008-017 pr
 | Theology-encoded-in-grammar | 3+ (Ojibwe animate/inanimate noun class, Aymara evidentiality, Basque ergativity) | unforged — typological convergence, not candidate for single forge | structural observation |
 | Foundational-time-still-present | 1+ (Australian Tjukurpa/Dreaming — may be unique) | unforged | candidate (tjukurpame) |
 | Universal-restoration-eschatology | 3+ (Avestan frashegird, Christian apokatastasis, possible Aymara pachakuti) | unforged | candidate (frashaqing) |
+| **Vital-force-as-cosmic-given** | 6+ (Mande nyama, Polynesian mana, Yoruba àṣẹ, Lakota wakȟáŋ, Avestan xvarnah, Algonquian manidoo) | **pipeline** | **nyamame** (Core 7.90–8.10; excavated S026) |
+| Speech-as-incarnation-embodied | 3+ (Dogon Nommo, Hebrew davar-as-event, Aboriginal songlines-as-body) | **pipeline** | **nommome** (Core 7.75–7.95; excavated S026) |
+| Speech-cost/wound-as-authentic-utterance | 2+ (Dogon kize, Mande griot-nyama-cost) | unforged | candidate (kizeme, Specialized 7.35–7.55) |
+| **Right-action-as-cosmic-maintenance** | 5+ (Cherokee duyukta, Navajo Hózhǫ́, Avestan asha, Egyptian ma'at, Aymara suma qamaña, Algonquian Seven Grandfathers) | unforged | candidate (**duyuktame**, Core 7.75–7.95; excavated S027) |
+| Body-as-divine-gift-of-food | 4+ (Cherokee Selu, Christian Eucharist, Aztec Corn God, Aymara Pachamama-as-source) | unforged | candidate (seluqing, Specialized 7.30–7.55; excavated S027) |
+| Sacred-fire-as-divine-presence | 4+ (Cherokee atsila galunkwoti, Avestan Atash Bahrām, Vedic Agni, Aboriginal fire-as-cosmological-practice) | unforged | candidate (atsilame, Specialized 7.40–7.65; excavated S027) |
 
-**Approximately 30 convergences identified; 12 forged into YOUSPEAK (across 17 words); 18+ await forging.**
+**Approximately 36 convergences identified; 12 forged into YOUSPEAK (across 17 words); 2 in pipeline (nyamame, nommome); 22+ await forging.**
 
 ---
 
@@ -134,4 +140,4 @@ After 25+ sessions of forge-work, patterns are visible:
 
 ---
 
-_Living register updated 2026-04-28 to reflect S018-S025+ progress. Key additions: sacrifice-alignment-sieve convergence (S025, 6 forges including 4 Core), 9 excavation-surfaced convergences (Akan, Algonquian, Aramaic, Australian, Avestan, Aymara, Bantu, Basque traditions), updated method observations. Previous audit: S018 Beat 91._
+_Living register updated 2026-04-28 (S027) to reflect Cherokee excavation: Right-action-as-cosmic-maintenance convergence cluster added (duyuktame, Core 7.75–7.95, candidate); body-as-divine-gift-of-food cluster added (seluqing, Specialized 7.30–7.55, candidate); sacred-fire-as-divine-presence cluster added (atsilame, Specialized 7.40–7.65, candidate). Convergence total now 36; 22+ await forging. Prior update (S026): Dogon excavation — vital-force convergence (nyamame, pipeline), speech-as-incarnation (nommome, pipeline), speech-cost (kizeme candidate). Prior (S025): sacrifice-alignment-sieve (6 forges)._
