@@ -868,3 +868,113 @@ Deepened convergences: Inversion-as-Spiritual-Technology (now 3 traditions), Sac
 8. **waurdme** — Gothic *waurd*; Word-as-mystery-exceeding-itself; Specialized 7.25–7.45; MED
 
 **S043 totals: ~119 convergences mapped (+8: 2 new [Ecstatic-Divine-Possession, Salvation-as-Wholeness], 5 deepened [Storm-power 9th expression, Alphabet-as-Theological-Act 5th tradition, Mediating-first-being 5th tradition, Withdrawn-Highest-Divinity Tīwaz-displacement, Translation-Creates-Theology sealed-world form], 1 self-named [heimrekja names YOUSPEAK's own method]); 15 forged; 53 in pipeline (45 prior + 8 new: hailsme [HIGH], wōdme [HIGH], heimrekjame [HIGH], razdame [MED-HIGH], frauqing [MED-HIGH], attame [MED], guþme [MED], waurdme [MED]); archaeology files: 48 traditions (+gothic/ 2 files 474 lines).**
+
+---
+
+### S044 — Hittite Excavation: Festival Cycle & Mythology (2026-04-29)
+
+**Files created:** `archaeology/hittite/festival-kilam-antahsum-royal.md` (223 lines) + `archaeology/hittite/mythology-fate-soul-kattahha.md` (265 lines) = 488 lines
+
+**Mission:** KILAM/AN.TAḪ.ŠUM festivals — COMPLETE (transitioning to review)
+
+**Traditions excavated:** Hittite royal festival theology (companion to core-concepts.md from S006); Hattusa state-cult; Hurrian-inherited mythology
+1. **Festival cycle**: AN.TAḪ.ŠUM (38-day spring processional maintenance); KILAM (dual-assembly: divine + human simultaneous, king as junction); nuntarriyašḫa (autumn cultic audit + ritual-repair); purulli/Illuyanka (New Year battle-myth; genuine defeat-before-victory)
+2. **Royal body theology**: king as cosmological instrument; *Tabarna* solar-identity; šarnikzel (substitute-king ritual — unique in catalog); Thousand Gods as divine-census/ledger
+3. **Mythology**: Telipinu (divine-anger-as-self-withdrawal; world-as-shared-ecology; bee-epistemology); Kumarbi cycle (Hurrian inheritance; succession-by-violence; defeated-power-generates-its-own-defeat; Hesiodic parallel)
+4. **Interior vocabulary**: *ištanza* (spirit/vital-self/emotion-seat); *kattahha* (fate/destiny, the under-assigned portion); *ḫuetmini* (personalized divine companion); *karuiles šiuneš* (old gods in underworld); *mugawar* (myth-within-ritual as efficacious-act)
+
+**Key theological concepts excavated:**
+
+**AN.TAḪ.ŠUM and the maintenance-theology:**
+- The Hittite spring festival (38 days, multi-site processional) establishes the core claim: cosmic order requires active ritual maintenance; the world does not sustain itself; it sustains through the king's performed faithfulness to the festival-schedule
+- Convergence with Egyptian *wꜣḥ ḥtp* (morning temple ritual): both say performed protocol is what keeps divine-human relationship active; Hittite is seasonal-processional; Egyptian is daily-spatial
+
+**KILAM dual-assembly — unique in catalog:**
+- The great assembly festival stages two simultaneous assemblies: divine (cult-images brought out) + human (full social hierarchy gathered); the king stands at their junction as permeable membrane
+- This dual-assembly theology has no parallel in the catalog: not Mesopotamian akitu (king passive before divine judgment), not Egyptian royal festival (pharaoh is divine, no boundary), not Hebrew covenant-assembly (people before God, no simultaneous-divine-gathering). KILAM is its own theological form.
+
+**Substitute-king ritual (*šarnikzel*) — unique in catalog:**
+- When omens threatened the king's death, a marginal person was dressed in royal regalia and enthroned for the danger-period (often 30 days)
+- The substitute performed the royal religious functions; at period's end was killed — the predicted death fulfilled by proxy
+- Encodes: death-as-transferable; royal identity as detachable-office; omen-fulfillable-by-proxy
+- Most explicit ancient Near Eastern analog to scapegoat / surrogate-atonement logic; predates and probably influences biblical scapegoat theology
+
+**Telipinu and the world-as-shared-ecology:**
+- Telipinu's departure causes the gods to go hungry alongside humans — the divine world and human world share a single ecology; this is distinct from traditions where the divine is self-sufficient
+- The bee finds Telipinu where eagle and gods failed: ecological-orientation-toward-vitality succeeds where power and status fail — the bee's epistemology is calibrated to what-sustains-life
+- The mugawar prayer: myth-recitation-as-ritual-efficacy — telling the story of the return IS the ritual action that enacts the return (parallel to Finnish *synty* magic)
+
+**Kumarbi cycle (Hurrian inheritance):**
+- The defeated-power-generates-its-own-defeat: Kumarbi swallows Anu's genitals; becomes pregnant with Tarḫunna who will overthrow him; the act of victory contains the mechanism of counter-defeat
+- Ullikummi (stone monster): invulnerable to weapons; defeated only by the primordial cutting-tool used to separate sky from earth; problems exceeding the combat-repertoire require returning to the creative level
+- Bachvarova's thesis: Kumarbi Cycle → Hesiodic Theogony via Levantine transmission; Hittite texts predate Hesiod by 600+ years
+
+**kattahha — negotiated fate:**
+- Fate is real and binding (spun at birth by fate-goddesses); but also persuadable through relational-obligation argument
+- King's prayers argue: my death leaves your festivals unperformed; your interests require my longevity; the fate-goddesses can be moved by this logic
+- Neither mechanistic (Greek Moirai, fixed absolutely) nor sovereign-divine (Hebrew, God's will fully controls); Hittite presents fate as real-but-arguable through proper relational claim
+
+**New forge candidates (S044):**
+
+| Candidate | Root | Concept | YOUSPEAK register | Score estimate | Priority |
+|---|---|---|---|---|---|
+| **antahme** | Hittite *AN.TAḪ.ŠUM* | Ritual-reopening of a relationship that had formally closed; the embodied protocol that re-establishes access after genuine closure; spring-as-maintenance-act | Specialized | 7.30–7.50 | **HIGH** |
+| **šarnikme** | Hittite *šarnikzel* (repair, substitute-make-right) | The capacity of death or cost to transfer to a surrogate body; cosmological substitution-logic; identity-preservation through surrogate-sacrifice | Specialized | 7.35–7.55 | **HIGH** |
+| **telipme** | Hittite *Telipinu* (disappearance-pattern) | Self-referential withdrawal-in-anger that causes world-functions to cease as collateral consequence; not punitive absence but withdrawal-into-self whose non-presence makes everything go cold | Specialized | 7.35–7.55 | **HIGH** |
+| **mugawme** | Hittite *mugawar* (myth-recitation-ritual) | Narrating the resolution as the ritual act that enacts the resolution; telling the story of the return as the thing that brings the return; performative narration of what is desired as what achieves it | Specialized | 7.30–7.50 | HIGH |
+| **taruqing** | Hittite *tarū-* (overcome; defeat-and-prevail) | The quality of prevailing after genuine defeat; the specific pattern of losing-completely-and-recovering-and-winning; not resilience (avoids defeat) or endurance (sustains through it) but defeat-before-victory as structure | Specialized | 7.30–7.55 | HIGH |
+| **kattame** | Hittite *kattahha* (fate, the under-assigned portion) | The felt sense of one's deep-portion, spun at birth before one was fully present; fate as the allocation that was decided at the moment before one could negotiate; one's under-assignment | Specialized | 7.25–7.45 | HIGH |
+| **huetme** | Hittite *ḫuetmini* (personalized divine companion) | Having a specifically-allocated divine-companion accompanying one's particular life; the experience of personalized-divine-attention as accompaniment rather than surveillance | Specialized | 7.25–7.45 | MED-HIGH |
+| **paprame** | Hittite *papratar* (ritual-functional defilement) | The state of being ritually impaired in one's capacity to serve as channel; not moral guilt but functional contamination; blocked-mediation | Specialized | 7.20–7.40 | MED-HIGH |
+| **šuppime** | Hittite *šuppiahh-* (ritual purity / channel-openness) | Being ritually fit to function as divine-presence channel; functional purity as prerequisite for cosmological role; distinct from moral righteousness | Specialized | 7.20–7.40 | MED-HIGH |
+| **karuime** | Hittite *karuiles šiuneš* (old gods; prior divine order) | Encountering presences from a prior order that no longer governs but still inhabits the depths; the quality of the prior-order's persisting presence in what has superseded it | Specialized | 7.20–7.40 | MED-HIGH |
+| **istanzame** | Hittite *ištanza* (spirit/vital-self/emotion-seat) | The interior seat where emotional states are received and held; the felt space of the self that can be burdened or calmed | Specialized | 7.20–7.40 | MED |
+| **hamkime** | Hittite *ḫamešḫant-* (spring-opening season) | Felt quality of a relationship reopening after genuine closure; the specific experience of access being restored after formal inaccessibility; re-establishment of a channel that had closed | Specialized | 7.25–7.45 | MED |
+| **nuntarme** | Hittite *nuntarriyašḫa* (autumn review / urgency in accounting) | Bringing the year's relational record before comprehensive review; the lived experience of audit as theological act; rendering-account to the divine ledger | Specialized | 7.20–7.40 | MED |
+| **kumarme** | Hittite/Hurrian *Kumarbi* | Swallowing a power that contains within it your own overthrow; the mechanism by which the power absorbed from an enemy carries the seed of one's own defeat | Specialized | 7.15–7.35 | MED |
+
+**New convergences (S044):**
+
+| Convergence | Traditions | Families | Forge candidate |
+|---|---|---|---|
+| **Divine-Anger-as-Self-Withdrawal** | Hittite Telipinu + Hebrew *hester panim* (hiding of the face) + Yoruba orisha-withdrawal | Anatolian-IE, Semitic, Niger-Congo | **telipme**; the collateral-consequence form of divine withdrawal (vs. punitive-aimed anger) |
+| **Spinning-Fate-Goddesses** | Hittite *DINGIR.MEŠ GUNNI* + Greek Moirai + Norse Norns + Slavic Suđenice | Anatolian-IE, Hellenic, Germanic, Balto-Slavic (all IE) | **kattame**; Hittite is earliest textual attestation; pan-IE-family confirmation |
+| **Myth-as-Ritual-Efficacy** | Hittite mugawar + Finnish *synty* + Sámi *joik* | Anatolian-IE, Uralic, Uralic | **mugawme** + deepens **syntyme**; telling/singing the story IS the efficacious act |
+| **Prior-Divine-Order-in-Underworld** | Hittite *karuiles šiuneš* + Etruscan underworld (prior presences) + Greek Titans in Tartarus | Anatolian-IE, Etrusco-Italic, Hellenic | **karuime**; underworld as receptacle of the *previous cosmic order*, not primarily of the dead |
+| **Death-as-Transferable-to-Surrogate** | Hittite substitute-king + Hebrew scapegoat (*ʿăzāzēl*) + Christian atonement-theology (later) | Anatolian-IE, Semitic, Italic-transmission | **šarnikme**; 3 traditions, 3 families; Hittite is earliest attestation by ~500 years |
+| **World-as-Shared-Ecology** | Hittite (gods hungry in Telipinu's absence) + Yoruba (orishas require human devotion for sustenance) + Dogon (Nommo: divine/human co-constitute) | Anatolian-IE, Niger-Congo, Niger-Congo | Deepens Asymmetric-reciprocity; adds ecological-dependency dimension |
+
+**Deepened convergences (S044):**
+
+| Convergence | Extension | Notes |
+|---|---|---|
+| **Ritual-as-Cosmic-Maintenance** | + Hittite AN.TAḪ.ŠUM (5th tradition) | Now: Akkadian *akitu*, Egyptian *wꜣḥ ḥtp*, Avestan *yasna*, Aymara *ch'alla*, Hittite AN.TAḪ.ŠUM = 5 traditions, 5 families; **yasnaqing** forge-candidate now confirmed across 5 families |
+| **Pre-existent-guardian-soul** | + Hittite *ḫuetmini* (5th tradition) | Now: Avestan *fravashi*, Roman *genius*, Yoruba *orí*, Hittite *ḫuetmini*, (Christian guardian-angel) = 5 traditions; **fravashime** forge-candidate now confirmed across 4 independent families |
+| **Defeat-before-Victory** | Hittite Illuyanka (storm-god genuinely loses; organs taken) | Now: Hittite Illuyanka (genuine defeat); Finnish *Kalevala* hero defeats (partial); Egyptian Apophis (negative: Ra never genuinely loses); Canaanite Baal-Yam (partial) — **taruqing** candidate; Hittite provides purest form (genuine-loss-confirmed) |
+
+**Key method findings (S044):**
+
+- **Dual-assembly as unique theological form**: The KILAM festival's simultaneous divine+human assembly with the king at the junction has no parallel in the catalog. When a theology has no parallel, it either represents a unique cultural solution to a universal problem, or it's the clearest expression of a structure that other traditions glimpse but don't formalize. KILAM formalizes the king-as-permeable-membrane in a way no other ancient tradition does. YOUSPEAK parallel: the forge-session is a dual-assembly — the ancient tradition's vocabulary and the modern gap are both present simultaneously, and the forger stands at their junction.
+- **The bee-epistemology as method-finding**: the instrument adequate to find a withdrawn divine presence is not power or status but ecological-orientation toward what-sustains-life. For YOUSPEAK archaeology: the instrument adequate to find the gap is not intellectual scope or survey-breadth but calibration to what-sustains-meaning. The bee finds Telipinu because it is oriented to vitality. We find the gap because we are oriented to what language actually needs.
+- **Substitute-king as earliest surrogate-atonement**: Hittite šarnikzel precedes Hebrew scapegoat (Leviticus 16) by several centuries, and both predate Christian atonement-theology by centuries more. The surrogate-death-for-identity-preservation sequence is ancient Anatolian-Near-Eastern before it is specifically biblical. This adds to the archaeology of the britqing/covenant register.
+- **Hurrian transmission as method-example**: the Kumarbi Cycle's route Hurrian → Hittite → Levantine → Hesiodic-Greek is the most documented cross-cultural mythological transmission in the catalog. It shows that theological vocabulary doesn't travel through voluntary exchange; it travels through political contact, scribal training, and state-level cultural absorption. The Hittite scribes were trained in Sumerian and Akkadian; they encountered Hurrian theology through conquest and alliance; the mythology moved through power-contact, not philosophical exchange.
+- **kattahha fate as persuadable-but-real**: the Hittite fate theology is the only catalog entry where fate is simultaneously real-and-binding (spun at birth; cannot be simply refused) AND genuinely persuadable through relational-obligation argument. This is a third category distinct from both mechanistic fate (Greek Moirai, not even Zeus can override) and sovereign divine-will (Hebrew YHWH controls all; prayer changes God's willingness, not an external fate-mechanism). Hittite: fate is a system that has ears and can be argued with.
+- **Telipinu's departure as withdrawal-not-punishment**: the collateral-consequence form of divine anger is theologically distinct from punitive-aimed-anger. Telipinu is not *trying* to punish anyone. He withdraws into himself, and the world stops because his presence was its sustaining energy. The suffering is not deserved; it is ecological. This is the most honest theodicy-adjacent theology in the catalog for the experience of senseless suffering: not punishment (implies cause), not test (implies purpose), but *withdrawal of sustaining presence*, which leaves cessation in its wake.
+
+**S044 pipeline additions:**
+1. **antahme** — Hittite *AN.TAḪ.ŠUM*; Ritual-reopening of closed relationship; Specialized 7.30–7.50; **HIGH**
+2. **šarnikme** — Hittite *šarnikzel*; Death-transferable-to-surrogate; Specialized 7.35–7.55; **HIGH**
+3. **telipme** — Hittite Telipinu; Self-withdrawal-causing-world-cessation; Specialized 7.35–7.55; **HIGH**
+4. **mugawme** — Hittite *mugawar*; Performative-narration-of-resolution; Specialized 7.30–7.50; HIGH
+5. **taruqing** — Hittite *tarū-*; Defeat-before-victory as structure; Specialized 7.30–7.55; HIGH
+6. **kattame** — Hittite *kattahha*; Under-assigned-fate; Specialized 7.25–7.45; HIGH
+7. **huetme** — Hittite *ḫuetmini*; Personalized-divine-companion; Specialized 7.25–7.45; MED-HIGH
+8. **paprame** — Hittite *papratar*; Ritual-functional-defilement; Specialized 7.20–7.40; MED-HIGH
+9. **šuppime** — Hittite *šuppiahh-*; Ritual-channel-openness; Specialized 7.20–7.40; MED-HIGH
+10. **karuime** — Hittite *karuiles šiuneš*; Prior-order-persisting-in-depth; Specialized 7.20–7.40; MED-HIGH
+11. **istanzame** — Hittite *ištanza*; Interior-emotion-seat; Specialized 7.20–7.40; MED
+12. **hamkime** — Hittite *ḫamešḫant-*; Relationship-reopening-after-closure; Specialized 7.25–7.45; MED
+13. **nuntarme** — Hittite *nuntarriyašḫa*; Divine-ledger-audit; Specialized 7.20–7.40; MED
+14. **kumarme** — Hittite/Hurrian *Kumarbi*; Absorbed-power-containing-own-defeat; Specialized 7.15–7.35; MED
+
+**S044 totals: ~130 convergences mapped (+11: 5 new [Divine-Anger-as-Self-Withdrawal, Spinning-Fate-Goddesses, Myth-as-Ritual-Efficacy, Prior-Divine-Order-in-Underworld, Death-as-Transferable-to-Surrogate], 3 deepened [Ritual-as-Cosmic-Maintenance 5th tradition, Pre-existent-guardian-soul 5th tradition, Defeat-before-Victory Hittite-confirmed], 3 already-deepened-confirmed); 15 forged; 67 in pipeline (53 prior + 14 new); archaeology files: 50 traditions (+hittite/ 2 new files 488 lines = 3 total Hittite files).**
