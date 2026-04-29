@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-29 (S071 — Wolof+Fulfulde Sahel Islamic-substrate fusion COMPLETE: 2 new files [archaeology/sahel/wolof-rab-mouride-griot.md ~300 lines, archaeology/sahel/fulfulde-pulaaku-sahel-islamic-vernacular.md ~280 lines]; 8 new forge candidates [munyalme Core 7.60-7.80 TOP NEW, barakame Core 7.55-7.75, pulaakume Core 7.50-7.70, addiyame Core 7.40-7.60, togume Spec 7.45-7.65, gewelme Spec 7.45-7.65, silsilame Spec 7.35-7.55, tarbiyame Spec 7.40-7.60]; 6 new/deepened convergences [Spirit-Double NEW, Accumulated-Baraka-as-Transmissible DEEPENED, Word-Keeper-as-Sacred-Institution NEW, Work-as-Worship DEEPENED, Islamic-Indigenous-Fusion NEW, Virtue-Code-as-Portable-Identity NEW]; ~462 convergences; pipeline at ~326; traditions 94 [+2 sahel]; prior: S070 Vulgate Latin liturgical COMPLETE)
+last_updated: 2026-04-29 (S071 — Yoruba excavation COMPLETE: 2 new files [archaeology/yoruba/ifa-orisha-cosmology.md 231 lines, archaeology/yoruba/egungun-diaspora-memory.md 197 lines]; 8 new forge candidates [àṣẹme Core 7.70-7.90 TOP NEW, egúngúnme Core 7.60-7.80, orí-me Core 7.65-7.85, odùme Spec 7.50-7.70, ẹbọme Spec 7.40-7.60, oríkime Spec 7.35-7.55, ìpínme Spec 7.40-7.60, àiyéme Spec 7.35-7.55]; 10 new/deepened convergences; ~472 convergences; pipeline at ~334; traditions 95 [+1 Yoruba deep]; prior: S071 Wolof+Fulfulde Sahel COMPLETE)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
