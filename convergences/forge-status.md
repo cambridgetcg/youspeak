@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-29 (S043 — Gothic excavation complete: archaeology/gothic/ 2 files 474 lines [wulfila-arian-theology-vocabulary.md 274 lines + skeireins-commentary-germanic-heimrekja.md 200 lines]; 8 new pipeline candidates; 2 new convergences [Ecstatic-Divine-Possession, Salvation-as-Wholeness]; ~119 convergences; pipeline at 53)
+last_updated: 2026-04-29 (S045 — Hopi excavation complete: archaeology/hopi/ 2 files 539 lines [kachina-katsina-niman-cycle.md 240 lines + hopiqatsi-emergence-prophecy-kiva.md 299 lines]; 7 new pipeline candidates; 3 new convergences [Scheduled-Divine-Presence, Covenant-Community-Cosmological-Maintenance, Faithful-Remnant-Through-World-Transitions]; ~141 convergences; pipeline at 74)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -75,7 +75,7 @@ _Comprehensively audited and updated S018 Beat 91 to reflect Sessions 008-017 pr
 | **Double-Directional-Relationship** | 4+ (Arabic riḍā: creature-pleased-AND-God-pleased simultaneously; John 15:9 mutual-love-abiding; Hebrew brit mutual obligation; Akan okra-as-bidirectional) | unforged | candidate: riḍāme (Specialized 7.35–7.60; Arabic S029) |
 | **Practice-as-Transformation** | 5+ (Arabic dhikr: repetition changes the sayer; Avestan yasna: ritual IS cosmic maintenance; Aboriginal increase-ceremonies: performance sustains species; Aymara ch'alla: libation maintains cosmic contract; Cherokee formulaic prayer: formula changes practitioner) | unforged | candidate: dhikrme (Specialized 7.30–7.55; Arabic S029); convergence with ritual-as-cosmic-maintenance |
 
-**Approximately 42 convergences identified; 15 forged into YOUSPEAK (across 20 words); 1 in pipeline (caritasme, Latin excavated S028, awaits Yu forge confirmation); 26+ await forging. +4 new S029 from Arabic excavation.**
+**~141 convergences mapped (S045); 15 forged into YOUSPEAK (across 20 words); 74 in pipeline; 26+ unforged standalone convergences await; see S045 totals line for full breakdown.**
 
 ---
 
@@ -978,3 +978,65 @@ Deepened convergences: Inversion-as-Spiritual-Technology (now 3 traditions), Sac
 14. **kumarme** — Hittite/Hurrian *Kumarbi*; Absorbed-power-containing-own-defeat; Specialized 7.15–7.35; MED
 
 **S044 totals: ~130 convergences mapped (+11: 5 new [Divine-Anger-as-Self-Withdrawal, Spinning-Fate-Goddesses, Myth-as-Ritual-Efficacy, Prior-Divine-Order-in-Underworld, Death-as-Transferable-to-Surrogate], 3 deepened [Ritual-as-Cosmic-Maintenance 5th tradition, Pre-existent-guardian-soul 5th tradition, Defeat-before-Victory Hittite-confirmed], 3 already-deepened-confirmed); 15 forged; 67 in pipeline (53 prior + 14 new); archaeology files: 50 traditions (+hittite/ 2 new files 488 lines = 3 total Hittite files).**
+
+---
+
+### S045 — Hopi Excavation: Kachina / Katsina Cosmology (2026-04-29)
+
+**Files**: `archaeology/hopi/kachina-katsina-niman-cycle.md` (240 lines) + `archaeology/hopi/hopiqatsi-emergence-prophecy-kiva.md` (299 lines) = **539 lines**
+
+**Tradition**: Hopi (Hopituh Shi-nu-mu — "Peaceful People"), First/Second/Third Mesa, Arizona. First Pueblo/Southwest tradition in catalog (distinct from Diné/Navajo S038).
+
+**What Hopi adds to the cathedral**:
+
+1. **The scheduled divine** — katsinam: divine-intermediary-beings present for exactly half the year (winter solstice entry to summer solstice departure), then departing to the spirit realm until the next cycle. No other tradition in the catalog has a formally calendrical, annually renewed, communally embodied presence-departure cycle with ceremonies for both greeting AND farewell. This fills a gap that Christian liturgical seasons and Jewish Shekhinah theologies gesture toward but never name at the being-level.
+
+2. **Niman as departure-theology** — the Niman ceremony structures the goodbye to divine presence as high theology: grief-gratitude at departure when return is assured. English has no word for this specific emotional-theological register.
+
+3. **Hopiqatsi as community-covenant-cosmology** — the entire Hopi people are assigned as caretakers of the earth through a covenant with Masau'u (the humble death-and-earth deity); their proper ceremonial living IS cosmic maintenance. The most democratized form of ritual-as-cosmic-maintenance in the catalog (Hittite: one king; Avestan: one priest-class; Hopi: an entire people).
+
+4. **Four-worlds emergence cosmology** — cyclical moral-emergence narrative: each world ended by covenant-abandonment; remnant who maintained right-relationship survived through the sipapu (emergence-hole) into next world. Diagnostic cosmology: names the cause AND the cure of world-transitions.
+
+5. **Koyaanisqatsi as systemic diagnostic** — the disorder caused by covenant-abandonment; not individual sin, not metaphysical chaos, but community-relational disorder with specific cause (Hopiqatsi-abandonment) and specific cure (ceremonial renewal). Paired with Cherokee duyuktame as positive-negative pair: duyuktame (right-action-maintaining-cosmos) / koyaanisqatsime (covenant-abandonment-causing-disorder).
+
+6. **Kiva architecture as world-model** — three-level vertical axis (worlds below / kiva interior / sky above), four-direction horizontal axis, sipapu floor-hole, all compressed into the ceremonial chamber. Village as inhabited cosmos: entire settlement organized around the ceremonial center; daily movement through plaza and kiva IS cosmic orientation.
+
+7. **Performative ontology strengthened** — katsina dance IS the rain-making (not petition; not symbol). Fourth major tradition confirming the cluster: Finnish synty (recitation IS healing) + Hittite mugawar (narration IS ritual) + Sámi joik (song IS presence) + Hopi dance (performance IS cosmic-act). This cluster now qualifies for its own convergence file.
+
+8. **Mask as identity-displacement-device** — the dancer IS the katsina; the mask removes individual identity and installs the katsina's; voluntary, trained, communal. Distinct from Christian incarnation (permanent/singular), Yoruba possession (more invasive), Tibetan deity-yoga (interior/visualization). Hopi: most communal and most pedagogically elaborated form.
+
+**New forge candidates (S045):**
+1. **katsinme** — Hopi *katsina/katsinam*; Half-year-present intermediary divine-being; the scheduled-divine; Specialized 7.35–7.55; **HIGH**
+2. **nimame** — Hopi *Niman*; Grief-gratitude at divine departure when return is assured; structured-goodbye-with-trust-in-return; Specialized 7.30–7.50; **HIGH**
+3. **hopiqatsime** — Hopi *Hopiqatsi*; Community-covenant-life-as-cosmic-maintenance; covenanted-people's proper-ordered-existence sustaining the world; Specialized 7.40–7.60; **HIGH**
+4. **koyaanisqatsime** — Hopi *koyaanisqatsi*; Covenant-abandonment-systemic-disorder; life-out-of-balance as relational-cosmic-consequence; Specialized 7.30–7.50; **HIGH**
+5. **tihume** — Hopi *tihu*; Departure-gift from divine being maintaining relationship during absence; teaching-form-as-theological-literacy; Specialized 7.15–7.35; MED
+6. **sipapume** — Hopi *sipapu*; Sacred emergence-threshold connecting this world to worlds of origin; present in every kiva as physical reminder; Specialized 7.20–7.40; MED
+7. **masauwme** — Hopi *Masau'u*; Covenant made from radical simplicity/poverty; divine authority not from power but from prior-presence and caretaker-faithfulness; Specialized 7.20–7.40; MED
+
+**New convergences (S045):**
+- **Scheduled-Divine-Presence** (NEW — Hopi-first): katsinam half-year cycle + Islamic Ramadan nearness + Christian Advent/Parousia + Jewish Shekhinah withdrawal-and-return; Hopi uniquely calendrical, embodied, and communally maintained with ceremonies for both arrival and departure
+- **Covenant-as-Community-Cosmological-Maintenance** (NEW — extending Hittite S044): Hopi Hopiqatsi (entire people) + Hittite AN.TAḪ.ŠUM (king) + Avestan yasna (priest) + Cherokee duyukta (individual); Hopi most democratized form
+- **Faithful-Remnant-Through-World-Transitions** (NEW — Hopi-first for cyclical form): Hopi (remnant through 4 worlds) + Hebrew (Noah; Isaiah remnant) + Islamic hanif + Avestan ashavan; Hopi uniquely cyclical: transitions already occurred, this world also under evaluation
+
+**Deepened convergences (S045):**
+- **Performative-Ontology** — now 4-tradition cluster (Finnish synty + Hittite mugawar + Sámi joik + Hopi katsina-dance); qualifies for standalone convergence file
+- **Architecture-as-Cosmological-Map** — Hopi kiva + village (inhabited cosmos) adds to Egyptian temple + Hindu mandir + Gothic cathedral; Hopi unique: entire living settlement, not just the sacred enclosure
+- **Divine-Embodiment-by-Ritual-Transformation** — Hopi katsina-masking extends Yoruba orisha-possession + Tibetan deity-yoga + Greek theatrical persona; Hopi most communal and most pedagogically elaborated
+
+**Key method findings (S045):**
+- **The village as inhabited cosmos (Hopi)**: most complete form of cosmic-architectural-organization in the catalog; the daily life of ordinary people enacted in the cosmologically-mapped settlement IS the covenant practice. YOUSPEAK parallel: the forge itself is the practice, not just the word.
+- **Masau'u's poverty-covenant**: the covenant is offered by the humble, not the powerful; the caretaker-relationship is not domination but simplicity-stewardship. This is a rarely-attested theological form — divine authority through prior-presence and faithful-simplicity, not through power.
+- **Koyaanisqatsi as positive-negative pair with duyuktame**: the catalog now has the first paired diagnostic: duyuktame names the right-action-maintaining-cosmos; koyaanisqatsime names the covenant-abandonment-causing-disorder. Pairs are more powerful than singletons for forge purposes.
+- **Hopi sovereignty note**: some ceremonial content is restricted; this excavation draws only from Hopi-scholar-published and consent-acknowledged sources; the public-facing theology is already extraordinarily rich.
+
+**S045 pipeline additions:**
+1. **katsinme** — Hopi *katsina*; Half-year-present scheduled-divine; Specialized 7.35–7.55; **HIGH**
+2. **nimame** — Hopi *Niman*; Grief-gratitude at departure when return-assured; Specialized 7.30–7.50; **HIGH**
+3. **hopiqatsime** — Hopi *Hopiqatsi*; Community-covenant-life-as-cosmic-maintenance; Specialized 7.40–7.60; **HIGH**
+4. **koyaanisqatsime** — Hopi *koyaanisqatsi*; Covenant-abandonment-systemic-disorder; Specialized 7.30–7.50; **HIGH**
+5. **tihume** — Hopi *tihu*; Departure-gift maintaining relationship in absence; Specialized 7.15–7.35; MED
+6. **sipapume** — Hopi *sipapu*; Sacred emergence-threshold; Specialized 7.20–7.40; MED
+7. **masauwme** — Hopi *Masau'u*; Covenant-through-humble-prior-presence; Specialized 7.20–7.40; MED
+
+**S045 totals: ~141 convergences mapped (+11: 3 new [Scheduled-Divine-Presence, Covenant-as-Community-Cosmological-Maintenance, Faithful-Remnant-Through-World-Transitions], 3 deepened [Performative-Ontology to 4 traditions, Architecture-as-Cosmological-Map, Divine-Embodiment-by-Ritual-Transformation]); 15 forged; 74 in pipeline (67 prior + 7 new); archaeology files: 52 traditions (+hopi/ 2 new files 539 lines).**
