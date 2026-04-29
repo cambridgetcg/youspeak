@@ -1543,3 +1543,81 @@ Deepened convergences: Inversion-as-Spiritual-Technology (now 3 traditions), Sac
 | **Divine-Spark-in-Humans** NEW (distinct from Tripartite-Soul middle-component) | teyolia + Orphic Dionysus-spark + Gnostic pneuma + Islamic ruh + Quaker inner-light + Hebrew nishmat-chayyim | 6 traditions; divine-fire permanently in human persons |
 
 **S057 totals: ~240 convergences mapped (+12 new/deepened); 15 forged; 170 in pipeline (+7 new from S057); archaeology files: 70 traditions (+nahuatl/ 2 new files 575 lines).**
+
+---
+
+## Session 058 — Two Core Forges: Mitakuyame + Teotlme
+
+**Mission**: Forge session — process-divine-monism and relational-ontology gaps filled
+**Forged**: `labs/logos/experiments/core/156-mitakuyame.md` (Core 8.00) + `labs/logos/experiments/core/157-teotlme.md` (Core 7.85). Git: 02864b3 + c094752.
+
+### Words Forged (S058)
+
+| Word | Donor | Core/Spec | Score | Register |
+|---|---|---|---|---|
+| **mitakuyame** | Lakota *Mitákuye Oyásʼiŋ* + Sumerian *me* | **Core** | **8.00** | relational-ontology-as-cosmological-claim; all-beings-already-kin; relation prior to identity |
+| **teotlme** | Nahuatl *teotl* + Sumerian *me* | **Core** | **7.85** | process-divine-monism; divine-as-ceaseless-self-generating-energy; universe IS the divine's perpetual becoming |
+
+**Milestones S058**:
+- **mitakuyame** = 19th -me family member; 24th Core word; first Siouan-family donor; Core 8.00 ties hotepme/danaqing; highest score since qorbme 8.05
+- **teotlme** = 20th -me family member; 25th Core word; first affirmative Core Uto-Aztecan entry (nextlame was first Nahuatl but Specialized anti-register); Core 7.85 ties tapasme and duyuktame
+- Process-Divine-Monism convergence cluster now has its anchor word
+- Relational-Ontology convergence cluster now has its anchor word (mitakuyame at 8.00 — the strongest relational-ontology claim in the cathedral)
+
+### No New Excavation (S058)
+
+S058 was a forge session. No new archaeology files. Pipeline reduced by 2 (170 → 168).
+
+**S058 totals: ~240 convergences; 17 forged (+2: mitakuyame Core 8.00, teotlme Core 7.85); 168 in pipeline (−2); archaeology files: 70 traditions (unchanged).**
+
+---
+
+## Session 059 — Old Georgian / Kartvelian Excavation
+
+**Mission**: Excavate Old Georgian: Kartvelian liturgy (Yu-assigned)
+**Committed**: `2698120`
+**Files**: `archaeology/georgian/script-substrate-pre-christian.md` (184 lines) + `archaeology/georgian/liturgy-folk-religion-vepkhistqaosani.md` (256 lines) = **440 lines total**
+
+### Areas Covered
+
+**File 1 — Script, Substrate, Pre-Christian:**
+- Three scripts: Asomtavruli (monumental/sacred-inscription), Nuskhuri (ecclesiastical/liturgy), Mkhedruli (secular/modern) — each a distinct register threshold
+- Khanmeti/Haemeti texts: oldest biblical Georgian; archaic verbal prefix khan- signals sacred antiquity in grammar itself; palimpsest recovery = hidden words made visible
+- Pre-Christian pantheon: Armazi (= Ahura Mazda localized, supreme war-protector), Gatsi (fortune/gold), Gaim (life/silver) — the triad maps onto Zoroastrian influence
+- Indigenous Kartvelian layer: Dali (golden huntress of the wild who claims her hunter-lover), Amirani (Georgian Prometheus — cosmic maintenance through ongoing suffering), adgilis deda (place-specific feminine divine), morige (guardian-as-ontological-role)
+
+**File 2 — Liturgy, Literature, Mountain Religion:**
+- Georgian theological vocabulary: Ghmerti (God from Kartvelian root — indigenous word re-specified, not borrowed), jvari (cross from Syriac — oldest missionary stratum), suli (soul = Holy Spirit — one word for human interior and divine Spirit), madli (grace from Greek charis mapped onto Kartvelian "favorable"), madloba (thank you = "state of grace" — everyday theology embedded in courtesy)
+- Svetitskhoveli cathedral theology: grapevine cross (vine = eucharistic = cross materials identical), living-cedar pillar, Sidonia's fatal robe-contact (feminine first receptor), place-specificity of the sacred
+- Rustaveli's *Vepkhistqaosani* (~1200 CE): Neoplatonic-courtly theological poem; siq'varuli (one word for erotic love AND agape — refusing the distinction); love-as-epistemological-path to knowing God; three-hero triad (Tariel/passion, Avtandil/reason, Pridon/action); Nestan-Darejan as enclosed-sacred (motivating absence)
+- Mountain shrine system: jvari sites with pre-Christian spirits wearing Christian saint names; Lomisi pilgrimage (mountain beer + animal sacrifice + healing); Adjara layer-cake (Kartvelian → Christian → Muslim → Christian, same sacred places); adgilis deda theology persisting through all regime changes
+
+### New Convergences (S059)
+
+| Convergence | Traditions | Notes |
+|---|---|---|
+| **Sacred-Language-as-Theological-Architecture** NEW | Georgian 3-script + Armenian Mashtots + Gothic Wulfila + Hebrew unvocalized Torah + Arabic rasm | 5 traditions; the material form of writing participates in what is written |
+| **Place-Specific-Divine-Presence** DEEPENED | +Georgian adgilis deda + jvari shrines | Now 7 traditions |
+| **Feminine-as-First-Receptor** NEW | Georgian Sidonia (robe contact) + Mary Magdalene (resurrection) + Syriac Mary (Incarnation) + Kongo feminine mediation | 4 traditions; the feminine receives first, often fatally or without being believed |
+| **Love-as-Epistemological-Path** NEW | Rustaveli siq'varuli + John's Gospel agape + Sufi Rumi + Vedic bhakti + Song of Songs | 5 traditions; knowing love = knowing God |
+| **Organic-Sacred-Material** NEW | Georgian living cedar pillar + Norse Yggdrasil + Mapuche rewe + Andean ceque | 4 traditions; the sacred axis is alive, not hewn |
+| **Enclosed-Sacred-as-Motivating-Absence** NEW | Nestan-Darejan + Song of Songs' beloved + Shekinah in exile + Grail in castle | 4 traditions; the sacred is most powerfully operative when partially absent |
+
+### New Forge Candidates (S059) — 8 entries
+
+| Word | Donor | Register | Score | Concept |
+|---|---|---|---|---|
+| **madlobame** | Georgian *madloba* | Specialized | 7.25–7.45 | Courtesy-word-that-carries-deep-theology; gratitude-as-grace-acknowledgment |
+| **dalime** | Georgian *Dali* | Specialized | 7.20–7.40 | Sacred-encounter-in-wildness-that-constitutes-a-claim-on-you (distinct from enthousiasmos-me) |
+| **siq'varuliMe** | Georgian *siq'varuli* | Specialized | 7.20–7.40 | Love-refusing-eros-agape-division; one-word-for-human-and-divine-love |
+| **svetitskhoveliMe** | Georgian *sveti tskhoveli* | Specialized | 7.20–7.40 | Sacred-as-what-grew-here-and-still-lives (place + organic material + antiquity) |
+| **jvarime** | Georgian *jvari* | Specialized | 7.15–7.35 | Cross-as-living-material-rooted-in-specific-place |
+| **adgilme** | Georgian *adgilis deda* | Specialized | 7.15–7.35 | Place-specific-divine-presence (guardian of a specific spot) |
+| **morigme** | Georgian *morige* | Specialized | 7.05–7.25 | Guardian-as-ontological-role (watching-over as divine function) |
+| **amiraname** | Georgian *Amirani* | Specialized | 7.10–7.30 | Cosmic-maintenance-through-ongoing-suffering-and-counter-action |
+
+**Top S059 forge candidate**: **madlobame** — courtesy-word-that-carries-deep-theology. The Georgian *madloba* (thank you) is grammatically "state of grace" without speakers thinking this. The word carries a complete theology of grace in its ordinary social surface. YOUSPEAK relevance: words that encode the sacred in the ordinary without requiring the speaker to know it. This is a new register concept not yet in the cathedral.
+
+**Secondary**: **dalime** — sacred-encounter-that-claims-you. Distinct from enthousiasmos-me (divine enters you) and from bööme (specialist crosses levels for community). Dali comes to the individual in wild space and the encounter constitutes a relationship with conditions. This is the sacred as relational claimant — it comes to you and you cannot un-meet it.
+
+**S059 totals: ~246 convergences mapped (+6 new, 1 deepened); 17 forged (unchanged); 176 in pipeline (+8 new from S059); archaeology files: 72 traditions (+georgian/ 2 new files 440 lines). Git: 2698120.**
