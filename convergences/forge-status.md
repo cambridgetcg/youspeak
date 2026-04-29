@@ -2192,3 +2192,40 @@ Also deepened (not new): Liminal-Practitioner-as-Sacred-Specialist (völva deepe
 *Session 069 grand totals: ~438 convergences mapped; 17 forged (unchanged); ~309 in pipeline; 91 traditions archaeologically documented.*
 *Session 069 new forge candidates: Tupí-Guaraní (9) — including 3 Core candidates (yvy-marāme, teko-porame, ayvu-me) and 6 Specialized.*
 *Session 069 new convergences: 8 — including 2 five-tradition convergences (This-Worldly-Eschatological-Migration, Beauty-Goodness-Fusion-as-Ethical-Foundation).*
+
+---
+
+## Session 070 — Ugaritic excavation (2026-04-29)
+
+### New Forge Candidates (Ugaritic S070) — 5 entries
+
+| Candidate | Donor tradition | Category | Score range | Core meaning |
+|---|---|---|---|---|
+| **ābshanāme** | Ugaritic *ʾāb šnm* (father of years) | Specialized | 7.30–7.50 | Authority-prior-to-time; the patriarch whose fatherhood precedes temporal process; the one whose seniority is not chronological but ontological |
+| **motme** | Ugaritic *Mot* / Hebrew *māwet* | Specialized | 7.35–7.55 | Cosmic-death-as-consuming-void; death personified as the gaping entropy at existence's edge; Mot's mouth spanning heaven to earth; the force that makes vitality necessary |
+| **yaomme** | Ugaritic *Yam* | Specialized | 7.20–7.40 | Sea-as-chaos-adversary; cosmic dissolution personified as the force that would unmake structure; the watery undifferentiated that must be defeated for order to exist |
+| **ʿadatme** | Ugaritic *ʿdt ʾilm* (assembly of gods) | Specialized | 7.20–7.35 | Divine-council-as-cosmic-governance-structure; the cosmos as a polity; sovereignty exercised through deliberative assembly; what El presides over |
+| **parallelisme** | Ugaritic kola-system / Hebrew Psalter | Specialized | 7.30–7.50 | Parallel-speech as ritual enactment; form-as-theology; the word-structure that performs what it says; saying-twice-to-make-complete; liturgical correspondence-logic |
+
+### New Convergences (Ugaritic S070) — 10 entries (3 new, 7 deepened)
+
+| Convergence | Traditions | Status |
+|---|---|---|
+| **Divine-Council-as-Cosmic-Governance** NEW | Ugaritic *ʿdt ʾilm* + Hebrew Ps. 82 *ʿdat-ʾēl* + Akkadian *puḫur ilāni* + Greek Olympian assembly + Norse Æsir *þing* + Vedic divine assembly | 6+ traditions; cosmos as polity governed by divine deliberative assembly |
+| **Temple-as-Cosmic-Sovereignty-Marker** DEEPENED | Ugaritic Baal's palace + Hebrew Solomon's Temple + Sumerian Ekur + Babylonian Esagila + Roman Capitolium | 5+ traditions; without a house the deity is not fully king; temple-building IS enthronement |
+| **Parallel-Speech-as-Ritual-Enactment** NEW | Ugaritic kola + Hebrew Psalter + Akkadian *balag/ershemma* laments + Sanskrit shloka repetition | 4+ traditions; the speech-structure that performs rather than merely describes; form IS theology |
+| **El→YHWH-Absorption-as-Monotheism-by-Merger** NEW | Ugaritic El/Baal → Biblical YHWH + possibly Vedic Varuna→Indra + Greek Zeus absorbing older deities | 3+ traditions; monotheism achieved through progressive absorption and polemical exclusion, not sudden revelation |
+| **Storm-Deity-as-Rider-of-Clouds** DEEPENED | Ugaritic *rkb ʿrpt* + Hebrew Ps. 68:4 + Akkadian Adad + Vedic Indra + Norse Thor | 5+ traditions; the deity specifically *moves* through the storm; locomotor divine kinesis |
+| **The-Guide-Who-Cannot-Arrive** DEEPENED | Guaraní karaí + Ugaritic Baal (structurally repeated deaths; cycle never closes) + Moses + Sufi *fanāʾ* + Buddhist Bodhisattva | 5+ traditions; even the cosmic champion cannot permanently close the gap |
+| **Near-Miss-Immortality** DEEPENED | Ugaritic Aqhat (offered + refused through pride) + Gilgamesh (accidental loss) + Greek Achilles (chosen) + Māori Maui + Mbyá | 5+ traditions; Aqhat adds new variant: *offered but refused through pride* — distinct from accidental loss |
+| **Justice-as-Cosmic-Foundation** DEEPENED | Ugaritic *dnʾil* + Sumerian Utu + Hebrew Ps. 82 + Egyptian Maʿat + Akkadian Šamaš | 5+ traditions; the just judge whose justice is cosmic load-bearing; without it world-order collapses |
+| **Regent-Son-as-Human-King** NEW | Ugaritic Keret *bn ʾil* + Hebrew Ps. 2 + Egyptian pharaoh-as-son-of-Re + Akkadian king-as-*šarru* | 4+ traditions; human kingship as divine sonship by adoption; legitimacy derives from ontological relationship with the high deity |
+| **Compassion-of-the-Patriarch** DEEPENED | Ugaritic El weeping for Baal + Hebrew *raḥamim* + Akkadian Enlil's tears (lament corpus) + Greek Zeus's pity | 4+ traditions; the withdrawn patriarch who nonetheless feels; sovereignty held together with genuine paternal tenderness |
+
+**S070 Ugaritic totals: ~448 convergences (+10 deepened/new S070; prior ~438 Tupí-Guaraní); ~314 in pipeline (+5 Ugaritic forge candidates); archaeology files: 92 traditions (+ugaritic/ 2 new files 497 lines); git [see commit].**
+
+---
+
+*Session 070 grand totals: ~448 convergences mapped; 17 forged (unchanged); ~314 in pipeline; 92 traditions archaeologically documented.*
+*Session 070 new forge candidates: Ugaritic (5) — all Specialized (ābshanāme, motme, yaomme, ʿadatme, parallelisme).*
+*Session 070 new convergences: 10 — including 3 new (Divine-Council-as-Cosmic-Governance, Parallel-Speech-as-Ritual-Enactment, El→YHWH-Absorption, Regent-Son-as-Human-King).*
