@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-29 (S049 — Kikongo excavation complete: archaeology/kikongo/ 2 new files 441 lines [nzambi-cosmogram-spirit-world.md 224 lines + nkisi-kimpa-vita-diaspora.md 217 lines]; 7 new pipeline candidates; 6 new convergences [Encompassing-threshold, Cosmogram-as-orientation, Material-theology, Commissioned-contractor, Liberatory-reorientation, Cyclic-inclusion-of-death]; ~172 convergences; pipeline at 107)
+last_updated: 2026-04-29 (S053 — Baltic/Lithuanian+Old Prussian excavation complete: archaeology/baltic/ 2 new files 586 lines [romuva-pantheon-linguistic-archaeology.md 337 lines + old-prussian-sutartines-christianization.md 249 lines]; 7 new pipeline candidates [darname, sutartineme, žemynme, laimage, alkame, perkūname, deivsme]; 10 new/deepened convergences [Sacred-fire DEEPENED, Storm-Power DEEPENED, Pre-Alloc-Guardian EXTENDED to 6, Ancestor-feeding CONFIRMED, Cosmic-truth-order EXTENDED, Storm-God/Serpent NEW, Dissonance-as-Harmony NEW, Sacred-Place-Already-Inhabited NEW, Body-Community-Survives PATTERN, Polyphone-Cosmos NEW]; ~198 convergences; pipeline at 134+)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -129,6 +129,25 @@ The **cosmic-truth-order convergence** (cosmic-truth + cosmic-justice + cosmic-r
 The register is honest about what is incomplete. **At least 30 convergences mapped; ~12 forged (across 17 YOUSPEAK words) as of S025; 18+ remain.** Eight dual-pole candidate-pairs await forging. Nine new convergences surfaced from excavations await forge attempts. The cathedral is decades-of-work unfinished. This is the design.
 
 ---
+
+---
+
+## Baltic / Lithuanian / Old Prussian convergences (S053)
+
+| Property | Traditions converging | Forge state | YOUSPEAK word |
+|---|---|---|---|
+| **Sacred-fire-as-divine-presence** DEEPENED | 5 (Baltic ugnis/Romuva + Vedic Agni [cognate: same PIE *h₁égnis] + Zoroastrian Atash + Roman Vesta + Cherokee atsila [independent convergence]) | unforged | candidate: atsilame (pipeline); ugnis adds European pagan witness |
+| **Storm-Power-as-Divine-Active-Presence** DEEPENED | 6+ (Perkūnas/Lithuanian + Perun/Slavic + Parjanya/Sanskrit [all cognate *perkʷu-] + Thor/Norse + Tarḫunna/Hittite + Teššub/Hurrian + Indra/Vedic [different role]) | unforged | candidate: perkūname (Specialized 7.30–7.50); needs convergence file |
+| **Pre-Allocated-Guardian-Soul** EXTENDED | 6 (Laima/Baltic + šičún/Lakota + chi/Igbo + ayyaana/Oromo + fravashi/Avestan + orí/Yoruba; Laima variant: fate-as-assigned-caring-guardian, not soul-as-substance) | unforged | candidate: laimage (Specialized 7.35–7.55); fravashime (pipeline) |
+| **Ancestor-feeding-across-dissolution** CONFIRMED | 6 (Vėlinės/Baltic + Todos Santos/Aymara + ukuphahla/Bantu + nsaguo/Akan + kispum/Akkadian + Día de Muertos/Mexican) | unforged | convergence file warranted; needs forge candidate |
+| **Cosmic-truth-order** EXTENDED | 6 named instances (darna/Baltic + ṛta/Vedic + aša/Avestan + ma'at/Egyptian + emet/Hebrew + hózhǫ́/Navajo); add darna to convergence file | partially forged (maatme Core 7.50, rtame, ashame, emetme) | darname (Specialized 7.40–7.60) |
+| **Storm-God/Serpent-Combat PIE formula** NEW | 5+ (Perkūnas/Velnias + Indra/Vṛtra + Thor/Jörmungandr + Zeus/Typhon + Hittite Storm-god/Illuyanka); Watkins (*How to Kill a Dragon*) establishes as PIE formula | unforged — shared inheritance, not convergence per se | structural observation; no single forge candidate; deepens Storm-Power entry |
+| **Dissonance-as-Harmony / Tension-Held-in-Beauty** NEW | 3 independent traditions (sutartinės/Baltic + perichōrēsis/Patristic Greek + Mitákuye Oyásʼiŋ/Lakota): irreducible others in right relation, not resolved into unity; sutartinė makes it audible | unforged | candidates: sutartineme (Specialized 7.35–7.55); perichōrēsisme (VERY HIGH pipeline) |
+| **Sacred-Place-as-Already-Inhabited** NEW (formally named) | 4 (alka/Baltic + Australian Country + Navajo sacred mountains + Hopi sipapuni): sacred space recognized not constructed; the divine already present, encountered not installed | unforged | candidate: alkame (Specialized 7.30–7.50) |
+| **Body-Community-Survives-Institutional-Destruction** PATTERN | 6+ traditions under suppression (Baltic sutartinės/dainas + Kongo cosmogram in slave quarters + Haudenosaunee Thanksgiving Address in Longhouses + Lakota Inipi in hiding + Hopi kachinas in kiva + Cherokee formulaic songs): when institution is targeted, body+community carries what official record destroys | unforged — meta-pattern, not single-tradition concept | structural observation; may not warrant forge; deserves convergence entry |
+| **Polyphone-Cosmos / Music-as-Cosmic-Structure** NEW register | 3+ (sutartinės/Baltic polyphony-as-darna + Dogon Nommo speech-as-cosmic-vibration [nommome forged S027] + Yoruba àṣẹ-in-voice + Australian songlines): cosmos as acoustic event | partially forged (nommome Core 7.50) | candidate: sutartineme deepens the cluster |
+
+**S053 Baltic total**: 7 new pipeline candidates; 10 new/deepened convergences; pipeline now at ~134. Traditions now 63 (+2 Baltic files).
 
 ## Method-level observations from accumulated forge-pattern
 
