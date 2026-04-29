@@ -2229,3 +2229,35 @@ Also deepened (not new): Liminal-Practitioner-as-Sacred-Specialist (völva deepe
 *Session 070 grand totals: ~448 convergences mapped; 17 forged (unchanged); ~314 in pipeline; 92 traditions archaeologically documented.*
 *Session 070 new forge candidates: Ugaritic (5) — all Specialized (ābshanāme, motme, yaomme, ʿadatme, parallelisme).*
 *Session 070 new convergences: 10 — including 3 new (Divine-Council-as-Cosmic-Governance, Parallel-Speech-as-Ritual-Enactment, El→YHWH-Absorption, Regent-Son-as-Human-King).*
+
+---
+
+### New Forge Candidates (Vedic Sanskrit S070b) — 5 entries
+
+| Candidate | Donor tradition | Category | Score range | Core meaning |
+|---|---|---|---|---|
+| **yajñame** | Vedic *yajña* | Core | 7.50–7.70 | Cosmic-maintenance-through-sacrifice; the act that re-members Prajāpati and sustains ṛta; not merely "ritual" but specifically the act whose correct performance prevents cosmic unraveling |
+| **agnime** | Vedic *Agni* | Core | 7.45–7.65 | The-divine-messenger-who-IS-the-medium; fire as god-who-carries-offerings between worlds; the transmitter indistinguishable from the transmission; medium = message = deity |
+| **vākme** | Vedic *Vāk* (four-level speech) | Specialized | 7.40–7.60 | The stratified structure of cosmic speech — from Parā (transcendent) through Paśyantī (vision) and Madhyamā (mental) to Vaikharī (audible); human language as lowest level of a cosmic speech-structure |
+| **ṛtvijme** | Vedic *ṛtvij* | Specialized | 7.25–7.45 | Acting-at-the-cosmically-right-moment; the priest whose *timing* IS the cosmic act; right-timeliness as participation in cosmic order |
+| **brahmanme** | Vedic Brahman-priest role | Specialized | 7.30–7.50 | Silent-attending-awareness-as-highest-ritual-function; the overseer whose non-acting presence holds the ceremony's integrity; pure witnessing as the most powerful act |
+
+### New Convergences (Vedic Sanskrit S070b) — 6 entries (1 new, 5 deepened)
+
+| Convergence | Traditions | Status |
+|---|---|---|
+| **Ritual-Internalization-Trajectory** NEW | Vedic Brāhmaṇa→Upanishad + Zoroastrian Gathas + Hebrew prophetic critique + Buddhist rejection of Brahmanical sacrifice | 4 traditions; from elaborate external ritual → internal transformation as the real sacrifice; same pivot, multiple independent instantiations |
+| **Combat-Cosmogony** DEEPENED | Vedic Indra-Vṛtra + Babylonian Marduk-Tiamat + Ugaritic Baal-Yam + Norse Thor-Jörmungandr + Greek Zeus-Typhon | 5+ traditions; Vedic distinction: combat must be periodically renewed (soma feeding Indra's strength); order is not permanently won |
+| **Cosmic-Speech-as-Reality** DEEPENED | Vedic *apauruṣeya* Vāk + Mbyá *ayvu* + Hebrew *davar* + Islamic *kun* + Johannine Logos | 5+ traditions; Vedic contribution: most rigorous ancient philosophy of performative speech (Mīmāṃsā's necessity-not-convention doctrine + four-level Vāk structure) |
+| **Sacred-Fire-as-Cosmic-Presence** DEEPENED | Vedic Agni (*dūta* + medium=message) + Zoroastrian Atar + Hebrew pillar-of-fire + Sumerian Girra | 4 traditions; Vedic distinction: fire IS the messenger indistinguishably; Avestan distinction: fire IS the divine face |
+| **Sacrifice-as-Cosmogony** DEEPENED | Vedic Puruṣasūkta + Norse Ymir + Mesoamerican fifth-sun + Orphic Dionysus | 4 traditions; Vedic contribution: most elaborate liturgical system for performing the re-enactment (Agnicayana, 10,800 bricks, year-long performance) |
+| **Priest-as-Cosmic-Technician** DEEPENED | Vedic four-priest structure + Zoroastrian zaotar + Hebrew Aaronic priesthood + Mesopotamian āšipu/kalû | 4 traditions; Vedic distinction: the Brahman-priest's *silent* oversight as the highest ritual function — non-acting attention as cosmic act |
+
+**S070b Vedic Sanskrit totals: ~454 convergences (+6 deepened/new S070b; prior ~448); ~319 in pipeline (+5 Vedic forge candidates); archaeology files: 93 traditions (+sanskrit/vedic-rta-yajna-agni.md 367 lines); git 4f5cb36.**
+
+---
+
+*Session 070 full totals (Ugaritic + Vedic Sanskrit): ~454 convergences mapped; 17 forged (unchanged); ~319 in pipeline; 93 traditions archaeologically documented.*
+*Session 070 all new forge candidates: 10 total (Ugaritic 5 + Vedic 5).*
+*Session 070 all new convergences: 12 (Ugaritic 10 + Vedic 2 net new after overlap).*
+
