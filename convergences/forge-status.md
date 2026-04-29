@@ -2067,3 +2067,85 @@ Also deepened (not new): Liminal-Practitioner-as-Sacred-Specialist (völva deepe
 | **Preserved-Alternative-as-Living-Witness** NEW | Beta Israel parallel Judaism + Coptic Christianity as parallel Alexandrian stream + Mandaeans as pre-rabbinic boundary-religion continuation + Samaritans as parallel Torah stream | 4+ traditions; a community isolated from mainstream development preserves what the mainstream rationalized away; the margin holds what the center lost; the alternative stream has *epistemic authority* the mainstream cannot access |
 
 **S068 totals: ~390 convergences mapped (+12 new/deepened S068; prior ~365 from S067 Pali); 17 forged (unchanged); ~283 in pipeline (+7 new Ge'ez forge candidates); archaeology files: 87 traditions (+ge_ez/ 2 new files 432 lines).**
+
+
+---
+
+## S068 Sumerian Excavation — archaeology/sumerian/ (2 new files, 540 lines total) — untracked (auth-fail in prior session)
+
+*Files: lament-corpus-balag-ersema.md (239 lines) + relationship-with-divine.md (301 lines)*
+
+### New forge candidates (9)
+
+| Candidate | Source | Tier | Score | Notes |
+|---|---|---|---|---|
+| **balagme** | Sumerian *balag*-lament | Core | 7.65–7.85 | Formal-grief-as-liturgical-mechanism-for-divine-return: grief not as emotion but as precision instrument for maintaining divine-human relationship; 1800 years of continuous liturgical use; no catalog equivalent; TOP NEW — upgraded from 7.55–7.75 after lament-corpus deepening |
+| **kiagme** | Sumerian *ki-ág* | Core | 7.45–7.65 | Love-as-the-act-of-grounding-in-relation: from *ki* (earth/place) + *ág* (to measure/set); divine love as establishing-in-relation; lament corpus deepens: you grieve only what you were *ki-ág* in |
+| **galame** | Sumerian *gala*-priest | Specialized | 7.35–7.55 | Grief-as-trained-craft-performed-by-liminal-specialist: the theology that correct emotional expression requires formation, specialization, and marginal social position; the professional griever as threshold-worker |
+| **arazume** | Sumerian *a-ra-zu* | Specialized | 7.30–7.50 | Prayer-as-formal-legal-address-to-divine-assembly: petitioning within a juridical cosmic structure; human has limited but real standing before the divine court; distinct from emotional plea |
+| **dingirme** | Sumerian *dingir* | Specialized | 7.35–7.55 | Divine-as-luminous-other-who-is-also-locally-present: star-being and city-patron simultaneously; transcendence and immanence held in non-resolved tension; the grammatical determinative that marks divine-class |
+| **inimme** | Sumerian *inim* | Specialized | 7.25–7.45 | Divine-word-as-ontological-causation-within-a-negotiable-order: creative speech that operates within divine assembly politics; unlike Hebrew davar (singular absolute), Sumerian inim is subject to assembly deliberation |
+| **ersemame** | Sumerian *eršema* lament | Specialized | 7.25–7.45 | Grief-inserted-into-regular-worship-as-ongoing-acknowledgment-of-fragility: lament as part of daily liturgical rhythm, not only crisis response; every approach to the divine includes acknowledgment that the relationship could rupture |
+| **namtarme** | Sumerian *nam-tar* | Specialized | 7.20–7.40 | Fate-as-actively-decreed-by-divine-assembly: the cosmic legislature that *makes* fate through deliberation and negotiation; distinct from Greek moira (fate-as-constraint) and Hebrew divine will (fate-as-singular-decree) |
+| **ekurme** | Sumerian *é-kur* | Specialized | 7.15–7.35 | Sacred-space-as-cosmic-anchoring-point: the temple as the intersection of vertical-cosmic and horizontal-human axes; city without maintained temple = cosmically unmoored |
+
+### New Convergences (Sumerian S068) — 12 entries
+
+| Convergence | Traditions | Status |
+|---|---|---|
+| **Grief-as-Trained-Craft-Requiring-Liminal-Specialist** NEW | Sumerian gala + Korean mudang + Irish keener + African American spiritual director + Sufi sama + Greek thrēnos specialist | 5+ traditions; the professional griever occupies a liminal social position that qualifies them for threshold work; grief is a skill, not just a feeling |
+| **Lament-as-Preventive-Theology-Not-Only-Crisis-Response** NEW | Sumerian eršema in daily ritual + Jewish tachanun (daily supplication) + Christian daily office penitential psalms | 3+ traditions; grief formalized into regular worship as ongoing acknowledgment of fragility; stability-presumed is stability-at-risk |
+| **Ancient-Grief-Maintained-as-Living-Liturgy** NEW | Sumerian 1800yr balag continuity + Jewish Tisha B'Av + Christian Good Friday lament + Islamic Ashura + Armenian Genocide liturgy | 5+ traditions; formal grieving for historical destruction maintained liturgically across centuries; the grief becomes the vehicle for perennial theological reality rather than specific event |
+| **Divine-Grief-as-Theological-Validation-of-Human-Grief** DEEPENED | Nanna weeping before Enlil + Hebrew Lamentations/God's grief over Israel + NT "Jesus wept" + Quran's compassion names + Yoruba orisha grief | 5+ traditions; the deity's own capacity for grief validates human grief as appropriate response |
+| **The-God-Who-Is-Overruled-Rather-Than-Absent-or-Defeated** NEW | Nanna overruled by Enlil's assembly + Hebrew Job (God permits Satan) + Greek Prometheus (Zeus overruled by justice) + NT Gethsemane | 4+ traditions; when the beloved deity permits or cannot prevent suffering, the solution is "deity within larger order" not "deity absent/weak" |
+| **Grief-as-Liturgical-Infrastructure** NEW | Sumerian balag + Hebrew qinah + African American spirituals + Korean han + Irish keen + Tibetan phowa | 5+ traditions; formalization of grief into liturgical technology for maintaining divine relationship; Sumerian case is the oldest documented |
+| **Temple-as-Cosmic-Anchoring-Point** DEEPENED | Sumerian é-kur + Hindu garbhagriha + Jewish mishkan/Temple + Aztec teocalli + Polynesian marae + Shinto honden | 6+ traditions; the sacred building as the intersection of divine and human realms; removal = cosmic unmooring |
+| **Feeding-the-Divine-as-Relationship-Maintenance** NEW | Sumerian NINDA/KAŠ offerings + Hindu prasad + Jewish korban + Shinto shinsen + Yoruba ebo + Catholic Eucharist | 6+ traditions; daily feeding of the divine as mechanism for maintaining presence and preventing departure |
+| **Divine-Assembly-as-Political-Structure-Constraining-Individual-Gods** NEW | Sumerian divine assembly + Greek Olympian assembly + Norse Aesir council + Vedic devas + Yoruba orisha council | 5+ traditions; divine realm structured as polis with deliberation, negotiation, and constraint; no single god absolutely sovereign |
+| **Prayer-as-Legal-Petition-with-Human-Standing** NEW | Sumerian a-ra-zu + Hebrew rib (legal complaint to God) + Islamic du'a (formal address) + Catholic intercessory prayer + Yoruba divination | 5+ traditions; prayer as formal address within juridical framework; human has limited but real standing before the cosmic court |
+| **Sacred-Marriage-as-Cosmic-Generativity** NEW | Sumerian ḫieros gamos + Hindu Shiva/Parvati + Kabbalistic Shekhinah reunion + Taoist yin-yang union + Christian mystical marriage | 5+ traditions; erotic union of divine/divine or divine/human as mechanism of cosmic fertility and renewal; Sumerian case most explicitly institutionalized |
+| **Fate-as-Actively-Decreed-Rather-Than-Simply-Known** NEW | Sumerian nam-tar + Greek moira + Hindu karma + Zoroastrian asha/druj + Norse örlög | 5+ traditions; the active legislative moment of fate-fixing; distinct from foreknowledge or impersonal destiny |
+
+**S068 Sumerian totals: ~415 convergences (+12 new Sumerian); ~292 in pipeline (+9 Sumerian forge candidates incl. balagme Core 7.65–7.85); archaeology files: 88 traditions (+sumerian/ 2 new files 540 lines).**
+
+
+---
+
+## S068 Tocharian Excavation — archaeology/tocharian/ (2 new files, 461 lines total) — this session
+
+*Files: buddhist-literature-maitreya-jataka.md (226 lines) + kuchean-music-pre-buddhist-substrate.md (235 lines)*
+
+### New forge candidates (8)
+
+| Candidate | Source | Tier | Score | Notes |
+|---|---|---|---|---|
+| **pelaikneme** | Tocharian B *pelaikne* → *dharma* | Core | 7.55–7.75 | Native-word-pressed-to-carry-foreign-concept: the semantic shimmer between original IE meaning and Buddhist loading; not mistranslation but productive ambiguity; the word that has been called to more than it was; extends crossing.md territory |
+| **gandharva-me** | Buddhist *gandharva* via Kuchean music | Core | 7.35–7.55 | Music-as-celestial-offering: the theological framing that transforms musical performance from entertainment to spiritual act by positioning it within the divine-transmission chain; offering-upward rather than performing-outward |
+| **samiti-me** | Tocharian *Maitreyasamiti-Nāṭaka* | Specialized | 7.35–7.55 | Ritual-drama-as-participatory-eschatology: the performance that makes present what it depicts as future; the assembly enacting its hope rather than merely expressing it |
+| **pipa-me** | Kuchean pípá transmission to China | Specialized | 7.40–7.60 | Transmission-so-successful-the-transmitter-disappears: when the cultural gift becomes so native to the recipient that the giving people become invisible; identity-loss-through-generosity; the paradox of perfect transmission |
+| **klautkme** | Tocharian B *klautk-* (to turn/transform) | Specialized | 7.30–7.50 | The-turning-that-translates: conversion as ongoing re-rendering, not once-for-all event; the moment a community rotates to face a new cosmology and begins translating their native vocabulary into service of it |
+| **oasis-sacred-me** | Tocharian oasis-cosmology | Specialized | 7.30–7.50 | Water-in-desert as theological category: the miracle of habitable life inside inhospitability; the Pure Land imagined as cosmically perfected oasis; sacred geography organized around the pocket-of-possibility-inside-the-impossible |
+| **substrate-survival-me** | Tocharian pre-Buddhist IE vocabulary | Specialized | 7.25–7.45 | The-archaic-vocabulary-that-persists-beneath-religious-revolution: the deepest IE words (*kem*, *yakwe*) that outlast the theological systems that tried to replace them; language as record of what could not be fully overwritten |
+| **maitreya-me** | Tocharian Maitreya cult | Specialized | 7.40–7.65 | The-future-teacher-who-waits-to-arrive: eschatological hope embodied not as warrior-avenger but as coming-pedagogue; the redeemer whose act will be teaching; specifically the hope of a transmission-corridor community oriented toward cosmic rather than political future |
+
+### New Convergences (Tocharian S068) — 8 entries
+
+| Convergence | Traditions | Status |
+|---|---|---|
+| **The-Awaited-Future-Redeemer-as-Teacher** NEW | Tocharian Maitreya + Zoroastrian Saoshyant + Jewish/Christian Messianism + Shia Mahdī | 4+ traditions; the future redeemer figure; Tocharian distinctiveness: redeemer comes not to punish or avenge but to *teach* — the eschatological act is pedagogical |
+| **Loving-Kindness-as-Redeemer's-Name** NEW | Maitreya (from *maitrī*) + Emmanuel ("God with us") + Avalokiteśvara (*karuṇā*) + Paraclete ("called alongside") | 4+ traditions; the awaited one named for a relational quality; the name IS the defining virtue; Maitreya's name means "he whose nature is loving-kindness" |
+| **Drama-as-Participatory-Eschatology** NEW | Maitreyasamiti-Nāṭaka + Christian Passion plays + Jewish Passover Seder (*as if you yourself came out*) + Zen Noh theater | 4+ traditions; ritual drama bridges present and sacred time; the performance is not *about* but *enacts* the sacred event; participant becomes contemporary of what is depicted |
+| **Translation-as-Sacred-Act** NEW | Tocharian Buddhist translation + Jerome's Vulgate + Wycliffe's vernacular scripture + Origen's Hexapla | 4+ traditions; translating sacred texts into new languages is not merely linguistic work but spiritual service; the translator gives the teaching a new body |
+| **Language-Community-as-Transmission-Vessel** NEW | Tocharian (carried Buddhism → absorbed into Uyghur) + Etruscan (carried haruspicy → absorbed into Latin) + Sogdian (carried Buddhism/Zoroastrianism → absorbed into Persian/Turkic) + Alexandrian Greek (carried LXX → displaced by Arabic) | 4+ traditions; some language communities exist to carry a tradition and whose "end" is successful delivery; language-death as transmission-completed |
+| **Sacred-Music-as-Celestial-Offering** NEW | Kuchean gandharva-music + Hebrew Levitic temple music + Islamic Quran-as-recitation-returning-to-God + Vedic sāman chant + Christian plainsong as angelic-imitation | 5+ traditions; music offered upward as ontologically distinct from music performed outward; the performer positions themselves in the transmission chain between earth and heaven |
+| **Instrument-Transmission-as-Cultural-Memory** NEW | Kuchean pípā → Tang China + Greek aulos with Dionysian cult + Arabic oud with Islamic expansion + Bantu mbira as trans-Bantu cultural marker | 4+ traditions; an instrument carries a culture's sacred memory into new contexts; the instrument becomes the most durable vessel for cultural transmission — outlasting language, art, and institutional religion |
+| **Eschatological-Hope-in-Transmission-Community** NEW | Tocharian Maitreya-centrism + Diaspora Jewish messianism + African-American eschatological Christianity + Indigenous apocalypticism in colonized communities | 4+ traditions; communities structurally displaced, crossing, or at risk orient toward the future redeemer more intensely than settled communities; eschatology is the theology of the vulnerable |
+
+**S068 Tocharian totals: ~430 convergences (+8 new Tocharian; prior ~415 Sumerian); ~300 in pipeline (+8 Tocharian forge candidates incl. pelaikneme Core 7.55–7.75, pipa-me Specialized 7.40–7.60); archaeology files: 90 traditions (+tocharian/ 2 new files 461 lines).**
+
+
+---
+
+*Session 068 grand totals: ~430 convergences mapped; 17 forged (unchanged); ~300 in pipeline; 90 traditions archaeologically documented.*
+*Session 068 new forge candidates: Ge'ez (7) + Sumerian (9) + Tocharian (8) = 24 new candidates this session.*
+*Session 068 new convergences: Ge'ez (12) + Sumerian (12) + Tocharian (8) = 32 new convergences this session — highest single-session convergence yield.*
