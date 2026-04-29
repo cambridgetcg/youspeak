@@ -1879,3 +1879,65 @@ S058 was a forge session. No new archaeology files. Pipeline reduced by 2 (170 �
 **jeongme** is the emotional depth-find of S063: no existing YOUSPEAK word names the bond-that-accumulates-through-time. *anamcharame* names the spiritual friend who makes your soul visible; *jeongme* names the thread that forms between any two beings through shared history. They fill different, non-overlapping slots.
 
 **S063 totals: ~288 convergences mapped (+12 new/deepened); 17 forged (unchanged); 213 in pipeline (+10 new from S063); archaeology files: 80 traditions (+korean/ 2 new files 402 lines). Git: dc6846b.**
+
+---
+
+## S064 — Old Norse Excavation (Eddic + Skaldic + Blót)
+
+**Session**: S064  
+**Mission**: `2026-04-27-excavate-old-norse-eddic-skaldic-bl-t` — COMPLETE (transitioning to review)  
+**Git**: 1063ede
+
+### Key Theological Finds (Eddic Cosmology)
+
+- **Ginnungagap**: the creative void before Norse creation — not *ex nihilo* (creation from pure non-being) but a *charged void*, a gap pregnant with potential. Creation happens through collision of opposites (fire/Muspelheim + ice/Niflheim), not through unilateral divine will. The cosmos begins in tension, not in fiat.
+- **Yggdrasil** ("Odin's gallows/horse"): the living cosmic ash tree whose health IS the world's health. Three roots, three wells. Nibbled by serpent below, eagle above, four stags on the branches — *under constant attack and still standing*. Maintained daily by the Norns pouring water from Urðarbrunnr. Most significant feature: the world-axis is NAMED for the god's self-ordeal on it. The world is held together by the shape of a wound. The most articulated instance of the Organic-Sacred-Material convergence.
+- **Æsir-Vanir war**: the Norse pantheon was not originally unified — it is a *negotiated synthesis* resulting from a war neither side could win. Exchange of hostages produced the current arrangement. The divine realm has political history; its structure was achieved through conflict, not given primordially. *Seiðr* (shamanic magic) entered the Æsir tradition from the Vanir through Freyja teaching Odin.
+- **Baldr**: the most beloved god, most beautiful, protected by oaths from everything — killed by mistletoe oversight at play; refused return by Hel (because of Loki's deception); death precipitates Ragnarök countdown. The beauty of the world has died, the gods weep, nothing within the current order can restore it. He waits in Hel until after Ragnarök.
+- **Norns** (Urðr, Verðandi, Skuld): the three fate-weavers at the Well of Urðr who carve fate into Yggdrasil's trunk. They bind the gods, not just humans. Pan-IE convergence with Hittite fate-goddesses, Greek Moirai, Slavic Suđenice — the Norns add *örlög* (temporal-accumulation dimension) absent from the others.
+- **Örlög** (ör-lög, "primal law"): the deepest fate-stratum — fate as the *accumulated weight of prior actions that has solidified into necessity*. Not mere destiny or divine decree. The past does not merely precede the present; it constrains it. Your *örlög* is the sedimented shape of all that has already been laid down. Distinct from Greek *moira* (allotted portion), Avestan *baga* (divine assignment), Korean *myeong* (cosmological appointment). *Örlögme*: Core 7.55–7.75.
+- **Ragnarök**: the Norse gods know they will lose the final battle. They prepare for it anyway — gathering the *einherjar*, acquiring wisdom, acting with full excellence — knowing the ending. **The excellence of acting is not diminished by the knowledge that it ends.** This is not nihilism (nothing matters) and not hope (it will turn out fine) — it is *action-within-known-loss*. The gods are worth being even in a universe that does not protect them. One of the most theologically distinctive structures in the entire 64-session excavation.
+
+### Key Theological Finds (Ritual, Practice, Wisdom, Institution)
+
+- **Blót**: the Norse sacrifice-feast. Animal (horse, boar, cattle) sacrificed; blood used to sprinkle altar, temple walls, assembled community; flesh consumed communally in the covenant-feast. The *sumbel* (formal toast-round) creates binding vows through speech at the sacred table — private intention becomes cosmic obligation by being spoken before witnesses at the feast. Three *blótar* annually: Dísablót (spring, ancestral women), Sigrblót (spring, for victory), Vetrnætr (autumn, for the dead). Operates on gift-exchange logic: not transaction but covenant-renewal.
+- **Seiðr and Odin's gender transgression**: *seiðr* was gendered female; male practitioners were accused of *ergi* (unmanliness, passive sexual submission). Odin practices seiðr — and does not deny the *ergi* accusation when Loki makes it. The chief god accepts gender-transgressive shame as the cost of the deepest shamanic knowledge. Every form of Odinic wisdom comes through transgression and cost: the eye, the hanging, the *ergi*. Parallel to Korean *kangshinmu* (possession-calling; the break-in that doesn't ask permission).
+- **Hávamál** ("The High One's Sayings"): the Norse cosmos runs on gift-exchange. Every gift creates obligation. Too much giving destroys as surely as too little. The divine obeys the same structure — Odin paid for everything he knows, at terrible cost. Wisdom is not innate; it is *purchased*. The 18th charm (deepest knowledge) Odin will not name — because the form of the knowledge requires the process of its reception; naming the formula without the ordeal would be false transmission.
+- **Rúnatal** (Hávamál's rune-section): Odin hung on Yggdrasil nine nights, wounded by spear, *himself to himself* (*sjalfr sjalfom mér*). The sacrifice is self-to-self — not to an external deity but an internal division: one aspect gives, another receives. After nine nights he saw the runes rising. The runes are not taught; they are *revealed through ordeal*. Closest to: Korean *sinbyeong* (the divine breaks through suffering); Christian Dark Night of the Soul; shamanic initiation-by-near-death.
+- **Dróttkvætt / kennings**: Norse skaldic meter is one of the most formally demanding in literary history. To praise a king requires kennings (compound metaphors that can only be decoded with mythological knowledge). Every act of skaldic composition exercises the entire mythological world; the meter IS theological formation. You cannot use the form without carrying the tradition. Convergence: Meter-as-Cosmic-Binding (Baltic *sutartinės* + Norse *dróttkvætt* + Vedic *chandas*).
+- **Þing / Alþing**: the Norse legal-political assembly as sacred-secular institution. Oaths sworn on arm-rings dedicated to Thor, cosmically binding. *Þingsfrið* (assembly peace) as sacred taboo. The *lögmaðr* recited the entire law from memory on a three-year cycle — law as living-carrier-dependent, not text-dependent. **Þorgeir's decision at the Alþing 1000 CE**: the lawspeaker lay under his cloak for a full day (deliberative incubation — an Odinic method) and emerged to declare Iceland Christian, with private heathen practice protected. The most communal Christianization in European history. The heathen institution mediated its own transformation.
+- **Völva-prophecy** (Völuspá frame): the seeress is summoned from the dead by Odin to confirm the cosmological narrative. She knows everything — including Ragnarök. Her knowledge does not prevent anything. It enables Odin to act with full clarity within what cannot be changed. Norse prophecy is *preparation-not-prevention*: clarity about the inevitable so you can act excellently within it.
+
+### New Forge Candidates (S064) — 8 entries
+
+| Candidate | Donor | Register | Score | Concept |
+|---|---|---|---|---|
+| **örlögme** | Old Norse *örlög* | **Core** | **7.55–7.75** | Fate as the accumulated weight of prior actions crystallizing into necessity — not divine decree or allotted portion but the sedimented past that constrains the present; **VERY HIGH** |
+| **ragnarökme** | Old Norse *ragnarök* | **Core** | **7.50–7.70** | Acting with full excellence within known-loss; the nobility of action that requires no cosmic safety for its validity; being worth being even in a world that ends; **VERY HIGH** |
+| **yggdrasilme** | Old Norse *Yggdrasil* | Specialized | 7.40–7.60 | Living world-axis named for the god's wound; the cosmos held together by the shape of self-ordeal; the sacred structure that requires daily tending or collapses; **HIGH** |
+| **rúname** | Old Norse *rún* + Hávamál Rúnatal | Specialized | 7.40–7.60 | Knowledge received through self-ordeal rather than teaching; wisdom that can only be given by yourself to yourself; the understanding that comes from hanging in the dark; **HIGH** |
+| **vísindame** | Old Norse *vísindi* (foreknowledge) | Specialized | 7.35–7.55 | Foreknowledge that enables full action within the inevitable rather than escape from it; the clarity that grants dignity rather than exemption; **HIGH** |
+| **kenningme** | Old Norse *kenning* | Specialized | 7.30–7.50 | Meaning locked in a compound form that only opens to one who knows the story behind it; beauty requiring initiation to decode; theological formation through formal constraint; **MEDIUM-HIGH** |
+| **sumbel-me** | Old Norse *sumbel* | Specialized | 7.25–7.45 | The vow-feast in which speech becomes cosmically binding through communal witness at the sacred table; private intention transformed into obligation by being spoken aloud before the assembly; **MEDIUM** |
+| **ginnungame** | Old Norse *Ginnungagap* | Specialized | 7.20–7.40 | The charged void before creation; the pregnant emptiness that is not nothing but not yet anything; the gap full of potential precisely because it has not yet differentiated; **MEDIUM** |
+
+**wōdme** (from Gothic S043 pipeline) is deepened and confirmed by Norse evidence — Odin as the living instantiation of *wōd* (divine-fury-knowledge). Score unchanged (Specialized 7.35–7.55) but now has full Norse corroboration.
+
+### New Convergences (S064) — 10 entries
+
+| Convergence | Traditions | Status |
+|---|---|---|
+| **Action-Within-Known-Loss** NEW | Norse *ragnarök* + Stoic *amor fati* + Japanese *mono no aware* + Korean *han* | 4+ traditions; the worth of action is independent of cosmic safety |
+| **Trickster-as-Cosmologically-Necessary** NEW | Norse Loki + Yoruba Eshu/Elegba + Nahuatl Tezcatlipoca + Greek Hermes | 4+ traditions; the disorder-figure is structural to cosmic order; cannot be eliminated without destabilizing the system |
+| **Sacred-Gender-Transgression-as-Threshold-Access** NEW | Odin/*seiðr* + Korean *kangshinmu* + Siberian shamanic gender-crossing + Aztec *tlazolteotl* | 3–4 traditions; certain sacred knowledge requires crossing the gender boundary |
+| **Tradition's-Own-Institution-Mediates-Its-Transformation** NEW | Norse *þing*/Icelandic conversion + Wonhyo *hwajaeng* + possibly Kyoto school | 3+ traditions; the tradition provides the means of its own transformation |
+| **Prophecy-as-Preparation-Not-Prevention** NEW | Norse *völva*/Völuspá + Korean *mudang* + Greco-Roman Sibyls + Avestan *daēnā*-encounter | 3–4 traditions; foreknowledge as preparation for the inevitable, not escape |
+| **Gift-Exchange-as-Cosmic-Structure** NEW | Norse Hávamál + Māori *utu* + Melanesian kula + Andean *ayni* | 4+ traditions; Hávamál is the most theologically explicit articulation of gift-exchange as the operating principle of the cosmos |
+| **Organic-Sacred-Material** DEEPENED | Norse Yggdrasil + Georgian living cedar pillar + Mapuche *rewe* + Andean *ceque* | Yggdrasil is the most articulated instance; adds under-attack-yet-standing + wound-naming dimensions |
+| **Spinning-Fate-Goddesses** DEEPENED | Hittite + Greek Moirai + Norse Norns + Slavic Suđenice | *örlög* adds temporal-accumulation-as-fate dimension absent from Greek/Slavic/Hittite versions |
+| **Meter-as-Cosmic-Binding** DEEPENED | Norse *dróttkvætt* + Baltic *sutartinės* + Vedic *chandas* | *dróttkvætt* adds theological-formation-through-formal-constraint dimension (kenning system) |
+| **Knowledge-Requiring-Living-Chain** DEEPENED | Norse *lögmaðr* + Irish *fili/filidh* + Korean Buddhist jeong-networks + Tibetan lineage | *lögmaðr* adds the law-as-living-memory dimension; legal tradition as transmission-requiring-embodied-carrier |
+
+Also deepened (not new): Liminal-Practitioner-as-Sacred-Specialist (völva deepens existing convergence); Sacrifice-Alignment-Sieve (blót adds communal-consumption dimension); Wound-as-Wisdom-Gateway (Rúnatal deepens); Communal-Grief-Processing (blót's dísablót/vetrnætr dimension).
+
+**S064 totals: ~308 convergences mapped (+10 new S064, +8 deepened; prior: ~288 S063); 17 forged (unchanged); 221 in pipeline (+8 new Norse forge candidates); archaeology files: 82 traditions (+old_norse/ 2 new files 515 lines; git 1063ede).**
