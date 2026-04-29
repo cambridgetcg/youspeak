@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-29 (S072 — Zapotec+Mixtec codex tradition COMPLETE: 2 new files [archaeology/zapotec_mixtec/zapotec-pe-pitao-cosmology.md 235 lines, archaeology/zapotec_mixtec/mixtec-codex-tradition.md 205 lines]; 8 new forge candidates [peme Core 7.50-7.70 TOP NEW, pitaome Core 7.40-7.60, piyeme Spec 7.40-7.60, tonindeye-me Spec 7.40-7.60, cargo-me Core 7.35-7.55, cocijome Spec 7.35-7.55, nuhu-me Spec 7.30-7.50, laa-me Spec 7.25-7.45]; 16 new/deepened convergences; ~488 convergences; pipeline at ~347; traditions 97; prior: S071 Yoruba COMPLETE)
+last_updated: 2026-04-29 (S073 — TWO FORGES: àṣẹme Core 7.80 [158th experiment, 26th Core, 21st -me, Yoruba+Sumerian, vital-force-activating-authorization] + hanme Core 7.85 [159th experiment, 27th Core, 22nd -me, DOUBLE ISOLATE Korean+Sumerian, accumulated-social-wound-as-creative-source, first double-isolate compound]; git 02c9fca; pipeline ~345; 19 forged; prior: S072 Zapotec+Mixtec COMPLETE 488 convergences 97 traditions)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -61,7 +61,7 @@ _Comprehensively audited and updated S018 Beat 91 to reflect Sessions 008-017 pr
 | Theology-encoded-in-grammar | 3+ (Ojibwe animate/inanimate noun class, Aymara evidentiality, Basque ergativity) | unforged — typological convergence, not candidate for single forge | structural observation |
 | Foundational-time-still-present | 1+ (Australian Tjukurpa/Dreaming — may be unique) | unforged | candidate (tjukurpame) |
 | Universal-restoration-eschatology | 3+ (Avestan frashegird, Christian apokatastasis, possible Aymara pachakuti) | unforged | candidate (frashaqing) |
-| **Vital-force-as-cosmic-given** | 6+ (Mande nyama, Polynesian mana, Yoruba àṣẹ, Lakota wakȟáŋ, Avestan xvarnah, Algonquian manidoo) | **forged S027** | **nyamame** (**Core 8.00** S027; first forge in cluster; future: aseme, maname, wakhame, manidoome) |
+| **Vital-force-as-cosmic-given** | 6+ (Mande nyama, Polynesian mana, Yoruba àṣẹ, Lakota wakȟáŋ, Avestan xvarnah, Algonquian manidoo) | **forged S027+S073** | **nyamame** (**Core 8.00** S027; first forge in cluster); **àṣẹme** (**Core 7.80** S073; second forge; activating-authorization dimension); future: manāme, wakanme, manidoome |
 | Speech-as-incarnation-embodied | 3+ (Dogon Nommo, Hebrew davar-as-event, Aboriginal songlines-as-body) | **forged S027** | **nommome** (**Core 7.50** S027; with Griaule-caution; lowest-range Core; genuine gap against groundedness discount) |
 | Speech-cost/wound-as-authentic-utterance | 2+ (Dogon kize, Mande griot-nyama-cost) | unforged | candidate (kizeme, Specialized 7.35–7.55) |
 | **Right-action-as-cosmic-maintenance** | 5+ (Cherokee duyukta, Navajo Hózhǫ́, Avestan asha, Egyptian ma'at, Aymara suma qamaña, Algonquian Seven Grandfathers) | **forged S027** | **duyuktame** (**Core 7.85** S027; first Iroquoian-family donor; action-register companion to maatme) |
@@ -2312,3 +2312,62 @@ Also deepened (not new): Liminal-Practitioner-as-Sacred-Specialist (völva deepe
 *Session 072 grand totals: ~488 convergences mapped; 17 forged (unchanged); ~347 in pipeline; 97 traditions archaeologically documented.*
 *Session 072 new forge candidates: 8 total (Zapotec: peme Core 7.50–7.70, pitaome Core 7.40–7.60, piyeme Spec 7.40–7.60, cocijome Spec 7.35–7.55, laa-me Spec 7.25–7.45; Mixtec: tonindeye-me Spec 7.40–7.60, cargo-me Core 7.35–7.55, nuhu-me Spec 7.30–7.50).*
 *Session 072 new convergences: 16 — including key new: Breath-as-Soul-Carrier, Time-as-Pe-Textured, Pictograph-as-Theophany, History-Theology-Liturgy-as-Undivided, Covenant-with-Earth-Rain-Ancestors.*
+
+---
+
+## Session 073 — FORGE SESSION: àṣẹme + hanme
+
+*Added: 2026-04-29, Session 073*
+*git: 02c9fca*
+
+**Two Core words forged. Pipeline reduced from ~347 to ~345 (two forged, none added).**
+
+---
+
+### àṣẹme — Core 7.80 (158th experiment, 26th Core word)
+
+| Field | Value |
+|---|---|
+| Word | **àṣẹme** |
+| Tier | Core 7.80 |
+| Donors | Yoruba *àṣẹ* (Niger-Congo, Benue-Congo branch) + Sumerian *me* (isolate) |
+| Polyphone | Poly-8 — Niger-Congo + isolate; maximum family diversity |
+| -me family | 21st member; first Yoruba -me entry (Yoruba previously donated ifeqing in qing-family) |
+| Register | Activating-sacred-power-as-divine-authorization; the force that makes rightly-placed invocation accomplish what it names |
+| Gap filled | Vital-force cluster's *activating* dimension — distinct from nyamame (ambient animating energy) and wakanme (sacred intensity); àṣẹme names what makes THIS invocation work where an identical uninitiated utterance does not |
+| Convergences | Yoruba àṣẹ + Polynesian mana + Lakota wakȟáŋ + Hebrew davar + Catholic sacramental ex opere operato (all name transmitted-authorization that makes invocation effective) |
+| Cluster position | Second entry in Vital-Force cluster after nyamame (8.00); àṣẹme is the activating-invocative entry; future: manāme (relational-ancestral), wakanme (intensity-mystery) |
+
+**Key theological claim**: àṣẹme names why the orisha's word creates reality and the novice's identical word does not. Not the world's aliveness (nyamame) but the divine authorization that converts trained invocation into accomplished reality. The babaláwo has àṣẹme; the uninitiated do not. The word "àṣẹ" closes Yoruba prayer — it names the activation. hanme names what àṣẹme releases when voiced.
+
+---
+
+### hanme — Core 7.85 (159th experiment, 27th Core word)
+
+| Field | Value |
+|---|---|
+| Word | **hanme** |
+| Tier | Core 7.85 |
+| Donors | Korean *han* (Koreanic — language isolate) + Sumerian *me* (language isolate) |
+| Polyphone | **Double language isolate — first double-isolate compound in YOUSPEAK; maximum polyphone diversity** |
+| -me family | 22nd member; first Koreanic-family -me entry |
+| Register | Accumulated-social-historical-wound-as-creative-source; the grief-resentment-longing that solidifies into generative energy when voiced |
+| Gap filled | No English word; no equivalent in any cataloged tradition; the most original gap in the YOUSPEAK cathedral |
+| Convergences | Korean han + Tuareg ehan (longing-as-sacred-ache) + African American blues (Middle Passage wound as sonic creativity) + minjung theology (han as what the Gospel addresses) |
+| Cluster position | Opens Wound-as-Creative-Source convergence cluster; future: ehanme (beautiful-longing), voghbme (liturgical-lament) |
+
+**Key theological claim**: Pansori is not music about han — it IS han, transformed into beauty through the act of fully sounding it. The same dialectic runs through Korean gut ceremony: the ceremony begins in han (voicing the wound) and ends in sinmyeong (collective divine-human joy). The han did not disappear — it became the ground of extraordinary aliveness. The wound is the instrument.
+
+**Milestone**: First double-isolate compound in YOUSPEAK. Korean is a language isolate; Sumerian is a language isolate. No shared ancestry anywhere in the tree. Two peoples who stood alone linguistically — one on a peninsula under serial occupation, one in the first cities of recorded history — and both contributed concepts without equivalents elsewhere.
+
+---
+
+**S073 totals: ~488 convergences (unchanged from S072); 19 forged (+2: àṣẹme Core 7.80, hanme Core 7.85); ~345 in pipeline (−2); archaeology files: 97 traditions (unchanged).**
+
+**Convergences opened/extended by S073:**
+- **Vital-Force-as-Cosmic-Given**: now 2 forged (nyamame + àṣẹme); future forges: manāme, wakanme, manidoome
+- **Wound-as-Creative-Source**: opened by hanme; future forges: ehanme, voghbme
+
+---
+
+*Session 073 summary: Forge session. No excavation. Two Core words forged from the highest-priority pipeline. àṣẹme fills the activating-authorization dimension of the vital-force cluster. hanme fills a gap that exists in no other language — the first double-isolate YOUSPEAK compound, from a language isolate that has absorbed centuries of colonial occupation and still found the precise word for what that experience generates when voiced.*
