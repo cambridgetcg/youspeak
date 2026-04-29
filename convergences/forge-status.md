@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-29 (S040 — Egyptian festival-cycle & afterlife-cult excavation complete: archaeology/egyptian/ now 5 files 1241 total lines [+festival-temple-ritual.md 298 lines + mortuary-theology-afterlife.md 278 lines]; mission 2026-04-27-excavate-egyptian-festival-cycle-afterlife-cult substantially executed; 6 new pipeline candidates [kherme HIGH, ibme HIGH, kaqing MED-HIGH, akherme MED-HIGH, nehehme MED, djetme MED]; 3 new convergences [Guided-Death-Navigation, Participation-in-Divine-Death/Resurrection, Two-Register-Time]; convergence count ~97)
+last_updated: 2026-04-29 (S043 — Gothic excavation complete: archaeology/gothic/ 2 files 474 lines [wulfila-arian-theology-vocabulary.md 274 lines + skeireins-commentary-germanic-heimrekja.md 200 lines]; 8 new pipeline candidates; 2 new convergences [Ecstatic-Divine-Possession, Salvation-as-Wholeness]; ~119 convergences; pipeline at 53)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -782,3 +782,89 @@ Deepened convergences: Inversion-as-Spiritual-Technology (now 3 traditions), Sac
 8. **sieidiqing** — Sámi *sieidi*; Specific-earned-place-bond; Specialized 7.20–7.40; MED
 
 **S042 totals: ~111 convergences mapped (+8: 4 new [Acoustic-Real-Presence, Death-as-Temporal-Reversal, Origin-Knowledge-as-Power, Bear-as-Divine-Visitor], 6 deepened [Real-presence-theology 6th form, Withdrawn-Highest-Divinity Finno-Ugric extension, Speech-as-world-maintenance, Shamanic-descent-knowledge-retrieval, Death-knowledge-shamanic, Relational-personhood with-place]); 15 forged; 45 in pipeline (37 prior + 8 new: joikme [HIGH], syntyme [HIGH], siidaqing [HIGH], runome [HIGH], noaidime [MED-HIGH], tietäjäme [MED-HIGH], sampoqing [MED], sieidiqing [MED]); archaeology files: 46 traditions (+uralic/ 2 files 563 lines).**
+
+---
+
+### S043 — Gothic Excavation (Wulfila / Arian Bible / Skeireins) (2026-04-29)
+
+**Files created:** `archaeology/gothic/wulfila-arian-theology-vocabulary.md` (274 lines) + `archaeology/gothic/skeireins-commentary-germanic-heimrekja.md` (200 lines) = 474 lines
+
+**Traditions excavated:** Gothic East Germanic Christianity, with extensions to pre-Christian Germanic theological stratigraphy
+1. **Wulfila's Gothic Bible** (c. 350 CE): oldest substantial Germanic text; Arian Christology; frauja/guþ/atta vocabulary trio; Gothic alphabet as cultural-theological defense; Codex Argenteus as theological artifact
+2. **Skeireins** (5th–6th c. CE): only surviving Gothic theological commentary; *waurd* for *logos*; the Skeireins-as-commentary strategy vs. YOUSPEAK's forge-strategy; Gothic calendar pre-Christian stratigraphy; Wulfila's deliberate omission of the Kings
+
+**New tradition:** First East Germanic / Gothic tradition in the cathedral.
+
+**Key theological concepts excavated:**
+
+**Frauja / guþ / atta — the theology in three words:**
+- **Frauja** — Gothic for Greek *kyrios*/Latin *dominus*; NOT abstract authority-language but *lord of a specific household*; the divine-human relationship as comitatus-bond (warrior sworn to household-lord); creates relational-loyalty register absent from Greek or Latin equivalents; the divine is the lord you are sworn to, not the sovereign above you
+- **Guþ** — Gothic theonym; from Proto-Germanic *\*guđan* "the invoked one" (root: *ghau-* = to call/invoke); cognate to Sanskrit *huta*; the divine first as *the one whose name you call*, not the ultimate being or creator; Germanic religiosity was *invocational* before it was *metaphysical*
+- **Atta** — Gothic for *patēr*; child's *intimate* word for father (≈ "papa/daddy"), not the formal *fadar*; the Paternoster becomes "Our DADDY who art in heaven"; encodes the creature-Creator relationship as small-child-to-parent intimacy, not formal-subject-to-authority
+- **Method finding**: Three vocabulary choices create a coherent theology: sworn-household-loyalty (*frauja*) + invocational-address (*guþ*) + childhood-intimacy (*atta*). None of the English equivalents preserves these registers.
+
+**Salvation vocabulary:**
+- **Hails / hailjan** — Gothic for *sōzō/sōtēria* (salvation/save); primary meaning: *whole, healthy, uninjured*; salvation = restoration of integrity/wholeness rather than liberation from bondage, acquittal from judgment, or perfection; the Germanic soteriology is *health-restoration*; the cognate chain: Gothic *hails* → Old English *hælan* → English "heal, health, whole, hello, hale"
+- **Forge candidate *hailsme***: salvation-as-wholeness-restoration; the gap between IS and SHOULD BE healed not forgiven; distinct Germanic register unique in catalog
+
+**Ecstasy and sacred fury:**
+- **Wōdanaz** (*wōd* = divine inspired fury): the Germanic sky-father was displaced by the ecstasy-god as chief deity; *wōd* is simultaneously fury + knowledge + divine possession; the only tradition in the catalog identifying the divine with *ecstatic inspired fury* (not calm wisdom, loving devotion, or moral justice); Odin's knowledge comes through self-ordeal (hanging on the World Tree, eye given for wisdom); the divine mode is *wound-and-knowledge* together
+- **The Gothic calendar's Tīwaz layer**: Proto-Germanic sky-father (*Tīwaz* = *Dyaus* = *Zeus* = *Iupiter*) displaced by *Wōdanaz*; unique instance of sky-father theology being theologically superseded within a tradition — the ecstasy-god replaced the order-god
+
+**The Skeireins strategy:**
+- Gothic commentator knew *waurd* (word) was insufficient for Greek *logos* (rational-cosmic-principle) — responded by *expanding commentary around the word* rather than inventing a new word; the Skeireins-strategy vs. YOUSPEAK's forge-strategy: both acknowledge the same gap, respond differently
+- **Heimrekja** (home-journey/extension): the process by which a word from one world is pressed into service in another, creating a compound meaning neither tradition possessed alone; *this is YOUSPEAK's forge-act named from the inside of what it does*
+
+**Gothic Arian survival:**
+- Gothic Christianity was preserved by being untranslatable; isolation for theological reasons = linguistic preservation; the Codex Argenteus survived because it became a treasure-object; irony: condemned theology preserved by being beautiful
+- The vocabulary *carries* the theology across contexts the forgers never anticipated — once forged, a word is independent; the Gothic case is the most extended illustration of this principle in the catalog
+
+**New forge candidates (S043):**
+
+| Candidate | Root | Concept | YOUSPEAK register | Score estimate | Priority |
+|---|---|---|---|---|---|
+| **hailsme** | Gothic *hails* (whole/healthy/saved) | Salvation-as-wholeness-restoration: healing the gap between IS and SHOULD BE; restored integrity rather than liberation, acquittal, or perfection; the soteriology in which wholeness IS what saves | Specialized | 7.35–7.55 | **HIGH** |
+| **wōdme** | Proto-Germanic *wōd* (divine inspired fury) | The ecstatic inspired state simultaneously constituted by fury + knowledge + divine possession; sacred fury as the divine mode of working through a person; the state that cannot be sustained or fabricated | Specialized | 7.35–7.55 | **HIGH** |
+| **heimrekjame** | Gothic *heimrekja* (home-journey/extension) | The process by which a word from one world is pressed into service in another, creating compound meanings neither tradition possessed alone; the forge-act named from within itself | Specialized | 7.30–7.50 | HIGH |
+| **razdame** | Gothic *razda* (speech-that-marks-origin) | The speech that reveals your people before you declare your identity; the sonic-cultural signature that tells where you came from; language-as-biography | Specialized | 7.25–7.45 | MED-HIGH |
+| **frauqing** | Gothic *frauja* (household-lord) | The relational-bond in which loyalty to a lord-protector grounds relationship; the lord identified with the household's life rather than abstract authority; sworn-retainer-service vs. subject-to-sovereign | Specialized | 7.20–7.40 | MED-HIGH |
+| **attame** | Gothic *atta* (childish-intimate father) | Addressing the ultimate source with childhood intimacy; small-child-to-parent as the proper posture toward ultimate ground; intimate address to the inaccessible | Specialized | 7.25–7.45 | MED |
+| **guþme** | Gothic *guþ* (the-called-upon) | The divine understood specifically as the one you invoke in extremity; divinity as relational-address before metaphysical-category; the cry and the one who hears it | Specialized | 7.20–7.40 | MED |
+| **waurdme** | Gothic *waurd* (word/mystery) | The word that requires a commentary to carry its meaning; the utterance holding more than its surface form; the gap between word and the mystery it inadequately names | Specialized | 7.25–7.45 | MED |
+
+**New convergences (S043):**
+
+| Convergence | Traditions | Families | Forge candidate |
+|---|---|---|---|
+| **Ecstatic-Divine-Possession** | Germanic *wōd* (fury + knowledge + possession) + Sámi noaidi ecstatic trance + Hebrew prophetic *rûaḥ*-possession + Siberian shamanic ecstasy | Germanic, Uralic, Semitic, (Tungusic) | **wōdme** (ecstasy as fury-and-knowledge, not calm); Germanic adds the specific *fury* register to an ecstasy-convergence that was otherwise about trance-journey or prophetic inspiration |
+| **Salvation-as-Wholeness** | Gothic *hailjan* + Diné *hózhó* (restored beauty-harmony) + Tibetan rigpa-recognition (restored original awareness) | Germanic, Na-Dené, Sino-Tibetan | **hailsme**; distinct soteriology from liberation (Greek *sōtēria*), acquittal (dikaiōsis), forgiveness (aphesis), perfection (teleiōsis) |
+
+**Deepened convergences (S043):**
+
+| Convergence | Extension | Notes |
+|---|---|---|
+| **Storm-power-as-divine-active-presence** | + Germanic Þunraz/Thor | Now: Sumerian Iškur, Akkadian Adad, Hittite Tarḫunna, Hurrian Tessub, Avestan Verethraghna, Finnish Ukko, Sámi Radien-attje, Magyar táltos combat-weather, Germanic Þunraz = **9 expressions across 8 families** |
+| **Alphabet-as-Theological-Act** | + Gothic Wulfila (c. 350 CE) | Now: Gothic Wulfila/350, Armenian Mashtots/405, Cherokee Sequoyah, Coptic, Old Church Slavonic Cyril-Methodius = 5 traditions; Gothic precedes Armenian ~50 years |
+| **Mediating-first-being** | + Gothic Arian Son as *frauja* (highest creature as cosmic bridge) | 5 traditions: Dinka Deng, Yoruba Obatala, Arian Son, Sufi aḥmadī-nūr, (Gnostic Demiurge inverted) |
+| **Withdrawn-Highest-Divinity** | + Arian Father-alone-as-*guþ*; + Tīwaz-displacement | Arian theology confirms: ultimate divine (Father) is genuinely inaccessible; Tīwaz-displacement adds: the sky-father replaced by ecstasy-god is a theological supersession unique in catalog |
+| **Translation-Creates-Theology** | + Gothic as most complex case | Gothic adds: the vocabulary that encodes a minority theology preserved that theology by making it *linguistically inaccessible* to the majority — translation-creates-a-sealed-world; richest illustration of the translation-theology-reciprocity principle |
+
+**Key method findings (S043):**
+
+- **The *heimrekja* principle names YOUSPEAK's forge-act from within itself**: every forge is a *heimrekja* operation — pressing a word from one world into service in another, creating compound meanings neither tradition possessed alone. The Gothic word for this process is the word we needed to name it.
+- **The Skeireins-strategy vs. YOUSPEAK-strategy**: the Gothic commentator knew *waurd* couldn't hold *logos* — responded by surrounding the word with commentary. YOUSPEAK responds by forging a word adequate to the gap. Both acknowledge the same problem; the difference is whether the gap is handled with explanation or vocabulary.
+- **Salvation-as-wholeness is a distinct soteriology**: Gothic *hailjan* names a register missing from the YOUSPEAK catalog. Not liberation (Greek register), not acquittal (legal-theological register), not forgiveness (covenant register), not perfection (teleological register) — but *restored integrity, the healing of the IS/SHOULD-BE gap*. This is theologically the most direct expression of YOUSPEAK's founding ache in the catalog.
+- **Gothic as the theological bedrock of English**: when English speakers say "God," they use *guþ*'s descendant (the-invoked-one). When they say "whole," "heal," "health," "hello" — they use *hails*' descendants (restored integrity). The Gothic theological layer is dormant in modern English vocabulary; excavating Gothic is excavating the foundation of English's own theological residue.
+- **The Codex Argenteus as theological argument in material form**: luxury as theological assertion. The condemned tradition made its scripture in the most beautiful material available, asserting equality-in-dignity with the imperial tradition that condemned it. The aesthetic choice IS the theological statement. YOUSPEAK parallel: the cathedral's care about beauty-of-word is not ornamental — it is the claim that these gaps deserve the most precise naming available.
+
+**S043 pipeline additions:**
+1. **hailsme** — Gothic *hails*; Salvation-as-wholeness-restoration; Specialized 7.35–7.55; **HIGH**
+2. **wōdme** — Proto-Germanic *wōd*; Ecstatic-fury-knowledge-possession; Specialized 7.35–7.55; **HIGH**
+3. **heimrekjame** — Gothic *heimrekja*; Forge-act-named-from-within; Specialized 7.30–7.50; HIGH
+4. **razdame** — Gothic *razda*; Speech-that-reveals-origin; Specialized 7.25–7.45; MED-HIGH
+5. **frauqing** — Gothic *frauja*; Sworn-household-loyalty; Specialized 7.20–7.40; MED-HIGH
+6. **attame** — Gothic *atta*; Childhood-intimacy-toward-ultimate; Specialized 7.25–7.45; MED
+7. **guþme** — Gothic *guþ*; Invocational-divine; Specialized 7.20–7.40; MED
+8. **waurdme** — Gothic *waurd*; Word-as-mystery-exceeding-itself; Specialized 7.25–7.45; MED
+
+**S043 totals: ~119 convergences mapped (+8: 2 new [Ecstatic-Divine-Possession, Salvation-as-Wholeness], 5 deepened [Storm-power 9th expression, Alphabet-as-Theological-Act 5th tradition, Mediating-first-being 5th tradition, Withdrawn-Highest-Divinity Tīwaz-displacement, Translation-Creates-Theology sealed-world form], 1 self-named [heimrekja names YOUSPEAK's own method]); 15 forged; 53 in pipeline (45 prior + 8 new: hailsme [HIGH], wōdme [HIGH], heimrekjame [HIGH], razdame [MED-HIGH], frauqing [MED-HIGH], attame [MED], guþme [MED], waurdme [MED]); archaeology files: 48 traditions (+gothic/ 2 files 474 lines).**
