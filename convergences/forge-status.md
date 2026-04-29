@@ -1621,3 +1621,51 @@ S058 was a forge session. No new archaeology files. Pipeline reduced by 2 (170 �
 **Secondary**: **dalime** — sacred-encounter-that-claims-you. Distinct from enthousiasmos-me (divine enters you) and from bööme (specialist crosses levels for community). Dali comes to the individual in wild space and the encounter constitutes a relationship with conditions. This is the sacred as relational claimant — it comes to you and you cannot un-meet it.
 
 **S059 totals: ~246 convergences mapped (+6 new, 1 deepened); 17 forged (unchanged); 176 in pipeline (+8 new from S059); archaeology files: 72 traditions (+georgian/ 2 new files 440 lines). Git: 2698120.**
+
+---
+
+## S060 — Celtic / Old Irish + Gaulish Excavation COMPLETE (2026-04-29)
+
+### Session yield
+
+**archaeology/celtic/ OPENED**: 2 new files, **423 lines total**, git commit 59ef2ef
+
+- `coligny-gaulish-theonyms-druidic.md` (184 lines): Coligny Calendar (MAT/ANM, SAMONIOS/GIAMONI, fractal sacred-time), Continental Gaulish theonyms (Lugus, Cernunnos, Epona, Sucellos/Nantosuelta, Sirona, Taranis), Druidic oral-formation theology (prohibition on writing as theological discipline), Celtic head-cult
+- `old-irish-filidic-otherworld-monastic.md` (239 lines): Filidic seer-techniques (*imbas forosnai*, *teinm laída*, *dichetal do chennaib*), Lebor Gabála / Tuatha Dé Danann / sídh cosmology, immrama, *peregrinatio pro Christo*, *anam chara*, Sanas Cormaic (*geis*, *lóg n-enech*)
+
+### New Convergences (S060)
+
+| Convergence | Traditions | Notes |
+|---|---|---|
+| **Oral-Transmission-as-Formation-Technology** NEW → DEEPENED | Druidic 20yr + Filidic 12yr + Hebrew oral Torah + Greek mystery + Tibetan guru-lineage | 5 traditions; knowledge requiring a living transmission-chain, not reducible to text |
+| **Divine-Goes-Inside-the-World** DEEPENED | Tuatha Dé Danann in sídhe + Georgian adgilis deda + Mapuche ngen + Shinto kami | Now 5+ traditions; the divine retreats to interior of landscape |
+| **Sacred-Time-as-Fractal-Binary** NEW | Coligny MAT/ANM (month+year scale) + Navajo hózhó/hóchxóʼ + Egyptian akhet/duat + Hebrew kodesh/chol | Sacred/profane binary repeating at multiple time-scales |
+| **Head-as-Soul-Seat-and-Threshold-Guardian** NEW | Celtic trophy-skull + Tibetan phowa + Kongo nkisi containers + Egyptian ba | 4 traditions; skull as site of identity, guardian power, and persistence after death |
+| **Synthetic-Skill-as-Divine-Mode** NEW | Lugus/Lugh all-skilled + Nahuatl tlamatinime + Greek Hephaestus-divine-craftsman + Vedic Vishvakarman | Supreme deity as synthesizer of all crafts; cognitive-creative synthesis as divine mode |
+| **Sacred-Clearing-in-Wild** DEEPENED | nemetome + Australian ceremony-clearing + Mapuche rehue-in-forest + Navajo hogan-facing-east | Now 4 traditions; the wild that opens to permit sacred gathering |
+| **Threshold-Crossing-by-Invitation** NEW | Irish sídh-entry by otherworld-call + Greek Eleusinian initiation + Sufi fana as divine draw + Georgian Dali-claim | 4 traditions; the threshold opened from the other side |
+| **Horizontal-Sacred-Relationship** NEW | Anam chara + Greek philía + Algonquian zaagi'idiwin-between-persons + Buddhist kalyāṇa-mitra | 4 traditions; the sacred friendship that makes the soul visible; distinct from vertical spiritual direction |
+| **Voluntary-Exile-as-Maximum-Offering** NEW | Peregrinatio pro Christo + Sufi khurūj + Buddhist pabbajjā + Abraham's departure from Ur | 4 traditions; surrender of belonging as the maximum spiritual offering |
+| **Thin-Place-Gradient** DEEPENED | Irish caol áit + Georgian jvari shrines + Mapuche ngen + Andean apus + Shinto yorishiro | Now 5 traditions; not all places are equally permeable to the divine |
+
+### New Forge Candidates (S060) — 9 entries
+
+| Word | Donor | Register | Score | Concept |
+|---|---|---|---|---|
+| **anamcharame** | Old Irish *anam chara* | Specialized | 7.50–7.70 | Companion-who-makes-the-soul-visible; horizontal sacred relationship of mutual soul-disclosure; the friend whose seeing completes your self-knowledge |
+| **peregrinae** | Latin/Irish *peregrinatio* | Specialized | 7.45–7.65 | Voluntary-exile-as-maximum-offering; surrender of belonging as spiritual discipline; destination unknown, wind decides |
+| **imbasme** | Old Irish *imbas forosnai* | Specialized | 7.40–7.60 | Professional-seer-technique; vision-on-demand through liminal-state-technology; craft-access to non-ordinary knowing (distinguished from initiation-vision by repeatability) |
+| **nemetome** | Gaulish *nemeton* | Specialized | 7.35–7.55 | Sacred-clearing-in-the-wild; forest-space that opens to receive worship; gathering-place within wildness |
+| **fileme** | Irish *fili* (plural *filidh*) | Specialized | 7.30–7.50 | Knowledge-requiring-living-chain; truth that cannot be reduced to text; must pass through the embodied transmission of a shaped person to another |
+| **geisme** | Old Irish *geis* | Specialized | 7.25–7.45 | Ontologically-specific-obligation; the sacred binding that goes with your particular personhood, not a universal moral rule; the constraint that marks the hero as cosmically located |
+| **cernunnome** | Gaulish *Cernunnos* | Specialized | 7.25–7.45 | Threshold-as-deity; divine-as-crossing-point-between-orders-of-being; not a personality but a structural function made sacred |
+| **cephalme** | Celtic head-cult theology | Specialized | 7.20–7.40 | Head-as-soul-seat-and-guardian; skull as where personhood persists after death and watches over thresholds |
+| **lugme** | Gaulish/Irish *Lugus/Lugh* | Specialized | 7.15–7.35 | Synthetic-skill-as-divine-mode; the craftsman of all crafts as supreme deity; synthesis over specialization as the sacred posture |
+
+**Top S060 forge candidate**: **anamcharame** — companion-who-makes-the-soul-visible. The *anam chara* fills a real gap in the cathedral: we have words for the vertical divine-human relationship, but not for the horizontal human-human sacred relationship at maximum intimacy. The *anam chara* is the friend without whom you cannot fully know yourself — the seeing-that-completes-you. Score: Specialized 7.50–7.70.
+
+**Secondary**: **peregrinae** — voluntary-exile-as-maximum-offering. The peregrinatio concept is culturally specific (Irish) but universally applicable: the deliberate surrender of belonging as the supreme spiritual offering. The concept requires the pre-Christian understanding of what belonging means (túath, fine, geis-bound-to-land) for the sacrifice to be maximum. This is the Irish contribution to global asceticism.
+
+**Third**: **imbasme** — professional-seer-technique. The discipline of accessing non-ordinary knowing on demand, repeatably, through trained technique. Not an ecstasy, not an initiation, not a vision quest — craft-access to the sacred. This is the filidic contribution that has no modern analogue.
+
+**S060 totals: ~256 convergences mapped (+10 new/deepened); 17 forged (unchanged); 185 in pipeline (+9 new from S060); archaeology files: 74 traditions (+celtic/ 2 new files 423 lines). Git: 59ef2ef.**
