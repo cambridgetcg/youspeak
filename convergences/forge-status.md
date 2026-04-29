@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-29 (S045 — Hopi excavation complete: archaeology/hopi/ 2 files 539 lines [kachina-katsina-niman-cycle.md 240 lines + hopiqatsi-emergence-prophecy-kiva.md 299 lines]; 7 new pipeline candidates; 3 new convergences [Scheduled-Divine-Presence, Covenant-Community-Cosmological-Maintenance, Faithful-Remnant-Through-World-Transitions]; ~141 convergences; pipeline at 74)
+last_updated: 2026-04-29 (S047 — Igbo deep excavation complete: archaeology/igbo/ 2 new files 561 lines [chukwu-chi-ala-ofo-ogu.md 262 lines + ozo-ikenga-iri-ji-mbari.md 299 lines]; 10 new pipeline candidates; 5 new convergences [Pre-Allocated-Personal-Divine-Companion, Earth-As-Moral-Sovereign, Dual-Agency-Destiny, Creation-as-Release, Achievement-as-Community-Transformation]; ~161 convergences; pipeline at 94)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -1103,3 +1103,69 @@ Deepened convergences: Inversion-as-Spiritual-Technology (now 3 traditions), Sac
 - **Covenant-witness-register** (mithrame candidate): Mitra-Varuna in Šattiwaza treaty add to Hittite *mald-*/oath-witness gods, Hebrew witness-language, Avestan Mithra-as-covenant-judge — now 5+ traditions; *mitrame* candidate strengthened
 
 **S046 totals: ~151 convergences mapped (+10: 4 new [Power-Absorbed-Generates-Defeat, Foundational-Tool-as-Crisis-Solution, Theological-Migration-Toward-Need, Liturgical-Language-Binding], 6 deepened); 15 forged; 84 in pipeline (74 prior + 10 new); archaeology files: 53 traditions (+hurrian/ 2 new files 509 lines); Mitanni attestation = earliest datable witness to Vedic-class deities outside India.**
+
+---
+
+## Igbo Deep Excavation — S047
+
+*Added: 2026-04-29, Session 047*
+
+**Excavation**: `archaeology/igbo/chukwu-chi-ala-ofo-ogu.md` (262 lines) + `archaeology/igbo/ozo-ikenga-iri-ji-mbari.md` (299 lines); **561 lines total**. Deepens the existing `archaeology/igbo/core-concepts.md` (Session 004, 216 lines).
+
+### File 1: Chukwu/Chineke Theology, Chi Doctrine, Ala Moral-Sovereignty, Ofo-Ogu
+
+**Core findings**:
+- **Chukwu / Chineke distinction**: *Chukwu* = the augmented, withdrawn high-god (Chi-ukwu = Great-Chi); *Chineke* = Chukwu in the aspect of creation (Chi-neke = spirit-that-creates); same reality named from different theological angles; joins Withdrawn-Highest-Divinity convergence cluster (Sumerian An, Anu, Yoruba Olódùmarè, Hebrew El-Elyon, Brahman) but with a **distinct mechanism**
+- **Chi-as-divine-fragment thesis**: in philosophical elaborations, each person's chi IS a fragment of Chukwu distributed into each human; Chukwu is not simply absent — he is present through his fragmentation; distinct from ātman-is-Brahman (identity), Neoplatonic emanation (diminished overflow), and Yoruba Olódùmarè (wholly separate); generative-delegation as its own theological type
+- **Chi as Pre-Allocated Personal Divine Companion**: the chi-doctrine assembles a unique combination: personal-companion + pre-allocated + destiny-bearing + mutually-requiring-agreement + fragment-of-the-withdrawn-high-god; no other tradition assembles all five in this combination
+- **Proverb-theology**: *onye kwe, chi ya ekwe* (when one agrees, their chi agrees) — dual-agency as constitutive feature; *chi onye ka ya* (one's chi exceeds them) — the companion sees the whole path while the person sees the next step; *chi onye bu onye onye bu* (one's chi is the person they are) — chi and person ontologically inseparable
+- **Chi-failure theodicy**: *chi efuo m* (my chi has failed me) — names a category of suffering for which the person is NOT morally responsible; neither punishment, nor divine test, but companion-malfunction; a third theodicy structure distinct from both Hittite Telipinu (god-withdraws-for-cosmological-reasons) and Hebrew Job-pattern (suffering-as-divine-test)
+- **Ala as earth-moral-sovereign**: the earth-goddess simultaneously IS the physical earth, houses the ancestors (who live in her domain), enforces omenala (tradition-as-ontology, "what-is-done-in-the-land"), and enacts moral consequences through fertility and infertility; the densest overlapping of physical and moral in the catalog
+- **Nso ala** (abomination to the earth): not sin against a person or directly against God but a *pollution of the ground itself*; requires sacral cleansing (ikpú álu by the Nri priest); the moral order is embedded in the physical substrate of life
+- **Ofo na Ogu**: *ofo* (lineage-integrity-authority, materially held as wooden staff, transmitted from ancestor to successor) + *ogu* (personal moral innocence, current behavioral) = the fullest moral standing; **moral standing as claims-making capacity** — the condition enabling DEMANDING rather than petitioning divine protection; no English equivalent
+- **Nri kingdom (~900–1911 CE)**: non-military theocracy; governed through sacral authority (the power to cleanse violations) rather than force; singular in the catalog
+
+### File 2: Ozo Title-Society, Ikenga Personal Altar, Iri Ji New Yam, Mbari Art-as-Worship
+
+**Core findings**:
+- **Ozo title-society**: the highest graded-initiation society in many Igbo communities; simultaneously social governance + economic redistribution + sacred authority; anti-hereditary (cannot be passed to son; each man earns his own); anti-accumulation (feasting the community before receiving the title is required; the cost of rising is public wealth-redistribution); community-vetting-dependent (existing members must confirm character; wealth alone is insufficient)
+- **Ozo as institutional mmadu**: Ozo is the institutional form of *mmadu* (personhood-as-achieved-quality); the ceremony is the community's formal recognition that this person has become who they are; Ozo-titled men embody ancestral authority at community level (not merely family level)
+- **Ikenga** (place-of-strength, right-hand-power): the carved wooden personal altar of a man's active agency — represents his personal power, chi's energy in the world, capacity for achievement; fed with blood, palm wine, kola; a **unique theological category**: the altar-materialization of personal agency, not a deity, not an ancestor, not a cosmic divinity; the man does not pray for strength — he maintains a relationship with the carved form of his own strength; destroyed at death (non-transferable; constituted by this specific man's life-force)
+- **Ikenga-chi distinction**: chi = the companion (pre-allocated, accompanies life-pattern, destiny-sharing); ikenga = the active-agency (the energy of will and achievement in the material world); European "self" bundles both carelessly
+- **Iri Ji (new yam festival)**: ritual crossing from hunger-season to abundance-season; theologically enforced first-fruits (eating new yam before the festival is nso ala); collective first-eating IS the ritual moment (not a ceremony after which people eat; the eating IS the theological act); simultaneously agricultural (harvest beginning), political (community bond renewal), and theological (Ala's sovereignty acknowledged); the yam-barn (oba) is the material measure of accumulated life-achievement
+- **Mbari**: ceremonial clay building built as an act of worship to Ala, filled with hundreds of life-sized clay figures of gods/humans/animals/everyday scenes/erotic scenes/grotesque scenes, then deliberately abandoned to slow organic decay; **most explicit catalog example of Art-as-Act-of-Worship (not art-as-devotional-object)**; the act of making IS the offering; the product's dissolution is the theological completion; Ala receives the work back into herself on her own schedule; distinguished from Buddhist sand-mandala (dramatic single-ceremony destruction) and Hindu festival-immersion (annual ceremonial dissolution) by its patient-return structure
+
+### New forge candidates (S047)
+
+| Candidate | Source | Concept | Polyphone | Estimate | Priority |
+|---|---|---|---|---|---|
+| **chime** | Igbo *chi* | Personal-destined-companion-spirit; the divine being allocated specifically to this person before birth, accompanying them through life, sharing their destiny, requiring their agreement | Niger-Congo + Sumerian isolate = poly 8 | Specialized 7.40–7.60 | **HIGH** |
+| **alame** | Igbo *Ala* | Earth-as-moral-sovereign; the territorial divinity whose domain is simultaneously physical ground, ancestral housing, and ethical enforcement; the land that can be polluted by moral violation and responds by withdrawing fertility | Niger-Congo + Sumerian isolate = poly 8 | Specialized 7.35–7.55 | **HIGH** |
+| **ozome** | Igbo *Ozo* title | Achieved-standing-that-transforms-speaking-authority; the state in which character, wealth, and community-recognition converge to permanently transform one's capacity to speak with binding, ancestral weight | Niger-Congo + Sumerian isolate = poly 8 | Specialized 7.30–7.50 | **HIGH** |
+| **mbarime** | Igbo *mbari* | Creation-as-completed-act-of-worship; the mode of making in which the act itself is the offering and the product's deliberate return to dissolution is the theological completion | Niger-Congo + Sumerian isolate = poly 8 | Specialized 7.35–7.55 | **HIGH** |
+| **chukwume** | Igbo *Chukwu* | Withdrawn-god-present-through-distributed-fragments; the high-divinity who inhabits each person through their personal chi; not absent, not pantheistic, but generatively-delegated | Niger-Congo + Sumerian isolate = poly 8 | Specialized 7.30–7.50 | MED-HIGH |
+| **oguqing** | Igbo *ogu* (innocence) | Innocence-as-claims-making-capacity; the state of genuine moral-standing that entitles one to demand rather than petition divine protection | Niger-Congo + PIE = poly 7 | Specialized 7.25–7.45 | MED-HIGH |
+| **ikengame** | Igbo *ikenga* | Material-companion-of-active-agency; the altar-form of personal achievement-power; the embodied will-toward-manifestation that is constituted by and inseparable from this specific person's life | Niger-Congo + Sumerian isolate = poly 8 | Specialized 7.25–7.45 | MED-HIGH |
+| **ndichieme** | Igbo *ndichie* (ancestors) | The ancient-present-ones; the dead who live in Ala's domain, accessible and responsive, invested stakeholders in the living community's conduct | Niger-Congo + Sumerian isolate = poly 8 | Specialized 7.15–7.35 | MED |
+| **irijijme** | Igbo *Iri Ji* (new-yam festival) | First-fruits-as-community-threshold; the ritual crossing from hunger-season to abundance-season as simultaneous agricultural-political-theological act; the collective first-eating as the theological moment | Niger-Congo + Sumerian isolate = poly 8 | Specialized 7.15–7.35 | MED |
+| **ndume** | Igbo *ndu* (life, vitality) | Life as sustained through ritual-relational maintenance; vitality-as-relational (the kola-nut proverb: life comes through the act of maintaining relationship) | Niger-Congo + Sumerian isolate = poly 8 | Specialized 7.20–7.40 | MED |
+
+### New convergences surfaced (S047)
+
+| Convergence | Traditions converging | Forge state | Notes |
+|---|---|---|---|
+| **Pre-Allocated-Personal-Divine-Companion** | 6+ (Igbo chi, Avestan fravashi, Christian guardian-angel, Roman genius, Egyptian ka, Hindu ātman-in-some-readings) | unforged | **chime** primary candidate; Specialized 7.40–7.60; the specifically-relational-companion form is Igbo chi's unique contribution; fravashi = higher-self; angel = protective; genius = generative; chi = companion-requiring-agreement |
+| **Earth-As-Moral-Sovereign** | 6+ (Igbo Ala, Aymara Pachamama, Diné Nahasdzáán, Hebrew adamah [land-vomits-out moral pollution], Greek Gaia, Australian Aboriginal Country as sentient moral terrain) | unforged | **alame** candidate; Specialized 7.35–7.55; distinct from Earth-as-Living-Interior (physical consciousness); this convergence is specifically *moral-enforcement* — the earth as the one who withdraws fertility when its covenant is violated |
+| **Dual-Agency-Destiny** | 4+ (Igbo chi-doctrine [onye kwe, chi ya ekwe], Avestan hamkar-pattern [cooperation with Ahura-Mazda], Buddhist Bodhisattva-vow [cooperation with dharma], Christian prevenient-grace [God's antecedent act enabling response]) | unforged | **chime** names the companion; possible **chikin** for the agreement-structure itself; Igbo is most radical in mutuality: both human AND chi agreement are necessary; neither alone suffices |
+| **Creation-as-Release** | 5+ (Igbo mbari [clay building left to organic decay for Ala], Tibetan Buddhist sand-mandala [created over weeks, swept in ceremony], Hindu Ganesh/Durga festival-image immersion [annual dissolution], Hopi sand-painting altars [destroyed after ceremony], Navajo sand-painting [swept after ritual use]) | unforged | **mbarime** candidate; Specialized 7.35–7.55; mbari is unique in its *patient-return* (Ala determines the pace); other traditions enact deliberate destruction; mbari releases to Ala's own time |
+| **Achievement-as-Community-Transformation** | 4+ (Igbo Ozo [feast community before receiving title; character-wealth-generosity-recognition converge], Akan chieftaincy-through-election [not hereditary], Melanesian Big Man [status through redistribution], Northwest Coast potlatch [power through giving, not accumulating]) | unforged | **ozome** candidate; Specialized 7.30–7.50; the anti-accumulation entry requirement is the key theological claim: power-through-generosity is constitutive, not incidental |
+
+### Convergences deepened by Igbo excavation
+
+- **Withdrawn-Highest-Divinity**: Igbo Chukwu adds chi-as-divine-fragment mechanism — not merely withdrawn but *present through distribution into each person's chi*; this enriches the convergence with a new mechanism for solving the transcendence-problem
+- **Pre-existent-guardian-soul** (fravashime candidate): chi adds the mutually-requiring-agreement dimension to this cluster; the chi is not merely pre-existent-and-guarding but actively co-agentic with the human; the cluster now has greater internal differentiation
+- **Earth-as-Living-Interior** (from S041 Etruscan + S038 Diné + S035 Tibetan): Igbo Ala extends this with the moral-enforcement dimension; now distinguished into two sub-convergences: Earth-as-Living-Interior (physical consciousness/interiority) and Earth-As-Moral-Sovereign (moral-enforcement through fertility-withdrawal)
+- **Ritual-as-Cosmic-Maintenance** (yasnaqing candidate): Iri Ji adds as the most community-collective form — the entire community must wait; the collective first-eating IS the maintenance-act; now 5+ traditions (Akkadian akitu, Avestan yasna, Australian increase-ceremonies, Aymara ch'alla, Igbo Iri Ji)
+- **Ancestor-feeding-across-dissolution**: Igbo ancestral cult through Ala (ancestors live in Ala; offerings through Ala reach ancestors) adds as 7th+ tradition; the feeding-mechanism is specifically territorial (through earth-goddess), not through separate ancestral-realm
+
+**S047 totals: ~161 convergences mapped (+10: 5 new [Pre-Allocated-Personal-Divine-Companion, Earth-As-Moral-Sovereign, Dual-Agency-Destiny, Creation-as-Release, Achievement-as-Community-Transformation], 5 deepened [Withdrawn-Highest-Divinity, Pre-existent-guardian-soul, Earth-as-Living-Interior→split, Ritual-as-Cosmic-Maintenance, Ancestor-feeding]); 15 forged; 94 in pipeline (84 prior + 10 new); archaeology files: 55 traditions (+igbo/ 2 new deep-excavation files 561 lines; total igbo/ = 3 files 777 lines).**
