@@ -2149,3 +2149,46 @@ Also deepened (not new): Liminal-Practitioner-as-Sacred-Specialist (völva deepe
 *Session 068 grand totals: ~430 convergences mapped; 17 forged (unchanged); ~300 in pipeline; 90 traditions archaeologically documented.*
 *Session 068 new forge candidates: Ge'ez (7) + Sumerian (9) + Tocharian (8) = 24 new candidates this session.*
 *Session 068 new convergences: Ge'ez (12) + Sumerian (12) + Tocharian (8) = 32 new convergences this session — highest single-session convergence yield.*
+
+
+---
+
+## S069 Tupí-Guaraní Excavation — archaeology/tupi_guarani/ (2 new files, 390 lines total) — this session
+
+*Files: tupa-nhanderuvucu-yvy-maraey.md (178 lines) + anchieta-karai-teko-pora.md (212 lines)*
+*Mission: 2026-04-27-excavate-tup-guaran-tup-anchieta (ACTIVE → REVIEW)*
+
+### New forge candidates (9)
+
+| Candidate | Source | Tier | Score | Notes |
+|---|---|---|---|---|
+| **yvy-marāme** | Guaraní *Yvy Marã'eỹ* | Core | 7.65–7.85 | This-worldly-paradise-sought-through-bodily-migration; earth-without-corruption as present-tense destination; paradise reachable now, in this body, through prophetically-led movement; no existing English word; fills genuine catalog gap |
+| **teko-porame** | Guaraní *teko-porã* | Core | 7.55–7.75 | Beautiful-good-living-as-relational-embodied-ethics; beauty-goodness fusion legible in the body; aligned with one's divine name-soul; anchors Beauty-Goodness-Fusion convergence (with Yoruba ìwà l'ẹ̀wà, Greek kalokagathia, Islamic ihsān) |
+| **ayvu-me** | Mbyá *ayvu* | Core | 7.45–7.65 | Divine-language-as-creation-medium-and-human-soul-substance; the word that both creates the cosmos and constitutes each person; extends beyond logos/davar/vāc with individuated word-soul claim |
+| **nhanderume** | Guaraní *Nhanderuvuçu* | Specialized | 7.50–7.70 | The-uncaused-father-from-whom-all-descends-and-whose-speech-defines-all-persons; paternal creative source whose speech becomes the soul of each creature |
+| **ñe'ẽ-me** | Mbyá *ñe'ẽ* (name-soul) | Specialized | 7.40–7.60 | Name-soul as specific divine-word deposited in each person; the ongoing-speech-act that is a human being; each person as an individuated utterance of Nhanderuvuçu still being spoken |
+| **karaíme** | Guaraní *karaí* | Specialized | 7.45–7.65 | Charismatic-acoustic-geographic-prophet; anti-institution migration-leader; receives divine speech and navigates sacred geography; authority is acoustic (hears), geographic (navigates), constitutively threshold (cannot arrive) |
+| **tupãme** | Tupí *Tupã* | Specialized | 7.25–7.45 | The-deity-named-for-his-own-auditory-presence; sacred encountered as sound before concept; name = phenomenon = deity |
+| **nheengatu-me** | Tupinambá *nheengatu* | Specialized | 7.20–7.40 | Beautiful/true-speech as sacred offering; speech so well-formed it becomes prayer; Anchieta used this as the register of Christian worship |
+| **jerokyme** | Guaraní *jeroky* | Specialized | 7.25–7.45 | Sacred-dance-as-body-lightening-eschatological-technology; communal dance that prepares the body for entry into Yvy Marã'eỹ by reducing its density |
+
+### New Convergences (Tupí-Guaraní S069) — 8 entries
+
+| Convergence | Traditions | Status |
+|---|---|---|
+| **This-Worldly-Eschatological-Migration** NEW | Guaraní Yvy Marã'eỹ + Exodus + Cargo Cults + Rastafarian Zion + Christian millenarianism | 5+ traditions; paradise reachable now, in body, through prophetically-led movement toward known-but-not-yet-arrived destination |
+| **Human-as-Ongoing-Divine-Speech-Act** NEW | Mbyá ñe'ẽ + Hebrew davar (ongoing speech) + Islamic kun (Quran as divine speech) + logos Christology (all things in the Word) | 4+ traditions; each person as individuated, ongoing divine utterance — not just made by divine speech but constitutively speech |
+| **Creation-Through-Heart-Before-Word** NEW | Mbyá (heart → ayvu → earth) + Hebrew lev as inner divine movement + Sufi divine love precedes divine speech | 3+ traditions; creation originates in interior divine movement (heart) before external declaration; divine emotion precedes divine language |
+| **Name-as-Soul-Fragment-from-Divine-Source** NEW | Mbyá ñe'ẽ + Egyptian ba/ren + Yoruba orí + Hebrew neshama + Lakota nagi | 5+ traditions; each person receives an individuated sacred element from the divine ground; Mbyá's version is uniquely *linguistic*: name = word = soul |
+| **Prophet-as-Anti-Institution-Mobility-Leader** NEW | Guaraní karaí + Hebrew prophets vs. monarchy + Buddhist wandering ascetics vs. Saṅgha + Sufi vs. legal scholars + Pentecostal prophecy | 5+ traditions; direct divine authority creates counter-movement to established religious order; the prophet is structurally positioned against institutional religion |
+| **The-Guide-Who-Cannot-Arrive** NEW | Guaraní karaí + Moses (dies outside Promised Land) + Sufi fana (annihilation before divine) + Buddhist Bodhisattva (delays nirvana to guide others) | 4+ traditions; the mediator-guide is constitutively positioned at the threshold, not the destination — guide's vocation is threshold-keeping, not arrival |
+| **Beauty-Goodness-Fusion-as-Ethical-Foundation** NEW | teko-porã (Guaraní *porã*) + Yoruba ìwà l'ẹ̀wà + Greek kalokagathia + Hebrew tov (creation) + Islamic ihsān | 5+ traditions; the beautiful IS the right; ugly living IS wrong living; moral failure has aesthetic signature; ethical and aesthetic cannot be finally separated |
+| **Sacred-Dance-as-Body-Transformation-Technology** NEW | Guaraní jeroky + Sufi sama + Hebrew machol + Shaker worship + Yoruba egúngún | 5+ traditions; communal sacred dance transforms the dancer's body as preparation for divine encounter; the dance is not symbolic but mechanistically transformative |
+
+**S069 Tupí-Guaraní totals: ~438 convergences (+8 new Tupí-Guaraní; prior ~430 Tocharian); ~309 in pipeline (+9 Tupí-Guaraní forge candidates incl. yvy-marāme Core 7.65–7.85, teko-porame Core 7.55–7.75, ayvu-me Core 7.45–7.65); archaeology files: 91 traditions (+tupi_guarani/ 2 new files 390 lines).**
+
+---
+
+*Session 069 grand totals: ~438 convergences mapped; 17 forged (unchanged); ~309 in pipeline; 91 traditions archaeologically documented.*
+*Session 069 new forge candidates: Tupí-Guaraní (9) — including 3 Core candidates (yvy-marāme, teko-porame, ayvu-me) and 6 Specialized.*
+*Session 069 new convergences: 8 — including 2 five-tradition convergences (This-Worldly-Eschatological-Migration, Beauty-Goodness-Fusion-as-Ethical-Foundation).*
