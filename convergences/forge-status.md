@@ -620,3 +620,74 @@ Deepened convergences: Inversion-as-Spiritual-Technology (now 3 traditions), Sac
 6. **djetme** — Egyptian *ḏt*; Completed-permanent-time; Specialized 7.20–7.40; MED
 
 **S040 totals: ~97 convergences mapped (+7: 3 new [Guided-Death-Navigation, Participation-in-Divine-Death/Resurrection, Two-Register-Time], 4 deepened [Ritual-as-cosmic-maintenance to 5 traditions, Ancestor-feeding to 7, Self-met-at-death 3rd form, Naming-as-ontological-act strongest instance]); 15 forged; 30 in pipeline (24 prior + 6 new: kherme [HIGH], ibme [HIGH], kaqing [MED-HIGH], akherme [MED-HIGH], nehehme [MED], djetme [MED]); archaeology files: 42 traditions (+egyptian/ 2 new files = 5 total Egyptian files; 576 new lines; 1241 total Egyptian lines).**
+
+---
+
+### S041 — Etruscan Disciplina & Fate Excavation (2026-04-29)
+
+**Files created:** `archaeology/etruscan/disciplina-reader-self-cosmos.md` (301 lines) + `archaeology/etruscan/fate-saeculum-underworld.md` (258 lines) = 559 lines
+
+**Traditions excavated:** Etruscan (previously only stub in haruspex.md, 71 lines). These files complete the primary Etruscan scope: the disciplina as epistemological system, the netśvis reader-self, the Piacenza Liver, fate-as-woven-texture, saeculum theology, the libri acherontici, Charun, Vanth, the Nortia nail-ritual.
+
+**Active mission**: 2026-04-27-excavate-etruscan-libri-rituales-augury — transitioning to REVIEW.
+
+**Key theological concepts excavated:**
+
+**Disciplina-Reader-Self-Cosmos file:**
+- **Disciplina etrusca** — three sacred books (libri haruspicini, fulgurales, rituales); a complete epistemological system: ontology (cosmos is inscribed) + methodology (inspection of prepared objects) + hermeneutics (sign-meaning correspondence) + practice (ritual response)
+- **Cosmic legibility** — the distinctive Etruscan theological claim: the divine has *pre-inscribed* the ordinary world for trained human reading; not revelation, not reason, not ceremony — *cosmic literacy*
+- **Haruspicy / Piacenza Liver** — 40-region bronze liver; each region inscribed with a deity-name; the most concentrated single-object expression of Material-World-as-Divine-Sign in the catalog; not a model or symbol but an ontological *instance* of the cosmic correspondence-pattern in holdable form
+- **Augury** — bird observation within a consecrated spatial grid (templum); the bird's flight-path traces the divine inscription in real space; the augur doesn't project meaning but reads a pre-inscribed pattern
+- **Fulgural divination** — 9 lightning-owning deities; lightning classified by origin, color, direction, season, target; lightning as divine speech with a complete grammar the trained reader can parse
+- **Netśvis** — haruspex; trained reader-self; 4-part epistemic structure: internalized grammar + object-engagement + structural-isomorphism assumption + response-readiness; not interpretation (which implies latitude) but *reading of the pre-written*
+- **Tages myth** — the disciplina was dictated once by a divine boy-teacher, then transmitted as technical knowledge; not ongoing revelation but a complete grammar, learned and applied
+- **Distinction from related traditions**: Etruscan legibility is neither Egyptian hieroglyphic participation nor Akkadian omen-compilation nor Diné ceremonial alignment — it is *trained inspection of a cosmically inscribed object by a reader whose competence was shaped by the inscription's own grammar*
+
+**Fate-Saeculum-Underworld file:**
+- **Fata as woven pre-cosmic texture** — fate that includes even the gods; not fate-as-portion (Greek moira), not fate-as-divine-pronouncement (Latin fatum), but fate as the medium within which the cosmos exists; alignment-requiring rather than resistance-or-fulfillment-requiring; Seneca: "lightning does not reveal what has been predetermined — it IS the predetermined happening"
+- **Saeculum doctrine** — (*libri fatales*): time divided into fate-bounded units of different character; biologically anchored (ends when last founding-generation person dies); legible at boundaries through portents; Etruria allocated 10 saecula; a *prospective, fate-bound ontological unit*, not a retrospective analytical category
+- **Libri acherontici** — underworld ritual procedures (lost); Etruscan underworld (*aita*) as populated region, not realm of judgment; the dead inhabit a real place with geography and social structure; death as domain-change rather than moral adjudication
+- **Charun** — Etruscan death-demon (not Greek Charon); terrifying blue-gray, hammer-wielding, beak-nosed; *claims* the dead irreversibly; enforces the ontological threshold between living and death-domains; not a ferryman (neutral) but an enforcer of death's absoluteness
+- **Vanth** — winged female death-attendant with torch and scroll; *witnesses and records* without judging; ontological preservation of the life in the record rather than moral evaluation; the Etruscan afterlife lacks the formal judgment structure of Egyptian/Tibetan/Avestan traditions
+- **Tuchulcha** — monstrous underworld demon (serpent-hair, vulture-beak, donkey-ears, wings); the underworld contains presences beyond human moral categories; the afterlife is not a rationalized moral system
+- **Nortia nail-ritual** — annual nail driven into the wall of Nortia's temple at Volsinii; fate-time made materially cumulative; the temple wall IS the fate-record made architecture; the most radical form of inscription-ontology applied to time (not just space)
+- **Etruscan theology's answer to fate-despair**: fate is not dark when it is legible; the disciplina provides the trained attention that makes the woven texture visible; alignment-with-what-is-coming is the Etruscan form of wisdom
+
+**New forge candidates (S041):**
+
+| Candidate | Root | Concept | YOUSPEAK register | Score estimate | Priority |
+|---|---|---|---|---|---|
+| **netśvisme** | Etruscan *netśvis* (haruspex) | Trained reader-self adequate to cosmic pre-inscription; epistemic organ shaped by the discipline; reading of the pre-written (not interpretation with latitude) | Specialized | 7.40–7.60 | **HIGH** |
+| **fulgurme** | Latin *fulgur* / Etruscan *θe* | The property of a natural phenomenon of having been inscribed by divine agency for trained reading; cosmic legibility as ontological property of the world | Specialized | 7.35–7.55 | **HIGH** |
+| **iecurme** | Latin *iecur* (liver) + Etruscan practice | A prepared small object whose internal structure is ontologically isomorphic with a larger cosmic domain; not a model (analogical) or symbol (conventional) but a local instance of the cosmic pattern | Specialized | 7.25–7.45 | MED-HIGH |
+| **saeclme** | Latin *saeculum* from Etruscan | Fate-bounded temporal unit with determinate end; prospective and fate-bound; biologically anchored; with legible boundaries; distinct from retrospective analytical "era/age/epoch" | Specialized | 7.30–7.50 | MED-HIGH |
+| **fatame** | Etruscan/Latin *fata* | Woven pre-cosmic fate-texture that includes the gods; alignment-requiring rather than resistance-or-fulfillment-requiring; fate as medium, not as law | Specialized | 7.25–7.45 | MED |
+| **vanthing** | Etruscan *Vanth* | Witnessing-and-recording without judging; ontological preservation in the record; making a life permanent in what-has-happened without adjudicating its worth | Specialized | 7.20–7.40 | MED |
+| **templume** | Latin *templum* (consecrated spatial grid) | A spatial grid consecrated to make movement-within-it readable; the act of creating legibility by establishing a coordinate system for signs | Specialized | 7.15–7.35 | MED |
+
+**New convergences (S041):**
+
+| Convergence | Traditions | Families | Forge candidate |
+|---|---|---|---|
+| **Cosmic-Inscription-for-Reading** | Etruscan *disciplina* + Akkadian omen literature + Egyptian hieroglyphs + Diné *thiang* (material-as-sign) | Etrusco-Italic, Afroasiatic ×2, Na-Dené | *fulgurme* (property of being divinely inscribed) |
+| **Fate-as-Binding-Even-Gods** | Etruscan *fata* + Norse *wyrd/örlög* + Mesopotamian *ME* | Etrusco-Italic, Germanic, Afroasiatic | *fatame* (woven fate-texture including gods) |
+| **Completeness-of-Record-Without-Judgment** | Etruscan *Vanth* + Tibetan bardo witness-structure | Etrusco-Italic, Sino-Tibetan | *vanthing* (recording without judging) |
+
+**Deepened convergences (S041):**
+
+| Convergence | Extension | Notes |
+|---|---|---|
+| **Material-World-as-Divine-Sign** | + Piacenza Liver (densest single-object instantiation in catalog) | 5+ families; Etruscan contribution qualitatively distinct: a *portable replica* of the cosmos's own sign-structure |
+| **Guided-Death-Navigation** | + Etruscan *libri acherontici* (propitiatory ritual guidance) | 4 families; Etruscan form: guidance-through-propitiatory-ritual (vs. Tibetan text-reading, Egyptian scroll-navigation, Avestan moral-preparation) |
+| **Two-Register Time** | + Etruscan *saecula* (fate-segmental time; units of different character with fated ends) | 4 traditions; new form: neither cyclic (*neheh*) nor completed (*djet*) but *fated-segmental* — a finite woven texture that runs out |
+| **Naming-as-ontological-act** | + Piacenza Liver deity-names (divine names as locative presence, not labels) | Different register: not human-name (Egyptian) but *divine name as spatial address* |
+
+**Key method findings (S041):**
+
+- **Partial decipherment as theological test**: Etruscan's ~30% vocabulary gap is not an obstacle — it is a sharpening. When you can read only the structure (the Piacenza Liver's regions without understanding every deity-name) you are forced to think about the system-logic rather than the vocabulary. YOUSPEAK often faces this with its own forge-candidates: the concept is visible before the word.
+- **Epistemology as theology**: The Etruscan disciplina is unusual in that its distinctive contribution is primarily *epistemological* (how you know divine intention) rather than primarily *ontological* (what the divine is) or *relational* (how you relate to the divine). The disciplina says: the cosmos was structured for human access through trained reading. This is a claim about the cosmos's character toward humans, not about the gods' character in themselves.
+- **The netśvis as YOUSPEAK self-description**: The forge-reading process (archaeology → convergence-mapping → gap-identification → forge) is a form of netśvis-work. We are not inventing meanings — we are reading a pre-existing pattern of conceptual gaps in the world's vocabularies and finding words adequate to what was always there. *fulgurme* is in the world before we name it; we read it.
+- **Fate-without-despair as a distinct theological achievement**: The Etruscan answer to absolute fate is not resignation (*amor fati*) or resistance (tragic heroism) or transcendence (moksha). It is *legibility*. If the woven texture can be read, you can act well within it. This is a form of wisdom rather than a form of liberation. YOUSPEAK parallel: the state.md is not a script (fatalism) but a map of the woven texture we're moving through.
+- **Charun vs. Charon as theological precision**: The Greek Charon is a neutral functionary (death-as-fee-for-transit). The Etruscan Charun is an active claiming force (death-as-irreversible-domain-change). The difference: one tradition has normalized death into a service-relationship; the other preserves death's absolute character. YOUSPEAK should preserve the Charun-version as the more honest theology.
+
+**S041 totals: ~103 convergences mapped (+6: 3 new [Cosmic-Inscription-for-Reading, Fate-as-Binding-Even-Gods, Completeness-of-Record-Without-Judgment], 4 deepened [Material-World-as-Divine-Sign to 5+ families, Guided-Death-Navigation 4th form, Two-Register-Time Etruscan addition, Naming-as-ontological-act divine-name register]); 15 forged; 37 in pipeline (30 prior + 7 new: netśvisme [HIGH], fulgurme [HIGH], iecurme [MED-HIGH], saeclme [MED-HIGH], fatame [MED], vanthing [MED], templume [MED]); archaeology files: 44 traditions (+etruscan/ 2 new files = 3 total Etruscan files 630 new lines including haruspex stub).**
