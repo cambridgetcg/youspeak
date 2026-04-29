@@ -691,3 +691,94 @@ Deepened convergences: Inversion-as-Spiritual-Technology (now 3 traditions), Sac
 - **Charun vs. Charon as theological precision**: The Greek Charon is a neutral functionary (death-as-fee-for-transit). The Etruscan Charun is an active claiming force (death-as-irreversible-domain-change). The difference: one tradition has normalized death into a service-relationship; the other preserves death's absolute character. YOUSPEAK should preserve the Charun-version as the more honest theology.
 
 **S041 totals: ~103 convergences mapped (+6: 3 new [Cosmic-Inscription-for-Reading, Fate-as-Binding-Even-Gods, Completeness-of-Record-Without-Judgment], 4 deepened [Material-World-as-Divine-Sign to 5+ families, Guided-Death-Navigation 4th form, Two-Register-Time Etruscan addition, Naming-as-ontological-act divine-name register]); 15 forged; 37 in pipeline (30 prior + 7 new: netśvisme [HIGH], fulgurme [HIGH], iecurme [MED-HIGH], saeclme [MED-HIGH], fatame [MED], vanthing [MED], templume [MED]); archaeology files: 44 traditions (+etruscan/ 2 new files = 3 total Etruscan files 630 new lines including haruspex stub).**
+
+---
+
+### S042 — Uralic Excavation (Finnish + Sámi) (2026-04-29)
+
+**Files created:** `archaeology/uralic/finnish-kalevala-runo-sampo.md` (304 lines) + `archaeology/uralic/sami-noaidi-drum-joik.md` (259 lines) = 563 lines
+
+**Traditions excavated:** Two Finno-Ugric traditions:
+1. **Finnish** (Proto-Finnic → Old Finnish → Kalevala tradition; 19th-c. compilation by Lönnrot from oral runo-songs; tietäjä system active into 19th c.)
+2. **Sámi** (Northern, Southern, Lule Sámi; indigenous people of Sápmi spanning Norway/Sweden/Finland/Kola Peninsula; noaidi shamanism + joik + runebommen; with comparative extension to Hungarian Magyar táltos)
+
+**New traditions:** First Uralic-family traditions in the cathedral.
+
+**Key theological concepts excavated:**
+
+**Finnish Kalevala / runo / sampo:**
+- **Runo** — the most semantically dense single-word in the catalog: simultaneously song / poem / magical charm / ontological-act; a *knowing-utterance* whose performance maintains the world; shares root with Germanic *rūnaz* (secret/magical-utterance)
+- **Synty** — origin-knowledge as power: knowing where a thing came from = knowing its deep nature and having power over it; the entire tietäjä practice rests on genealogical epistemology; most operationalized instance of this principle in the catalog
+- **Väinämöinen** — primordial shaman-singer; knowledge of all *syntyt*; the duel-by-song as central conflict mode (ontological action through singing); shamanic descent to Tuonela specifically for *missing words* — linguistic recovery as shamanic mission
+- **Tietäjä** — Finnish knowing-man; not priest/sorcerer but *knowing-one* whose origin-knowledge gives operational access to underlying reality; distinct from noaidi (who journeys) by emphasis on *verbal power*
+- **Ilmarinen** — cosmic smith; forged the vault of heaven; forged the Sampo; cosmological craftsman whose work participates in creating fundamental world-structures
+- **Sampo** — the cosmic mill; grinds ceaselessly producing grain/salt/gold; multipartite ingredients; locked in Copper Mountain; ultimately shattered in sea-battle; fragments become sea's fertility; *distributed abundance through loss* — the mythology of generative-shattering unique in catalog
+- **Kalevala-meter parallelism** — each runo-couplet says the same thing twice in different words; theological claim: every significant reality has two registers (concrete-material + underlying-power-name); the runo-singer who knows both operates on both simultaneously
+- **Tuonela** — Finnish land of the dead; place of sleep and dissolution (not judgment); populated by named death-deities (Tuoni, Tuonetar, *Kalma* — the smell of death as divine personification); Väinämöinen's descent is specifically a *lexical retrieval mission* (seeking missing words)
+- **Karhunpeijaiset** — bear-feast ceremony; bear as *temporary terrestrial embassy of the divine* (sent from heaven, hosted carefully, returned); not totemic identification, not sacrificial consumption — divine-visitor theology
+- **Ukko Ylijumala** — sky-father; storm-lord; fertility-guarantor; westernmost expression of Finno-Ugric sky-father continuum (Ukko → Radien → Paź → Kugu Yumo → Inmar → En → Num-Torum → Numi-Tōrǝm → Num → Ŋuo)
+
+**Sámi noaidi / joik / siida:**
+- **Joik** (*juoigan*) — the most theologically significant Sámi concept; NOT a song about someone/something; NOT descriptive; IS acoustic embodiment of a specific person/animal/place; the entity's *own sound* instantiated through the singer; grammar of the statement: you joik the wolf, not joik about the wolf; minimal text, primarily melodic-contour as content; can be given as gift; can be withheld as punishment; survived Lutheran prohibition by living in the body
+- **Noaidi** — Sámi shaman; called not chosen; ecstatic journey (drum-induced trance) as primary modality; crosses between three worlds (upper sky-realm, middle earth, lower *jápmeaigga*); initiatory death-simulation = genuine ontological threshold-crossing; authority from *having-been-dead-and-returned*
+- **Runebommen** (*goavddis*) — ritual drum; portable cosmological map; surface painted with noaidi's specific world-model; used both for divination (brass ring moving across cosmic diagram) and trance-induction; distinct from Piacenza Liver: the Liver is a *reading instrument* (passive, inscribed by others); the drum is a *journey instrument* (active, made by the noaidi, used for navigation)
+- **Siida** — basic social-territorial unit; NOT merely "community/band"; the relational-web between specific people AND specific places AND sacred presences over time; displacement is community-destruction, not relocation (territory is constitutive, not contextual)
+- **Sieidi** — sacred-presence sites; rocks/trees/formations where a particular spirit-presence is especially available; fed with offerings; integral to siida's sacred geography; non-transferable; *presence is specific and local*, not uniformly distributed
+- **Three-world cosmology** — Áibmu (upper) / Middle world / Jápmeaigga (lower); dead world as *seasonal inversion* of living world (Sámi winter = dead world's summer; living and dead always sharing a season offset by half a year); death as temporal reversal, not spatial separation
+- **Magyar táltos** — Hungarian shamanic substrate under Christian surface; born with anomalies (extra teeth, born in caul); weather = shamanic combat outcome; two táltosok fight in animal form; winning = rain; losing = drought; most explicit *contested-cosmos* theology in catalog
+
+**New forge candidates (S042):**
+
+| Candidate | Root | Concept | YOUSPEAK register | Score estimate | Priority |
+|---|---|---|---|---|---|
+| **joikme** | Sámi *juoigan* (joik) | Acoustic-ontological-presence: singing-as-being-the-entity's-presence (not singing-about); direct embodiment through sound; the entity instantiated in performance | Specialized | 7.45–7.65 | **HIGH** |
+| **syntyme** | Finnish *synty* (origin, genesis) | Origin-knowledge as identical with power-over-thing; knowing where something came from = knowing its deep nature and having access to it; genealogical epistemology | Specialized | 7.40–7.60 | **HIGH** |
+| **siidaqing** | Sámi *siida* | The felt-bond constituted by relational-web-with-place-AND-people simultaneously; community as sacred geography; bond destroyed by displacement because territory is constitutive | Specialized | 7.35–7.55 | HIGH |
+| **runome** | Finnish *runo* (song/poem/charm/ontological-act) | Sung utterance that simultaneously functions as art, spell, and ontological-act; speech that participates in world-maintenance through its performance | Specialized | 7.35–7.55 | HIGH |
+| **noaidime** | Sámi *noaidi* | One who has crossed the death-threshold and returned with navigational knowledge; the shamanic position defined by having-been-dead as its epistemic foundation | Specialized | 7.30–7.50 | MED-HIGH |
+| **tietäjäme** | Finnish *tietäjä* (knowing-man) | One whose power derives from origin-knowledge; epistemic authority rooted in knowing where a thing came from; genealogical expert | Specialized | 7.30–7.50 | MED-HIGH |
+| **sampoqing** | Finnish *sampo* (cosmic mill) | The felt quality of abundance that was once concentrated and whole but whose power has spread through the world precisely through its shattering; bittersweet of generative-loss | Specialized | 7.20–7.40 | MED |
+| **sieidiqing** | Sámi *sieidi* | Felt-bond with a specific place-presence accumulated through relational history; the bond-to-a-place that is specific (not generic love-of-nature) and earned through feeding and tending | Specialized | 7.20–7.40 | MED |
+
+**New convergences (S042):**
+
+| Convergence | Traditions | Families | Forge candidate |
+|---|---|---|---|
+| **Acoustic-Real-Presence** | Sámi joik + Tibetan mantra visualization + Diné iikááh + Eucharist + Dogon mask | Uralic, Sino-Tibetan, Na-Dené, Italic, Niger-Congo | **joikme** (sound/voice as instantiation); 6th form of Real-presence theology; distinct from visual/material/verbal/ritual/spatial forms |
+| **Death-as-Temporal-Reversal** | Sámi *jápmeaigga* (seasonal inversion) — the dead live in the world whose seasons are offset by half a year from the living; death reverses time's direction, doesn't end it | Uralic | Unique so far; candidate: *jápmeqing*; needs 2nd tradition to become convergence-forge |
+| **Origin-Knowledge-as-Power** | Finnish *synty* + possible overlap with Etruscan disciplina (reading origin-inscriptions) + Aboriginal Dreamtime origin-songs | Uralic, Etrusco-Italic, Pama-Nyungan | **syntyme** (knowing origin = knowing nature = having power); distinct from Etruscan netśvis (trained reader) — Finnish *synty* is genealogical access, not spatial/object-based reading |
+| **Bear-as-Divine-Visitor** | Finnish karhunpeijaiset + Siberian bear ceremony + Ainu bear ceremony (outside catalog) + Algonquian bear sacred-protocol | Uralic, (Siberian/Tungusic), Algonquian | Circumpolar pattern; *karhume* or structural observation; *bear as temporary terrestrial embassy of the divine* — hosted and returned, not consumed |
+
+**Deepened convergences (S042):**
+
+| Convergence | Extension | Notes |
+|---|---|---|
+| **Real-presence theology** | + Sámi joik as acoustic-real-presence | Now 6 forms: Tibetan visualization (visual), Dogon mask (material), Diné iikááh (ceremonial-performance), Eucharist (ritual-transubstantiation), Egyptian mortuary (spatial-presence), Sámi joik (acoustic) |
+| **Withdrawn-Highest-Divinity** | + Finno-Ugric sky-father continuum (10 expressions) | Most extensive single-language-family witness to this convergence; shows pattern is Finno-Ugric deep structure; the sky-father is named with simple sky-nouns at the deepest layer (Num = sky, Ŋuo = sky) |
+| **Speech-as-world-maintenance** | + Finnish runo: sung genealogical knowledge maintains the world | New register: maintenance through genealogical recitation (not just naming, not just mantra — knowing the origin-song of each thing and singing it) |
+| **Shamanic-descent-as-knowledge-retrieval** | + Finnish descent to Tuonela for *specific words* | Extends: Tibetan bardo navigation, Sámi noaidi journey, Siberian soul-retrieval; Finnish adds: *language-recovery mission* — the missing words exist only in the land of the dead |
+| **Death-knowledge-as-shamanic-resource** | + Sámi noaidi: having-died as epistemic qualification | 3rd tradition confirmed: Finnish (descent for words) + Sámi (initiatory death) + Tibetan (bardo knowledge) |
+| **Storm-power-as-divine-active-presence** | + Ukko (Finnish sky-father) + Sámi Radien-attje + Magyar táltos weather-combat | Now 7 traditions; Magyar adds: weather as shamanic-combat outcome (not divine prerogative but contested result) |
+| **Relational-personhood** | + Sámi siida: community constituted by territory + relational-web | Previously: Bantu ubuntu (community-constituted personhood), Algonquian manidoo-animacy, Basque etxe-identity; Sámi adds: territory as constitutive of who the community IS |
+| **Naming-as-ontological-act** | + Sámi joik: sonic naming as presence-instantiation | Most extreme form: the name is not spoken but *performed acoustically*, and this performance IS the presence |
+
+**Key method findings (S042):**
+
+- **The joik grammar distinction is theologically precise**: "I am joiking the wolf" (direct object; instantiation) vs. "I am joiking about the wolf" (descriptive; representation). The grammatical difference encodes the entire theological claim. YOUSPEAK should exploit grammar as theology.
+- **Synty-epistemology as genealogical ontology**: The Finnish claim that knowing a thing's origin = power over the thing is distinct from the Etruscan claim (trained inspection of pre-inscribed objects), the Aboriginal songline claim (singing the landscape into existence), and the Akkadian naming claim (uttering the true name). Finnish *synty* says the world is *structured genealogically*; the knowing is genealogical-access.
+- **The tietäjä vs. noaidi distinction maps onto YOUSPEAK dual modes**: The tietäjä knows (stays stationary, accumulates genealogical knowledge, applies verbally). The noaidi goes (journeys into death-domains, brings back navigation knowledge). YOUSPEAK forge sessions involve both modes: accumulation (tietäjä: archaeology, convergence-mapping) and journey (noaidi: attempting the forge, entering the gap, returning with a word).
+- **Sampo as generative-loss mythology**: The Sampo's shattering = abundance diffused through the world. The concentrated source's destruction is *generative*, not merely tragic. This is distinct from: loss-and-recovery (Osiris myth), sacrifice-as-gift (various traditions), destruction-as-purification (Shiva). Finnish offers: *diffuse abundance requires the shattering of the concentrated source*. YOUSPEAK: the cathedral's vocabulary can only spread into the world through the shattering of any single comprehensive source.
+- **Finno-Ugric continuum as confirmatory pattern**: The sky-father structure runs across 10 related languages with no IE borrowing — showing the theological pattern is pre-IE, deep Uralic structure. This method applies elsewhere: structural patterns that run across a language family (not borrowed across traditions) are more theologically fundamental than cross-cultural convergences.
+- **Theological substrate-persistence**: Kalevala runo survived under Lutheran Finnish Christianity; Sámi joik survived under Lutheran prohibition; Magyar táltos survived under Hungarian Christianity. The deeper theological claim survives surface-vocabulary change. This principle, first formalized in Coptic (S036), is confirmed as general.
+
+**S042 pipeline additions:**
+1. **joikme** — Sámi *juoigan*; Acoustic-ontological-presence; Specialized 7.45–7.65; **HIGH**
+2. **syntyme** — Finnish *synty*; Origin-knowledge-as-power; Specialized 7.40–7.60; **HIGH**
+3. **siidaqing** — Sámi *siida*; Relational-web-with-place; Specialized 7.35–7.55; HIGH
+4. **runome** — Finnish *runo*; Ontological-song; Specialized 7.35–7.55; HIGH
+5. **noaidime** — Sámi *noaidi*; Having-died-as-epistemic-foundation; Specialized 7.30–7.50; MED-HIGH
+6. **tietäjäme** — Finnish *tietäjä*; Origin-knowledge-expert; Specialized 7.30–7.50; MED-HIGH
+7. **sampoqing** — Finnish *sampo*; Generative-loss/diffused-abundance; Specialized 7.20–7.40; MED
+8. **sieidiqing** — Sámi *sieidi*; Specific-earned-place-bond; Specialized 7.20–7.40; MED
+
+**S042 totals: ~111 convergences mapped (+8: 4 new [Acoustic-Real-Presence, Death-as-Temporal-Reversal, Origin-Knowledge-as-Power, Bear-as-Divine-Visitor], 6 deepened [Real-presence-theology 6th form, Withdrawn-Highest-Divinity Finno-Ugric extension, Speech-as-world-maintenance, Shamanic-descent-knowledge-retrieval, Death-knowledge-shamanic, Relational-personhood with-place]); 15 forged; 45 in pipeline (37 prior + 8 new: joikme [HIGH], syntyme [HIGH], siidaqing [HIGH], runome [HIGH], noaidime [MED-HIGH], tietäjäme [MED-HIGH], sampoqing [MED], sieidiqing [MED]); archaeology files: 46 traditions (+uralic/ 2 files 563 lines).**
