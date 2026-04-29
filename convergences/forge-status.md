@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-29 (S071 — Yoruba excavation COMPLETE: 2 new files [archaeology/yoruba/ifa-orisha-cosmology.md 231 lines, archaeology/yoruba/egungun-diaspora-memory.md 197 lines]; 8 new forge candidates [àṣẹme Core 7.70-7.90 TOP NEW, egúngúnme Core 7.60-7.80, orí-me Core 7.65-7.85, odùme Spec 7.50-7.70, ẹbọme Spec 7.40-7.60, oríkime Spec 7.35-7.55, ìpínme Spec 7.40-7.60, àiyéme Spec 7.35-7.55]; 10 new/deepened convergences; ~472 convergences; pipeline at ~334; traditions 95 [+1 Yoruba deep]; prior: S071 Wolof+Fulfulde Sahel COMPLETE)
+last_updated: 2026-04-29 (S072 — Zapotec+Mixtec codex tradition COMPLETE: 2 new files [archaeology/zapotec_mixtec/zapotec-pe-pitao-cosmology.md 235 lines, archaeology/zapotec_mixtec/mixtec-codex-tradition.md 205 lines]; 8 new forge candidates [peme Core 7.50-7.70 TOP NEW, pitaome Core 7.40-7.60, piyeme Spec 7.40-7.60, tonindeye-me Spec 7.40-7.60, cargo-me Core 7.35-7.55, cocijome Spec 7.35-7.55, nuhu-me Spec 7.30-7.50, laa-me Spec 7.25-7.45]; 16 new/deepened convergences; ~488 convergences; pipeline at ~347; traditions 97; prior: S071 Yoruba COMPLETE)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -2261,3 +2261,54 @@ Also deepened (not new): Liminal-Practitioner-as-Sacred-Specialist (völva deepe
 *Session 070 all new forge candidates: 10 total (Ugaritic 5 + Vedic 5).*
 *Session 070 all new convergences: 12 (Ugaritic 10 + Vedic 2 net new after overlap).*
 
+
+---
+
+### New Forge Candidates (Zapotec + Mixtec S072) — 8 entries
+
+| Candidate | Donor tradition | Category | Score range | Core meaning |
+|---|---|---|---|---|
+| **peme** | Zapotec *Pe* (vital-essence) | Core | 7.50–7.70 | The breath-carried vital-essence that animates persons, accumulates in sacred places and objects, and joins the ancestral pool at death; soul as breath + force + inheritable-power |
+| **pitaome** | Zapotec *Pitao* (deity-class) | Core | 7.40–7.60 | The concentrated-Pe force governing a cosmic domain; deity as domain-Pe rather than person; divine power as impersonal force made approachable through ritual — not a personality but a pattern |
+| **piyeme** | Zapotec *piye* (fate-calendar) | Specialized | 7.40–7.60 | The fate-mapped calendar; time as destiny-textured; biography written in cosmological time; each day has Pe-quality shaping what is possible — time as living Pe-map not abstract schedule |
+| **cocijome** | Zapotec *Cocijo* (lightning-rain deity) | Specialized | 7.35–7.55 | Lightning as creative Pe-event; the violent-sacred strike whose disruption enables growth; rain-fertility born from the storm's force; the Pe-circuit between earth and sky completed |
+| **laa-me** | Zapotec *tonija* (spirit-companion) | Specialized | 7.25–7.45 | The soul-shadow companion that doubles the self; the spirit-animal whose fate mirrors the person's; distributed selfhood across body and companion-being |
+| **tonindeye-me** | Mixtec *tonindeye* (codex-genealogy) | Specialized | 7.40–7.60 | The sacred genealogy as living document; scripture as pictographic presence not linguistic representation; history-theology-liturgy as one undivided thing; the image that IS the event |
+| **cargo-me** | Mixtec/Zapotec cargo system | Core | 7.35–7.55 | The sacred office carried as burden-and-honor; civic duty as cosmic covenant; prestige earned through total redistribution; the giving that earns standing and maintains the world |
+| **nuhu-me** | Mixtec *Nuhu* / Nine Wind | Specialized | 7.30–7.50 | Cultural-hero-as-wind-and-descent; Pe concentrated as gift to humanity; the one who brings the calendar and the arts from sky to earth; connects Quetzalcoatl-complex across traditions |
+
+### New Convergences (Zapotec + Mixtec S072) — 16 entries
+
+**Zapotec (8):**
+
+| Convergence | Traditions | Status |
+|---|---|---|
+| **Breath-as-Soul-Carrier** NEW | Zapotec Pe + Hebrew *nishmat chayyim* + Greek *pneuma* + Sanskrit *prāṇa* + Yoruba àṣẹ (breath-activation register) | 5+ traditions; the animating force carried specifically in breath; soul as that-which-breathes rather than that-which-persists |
+| **Sacred-Place-as-Pe-Accumulation** DEEPENED | Zapotec Pe-in-mountains + Japanese *kami*-in-objects + Melanesian mana-in-places + Lakota *wakȟáŋ* + Yoruba àṣẹ-in-shrines + Shinto *yorishiro* | 6+ traditions; the sacred is not only in persons but concentrated in specific geography; holiness is topographic |
+| **Living-Dead-Pe-Circulation** DEEPENED | Zapotec tomb-as-Pe-reservoir + Yoruba Egúngún + Chinese ancestor-*shen* + Roman *manes/genius* + Egyptian *ka*-in-tomb + Nahua underworld-cycling | 6+ traditions; the dead's vital force does not vanish but pools; the living walk over that pool; mutual dependency as Pe-circulation |
+| **Time-as-Pe-Textured** NEW | Zapotec *piye*-calendar + Maya *tzolkin* + Nahuatl *tonalpohualli* + Jewish Shabbat-holiness + Hindu *tithi*-sacred-days | 5+ traditions; time is not uniform but Pe-differentiated; different days/periods carry different sacred-force quality |
+| **Calendar-as-Biographical-Destiny** DEEPENED | Zapotec day-sign as Pe-identity + Nahuatl tonalli-birth-sign + Babylonian horoscopy + Greek *daimon* assigned at birth | 4+ traditions; birth-time writes destiny; the cosmological structure at the moment of birth shapes what-is-possible for that life |
+| **Supreme-Source-Behind-Deities** DEEPENED | Zapotec Coqui Xee + Yoruba Olódùmarè + Nahuatl Ōmeteōtl + Greek Moira-above-gods + Vedic Brahman-beyond-devas | 5+ traditions; the ultimate principle that is never directly worshipped; deities are its intermediaries |
+| **Architecture-as-Cosmology** DEEPENED | Monte Albán axis mundi + Sumerian ziggurat as cosmic mountain + Egyptian pyramid as primordial mound + Borobudur as Meru + Hopi kiva as underworld-axis + Jerusalem Temple as navel of earth | 6+ traditions; sacred architecture is not where worship happens but IS the cosmological structure made visible |
+| **Serpent-As-Earth-Sky-Pe-Circuit** NEW | Zapotec Cocijo-tongue + Maya K'awil lightning-serpent + Nahuatl rain-serpents + Hindu Shesha as earth-carrier | 4+ traditions; the serpent as the creature whose Pe completes the earth-sky circuit; lightning IS the serpent's tongue reaching sky |
+
+**Mixtec (8):**
+
+| Convergence | Traditions | Status |
+|---|---|---|
+| **Pictograph-as-Theophany** NEW | Mixtec codex + Byzantine icon theology + Egyptian hieroglyph embodiment + Tibetan *thangka*-as-deity-palace | 4+ traditions; the sacred image is not a representation of the sacred but its presence; making the image IS the encounter |
+| **History-Theology-Liturgy-as-Undivided** NEW | Mixtec codex (simultaneous history + theology + ritual-manual) + Hebrew Torah (law + history + liturgy) + Mahabharata as *itihāsa*-dharma-cosmos | 3+ traditions; the most important sacred texts are those that refuse the history/theology distinction; all history is cosmologically structured; all cosmology is historically enacted |
+| **Sacred-Economy-as-Cosmic-Maintenance** DEEPENED | Mixtec cargo + Northwest-Coast Potlatch + Jewish Jubilee + Islamic Zakat + Buddhist *dāna* + Sumerian temple-redistributive-economy | 6+ traditions; accumulation of Pe/wealth is cosmologically dangerous; redistribution is cosmic healing; the economy IS theology |
+| **Covenant-with-Earth-Rain-Ancestors** NEW | Mixtec cargo-covenant (*convenio*) + Hebrew *berith* with land + Andean *ayni* (cosmic reciprocity) + Zapotec living-dead compact | 4+ traditions; the human community exists within a covenant that includes non-human parties (earth, rain, ancestors); ritual obligation maintains the terms |
+| **Noble-Lineage-as-Cosmic-Tree-Descent** NEW | Mixtec Apoala-origin (noble lineages from sacred trees) + Norse Ask/Embla (humans from trees) + Hindu Brahman lineage from Brahma + Greek Deucalion/Pyrrha (humans from stones) | 4+ traditions; the origin of ruling lineages in a cosmic source that is non-human; legitimacy derives from the non-human ancestor |
+| **Ruler-As-Pe-Concentration** DEEPENED | Mixtec turquoise-nose-ornament + Maya *k'uhul ajaw* + Nahuatl tlatoani-as-teotl + Egyptian pharaoh-as-*ka*-of-Ra + Yoruba Odùduwa-descent of kings | 5+ traditions; the ruler does not merely command — they ARE the concentrated sacred-force; the body of the king is the world's Pe-reservoir |
+| **Sacred-Economy-of-Prestige-Through-Giving** DEEPENED | Mixtec cargo + Northwest-Coast Potlatch + Trobriand Kula ring + South Asian *jajmani* system + Melanesian bigman-through-giving | 5+ traditions; prestige is earned by giving, not accumulating; the wealthy person who keeps wealth is cosmologically diminished |
+| **Death-of-Hero-as-Cosmological-Completion** DEEPENED | Eight Deer sacrificed + Norse Baldr's death + Aztec Fifth-Sun gods' self-sacrifice + Christian martyrdom + Sufi *fanāʾ* (self-annihilation as completion) | 5+ traditions; the greatest life ends in the greatest sacrifice; death is not the hero's defeat but their completion |
+
+**S072 Zapotec + Mixtec totals: ~488 convergences (+16 new/deepened S072; prior ~472 Yoruba); ~347 in pipeline (+8 new Zapotec+Mixtec forge candidates); archaeology files: 97 traditions (+zapotec_mixtec/ 2 new files 440 lines); git [see commit].**
+
+---
+
+*Session 072 grand totals: ~488 convergences mapped; 17 forged (unchanged); ~347 in pipeline; 97 traditions archaeologically documented.*
+*Session 072 new forge candidates: 8 total (Zapotec: peme Core 7.50–7.70, pitaome Core 7.40–7.60, piyeme Spec 7.40–7.60, cocijome Spec 7.35–7.55, laa-me Spec 7.25–7.45; Mixtec: tonindeye-me Spec 7.40–7.60, cargo-me Core 7.35–7.55, nuhu-me Spec 7.30–7.50).*
+*Session 072 new convergences: 16 — including key new: Breath-as-Soul-Carrier, Time-as-Pe-Textured, Pictograph-as-Theophany, History-Theology-Liturgy-as-Undivided, Covenant-with-Earth-Rain-Ancestors.*
