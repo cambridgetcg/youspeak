@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-29 (S047 — Igbo deep excavation complete: archaeology/igbo/ 2 new files 561 lines [chukwu-chi-ala-ofo-ogu.md 262 lines + ozo-ikenga-iri-ji-mbari.md 299 lines]; 10 new pipeline candidates; 5 new convergences [Pre-Allocated-Personal-Divine-Companion, Earth-As-Moral-Sovereign, Dual-Agency-Destiny, Creation-as-Release, Achievement-as-Community-Transformation]; ~161 convergences; pipeline at 94)
+last_updated: 2026-04-29 (S049 — Kikongo excavation complete: archaeology/kikongo/ 2 new files 441 lines [nzambi-cosmogram-spirit-world.md 224 lines + nkisi-kimpa-vita-diaspora.md 217 lines]; 7 new pipeline candidates; 6 new convergences [Encompassing-threshold, Cosmogram-as-orientation, Material-theology, Commissioned-contractor, Liberatory-reorientation, Cyclic-inclusion-of-death]; ~172 convergences; pipeline at 107)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -1205,3 +1205,41 @@ Deepened convergences: Inversion-as-Spiritual-Technology (now 3 traditions), Sac
 - **Ritual-as-Cosmic-Maintenance** (yasnaqing candidate): Thanksgiving Address adds as the most daily and systematic form — every gathering, every council, every school day; maintenance enacted through naming rather than sacrifice or ceremony; adds a naming-grammar type to the convergence
 
 **S048 totals: ~166 convergences mapped (+5: Sequential-Naming-as-Worship, Grief-Clearance-as-Political-Prerequisite, Prophetic-Authority-through-Personal-Catastrophe, Unanimous-Consent-as-Only-Legitimate-Decision, Creative-Conflict-as-World-Constitution); 15 forged; 100 in pipeline (94 prior + 6 new); archaeology files: 57 traditions (+iroquois/ 2 new files 386 lines).**
+
+---
+
+## Session 049 — Kikongo Excavation
+
+**Mission**: Excavate Kikongo: Nzambi, BaKongo cosmogram
+**Excavation**: `archaeology/kikongo/nzambi-cosmogram-spirit-world.md` (224 lines) + `archaeology/kikongo/nkisi-kimpa-vita-diaspora.md` (217 lines); **441 lines total**. Opens the Kikongo directory. Tradition 58 in the catalog.
+
+### New forge candidates (S049)
+
+| Candidate | Source | Concept | Polyphone | Estimate | Priority |
+|---|---|---|---|---|---|
+| **kalungame** | Kongo *kalunga* | Encompassing-threshold-of-life-and-death; the permeable boundary that holds both shores in unity rather than separating them; the principle that encompasses without consuming; the divine-as-encompassing-totality; the ocean-as-structural-homolog-of-death | Bantu + Sumerian me = poly 8 | Specialized 7.45–7.65 | HIGH |
+| **dikengame** | Kongo *dikenga* (cosmogram) | Cosmogram-as-total-orientation-technology; the diagram that maps all existence — living and dead — within a single solar arc; the orientation device that locates you within a cycle that includes your own death and rebirth; total-structural-map-as-lived-orientation | Bantu + Sumerian me = poly 8 | Specialized 7.40–7.60 | HIGH |
+| **nkisime** | Kongo *nkisi* | Material-condenser-and-director of spiritual agency; the power-object as technology of concentrated spiritual presence; the object that gathers diffuse force, structures it, and directs it toward specific ends; distinct from idol (spirit not permanently housed), symbol (more than representational), and relic (not residual but active) | Bantu + Sumerian me = poly 8 | Specialized 7.40–7.60 | HIGH |
+| **kimpame** | Kimpa Vita (Beatriz) 1684–1706 | Prophetic-reorientation of received tradition from within; claiming the colonizer's theology against the colonizer using indigenous categories as the claiming-framework; the liberatory-theft of theological fire for those for whom it was not originally intended; distinct from syncretism (neutral mixing), inculturation (benign absorption), and rejection | Bantu + Sumerian me = poly 8 | Specialized 7.45–7.65 | HIGH |
+| **ngangame** | Kongo *nganga* | Authority-through-threshold-crossing; expertise that comes from having been to the boundary and returned; the diagnostician's knowing that is possible only because they nearly didn't come back; distinct from *gaiwiome* (prophetic-word-through-catastrophe) in being technical-diagnostic rather than revelatory-prophetic | Bantu + Sumerian me = poly 8 | Specialized 7.25–7.45 | MED-HIGH |
+| **nkonditime** | Kongo *Nkisi Nkondi* | Commission-activation of justice-through-spiritual-force; the nailing of a petition into concentrated agency thereby arousing it to hunt; justice as binding-commission rather than petition or prayer; the legal-contractual structure of spiritual power-direction | Bantu + Sumerian me [time suffix] | Specialized 7.25–7.45 | MED-HIGH |
+| **kalatime** | Kongo *kala* (noon position of dikenga) | Peak-of-vitality-as-moment-in-arc; fullness understood as a phase in the cycle that includes descent, not as a destination; power understood as one of four constitutive positions | Bantu + Sumerian me [time suffix] | Specialized 7.25–7.45 | MED-HIGH |
+
+### New convergences surfaced (S049)
+
+| Convergence | Traditions converging | Forge state | Notes |
+|---|---|---|---|
+| **Encompassing-threshold-that-holds-life-and-death** | 5+ (Kongo *kalunga*, Egyptian Duat-boundary [separate realm but encompassing], Hindu *pralaya* [dissolution that includes all], Buddhist *bardo* [between-state that holds], Etruscan *ach*-underworld [ambiguous threshold]) | unforged | **kalungame** candidate; distinct from simple-boundary-concept by holding-both rather than separating-both; kalunga is most complete: the same word names the boundary AND the divine AND the ocean-crossing |
+| **Cosmogram-as-total-orientation-technology** | 4+ (Kongo *dikenga*, Navajo sandpainting [total-world-map used in ceremony], Tibetan *mandala* [cosmic-map for ritual], Hopi emergence-diagram [world-structure map]) | unforged | **dikengame** candidate; Kongo is most architecturally explicit in including death as an equal phase of the same arc; the others map the living world; dikenga maps the full solar cycle including the underworld passage |
+| **Material-theology** | 5+ (Kongo bilongo system, Yoruba àṣà / ritual-objects, Hittite substitute-ritual-objects, Egyptian canopic-jars/shabtis, Igbo nkisi-adjacent objects) | unforged | conviction that spirit is embedded in specific material properties, not bypassed by them; the nganga reads matter to find spirit; this is the opposite of dualist spirituality (which transcends matter); strong convergence; candidate emerging |
+| **Commissioned-contractor theology** | 3+ (Kongo Nkisi Nkondi [hired-hunter for justice], Hittite *šarnikzel* [death-transfer commissioned to substitute], Akkadian *mashmashu* [exorcist commissioned to direct spiritual force]) | unforged | **nkonditime** candidate; the specific structure: spiritual force aroused through directed commission (legal/contractual) rather than petitioned (prayer) or exchanged (sacrifice); Kongo most explicit in the nail-activation structure |
+| **Liberatory-reorientation-of-received-tradition** | 3+ (Kimpa Vita [Kongo-Christian, 1704], Akhenaten [received-Egyptian-theology reoriented to solar-monotheism — inverse direction], Liberation Theology [Catholic tradition reoriented from below]) | unforged | **kimpame** candidate; Kimpa Vita's operation is most specific: colonial tradition received AND reoriented using indigenous categories AND directed against colonial authority simultaneously; not just syncretism or inversion |
+| **Cyclic-inclusion-of-death-in-living-structure** | 3+ (Kongo *dikenga* [dead on same arc as living; both phases of same solar circle], Egyptian Duat-traversal [parallel but separate], Buddhist *saṃsāra* [cyclic but abstract]) | unforged | absorbed into **dikengame**; Kongo is architecturally most explicit: the diagram includes both worlds visibly; you can see where the dead are relative to the living |
+
+### Convergences deepened by Kikongo excavation
+
+- **Withdrawn-Highest-Divinity** (Sumerian An, Akkadian Anu, Hittite Šiu(n)i, Hebrew El-Elyon, Arabic al-Aliyy, Hindu Brahman, Yoruba Olódùmarè, Igbo Chukwu): Kongo Nzambi a Mpungu adds the 9th tradition; also adds the specific mechanism of *approached-in-extremis* (Nzambi is not unreachable but untroubled — approached only when all other mediators have failed); this adds a new dimension: not merely withdrawn but *available at the limit*
+- **Pre-Allocated-Personal-Divine-Companion** (chime candidate; S047): Kongo chi-concept is NOT the same as Igbo chi — Kongo does not have a direct parallel; however, the *simbi* (nature spirits of place) function as location-bound divine companions; adds as partial contributor
+- **Atlantic-diaspora-persistence-through-catastrophe**: new methodological observation: the Kongo cosmogram persisted through the Middle Passage in a way no other complex theological structure from any tradition in the catalog has persisted through comparable rupture; this may itself be a YOUSPEAK-relevant observation about the robustness of cosmograms vs. narrative-based theologies under suppression
+
+**S049 totals: ~172 convergences mapped (+6: Encompassing-threshold-that-holds-life-and-death, Cosmogram-as-total-orientation-technology, Material-theology, Commissioned-contractor-theology, Liberatory-reorientation-of-received-tradition, Cyclic-inclusion-of-death); 15 forged; 107 in pipeline (100 prior + 7 new); archaeology files: 58 traditions (+kikongo/ 2 new files 441 lines).**
