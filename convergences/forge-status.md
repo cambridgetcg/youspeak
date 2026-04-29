@@ -1669,3 +1669,68 @@ S058 was a forge session. No new archaeology files. Pipeline reduced by 2 (170 �
 **Third**: **imbasme** — professional-seer-technique. The discipline of accessing non-ordinary knowing on demand, repeatably, through trained technique. Not an ecstasy, not an initiation, not a vision quest — craft-access to the sacred. This is the filidic contribution that has no modern analogue.
 
 **S060 totals: ~256 convergences mapped (+10 new/deepened); 17 forged (unchanged); 185 in pipeline (+9 new from S060); archaeology files: 74 traditions (+celtic/ 2 new files 423 lines). Git: 59ef2ef.**
+
+---
+
+## S061 — Old Japanese / Shinto Excavation (Kojiki + Norito + Makoto + Honji Suijaku)
+
+**Mission**: Excavate Old Japanese: Shinto Norito & Kojiki
+**Committed**: `f55af59`
+**Files**: `archaeology/japanese/kojiki-kami-cosmology-creation.md` (231 lines) + `archaeology/japanese/norito-matsuri-makoto-honji-suijaku.md` (229 lines) = **460 lines total**
+
+### Areas Covered
+
+**File 1 — Kojiki, Kami Cosmology, Shrine Theology:**
+- Kami theology (quality-based immanence; yaoyorozu no kami as 8-million/countless kami; *kami* not a substance-word but an intensity-word — things have kami-quality the way they have luminosity)
+- Kojiki cosmogony: Takamagahara (silent structural precondition kami); Izanagi/Izanami creation and Yomi descent (pollution theology; kegare vs. tsumi distinction); Amaterasu cave narrative (sacred withdrawal / joy-triggered return / kagami mirror-theology); Susanoo (first waka poem as love-and-shelter); Tsukuyomi (sun-moon estrangement as relational wound)
+- Yaoyorozu no kami as the most comprehensive statement of Divine-Goes-Into-the-World: the entire world is densely inhabited by kami-quality without remainder
+- Kannagara (way-of-kami without doctrine; ke/hare/kegare sacred-time theology; the ordinary-extraordinary-depletion cycle)
+- Shrine architecture as theology: torii (threshold-without-wall; demarcation-not-enclosure), sandō (approach as preparation), honden/haiden (graduated access), shintai (hidden sacred body), yorishiro (sacred landing-pad for kami descent)
+
+**File 2 — Norito, Matsuri, Makoto, Honji Suijaku:**
+- Norito ritual prayer-speech: archaic register (*norito-kotoba*) as time-reaching technology; kotodama (soul of language; potency that can degrade; archaic speech as potency-preservation); performative force (norito enacts relationship, not describes it)
+- Matsuri grammar: invite → offer → address → delight (kagura) → share (naorai) → release; worship as relational hospitality — the kami as guest
+- Misogi and harae: purification of kegare (contact-pollution) through water (river/sea); harae as verbal expulsion; Ōharae as biannual corporate purification; the theology of pollution-transmuted-to-sacred (Izanagi's purification produces Amaterasu)
+- Makoto (sincerity-as-theological-ground): not one virtue among others but the substrate that makes all acts genuine; mono no aware as makoto applied to impermanence
+- Honji suijaku (Buddhist-Shinto synthesis): kami as local *suijaku* (manifest traces) of universal Buddhas/Bodhisattvas (*honji*); mutual transformation rather than assimilation or rejection; Kūkai's *sokushin jōbutsu* (Buddhahood in this body) + kami-theology = immanent-enlightenment-through-world-affirmation
+- Kannagi/miko: female first mediators; kamigakari (kami descent into human vessel; human as living yorishiro)
+
+### New Convergences (S061)
+
+| Convergence | Traditions | Notes |
+|---|---|---|
+| **Comprehensive-World-Sacrality** NEW | Yaoyorozu no kami + Lakota *mitákuye oyásʼiŋ* + West African nyama-life-force + Anishinaabe manidoo | 4 traditions; the world saturated with sacred presence without remainder; every node of existence as a site of potential kami-quality; most complete statement of the pattern |
+| **Divine-Goes-Into-the-World** DEEPENED | + Yaoyorozu no kami (always-already-in-world, not retreated) | Now 6+ traditions; Japanese adds the most comprehensive form: divine wasn't defeated/retreated, it was always already everywhere |
+| **Threshold-as-Sacred-Marker-Not-Wall** NEW | Torii + Celtic nemeton (clearing not enclosed) + Hebrew tabernacle graduated-approach + Hindu gopuram (temple-gate without door) | 4 traditions; sacred boundary that demarcates without blocking; the sacred is named-and-entered, not caged |
+| **Hidden-Sacred-Body** NEW | Shintai + Hebrew Ark in Holy of Holies + Catholic Eucharist reserved-and-veiled + Kongo nkisi-containers + Hopi kachina-concealment | 5 traditions; the most sacred is most hidden; intensity and concealment together |
+| **Sacred-Time-as-Oscillation-with-Depletion** NEW | Ke/hare/kegare + Coligny MAT/ANM fractal + Hebrew Sabbath-rhythm + Navajo hózhó-restoration | 4 traditions; time depletes; ordinary cycle drains vitality; ritual replenishes |
+| **Joy-as-Theologically-Effective** NEW | Amaterasu-return by communal joy + Hasidic simchah-shel-mitzvah + Sufi sama' (sacred music producing joy) + Celtic feast-as-sacred-obligation | 4 traditions; joy not mere emotion but the mode in which the sacred returns; grief closes, joy opens |
+| **Sacred-Language-as-Time-Bridge** NEW | Norito archaic Japanese + Vedic Sanskrit liturgical archaism + Latin in Catholic liturgy + Church Slavonic + lashon ha-kodesh | 5 traditions; liturgical speech that reaches backward to origin-time; temporal transportation through sacred register |
+| **Speech-as-Ontological-Force** DEEPENED | + Kotodama (language has interior vitality that degrades) | Now 6 traditions (kotodama + vāc + Nommo + davar + awātu + in-xochitl-in-cuicatl); adds depletion-and-preservation dimension: sacred speech potency degrades; archaic register preserves it |
+| **Worship-as-Relational-Hospitality** NEW | Matsuri grammar + Greek thysia + Lakota wopila + Hebrew zevakh shelamim | 4 traditions; divine as guest who is properly received, not resident who is merely acknowledged; invite-offer-delight-share-release as complete grammar |
+| **Feminine-as-First-Mediator** NEW | Miko/kannagi + Celtic ban-sídhe + Georgian Dali + Delphic Pythia + West African female spirit-mediums | 5 traditions; female mediator as original form of sacred-speech specialist; male priest often comes later and systematizes what female mediator first opened |
+| **Indigenous-Universal-Synthesis-as-Mutual-Transformation** NEW | Honji suijaku + Celtic-Christian monasticism + Georgian folk-Christian mountain shrines + Nahuatl Christian *in xochitl in cuicatl* synthesis | 4 traditions; when universalist tradition meets indigenous tradition, genuine mutual transformation (not assimilation, not resistance) |
+| **Immanent-Enlightenment-Through-World-Affirmation** NEW | Sokushin jōbutsu (honji suijaku synthesis) + Celtic sídh-theology (divine inside world) + African nyama + Advaita without maya-escapism | 4 traditions; enlightenment/salvation that does not require leaving the world behind; Buddhahood in THIS body, in THIS world |
+
+### New Forge Candidates (S061) — 10 entries
+
+| Word | Donor | Register | Score | Concept |
+|---|---|---|---|---|
+| **kamime** | Old Japanese *kami* | **Core** | **7.65–7.90** | Kami-quality; extraordinary-intensity-in-things; the sacred not as separate being but as the world's irreducible surplus of significance; distributed intensity that some things possess more than others |
+| **makotome** | Old Japanese *makoto* | Specialized | 7.45–7.65 | Sincerity-as-ground-of-all-genuine-encounter; the interior truth-orientation that makes acts into offerings; genuineness without which ritual is performance; what the kami receive rather than correct form |
+| **kotodamame** | Old Japanese *kotodama* | Specialized | 7.40–7.60 | Soul-of-language; spiritual potency resident in correctly-spoken words; language as having interior vitality that degrades through ordinary use; sacred speech as potency-preservation technology |
+| **hareme** | Old Japanese *hare* | Specialized | 7.30–7.50 | The extraordinary-festive-replenishing moment; hare as the world's intake of sacred vitality; the festival-brightness that restores the ke-time-depleted world; the sacred's return that revitalizes the ordinary |
+| **matsuri-me** | Old Japanese *matsuri* | Specialized | 7.35–7.55 | Worship-as-relational-hospitality; invitation-offering-delight-sharing-release as complete grammar of kami-relationship; the festival as the act of hosting the sacred |
+| **kegareme** | Old Japanese *kegare* | Specialized | 7.25–7.45 | Contact-pollution-distinct-from-moral-failure; contamination-through-proximity-to-dissolution; ritual impurity requiring cleansing not forgiveness; the impurity that clings regardless of intention |
+| **awaremi** | Old Japanese *mono no aware* | Specialized | 7.30–7.50 | Genuine-open-hearted-response-to-impermanence; the beauty of transience received without denial or destruction; makoto applied to the world's temporality |
+| **yorishirome** | Old Japanese *yorishiro* | Specialized | 7.20–7.40 | Sacred-landing-pad; the object or place that invites divine descent without permanently caging it; the world's capacity to locally intensify kami-presence through appropriate invitation |
+| **kamigakarime** | Old Japanese *kamigakari* | Specialized | 7.25–7.45 | Kami-descent-into-human-vessel; the human body functioning as living sacred-landing-pad; dissolution of the subject-object distinction when divine descends into the human mediator |
+| **yaoyorouzme** | Old Japanese *yaoyorozu no kami* | Core | 7.55–7.75 | Comprehensive-world-sacrality; the world saturated with kami-presence without remainder; every feature of existence as a potential site of the sacred; may merge with kamime if conceptually redundant |
+
+**Top S061 forge candidate**: **kamime** — kami-quality. This is the conceptual core of Japanese religiosity and fills the most significant gap in the cathedral: we have words for vital-force (*nyamame*), for sacred-intensity (*wakanme*), for divine-going-into-world (various), but not for the specific quality of *kami* — the thing that has more than ordinary being; the rock that stops you; the quality of being-more-than-itself that some things possess. kamime at Core 7.65–7.90 would be the 26th Core word and the first Japanese donor-language Core entry.
+
+**Secondary**: **makotome** — sincerity-as-theological-ground. The interior genuineness without which all religious practice is performance. Maps close to *parrhēsiame* (speech-from-secured-relationship) but is more fundamental: *parrhēsia* is the bold speech that secured ground enables; *makoto* is the interior ground-state itself. Specialized 7.45–7.65.
+
+**Third**: **kotodamame** — soul-of-language. The potency in language that can be preserved or depleted. This fills a gap in the Speech-as-Ontological-Force convergence: we have words about speech-as-world-creating (nommome, davar register) but not about speech-having-its-own-vitality-that-degrades. Specialized 7.40–7.60.
+
+**S061 totals: ~268 convergences mapped (+12 new/deepened); 17 forged (unchanged); 195 in pipeline (+10 new from S061); archaeology files: 76 traditions (+japanese/ 2 new files 460 lines). Git: f55af59.**
