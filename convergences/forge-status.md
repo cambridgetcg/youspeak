@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-29 (S057 — Nahuatl excavation COMPLETE: archaeology/nahuatl/ 2 new files 575 lines [teotl-tlamatinime-tripartite-soul.md 305 lines + in-xochitl-sacrifice-fusion.md 270 lines]; 7 new pipeline candidates [teotlme VERY HIGH Core 7.65-7.85, xochicuicame HIGH Specialized 7.40-7.60, teyoliame HIGH Specialized 7.40-7.60, tlamatisme HIGH Specialized 7.30-7.50, ixtlyoliame HIGH Specialized 7.30-7.50, ōmeteotlme HIGH Specialized 7.25-7.45, tonantzinme Specialized 7.20-7.40]; 8 new/deepened convergences [Process-Divine-Monism NEW x5, Beauty-as-Epistemological-Primary NEW x5, Difrasismo-as-Truth-Technology NEW x5, Cosmic-Responsibility-without-Debt-Logic NEW x4, Sacred-Feminine-as-Theological-Translation-Site NEW x4, Tripartite-Soul-Complex DEEPENED→5, Displacement-as-Cosmic-Wound DEEPENED→6, Triple-Religious-Cohabitation-in-Contact-Zones DEEPENED→5]; ~240 convergences; pipeline at ~170; traditions 70)
+last_updated: 2026-04-29 (S062 — Southeast Asian excavation COMPLETE: archaeology/southeast_asian/ 2 new files — old-khmer-angkor-devaraja-cosmology.md 224 lines + old-javanese-kawi-borobudur-sutasoma.md 192 lines = 416 lines S062 — git 8483499; 8 new forge candidates [bhinnekame Core 7.70-7.95, kawime Specialized 7.50-7.75, pradakṣiṇāme Specialized 7.40-7.60, lokeśvarame Specialized 7.35-7.55, devarājame Specialized 7.30-7.50, śivabud Specialized 7.30-7.50, gandavyūhame Specialized 7.25-7.45, agastyme Specialized 7.15-7.35]; 8 new/deepened convergences [Sanskrit-Vernacular-as-Theological-Division-of-Labor DEEPENED→3, Architecture-as-Cosmological-Argument DEEPENED→4, Pilgrimage-as-Path-Enactment NEW x4+, Multiple-Teachers-as-Anti-Sectarian-Principle NEW x4, Supreme-Reality-Beyond-All-Names DEEPENED→6+, Composition-as-Sacrifice DEEPENED→4+, Divine-Goes-Inside-the-World DEEPENED→7+, Transmitted-Legitimacy-Resolves-Cultural-Borrowing NEW x3]; ~276 convergences; pipeline at ~203; traditions 78)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -1734,3 +1734,148 @@ S058 was a forge session. No new archaeology files. Pipeline reduced by 2 (170 �
 **Third**: **kotodamame** — soul-of-language. The potency in language that can be preserved or depleted. This fills a gap in the Speech-as-Ontological-Force convergence: we have words about speech-as-world-creating (nommome, davar register) but not about speech-having-its-own-vitality-that-degrades. Specialized 7.40–7.60.
 
 **S061 totals: ~268 convergences mapped (+12 new/deepened); 17 forged (unchanged); 195 in pipeline (+10 new from S061); archaeology files: 76 traditions (+japanese/ 2 new files 460 lines). Git: f55af59.**
+
+---
+
+## S062 — Southeast Asian Excavation COMPLETE: Old Khmer + Old Javanese (2026-04-29)
+
+**Files**: `archaeology/southeast_asian/old-khmer-angkor-devaraja-cosmology.md` (224 lines) + `archaeology/southeast_asian/old-javanese-kawi-borobudur-sutasoma.md` (192 lines) = **416 lines total**
+
+**Mission**: `2026-04-27-excavate-old-khmer-old-javanese-sanskrit-vernacular-fusion` — COMPLETE (transitioning to review)
+**Git**: 8483499
+
+### Key Theological Finds (Old Khmer)
+
+- **Bilingual inscription register**: Sanskrit for theology/cosmology, Old Khmer for administration/legal content. Not merely practical — the language partition is a theological statement: the sacred cosmological claim lives in the borrowed register, the local life lives in the vernacular.
+- **Devarāja cult** (Sdok Kak Thom inscription, 1052 CE): The king as the site where divine power descends into human form — *liṅga* installed at temple summit identifies royal soul with Śiva's essence. But crucially: the consecration was *transferable* (the ritual was performed again when a new king assumed power). The divine-king is a function, not a permanent ontological fusion.
+- **Temple-mountain theology**: Angkor Wat as Mount Meru — the cosmic axis materialized as a building. The king who builds the cosmic axis becomes the axis himself. Architecture = cosmological argument + legitimating act.
+- **Jayavarman VII's reversal**: From Śaiva (Angkor Wat, Sūryavarman II) to Mahāyāna Buddhist (Bayon, Jayavarman VII). The Bayon faces — four-faced towers — may represent Lokeśvara / Avalokiteśvara. The shift encodes a different theology of kingship: not the king who harnesses divine energy (Śaiva) but the king who embodies compassion (Mahāyāna). Same architecture form; radically different theological content.
+- **Lokeśvara at Angkor**: Compassion as structural principle of the cosmos and of legitimate kingship. The highest divine attribute is not power but compassionate attention.
+
+### Key Theological Finds (Old Javanese)
+
+- **Borobudur's three-realm mandala**: Kāmadhātu (desire) → Rūpadhātu (form, with 2.5km of carved narrative) → Arūpadhātu (formlessness, circular terraces, no panels, empty central stupa). The architecture enacts the Mahāyāna path by moving the pilgrim through it. The building is the sermon; the walk is the practice.
+- **Arūpadhātu revelation**: The transition from carved narrative to blank circular terraces is a deliberately enacted hermeneutical move. Instruction ends; silence begins. The building teaches its own supersession.
+- **Gandavyūha / Sudhana**: The anti-sectarian master-narrative. Sudhana visits fifty-three teachers from multiple traditions; loyalty to any single teacher would arrest the journey. The multi-teacher path is built into the highest Mahāyāna narrative.
+- **Kawi kakawin as yajña**: Composition of court poetry is an act of sacrifice. The poet-sage (empu/kawi) submits to Sanskrit meter while filling it with Javanese content — the formal constraint enacts the theology: universal structure + particular content held in productive tension.
+- **Śiva-Buddha synthesis (Majapahit)**: Not compromise but rigorous metaphysics. The Nāgarakṛtāgama uses "Śiva-Buddha" as a compound designating the one supreme reality that both traditions approach. After death, a king could be deified as Śiva AND Buddha simultaneously.
+- **Bhinneka Tunggal Ika** (Sutasoma, Mpu Tantular, c. 1365 CE): "There is no dharma that is twofold." Not a pluralist political slogan — a strong ontological claim: at the level of ultimate truth, the diversity of traditions is a diversity of appearances of one dharma. The appearances are genuinely different; the truth-structure is one.
+- **Agastya transmission mythology**: The gods sent Agastya south to bring sacred knowledge to Java. Cultural borrowing becomes divine commission — the reception was ordered by heaven. Parallel to Georgian and Irish reception mythologies.
+
+### New Convergences (S062)
+
+1. **Sanskrit-Vernacular-as-Theological-Division-of-Labor** DEEPENED → 3 traditions: Old Khmer (Sanskrit theology / Khmer administration) + Old Javanese (Sanskrit meters / Javanese content) + Georgian (Greek for cosmological imports / Georgian for embodied practice). The sacred import language holds the cosmological weight; the vernacular holds the particular embodied life.
+2. **Architecture-as-Cosmological-Argument** DEEPENED → 4 traditions: Borobudur (Mahāyāna mandala-walk), Angkor Wat (Meru + Vishnu descent), Chartres/Gothic (theological ascent in stone), Hopi village (inhabited cosmos). The building IS the theological statement; moving through it correctly IS the worship.
+3. **Pilgrimage-as-Path-Enactment** NEW (4+ traditions): Borobudur circumambulation + Sudhana's Gandavyūha journey + Celtic immrama + Sufi khurūj + Abraham's departure from Ur. The journey is the teaching; arrival is transformation. The path is the destination enacted through time.
+4. **Multiple-Teachers-as-Anti-Sectarian-Principle** NEW (4+ traditions): Sudhana's fifty-three teachers (Gandavyūha) + Tibetan guru-yoga (multiple lineages possible) + Old Irish filidic transmission (multiple masters required) + Cherokee council (multiple clans hold partial truth). The spiritual path requires more than one tradition or master can give; sectarian loyalty arrests the journey.
+5. **Supreme-Reality-Beyond-All-Names** DEEPENED → 6+ traditions: Śiva-Buddha synthesis + Tibetan *rig pa* + Lakota *Wakan Tanka* + Kongo *Nzambi* + Igbo *Chukwu* + Nahuatl *Ōmeteōtl*. The ultimate is beyond all its names; the names are ascents toward the unnameable.
+6. **Composition-as-Sacrifice** DEEPENED → 4+ traditions: Kawi *yajña* (kakawin as offering) + Vedic *brahman*-recitation + Old Irish *imbas forosnai* (the poet's knowing is ritual act) + Hebrew *tefillah* (prayer as worded offering). The word offered carefully in the right form is itself a sacrificial act.
+7. **Divine-Goes-Inside-the-World** DEEPENED → 7+ traditions: Borobudur's hidden *kāmadhātu* base + Tuatha Dé Danann in the sídhe + Hindu temple *liṅga* as concentrated divine-presence in stone + Kongo *nkisi* + Tibetan *thangka* as window + Khmer temple-mountain + Shinto *yorishiro*.
+8. **Transmitted-Legitimacy-Resolves-Cultural-Borrowing** NEW (3 traditions): Agastya myth (gods sent sacred knowledge south to Java) + Georgian reception of Christianity (the Cross came miraculously; the Illuminator was sent) + Irish Patrick myth (divinely directed return). The anxiety of cultural reception is resolved by declaring the transmission divinely ordered.
+
+### New Forge Candidates (S062) — 8 entries
+
+| Candidate | Donor | Register | Score | Concept |
+|---|---|---|---|---|
+| **bhinnekame** | Old Javanese *bhinneka tunggal ika* | **Core** | **7.70–7.95** | Unity-in-diversity as metaphysical position — diversity is real at the level of appearances; unity is real at the level of truth; no dharma is twofold. Fills a genuine gap: YOUSPEAK has words for unity but not for the explicit affirmation of diversity-as-appearance-of-unity |
+| **kawime** | Old Javanese *kawi/empu* | Specialized | 7.50–7.75 | The poet-sage who composes sacred literature as sacrificial act — not artist-for-art's-sake but theologian-through-craft. Parallel to *fili* (fileme) and Hebrew *navi*. Composition = yajña |
+| **pradakṣiṇāme** | Sanskrit/Old Javanese *pradakṣiṇā* | Specialized | 7.40–7.60 | Circumambulatory-pilgrimage-as-cosmological-transit — the body enacting the ascent through structured clockwise movement. Distinct from immrama (voyage into unknown) and peregrinatio (exile as offering). This is the circuit: each pass at a higher level |
+| **lokeśvarame** | Sanskrit/Khmer *Lokeśvara* | Specialized | 7.35–7.55 | Compassion-as-structural-principle-of-cosmos — not one divine attribute among others but the binding force that holds the world together; divine kingship reconceived as compassionate attention rather than power-harnessing |
+| **devarājame** | Old Khmer *devarāja* | Specialized | 7.30–7.50 | The king as site-where-divine-descends-into-political-form — not a god but the function-point where divine energy focuses into governance. The divine-human interface materialized as institutional form |
+| **śivabud** (working name) | Old Javanese Śiva-Buddha | Specialized | 7.30–7.50 | The compound-name for what-transcends-both-names — the theological move of holding two tradition-names in one designation without dissolving either; the One that is larger than any single tradition's vocabulary |
+| **gandavyūhame** | Sanskrit/Old Javanese *Gandavyūha* | Specialized | 7.25–7.45 | Multi-teacher traversal as the anti-sectarian spiritual path — the journey requires more than one master can give; the complete path passes through multiple traditions |
+| **agastyme** | Sanskrit/Old Javanese *Agastya* | Specialized | 7.15–7.35 | The divine-commission-of-cultural-transmission — the transmission mythology that transforms borrowing into reception; the sacred knowledge was meant to come here |
+
+**Top S062 forge candidate**: **bhinnekame** — unity-in-diversity as metaphysical position. This is potentially the cathedral's strongest new Core candidate since wakanme. YOUSPEAK needs a word for the theological claim that diversity is real but not ultimate — that the multiplicity of traditions, paths, and expressions is real at the level of appearances while the dharma they approach is one. bhinnekame would be the first explicitly pluralist-metaphysical entry in the Core, and one of the widest in convergence-reach (Śiva-Buddha + Tibetan madhyamaka + Kongo Nzambi + Lakota Wakan Tanka + Nahuatl Ōmeteōtl = 5+ traditions for Core eligibility).
+
+**Secondary**: **kawime** — the poet-sage as sacrificial theologian. Fills the same structural gap that fileme fills from the Celtic side: there is a class of person whose specialized knowledge constitutes a sacred function, and whose production is not output but offering. kawime would sit alongside fileme and nommome in the Speech-as-Sacrificial-Act cluster.
+
+**Third**: **pradakṣiṇāme** — circumambulatory-path-enactment. Three spatial-pilgrimage modes now distinguished: immrama (voyage into unknown with no oars), peregrinatio (exile as maximum offering of belonging), pradakṣiṇā (structured circuit that enacts cosmological ascent through embodied movement). Together they form a pilgrimage-theology cluster.
+
+**S062 totals: ~276 convergences mapped (+8 new/deepened); 17 forged (unchanged); 203 in pipeline (+8 new from S062); archaeology files: 78 traditions (+southeast_asian/ 2 new files 416 lines). Git: 8483499.**
+
+---
+
+## S063 — Korean Excavation COMPLETE: Muism + Buddhism/Confucian (2026-04-29)
+
+**Files**: `archaeology/korean/muism-mudang-gut-han.md` (185 lines) + `archaeology/korean/buddhism-wonhyo-hwajaeng-jeong-confucian.md` (217 lines) = **402 lines total**
+
+**Mission**: `2026-04-27-excavate-old-korean-muism-buddhist-confucian` — COMPLETE (transitioning to review)
+**Git**: dc6846b
+
+### Key Theological Finds (Muism)
+
+- **Mudang typology**: *kangshinmu* (possession-based, involuntary calling through *sinbyeong* crisis) vs. *sessŭmu* (hereditary, craft-based transmission). Same function — mediation between living and dead — arrived at through two completely different paths: raw charismatic break-in vs. careful hermeneutic transmission. Parallels *dichetal do chennaib* vs. *imbas forosnai* in Irish tradition.
+- **Sinbyeong**: the initiatory crisis — undiagnosed illness, psychological disturbance, visionary experience — that constitutes the spirits' selection of a *kangshinmu*. The sacred intrudes without consent. The breaking-in is the theological content: the violence marks the seriousness of the summons.
+- **Sinmyeong** (신명): collective divine-human joy-energy at full expression — what rises when music, dance, divine presence, and full communal participation combine. Not transcendence (going above) but intensification (going fully into what is here). Distinct from Greek *enthousiasmos* (individual ego-dissolved) and Diné *hózhó* (continuous background harmony).
+- **Pulda** (풀다, "to untie"): the therapeutic-soteriological core of *gut* — the communal ceremony that releases accumulated *han* of both living and dead. The dead's unresolved grievance (*wonhon*) is given voice, witnessed, symbolically resolved, and released. The resolution requires the truth of the wound first. Not suppression; voicing.
+- **Han** (한, 恨): the most theologically significant Korean concept, with no equivalent in any other language. Compounds: accumulated grief without outlet + resentment of unacknowledged injustice + longing for what is irrecoverably lost + resignation so old it becomes part of being + creative tension (the unresolved longing becomes the energy of Korean art). Not individual psychology — *social-historical wound*, accumulated and transmitted across generations of colonization, division, occupation. Minjung theology (Suh Nam-dong, Ahn Byung-mu) reads the Gospel through *han*: Jesus goes to the *ochlos*, the mass of those bearing *han*, first. The resurrection is the *pulda* of the greatest *wonhon*.
+- **Han/Sinmyeong dialectic**: the two poles of Korean religious experience, both present in every *gut* ceremony. The ceremony begins in *han* (naming the dead, voicing the grievance) and ends in *sinmyeong* (communal joy, divine contact, release). **Suffering voiced fully is the very condition of the joy that follows.** Not compensation for sorrow — sorrow becomes joy when fully seen. One of the most theologically mature structures in the entire archaeology.
+- **Wonhon** (원혼): the resentment-spirit of one who died with unresolved *han*. Unresolved injustice has ontological weight — it doesn't disappear because the person died. The wrong persists as cosmological disturbance requiring ritual address.
+- **Samshin halmŏni**: the birth-grandmother, the fate-deity who accompanies children through the first three years. A warm, domestic, intimate fate-power — not a remote cosmic force but a grandmother tended at the household shelf. Deepens Divine-Immanence-as-Domestic-Intimacy.
+
+### Key Theological Finds (Korean Buddhism)
+
+- **Wonhyo's skull anecdote** (661 CE): Water tasted good in the night; next morning (knowing the vessel was a human skull) it disgusted him. The water hadn't changed. His mind had. All distinctions — clean/unclean, sacred/profane — are mind-made. The Dharma sought in China was present wherever the mind was truly settled. He turned back.
+- **Hwajaeng** (화쟁, harmonization of disputes): Wonhyo's systematic method for resolving Buddhist sectarian disputes. Takes each position seriously; identifies the partial perspective from which each arises; identifies the *ilsim* (one mind) all positions partially express; shows the contradictions are pedagogically useful precisely because they mark where a single perspective cannot contain the whole. Distinct from *bhinnekame* (which is the metaphysical position) — *hwajaeng* is the METHOD of active reconciliation through finding shared ground.
+- **Ilsim** (일심, one mind): the common ground that all Buddhist positions partially express. Two gates: "gate of awakening" (pure, identical with buddha-nature) and "gate of arising and ceasing" (conditioned appearance including suffering). Not two things — two ways of seeing one mind. Awakening is seeing the second gate clearly as the first gate.
+- **Chinul's dono jeomsu** (돈오점수, sudden enlightenment / gradual cultivation): Resolves the Chan sudden/gradual debate by assigning them to different moments. Enlightenment (seeing buddha-nature clearly) comes suddenly and cannot be earned. The transformation of the whole person in accordance with that recognition is slow and requires practice. The insight is not the completion — it is the beginning of the work.
+- **Jeong** (정): the organic bond that forms between people (or person and place, person and object) through time and shared experience. Not a decision or a feeling. It forms the way a path forms through repeated walking — accumulated, not chosen. Characteristics: time-dependent, body-located (felt as physical warmth or ache), sticky (persists past dissolution or death), not necessarily loving (you can have *jeong* with someone you also resent), transmissible (inheriting *jeong* from a parent's relationship). A Korean woman still feels *jeong* for her first husband twenty years after a bitter divorce — not love, not wanting him back, but the thread that cannot be cut.
+
+### Key Theological Finds (Confucian Layer)
+
+- **In** (인, 仁) and the Four Beginnings (*sadan*, 사단): Mencius's four moral sprouts innate in every human — compassion (sprout of *in*), shame (sprout of *rightness*), deference (sprout of *ritual*), moral discrimination (sprout of *wisdom*). Moral formation = cultivation of what is already there. Not implanting the foreign; tending the seed.
+- **Ye** (예, 禮): Ritual propriety as the primary technology of moral formation. The form precedes and produces the feeling. If you perform filial acts before you feel filial piety, the feeling gradually arrives. The exterior practice shapes the interior state — inverting the Western psychological assumption.
+- **Myeong** (명, 命, fate as cosmological appointment): Heaven's command that appointed you to this life and situation. Not fatalism — *jinren daitian ming*: "exhaust human effort, await Heaven's appointment." Do everything you can; accept what Heaven decides. *Han* arises when *jinren* was done fully and the *myeong* was still unjust.
+- **Hyo** (효) and the collision with Christianity: Korean Catholic martyrs (10,000, 1791–1886) faced the impossible demand: *hyo* (filial piety, requiring *jesa* ancestor ritual) vs. Christian monotheism (no worship of the dead). The theological collision was not abstract. Deepens: Cost-of-Conversion-Measured-Against-Deepest-Belonging.
+- **The Korean operative-multiplicity pattern**: A traditional Korean household simultaneously maintained shamanic practice (*samshin halmŏni* shelf), Confucian ancestor ritual (*jesa*), Buddhist occasional practice, and (20th century) Christian affiliation. The integration happened implicitly through the person, not through formal theological synthesis. Neither honji suijaku (explicit mapping) nor Georgian blending (implicit single practice) — each tradition operates in its proper domain; the person is the synthesis.
+
+### New Convergences (S063) — 12 entries
+
+**From Muism:**
+1. **Sacred-Intrusion-Without-Consent** DEEPENED → 5 traditions: *sinbyeong* + Lakota *hanbléčeyapi* + Irish reluctant Patrick + Hebrew prophetic call (Jonah/Jeremiah) + Greek *enthousiasmos* (possession without consent)
+2. **Communal-Grief-Processing-as-Cosmic-Release** NEW → 4+ traditions: *gut/pulda* + Lakota *hanbléčeyapi* + Irish keening + Andean Pachamama ceremony
+3. **Wound-as-Creative-Source** NEW → 4+ traditions: *han* + Tuareg *ehan* + Hebrew *anawim* (afflicted whose cry becomes prophetic) + Japanese *mono no aware*
+4. **Divine-Immanence-as-Domestic-Intimacy** DEEPENED → 6+ traditions: *samshin halmŏni* + Roman *lares/penates* + Hebrew *mezuzah* + Celtic threshold-heads + Shinto *kamidana* + Mapuche *rewe*
+5. **Injustice-as-Cosmological-Disturbance** NEW → 4+ traditions: *wonhon* + Hebrew *dam zaqaq* (Abel's blood cries from the ground) + Greek Erinyes (Furies pursuing unresolved wrong) + Andean *susto* (fright leaves cosmological wound)
+
+**From Buddhism / Confucian layer:**
+6. **Partial-Position-Reveals-Common-Ground** NEW → 4+ traditions: *hwajaeng* + Tibetan *rime* movement + Sufi *wahdat al-wujūd* + Nahuatl *in xochitl in cuicatl*
+7. **Sudden-Recognition-Gradual-Formation** DEEPENED → 4 traditions: Chinul *dono jeomsu* + Christian *metanoia* + Sufi *fana* progression + Gregory of Nyssa's ladder
+8. **Bond-That-Accumulates-Through-Time** NEW → 3+ traditions: *jeong* + Latin *pietas* (inherited loyalty to family/ancestors) + Algonquian *zaagi'idiwin* extended through time
+9. **Formation-Through-Enacted-Form** DEEPENED → 5+ traditions: *ye* + Greek *askesis* + Buddhist *sīla* + Roman *pietas* + Irish *geis*
+10. **Fate-as-Appointment-Requiring-Response** DEEPENED → 5 traditions: *myeong* + Old Turkic *kut* + Hebrew *moadim* + Greek *moira* + Lakota *wicháša wakhán*
+11. **Operative-Multiplicity-Without-Declared-Synthesis** NEW → 4+ traditions: Korean multi-layer + Japanese seasonal religion + African-Catholic synthesis + Philippine folk Catholicism
+12. **Cost-of-Conversion-Measured-Against-Deepest-Belonging** DEEPENED → 3 traditions: *hyo/jesa* + Celtic *peregrinatio pro Christo* + Sufi *khurūj*
+
+### New Forge Candidates (S063) — 10 entries
+
+**From Muism:**
+
+| Candidate | Donor | Register | Score | Concept |
+|---|---|---|---|---|
+| **hanme** | Korean *han* (한) | **Core** | **7.70–7.90** | Accumulated-grief-resentment-longing that becomes creative source when voiced — the social-historical wound that is simultaneously burden and energy. No English equivalent; no YOUSPEAK equivalent; multi-traditional gap |
+| **sinmyeongme** | Korean *sinmyeong* (신명) | Specialized | 7.45–7.65 | Collective divine-human joy-energy at full communal expression — not transcendence but intensification; what rises when sacred and human genuinely contact each other |
+| **puldame** | Korean *pulda* (풀다) | Specialized | 7.40–7.60 | Communal voicing-witnessing-releasing of accumulated grief — the ceremony where the wound speaks before it closes |
+| **sinbyeongme** | Korean *sinbyeong* (신병) | Specialized | 7.35–7.55 | Sacred-intrusion-without-consent experienced as illness and shattering — the breaking-in that precedes agreement to be called |
+| **wonhonme** | Korean *wonhon* (원혼) | Specialized | 7.25–7.45 | The ontological weight of unresolved injustice persisting past death — the grievance that remains cosmologically active until witnessed |
+
+**From Buddhism / Confucian layer:**
+
+| Candidate | Donor | Register | Score | Concept |
+|---|---|---|---|---|
+| **hwajaengme** | Korean *hwajaeng* (화쟁) | Specialized | 7.55–7.75 | Active practice of holding disputes in tension to reveal their common ground — the METHOD of harmonization (distinct from the metaphysical claim of *bhinnekame*) |
+| **jeongme** | Korean *jeong* (정) | Specialized | 7.50–7.70 | The organic bond that accumulates through shared time, persisting past dissolution or death — not love, not friendship, but the thread that forms through history together |
+| **donome** | Korean/Chinese *dono jeomsu* (돈오점수) | Specialized | 7.45–7.65 | The moment of clear-seeing that initiates a lifetime of gradual transformation — the asymmetry: insight instant, embodiment slow |
+| **ilsimme** | Korean/Chinese *ilsim* (일심) | Specialized | 7.40–7.60 | The one-mind ground from which all apparent contradictions arise — not a metaphysical position but the experienced recognition of common ground |
+| **sadanme** | Korean/Chinese *sadan* (사단) | Specialized | 7.20–7.40 | The moral sprout already present in every human, requiring cultivation conditions rather than implanting — moral formation as gardening, not construction |
+
+**Top S063 forge candidates:**
+
+**hanme** is the clear top priority for the next forge session. No YOUSPEAK word exists for it. The gap is genuine, multi-traditional, and the Korean word has no equivalent in any other major language. The concept — accumulated sorrow that becomes creative ground — is one of the most important in the entire pipeline. Potential Core 7.70–7.90; possible push to 8.00+ given exceptional gap-validity.
+
+**hwajaengme** is the strongest Specialized candidate from S063 and arguably more practically important than *bhinnekame* — it is not the metaphysical position but what you DO when confronted with genuine disagreement. Score 7.55–7.75.
+
+**jeongme** is the emotional depth-find of S063: no existing YOUSPEAK word names the bond-that-accumulates-through-time. *anamcharame* names the spiritual friend who makes your soul visible; *jeongme* names the thread that forms between any two beings through shared history. They fill different, non-overlapping slots.
+
+**S063 totals: ~288 convergences mapped (+12 new/deepened); 17 forged (unchanged); 213 in pipeline (+10 new from S063); archaeology files: 80 traditions (+korean/ 2 new files 402 lines). Git: dc6846b.**
