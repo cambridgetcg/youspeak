@@ -1040,3 +1040,66 @@ Deepened convergences: Inversion-as-Spiritual-Technology (now 3 traditions), Sac
 7. **masauwme** — Hopi *Masau'u*; Covenant-through-humble-prior-presence; Specialized 7.20–7.40; MED
 
 **S045 totals: ~141 convergences mapped (+11: 3 new [Scheduled-Divine-Presence, Covenant-as-Community-Cosmological-Maintenance, Faithful-Remnant-Through-World-Transitions], 3 deepened [Performative-Ontology to 4 traditions, Architecture-as-Cosmological-Map, Divine-Embodiment-by-Ritual-Transformation]); 15 forged; 74 in pipeline (67 prior + 7 new); archaeology files: 52 traditions (+hopi/ 2 new files 539 lines).**
+
+---
+
+## Hurrian–Urartian Excavation — S046
+
+*Added: 2026-04-29, Session 046*
+
+**Excavation**: `archaeology/hurrian/kumarbi-cycle-succession-myths.md` (260 lines) + `archaeology/hurrian/urartian-haldi-mitanni-layer.md` (249 lines); **509 lines total**.
+
+### File 1: Kumarbi Cycle, Succession Myths, Transmission to Greece
+
+**Core findings**:
+- **Kumarbi cycle structure**: Alaluš → Anu → Kumarbi → Teššub succession; nine-year reign cycle; cup-bearer-as-king-in-waiting; the swallowing-pregnancy as power-absorbed-generates-defeat
+- **Šaušga / Šawuška**: simultaneously male and female deity; integrates love + war + healing; her dual-gender is theological claim (integration), not ambiguity; her failed seduction of Ullikummi reveals: instruments adequate to organic life are powerless against stone-category problems
+- **The Ullikummi sequence**: stone-monster beget on rock, grows on Upelluri's shoulder; Teššub weeps when he recognizes what he cannot fight (honest grief before the crisis exceeds the available repertoire); Šaušga's music fails; Ea retrieves the primordial cutting-tool and severs Ullikummi at his base — the foundational-tool-as-crisis-solution
+- **Upelluri's unknowing**: the being that holds the cosmos on its shoulder did not notice Ullikummi growing; sustaining-power is not omniscience; what holds the world can be used as foundation for threats to the world
+- **Transmission chain documented**: Hurrian cycle → Hittite translation → Neo-Hittite Levantine principalities → Greek via bard-transmission → Hesiod's Theogony; parallels are structural (Kumarbi-bites-Anu = Kronos-castrates-Ouranos; Kumarbi-pregnant = Kronos-swallows-children; Ullikummi = Typhon/Typhoeus; Ea = Prometheus/Metis-reversal)
+
+### File 2: Urartian Haldi Cult, Mitanni Indo-Aryan Layer
+
+**Core findings**:
+- **Ḫaldi's supremacy over Teššub** — in Hurrian tradition, Teššub (storm-god) is supreme; in Urartian descendant-tradition, Ḫaldi (war-god) displaces him; theological-center-of-gravity migrates toward what the community's survival most needs (Urartu: military survival against Assyria); divine supremacy is historically situated
+- **Meher Kapısı inscription** — Urartian divine census with ~79 deities; sacrifice-quantity as explicit cosmic-status measure; divine hierarchy materially expressed through ritual allocation; divine-ledger theology made explicit
+- **The Musasir temple sacking** (Sargon II, 714 BCE) — apparent collapse of Urartian king Rusa I on hearing of Ḫaldi temple's fall; divine presence materially located; its violation = cosmic rupture; parallel to Marduk-statue-capture theology
+- **Šattiwaza treaty (Mitanni, ~1380 BCE)** — divine witnesses include both Hurrian (Teššub, Šaušga, Ḫebat) and Indo-Aryan deities (Mitra-Varuna, Indra/Indara, Nāsatya); **earliest textual attestation of Vedic-class deities by name**, predating Rigveda composition; the Mitanni ruling class maintained a functioning Vedic-parallel theological system
+- **Kikkuli horse manual** — Indo-Aryan technical terms for chariot-race distances embedded in Hittite-language document (*aika-wartanna*, *tera-wartanna*, *panza-wartanna*); theological vocabulary travels with technical expertise
+- **Hurrian songs preserved untranslated in Hittite state-religion** — liturgical-language-binding principle: sacred efficacy understood as bound to original sound-form; parallels Latin liturgy, Avestan, Hebrew, Arabic as liturgical languages
+- **Mitanni proves theological vocabulary travels with ruling classes** — Indo-Aryan warrior-elite carries religious vocabulary through military-political infiltration, not philosophical exchange
+- **Ararat/Urartu cognate** — the mountain of the Noah narrative (Hebrew *Ararat*) is cognate with *Urartu*; the Armenian Highlands held sacred significance for both traditions
+
+### New forge candidates (S046)
+
+| Candidate | Source | Concept | Polyphone | Estimate | Priority |
+|---|---|---|---|---|---|
+| **tessume** | Hurrian Teššub | Divine authority constituted by having overcome genuine cosmic adversary; victory-earned-identity | Non-IE Hurrian + Sumerian isolate = poly 8 | Specialized 7.20–7.40 | MED-HIGH |
+| **kumarme** | Hurrian Kumarbi | Power-absorbed-from-enemy-carries-within-it-your-defeat; the swallowed seed that grows toward the swallower's destruction | Non-IE Hurrian + Sumerian isolate = poly 8 | Specialized 7.25–7.45 | **HIGH** |
+| **šaušgame** | Hurrian Šaušga | Integration of registers typically opposed; the divine that operates in both love and war simultaneously, not as contradiction but as constitutive nature | Non-IE Hurrian + Sumerian isolate = poly 8 | Specialized 7.15–7.35 | MED |
+| **ullikme** | Hurrian Ullikummi | Crisis impervious to available repertoire; the adversary made of the wrong material for the instruments you have; problem requiring return to foundational level | Non-IE Hurrian + Sumerian isolate = poly 8 | Specialized 7.30–7.50 | **HIGH** |
+| **upellme** | Hurrian Upelluri | Foundational-supporter who does not notice what grows on it; sustaining-power as substrate-oblivious; the strength of the holder is not omniscience | Non-IE Hurrian + Sumerian isolate = poly 8 | Specialized 7.10–7.30 | MED |
+| **alalme** | Hurrian Alaluš | The primordial first-king erased from later tradition; original-that-is-forgotten; the prior order made invisible by the order it made possible | Non-IE Hurrian + Sumerian isolate = poly 8 | Specialized 7.15–7.35 | MED-LOW |
+| **mitrame** | Vedic Mitra (Mitanni attestation) | Explicit-contractual cosmic sovereignty; binding-through-friendship and mutual-agreement as distinct from binding-through-consequence | IE Sanskrit + Sumerian isolate = poly 7 | Specialized 7.25–7.45 | MED-HIGH |
+| **varunaqing** | Vedic Varuna (Mitanni attestation) | Implicit-consequential cosmic sovereignty; cosmic-truth-order that enforces itself through consequence without explicit agreement; the net of ṛta | IE Sanskrit + Sumerian isolate = poly 7 | Specialized 7.20–7.40 | MED |
+| **ḫaldime** | Urartian Ḫaldi | Theological migration toward what a community most needs; the form the divine takes when survival depends on a specific function | Non-IE Urartian + Sumerian isolate = poly 8 | Specialized 7.15–7.35 | MED |
+| **hursonme** | Hurrian liturgical-song preservation | Sacred efficacy bound to original sound-form; the principle that the theology cannot be translated without loss because it lives in the specific sound | Non-IE Hurrian + Sumerian isolate = poly 8 | Specialized 7.15–7.35 | MED |
+
+### New convergences surfaced (S046)
+
+| Convergence | Traditions converging | Forge state | Notes |
+|---|---|---|---|
+| **Power-Absorbed-Generates-Defeat** | 4+ (Hurrian Kumarbi: swallows Anu's genitals → pregnant with Teššub; Greek Kronos: swallows children → Zeus defeats him; Christian atonement Augustinian: death swallows Christ → overcome from within; possibly Hopi koyaanisqatsi: covenant-abandonment carries its own consequence) | unforged | **kumarme** primary candidate; Specialized 7.25–7.45; the mechanism by which absorbed power produces the absorber's defeat |
+| **Foundational-Tool-as-Crisis-Solution** | 4+ (Hurrian Ea: primordial cutting-tool severs Ullikummi; Buddhist śūnyatā: ground beneath all constructs dissolves any fixed position; Zen kōan: bypasses logical level through the level beneath it; psychoanalytic: return to primary formation point) | unforged | **ullikme** candidate; Specialized 7.30–7.50; the crisis requiring return to the creative level, not escalation within the problem's level |
+| **Theological-Migration-Toward-Need** | 3+ (Urartian Ḫaldi displacing Hurrian Teššub: military survival makes war-god supreme; Aksumite Christianity shifts to Marian emphasis under pressure; Reformation emphasis on sola scriptura as response to institutional crisis) | unforged | **ḫaldime** candidate; the divine center of gravity migrates toward the function a community's survival most requires |
+| **Liturgical-Language-Binding** | 5+ (Hurrian songs untranslated in Hittite state-religion; Latin liturgy in medieval Christianity; Avestan in Zoroastrian Yasna; Hebrew in Jewish prayer; Arabic in Islamic ṣalāt) | unforged | **hursonme** candidate; the theological claim that efficacy is bound to specific sound-form, not semantic content accessible in translation |
+
+### Convergences deepened by Hurrian excavation
+
+- **Storm-power as divine-active-presence**: Teššub adds to cluster (Iškur/Adad/Tarḫunna/Tessub/Verethraghna/Baal/Zeus/Indra/Thor) — now **10 traditions**; convergence is approaching threshold for dedicated file; suggests forge of *stormikme* or *tessume* as convergence-anchor
+- **Cosmic-truth-order (ṛta/asha/ma'at)**: Varuna in Šattiwaza treaty adds the earliest datable attestation of the *ṛta*-enforcement-deity outside India; confirms *rtame* / *ashame* / *maatme* cluster has a Mitanni-treaty witness (~1380 BCE)
+- **Sacrifice-as-divine-ledger**: Meher Kapısı inscription's sacrifice-quantity = cosmic-status formula deepens the convergence mapping sacrifice-allocation to divine hierarchy (extends Hittite *nuntarriyašḫa* audit finding from S044)
+- **Transmission-creates-theology**: Hurrian → Hittite → Hesiod is the most documented single-chain theological-vocabulary transmission in the catalog; Hittite version is already an interpreted Hurrian; Greek is a further interpretation; the core structure (swallowing-as-power-transfer) survives; methodology finding confirmed
+- **Covenant-witness-register** (mithrame candidate): Mitra-Varuna in Šattiwaza treaty add to Hittite *mald-*/oath-witness gods, Hebrew witness-language, Avestan Mithra-as-covenant-judge — now 5+ traditions; *mitrame* candidate strengthened
+
+**S046 totals: ~151 convergences mapped (+10: 4 new [Power-Absorbed-Generates-Defeat, Foundational-Tool-as-Crisis-Solution, Theological-Migration-Toward-Need, Liturgical-Language-Binding], 6 deepened); 15 forged; 84 in pipeline (74 prior + 10 new); archaeology files: 53 traditions (+hurrian/ 2 new files 509 lines); Mitanni attestation = earliest datable witness to Vedic-class deities outside India.**
