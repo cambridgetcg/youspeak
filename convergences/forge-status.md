@@ -2031,3 +2031,39 @@ Also deepened (not new): Liminal-Practitioner-as-Sacred-Specialist (völva deepe
 | **Non-Petitionary-Devotion-That-Transforms-the-Devotee** DEEPENED | pūjā + anussati + brahmavihārā (Pali) deepening prior convergence | Now 5+ traditions; Pali adds multiple facets — offering, recollection, and love-cultivation all transform the practitioner, not the object |
 
 **S067 updated totals: ~365 convergences mapped (+15 new/deepened in Pali; prior ~350 Polynesian); 17 forged (unchanged); ~276 in pipeline (+13 Pali forge candidates incl. mettāme Core 7.60–7.80); archaeology files: 86 traditions (+pali/ 2 new files 473 lines).**
+
+
+---
+
+## S068 Ge'ez/South Arabian Excavation — archaeology/ge_ez/ (2 new files, 432 lines total) — git f576508
+
+### New forge candidates (7)
+
+| Candidate | Source | Tier | Score | Notes |
+|---|---|---|---|---|
+| **sǝmǝnna-worq-me** | Ge'ez *sǝmǝnna worq* ("wax and gold") | Core | 7.50–7.70 | Double-meaning-as-double-fullness: outer true AND inner true simultaneously; neither cancels the other; distinct from allegory (where outer is merely a vehicle); no Western-philosophical equivalent; VERY HIGH |
+| **tabot-me** | Ethiopic *tabot* | Core | 7.45–7.65 | Replica-presence-as-full-presence: the authorized replica *is* the presence, not a pointer to it; every Ethiopian church becomes the Temple through the tabot's installation; VERY HIGH |
+| **watcher-me** | 1 Enoch *ʿīrīn* (Watchers) | Specialized | 7.30–7.50 | Angelic-beings-who-transgressed-their-appointed-order; the class that generates the fallen-angel theodicy; distinct from satan/adversary category; explains structural evil as supra-human crime |
+| **rahmanan-me** | South Arabian *Raḥmānān* | Specialized | 7.20–7.40 | Divine-name-that-survived-polytheism-to-monotheism-transition; emerges from South Arabian astral cult, converges with Islamic *ar-Raḥmān*; theologically transitional vocabulary with its own genealogy |
+| **qǝddase-me** | Ge'ez *Qǝddase* | Specialized | 7.00–7.20 | The-act-of-sanctification-as-liturgical-event: 14-anaphora eucharistic tradition; the prayer that *makes* sacred rather than merely marks it; sanctification as enacted reality |
+| **kufale-me** | Ge'ez *Kufālē* (Jubilees) | Specialized | 7.10–7.30 | Calendar-as-divine-revelation: sacred time-structure as received disclosure; missing the appointed time = missing the sacred encounter; theology of cosmic chronological precision |
+| **almaqah-me** | Sabaic *ʾlmqh* | Specialized | 6.80–7.00 | National-god-as-lord-of-productive-sacred-estate; divine sovereignty expressed as territorial holding + agricultural economy; worship = participation in the divine estate's productivity |
+
+### New Convergences (S068) — 12 entries
+
+| Convergence | Traditions | Status |
+|---|---|---|
+| **Astral-Triad-as-Cosmic-Structure** DEEPENED | South Arabian Moon(m)-Sun(f)-Venus(m) + Mesopotamian Sîn-Šamaš-Ishtar + Canaanite + Vedic | South Arabian adds *male Venus* (Athtar) — the same astral role played by differently gendered deities across traditions; gendered assignment is cultural, not cosmological |
+| **Deity-as-Owner-of-Sacred-Estate** NEW | Sabaic temple-estate theology + Mesopotamian *bēl* + Ugaritic Baal's mountain + Hittite deity-estate | 4+ traditions; the deity "owns" productive land; worship = participation in the sacred economy; the divine is a territorial landlord not merely a cosmic force |
+| **Votive-Reciprocity-as-Cosmic-Contract** NEW | Sabaic votive formula + Mesopotamian *barāku* + Roman *do ut des* + Greek votive inscription | 4+ traditions; the divine gift came first; the votive acknowledges the received gift; religion as acknowledgment of prior grace, not petition for future grace |
+| **Venus-Star-as-Dual-Natured-Deity** NEW | Athtar morning/evening + Babylonian Ishtar + Mesoamerican Quetzalcoatl as morning/evening star + Isaiah 14's Helel ben Shahar | 4+ traditions; Venus's astronomical dual-appearance generates a dual-natured deity across independent traditions; the sky writes the theology |
+| **Monotheism-Emerging-from-Astral-Polytheism** NEW | South Arabian Raḥmānān + Zoroastrian Ahura Mazdā reforming substrate + Akhenaten's Aten + Hebrew prophetic monotheism from Canaanite roots | 4+ traditions; monotheism is not a bolt-from-the-blue revelation but a *distillation* — the one divine emerging from the many through sustained theological development across centuries |
+| **Revealed-Music-as-Liturgical-Ground** DEEPENED | Yared's angelic reception + Vedic *śruti* (heard revelation) + Islamic Quran-as-recitation + Greek Muses as divine source | 4+ traditions; sacred music/text authority grounded in divine-origin-of-transmission, not human genius; what is received is more authoritative than what is invented |
+| **Double-Meaning-as-Aesthetic-Theology** NEW | Ge'ez *sǝmǝnna worq* + Sufi *ẓāhir/bāṭin* + Kabbalistic PaRDeS + Hindu *dhvani* (resonance/secondary meaning) | 4+ traditions; the sacred text holds two simultaneously complete true meanings; the double is not deceptive but revelatory; this is an *epistemological claim* about sacred language |
+| **Liturgical-Duration-as-Theological-Statement** NEW | Ethiopian Qǝddase (3–5 hours) + Jewish Yom Kippur (25-hour fast) + Orthodox Paschal all-night vigil + Sufi *hadra* extended dhikr | 4+ traditions; the *length* of a ritual is not inefficiency but declaration: sustained inhabiting of sacred time declares time itself as the medium of divine encounter |
+| **Replica-Presence-as-Full-Presence** NEW | Ethiopian tabot + Hebrew Ark's distributed presence (Tabernacle-to-Temple-to-exilic-replacements) + Catholic Real Presence in every eucharist + Tibetan *thangka* as divine window | 4+ traditions; the authorized replica *is* the presence, not merely a pointer; divine fullness distributed across multiple simultaneous instantiations without diminishment |
+| **Fallen-Angel-as-Theodicy** DEEPENED | 1 Enoch Watchers (*ʿīrīn*) + Zoroastrian Angra Mainyu's rebellion + Genesis 6 *bǝnei hāʾelōhīm* + Gnostic demiurge-transgression | 4+ traditions; structural evil in the world has a supra-human cause; angelic/divine transgression (not merely human sin) as the origin of suffering that exceeds individual fault |
+| **Solar-Calendar-as-Cosmic-Revelation** NEW | 1 Enoch/Jubilees 364-day calendar + Zoroastrian solar-year theology + Egyptian solar calendar as divine gift + Maya Long Count as celestially received | 4+ traditions; the calendar is a divine structure, not a human tool; proper timekeeping is obedience/alignment; wrong calendar = missing sacred appointments |
+| **Preserved-Alternative-as-Living-Witness** NEW | Beta Israel parallel Judaism + Coptic Christianity as parallel Alexandrian stream + Mandaeans as pre-rabbinic boundary-religion continuation + Samaritans as parallel Torah stream | 4+ traditions; a community isolated from mainstream development preserves what the mainstream rationalized away; the margin holds what the center lost; the alternative stream has *epistemic authority* the mainstream cannot access |
+
+**S068 totals: ~390 convergences mapped (+12 new/deepened S068; prior ~365 from S067 Pali); 17 forged (unchanged); ~283 in pipeline (+7 new Ge'ez forge candidates); archaeology files: 87 traditions (+ge_ez/ 2 new files 432 lines).**
