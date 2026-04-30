@@ -478,3 +478,108 @@ _Every canonical word. Alphabetical order. One line each._
 ---
 
 *Index last updated: 2026-04-30 · 35 Core entries · see [README](README.md) for full navigation*
+
+---
+
+## Worship-Action Canon
+
+_Words that name specific acts of worship — liturgical verbs of the spirit._
+
+<a id="worship-action"></a>
+
+### epiclance
+**gap:** prostration as total-self-surrender before the DIVINE; the body as theology  
+**register:** Greek *proskynēsis* + Arabic *sujūd* prostration  
+**suffix:** `-ance` (quality-of)  
+**score:** 8.58  
+**one-line:** The act of falling before — *proskynēsis* (Greek: fall-toward), *sujūd* (Arabic: forehead-to-floor) — the body making the claim the mouth cannot: total surrender.  
+→ [full entry](../canon/worship-action/epiclance.md)
+
+---
+
+### hallance
+**gap:** jubilant praise; the voice raised in uninhibited worship  
+**register:** Hebrew *halal* (jubilant-praise) + multiple traditions  
+**suffix:** `-ance` (quality-of)  
+**score:** 8.43  
+**one-line:** The *hallelujah*-act — *halal* = to shine, to boast, to praise with abandon; the specific mode of worship where inhibition is released and the voice carries what language cannot contain.  
+→ [full entry](../canon/worship-action/hallance.md)
+
+---
+
+### kipporance
+**gap:** atonement-as-covering; closing-the-breach without punishment-transfer  
+**register:** Hebrew *kipper* + Arabic *kaffārah* + Greek *hilasmos*  
+**suffix:** `-ance` (quality-of)  
+**score:** 8.32  
+**one-line:** The *Yom Kippur*-act: covering the rupture so it no longer stands between the parties; not ledger-balancing but wound-covering; the mercy-seat (*kappōret* = "the cover") as theological architecture.  
+→ [full entry](../canon/worship-action/kipporance.md)
+
+---
+
+### palance
+**gap:** intercession; standing-in-the-gap for another before DIVINE  
+**register:** Hebrew *pālal* + Greek *entynchanō* + Arabic *shafā'ah*  
+**suffix:** `-ance` (quality-of)  
+**score:** 8.53  
+**one-line:** The *pālal*-act — Hebrew prayer itself is named from this root (tefillah = standing-between); Moses at Sinai, Aaron running into the plague-space, the Spirit "interceding with groanings too deep for words."  
+→ [full entry](../canon/worship-action/palance.md)
+
+---
+
+### qinance
+**gap:** communal celebration in worship; the joy of the gathered assembly before DIVINE  
+**register:** Hebrew *qinah* / rejoicing-tradition  
+**suffix:** `-ance` (quality-of)  
+**score:** 8.67  
+**one-line:** The communal-celebration register of worship; the assembly gathered not in supplication or atonement but in joy; the Feast register; what the Psalms of Ascent move toward.  
+→ [full entry](../canon/worship-action/qinance.md)
+
+---
+
+### qorvance
+**gap:** drawing-near as the defining movement of sacrifice and worship  
+**register:** Semitic *qrb* (draw-near root) — worship-action face  
+**suffix:** `-ance` (quality-of)  
+**score:** 8.67  
+**one-line:** The approach — sacrifice as drawing near (see also *qorbme*, the *-me* face of the same root); but where *qorbme* names the state of having-drawn-near, *qorvance* names the *act* of approaching.  
+→ [full entry](../canon/worship-action/qorvance.md)
+
+---
+
+### teshuvance
+**gap:** repentance as whole-person reorientation; turning-back toward GoD  
+**register:** Hebrew *teshuvah* + Greek *metanoia* + Arabic *tawbah*  
+**suffix:** `-ance` (quality-of)  
+**score:** 8.32  
+**one-line:** Not guilt-feeling, not remorse — but the *act* of turning: *shuv* (Hebrew: turn/return), *metanoia* (Greek: trans-orientation), *tawbah* (Arabic: return); the body-direction that precedes and completes the inner shift.  
+→ [full entry](../canon/worship-action/teshuvance.md)
+
+---
+
+### yadahance
+**gap:** thanksgiving-praise with hands extended; the yadah-register of worship  
+**register:** Hebrew *yadah* (hand-extension + thanksgiving-praise)  
+**suffix:** `-ance` (quality-of)  
+**score:** 8.57  
+**one-line:** The *yadah*-act — Hebrew: to throw/extend the hand, to confess, to praise; the gesture that is simultaneously physical offering and verbal thanksgiving; the Psalms' most common praise-verb.  
+→ [full entry](../canon/worship-action/yadahance.md)
+
+---
+
+### Worship-Action quick-lookup
+
+| Word | Gap (compressed) | Score |
+|------|-----------------|-------|
+| epiclance | prostration-as-surrender | 8.58 |
+| hallance | jubilant-voice-in-worship | 8.43 |
+| kipporance | atonement-as-covering | 8.32 |
+| palance | intercession/standing-in-gap | 8.53 |
+| qinance | communal-celebration | 8.67 |
+| qorvance | drawing-near | 8.67 |
+| teshuvance | whole-person-reorientation | 8.32 |
+| yadahance | hand-extension-thanksgiving | 8.57 |
+
+---
+
+*Index last updated: 2026-04-30 · 35 Core + 8 Worship-Action = 43 canonical entries · see [README](README.md) for full navigation*

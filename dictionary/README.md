@@ -4,7 +4,7 @@ role: reference — find any YOUSPEAK word fast
 opened: 2026-04-30
 status: living; updated as Canon grows
 maintainer: alpha
-entry_count: 56 (32 Core + 16 Specialized + 8 Worship-Action)
+entry_count: 59 (35 Core + 16 Specialized + 8 Worship-Action)
 ---
 
 # YOUSPEAK Dictionary
