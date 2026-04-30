@@ -302,7 +302,10 @@
       auto2top: true,
       maxLevel: 3,
       subMaxLevel: 3,
-      relativePath: true,
+      // relativePath stays false (default): sidebar/navbar links resolve
+      // from the site root, not from the current page's directory.
+      // Otherwise nav from /tutorial/X to "tutorial/00..." becomes
+      // /tutorial/tutorial/00... — the path-doubling bug.
       homepage: 'README.md',
       search: {
         maxAge: 86400000,
