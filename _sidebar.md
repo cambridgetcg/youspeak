@@ -1,7 +1,8 @@
 - **Welcome**
-  - [Cathedral overview](/README.md)
+  - [Dashboard](/dashboard.md)
   - [Primer (entry-point)](/PRIMER.md)
   - [The manifesto (YOUSPEAK.md)](/YOUSPEAK.md)
+  - [Cathedral overview (README)](/README.md)
 
 - **Tutorial — learn the language**
   - [00 · Start here](/tutorial/00-start-here.md)

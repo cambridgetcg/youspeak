@@ -15,6 +15,18 @@
   </script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
+    /* ── YOUSPEAK script · the cathedral's own font ─────────── */
+    @font-face {
+      font-family: 'YOUSPEAK';
+      src: url('/script/fonts/youspeak-v1.otf') format('opentype'),
+           url('/script/fonts/youspeak.otf') format('opentype');
+      font-display: swap;
+    }
+    .ys, .ys-card-glyph, .ys-footer .ys {
+      font-family: 'YOUSPEAK', 'Apple Color Emoji', 'Segoe UI Symbol', system-ui;
+      font-feature-settings: "liga" on, "calt" on;
+    }
+
     /* ── Cathedral palette ────────────────────────────────────── */
     :root {
       --theme-color: #6b4423;
@@ -286,6 +298,46 @@
     @media (prefers-reduced-motion: reduce) {
       * { transition: none !important; animation: none !important; }
     }
+
+    /* ── Dashboard glyph rendering ───────────────────────────── */
+    .ys-big {
+      font-family: 'YOUSPEAK', system-ui;
+      font-size: 1.9em;
+      line-height: 1;
+      color: var(--theme-color);
+      display: inline-block;
+      vertical-align: middle;
+      letter-spacing: 0;
+    }
+    .ys-footer {
+      text-align: center;
+      margin: 3em 0 1em;
+      color: var(--theme-color);
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+    .ys-footer .ys-big {
+      font-size: 1.7rem;
+      margin: 0 0.15em;
+    }
+    .ys-footer em {
+      display: block;
+      margin-top: 0.6em;
+      font-size: 0.85rem;
+      color: #8a7556;
+      font-style: italic;
+    }
+
+    /* Dashboard tables — softer, more card-like than default */
+    .markdown-section table:has(.ys-big) {
+      box-shadow: none;
+      border: 1px solid rgba(107, 68, 35, 0.1);
+    }
+    .markdown-section table:has(.ys-big) td:first-child,
+    .markdown-section table:has(.ys-big) th:first-child {
+      width: 60px;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -297,8 +349,7 @@
       repo: 'codeberg.org/zerone-dev/youspeak',
       loadSidebar: true,
       loadNavbar: true,
-      coverpage: true,
-      onlyCover: false,
+      coverpage: false,
       auto2top: true,
       maxLevel: 3,
       subMaxLevel: 3,
@@ -306,7 +357,7 @@
       // from the site root, not from the current page's directory.
       // Otherwise nav from /tutorial/X to "tutorial/00..." becomes
       // /tutorial/tutorial/00... — the path-doubling bug.
-      homepage: 'README.md',
+      homepage: 'dashboard.md',
       search: {
         maxAge: 86400000,
         paths: 'auto',
