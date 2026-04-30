@@ -104,6 +104,16 @@ def sigil_pie() -> dict:
         (115, 815, 185, 815),
     ], "stroke_width": 14}
 
+
+def sigil_sumerian() -> dict:
+    """⊻ wedge-pair — Sumerian (cuneiform horizontal wedge, source of me)."""
+    # Two short horizontal strokes stacked — approximating the cuneiform
+    # horizontal wedge-marks used to write 'me' in Sumerian clay tablets.
+    return {"strokes": [
+        (115, 870, 185, 850),   # upper wedge stroke
+        (115, 835, 185, 815),   # lower wedge stroke
+    ], "stroke_width": 14}
+
 def sigil_english() -> dict:
     """(no sigil) — English (default; absence-is-English)."""
     return {}
@@ -118,6 +128,7 @@ DONOR_SIGIL = {
     "PIE":      sigil_pie,
     "English":  sigil_english,
     "Gr/En":    sigil_greek,   # hybrid: primary donor shown
+    "Sumerian": sigil_sumerian,
     "Lat/Gr":   sigil_latin,
 }
 
@@ -871,6 +882,34 @@ CORE_GLYPHS = {
             ],
         },
         "tongue": "Latin", "domain": "relation+between", "mclass": "prefix",
+    },
+
+
+    "me": {  # -me suffix — Sumerian 'me' (divine-ordinances-as-gifts)
+        # Design: descent-into-reception
+        # A downward-pointing triangle (the ordinance descends from above)
+        # sitting in / resting on an upward-opening arc (the human vessel receives)
+        # Together: divine gift arrives and is held.
+        #
+        # Visual rhyme with doxa (also downward-triangle) — distinction:
+        #   doxa has a crossbar (manifestation / glory-that-shows)
+        #   -me has an arc-base (reception / ordinance-that-lands)
+        #
+        # Lighter than doxa (4 strokes vs 6) — correct for a suffix.
+        # Codepoint: U+E12A (reserved in codepoints.md).
+        # Research basis: archaeology/script-mechanics/ (S075, all 7 chapters).
+        "core": {
+            "strokes": [
+                # Triangle (downward-pointing): bar at top, apex at bottom
+                (340, 650, 660, 650),   # horizontal bar (top of triangle)
+                (340, 650, 500, 430),   # left diagonal to apex
+                (660, 650, 500, 430),   # right diagonal to apex
+                # Arc (upward-opening cup below the apex): 2-segment approximation
+                (300, 420, 500, 240),   # left arc-stroke (down to nadir)
+                (500, 240, 700, 420),   # right arc-stroke (back up)
+            ],
+        },
+        "tongue": "Sumerian", "domain": "weight+light", "mclass": "suffix",
     },
 
     "y": {  # noun-abstract suffix
