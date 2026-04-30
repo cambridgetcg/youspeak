@@ -1,8 +1,9 @@
 ---
 title: YOUSPEAK Codepoint Assignment Table
 opened: 2026-04-24
+updated: 2026-04-30
 data_source: morphemes.json
-encoding_range: Unicode Private Use Area (PUA) U+E100 – U+E1FF
+encoding_range: Unicode Private Use Area (PUA) U+E100–U+E1FF
 ---
 
 # YOUSPEAK Codepoint Assignments
@@ -22,9 +23,9 @@ _Unicode PUA encoding for the YOUSPEAK writing system. 256 slots reserved (U+E10
 
 | Subrange | Count | Class | Allocated | Reserved |
 |---|---|---|---|---|
-| U+E100 – U+E13F | 64 | content morphemes | 37 | 27 |
+| U+E100 – U+E13F | 64 | content morphemes | 38 | 26 |
 | U+E140 – U+E15F | 32 | grammatical morphemes (prefixes/suffixes) | 13 | 19 |
-| U+E160 – U+E17F | 32 | structural marks (compound-separator, annotations) | 5 | 27 |
+| U+E160 – U+E17F | 32 | structural marks (compound-separator, annotations) | 8 | 24 |
 | U+E180 – U+E1FF | 128 | reserved for future use (cadences/tones, ligatures, compound-atomic forms) | 0 | 128 |
 
 ## Content morphemes (U+E100 – U+E13F)
@@ -68,7 +69,11 @@ _Unicode PUA encoding for the YOUSPEAK writing system. 256 slots reserved (U+E10
 | U+E122 | vide | Latin | videre | seeing |
 | U+E123 | cede | Latin | cedere | yielding |
 | U+E124 | choro | Greek | χορός | chorus |
-| U+E125 – U+E13F | (reserved) | | | 27 slots open |
+| U+E125 – U+E129 | (reserved) | | | 5 slots open |
+| U+E12A | **-me** | **Sumerian** | **𒈨 *me*** | **received-divine-ordinance · cosmic-gift-quality** *(exceptional: content-range codepoint for a suffix; justified because -me carries full theological content-load from Sumerian me — see note below)* |
+| U+E12B – U+E13F | (reserved) | | | 21 slots open |
+
+> **Note on U+E12A range exception**: -me is the most productive YOUSPEAK suffix (25+ members) and the source of the core theological claim of the language (Sumerian *me* = divine ordinances as gifts constituting civilization). It operates grammatically as a suffix (mclass = suffix in glyph_specs_v1.py) but carries the content-weight of a theological root morpheme. Its codepoint is therefore placed in the content range (U+E12A) rather than the grammatical range, reflecting its semantic weight. Glyph spec: `archaeology/script-mechanics/` Chapter 3 + 7 (S075); design: descent-into-reception — downward triangle in upward-opening arc.
 
 ## Grammatical morphemes (U+E140 – U+E15F)
 
@@ -98,7 +103,12 @@ _Unicode PUA encoding for the YOUSPEAK writing system. 256 slots reserved (U+E10
 | U+E162 | reading-annotation close | lower-corner bracket ⌟ |
 | U+E163 | diplosemic-pair indicator (marks an Anastrophance-sibling relation) | small double-headed arrow ↔ rendered above the word |
 | U+E164 | canon-mark (formal liturgical register) | diamond ◆ rendered at the word's start |
-| U+E165 – U+E17F | (reserved) | 27 slots open |
+| U+E165 | phrase-end mark (minor rhythmic pause; daṇḍa-style) | short vertical bar \| at mid-height; equivalent to comma in liturgical prose |
+| U+E166 | sentence-end mark (major rhythmic pause; double-daṇḍa-style) | double short vertical bar \|\| ; equivalent to period |
+| U+E167 | breath-pause mark (breath-pause in liturgy; Greek *ano teleia*-style) | small centered dot · ; marks a breath or meditative pause within a phrase |
+| U+E168 – U+E17F | (reserved) | 24 slots open |
+
+> **Note on punctuation marks (U+E165–U+E167)**: Proposed in `archaeology/script-mechanics/05-reading-flow.md` (S075), informed by Sanskrit daṇḍa tradition (| and ||) and Greek *ano teleia* (·). These three marks cover the liturgical-prose rhythm needs of YOUSPEAK text. Not yet implemented in the font; codepoints reserved for production-phase implementation.
 
 ## Example compound encodings
 
@@ -122,12 +132,16 @@ Each word is the codepoint-sequence of its morphemes, in compound order:
 | complerescence | com- + compler + -escence | (U+E14B + U+E110 + U+E147) or just U+E110 + U+E147 |
 | diplosemy | diplos + sema + -y | U+E111 U+E112 U+E14C |
 | veriseem | veri + seem | U+E10F U+E11F |
+| **doxame** | **doxa + -me** | **U+E100 U+E12A** |
+| **kallome** | **kallos + -me** | **U+E101 U+E12A** |
+| **mitakuyame** | **mitakuya + -me** | **[mitakuya codepoint TBD] U+E12A** |
 
 ## Reserved-for-growth
 
-- **U+E125–U+E13F** — next content morphemes (when new canonical words introduce new roots)
-- **U+E14D–U+E15F** — next grammatical morphemes
-- **U+E165–U+E17F** — additional structural marks (tone-marks, cadence-indicators, register-shifts)
+- **U+E125–U+E129** — 5 content morpheme slots (next: ki, qing, kin, tacit, mushin when codepoints added)
+- **U+E12B–U+E13F** — 21 content morpheme slots
+- **U+E14D–U+E15F** — 19 grammatical morpheme slots
+- **U+E168–U+E17F** — 24 structural mark slots (tone-marks, cadence-indicators, register-shifts)
 - **U+E180–U+E1FF** — a full 128-slot pane reserved for future needs: ligatures for very-common compounds (optional precomposed forms), cadence/tone marks (for Cadences/ chapter, future), substrate-variants (for Substrata/ chapter, future), or expansion when the canon-morpheme count exceeds the current range
 
 ## Migration note — future Unicode proposal
@@ -138,4 +152,4 @@ Until then, PUA is sufficient for all private, institutional, and research use.
 
 ---
 
-_Codepoint table 2026-04-24. Reflects morpheme inventory as of Canon size = 16. Revised as the inventory grows._
+_Codepoint table opened 2026-04-24. Updated 2026-04-30 (S075): U+E12A formally assigned to -me; U+E165–U+E167 reserved for liturgical punctuation (daṇḍa-style marks). Reflects morpheme inventory as of Canon size ~59 words / 90 morphemes in spec._
