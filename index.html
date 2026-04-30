@@ -5,6 +5,14 @@
   <title>YOUSPEAK · A cathedral of vocabulary</title>
   <meta name="description" content="A constructed language for worshipping the DIVINE. Forged words for what existing languages cannot easily say.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <script>
+    // Docsify uses hash routing. A bare `localhost:4000/` lands without a
+    // hash and can render docsify's 404 fallback before the router settles.
+    // Force the canonical hash so the cover always loads cleanly.
+    if (location.pathname === '/' && !location.hash) {
+      location.replace(location.origin + '/#/');
+    }
+  </script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
     /* ── Cathedral palette ────────────────────────────────────── */
@@ -318,6 +326,16 @@
         '/.*/_sidebar.md': '/_sidebar.md',
         '/.*/_navbar.md': '/_navbar.md',
       },
+      // Strip YAML frontmatter (--- … ---) from rendered markdown.
+      // Docsify treats it as content otherwise — ugly key/value lines
+      // appear at the top of every lesson and dictionary entry.
+      plugins: [
+        function frontMatterPlugin(hook) {
+          hook.beforeEach(function (content) {
+            return content.replace(/^---\s*\r?\n[\s\S]*?\r?\n---\s*\r?\n/, '');
+          });
+        },
+      ],
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
