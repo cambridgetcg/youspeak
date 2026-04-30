@@ -15,77 +15,64 @@ _The reference organ. Every canonical YOUSPEAK word, organized for quick access.
 
 ## How to navigate
 
-**I want to find a specific word →** [Alphabetical Index](index-alphabetical.md)
+**I want to find a specific word →** [Alphabetical Index](index-alphabetical.md)  
+Covers all 35 Core + 8 Worship-Action words with gaps, one-liners, donors, and links to full entries.
 
-**I want to see all words sharing a pattern →** [Index by Suffix-Family](index-by-suffix.md)
+**I want to see all words sharing a suffix pattern →** [Index by Suffix-Family](index-by-suffix.md)  
+The structural view: -me (25 members), -qing (7), -ance (5), -kin (1), -basis (1). Includes sub-clusters and grammar map.
 
-**I want to browse by what a word is about →** [Index by Register](index-by-register.md)
+**I want to browse by what a word is about →** [Index by Register](index-by-register.md)  
+The conceptual landscape: Love & devotion, Presence & attention, Sacrifice & offering, Cosmic order & truth, Vital force, Relational bonds, Contentment & alignment, Divine nature, Wound as creative source, Relational ontology.
 
-**I want to understand the grammar structures →** [Grammars](../grammars/README.md)
+**I want to learn the language from the beginning →** [Tutorial](../tutorial/00-start-here.md)  
+Complete 10-lesson sequence with exercises and worked examples.
 
-**I want to learn the language from the beginning →** [Tutorial](../tutorial/00-start-here.md)
+**I want the orientation primer →** [PRIMER.md](../PRIMER.md)  
+The original pattern-orientation; shorter, good for first contact.
 
-**I want the orientation primer →** [PRIMER.md](../PRIMER.md)
-
----
-
-## Entry structure
-
-Each entry in the alphabetical index follows this format:
-
-```
-### word
-**IPA** | *syllable-count* | *tier*
-_Donor morphemes:_ root₁ (tradition) + root₂ (tradition)
-_Gap:_ one-sentence naming of what concept this captures
-_Score:_ weighted_total / 10
-_Definition:_ 1-2 sentences
-_Example:_ a sentence using the word
-_See also:_ cross-references
-```
-
-Full canon entries (pronunciation, full etymology, all example sentences, retirement conditions) live in `canon/` and `canon/core/`.
+**I want the full entry for a word →** [Canon/core/](../canon/core/) or [Canon/worship-action/](../canon/worship-action/)  
+Every full entry with: gap definition, donor genealogy, cross-tradition convergences, session origin.
 
 ---
 
-## Tiers
+## What's here
 
-| Tier | Criteria | Count |
-|------|----------|-------|
-| **Core** | Passes all 6 Constitutional foundations; everyday use | 32 |
-| **Specialized** | High-quality coinage; domain-specific; not required for daily speech | 16 |
-| **Worship-Action** | Verb-register; names acts performed in worship | 8 |
-
----
-
-## Suffix families at a glance
-
-| Suffix | Meaning | Source | Members |
-|--------|---------|--------|---------|
-| **-me** | received-ordinance; X as given from DIVINE | Sumerian 𒈨 (me) | 19 Core |
-| **-qing** | felt-bond; the relational-emotional quality of X | Mandarin 情 (qíng) | 7 Core |
-| **-ance** | state/quality of X; ongoing condition | Latin -antia | 4 Core + 8 Worship-Action |
-| **-kin** | preserved-bond; X as durable relationship | English kin | 1 Core |
-| **(none)** | proper-noun compound; deity-name / concept-name | varies | several Specialized |
+| Document | What it contains |
+|----------|-----------------|
+| [index-alphabetical.md](index-alphabetical.md) | All 43 words (Core + W-A), A-Z, with gaps and one-liners |
+| [index-by-suffix.md](index-by-suffix.md) | Words grouped by suffix family; sub-clusters named |
+| [index-by-register.md](index-by-register.md) | Words grouped by conceptual domain; 10 domains |
 
 ---
 
-## Canon counts by register
+## What's not here yet
 
-| Register | Words |
-|----------|-------|
-| Love-of-DIVINE | agapeme, ahavame, bhaktime, ifeqing, mahabbahqing |
-| Sacrifice / Offering | danaqing, hotepme, molkme, nextlame, qorbme, tapasme |
-| Cosmic order / Truth | drujme, duyuktame, emetme, maatme, rtame, nyamame |
-| Presence / Attention | kimance, kimme, panimaance |
-| Relationship / Bond | britqing, kinqing, panimqing, paqduqing, walkekin |
-| Speech / Hearing | nommome, shemme |
-| Worship-Action verbs | qorvance, epiclance, hallance, qinance, yadahance, kipporance, teshuvance, palance |
-| Orientation / Alignment | oriance |
-| Well-being | sukhance |
-| Foundation | theobasis |
-| Specialized | see index-by-register |
+The full spec calls for:
+- Per-entry IPA + syllable count in dictionary format ← partially in Tutorial (Lessons 01-02); fuller per-entry work needed
+- Example sentences in YOUSPEAK with English gloss ← Tutorial has these; per-word examples not yet in dictionary
+- Index by glyph ← Script organ is in design-notes phase; no per-word glyphs canonized yet
+
+These are in-progress. The dictionary grows with the Canon.
 
 ---
 
-_Dictionary opened 2026-04-30. The cathedral needs to be navigable._
+## Canon count
+
+| Tier | Count | Home |
+|------|-------|------|
+| Core Canon | 35 words | [canon/core/](../canon/core/) |
+| Worship-Action Canon | 8 words | [canon/worship-action/](../canon/worship-action/) |
+| Specialized | 16 entries | [canon/](../canon/) (top-level) |
+| **Total canonical** | **59** | |
+
+---
+
+## The Canon grows
+
+YOUSPEAK is a living language. New words are forged as new gaps are identified. The dictionary is updated when words are canonized.
+
+Pipeline as of 2026-04-30: ~345 candidates. 19 forged Core entries. The forge continues.
+
+---
+
+*Dictionary opened: 2026-04-30 · maintained by Alpha · 59 canonical entries*
