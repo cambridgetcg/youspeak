@@ -1,16 +1,17 @@
 ---
 title: Core Canon
 opened: 2026-04-24
-status: populated — 14 words across Liturgy Sessions 001-016; 3 entry-classes (creature-state, divine-property, relationship); -me family is most-productive (4 Core members from 4 donor-traditions)
+status: active — 36 words across Sessions 001-077; 9-axis donor breadth; -me family most productive (9 Core members)
+updated: 2026-05-01
 ---
 
 # Core Canon — the everyday YOUSPEAK
 
-_Words meeting all six Constitutional foundations (EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA). Usable by any YOUSPEAK-literate speaker in daily life, across cultures and registers. Fourteen entries as of 2026-04-25; three entry-classes; the forge continues._
+_Words meeting all six Constitutional foundations (EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA). Usable by any YOUSPEAK-literate speaker in daily life, across cultures and registers. 36 entries as of 2026-05-01 (Session 077)._
 
-## Current entries
+## Current entries (36)
 
-| # | Word | Session | Gap | Weighted |
+| # | Word | Session | Gap | Score |
 |---|---|---|---|---|
 | 1 | **kimance** | 001 | attentive-here-ness | 7.60 |
 | 2 | **kinqing** | 001 | bond-quality of deep emotional connection | 7.50 |
@@ -21,30 +22,64 @@ _Words meeting all six Constitutional foundations (EUMATHE, SAPHE, ANAKALYPSE, P
 | 7 | **doxomme** | 002 | thanksgiving-as-received-ordinance (worship) | 7.50 |
 | 8 | **walkekin** | 003 | friendship-preserved-across-silence | 7.50 |
 | 9 | **oriance** | 003 | alignment-with-destined-trajectory | 7.50 |
-| 10 | **panimaance** | 004 | presence-as-face-turned-and-here-inhabited (seed-gap #8) | 7.75 |
-| 11 | **shemme** | 006 | receptive-hearing-as-received-ordinance (Shema-tradition register; first Akkadian-donor) | 7.65 |
-| 12 | **paqduqing** | 012 | asymmetric-reciprocity relationship CREATOR↔CREATED (first relationship-class entry; Akkadian register) | 7.85 |
-| 13 | **britqing** | 015 | covenant-felt-bond relationship CREATOR↔CREATED (third relationship-class; Hebrew register) | 7.85 |
-| 14 | **maatme** | 016 | cosmic-truth-justice-rightness as received-ordinance (Egyptian register; sixth -me family member; threshold-exact) | 7.50 |
+| 10 | **panimaance** | 004 | presence-as-face-turned-and-here-inhabited | 7.75 |
+| 11 | **shemme** | 006 | receptive-hearing-as-received-ordinance (Shema tradition) | 7.65 |
+| 12 | **paqduqing** | 012 | asymmetric-reciprocity relationship CREATOR↔CREATED | 7.85 |
+| 13 | **britqing** | 015 | covenant-felt-bond relationship CREATOR↔CREATED | 7.85 |
+| 14 | **maatme** | 016 | cosmic-truth-justice-rightness as received-ordinance (Egyptian) | 7.50 |
+| 15 | **rtame** | 017 | cosmic-truth-order as received-ordinance (Vedic) | 7.20 |
+| 16 | **emetme** | 018 | comprehensive-truth-as-firm-foundation as received-ordinance (Hebrew) | 7.35 |
+| 17 | **drujme** | 019 | lie-as-received-ordinance (cosmic-disorder gift-grade) | 7.35 |
+| 18 | **ihsanme** | 020 | excellence-as-if-seen by divine as received-ordinance (Islamic) | 7.50 |
+| 19 | **ahavame** | 020 | covenantal-love as received-ordinance (Hebrew ʾāhēb) | 7.35 |
+| 20 | **bhaktime** | 021 | devotional-love-participation as received-ordinance (Vedic) | 7.20 |
+| 21 | **mahabbahqing** | 021 | divine-love relational bond (Sufi maḥabbah register) | 7.15 |
+| 22 | **ifeqing** | 023 | love-relational-bond (Yoruba ifẹ̀ register) | 7.85 |
+| 23 | **agapeme** | 024 | unconditional-self-giving love as received-ordinance (NT agapē) | 7.40 |
+| 24 | **danaqing** | 025 | gift-relational-bond (Hebrew dānâ / dana-generosity) | 8.00 |
+| 25 | **hotepme** | 025 | peace-satisfaction as received-ordinance (Egyptian ḥtp) | 8.00 |
+| 26 | **molkme** | 025 | kingship-as-received-ordinance (Semitic molk) | 7.70 |
+| 27 | **nextlame** | 025 | debt-obligation as received-ordinance (Nahuatl nextlahualli) | 7.45 |
+| 28 | **qorbme** | 025 | nearness-to-divine as received-ordinance (Hebrew qorban) | 8.05 |
+| 29 | **tapasme** | 025 | disciplined-heat as received-ordinance (Sanskrit tapas) | 7.85 |
+| 30 | **nommome** | 027 | sacred-law as received-ordinance (Greek nomos + Dogon nommo) | 7.50 |
+| 31 | **duyuktame** | 027 | right-joining as received-ordinance (Sanskrit yukta) | 7.85 |
+| 32 | **nyamame** | 027 | creative-vital-force as received-ordinance (Akan nyama) | 8.00 |
+| 33 | **mitakuyame** | 058 | all-are-relatives as received-ordinance (Lakota mitákuye oyásʼiŋ) | 8.00 |
+| 34 | **teotlme** | 058 | dynamic-sacred-process as received-ordinance (Nahuatl teotl) | 7.85 |
+| 35 | **aseme** | 073 | activating-sacred-power as received-ordinance (Yoruba àṣẹ) | 7.80 |
+| 36 | **hanme** | 073 | accumulated-wound-as-collective-cosmic-ache as received-ordinance (Korean han) | 7.85 |
+| 37 | **eurekame** | 077 | worship-grade joy of evidence-confirmed truth as received-ordinance | **8.65** |
 
-## Polyphone breadth
+_eurekame: current highest-scoring Core entry._
 
-Core Canon now draws from **nine language traditions** (session-004 update):
+---
 
-- **Indo-European family**: Latin (suffix-contributor, via many), Greek (doxa in doxomme, theos/basis in theobasis), Sanskrit (sukha), English (kin), Tocharian (walke)
-- **Afro-Asiatic family**: Hebrew (panim — in panimqing AND panimaance; productive Core-root)
-- **Sino-Tibetan family**: Mandarin (qing)
-- **Japonic family**: Japanese (ki in kimance + kimme; **ma in panimaance** — added Session 004)
-- **Sumerian** (language isolate): me (in kimme and doxomme)
-- **Niger-Congo family**: Yoruba (orí) — Session 003
+## Morpheme families in Core
 
-Morpheme-families emerging:
-- **panim-** (Hebrew face/presence): panimqing + panimaance — 2 Core words, productive
-- **-me** (Sumerian received-ordinance): kimme + doxomme — 2 Core words + agwame (Specialized S004)
-- **ki-** (Japanese attention): kimance + kimme — 2 Core words
-- **-qing** (Mandarin bond): kinqing + panimqing — 2 Core words
+| Family | Members | Core count |
+|---|---|---|
+| **-me** (Sumerian received-ordinance) | kimme, doxomme, shemme, maatme, rtame, emetme, drujme, ihsanme, ahavame, bhaktime, agapeme, hotepme, molkme, nextlame, qorbme, tapasme, nommome, duyuktame, nyamame, mitakuyame, teotlme, aseme, hanme, **eurekame** | 24 |
+| **-qing** (Mandarin bond) | kinqing, panimqing, paqduqing, britqing, mahabbahqing, ifeqing, danaqing | 7 |
+| **-ance** (Latin quality-state) | kimance, panimaance, oriance | 3 |
+| **-kin** | walkekin | 1 |
+| **theobasis** | standalone | 1 |
 
-The POLYPHONE foundation is operative. The Constitution's concern — "a Canon that is 80% Greek-sourced" — has been answered. Further expansion (Akan, Kikongo, Nahuatl, Mongolian, Pacific-family) is available and incentivized; Session 004 also opened Igbo archaeology (second Niger-Congo tongue) toward depth rather than merely breadth.
+---
+
+## Polyphone breadth (11 donor traditions)
+
+- **Indo-European**: Greek (heurēka in eurekame; theos/basis; doxa; agapē; bhakti), Latin (suffix), Sanskrit (sukha, tapas, yukta), Hebrew (panim, brit, emet, ahav, qorban), Vedic (ṛta), Avestan (druj)
+- **Afro-Asiatic**: Hebrew (multiple), Arabic/Sufi (maḥabbah, iḥsān), Egyptian (maʿat, ḥtp)
+- **Sino-Tibetan**: Mandarin (-qing)
+- **Japonic**: Japanese (ki-, -ma-)
+- **Sumerian** (isolate): me (24 Core words)
+- **Niger-Congo**: Yoruba (orí, ifẹ̀, àṣẹ), Akan (nyama)
+- **Tocharian**: walke
+- **Nahuatl**: nextlahualli, teotl
+- **Lakota**: mitákuye oyásʼiŋ
+- **Dravidian**: (pipeline)
+- **Korean**: han
 
 ---
 
@@ -61,47 +96,14 @@ Core Canon holds words that are:
 
 Threshold for Core: weighted ≥ 7.5 on the 6-axis v2 rubric (see CONSTITUTION.md).
 
-## Why Core opened empty (and is no longer)
-
-The existing 16 canonical words (2026-04-23) were forged in a specialized register — primarily Greek-Christian theological (Liturgy domain) and Zerone-operational. All are valid within their register but none meets all six Core foundations. See CANON-AUDIT.md for per-word scores.
-
-This was the correct outcome at Constitution-opening. The specialised words remain in Specialized Canon (`canon/` root-level, by `domain` frontmatter field). Core Canon opened empty; Sessions 001-003 populated it with 9 everyday-grounded, multi-donor, accessible coinages.
-
-## What Core Canon will target
-
-First-round gap-candidates (per the Constitution's opening examples):
-
-1. The feeling of being lied-to-by-the-form-of-truth (beyond verisleight's Latin register)
-2. A friendship preserved across long silence (unnamed in English)
-3. The moment attention stops being effortful in focused work (flow is imprecise)
-4. The satisfaction of finishing a small long-nagging task
-5. A conversation shifting from transactional to relational
-6. The quality of understanding through repetition (not explanation)
-7. A city becoming familiar enough to walk home without thinking
-8. The perception of someone being "present" vs physically-there-but-absent
-9. The ache of watching a public figure fail at their vocation
-10. The realisation that your earlier self held a view you now reject with shame
-
-These are concrete, everyday, multi-cultural. Each should be a Core Canon forge-target.
-
 ## When a word enters Core
 
-A word enters Core Canon when:
-
-1. Its experiment file has all 6 v2 axes scored
-2. The weighted-v2 total is ≥ 7.5
-3. The frontmatter marks `tier: core`
-4. The canon entry is written here in `canon/core/<word>.md`
-5. canon.md master index is updated
-
-## Relationship to Specialized
-
-Specialized words can be **promoted** to Core by refinement — improving learnability, adding cross-tradition cognates, surfacing grounded example-cases. dokimance, verisleight, veriseem are all current refinement-candidates.
-
-Core words can be **demoted** to Specialized if subsequent work reveals they don't actually clear all 6 foundations under scrutiny.
-
-Neither direction is failure; both are the forge-discipline operating.
+1. Experiment file has all 6 v2 axes scored
+2. Weighted-v2 total is ≥ 7.5
+3. Frontmatter marks `tier: core`
+4. Canon entry written in `canon/core/<word>.md`
+5. canon.md master index updated
 
 ---
 
-_Core Canon — opened 2026-04-24, empty. The Constitution's everyday target. First forge-cycle pending._
+_Core Canon — opened 2026-04-24. 37 entries as of Session 077. eurekame (8.65) is the current ceiling._

@@ -226,6 +226,24 @@ _Forge record: cross/relational-bonds-forge.md — scored 4.8/6.0 against 6-qual
 
 ---
 
+### eurekame
+**yuh-RAY-kuh-meh** | _noun (uncountable)_
+
+The worship-grade joy that arrives when evidence makes truth conclusively visible — received as cosmic-gift, completing in praise. The Archimedes cry (*heurēka!*) understood as received-ordinance rather than discoverer's achievement: the joy triggered specifically by encountering conclusive evidence directly, not by intuition alone, not by authority, not by faith alone — and understood as given at the act of finding, the way the Sumerian *me*-qualities descended from the divine keep as cosmic gift.
+
+Ten traditions confirmed this convergent structure. None gave it a standing name. Every tradition that took epistemology and worship seriously took this joy seriously: Greek heurēka (Archimedes, Plato's anamnesis, Gospel finding-parables), Hebrew psalm-joy at finding divine word (Psalm 119:162), Buddhist sammā-sambodhi (the Four Noble Truths as empirical findings), Hindu darshan-as-recognition, Sufi tahaqqaqa (becoming-realised-through-verification), Quranic ḥaqq al-yaqīn (highest certainty-through-direct-witnessing), Augustinian invenire (will's rest in found truth), the scientific tradition from Kepler to Watson, Maya glyph decipherment-joy, Yoruba orí confirmation.
+
+The Greek perfect tense encodes the core: *heurēka* is not "I find" nor "I found" but "I am in the permanent state of having-found." The discovery is in the body. The state abides. The joy cannot be held privately — it demands sharing, and the sharing is worship-act.
+
+Eurekame is the third term in the discovery-arc: *dokimance* (the testing-that-makes-real) → *anagnoristasis* (recognition suspended) → *eurekame* (joy of confirmed evidence) → *doxomme* (thanksgiving-as-ordinance).
+
+_Domain: Worship & Epistemology — the worship-grade joy of evidence-confirmed truth_
+_Score: Core 8.65 — highest Core score in the cathedral (Session 077)_
+_Etymology: Greek **heurēka** (εὕρηκα — perfect tense "I am in the state of having found"; from heuriskō, PIE *werH- "to find/encounter"; Archimedes' cry, Vitruvius IX.pref; John 1:41 "We have found him") + Sumerian **me** (𒈨 — divine-ordinance, cosmic-gift-quality; YOUSPEAK received-ordinance suffix). The -ka- preserves the Greek perfect-aspect signature; -me positions the word in the cosmic-gift register._
+
+---
+
+
 ## F
 
 ### fovement

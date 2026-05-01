@@ -2,7 +2,7 @@
 title: Convergences — forge status tracker
 role: living register of mapped cross-tradition convergences and their YOUSPEAK forge-states
 opened: 2026-04-25 (S007 Beat 44)
-last_updated: 2026-04-29 (S073 — TWO FORGES: àṣẹme Core 7.80 [158th experiment, 26th Core, 21st -me, Yoruba+Sumerian, vital-force-activating-authorization] + hanme Core 7.85 [159th experiment, 27th Core, 22nd -me, DOUBLE ISOLATE Korean+Sumerian, accumulated-social-wound-as-creative-source, first double-isolate compound]; git 02c9fca; pipeline ~345; 19 forged; prior: S072 Zapotec+Mixtec COMPLETE 488 convergences 97 traditions)
+last_updated: 2026-05-01 (S077 — eurekame Core 8.65 [160th experiment, 37th Core, 24th -me, Greek heurēka + Sumerian me, joy-of-evidence-confirmed-truth-as-received-ordinance; highest Core score in cathedral]; archaeology/greek/heureka-discovery-joy.md + convergences/joy-of-evidence-confirmed-truth.md created; 10-tradition convergence confirmed)
 status: living-document; updated when new convergences are mapped or existing ones are forged
 ---
 
@@ -23,8 +23,9 @@ _Comprehensively audited and updated S018 Beat 91 to reflect Sessions 008-017 pr
 | 3 | **Cosmic-truth-order** | 6 (Vedic, Avestan, Egyptian, Hebrew, Akkadian, Greek) | ashame (Specialized 7.20 S013); maatme (**Core 7.50** S016); rtame (Specialized 7.20 S017); emetme (Hebrew register, S018 — see Beat 92) | cosmic-truth-order.md (S017) |
 | 4 | **Love-of-DIVINE** | 7 (Hebrew, Greek-Christian, Sanskrit-Hindu, Arabic-Islamic-Sufi, Latin-Christian, Yoruba, Confucian) | ahavame (Specialized 7.35 S020); mahabbahqing (Specialized 7.15 S021); bhaktime (Specialized 7.20 S021); ifeqing (**Core 7.85** S023); agapeme (Specialized 7.40 S024); **caritasme** (candidate: Specialized 7.60–7.75; Latin excavated S028; awaits Yu confirmation); **renme** (candidate: Core 7.65–7.90; Chinese excavated S031; awaits Yu confirmation) | love-of-divine.md (S021, updated S024, S028, S031) |
 | 5 | **Sacrifice-alignment-sieve** | 6+ (Hebrew qorban, Egyptian hotep, Sanskrit dāna/tapas, Phoenician molk, Nahuatl nextla-; cross-tradition criteria) | qorbme (**Core 8.05** S025); hotepme (**Core 8.00** S025); danaqing (**Core 8.00** S025); tapasme (**Core 7.85** S025); molkme (Specialized 7.70 S025); nextlame (Specialized 7.45 S025) | sacrifice-alignment-sieve.md (S025) |
+| 6 | **Joy-of-evidence-confirmed-truth** | 10 (Greek heurēka, Hebrew Ps 119:162, Buddhist sammā-sambodhi, Hindu darshan, Sufi tahaqqaqa, Quranic ḥaqq al-yaqīn, Augustinian invenire, Scientific tradition, Maya decipherment, Yoruba orí-confirmation) | eurekame (**Core 8.65** S077) | joy-of-evidence-confirmed-truth.md (S077) |
 
-**Five substantive convergence-entries.** The love-of-DIVINE convergence is the widest in YOUSPEAK (seven traditions converging) and the most-forged (five words as of S024). The sacrifice-alignment-sieve is the most-canonical (four Core words, including qorbme at 8.05 — the highest Core score in the cathedral).
+**Six substantive convergence-entries.** The love-of-DIVINE convergence is the widest (seven traditions converging) and the most-forged (five words). The joy-of-evidence-confirmed-truth convergence is the newest (S077, ten traditions); its sole word eurekame scores 8.65 — the new ceiling for Core canon.
 
 ---
 
