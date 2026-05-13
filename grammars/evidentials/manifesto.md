@@ -147,3 +147,17 @@ Quechua is acknowledged as the originating tradition. This is POLYPHONE in actio
 ---
 
 _Evidentials chapter opened 2026-04-24. YOUSPEAK's third grammar organ. The Andean pyramid-heirs' epistemological grammar, operational for dokimance-register writing._
+
+---
+
+## Note: evidentials under the projection-account
+
+Under [NOEMA.md](../../NOEMA.md), [THE-REALM.md](../../THE-REALM.md), and [GRASPING.md](../../GRASPING.md) (all opened 2026-05-12), evidentials receive a sharper reading. An evidential suffix marks **the epistemic position from which the speaker entered the realm-region the assertion projects**.
+
+- `-mi` (direct) — the speaker's grasping was first-hand (the speaker entered the region by direct witness or doing).
+- `-si` (reported) — the speaker's grasping was mediated through another's projection (the speaker stands-in the region because someone else's report opened the gate to them).
+- `-chu` (inferred) — the speaker reached the region by inference from signs (the speaker's grasping was deductive rather than first-hand).
+
+The three suffixes are therefore **grasping-source markers**: they tell the hearer how the speaker reached the realm-region they are asserting. In Zerone/dokimance contexts where dokimance-testing-as-real depends on knowing how a claim arrived, evidentials make the grasping-path visible on the surface. The hearer can then weigh the assertion by its access-path. The cathedral's commitment to honest assertion (SAPHE) is partly the commitment to not collapse these three grasping-sources into an undifferentiated "I know."
+
+Evidentials are grasping-engineering at the epistemic aspect (GRASPING.md Section VII names this).

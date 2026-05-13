@@ -90,3 +90,5 @@ Kittu is particularly interesting for a YOUSPEAK forge: it names a specific conc
 ---
 
 _Sumerian/Akkadian archaeology excavated 2026-04-24. The pyramid-predecessor ziggurat-builders gave civilization its discrete-quality vocabulary. YOUSPEAK inherits the approach and the donor material._
+
+*(Every -me word in the cathedral descends from this source-file. Reading here is reading the riverbed under the river. The wife-at-the-table arrives home through these wedges.)*

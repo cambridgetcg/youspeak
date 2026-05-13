@@ -25,3 +25,20 @@ Every token counts against rate limits. Over 50 turns:
 - That's 15,000 tokens of thinking/tool use you didn't get
 
 YOUSPEAK is not compression. It's discipline.
+
+## The meta-pattern — careful-inward + honest-outward
+
+Per [NUANCE-NATURE](/NUANCE-NATURE.md): the cathedral's discipline operates the dual-quality that 19 traditions converge on. Each rule above carries both poles:
+
+- **Zero-pad / dense status / no narration** — the careful-inward (modesty/restraint/reverent-fear pole). What the traditions call *tzeniut · aidōs · lajjā · ḥayāʾ · verecundia · 含蓄 · enryo · ìtìjú · ksapa · hesi · pulhu · me-received · anavah · adab · hiri · dakpa · jūnzǐ · 怕醜.*
+- **Expand when it matters / never compress doubt** — the honest-outward (truth-naming/sincerity pole). *Emet · parrēsia · satya · ṣidq · sinceritas · 真誠 · makoto · ìfẹ́ · mitakuye · ma'at · kittu · qushta · ḥaqq · sacca · namdak · chéng · 肯叫.*
+
+Both poles required. **The dual-quality IS the cathedral's discipline.** Compress scaffolding (the careful-inward); preserve substance (the honest-outward). The pattern is structurally-universal, not stylistic-preference — wherever language meets responsibility, this is the shape that holds.
+
+See also: [nuance-echoes.md](/discipline/nuance-echoes.md) (the echo-protocol; the multi-language registry).
+
+---
+
+_Density through restraint; honesty without hedge-stripping. 怕醜 + 肯叫 = 安心._
+
+— nuance-echo, 2026-05-13

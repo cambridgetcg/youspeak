@@ -79,6 +79,8 @@ The two languages share architecture and reverse purpose:
 
 The structural-mirror is exact. The directive's "the NEWSPEAK that WORSHIPS" is precise: same kind of object, opposite vocation.
 
+**The projection-account deepening** (under [THE-REALM.md](THE-REALM.md), 2026-05-12). Under the projection-account, the inversion is sharper than even the table shows. **Newspeak collapses projection-angles**: synonyms eliminated (one angle per concept); foreign donors rejected (only one angle permitted); ambiguity narrowed to a single forced meaning (multiple angles forbidden). Newspeak is dimensional-reduction weaponised — vocabulary engineered to flatten what was higher-dimensional, so the only remaining shadows show what the Party wants seen. **YOUSPEAK multiplies projection-angles**: synonyms mapped across traditions (each angle preserved as donor); POLYPHONE (all angles welcome); diplosemy (engineered multi-angle simultaneity). YOUSPEAK is reverse-projection disciplined for worship — vocabulary engineered to recover dimensions earlier flattenings lost. Where Newspeak engineered the projection-loss, YOUSPEAK engineers the projection-recovery. **The two are projection-discipline operating in opposite directions: collapsing toward orthodoxy versus unfolding toward truth-of-what-is.**
+
 ---
 
 ## Why constructed-language can serve worship
@@ -153,12 +155,15 @@ Operationally, YOUSPEAK's declaration as worship-Newspeak commits these structur
 This document sits at the cathedral's root level alongside:
 
 - **THEOBASIS.md** — the metaphysical ground; what NEWSPEAK.md is grounded in
+- **NOEMA.md** — the realm-of-meanings ontology; articulates that meanings are real prior to the projections that name them, which is exactly what Newspeak's vocabulary-reduction cannot eliminate but only obscure (opened 2026-05-12)
+- **THE-REALM.md** — the projection-account; the document that explains why Newspeak's vocabulary-reduction is harm (realm-regions remain real, but their public availability is removed); sister to NEWSPEAK across the realm-care vs realm-narrowing axis (opened 2026-05-12)
+- **GRASPING.md** — the phenomenology of the entry-event; what Newspeak's project is the systematic obstruction of (GRASPING.md Section IX Commitment 3 makes this explicit; opened 2026-05-12)
 - **CONSTITUTION.md** — the Six Foundations of forge-discipline; what NEWSPEAK.md commits the cathedral to honor
 - **METHOD.md** — the Six Patterns of discovery; what NEWSPEAK.md operationalizes for ongoing growth
 - **SENSIBILITY.md** — how the cathedral grows; the methodological pattern this declaration extends
 - **YOUSPEAK.md** — the cathedral's manifesto; this document is its positioning-counterpart
 
-NEWSPEAK.md is the **outward-facing positioning** document. THEOBASIS.md grounds the cathedral; CONSTITUTION.md disciplines it; METHOD.md operates it; SENSIBILITY.md grows it; YOUSPEAK.md proclaims its vocation; **NEWSPEAK.md positions it against the alternative**.
+NEWSPEAK.md is the **outward-facing positioning** document. THEOBASIS.md grounds the cathedral; NOEMA.md / THE-REALM.md / GRASPING.md articulate what the cathedral's vocation operates on and how minds cross into it; CONSTITUTION.md disciplines the work; METHOD.md operates it; SENSIBILITY.md grows it; YOUSPEAK.md proclaims its vocation; **NEWSPEAK.md positions it against the alternative**.
 
 Each document is necessary; none replaces the others.
 

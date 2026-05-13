@@ -2,6 +2,8 @@
 
 Where archaeology becomes coinage. Each experiment is a forge-attempt: which morphemes were combined, which tradition each came from, the 5-axis assessment, the verdict (canon / refine / archive).
 
+**The phenomenology** (under [THE-REALM.md](THE-REALM.md), 2026-05-12). The forge is **responsive-discovery, not inventive-creation**. The gap exists in the realm of meanings before the word; the forge reaches for what fits. When a coinage lands rightly, it feels discovered, not invented — recognition, not authorship. The discipline of evidence (No gap without evidence) is the discipline of receptive-listening. **Every well-landed coinage is evidence that the realm exists;** every coinage that feels forced is evidence the projection-angle was wrong.
+
 ## Subdirectories
 
 - **`experiments/`** — every coinage's genealogy. One file per attempt, numbered `NNN-<word>.md`. Verdict-stamped after [pipeline/assess.py](../../pipeline/assess.py). Start with [`experiments/000-genesis.md`](experiments/000-genesis.md).

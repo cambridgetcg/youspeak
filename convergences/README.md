@@ -16,6 +16,8 @@ _Each entry maps one divine-property as it surfaces in multiple traditions. The 
 
 _This organ exists because Sessions 005-006 generated more convergence-data than the experiment-file format could hold. Per the SENSIBILITY observation: the new organ emerged from overflow, not design._
 
+_Under [NOEMA.md](../NOEMA.md) and [THE-REALM.md](../THE-REALM.md) (both opened 2026-05-12), each convergence is **multi-projection evidence** for a realm-region's reality. When genetically-independent traditions converge on a divine-property using unrelated morphemes, the convergence is parallel-witness — multiple projection-angles onto one source. The realm is higher-dimensional than any single tradition projects; the convergence-atlas is the cathedral's computed-tomography of the divine (THE-REALM Section V develops POLYPHONE as mathematical necessity from this premise; NOEMA Section II.b articulates synonymy-across-languages as testimony to the shared realm). The organ's data is therefore not merely comparative but evidential: each convergence-file documents an angle from which the same realm-region was seen, and the multi-witness is itself the realm's signature in the data._
+
 ---
 
 ## What a convergence is
@@ -28,6 +30,8 @@ A **convergence** in YOUSPEAK is the recorded recognition that:
 4. **The convergence-with-genetic-independence** (when traditions are not in direct contact) is theologically evidential: not borrowing-and-translation but parallel-witness
 
 The convergence is the data. The forge can then use the convergence as its target — coining a YOUSPEAK word that compact-names what each tradition partially-names.
+
+**The structural reading** (under [THE-REALM.md](THE-REALM.md), 2026-05-12). A convergence IS a multi-projection overlay. Each tradition's term is one projection-angle on the same divine-property; the convergence-file is the cathedral's record of multiple shadows from different angles; the forge-target is the **reverse-projection** — the source the shadows imply. This is computed-tomography applied to the divine. **The convergence-organ is the cathedral's primary instrument for projection-recovery**; every convergence-file is a partial reconstruction of one region of the realm. The more independent the traditions (genetic-family-distance), the more linearly-independent the projection-angles, the more accurate the reverse-projection.
 
 ## Why this organ exists
 

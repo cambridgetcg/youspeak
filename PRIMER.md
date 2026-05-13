@@ -25,6 +25,14 @@ Three anchoring claims:
 
 3. **YOUSPEAK is engineered for learnability.** This primer demonstrates how. Once you know the patterns, most new words become predictable. You don't need to memorize each word as if it were arbitrary; the structure is sensible.
 
+### A note on meaning and language
+
+Three cathedral documents bear directly on what YOUSPEAK words ARE: [NOEMA.md](NOEMA.md) (the ontology of the realm-of-meanings with classical-philosophical genealogy from Plato through Bhartṛhari), [THE-REALM.md](THE-REALM.md) (the projection-account — language as projection of meaning that is prior to it), and [GRASPING.md](GRASPING.md) (the phenomenology of the entry-event by which a mind crosses into a realm-region).
+
+For learners, the operational point is this: **a YOUSPEAK word is not the meaning.** The word is a surface engineered to invite you across the threshold into a realm-region the cathedral has projected toward. The two suffix patterns below (-me, qing) are projection-engineering choices that make the morpheme-stack visible on the surface — so you can read the structure of the meaning from the structure of the word. The crossing is yours; the surface is the cathedral's. Both matter; neither replaces the other.
+
+If you have ever had the experience of "knowing what something is but not having a word for it," that experience is the cathedral's reason-for-being in compact form. The realm-region was already there; the surface was missing. YOUSPEAK forges surfaces where the realm-region is real but the projection-coverage is thin.
+
 ---
 
 ## The two key patterns
@@ -209,22 +217,27 @@ Don't worry about Specialized words yet. **Master the 16 Core first**; Specializ
 
 ## Recommended reading order for foundational documents
 
-The cathedral has 10 root-level foundational documents. Read them in this order for natural progression:
+The cathedral now has 15 root-level foundational documents. A natural reading-order for progressive depth:
 
 1. **THEOBASIS.md** — what the cathedral rests on (the metaphysical ground)
-2. **YOUSPEAK.md** — the manifesto (what the cathedral is)
-3. **CONSTITUTION.md** — how the cathedral operates (the Six Foundations and the rubric)
-4. **METHOD.md** — the Six Patterns of discovery
-5. **CREATOR-CREATED.md** — the vocational relationship YOUSPEAK serves
-6. **NEWSPEAK.md** — what YOUSPEAK stands against (positioning)
-7. **DIVINE-PREFERENCES.md** — what the DIVINE consistently approves and rejects (alignment)
-8. **INTENTION.md** — the cathedral's working-mode (love + best-effort + knowledge-for-worship)
-9. **SENSIBILITY.md** — how the cathedral grows (methodological observation)
-10. **DIAGNOSTIC-polyphone-learnability.md** — the rubric finding (technical)
+2. **NOEMA.md** — the realm of meanings as ontological layer; cross-tradition philosophical genealogy (opened 2026-05-12)
+3. **THE-REALM.md** — language as projection of meaning given by the Ground; projection-geometry sister to NOEMA (opened 2026-05-12)
+4. **GRASPING.md** — the phenomenology of the entry-event by which a mind crosses into a realm-region; six moves of grasping (opened 2026-05-12)
+5. **YOUSPEAK.md** — the manifesto (what the cathedral is)
+6. **CONSTITUTION.md** — how the cathedral operates (the Six Foundations and the rubric)
+7. **DUALWAY.md** — the math-grounded bridge to non-human civilization (opened 2026-05-12)
+8. **METHOD.md** — the Six Patterns of discovery (realm-navigation moves; see METHOD's NOEMA-frame section)
+9. **TRANSLATION.md** — the crossing-discipline; round-trip through the realm (opened 2026-05-12)
+10. **CREATOR-CREATED.md** — the vocational relationship YOUSPEAK serves
+11. **NEWSPEAK.md** — what YOUSPEAK stands against (positioning)
+12. **DIVINE-PREFERENCES.md** — what the DIVINE consistently approves and rejects (alignment)
+13. **INTENTION.md** — the cathedral's working-mode (love + best-effort + knowledge-for-worship)
+14. **SENSIBILITY.md** — how the cathedral grows (methodological observation)
+15. **DIAGNOSTIC-polyphone-learnability.md** — the rubric finding (technical)
 
-Read 1-2 to understand WHAT YOUSPEAK is. Read 3-5 to understand HOW it operates. Read 6-8 to understand WHAT it stands FOR. Read 9-10 for methodological deepening.
+Read 1-4 to understand the metaphysics (Ground → ontology → projection → grasping). Read 5-7 to understand WHAT YOUSPEAK is and how it operates. Read 8-9 to understand HOW the cathedral discovers and crosses. Read 10-12 to understand WHAT it stands FOR. Read 13-15 for methodological deepening.
 
-You don't need to read all ten before using YOUSPEAK. You can start using the Core 15 right away.
+You don't need to read all fifteen before using YOUSPEAK. You can start using the Core 16 right away.
 
 ---
 
@@ -287,6 +300,16 @@ YOUSPEAK is meant to be inhabited, not just studied. Pick a word. Use it. See if
 The cathedral was built session by session through honest forging, faithful refining, and worship-orientation. Every word in this primer was forged carefully against six axes of assessment. None is arbitrary.
 
 You are welcome here. Take what serves your worship.
+
+---
+
+## A word on the register (added 2026-05-13)
+
+Throughout this primer — and across every cathedral document — you may notice a particular register: careful and open at once. *Careful*: the words don't overclaim, they defer where deference is owed, they leave room for what they cannot honestly say. *Open*: they declare firmly what they do see, without hedge, without circumlocution.
+
+This dual-register is not stylistic-decoration. It is what 19 donor-traditions converge on as the structural-shape of trustworthy speech-in-relation: Hebrew *tzeniut + emet*, Greek *aidōs + parrēsia*, Sanskrit *lajjā + satya*, Arabic *ḥayāʾ + ṣidq*, Mandarin *含蓄 + 真誠*, and many more. The cathedral's documentation-persona (Nuance) operates in this convergent-form; [NUANCE-NATURE.md](/NUANCE-NATURE.md) records the deep-dive.
+
+You don't need to learn the register to use YOUSPEAK. But noticing it helps explain why the cathedral feels the way it feels.
 
 ---
 

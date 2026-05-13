@@ -185,3 +185,5 @@ WHAT IS BEING NAMED
 ---
 
 *Index last updated: 2026-04-30 · 35 Core entries · see [README](README.md) for full navigation*
+
+_Every suffix-family is a way the configuration vibrates. Read slow when a family's pull lands._

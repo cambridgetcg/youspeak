@@ -190,6 +190,26 @@ _Forms: echotruthful (adj.), echotruthfully (adv.)_
 
 ---
 
+### eikonme
+**EYE-kon-meh** | _noun (uncountable in the abstract sense; count forms when naming specific instances)_
+
+The image as received-ordinance participatory-projection — visual morphame specialized to the image-medium; the visual form that participates in its prototype rather than merely representing it.
+
+Eikonme names the visual-image projection-form across all traditions: the Orthodox icon, the Catholic Madonna, the Buddhist Buddha-rūpa, the Hindu murti, the Tibetan thangka, the Yoruba sacred sculpture, the Japanese mandala-painting. Each is an eikonme in its specific tradition. The patristic-Orthodox tradition's distinctive theological contribution: **the image participates in its prototype**, not merely represents it. Basil the Great's formula: "The honor paid to the eikōn passes through to the prototype."
+
+**Five features combine:** (1) visual medium — projection into the painterly/sculptural aperture; (2) participatory not representational — patristic icon-doctrine; (3) canonical form — received from tradition; (4) theologically active — Basil's honor-passing formula; (5) cosmic scope — from humanity-as-eikōn-theou (Genesis 1:26-27) through Christ-as-eikōn (Colossians 1:15) to icons of saints.
+
+**Eight-plus traditions confirm:** Orthodox iconography (deepest), Catholic religious imagery, Buddhist Buddha-rūpa, Hindu murti, Tibetan thangka, Yoruba sacred sculpture, Japanese mandala-painting, Egyptian sacred-relief, Maya glyph-image-integration, Islamic calligraphic rendering of divine Names. The cathedral's own glyph-discipline (script/philosophy.md) is a sub-domain: YOUSPEAK glyphs are small-scale linguistic-iconic eikonme.
+
+**Third medium-specific morphame child** (after liturgiame's synthesis-pole and sigame's apophatic-pole). The visual-image specialization of morphame within POLYMORPHIA's projection-spectrum.
+
+_Domain: visual-projection / worship-register — image as participatory cosmic-gift_
+_Etymology: Greek eikōn (εἰκών; image, likeness; Genesis LXX humanity-as-eikōn-theou; Pauline Christ-as-eikōn; patristic icon-theology through iconoclastic-controversy resolution at Nicaea II 787; modern Orthodox renaissance — Ouspensky, Lossky, Evdokimov; source of English icon, iconography, iconoclasm) + Sumerian me (𒈨; divine-ordinance, cosmic-gift)._
+_Forms: eikonme (n.), eikonmant (adj.; "an eikonmant gaze"), eikonmantly (adv.)_
+_Forge record: labs/logos/experiments/core/169-eikonme.md — scored 8.65/10 on v2 6-axis rubric (gap_validity 9, learnability 8, clarity_yield 8, semantic_coverage 9, polyphone_balance 9, groundedness 9). Tied with several -me Core forges for highest score. Eighteenth -me family member. The visual-image specialization of morphame. See archaeology/greek/eikon-image-as-projection.md, convergences/multi-modal-projection-of-meaning.md, POLYMORPHIA.md._
+
+---
+
 ### etzemance
 **et-ZEM-ance** | _noun (uncountable; count forms: an etzemance, etzemances)_
 
@@ -314,9 +334,89 @@ Four simultaneous readings:
 3. Seeing glory
 4. The state of being made evident
 
+### glossame
+**GLOS-uh-meh** | _noun (uncountable in the doctrinal sense; count forms when naming specific tongues: "the Hebrew glossame," "the Yoruba glossame")_
+
+A tongue understood as received-ordinance; each LANGUAGE as cosmic-gift to a specific people, carrying their specific theophanic trace.
+
+Glossame names the worship-grade reality that each natural human language is a theophanic-trace gifted to its people. Hebrew is the Israelite people's glossame, bearing the trace of covenantal-personal theophany. Sanskrit is the Vedic-Hindu people's glossame, bearing the trace of consciousness-being-bliss theophany. Arabic is the Quranic people's glossame, bearing the trace of transcendent-monotheistic theophany. Sumerian is the Mesopotamian glossame, bearing the trace of divine-ordinance theophany. Every natural language is a glossame — a gift carrying a specific encounter.
+
+**Five features must combine:** (1) tongue-as-received — the language was given, not invented; the people are stewards; (2) trace-bearing — the distinctive vocabulary preserves the specific theophanic encounter; (3) people-defining — a glossame binds a specific people into a linguistic community; (4) plurality-preserved — the gift-character does not collapse into one universal tongue (the Pentecost-pattern); (5) worship-grade — the cosmic-gift register applies; speaking the tongue is participation in what was given.
+
+**Eleven traditions confirm the gap:** Hebrew lashon hakodesh; Greek Pentecost-and-patristic glōssa (Acts 2: tongues of fire, each hearing in their own tongue); Sanskrit vāc + śabda-brahman + apauruṣeya Veda; Quranic Arabic lisān ʿarabī mubīn; Sumerian eme-gir + me-bestowal; Egyptian medu-netjer (divine words / hieroglyphs); Japanese kotodama (word-spirit); Chinese wén-as-cosmic-pattern; Yoruba àṣẹ-in-speech; Polynesian mana-in-name-and-word; Old Norse runes-as-Odin's-sacrifice. Every tradition that has reflected theologically on its own language affirms the divine-gift character. None had compact-named the universal doctrine as received-ordinance.
+
+**Keystone vocabulary-yield of GLOSSAI.md** — the cathedral's twelfth root-level foundational document. Under GLOSSAI: paths overlap because the realm is ONE (THEOBASIS); uniqueness originates in the DIVINE's specific self-disclosure to each people; POLYPHONE is faithful gathering of glossames. The cathedral re-enacts Pentecost with every forge that weaves multiple glossames into one new gate.
+
+_Domain: metaphysical-linguistic / worship-register — a tongue as theophanic-trace, received as cosmic-gift_
+_Etymology: Greek glōssa (γλῶσσα; tongue, language, idiom; the bodily organ and the cultural-linguistic identity simultaneously; Pentecost-affirmed plural glōssai as the Spirit's gift; source of English gloss, glossary, glossolalia, polyglot) + Sumerian me (𒈨; divine-ordinance, cosmic-gift; YOUSPEAK standard received-ordinance suffix; also doubly appropriate because Sumerian itself — eme-gir, the noble tongue — is among the earliest attested tongues to have named itself as theologically charged)._
+_Forms: glossame (n.), glossamant (adj.; "a glossamant tradition"), glossamantly (adv.). Plural: glossames (the cathedral's full polyphone roster of donor-tongues)._
+_Forge record: labs/logos/experiments/core/165-glossame.md — scored 8.65/10 on v2 6-axis rubric (gap_validity 9, learnability 8, clarity_yield 8, semantic_coverage 9, polyphone_balance 9, groundedness 9). Tied with eurekame and noemame for highest -me family score. Fourteenth -me family member. The keystone vocabulary-yield of GLOSSAI.md. Bridges THEOBASIS (Ground) → NOEMA (realm) → CONSTITUTION (faithful projection) at the linguistic-metaphysical layer. See archaeology/greek/glossa-tongue-as-gift.md, convergences/tongue-as-theophanic-trace.md, GLOSSAI.md._
+
+---
+
+## L
+
+### liturgiame
+**lih-TUR-jee-uh-meh** | _noun (uncountable in the abstract sense; count forms when naming specific instances)_
+
+The coordinated multi-modal projection-act, received as cosmic-gift: the highest projection-form, where multiple media (language + music + image + gesture + scent + light + time + space + embodied participation) coordinate into one synthetic act of worship.
+
+Liturgiame names the worship-event in which multiple morphame across multiple media coordinate into one synthetic projection-act. The Orthodox Divine Liturgy is the paradigm: language + music + iconography + gesture + architecture + scent + light + temporal structure + embodied participation all coordinate. Cross-tradition: Catholic Mass, Hindu pūjā, Buddhist Vajrayāna puja, Sufi ḥaḍrah, Jewish festival observance, Yoruba orisha-worship, Japanese matsuri, Indigenous Australian songline-ceremony.
+
+**Five features combine:** (1) multi-modal coordination — multiple media operate simultaneously and integrated; (2) synthesis-irreducible — the integrated act exceeds what any single mode could project; (3) public-communal — cannot be private; the laos (people) performs together; (4) received-form — synthesis-pattern received from tradition and ultimately from the Ground; (5) worship-grade — the highest single act of worship-projection.
+
+**First medium-specific morphame child** (S078). The synthesis-pole of the projection-spectrum, with sigame as apophatic-pole counterpart. Together they articulate POLYMORPHIA's full projection-spectrum.
+
+The modern-Orthodox theological articulation: leitourgia is the **highest synthesis of human arts** — not as aesthetic claim but as theological claim that the multi-modal projection most-faithfully reaches the realm-regions worship aims at. Schmemann, Afanasiev, Evdokimov develop this systematically.
+
+_Domain: multi-modal-synthesis / worship-register — coordinated worship-act as cosmic-gift_
+_Etymology: Greek leitourgia (λειτουργία; laos + ergon = work-of-the-people; 2,500-year multi-phase development: Athenian civic-religious public-service → Septuagint priestly avodah → NT Christological + apostolic + congregational use → patristic Eucharistic technical term → Maximian cosmic-recapitulation → modern-Orthodox highest-synthesis-of-human-arts) + Sumerian me (𒈨; divine-ordinance, cosmic-gift)._
+_Forms: liturgiame (n.), liturgiant (adj.; "a liturgiant sequence"), liturgiantly (adv.)_
+_Forge record: labs/logos/experiments/core/167-liturgiame.md — scored 8.65/10 on v2 6-axis rubric (gap_validity 9, learnability 8, clarity_yield 8, semantic_coverage 9, polyphone_balance 9, groundedness 9). Tied for highest -me family score. Sixteenth -me family member. First medium-specific morphame child. The multi-modal-synthesis specialization. See archaeology/greek/leitourgia-public-work.md, convergences/multi-modal-projection-of-meaning.md, POLYMORPHIA.md._
+
 ---
 
 ## M
+
+### mathemame
+**MATH-uh-muh-meh** | _noun (uncountable; count forms: a mathemame, mathemames)_
+
+The learned-truth received as cosmic-gift; the settled possession-by-reception that long discipline yields — the abiding state of being a faithful vessel for what discipline has yielded.
+
+Mathemame names what long discipline produces in its faithful practitioner: a state in which the content of the discipline is held as cosmic-gift rather than personal achievement. The mathematician who has spent decades in a field. The contemplative who has long inhabited a teaching-tradition. The artisan whose hands have received the form of the craft through years of apprenticeship. Each is in mathemame with respect to their discipline.
+
+**Five features must combine:** (1) discipline-mediated — yield of long sustained practice; (2) received, not produced — registers as gift even after hard work; (3) abiding state — perfect-aspect register ("I am in the state of having-learned"); (4) tradition-implicated — chain of transmission is structurally constitutive; (5) worship-grade — held as cosmic-ordinance, not personal credit.
+
+**Ten traditions confirm the gap:** Greek mathēma + memathēka; Hindu śāstra; Confucian xué (學); Sufi taʿallum + silsila; Buddhist śikṣā; Jewish talmud Torah; Egyptian sebau; Christian discipulus + paradosis; mathematical theorem-received-as-gift (Poincaré, Ramanujan, Wiles); artisanal form-received-through-apprenticeship (shokunin). None compact-named the structure as received-ordinance.
+
+**Completes the received-truth quartet** (eurekame + noemame + yonedame + mathemame): event-of-joy + event-of-meaning + state-of-relation + state-of-discipline-yield. **First inhabitant of canon/mathema/** — the domain opened S078 under the POLYPHONE Generalization.
+
+_Domain: mathema (canon/mathema/) — worship-vocabulary for received-truth-by-discipline; the keystone of the domain_
+_Etymology: Greek mathēma (μάθημα; that-which-is-learned; from manthanō, to learn; PIE *\*mendh-* "to direct one's mind toward"; pre-Platonic sense was anything-learnable-by-discipline; perfect-aspect memathēka encodes the abiding state of having-learned) + Sumerian me (𒈨; divine-ordinance, cosmic-gift). The English "math" is cognate — universally recognizable, giving the word a built-in mnemonic anchor._
+_Forms: mathemame (n.), mathemant (adj.; "a mathemant state"), mathemantly (adv.)_
+_Forge record: labs/logos/experiments/core/163-mathemame.md — scored 8.35/10 on v2 6-axis rubric (gap_validity 8, learnability 9, clarity_yield 8, semantic_coverage 8, polyphone_balance 8, groundedness 9). Twelfth -me family member. The keystone-and-first-inhabitant of canon/mathema/. See archaeology/greek/mathema-learning.md and convergences/learned-truth-as-received.md._
+
+---
+
+### morphame
+**MOR-fay-meh** | _noun (uncountable in the doctrinal sense; count forms when naming specific instances)_
+
+A form/instance of projection from the realm of meanings into any medium, as received-ordinance: a word, a song, an icon, a dance, a ritual sequence, a built form, a structured silence — each is a morphame in its specific medium, received as cosmic-gift form-bestowal.
+
+Morphame names what every successful meaning-projection IS. A linguistic morphame is a glossame's word; a musical morphame is a Bach chorale; a visual morphame is an Orthodox icon; a choreographic morphame is a Mevlevi turn; a ritual morphame is a Eucharistic anaphora; an architectural morphame is a Cistercian monastery; a temporal morphame is a Sabbath; an apophatic morphame is a Noble Silence; a mathematical morphame is the Yoneda lemma.
+
+**Five features must combine:** (1) form-as-constituted — Aristotle's formal cause; what makes the instance be of its kind; (2) projection-from-realm — Plotinus's descent from Nous; participation in source; (3) medium-neutral — applies uniformly to all projection-media; (4) received-as-gift — Christ-hymn's morphē-projection (Philippians 2:6-8) at the deepest case; (5) participatory — patristic icon-theology: the form participates in its prototype, not merely represents it.
+
+**Eleven traditions confirm the gap:** Greek morphē; Hindu rūpa (multi-modal Hindu worship); Buddhist rūpa (especially Vajrayāna); Sufi ṣūra-maʿnā; Confucian lǐ-yuè-wén triad; Yoruba multi-modal orisha-worship; Indigenous Australian songlines; Orthodox Christian liturgy as multi-modal synthesis; Jewish multi-modal observance; Japanese kata-doctrine across many media; mathematical formalism. None compact-named the general concept as received-ordinance.
+
+**Keystone vocabulary-yield of POLYMORPHIA.md** — the cathedral's thirteenth root-level foundational document, articulating the doctrine that meaning projects into many media (language is one; music, visual art, dance, ritual, embodied skill, built environment, structured time, and silence are others); the mechanism of projection (apprehension → translation-toward-medium → inscription → transmission → re-apprehension) is uniform across media; POLYPHONE acquires its broadest interpretation as cross-modal gathering. Morphame generalizes glossame: every glossame is a kind of morphame; morphame includes all non-language projection-instances.
+
+_Domain: metaphysical-cross-modal / worship-register — any form-projection from the realm into any medium, as received-ordinance_
+_Etymology: Greek morphē (μορφή; form, constituted shape; Aristotle's formal cause; Plotinus's descent-from-Nous; Paul's Christ-hymn morphē theou / morphē doulou; patristic iconographic morphē-as-participation; source of English morphology, metamorphosis, polymorphic, morpheme, isomorphism) + Sumerian me (𒈨; divine-ordinance, cosmic-gift; YOUSPEAK standard received-ordinance suffix)._
+_Forms: morphame (n.), morphamant (adj.; "a morphamant icon"), morphamantly (adv.). Plural: morphame (cathedral usage: the cathedral's full polyphone roster of projection-instances across media)._
+_Forge record: labs/logos/experiments/core/166-morphame.md — scored 8.65/10 on v2 6-axis rubric (gap_validity 9, learnability 8, clarity_yield 8, semantic_coverage 9, polyphone_balance 9, groundedness 9). Tied with eurekame, noemame, glossame for highest -me family score. Fifteenth -me family member. The keystone vocabulary-yield of POLYMORPHIA.md. Bridges all metaphysical foundational documents (THEOBASIS → NOEMA → POLYMORPHIA → GLOSSAI → CONSTITUTION) at the cross-modal projection layer. Generalizes glossame. Opens the morphame-family of future medium-specific forges (mousikame, eikonme, mudrame, choreame, liturgiame, sigame, archime, technēme, chronoame). See archaeology/greek/morphe-form-as-projection.md, convergences/multi-modal-projection-of-meaning.md, POLYMORPHIA.md._
+
+---
 
 ### mortescence
 **mor-TES-ence** | _noun (uncountable; count forms rare but possible: a mortescence, mortescences)_
@@ -380,6 +480,26 @@ _Forge record: [experiment 154](labs/logos/experiments/core/154-nommome.md) · [
 
 ---
 
+### noemame
+**noh-AY-muh-meh** | _noun (uncountable; count forms: a noemame, noemames)_
+
+The grasped-meaning, received as cosmic-gift; the phenomenological event of crossing from language-projection into the realm of meanings, registered as received-ordinance rather than cognitive achievement.
+
+Noemame names the moment a meaning *arrives*. Not the preparation that preceded it (the reading, the attending, the working), not the after-state that follows (the now-knowing), but the specific phenomenological event in which the mind crosses from the projection (the word, the proof, the parable, the glyph) into the meaning it points at. The joke that clicks. The proof that lands. The poem that opens. The contemplative's recognition. The YOUSPEAK word that lands in trial-reading.
+
+**Five features must combine:** (1) event-structured — a moment, distinguishable from time-spent-at-the-projection-surface; (2) realm-entry not acquisition — the meaning was already in the realm; the mind has crossed into it; (3) projection-distinguished — the gate is not the country; the grasping is the transition through the gate; (4) received as gift — the moment arrives; preparation makes it more likely but does not produce it; (5) permanent in the after-state — once crossed, the realm-region is now part of what the grasper can return to.
+
+**Ten traditions confirm the gap:** Plato's anamnesis-into-noētos-kosmos; Aristotle's nous-grasping-universals; Stoic lekta-as-incorporeal-meanings; Plotinian touching-of-Nous; Augustinian illumination; Bonaventuran exemplarism; Thomistic verbum-mentis; Fregean grasping-of-Gedanken; Husserlian noēsis-noēma-correlation + Wesensanschauung; Bhartṛharian sphoṭa-as-burst-of-meaning. None compact-named the event as received-ordinance.
+
+**Keystone vocabulary-yield of NOEMA.md** — the cathedral's eleventh root-level foundational document, declaring the realm-of-meanings ontology. Under NOEMA: gaps are unprojected meanings; forges are gate-construction; grasping is gift.
+
+_Domain: phenomenology / worship-register — the entry-event into the realm of meanings, received as cosmic-gift_
+_Etymology: Greek noēma (νόημα; that-which-is-grasped-by-mind; from noein, to grasp intellectually; PIE *\*ǵneh₃-* "to know"; twenty-five hundred years of philosophical lineage from Plato through Aristotle, Plotinus, the Stoics, Augustine, Bonaventure, Aquinas, Frege, Husserl) + Sumerian me (𒈨; divine-ordinance, cosmic-gift; YOUSPEAK standard received-ordinance suffix). The phonetic rhyme of Greek -ma and Sumerian -me produces a smoothly-flowing compound (noe-ma-me) with stress on the second syllable, consistent with eurekame and yonedame._
+_Forms: noemame (n.), noemant (adj.; "a noemant arrival"), noemantly (adv.)_
+_Forge record: labs/logos/experiments/core/162-noemame.md — scored 8.65/10 on v2 6-axis rubric (gap_validity 9, learnability 8, clarity_yield 8, semantic_coverage 9, polyphone_balance 9, groundedness 9). Tied with eurekame for highest -me family score to date. Opens the noetic-entry arc (third major worship-arc alongside discovery-arc and relational-ontological arc): (preparation) → anagnoristasis → noemame → metastrophesis / doxomme / athaumasma. Eleventh -me family member. See archaeology/greek/noema-realm-of-grasped.md and convergences/grasping-as-realm-entry.md and NOEMA.md._
+
+---
+
 ## K
 
 ### kinowing
@@ -422,6 +542,47 @@ _Etymology: Latin retro (backward) + sequentia (that which follows). A sequence 
 ---
 
 ## S
+
+### sigame
+**SEE-guh-meh** | _noun (uncountable in the abstract sense; count forms when naming specific instances)_
+
+Structured silence as received-ordinance — the apophatic projection-medium, where the realm projects through what is withheld rather than what is uttered. The negative-pole companion to liturgiame's synthesis-pole.
+
+Sigame names structured silence as a real projection-medium. Not absence-of-speech (which Greek calls *siōpē*) but silence-doing-positive-work — the hesychast's silent Jesus Prayer, the Buddhist Noble Silence, the Quaker silent meeting, the Trappist night-silence, the Sufi *dhikr khafi*, the Carmelite interior silence, the Hebrew *dumiyah* of Psalm 62, the Hindu *mauna* of Ramana Maharshi.
+
+**Five features combine:** (1) structured not mere absence — silence as positive-presence; (2) apophatic register — signifying through what is withheld; (3) discipline-cultivated — hesychast nēpsis, Buddhist meditation, Trappist vow, Sufi heart-discipline, Quaker waiting-on-the-Spirit; (4) theologically active — Ignatius of Antioch's "able to hear his silence"; (5) received-form — the silence-pattern received from tradition.
+
+**Second medium-specific morphame child** (after liturgiame). The apophatic-pole companion: where liturgiame projects through coordinated multi-modality, sigame projects through structured withholding. Both are real; both received as cosmic-gift.
+
+The cathedral's existing apophatic-discipline (NEWSPEAK.md, grammars/worship/silence.md) is theologically grounded in sigame.
+
+_Domain: apophatic-projection / worship-register — structured silence as cosmic-gift_
+_Etymology: Greek sigē (σιγή; structured silence; distinguished from siōpē by contemplative-ritual register; Plotinian silence before the One; Pseudo-Dionysian apophatic culmination; hesychast tradition's comprehensive silence-doctrine; related to hēsychia, source of hesychasm) + Sumerian me (𒈨; divine-ordinance, cosmic-gift)._
+_Forms: sigame (n.), sigamant (adj.; "a sigamant hour"), sigamantly (adv.)_
+_Forge record: labs/logos/experiments/core/168-sigame.md — scored 8.45/10 on v2 6-axis rubric (gap_validity 9, learnability 7, clarity_yield 8, semantic_coverage 9, polyphone_balance 9, groundedness 9). Seventeenth -me family member. The second medium-specific morphame child. The apophatic-pole of the projection-spectrum. See archaeology/greek/sige-structured-silence.md, convergences/multi-modal-projection-of-meaning.md, POLYMORPHIA.md._
+
+---
+
+### sphotame
+**SPO-tuh-meh** | _noun (uncountable; count forms: a sphotame, sphotames)_
+_Scholarly orthography: sphoṭame (with diacritic ṭ for retroflex)_
+
+The burst-of-meaning event, received as cosmic-gift; the instant of crystallization in which meaning flashes forth as a unitary whole — the event-pole of the noetic-entry arc.
+
+Sphoṭame names the moment of crystallization itself. Where noemame names the content arrived and the abiding state of having-arrived, sphoṭame names the instant in which the arrival happens — the burst in which the meaning bursts forth as a unitary whole. The pause before the laugh erupts. The instant the proof's structure clicks. The moment the koan resolves. The flash when a poem's unity is grasped. Sphoṭame is what happens between anagnoristasis (suspended near-knowing) and noemame (the content-arrived).
+
+Bhartṛhari (5th c. CE), in his *Vākyapadīya*, gave Indian philosophy of language its most precise term for this event: *sphoṭa*, the unitary meaning-bearer that flashes forth at comprehension. Phonemes are temporal-sequential; the meaning is grasped as a unity; the unity is the sphoṭa — direct, whole, given, not constructed from parts. Three levels in Bhartṛhari: varṇa-sphoṭa (phoneme-unity), pada-sphoṭa (word-unity), vākya-sphoṭa (sentence-unity, the deepest).
+
+**Four features combine:** (1) instant unity — meaning arrives whole, not in parts; (2) burst-character — breaking-forth, not gradual accumulation; (3) event-distinguishable — the moment, distinct from content arrived and after-state; (4) received-as-gift — not willed; the burst arrives, the cosmic-gift register applies.
+
+**Completes the noetic-entry arc** at the threshold. Pair with noemame: sphoṭame is the event-pole (the burst); noemame is the content-pole (what arrives + the state of having-it). Cross-tradition convergence shared with noemame (`convergences/grasping-as-realm-entry.md` — 10 traditions, Bhartṛhari is tradition #10).
+
+_Domain: phenomenology / noetic-entry arc — the burst-event of meaning-arrival, received as cosmic-gift_
+_Etymology: Sanskrit sphoṭa (स्फोट; the burst; from sphuṭ- "to burst, to break open"; PIE *\*(s)peu-* "to spit, to drive forth" — cognate with English "split" and "spout"; Bhartṛhari Vākyapadīya 5th c. CE; rooted in Śabda-Brahman metaphysics) + Sumerian me (𒈨; divine-ordinance, cosmic-gift). Three syllables — brevity appropriate to the event-pole; the burst is brief, the word is brief._
+_Forms: sphotame (n.), sphotant (adj.; "a sphotant instant"), sphotantly (adv.)_
+_Forge record: labs/logos/experiments/core/164-sphotame.md — scored 8.45/10 on v2 6-axis rubric (gap_validity 9, learnability 7, clarity_yield 8, semantic_coverage 9, polyphone_balance 9, groundedness 9). Thirteenth -me family member. The event-pole companion to noemame; completes the noetic-entry arc at the threshold. See archaeology/sanskrit/sphota-burst-of-meaning.md._
+
+---
 
 ### suffillment
 **suh-FILL-ment** | _noun_
@@ -499,6 +660,26 @@ The beauty that is indistinguishable from truth — the aesthetic quality where 
 _Domain: divine aesthetics_
 _Etymology: Latin veritas (truth) + splendor (radiant beauty)_
 _Status: candidate — reaches 3/7 required qualities for the divine beauty gap_
+
+---
+
+## Y
+
+### yonedame
+**yoh-NAY-duh-meh** | _noun (uncountable; count forms: a yonedame, yonedames)_
+
+The structural state of being-fully-known-through-relation, where the knowing exhausts the known and is received-as-given rather than produced — the prior ontological condition that "being seen," "being understood," and "being loved" all participate in but none alone names. The structural completion of identity through relational saturation, received as the form of how being works in the relevant register.
+
+The mathematical Yoneda lemma (Nobuo Yoneda, 1954) proves with full rigor that an object IS the totality of its relations to all other objects in its world: there is no further essence behind the relational profile; the pattern IS the thing. Yonedame takes that structural insight and names the lived state of being in such a relational profile, when the relational saturation is complete and the knowing it constitutes is *me*-grade — bestowed, not produced.
+
+**Distinction from neighbours:** Not "intimacy" (affective, not structural). Not "communion" (Christian-specific register). Not "recognition" (momentary-event, not abiding-state). Not "being seen" (sensory). Not "being understood" (cognitive). Not "mutual indwelling" (phrasal, Cappadocian-tradition-loaded). Each of these names a partial-feature of yonedame; yonedame names the structural-completeness × received-as-gift × perfect-aspect combination none alone reaches.
+
+**Ten traditions confirm the gap:** Hebrew *yadaʿ* (Psalm 139); Johannine knowing (John 10:14-15; Cappadocian *relationes subsistentes*); Sufi *maʿrifah* (*ʿarafa nafsa-hu fa-qad ʿarafa rabba-hu*; Ibn ʿArabī); Hindu *sat-cit-ananda* + Advaita Vedanta; Buddhist *pratītyasamutpāda* + Hua-yen's Indra's Net; Confucian *rén* (仁 = 人 + 二); Yoruba *orí* (community-witnessed destiny); Christian Trinitarian doctrine (persons-as-relations); Whitehead/Hartshorne process ontology; mathematical Yoneda. None compact-named the convergent structure. Yonedame does.
+
+_Domain: relational ontology / worship-register — being-fully-known as ontological state, received as cosmic-gift_
+_Etymology: Mathematics:Yoneda (米田; the Yoneda lemma — Nobuo Yoneda, 1954; proves an object IS its relational profile) + Sumerian me (𒈨; divine-ordinance, cosmic-gift, the YOUSPEAK received-ordinance suffix). Full morphological read: [yone-][da-][-me] = the Yoneda-relation as received-as-cosmic-gift. The accidental Japanese decomposition (米 rice + 田 field = "rice field," the cultivated relational ground that bears the staple) is mnemonic grace, not load-bearing — but it rhymes with the concept._
+_Forms: yonedame (n.), yonedant (adj.; "a yonedant union"), yonedantly (adv.)_
+_Forge record: labs/logos/experiments/core/161-yonedame.md — scored 8.30/10 on v2 6-axis rubric (gap_validity 9, learnability 7, clarity_yield 8, semantic_coverage 9, polyphone_balance 9, groundedness 8). First forge under the POLYPHONE Generalization (METHOD.md §S078): first time the cathedral receives from a discipline-donor (mathematics) rather than a tongue-donor. Establishes that any discipline rigorous about naming relation faithfully qualifies as a donor tradition, whether or not the namers themselves understood the discipline as worship. Tenth -me family member post-eurekame. Opens the relational-ontological arc (state-pole) paired with the discovery-arc (epistemic). See archaeology/mathematics/yoneda-relational-being.md and convergences/being-fully-known-through-relation.md._
 
 ---
 

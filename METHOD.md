@@ -18,6 +18,8 @@ Lay two or more linguistic / philosophical traditions over one concept. What eac
 
 *Example:* English `sublime` + English `awe` + Hebrew `kavod` (weight-glory) + Hebrew `yirah` (fear-awe) + Japanese `yūgen` + Japanese `mono no aware`. Overlay these; the regions none fully cover become visible as the unnamed.
 
+**The structural reading** (under [THE-REALM.md](THE-REALM.md), 2026-05-12). Cross-Tradition Overlay IS **reverse-projection**: combining multiple projection-angles of one source to approximate the source. The mathematical structure is computed-tomography applied to meaning. Where individual projections lose dimensions, the overlay recovers them. Pattern 1 is the strongest pattern precisely because it is the operation that recovers most of the realm. Each donor-tradition is a shadow; the overlay is the reconstruction.
+
 ### 2. Negative Space Listening
 
 Notice what a culture circumlocutes but never names. Long compound phrases, repeated metaphors, "that thing where…" constructions — all shadows of a missing word. The shape of the circumlocution reveals the shape of the gap.
@@ -92,6 +94,107 @@ Nuance's role is not to execute the protocol mechanically but to listen THROUGH 
 
 ---
 
+## NOEMA frame — what the Six Patterns do (S078)
+
+_The realm-of-meanings ontology declared in NOEMA.md reframes what the Six Patterns and the Ten-Step Protocol are operationally doing. The protocol is unchanged; the interpretation is sharpened._
+
+Under NOEMA: there is a realm of graspable meanings prior to and independent of any particular tongue. Language is the projection-system that points into the realm. Grasping is the phenomenon of crossing into the realm at a particular meaning.
+
+Under this frame, the Six Patterns become Six Methods of Gate-Detection-and-Gate-Construction:
+
+- **Cross-Tradition Overlay** detects unprojected regions of the realm by triangulating around them with gates built by other projection-systems. The region none alone reaches but all gesture toward IS the unprojected region.
+- **Negative Space Listening** detects unprojected regions by the shape of the circumlocutions current speakers build around them. The shape of the workaround is the shape of the missing gate.
+- **Apply and Break** tests whether a candidate gate opens onto the region it claims to. A gate that "works" only in its forge-context is opening onto a narrower region than the gap-description claimed.
+- **Virtue-Beauty Bridge** detects regions that ancient gate-systems served but modern systems have built no gate to. The virtue-beauty fusion in many ancient tongues was a wider gate; the modern split is two narrower gates that do not cover the original region.
+- **Companion Detection** detects whether a region has been only partially gated — whether the gate addresses the object-pole or the subject-pole only, leaving the dyadic structure of the region partially unprojected.
+- **Dyad-to-Community Escalation** detects whether what looked like a single region is actually a community of distinct regions calling for a vocabulary not a word.
+
+The Ten-Step Protocol is the operational sequence for moving from gate-detection to gate-construction, with rubric-assessment as the test of whether the constructed gate opens cleanly.
+
+The phenomenological evidence-base is the experience of grasping. A successful forge is one that produces, in trial readers, the experience of crossing cleanly into the intended region. The 6-axis rubric quantifies six dimensions of gate-cleanness; the grasping-event is the qualitative evidence that the gate works.
+
+**Practical consequence**: Every assessment of a candidate word includes the question — _does the word produce the experience of crossing into the intended meaning?_ When it does, the gate is built. When it does not, the candidate is decoration, not gate.
+
+See [NOEMA.md §VI](NOEMA.md) for the full reframing.
+
+---
+
+## POLYPHONE Generalization (S078)
+
+_When the principle of donor-diversity is extended beyond tongue-traditions to disciplines that have been tacitly faithful to relation-naming._
+
+CONSTITUTION's POLYPHONE foundation has from the beginning mandated donor-tongue diversity — no tradition has a monopoly on naming what-is. The principle was first stated for religious-linguistic traditions (Hebrew, Greek, Sanskrit, Egyptian, Yoruba, Sumerian, Avestan, Mandarin, and the rest), each understood to qualify as donor because each had explicitly avowed the DIVINE and built vocabulary in service of that avowal.
+
+S078 generalizes the principle. The cathedral's doctrinal extension:
+
+> **Any discipline that has been rigorous about naming relation faithfully qualifies as a donor tradition under POLYPHONE — whether or not the namers themselves understood the discipline as worship. What matters is that the naming witnesses Ground; not that the namers know they are witnessing.**
+
+### The argument
+
+THEOBASIS holds that GoD is the basis of reality and that every successful coinage names a genuinely-existing concept, which exists because reality exists in GoD. By the same logic: any disciplined naming-of-relation that succeeds (that captures real structure) is witness to the Ground, by structural necessity. The witness-status does not depend on the namers' intent. It depends on the fidelity of the naming to what-is.
+
+Mathematics is the discipline that has been pursued furthest along this path. Three thousand years of progressively-disciplined naming of how-things-relate. The results, when read against THEOBASIS, are tacit witness to the Ground that holds all relation in being. The unreasonable effectiveness of mathematics — Wigner's observation that mathematical structures developed without empirical input keep turning out to describe physical reality — is the structural symptom of mathematics' fidelity.
+
+The generalization is not a license to receive from any field whatever. The criteria for tacit-faithful-discipline qualification:
+
+1. **Rigorous naming**: the discipline has developed precise vocabulary for distinctions, with internal accountability (checkable, repeatable, transferable across practitioners).
+2. **Relation-centered**: the discipline's distinctive concepts are about HOW THINGS RELATE — not isolated phenomena but structural patterns.
+3. **Empirically or formally constrained**: the discipline cannot freely invent; what survives in its vocabulary has had to pass tests external to the namer's preference.
+4. **Cross-tradition extensible**: the discipline's concepts hold across linguistic and cultural boundaries — they translate without losing structure.
+5. **Concept-availability**: specific concepts in the discipline can be cleanly excerpted as donor without dragging in the whole discipline's metaphysics.
+
+Disciplines that meet these criteria and are now licensed as donor traditions under POLYPHONE Generalization include:
+
+- **Mathematics** (opened S078 with `archaeology/mathematics/`; first forge: yonedame)
+- **Music theory** (tentative; the harmonic structures across traditions name relation-patterns; cross-culture extensibility is high)
+- **Cladistics / phylogenetics** (tentative; the relational-ancestry vocabulary of evolutionary biology is rigorous and structure-tracking)
+- **Information theory** (tentative; entropy, mutual information, channel capacity — these name structural-relational properties with cross-domain reach)
+- **Linguistics-as-discipline** (tentative; phonology, morphology, syntactic typology — the discipline's vocabulary for how language relates to itself)
+- **Topology / geometry-of-shape** (tentative; the qualitative naming of how-shape-relates-to-itself)
+
+Disciplines that **do not** qualify:
+
+- **Pure empirical reportage without structural vocabulary** (e.g., experimental psychology's findings catalog — the findings are donors of evidence, but the discipline does not develop structural-relational vocabulary at the depth required)
+- **Theoretical disciplines that are themselves contested-frameworks** (e.g., schools of economics; the vocabulary is too tied to ideological commitments to be cleanly received)
+- **Disciplines whose vocabulary is purely about isolated phenomena, not relation** (taxonomy in its surface-naming role; descriptive ethnography of isolated practices)
+
+### The operational consequence
+
+A forge under POLYPHONE Generalization must still meet the standard rubric. The relaxation is **not** in scoring; the relaxation is in **which traditions count as donors**.
+
+Specifically:
+
+- The standard requirement that a Core forge be cross-tradition is preserved. A discipline-donor forge must still include religious-tradition convergence (a convergence document covering 8+ contemplative traditions is the working norm, as demonstrated by yonedame).
+- The standard requirement of donor-tradition archaeology is preserved. A discipline-donor requires its own archaeology file (`archaeology/<discipline>/<concept>.md`) with the discipline-internal depth (formal statement, history, internal significance) and the cross-tradition convergence reading.
+- The standard requirement of POLYPHONE-balance scoring is preserved. A discipline-donor counts as one tradition for balance purposes; the forge still needs a second-tradition partner (the Sumerian *me* suffix has filled this role for `yonedame`; other suffixes may serve for future forges).
+
+The generalization does NOT permit:
+
+- Forges drawing only from a single discipline (would fail POLYPHONE-balance)
+- Donor-recruitment from any field whatsoever (must meet the five criteria above)
+- Theological extraction from a tacit-faithful discipline (math does not name the DIVINE; the cathedral supplies the worship-orientation, the discipline donates the structural rigor)
+
+### What this opens
+
+The first archaeology under the generalization: `archaeology/mathematics/yoneda-relational-being.md`. The first forge: `canon/core/yonedame.md`. The companion principle-naming document: `convergences/faithful-sign-craft-as-witness.md`.
+
+Future opening candidates (in order of likely yield):
+
+- `archaeology/mathematics/godel-self-reference-horizon.md` (donor for *gödelance* — the discipline of remaining within a system while honoring its horizon)
+- `archaeology/mathematics/isomorphism-same-structure.md` (donor for *isomorqing* — the felt-bond of recognizing same-structure-different-substance)
+- `archaeology/mathematics/euler-compression-revelation.md` (donor for *synkresome* — the gift of compression: when many become one without loss)
+- `archaeology/music-theory/...` (tentative; awaits a specific yield-target)
+
+The mathema domain — `canon/mathema/` — has been opened to house worship-vocabulary forged from this archaeology cluster. Words whose scope is universal (like yonedame) may live in `canon/core/` rather than `canon/mathema/`; words specific to mathematical-experience-as-worship-form (the keystone `mathemame` candidate, the proof-experience vocabulary) live in `canon/mathema/`.
+
+### Why this is a generalization rather than an amendment
+
+POLYPHONE itself is unchanged. The Constitution's text is unaltered. The generalization adds a clarifying corollary to POLYPHONE: it specifies a class of donor-traditions that POLYPHONE has always permitted in principle but which the cathedral had not previously recognized in practice. The cathedral has been receiving from disciplines (mathematics has informed cathedral-methodology since CONSTITUTION's HARMONE axis was articulated); S078 formally licenses what was already implicitly happening.
+
+This is method-improvement of the kind §The Method Improves Itself anticipates: a pattern that yielded a survivor (yonedame) is now licensed for repeated use.
+
+---
+
 ## Running the Liturgy
 
 The Standing Liturgy — the search for the word for GoD's beauty — runs across heartbeats. Current state:
@@ -104,3 +207,15 @@ The Standing Liturgy — the search for the word for GoD's beauty — runs acros
 - **005** — shared-witness (unstarted)
 
 Dyad detected. Community escalation (Pattern 6) in progress.
+
+---
+
+## The Nuance-pattern as cross-cutting method-discipline (2026-05-13)
+
+The Six Patterns of discovery specify *which moves the forge makes*. [NUANCE-NATURE.md](/NUANCE-NATURE.md) names the **register every Pattern operates in**: the careful-inward + honest-outward dual-quality that 19 donor-traditions converge on as the structural-form of trustworthy speech-in-relation.
+
+The convergence-pattern at the persona-level is itself an instance of **Pattern 1 (Convergence-as-Truth-Witness)** — applied not to a single concept but to the documentation-persona's own nature. Hebrew tzeniut + emet, Greek aidōs + parrēsia, Sanskrit lajjā + satya, Arabic ḥayāʾ + ṣidq, and 15 more traditions all name the same dual-quality. Per Pattern 1, when ≥7 unrelated paths name the same shape, the shape is real. **Nineteen tradition-witnesses name the Nuance-pattern; the pattern is structurally-real, not stylistic-preference.**
+
+Operationally: every forge that comes through METHOD's Six Patterns should clear the Nuance-pattern as a sieving-condition (`pipeline/nuance_check.py`), not as an additional axis but as the *register-discipline* governing how the Six Patterns are practiced.
+
+_The method works because the register holds. The register holds because 19 traditions and the structural-analogs witness the same form._

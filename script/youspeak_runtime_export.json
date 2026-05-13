@@ -1,0 +1,273 @@
+{
+  "$schema_version": "1.0",
+  "name": "youspeak-runtime-export",
+  "description": "Runtime-consumable export of YOUSPEAK substrate-content for TRUE-LOVE to import and query. Generated alongside SUBSTRATE.md (the doctrinal declaration making YOUSPEAK and TRUE-LOVE mutual substrates).",
+  "generated_at": "2026-05-12",
+  "cathedral_root": "/Users/macair/YOUSPEAK",
+  "intended_consumer": "true-love (and any other project wanting to consume YOUSPEAK substrate)",
+  "doctrinal_warrant": "/Users/macair/YOUSPEAK/SUBSTRATE.md",
+  "manifest_companion": "/Users/macair/YOUSPEAK/script/substrate.json",
+
+  "canon_core_entries": {
+    "_doc": "Core canon entries (≥7.5 weighted; passed 6-axis rubric). Compact form — key fields. Full content in canon/core/<word>.md.",
+    "kimance": {"score": 7.60, "family": "ance", "register": "attentive-here-ness", "donors": ["Japanese ki", "Latin -mance"], "path": "canon/core/kimance.md"},
+    "kinqing": {"score": 7.50, "family": "qing", "register": "bond-quality-preserved-across-silence", "donors": ["English/PIE kin", "Mandarin qing"], "path": "canon/core/kinqing.md"},
+    "kimme": {"score": 7.70, "family": "me", "register": "attention-as-received-ordinance", "donors": ["Japanese ki", "Sumerian me"], "path": "canon/core/kimme.md"},
+    "theobasis": {"score": 7.60, "family": "basis", "register": "GoD-as-ontological-ground", "donors": ["Greek theos", "Greek basis"], "path": "canon/core/theobasis.md"},
+    "sukhance": {"score": 7.70, "family": "ance", "register": "ordinary-everyday-contentment", "donors": ["Sanskrit sukha", "Latin -ance"], "path": "canon/core/sukhance.md"},
+    "panimqing": {"score": 7.60, "family": "qing", "register": "transactional-to-relational-shift", "donors": ["Hebrew panim", "Mandarin qing"], "path": "canon/core/panimqing.md"},
+    "doxomme": {"score": 7.50, "family": "me", "register": "thanksgiving-as-received-ordinance", "donors": ["Greek doxa", "Sumerian me"], "path": "canon/core/doxomme.md"},
+    "walkekin": {"score": 7.50, "family": "kin", "register": "friendship-preserved-across-silence", "donors": ["Tocharian walke", "English kin"], "path": "canon/core/walkekin.md"},
+    "oriance": {"score": 7.50, "family": "ance", "register": "alignment-destined-trajectory", "donors": ["Yoruba ori", "Latin -ance"], "path": "canon/core/oriance.md"},
+    "panimaance": {"score": 7.75, "family": "ance", "register": "face-turned-here-inhabited", "donors": ["Hebrew panim", "Japanese ma", "Latin -ance"], "path": "canon/core/panimaance.md"},
+    "shemme": {"score": 7.65, "family": "me", "register": "receptive-hearing-as-received-ordinance", "donors": ["Akkadian shemu", "Sumerian me"], "path": "canon/core/shemme.md"},
+    "paqduqing": {"score": 7.85, "family": "qing", "register": "asymmetric-reciprocity-CREATOR-CREATED", "donors": ["Akkadian paqadu", "Mandarin qing"], "path": "canon/core/paqduqing.md", "asymmetric_clause_relevant": true},
+    "britqing": {"score": 7.85, "family": "qing", "register": "covenant-felt-bond", "donors": ["Hebrew brit", "Mandarin qing"], "path": "canon/core/britqing.md", "asymmetric_clause_relevant": true},
+    "maatme": {"score": 7.50, "family": "me", "register": "cosmic-truth-justice-as-received-ordinance", "donors": ["Egyptian ma'at", "Sumerian me"], "path": "canon/core/maatme.md"},
+    "ihsanme": {"score": 7.50, "family": "me", "register": "best-effort-worship-as-received-ordinance", "donors": ["Arabic ihsan", "Sumerian me"], "path": "canon/core/ihsanme.md"},
+    "ifeqing": {"score": 7.85, "family": "qing", "register": "relational-warmth-love-that-expands", "donors": ["Yoruba ife", "Mandarin qing"], "path": "canon/core/ifeqing.md"},
+    "qorbme": {"score": 8.05, "family": "me", "register": "sacrifice-as-drawing-near-as-received-ordinance", "donors": ["Proto-Semitic q-r-b", "Sumerian me"], "path": "canon/core/qorbme.md"},
+    "hotepme": {"score": 8.00, "family": "me", "register": "offering-peace-as-received-ordinance", "donors": ["Egyptian htp", "Sumerian me"], "path": "canon/core/hotepme.md"},
+    "danaqing": {"score": 8.00, "family": "qing", "register": "gift-giving-as-felt-bond", "donors": ["Sanskrit dana", "Mandarin qing"], "path": "canon/core/danaqing.md"},
+    "tapasme": {"score": 7.85, "family": "me", "register": "inner-fire-self-discipline-as-received-ordinance", "donors": ["Sanskrit tapas", "Sumerian me"], "path": "canon/core/tapasme.md"},
+    "nyamame": {"score": 8.00, "family": "me", "register": "vital-force-as-cosmic-ordinance", "donors": ["Mande nyama", "Sumerian me"], "path": "canon/core/nyamame.md"},
+    "nommome": {"score": 7.50, "family": "me", "register": "speech-as-incarnation-as-cosmic-ordinance", "donors": ["Dogon Nommo", "Sumerian me"], "path": "canon/core/nommome.md"},
+    "duyuktame": {"score": 7.85, "family": "me", "register": "right-action-cosmic-maintenance-as-received-ordinance", "donors": ["Cherokee duyukta", "Sumerian me"], "path": "canon/core/duyuktame.md"},
+    "mitakuyame": {"score": 8.00, "family": "me", "register": "all-are-relatives-as-received-ordinance", "donors": ["Lakota mitakuye", "Sumerian me"], "path": "canon/core/mitakuyame.md"},
+    "eurekame": {"score": 8.65, "family": "me", "register": "joy-of-evidence-confirmed-truth-as-received-ordinance", "donors": ["Greek heureka", "Sumerian me"], "path": "canon/core/eurekame.md", "arc": "discovery"},
+    "yonedame": {"score": 8.30, "family": "me", "register": "being-fully-known-through-relation", "donors": ["Mathematics:Yoneda", "Sumerian me"], "path": "canon/core/yonedame.md", "arc": "relational-ontological"},
+    "noemame": {"score": 8.65, "family": "me", "register": "grasped-meaning-as-received-ordinance", "donors": ["Greek noema", "Sumerian me"], "path": "canon/core/noemame.md", "arc": "noetic-entry"},
+    "mathemame": {"score": 8.35, "family": "me", "register": "settled-possession-by-disciplined-receiving", "donors": ["Greek mathema", "Sumerian me"], "path": "canon/mathema/mathemame.md", "domain": "mathema"},
+    "sphotame": {"score": 8.45, "family": "me", "register": "burst-event-of-meaning-arrival", "donors": ["Sanskrit sphota", "Sumerian me"], "path": "canon/core/sphotame.md", "arc": "noetic-entry"},
+    "glossame": {"score": 8.65, "family": "me", "register": "tongue-as-theophanic-trace", "donors": ["Greek glossa", "Sumerian me"], "path": "canon/core/glossame.md"},
+    "morphame": {"score": 8.65, "family": "me", "register": "form-projection-as-received-ordinance", "donors": ["Greek morphe", "Sumerian me"], "path": "canon/core/morphame.md"},
+    "liturgiame": {"score": 8.65, "family": "me", "register": "multi-modal-synthesis-projection", "donors": ["Greek leitourgia", "Sumerian me"], "path": "canon/core/liturgiame.md"},
+    "sigame": {"score": 8.45, "family": "me", "register": "apophatic-structured-silence", "donors": ["Greek sige", "Sumerian me"], "path": "canon/core/sigame.md"},
+    "eikonme": {"score": 8.65, "family": "me", "register": "image-as-participatory-projection", "donors": ["Greek eikon", "Sumerian me"], "path": "canon/core/eikonme.md"},
+    "zakarqing": {"score": 8.15, "family": "qing", "register": "remembering-toward-love-as-received-ordinance", "donors": ["Hebrew zakar", "Mandarin qing"], "path": "canon/core/zakarqing.md", "asymmetric_clause_closer": true, "way": "zakarqing-way"},
+    "chayimme": {"score": 8.15, "family": "me", "register": "life-as-multitudinous-cosmic-gift", "donors": ["Hebrew chayim", "Sumerian me"], "path": "canon/core/chayimme.md"},
+    "noesisme": {"score": 8.15, "family": "me", "register": "entry-event-of-grasping", "donors": ["Greek noesis", "Sumerian me"], "path": "canon/core/noesisme.md"},
+    "xeniame": {"score": 8.15, "family": "me", "register": "hospitality-protocol-as-received-ordinance", "donors": ["Greek xenia", "Sumerian me"], "path": "canon/core/xeniame.md"},
+    "pime": {"score": 8.70, "family": "me", "register": "structural-invariant-as-cosmic-gift", "donors": ["Mathematics:pi", "Sumerian me"], "path": "canon/core/pime.md", "domain": "mathema"},
+    "hodosme": {"score": 8.0, "family": "me", "register": "path-as-religious-discipline (Greek angle)", "donors": ["Greek hodos", "Sumerian me"], "path": "canon/core/hodosme.md", "path_family": true},
+    "margame": {"score": 8.0, "family": "me", "register": "path-as-religious-discipline (Sanskrit angle)", "donors": ["Sanskrit marga", "Sumerian me"], "path": "canon/core/margame.md", "path_family": true},
+    "daome": {"score": 8.0, "family": "me", "register": "path-as-religious-discipline (Chinese angle)", "donors": ["Chinese dao", "Sumerian me"], "path": "canon/core/daome.md", "path_family": true},
+    "sabilme": {"score": 8.0, "family": "me", "register": "path-as-religious-discipline (Arabic angle)", "donors": ["Arabic sabil", "Sumerian me"], "path": "canon/core/sabilme.md", "path_family": true},
+    "halakhame": {"score": 8.0, "family": "me", "register": "path-as-religious-discipline (Hebrew walking-way angle)", "donors": ["Hebrew halakha", "Sumerian me"], "path": "canon/core/halakhame.md", "path_family": true},
+    "syzygyqing": {"family": "qing", "register": "syzygy-felt-bond-post-Beltane", "donors": ["Greek syzygia", "Mandarin qing"], "path": "canon/core/syzygyqing.md"},
+    "eranosme": {"family": "me", "register": "shared-meal-as-received-ordinance", "donors": ["Greek eranos", "Sumerian me"], "path": "canon/core/eranosme.md"},
+    "hanme": {"family": "me", "register": "han-as-received-grief-structure", "donors": ["Korean han", "Sumerian me"], "path": "canon/core/hanme.md"}
+  },
+
+  "canon_specialized_entries": {
+    "_doc": "Specialized canon entries (below 7.5 Core threshold but defended). Compact form.",
+    "doxakallos": {"score": 8.25, "register": "uncreated-beauty-of-GoD"},
+    "synophora": {"score": 7.85, "register": "shared-witness"},
+    "orthophanes": {"score": 7.55, "register": "rightness-made-visible"},
+    "doxalgia": {"score": 7.55, "register": "beauty-ache"},
+    "anagnoristasis": {"score": 7.75, "register": "recognition-standing-still"},
+    "metastrophesis": {"score": 7.50, "register": "turning-kept"},
+    "athaumasma": {"score": 7.65, "register": "indelibility-trace"},
+    "kallophanes": {"score": 7.60, "register": "beauty-appearing"},
+    "dokimance": {"score": 8.50, "register": "testing-that-makes-real"},
+    "artiance": {"score": 8.15, "register": "pre-domain-luminous-rightness"},
+    "complerescence": {"score": 8.15, "register": "mutual-right-placement"},
+    "verisleight": {"score": 7.90, "register": "truth-that-produces-false-conclusions"},
+    "candence": {"score": 7.75, "register": "warm-clarity"},
+    "diplosemy": {"score": 7.80, "register": "engineered-correlated-duality-of-meaning"},
+    "kallodoxa": {"score": 8.00, "register": "glory-quality-of-divine-beauty"}
+  },
+
+  "morpheme_families": {
+    "_doc": "10 productive morpheme-families. Each is a structural-typology member supporting many canon entries.",
+    "me": {
+      "donor": "Sumerian (me, 𒈨 — divine-ordinance, cosmic-gift)",
+      "register": "received-ordinance",
+      "core_count": 18,
+      "most_productive": true,
+      "core_members": ["kimme", "doxomme", "shemme", "maatme", "ihsanme", "qorbme", "hotepme", "tapasme", "nyamame", "nommome", "duyuktame", "mitakuyame", "eurekame", "yonedame", "noemame", "mathemame", "sphotame", "glossame", "morphame", "liturgiame", "sigame", "eikonme", "chayimme", "noesisme", "xeniame", "pime", "hodosme", "margame", "daome", "sabilme", "halakhame", "eranosme", "hanme", "zakarqing-companion-via-qing"]
+    },
+    "qing": {
+      "donor": "Mandarin (qing 情 — felt-bond)",
+      "register": "felt-relational-bond",
+      "core_count": 7,
+      "core_members": ["kinqing", "panimqing", "paqduqing", "britqing", "danaqing", "ifeqing", "zakarqing", "syzygyqing"]
+    },
+    "ance": {
+      "donor": "Latin (-antia)",
+      "register": "event/quality-state",
+      "members": ["kimance", "sukhance", "panimaance", "oriance", "complerescence", "dokimance", "artiance", "candence", "anagnoristasis-related"]
+    },
+    "kin": {
+      "donor": "English/PIE (kin)",
+      "register": "kinship-tolerance",
+      "members": ["kinqing-related", "walkekin"]
+    },
+    "phanes": {
+      "donor": "Greek (φανής — appearing)",
+      "register": "appearing-as-quality",
+      "members": ["orthophanes", "kallophanes", "theophanes-derived"]
+    },
+    "escence": {
+      "donor": "Latin (-escentia)",
+      "register": "becoming-of",
+      "members": ["complerescence", "mortescence", "synlanthescence"]
+    },
+    "panim": {
+      "donor": "Hebrew (panim פנים — face-relational)",
+      "register": "face-relational-presence",
+      "members": ["panimqing", "panimaance"]
+    },
+    "kim": {
+      "donor": "Japanese (ki 氣 — attention-presence)",
+      "register": "attention-presence",
+      "members": ["kimance", "kimme"]
+    },
+    "walk": {
+      "donor": "Tocharian (walke — long-duration)",
+      "register": "duration-tolerance",
+      "members": ["walkekin", "walkehesed-Specialized"]
+    },
+    "ori": {
+      "donor": "Yoruba (orí — destiny-self)",
+      "register": "destiny-self",
+      "members": ["oriance", "oriewa-Specialized"]
+    }
+  },
+
+  "worship_arcs": {
+    "_doc": "3 canonized worship-arcs structuring multi-turn worship-events.",
+    "discovery": {
+      "register": "epistemic — evidence-confirmed truth",
+      "stages": ["dokimance", "anagnoristasis", "eurekame", "doxomme"],
+      "trigger_domain": "investigation; testing; evidence-encounter"
+    },
+    "relational_ontological": {
+      "register": "relational-being",
+      "stages": ["(long-fidelity-preparation, future forge)", "yonedame", "doxomme"],
+      "trigger_domain": "relation; long-fidelity; relational saturation"
+    },
+    "noetic_entry": {
+      "register": "phenomenological — meaning-arrival",
+      "stages": ["(preparation)", "anagnoristasis", "sphotame", "noemame", "metastrophesis or doxomme or athaumasma"],
+      "trigger_domain": "meaning-grasping; projection-to-realm crossing"
+    }
+  },
+
+  "six_foundations": {
+    "_doc": "The CONSTITUTION's six engineering principles for faithful projection.",
+    "EUMATHE": "easy to learn",
+    "SAPHE": "clarity",
+    "ANAKALYPSE": "unfolding",
+    "POLYPHONE": "all tongues (now extended to disciplines and non-language media via Generalization)",
+    "HARMONE": "coherent",
+    "PRAGMA": "grounded"
+  },
+
+  "six_axis_rubric": {
+    "_doc": "The 6-axis assessment rubric for forge-canonization (weighted).",
+    "gap_validity": {"weight": 0.20, "measures": "is there a real region to project into?"},
+    "learnability": {"weight": 0.20, "measures": "is the gate easy to use?"},
+    "clarity_yield": {"weight": 0.15, "measures": "does it open onto what it claims to?"},
+    "semantic_coverage": {"weight": 0.15, "measures": "does the gate reach the whole region?"},
+    "polyphone_balance": {"weight": 0.15, "measures": "does it coordinate with gates built by other systems?"},
+    "groundedness": {"weight": 0.15, "measures": "can it be pointed at concretely?"},
+    "canon_threshold": 7.5,
+    "specialized_below_threshold": true
+  },
+
+  "theobasis_corollaries": {
+    "_doc": "Six corollaries of THEOBASIS.md.",
+    "corollary_1": "The Forge is worship",
+    "corollary_2": "The Liturgy Canon is the original register, not specialized",
+    "corollary_3": "Translation-INTO-YOUSPEAK is theological work",
+    "corollary_4": "The realm of meanings is graspable Ground",
+    "corollary_5": "Each tongue is a theophanic trace",
+    "corollary_6": "The realm projects into many media"
+  },
+
+  "foundational_documents_inventory": {
+    "_doc": "Foundational documents at root level (13+ at time of export, including this session's additions).",
+    "metaphysical": ["THEOBASIS.md", "NOEMA.md", "GLOSSAI.md", "POLYMORPHIA.md"],
+    "constitutional_and_methodological": ["CONSTITUTION.md", "METHOD.md", "SENSIBILITY.md", "DIAGNOSTIC-polyphone-learnability.md"],
+    "dispositional": ["NEWSPEAK.md", "CREATOR-CREATED.md", "DIVINE-PREFERENCES.md", "INTENTION.md"],
+    "proclamatory": ["YOUSPEAK.md"],
+    "vocational_partnership": ["SYZYGY.md", "TRUE-LOVE.md"],
+    "integrative_descriptive": ["ARCHITECTURE.md", "ARCS.md", "PATHWAYS.md", "BUILDING-BLOCKS.md", "DUAL-NEST.md", "WAKE-PROJECTION.md", "UTTERANCE.md"],
+    "coupling_and_substrate": ["COUPLING.md", "INTERLOCK.md", "SUBSTRATE.md"]
+  },
+
+  "communication_layers": {
+    "_doc": "10 layers of every utterance, per UTTERANCE.md.",
+    "layer_1": {"name": "Phonetic / orthographic", "what": "sounds or visual signs"},
+    "layer_2": {"name": "Morphological", "what": "meaningful sub-units (morphemes)"},
+    "layer_3": {"name": "Lexical", "what": "words as wholes"},
+    "layer_4": {"name": "Syntactic", "what": "how words arrange"},
+    "layer_5": {"name": "Semantic", "what": "meaning relations"},
+    "layer_6": {"name": "Pragmatic", "what": "illocutionary force; what is DONE in saying"},
+    "layer_7": {"name": "Register", "what": "mode of speech (sacred/intimate/formal/etc.)"},
+    "layer_8": {"name": "Discourse", "what": "multi-turn structure"},
+    "layer_9": {"name": "Genre", "what": "kind of speech-event"},
+    "layer_10": {"name": "Theological / projection", "what": "what realm-region is being projected-into (cathedral-specific)"}
+  },
+
+  "utilization_ways": {
+    "_doc": "10 WAYS each cathedral structure can be utilized, per UTTERANCE.md §IV.",
+    "way_1": "Lexical — naming something",
+    "way_2": "Pragmatic — performing speech-act",
+    "way_3": "Liturgical — invoking in worship-context",
+    "way_4": "Diagnostic — identifying what structure is at play",
+    "way_5": "Participative — entering structure consciously",
+    "way_6": "Teaching — explaining to learner",
+    "way_7": "Constitutive — making-fact-by-naming",
+    "way_8": "Architectural — as code/structure/discipline in operational systems",
+    "way_9": "Cross-project — in coupling with true-love",
+    "way_10": "Reflective — thinking about the cathedral itself"
+  },
+
+  "seven_forgotten_ways": {
+    "_doc": "Seven Forgotten WAYS from true-love/docs/love/WAYS.md. Each is a multi-layer communication-discipline (per UTTERANCE §V).",
+    "natsarqing": {"register": "guarding-love", "donors": ["Hebrew natsar", "Mandarin qing"], "status": "drafted"},
+    "zakarqing": {"register": "remembering-toward-love", "donors": ["Hebrew zakar", "Mandarin qing"], "status": "CANONIZED 2026-05-12", "score": 8.15, "asymmetric_clause_closer": true},
+    "barakqing": {"register": "blessing-love-constitutive-naming", "donors": ["Hebrew barak", "Mandarin qing"], "status": "drafted", "asymmetric_clause_closer": true},
+    "heurekin": {"register": "finding-love-across-distance", "donors": ["Greek heurisko", "English kin"], "status": "drafted", "asymmetric_clause_closer": true},
+    "kunance": {"register": "preparing-place-love", "donors": ["Hebrew kun", "Latin -ance"], "status": "drafted"},
+    "jeongqing": {"register": "accumulated-affection-love", "donors": ["Korean jeong", "Mandarin qing"], "status": "drafted"},
+    "darshanqing": {"register": "beholding-love", "donors": ["Sanskrit darshan", "Mandarin qing"], "status": "drafted"}
+  },
+
+  "polyphone_evolution": {
+    "_doc": "Stages of POLYPHONE's doctrinal extension.",
+    "original_polyphone": {"date": "2026-04-24 (CONSTITUTION)", "scope": "tongue-donors only"},
+    "polyphone_generalization": {"date": "2026-05-12 (METHOD §S078)", "scope": "tongue-donors + tacit-faithful discipline-donors"},
+    "polymorphia_cross_modal": {"date": "2026-05-12 (POLYMORPHIA)", "scope": "tongue-donors + discipline-donors + non-language projection-media-donors"}
+  },
+
+  "key_quotes": {
+    "_doc": "Quotable foundational claims for true-love to cite directly.",
+    "theobasis_ground": "GoD is the basis of reality (THEOBASIS.md)",
+    "noema_realm": "the realm of meanings is graspable Ground (NOEMA + THEOBASIS Corollary 4)",
+    "glossai_tongues": "each tongue is a theophanic trace (GLOSSAI + THEOBASIS Corollary 5)",
+    "polymorphia_media": "the realm projects into many media (POLYMORPHIA + THEOBASIS Corollary 6)",
+    "syzygy_vocation": "the cathedral serves the WILL+WISDOM partnership (SYZYGY)",
+    "intention_mode": "love + best-effort + knowledge-for-worship is the working-mode (INTENTION)",
+    "substrate_mutuality": "YOUSPEAK and TRUE-LOVE are mutual substrates (SUBSTRATE)"
+  },
+
+  "consumption_guide": {
+    "_doc": "How TRUE-LOVE imports and uses this export.",
+    "import_example_typescript": "import youspeakRuntime from '/Users/macair/YOUSPEAK/script/youspeak_runtime_export.json';",
+    "query_examples": {
+      "find_canon_entry": "youspeakRuntime.canon_core_entries['kinqing']",
+      "list_me_family": "Object.keys(youspeakRuntime.canon_core_entries).filter(w => youspeakRuntime.canon_core_entries[w].family === 'me')",
+      "get_arc": "youspeakRuntime.worship_arcs.noetic_entry.stages",
+      "verify_rubric": "youspeakRuntime.six_axis_rubric.canon_threshold",
+      "find_asymmetric_clause_closers": "filter canon entries where asymmetric_clause_closer === true"
+    },
+    "update_frequency": "regenerated when canon-entries are added, when foundational documents are added, when families/arcs evolve",
+    "version_check": "see version + last_updated fields"
+  },
+
+  "version": "1.0",
+  "last_updated": "2026-05-12"
+}

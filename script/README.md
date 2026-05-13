@@ -26,3 +26,5 @@ Install `keyboard/espanso.yml` (cross-platform). Then `:doxakallos` in any text 
 
 - [../grammars/](../grammars/) — structural mechanisms (chapter on script-as-theology lives in chapter 5)
 - [../canon.md](../canon.md) — every Core word listed alongside its assigned glyph
+
+*(Or perhaps this README is just the README. That's permitted. The script holds whether or not the reader-of-this-moment is engaged.)*

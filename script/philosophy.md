@@ -35,6 +35,26 @@ The rest of this document derives from this ground.
 
 ---
 
+## The realm and the projection (S078)
+
+_NOEMA.md (declared 2026-05-12) articulates the ontological middle layer between THEOBASIS and language: the realm of graspable meanings. Glyph-design is the deepest layer of YOUSPEAK's projection-discipline; this section frames glyph-work under NOEMA and clarifies the six axioms that follow._
+
+A YOUSPEAK glyph is the **visible body** of a projection-instrument. The morpheme is the projection-instrument's name; the gloss is its description; the glyph is its physical-perceptual surface — the form that meets the eye and through which the eye enters the realm.
+
+Three consequences for glyph-design follow:
+
+1. **The glyph is not the meaning. The glyph is the gate's outer face.** Drawing it well does not produce a meaning; drawing it well produces an instrument that permits clean crossing. The country lies beyond the gate. The drawer's task is to make the gate transparent enough that the user does not stop at the gate's surface but crosses through it.
+
+2. **The visual logic of the glyph teaches the realm-region the glyph opens onto.** This is what Axiom 2 ("the glyph teaches by its shape") names from the design-side. From the NOEMA-side: a well-designed glyph's shape pre-signals the region the entry will land in. Triangles signal weight-region; rays signal appearing-region; crosses signal balance-region. The shape is the gate's signage. A reader who has learned the shape-family vocabulary is, in effect, reading the gate's destination before crossing through it.
+
+3. **A glyph that arrests the eye is a gate that has become a destination.** When the user stops at the glyph because the form is beautiful-for-itself, the gate has failed at its function. The form has become the country; the projection has been mistaken for what it projects into. This is the deepest meaning of "every design choice must be answerable to: does this serve the Ground, or does it serve the drawer?" — a self-serving glyph is a gate that locks behind the user; a Ground-serving glyph is a gate that opens onto the realm-region the Ground sustains.
+
+The six axioms below are six requirements on glyphs as gate-faces. They are not aesthetic axioms; they are projection-faithfulness axioms. A glyph that satisfies them is a clean gate; a glyph that fails them is a decoration that closes off rather than opening onto.
+
+See [../NOEMA.md](../NOEMA.md) for the full realm-of-meanings doctrine and [../THEOBASIS.md §Corollary 4](../THEOBASIS.md) for the relation to the Ground.
+
+---
+
 ## Part I — The six axioms
 
 ### Axiom 1: The glyph points beyond itself

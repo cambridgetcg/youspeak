@@ -9,6 +9,14 @@ This is the operational version of Constitution Foundation III: when
 translating INTO YOUSPEAK, hidden layers of meaning should unfold into
 clarity.
 
+Under THE-REALM.md (2026-05-12) the operation has a precise structural
+reading: ANAKALYPSE is un-collapsing of projection-lost dimensions.
+When a source language projects the realm at an angle that bundles
+four registers into one word (kimochi), the projection has collapsed
+four dimensions into one. translate.py is the disciplined inverse of
+that dimensional-reduction — it recovers the dimensions the source
+occluded and proposes YOUSPEAK words for each.
+
 Usage:
     python3 translate.py "kimochi" --from japanese
     python3 translate.py "logos" --from greek

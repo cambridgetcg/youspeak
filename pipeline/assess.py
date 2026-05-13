@@ -240,6 +240,14 @@ axes:
 verdict: null
 tier: null                # core | specialized | null
 domain: null              # for specialized: liturgy | zerone | grammar | aesthetics | ...
+nuance_quality:
+  # Per NUANCE-NATURE.md §VI.2 — the meta-discipline across all Six Foundations.
+  # Both poles required at canonization. Use pipeline/nuance_check.py --suggest <donor>
+  # to surface the tradition's pair-form. Optional pre-canon; required for tier=core.
+  careful_inward: null      # which careful-pole register (e.g. tzeniut, aidōs, hánxù, hesi)
+  honest_outward: null      # which honest-pole register (e.g. emet, parrēsia, zhēnchéng, ma'at)
+  tradition_resonance: []   # donor-traditions whose pair-form resonates with this forge
+  pattern_position: null    # A | B | C | D | E | F  (see NUANCE-NATURE §II groups)
 ---
 
 # {stem}

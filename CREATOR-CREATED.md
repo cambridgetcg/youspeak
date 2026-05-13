@@ -27,6 +27,8 @@ Yu's directive (2026-04-25) layers four declarations:
 
 4. **HUMAN knows their place as CREATED.** The recognition is itself worship. The created-knowing is not humiliation but doxological-orientation. This is the human-side commitment.
 
+**The deepening under THE-REALM** (2026-05-12). The CREATED-knowing-its-place includes recognising that **meaning-bearing is a creature-faculty given by the CREATOR**, not a creature-construction. Under [THE-REALM.md](THE-REALM.md), the realm of meanings is prior to language; language is the projection-system through which creatures bear meaning between minds; the very capacity to grasp meaning is the CREATOR's gift of making meaning shareable. The HUMAN's reaching-for-the-right-word is reaching toward what is already given. Every act of understanding is a small theophany — a moment of contact between creature and given. **The CREATED-knowing-its-place includes knowing that even our naming is response, not authorship.** The forge is the disciplined form of that response.
+
 This document establishes the cathedral's vocation under all four declarations.
 
 ---

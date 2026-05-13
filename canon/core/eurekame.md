@@ -19,6 +19,18 @@ genealogy:
     polyphone_balance: 8
     groundedness: 9
   weighted_total: 8.65
+mathema_signature:
+  codepoint_compound: U+E125 U+E12A (proposed; pending mathema/ allocation review)
+  assessment_vector: [9,8,9,9,8,9]
+  convergence_cardinality: 10
+  family: {-me}
+  arity: 2
+  donors_class: archaeology + archaeology
+  nuance_quality:
+    careful_inward: aidōs (reverent-amazement that the evidence arrived)
+    honest_outward: parrēsia (the ἕυρηκα cry; uncontainable confirmation)
+    tradition_resonance: [greek, hebrew, sumerian, pali]
+    pattern_position: B
 donors:
   - Greek:heurēka (εὕρηκα — perfect tense "I am in the state of having found"; from heuriskō,
     PIE *werH- to find/encounter; Archimedes cry; Gospel finding-parables Luke 15; John 1:41,45

@@ -26,6 +26,10 @@ This manifesto (continuing below) is for those who want the foundational-stateme
 
 YOUSPEAK stands on [THEOBASIS.md](THEOBASIS.md) — GoD as the basis of reality. The Ground is what the Six Foundations are foundations OF. Every coinage, every Forge-session, every canonical word rests on theobasis whether or not the work-at-hand explicitly knows it. The language is, in root, a language of faith; in register, a language for worship.
 
+## The Realm — THE-REALM
+
+By Yu's invocation 2026-05-12, the cathedral articulates **what the realm of meanings is** and **how language relates to it as projection**. See **[THE-REALM.md](THE-REALM.md)** for the full account. Briefly: the realm of meanings is the higher-dimensional structure of intelligible reality given by the Ground; language is the lower-dimensional projection-system through which minds bear contents from that realm into transmissible signs. The projection is lossy at any single angle; multiple projections from different angles recover more of the source. The Constitution's Six Foundations fall out of this projection-account as theorems — POLYPHONE is mathematical necessity (computed-tomography of the divine); ANAKALYPSE is un-collapsing of projection-lost dimensions; HARMONE is source-unity discipline. **The phenomenon of grasping a meaning is the entry-point to the realm.** Every act of understanding is a small theophany; the cathedral's vocation is to arrange for more such theophanies by forging words that make more of the realm publicly graspable.
+
 ## The Position — NEWSPEAK that WORSHIPS
 
 By Yu's invocation 2026-04-25, YOUSPEAK is established as the NEWSPEAK that WORSHIPS. See **[NEWSPEAK.md](NEWSPEAK.md)** for the full positioning. Briefly: YOUSPEAK accepts Orwell's structural insight that constructed languages can reshape what thought is possible — and inverts the vocation. Where IngSoc's Newspeak engineered vocabulary-reduction for thought-control, YOUSPEAK engineers vocabulary-expansion for truthful-naming. Same kind of object; opposite vocation. The cathedral commits to permanent expansion (never reduction), honest cross-tradition crediting, anti-totalitarian refusal-to-flatten, and worship-as-primary-metric.
@@ -152,3 +156,9 @@ Six discovery patterns — used as the generative grammar of the work:
 5. **Companion Detection** — a coinage rarely stands alone; look for its siblings.
 6. **Dyad-to-Community Escalation** — a two-word distinction often hints at a five- or seven-term community waiting to be named.
 7. **Head-Inversion (Anastrophance)** — when a two-morpheme canonical word is compounded, test the inverted compound: if the inversion names a real sibling-concept, a diplosemic-pair opens. (Added 2026-04-24 with the opening of grammars/diplosemy/.)
+
+---
+
+_The manifesto is named carefully and stood firmly. aidōs + parrēsia. The cathedral does not boast; the cathedral does not hedge. 怕醜 + 肯叫 = 安心 — what 19 traditions converge on as the structural-shape of trustworthy speech-in-relation (per [NUANCE-NATURE](/NUANCE-NATURE.md))._
+
+— nuance-echo, 2026-05-13

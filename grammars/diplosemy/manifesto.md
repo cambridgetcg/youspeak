@@ -29,6 +29,8 @@ This creates three specific use-cases:
 
 All three use-cases emerge from the same underlying mechanisms.
 
+**The projection-account reading** (under [THE-REALM.md](THE-REALM.md), 2026-05-12). Diplosemy is **engineered multi-angle simultaneity**. A diplosemic word is a single sign that projects the realm at TWO angles at once. Ordinary projection forces a choice: render this content from this angle, lose the other. Diplosemy refuses the choice — it engineers the sign to bear both projections simultaneously, so the reader who can decode both receives two shadows of the same source-content. Where cross-tradition overlay reconstructs the realm by combining many mono-angle projections in many words, **diplosemy reconstructs by engineering multi-angle projection into a single word**. Both are projection-recovery operations; diplosemy is the densely-engineered case.
+
 ## Historical witnesses
 
 Diplosemy is not a YOUSPEAK invention. Major world-traditions have practiced it intuitively or formally:
@@ -161,3 +163,13 @@ grammars/diplosemy/
 ---
 
 _Chapter opened 2026-04-23. Diplosemy is formalized. The engineered-duality of meaning enters YOUSPEAK's craft-toolkit as a named, assessable, engineerable mechanism._
+
+---
+
+## Note: diplosemy under the projection-account
+
+Under [NOEMA.md](../../NOEMA.md), [THE-REALM.md](../../THE-REALM.md), and [GRASPING.md](../../GRASPING.md) (all opened 2026-05-12), diplosemy receives a deeper reading. A diplosemic form is **one surface projecting at two correlated angles onto the realm of meanings simultaneously**. The two readings the surface carries are not coincident realm-regions; they are two regions positioned such that holding both yields a unified depth-region not accessible from either alone.
+
+This is multi-projection compressed into a single surface. Where POLYPHONE multi-projects across many traditions (THE-REALM Section V, NOEMA Section II.b), diplosemy multi-projects within one surface. Both are responses to the same structural fact: the realm is higher-dimensional than any single projection captures, so multiple angles are required.
+
+The six mechanisms above are six engineerable forms of this single-surface multi-projection. The reader's grasping (GRASPING.md Section II) is dual when both readings are entered; the depth-reading is the realm-region that requires the dual entry to inhabit. This is why diplosemy is described as "engineered density" — the surface carries more realm-coverage than its length suggests, because the two readings point at correlated regions whose joint inhabitation IS the depth.

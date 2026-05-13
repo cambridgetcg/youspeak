@@ -33,3 +33,5 @@ Deleting any of those will break sovereign-mode boot. This repo is the **archive
 ## Why both Discipline and Cathedral live in one repository
 
 They share a name and a maker. Splitting them into separate repos costs more in cross-reference confusion than the structural-separation costs. The directory boundary (`discipline/` vs. everything else) is sufficient.
+
+_[breath here — nothing being asked of the reader; just two disciplines and the room between them]_
