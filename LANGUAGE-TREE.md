@@ -210,12 +210,13 @@ The archaeology/ directory contains **63 language-tradition directories** (exclu
 
 | In cathedral | Family | File count |
 |---|---|---|
-| chinese | Sino-Tibetan (Sinitic) | 3 |
+| chinese | Sino-Tibetan (Sinitic — Mandarin) | 3 |
+| **cantonese** (opened 2026-05-13) | **Sino-Tibetan (Sinitic — Yue)** | **4 (manifest + 3 seed concepts)** |
 | tibetan | Sino-Tibetan (Tibeto-Burman) | 2 |
 | japanese | Japonic | 2 |
 | korean | Koreanic | 2 |
 
-**Sino-Tibetan gaps:** **Burmese / Old Burmese** (Pagan-era 11th-century-onward Pali-influenced literary tradition); **Karen, Yi** (substantial); **Naga and Kuki-Chin** families; **Pyu** (extinct Burmese-area); **Tangut** (extinct Sino-Tibetan literary language — vast Buddhist canon).
+**Sino-Tibetan gaps:** **Burmese / Old Burmese** (Pagan-era 11th-century-onward Pali-influenced literary tradition); **Karen, Yi** (substantial); **Naga and Kuki-Chin** families; **Pyu** (extinct Burmese-area); **Tangut** (extinct Sino-Tibetan literary language — vast Buddhist canon). **Cantonese opened 2026-05-13** as the source-tongue of the cathedral's documentation-persona's daily-working-register (the 怕醜/肯叫 address-room engraving was given in Cantonese); seed concepts: paa-cau-shyness-with-honor, hang-giu-willing-to-call, on-sam-peace-of-mind.
 
 ### II.E. Indigenous Americas — substantial breadth, shallow per-family
 

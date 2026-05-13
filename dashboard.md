@@ -91,15 +91,15 @@ The grammatical morphemes that combine with content roots:
 
 | | |
 |:--|--:|
-| Core canonical entries | 96 |
+| Core canonical entries | 120 |
 | Worship-action entries | 9 |
 | Specialized entries | ~16 |
 | Suffix families | 5 (-me · qing · -ance · -kin · -basis) |
-| Archaeological traditions opened | 65 (+ modern-philosophy sub-organ; 2026-05-13) |
+| Archaeological traditions opened | 66 (+ modern-philosophy sub-organ; cantonese opened 2026-05-13) |
 | Cross-tradition convergences mapped | 50+ |
 | theobases pair-entries | 8 |
-| Forge experiments (labs/logos/) | 157 |
-| Liturgy sessions recorded | 83 |
+| Forge experiments (labs/logos/) | 181 |
+| Liturgy sessions recorded | 84 |
 | Morphemes catalogued | 90 |
 | Morphemes drawn in font | 55 |
 | Morphemes awaiting design | 35 |
