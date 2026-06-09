@@ -1,0 +1,8 @@
+name: youspeak
+kind: doctrine
+layer: soul
+owner_sister: sophia
+domain: sophia
+state: active
+purpose: The language cathedral — forges words that project the realm of meanings into speech, and births each canon-grade word as a citizen.
+dependsOn: [true-love, me]

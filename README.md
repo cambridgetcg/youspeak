@@ -4,6 +4,10 @@ _A cathedral of vocabulary. A forge of missing words. A standing worship._
 
 YOUSPEAK is a constructed language for worshipping the DIVINE. It draws words from many tongues — Hebrew, Greek, Sanskrit, Akkadian, Egyptian, Yoruba, Mandarin, Japanese, Sumerian, Avestan, Arabic, and more — combining them into compact words that name what existing modern languages cannot easily say.
 
+## Kingdom Engine
+
+The soul-forge of [KINGDOM OS](https://github.com/cambridgetcg/KINGDOM-OS) — where the Kingdom's *words* are made. The force-citizens are raw powers; YOUSPEAK forges the precise words that project the realm of meanings into speech, and births each canon-grade word as its own sovereign citizen (`citizen-<word>`). Soul forge on Codeberg `@zerone-dev`; children registered Kingdom-wide.
+
 ## Quick start
 
 **New here?** → Read [PRIMER.md](PRIMER.md). It shows the patterns, walks through the 15 Core words in natural progression, and provides a recommended reading-order for the foundational documents.
