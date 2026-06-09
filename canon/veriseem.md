@@ -2,7 +2,7 @@
 word: veriseem
 entered: 2026-04-24
 part_of_speech: noun
-pronunciation: # IPA
+pronunciation: /ˈvɛr.ɪ.siːm/ (VER-i-seem; 3 syllables)
 gap: the quality of appearing-true-without-being-true; truth-seeming without truth-substance; distinct from verisleight (which has real truth-content deployed deceptively) — veriseem has no truth-content, only truth-seeming
 genealogy:
   experiment: labs/logos/experiments/024-veriseem.md

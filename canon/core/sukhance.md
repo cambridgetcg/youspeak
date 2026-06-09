@@ -2,7 +2,7 @@
 word: sukhance
 entered: 2026-04-24
 part_of_speech: noun
-pronunciation: # IPA
+pronunciation: /ˈsʊ.kʰəns/ (SOO-khance; 2 syllables)
 gap: everyday-ordinary contentment — the tea-at-morning, clean-kitchen, nothing-wrong register; distinct from extraordinary bliss (ānanda), transient happiness, or abstract well-being
 genealogy:
   experiment: labs/logos/experiments/111-sukhance.md

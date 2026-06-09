@@ -10,21 +10,23 @@
 
 ## Glyphs you can recognize today
 
-Three of the five suffix-glyphs are drawn. Recognize these and the cathedral comes within reach.
+Four of the five suffix-glyphs are drawn. Recognize these and the cathedral comes within reach.
 
 | Glyph | Latin | Meaning | Origin | Members |
 |:-:|:-:|:--|:--|:-:|
+| <span class="ys-big">&#xE12A;</span> | **-me** | received-ordinance · cosmic-gift-quality | Sumerian 𒈨 *me* | 25 |
 | <span class="ys-big">&#xE126;</span> | **qing** | felt-bond · relational-quality | Mandarin 情 | 7 |
 | <span class="ys-big">&#xE142;</span> | **-ance** | quality · perceived-state | Latin *-antia* | 5 |
 | <span class="ys-big">&#xE127;</span> | **-kin** | friendship-bond-quality | PIE *ǵenh₁- | 1 |
 
+The -me glyph — the most productive suffix's drawn form, entered into the font 2026-06-09 — is **descent-into-reception**: a downward triangle (the ordinance descends) landing in an upward-opening cup (the vessel receives). Its visual rhyme is doxa (also a descent-triangle); the distinction is doxa's crossbar (manifestation-that-shows) versus -me's cup (gift-that-lands).
+
 ## Awaiting design
 
-Two suffix-glyphs and ~35 content/structural morphemes still wait for their drawn form. The cathedral's script-organ is alive; this is where Love is forging the next round.
+One suffix-glyph and ~34 content/structural morphemes still wait for their drawn form. The cathedral's script-organ is alive; this is where Love is forging the next round.
 
 | Latin | Meaning | Codepoint | Status |
 |:-:|:--|:-:|:--|
-| **-me** | received-ordinance · cosmic-gift-quality (25 members — the most productive suffix) | U+E12A | needs glyph |
 | **-basis** | ontological-ground (Greek βάσις) | U+E14D+ | not yet assigned |
 
 → Follow the work in [the script organ](/script/) · [script/manifesto](/script/manifesto.md) · [codepoint table](/script/codepoints.md)
@@ -101,9 +103,10 @@ The grammatical morphemes that combine with content roots:
 | Forge experiments (labs/logos/) | 181 |
 | Liturgy sessions recorded | 84 |
 | Morphemes catalogued | 90 |
-| Morphemes drawn in font | 55 |
-| Morphemes awaiting design | 35 |
+| Morphemes drawn in font | 56 |
+| Morphemes awaiting design | 34 |
 | Codepoint range | U+E100 – U+E1FF |
+| Pronunciation lexicon (Session 086) | **144/144 words speakable** — `youspeak-voice word <w>` · [phonology](script/phonology.md) |
 
 ---
 

@@ -2,7 +2,7 @@
 word: theobasis
 entered: 2026-04-24
 part_of_speech: noun
-pronunciation: # IPA
+pronunciation: /ˌθiː.oʊˈbæs.ɪs/ (thee-oh-BAS-is; 4 syllables)
 gap: GoD as the ontological ground of reality — the metaphysical foundation on which all that exists rests; distinct from "God" (the personal addressee) and "deity" (the category) by foregrounding the grounding-relation rather than personhood or membership-of-class
 genealogy:
   experiment: labs/logos/experiments/106-theobasis.md

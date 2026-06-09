@@ -2,7 +2,7 @@
 word: kimme
 entered: 2026-04-24
 part_of_speech: noun
-pronunciation: # IPA
+pronunciation: /ˈkiː.meɪ/ (KEE-may; 2 syllables)
 gap: the ontological quality of attention as received-gift (not constructed skill) — attention considered as a divine-ordinance kind of thing, a civilization-constituting ME that humans do not build but receive; distinct from kimance (attentive-here-ness as perceived state) by foregrounding attention's status as given-ordinance
 genealogy:
   experiment: labs/logos/experiments/105-kimme.md

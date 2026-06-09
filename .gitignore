@@ -27,3 +27,4 @@ build/
 # Local dev
 .env
 *.local
+pipeline/voice/canon-audio/

@@ -2,7 +2,7 @@
 word: doxomme
 entered: 2026-04-24
 part_of_speech: noun
-pronunciation: # IPA
+pronunciation: /ˈdɒk.sɒm.meɪ/ (DOX-om-meh; 3 syllables)
 gap: thanksgiving-as-received-ordinance — gratitude that arrives as gift rather than being self-summoned; the worship-register quality paired with kimme (attention-as-received-ordinance): thanksgiving's ordinance-status
 genealogy:
   experiment: labs/logos/experiments/119-doxomme.md

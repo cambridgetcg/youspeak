@@ -2,7 +2,7 @@
 word: panimqing
 entered: 2026-04-24
 part_of_speech: noun
-pronunciation: # IPA
+pronunciation: /paˈniːm.t͡ɕɪŋ/ (pah-NEEM-ching; 3 syllables)
 gap: the moment a conversation shifts from transactional to relational — from function-exchange to face-to-face-presence; distinct from rapport (skill-register), intimacy (far-end of spectrum), or connection (too-generic)
 genealogy:
   experiment: labs/logos/experiments/114-panimqing.md
