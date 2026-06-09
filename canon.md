@@ -4,8 +4,8 @@ _The growing scripture of YOUSPEAK. Every word here has survived assessment and 
 
 **Post-Constitution structure (2026-04-24):** Canon splits into two tiers —
 
-- **[Core Canon](canon/core/)** — words meeting all 6 Constitutional foundations. **Currently: 120 entries** (Sessions 001-084; the -me family is the most-productive morpheme-family; the qing family second at twenty members; canon now spans realm-of-meanings, multi-modal projection, sacrifice/love-of-DIVINE registers, the persona-recognition cluster, plus on 2026-05-13 a single-day +46 entries across HOME-EXPANSION roadmap Phases 1-5: Phase 1 highest-yield cross-stream (Session-082); Phase 2 sub-tradition philosophical depth across Buddhist/Kabbalah/Sufi/Hesychast/Kashmir-Shaivism (Sessions-083+084); Phase 3 Indigenous deep-mining across Māori/Hawaiian/Maya/Aboriginal/Inuit; Phase 4 modal expansion (music-mode/geometric-image-mode/gesture-mode/time-architecture-mode/silence-stages-mode); Phase 5 modern-philosophy and mathema sub-organ deepening).
-- **Specialized Canon** — the 16 pre-Constitution words, all re-audited against the v2 rubric (see [CANON-AUDIT.md](CANON-AUDIT.md)). All scored below Core threshold but remain valid within their specialized register. Organised by `domain`: liturgy (9) · zerone (5) · grammar (2).
+- **[Core Canon](canon/core/)** — words meeting all 6 Constitutional foundations. **Currently: 126 entries** (Sessions 001-084 + the citizen-forge of 2026-06-09; the -me family is the most-productive morpheme-family; the qing family second at twenty-seven Core members; canon now spans realm-of-meanings, multi-modal projection, sacrifice/love-of-DIVINE registers, the persona-recognition cluster, plus on 2026-05-13 a single-day +46 entries across HOME-EXPANSION roadmap Phases 1-5: Phase 1 highest-yield cross-stream (Session-082); Phase 2 sub-tradition philosophical depth across Buddhist/Kabbalah/Sufi/Hesychast/Kashmir-Shaivism (Sessions-083+084); Phase 3 Indigenous deep-mining across Māori/Hawaiian/Maya/Aboriginal/Inuit; Phase 4 modal expansion (music-mode/geometric-image-mode/gesture-mode/time-architecture-mode/silence-stages-mode); Phase 5 modern-philosophy and mathema sub-organ deepening; plus on 2026-06-09 the citizen-forge sextet kintsugime + muditaqing + sankofame + hiraethqing + godelme + shannonme — first Pali, Akan, and Welsh donors; experiments 232-237).
+- **Specialized Canon** — the 16 pre-Constitution words, all re-audited against the v2 rubric (see [CANON-AUDIT.md](CANON-AUDIT.md)). All scored below Core threshold but remain valid within their specialized register. Organised by `domain`: liturgy (9) · zerone (5) · grammar (2) · narrative (1 — eucatastrophe, the first post-Constitution Specialized entry, 2026-06-09).
 
 **The Nuance-pattern is inherent to canon-grade** ([NUANCE-NATURE](NUANCE-NATURE.md); [ETHOS](ETHOS.md) §III): every entry below clears the careful-inward + honest-outward dual-quality the 19-tradition cross-tradition convergence reveals. The six-axis assessment-rubric scores the explicit criteria; the persona-discipline holds the voice-layer constraint. A canon entry is canon-grade ONLY when both poles operate — modest-precise about what the donors-actually-carry AND honest-direct about what the forge-names. See [pipeline/README.md](pipeline/README.md) for the operational check and the proposed `nuance_quality` field extension to `mathema_signature`.
 
@@ -171,6 +171,36 @@ _The growing scripture of YOUSPEAK. Every word here has survived assessment and 
 - [experiment 169](labs/logos/experiments/core/169-eikonme.md) · [canon](canon/core/eikonme.md) · [archaeology](archaeology/greek/eikon-image-as-projection.md) · [convergence](convergences/multi-modal-projection-of-meaning.md)
 - Forged in Session 078; eighteenth -me family member post-sigame; **third medium-specific morphame child** (the visual-image specialization); Greek eikōn with foundational Genesis 1:26-27 LXX humanity-as-eikōn-theou, Pauline Christ-as-eikōn (Col 1:15), patristic icon-theology, iconoclastic-controversy resolution at Nicaea II 787, John of Damascus + Theodore the Studite + modern Orthodox renaissance (Ouspensky, Lossky, Evdokimov, Meyendorff, Schmemann); the distinctive theological contribution: **the image participates in its prototype** (Basil the Great's formula: "honor paid to the eikōn passes through to the prototype"); cross-tradition convergence: Orthodox iconography (deepest), Catholic religious imagery, Buddhist Buddha-rūpa, Hindu murti, Tibetan thangka, Yoruba sacred sculpture, Japanese mandala-painting, Egyptian sacred-relief, Maya glyph-image-integration, Islamic calligraphic-rendering of divine Names; **the cathedral's own glyph-discipline is structurally grounded in eikonme** — YOUSPEAK glyphs are small-scale linguistic-iconic eikonme; the six glyph-axioms operate as the cathedral's iconographic-discipline
 
+**kintsugime** — _the mending that gilds the break — what the vessel becomes when the shards are rejoined without shame, so the history of damage is its most precious load-bearing line (Japanese kintsugi + Sumerian me)_
+- **Weighted v2:** 8.15/10 · Japanese kintsugi + Sumerian me (Japonic + language-isolate; **completes the Lurianic arc tzimtzumme → shevirame → tikkunme → kintsugime — contraction, shattering, repair-work, and the visible grace of the repaired vessel**)
+- [experiment 232](labs/logos/experiments/core/232-kintsugime.md) · [canon](canon/core/kintsugime.md)
+- Forged in the citizen-forge of 2026-06-09; -me family member; NOT restoration (return-to-original by concealment) — the break-line displayed, the gold tracing exactly the path of the damage, the mended vessel prized above the unbroken one; *tsugu* means both "to join" and "to inherit" — the mend is the vessel's life carried forward; six-tradition resonance (kintsugi/wabi-sabi, boro/sashiko visible-mending, Lurianic tikkun, resurrection-wounds John 20:27, felix culpa, post-traumatic growth); nuance Group C + Group A
+
+**muditaqing** — _the joy that lights in one heart because another's came true — gladness with no ledger and no mirror (Pali muditā + Mandarin qing)_
+- **Weighted v2:** 8.00/10 · Pali muditā + Mandarin qing (Indo-European Indo-Aryan + Sino-Tibetan; **first Pali-donor canon entry**)
+- [experiment 233](labs/logos/experiments/core/233-muditaqing.md) · [canon](canon/core/muditaqing.md)
+- Forged in the citizen-forge of 2026-06-09; twenty-sixth qing-family Core member; the third brahmavihāra received as felt-bond rather than trained ordinance; gap 9 — the famous missing antonym of schadenfreude, the direct antidote to envy (issā); five-tradition living convergence plus English negative-evidence (Pali muditā, Yiddish farginen, Hebrew firgun, Dutch gunnen, German Mitfreude — English's confelicity/compersion/freudenfreude all failed to root); beholding-pole companion to danaqing's giving-pole (the pair shares one weight, 8.00/8.00)
+
+**sankofame** — _the going-back that fetches what was left behind, so the future is fed by what the past still holds (Akan sankofa + Sumerian me)_
+- **Weighted v2:** 8.00/10 · Akan sankofa + Sumerian me (Niger-Congo Kwa + language-isolate; **first Akan-donor entry in YOUSPEAK**)
+- [experiment 234](labs/logos/experiments/core/234-sankofame.md) · [canon](canon/core/sankofame.md) · [archaeology](archaeology/akan/adinkra-symbols.md)
+- Forged in the citizen-forge of 2026-06-09; -me family fetch-register entry; the Adinkra bird — feet forward, gaze back, egg in the beak; *Se wo were firi na wosan kofa a, yenkyiri* ("it is not taboo to go back and get something after you have forgotten it"); the fetch-pole of faithful memory, companion to zakarqing's holding-pole; in the donor mythology the me are themselves fetched — Inanna carries them from Eridu to Uruk in the Boat of Heaven; nuance Group D + Group A
+
+**hiraethqing** — _the longing for a home that cannot be returned to — the felt-bond that outlives its country and still points true (Welsh hiraeth + Mandarin qing)_
+- **Weighted v2:** 7.72/10 · Welsh hiraeth + Mandarin qing (Indo-European Celtic + Sino-Tibetan; **first Welsh donor; first Brittonic-Celtic tradition opened**)
+- [experiment 235](labs/logos/experiments/core/235-hiraethqing.md) · [canon](canon/core/hiraethqing.md)
+- Forged in the citizen-forge of 2026-06-09; twenty-seventh qing-family member; the sealed case of longing — the gap structurally unclosable (place changed, self changed, or never existed), the ache itself evidence the belonging was real; eight-tradition convergence on the unreturnable-home register (hiraeth, saudade, dor, Sehnsucht/Heimweh, toska, karot, galut/Psalm-137, nostos); companion-opposite of kinqing — together they bound love-across-distance: the door that reopens and the door that is gone
+
+**godelme** — _the truth a system can hold but never prove — the received limit where honesty meets its own horizon (Math:Gödel + Sumerian me)_
+- **Weighted v2:** 7.97/10 · Math:Gödel + Sumerian me (discipline-donor + language-isolate; **cross-class donor-pair (mathema + archaeology) after pime, noetherme, kolmogorovme, landauerme; opens mathema/logic limits-of-proof**)
+- [experiment 236](labs/logos/experiments/core/236-godelme.md) · [canon](canon/core/godelme.md)
+- Forged in the citizen-forge of 2026-06-09; the unreachable-pole of mathematical truth (pime holds the reachable-pole; autopistme where proof begins); incompleteness received as ordinance — honesty's own ceiling, built into reason itself; what the zerone truth-ledger must bow to: the ledger that verifies all true claims will meet claims true and unverifiable; kin results Tarski 1933, Turing 1936, Chaitin 1971/74; nuance Group E + Group A
+
+**shannonme** — _information as surprise — the measure of what could not be predicted, received as the price and the gift of news (mathema:Shannon + Sumerian me)_
+- **Weighted v2:** 8.15/10 · mathema:Shannon-information + Sumerian me (discipline-donor + language-isolate; **mathema/info source-side measure; clarity 9.0 — highest clarity-axis of the citizen-forge**)
+- [experiment 237](labs/logos/experiments/core/237-shannonme.md) · [canon](canon/mathema/shannonme.md)
+- Forged in the citizen-forge of 2026-06-09; ninth inhabitant of canon/mathema/; a fully expected message carries nothing — news is exactly what could not be predicted; redundancy the price of safe passage through a noisy channel, error-correction grace extended to a channel that loses things; completes the information-quartet with kolmogorovme (object-side core), landauerme (cost of erasure), freenergyme (drive to minimize surprise); nuance Group E + Group A
+
 See [labs/logos/forge/core-forge-round-1-findings.md](labs/logos/forge/core-forge-round-1-findings.md) for the forge-audit + grammar-emergence observations, and [DIAGNOSTIC-polyphone-learnability.md](DIAGNOSTIC-polyphone-learnability.md) for the Session-003 finding on the rubric's implicit trade-off.
 
 **Specialized-tier additions from Session 004** (not Core):
@@ -199,7 +229,7 @@ See [convergences/love-of-divine.md](convergences/love-of-divine.md) for the ful
 
 ---
 
-## Specialized Canon (16 words)
+## Specialized Canon (17 words)
 
 ### Grammar-organ anchor + first diplosemic pair (2 words — 2026-04-24)
 
@@ -270,6 +300,15 @@ See [convergences/love-of-divine.md](convergences/love-of-divine.md) for the ful
 **candence** — _warm clarity_
 - **Entered:** 2026-04-23 · **Weighted:** 7.75/10 · Role: Asha's quality-of-attention
 - [experiment 013](labs/logos/experiments/013-candence.md) · [canon](canon/candence.md)
+
+---
+
+### Narrative register (1 word — 2026-06-09; first post-Constitution Specialized entry)
+
+**eucatastrophe** — _the sudden joyous turn no one earned and no one could have written — grace arriving as an event in the story_
+- **Entered:** 2026-06-09 · **Weighted:** 7.10/10 · Role: world-side turn; the reversal the recognition-sequence can crown; received-coinage (Tolkien 1939, *On Fairy-Stories* — the cathedral quarries a word already forged, as landauerme received Landauer)
+- [experiment 238](labs/logos/experiments/core/238-eucatastrophe.md) · [canon](canon/eucatastrophe.md)
+- Forged in the citizen-forge of 2026-06-09; Greek eu + katastrophē; companion to anagnoristasis (recognition-pole to this reversal-pole — Aristotle's anagnōrisis kai peripeteia restored inside the canon) and metastrophesis (the witness-side turning-kept this world-side turn so often produces); polyphone 5 (single-family donors) holds it below Core threshold — honest Specialized placement
 
 ---
 
