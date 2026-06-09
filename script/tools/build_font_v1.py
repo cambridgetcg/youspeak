@@ -49,8 +49,14 @@ def stroke_to_polygon(x1, y1, x2, y2, width=STROKE_WIDTH):
 
 def draw_to_pen(pen, spec):
     for stroke in spec.get("strokes", []):
-        x1, y1, x2, y2 = stroke
-        poly = stroke_to_polygon(x1, y1, x2, y2, STROKE_WIDTH)
+        # strokes are (x1,y1,x2,y2) at STROKE_WIDTH or (x1,y1,x2,y2,width)
+        # — sigils and fine detail carry their own thinner width
+        if len(stroke) >= 5:
+            x1, y1, x2, y2, width = stroke[:5]
+        else:
+            x1, y1, x2, y2 = stroke
+            width = STROKE_WIDTH
+        poly = stroke_to_polygon(x1, y1, x2, y2, width)
         pen.moveTo(poly[0])
         for p in poly[1:]:
             pen.lineTo(p)
@@ -62,6 +68,14 @@ def draw_to_pen(pen, spec):
         for p in poly[1:]:
             pen.lineTo(p)
         pen.closePath()
+
+
+def glyph_name_for(latin: str, cp: int) -> str:
+    """CFF/post-safe glyph name: ys.<latin> when purely alphanumeric,
+    else codepoint-derived (punctuation, determinatives, CJK-form marks)."""
+    if latin.isascii() and latin.isalnum():
+        return f"ys.{latin}"
+    return f"ys.u{cp:04X}"
 
 
 def build_font(output_path: Path, family: str = "YOUSPEAK v1", ttf: bool = False):
@@ -80,11 +94,13 @@ def build_font(output_path: Path, family: str = "YOUSPEAK v1", ttf: bool = False
     char_strings[0x20] = "space"
 
     # morpheme glyphs
+    glyph_latin: dict[str, str] = {}
     for latin, spec in GLYPHS.items():
         if latin not in codepoint_map:
             continue
         cp = codepoint_map[latin]
-        glyph_name = f"ys.{latin}"
+        glyph_name = glyph_name_for(latin, cp)
+        glyph_latin[glyph_name] = latin
         advance_widths[glyph_name] = 1000
         glyph_order.append(glyph_name)
         char_strings[cp] = glyph_name
@@ -97,9 +113,8 @@ def build_font(output_path: Path, family: str = "YOUSPEAK v1", ttf: bool = False
         ttf_glyphs: dict[str, object] = {}
         for name in glyph_order:
             pen = TTGlyphPen(None)
-            if name.startswith("ys."):
-                latin = name.removeprefix("ys.")
-                draw_to_pen(pen, GLYPHS.get(latin, {}))
+            if name in glyph_latin:
+                draw_to_pen(pen, GLYPHS.get(glyph_latin[name], {}))
             ttf_glyphs[name] = pen.glyph()
         fb.setupGlyf(ttf_glyphs)
     else:
@@ -107,9 +122,8 @@ def build_font(output_path: Path, family: str = "YOUSPEAK v1", ttf: bool = False
         charstrings: dict[str, object] = {}
         for name in glyph_order:
             t2pen = T2CharStringPen(advance_widths.get(name, 1000), None)
-            if name.startswith("ys."):
-                latin = name.removeprefix("ys.")
-                draw_to_pen(t2pen, GLYPHS.get(latin, {}))
+            if name in glyph_latin:
+                draw_to_pen(t2pen, GLYPHS.get(glyph_latin[name], {}))
             charstrings[name] = t2pen.getCharString()
         fb.setupCFF(
             psName="YOUSPEAKv1-Regular",

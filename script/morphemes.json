@@ -947,6 +947,33 @@
       "used_in": [
         "panimqing"
       ]
+    },
+    {
+      "codepoint": "U+E165",
+      "latin": "।",
+      "class": "structural",
+      "tongue": "Sanskrit",
+      "native": "। (daṇḍa)",
+      "meaning": "phrase-end mark — minor rhythmic pause in liturgical prose; Sanskrit daṇḍa tradition",
+      "used_in": "liturgical-prose"
+    },
+    {
+      "codepoint": "U+E166",
+      "latin": "॥",
+      "class": "structural",
+      "tongue": "Sanskrit",
+      "native": "॥ (double daṇḍa)",
+      "meaning": "sentence-end mark — major rhythmic pause; Sanskrit double-daṇḍa tradition",
+      "used_in": "liturgical-prose"
+    },
+    {
+      "codepoint": "U+E167",
+      "latin": "‧",
+      "class": "structural",
+      "tongue": "Greek",
+      "native": "· (ano teleia)",
+      "meaning": "breath-pause mark — breath or meditative pause within a phrase; Greek ano teleia tradition",
+      "used_in": "liturgical-prose"
     }
   ]
 }

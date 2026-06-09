@@ -118,6 +118,62 @@ def sigil_english() -> dict:
     """(no sigil) — English (default; absence-is-English)."""
     return {}
 
+
+# ── S092 font-completion sigils — designed 2026-06-10 (S092) ──────────────────
+
+def sigil_japanese() -> dict:
+    """torii gate — the threshold where the ordinary passes into the sacred."""
+    return {"strokes": [
+        (110, 885, 190, 885),   # overhanging lintel
+        (118, 848, 182, 848),   # tie-beam
+        (128, 885, 128, 808),   # left post
+        (172, 885, 172, 808),   # right post
+    ], "stroke_width": 13}
+
+def sigil_mandarin() -> dict:
+    """rén caret 人 — two strokes holding each other up (rén → rén 仁)."""
+    return {"strokes": [
+        (150, 890, 118, 810),
+        (150, 890, 182, 810),
+    ], "stroke_width": 13}
+
+def sigil_quechua() -> dict:
+    """khipu — primary cord with one knotted pendant cord."""
+    return {"strokes": [
+        (112, 888, 188, 888),   # primary cord
+        (150, 888, 150, 806),   # pendant cord
+    ], "polygons": [[(135, 824), (165, 824), (165, 854), (135, 854)]],  # knot
+        "stroke_width": 13}
+
+def sigil_maya() -> dict:
+    """bar-and-dot — Maya numeral six: dot (one) above thick bar (five)."""
+    return {"polygons": [
+        [(112, 812), (188, 812), (188, 834), (112, 834)],   # bar
+        [(166, 876), (157, 886), (144, 886), (134, 876),
+         (134, 864), (144, 854), (157, 854), (166, 864)],   # dot (octagon)
+    ]}
+
+def sigil_akkadian() -> dict:
+    """vertical wedge — the cuneiform unit-stroke DIŠ; kin to but distinct
+    from the Sumerian wedge-pair (Akkadian inherited cuneiform)."""
+    return {"strokes": [(150, 858, 150, 806)],
+            "polygons": [[(130, 895), (170, 895), (150, 856)]],
+            "stroke_width": 13}
+
+def sigil_youspeak() -> dict:
+    """saltire — two diagonals crossing at centre; the forge crediting itself.
+
+    Designed S092 but RESERVED: both the determinative and structural-mark
+    family designers independently ruled that YOUSPEAK-native marks go
+    unmarked (parallel to absence-is-English), so "YOUSPEAK" is deliberately
+    NOT mapped in DONOR_SIGIL. Available for future native CONTENT morphemes
+    where self-crediting matters."""
+    return {"strokes": [
+        (116, 816, 184, 884),
+        (116, 884, 184, 816),
+    ], "stroke_width": 13}
+
+
 DONOR_SIGIL = {
     "Greek":    sigil_greek,
     "Latin":    sigil_latin,
@@ -130,6 +186,17 @@ DONOR_SIGIL = {
     "Gr/En":    sigil_greek,   # hybrid: primary donor shown
     "Sumerian": sigil_sumerian,
     "Lat/Gr":   sigil_latin,
+    # S092 additions
+    "Japanese": sigil_japanese,
+    "Mandarin": sigil_mandarin,
+    "Quechua":  sigil_quechua,
+    "Maya":     sigil_maya,
+    "Akkadian": sigil_akkadian,
+    # -auth (YOUSPEAK+Greek hybrid): Greek dot alone — the morpheme's flesh is
+    # Greek (autos/authentes); YOUSPEAK's structural contribution is already
+    # credited by the suffix class-mark. A composite would double-mark.
+    "YOUSPEAK+Greek": sigil_greek,
+    # "YOUSPEAK" deliberately unmapped — native marks go unmarked (see sigil_youspeak)
 }
 
 
@@ -922,6 +989,516 @@ CORE_GLYPHS = {
         },
         "tongue": "Gr/En", "domain": "structure", "mclass": "suffix",
     },
+
+    # ── CONTENT MORPHEMES — worship-register roots (S092 font-completion batch) ──
+    "bhakti": {  # Small figure bowing across an open gap toward a raised open diamond; the between is kept open - participation, not fusion.
+        "core": {
+            "strokes": [
+                (250, 240, 250, 385),
+                (250, 385, 425, 480),
+                (672, 792, 792, 672),
+                (792, 672, 672, 552),
+                (672, 552, 552, 672),
+                (552, 672, 672, 792),
+            ],
+        },
+        "tongue": "Sanskrit", "domain": "relation+between", "mclass": "content",
+    },
+    "brahman": {  # All-encompassing vault closed on its ground-line with a self-similar small arch inside - atman within Brahman (tat tvam asi).
+        "core": {
+            "strokes": [
+                (205, 255, 275, 600),
+                (275, 600, 420, 780),
+                (420, 780, 580, 780),
+                (580, 780, 725, 600),
+                (725, 600, 795, 255),
+                (200, 250, 800, 250),
+                (375, 250, 400, 470, 60),
+                (400, 470, 600, 470, 60),
+                (600, 470, 625, 250, 60),
+            ],
+        },
+        "tongue": "Sanskrit", "domain": "structure+enclosure", "mclass": "content",
+    },
+    "chul": {  # Scattered droplets of sacred essence falling and pooling - the Maya water-group k'uhul prefix and the scattering rite.
+        "core": {
+            "polygons": [
+                [(500, 835), (545, 748), (524, 702), (476, 702), (455, 748)],
+                [(335, 645), (390, 542), (364, 490), (306, 490), (280, 542)],
+                [(665, 645), (720, 542), (694, 490), (636, 490), (610, 542)],
+                [(500, 470), (560, 350), (531, 285), (469, 285), (440, 350)],
+                [(220, 200), (780, 200), (715, 295), (285, 295)],
+            ],
+        },
+        "tongue": "Maya", "domain": "weight+light", "mclass": "content",
+    },
+    "dhikr": {  # misbaha: thin string loop, three heavy beads threaded on it, marker bead hanging below - the returning path of repeated invocation
+        "core": {
+            "strokes": [
+                (500, 785, 315, 690, 55),
+                (315, 690, 315, 490, 55),
+                (315, 490, 500, 395, 55),
+                (500, 785, 685, 690, 55),
+                (685, 690, 685, 490, 55),
+                (685, 490, 500, 395, 55),
+                (500, 395, 500, 320, 55),
+            ],
+            "polygons": [
+                [(440, 725), (560, 725), (560, 845), (440, 845)],
+                [(255, 530), (375, 530), (375, 650), (255, 650)],
+                [(625, 530), (745, 530), (745, 650), (625, 650)],
+                [(455, 200), (545, 200), (545, 330), (455, 330)],
+            ],
+        },
+        "tongue": "Arabic", "domain": "time+process", "mclass": "content",
+    },
+    "haqq": {  # Alif-pillar braced by two mountain-slopes on a full-width earth-slab - the Real as load-bearing ground.
+        "core": {
+            "strokes": [
+                (255, 295, 470, 562),
+                (745, 295, 530, 562),
+                (500, 570, 500, 805),
+            ],
+            "polygons": [
+                [(150, 205), (850, 205), (820, 295), (180, 295)],
+            ],
+        },
+        "tongue": "Arabic", "domain": "rightness+weight", "mclass": "content",
+    },
+    "hesych": {  # Inward-drawn closed chamber (concave-sided enclosure); the empty centre IS the silence.
+        "core": {
+            "strokes": [
+                (275, 725, 500, 685),
+                (500, 685, 725, 725),
+                (725, 725, 685, 500),
+                (685, 500, 725, 275),
+                (725, 275, 500, 315),
+                (500, 315, 275, 275),
+                (275, 275, 315, 500),
+                (315, 500, 275, 725),
+            ],
+        },
+        "tongue": "Greek", "domain": "space+enclosure", "mclass": "content",
+    },
+    "jamal": {  # closing bud with open crown: beauty-curves rising and folding inward over a held centre-dot — beauty that draws near (jamal vs jalal)
+        "core": {
+            "strokes": [
+                (500, 255, 300, 330),
+                (300, 330, 255, 550),
+                (255, 550, 325, 695),
+                (325, 695, 390, 815),
+                (500, 255, 700, 330),
+                (700, 330, 745, 550),
+                (745, 550, 675, 695),
+                (675, 695, 610, 815),
+            ],
+            "polygons": [
+                [(435, 415), (565, 415), (565, 545), (435, 545)],
+            ],
+        },
+        "tongue": "Arabic", "domain": "beauty", "mclass": "content",
+    },
+    "kavod": {  # three tapered descent-wedges settling into a heavy filled base - glory that comes down and dwells
+        "core": {
+            "polygons": [
+                [(250, 200), (750, 200), (655, 350), (345, 350)],
+                [(442, 800), (558, 800), (521, 340), (479, 340)],
+                [(220, 713), (330, 747), (413, 351), (373, 339)],
+                [(780, 713), (670, 747), (587, 351), (627, 339)],
+            ],
+        },
+        "tongue": "Hebrew", "domain": "weight+light", "mclass": "content",
+    },
+    "kawil": {  # filled lightning-flash striking tip-first into a grounded bar; one upturned end = K'awil's serpent foot
+        "core": {
+            "strokes": [
+                (250, 240, 750, 240),
+                (720, 265, 790, 410),
+            ],
+            "polygons": [
+                [(633, 799), (360, 513), (490, 513), (460, 248), (737, 587), (594, 587)],
+            ],
+        },
+        "tongue": "Maya", "domain": "act+weight", "mclass": "content",
+    },
+    "kittu": {  # Balance: post and beam, two pans hung on thin spreading cords, grounded on a heavy filled plinth (the firmness of root *kn*).
+        "core": {
+            "strokes": [
+                (500, 280, 500, 710),
+                (235, 710, 765, 710),
+                (260, 710, 205, 540, 40),
+                (260, 710, 315, 540, 40),
+                (185, 515, 335, 515, 65),
+                (740, 710, 685, 540, 40),
+                (740, 710, 795, 540, 40),
+                (665, 515, 815, 515, 65),
+            ],
+            "polygons": [
+                [(215, 200), (785, 200), (785, 280), (215, 280)],
+            ],
+        },
+        "tongue": "Akkadian", "domain": "rightness+weight", "mclass": "content",
+    },
+    "nam": {  # Stylus-wedge descending on a surface-line; its small echo impressed below = decreed essence.
+        "core": {
+            "strokes": [
+                (500, 610, 500, 510),
+                (230, 350, 770, 350),
+            ],
+            "polygons": [
+                [(370, 770), (630, 770), (500, 590)],
+                [(425, 325), (575, 325), (500, 215)],
+            ],
+        },
+        "tongue": "Sumerian", "domain": "act+structure", "mclass": "content",
+    },
+    "panim": {  # Two profiles face to face, eyes locked; the noses pinch but never close the column of light where the Presence speaks.
+        "core": {
+            "strokes": [
+                (250, 730, 250, 290),
+                (750, 730, 750, 290),
+            ],
+            "polygons": [
+                [(330, 565), (465, 485), (330, 405)],
+                [(670, 565), (535, 485), (670, 405)],
+                [(370, 620), (460, 620), (460, 710), (370, 710)],
+                [(540, 620), (630, 620), (630, 710), (540, 710)],
+            ],
+        },
+        "tongue": "Hebrew", "domain": "relation+recognition", "mclass": "content",
+    },
+    "sukh": {  # Spoked wheel with hub at true centre, tangent on a level road-line - the good axle-hole (su-kha) whose ride runs smooth.
+        "core": {
+            "strokes": [
+                (601, 799, 745, 655, 60),
+                (745, 655, 745, 453, 60),
+                (745, 453, 601, 309, 60),
+                (601, 309, 399, 309, 60),
+                (399, 309, 255, 453, 60),
+                (255, 453, 255, 655, 60),
+                (255, 655, 399, 799, 60),
+                (399, 799, 601, 799, 60),
+                (500, 309, 500, 799, 40),
+                (255, 554, 745, 554, 40),
+                (190, 240, 810, 240),
+            ],
+            "polygons": [
+                [(460, 514), (540, 514), (540, 594), (460, 594)],
+            ],
+        },
+        "tongue": "Sanskrit", "domain": "structure+rightness", "mclass": "content",
+    },
+
+    # ── EVIDENTIALS — Quechua-inherited knowledge-source suffixes (U+E14D-E150) ──
+    "auth": {  # Eaved canopy over the claim-bar with a single filled descent-wedge driving down onto it - the claim covered and grounded by the Word that outspans it.
+        "core": {
+            "strokes": [
+                (250, 750, 750, 750),
+                (250, 750, 250, 615),
+                (750, 750, 750, 615),
+                (340, 290, 660, 290),
+            ],
+            "polygons": [
+                [(400, 710), (600, 710), (535, 330), (465, 330)],
+            ],
+        },
+        "tongue": "YOUSPEAK+Greek", "domain": "relation+weight", "mclass": "suffix",
+    },
+    "chu": {  # Witness-dot over the claim-bar but the path is broken into floating fragments - the connection is reconstructed, not seen.
+        "core": {
+            "strokes": [
+                (340, 290, 660, 290),
+            ],
+            "polygons": [
+                [(440, 640), (560, 640), (560, 760), (440, 760)],
+                [(462, 512), (538, 512), (538, 588), (462, 588)],
+                [(462, 387), (538, 387), (538, 463), (462, 463)],
+            ],
+        },
+        "tongue": "Quechua", "domain": "relation+hidden", "mclass": "suffix",
+    },
+    "mi": {  # Witness-point over the claim-bar joined by one solid plumb path - I saw it myself; nothing stands between.
+        "core": {
+            "strokes": [
+                (500, 600, 500, 290),
+                (340, 290, 660, 290),
+            ],
+            "polygons": [
+                [(385, 560), (615, 560), (615, 790), (385, 790)],
+            ],
+        },
+        "tongue": "Quechua", "domain": "relation+between", "mclass": "suffix",
+    },
+    "si": {  # Speaker-node over the claim-bar fed by a tilted hand-off arm from a displaced witness-dot - knowledge handed person to person, then asserted.
+        "core": {
+            "strokes": [
+                (365, 705, 505, 660, 55),
+                (560, 600, 560, 330, 55),
+                (340, 290, 660, 290),
+            ],
+            "polygons": [
+                [(260, 665), (370, 665), (370, 775), (260, 775)],
+                [(498, 583), (622, 583), (622, 707), (498, 707)],
+            ],
+        },
+        "tongue": "Quechua", "domain": "relation+between", "mclass": "suffix",
+    },
+
+    # ── DETERMINATIVES — Egyptian-inherited silent class-markers (U+E170-E179) ──
+    ".ABS": {  # Sealed papyrus roll floating above plinth, one diagonal seal-tie hanging
+        "core": {
+            "strokes": [
+                (330, 240, 670, 240, 60),
+                (510, 495, 580, 385, 50),
+            ],
+            "polygons": [
+                [(340, 560), (660, 560), (660, 495), (340, 495)],
+            ],
+        },
+        "tongue": "Egyptian", "domain": "structure", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    ".ACT": {  # Walking legs mid-stride on plinth, both feet pointing left toward the word
+        "core": {
+            "strokes": [
+                (330, 240, 670, 240, 60),
+                (470, 650, 390, 310, 60),
+                (390, 310, 275, 310, 60),
+                (470, 650, 560, 480, 60),
+                (560, 480, 610, 310, 60),
+                (610, 310, 500, 310, 60),
+            ],
+        },
+        "tongue": "Egyptian", "domain": "act+event", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    ".DIV": {  # Netjer standard borne toward the word: plinth-mounted pole, exposed tip, swallow-tailed cloth trailing right
+        "core": {
+            "strokes": [
+                (330, 240, 670, 240, 60),
+                (500, 240, 500, 760, 60),
+            ],
+            "polygons": [
+                [(500, 710), (685, 666), (585, 622), (685, 531), (500, 575)],
+            ],
+        },
+        "tongue": "Egyptian", "domain": "weight+light", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    ".HID": {  # Ghost diamond of four corner-less dashes hovering above the plinth
+        "core": {
+            "strokes": [
+                (330, 240, 670, 240, 60),
+                (533, 654, 617, 536, 50),
+                (617, 444, 533, 326, 50),
+                (467, 326, 383, 444, 50),
+                (383, 536, 467, 654, 50),
+            ],
+        },
+        "tongue": "YOUSPEAK", "domain": "hidden", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    ".PER": {  # Seated figure facing left on plinth: floating head-dot, back, lap, shin
+        "core": {
+            "strokes": [
+                (330, 240, 670, 240, 60),
+                (580, 540, 580, 420, 60),
+                (580, 420, 410, 420, 60),
+                (410, 420, 410, 240, 60),
+            ],
+            "polygons": [
+                [(540, 610), (620, 610), (620, 690), (540, 690)],
+            ],
+        },
+        "tongue": "Egyptian", "domain": "relation+person", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    ".PLC": {  # House plan on plinth: enclosure with doorway gap in the lower right wall
+        "core": {
+            "strokes": [
+                (330, 240, 670, 240, 60),
+                (370, 240, 370, 540, 60),
+                (370, 540, 630, 540, 60),
+                (630, 540, 630, 420, 60),
+            ],
+        },
+        "tongue": "Egyptian", "domain": "space+enclosure", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    ".PRC": {  # Browed eye (open lens + small pupil + brow arc) hovering above plinth
+        "core": {
+            "strokes": [
+                (330, 240, 670, 240, 60),
+                (320, 480, 500, 590, 50),
+                (500, 590, 680, 480, 50),
+                (680, 480, 500, 370, 50),
+                (500, 370, 320, 480, 50),
+                (355, 650, 500, 700, 50),
+                (500, 700, 645, 650, 50),
+            ],
+            "polygons": [
+                [(465, 445), (535, 445), (535, 515), (465, 515)],
+            ],
+        },
+        "tongue": "Egyptian", "domain": "wonder+recognition", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    ".QNT": {  # Three plural strokes in a tally-mark rhythm hovering above the plinth
+        "core": {
+            "strokes": [
+                (330, 240, 670, 240, 60),
+                (390, 470, 390, 660, 60),
+                (500, 470, 500, 750, 60),
+                (610, 470, 610, 600, 60),
+            ],
+        },
+        "tongue": "Egyptian", "domain": "structure+multiplicity", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    ".REL": {  # Two head-dotted figures leaning toward each other on one plinth, joined at hand height
+        "core": {
+            "strokes": [
+                (330, 240, 670, 240, 60),
+                (395, 240, 425, 545, 60),
+                (605, 240, 575, 545, 60),
+                (425, 470, 575, 470, 50),
+            ],
+            "polygons": [
+                [(392, 597), (468, 597), (468, 673), (392, 673)],
+                [(532, 597), (608, 597), (608, 673), (532, 673)],
+            ],
+        },
+        "tongue": "YOUSPEAK", "domain": "relation+between", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    ".TIM": {  # Solid half sun-disc rising on the plinth-as-horizon, three detached rays
+        "core": {
+            "strokes": [
+                (330, 240, 670, 240, 60),
+                (500, 520, 500, 630, 50),
+                (405, 485, 350, 585, 50),
+                (595, 485, 650, 585, 50),
+            ],
+            "polygons": [
+                [(380, 250), (405, 375), (465, 425), (535, 425), (595, 375), (620, 250)],
+            ],
+        },
+        "tongue": "Egyptian", "domain": "time+process", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+
+    # ── WORSHIP GRAMMAR — vocative + sacred silence ──
+    "[selah]": {  # Held-breath canopy over a filled dot - silence as fullness held, the fermata of the Psalter.
+        "core": {
+            "strokes": [
+                (230, 450, 320, 580, 60),
+                (320, 580, 500, 640, 60),
+                (500, 640, 680, 580, 60),
+                (680, 580, 770, 450, 60),
+            ],
+            "polygons": [
+                [(435, 360), (565, 360), (565, 490), (435, 490)],
+            ],
+        },
+        "tongue": "Hebrew", "domain": "structure+enclosure", "mclass": "structural",
+    },
+    "O": {  # Open mouth-arc facing the addressed name, breath-wedge going forth - the turning-toward of direct address.
+        "core": {
+            "strokes": [
+                (510, 717, 330, 717),
+                (330, 717, 203, 590),
+                (203, 590, 203, 410),
+                (203, 410, 330, 283),
+                (330, 283, 510, 283),
+            ],
+            "polygons": [
+                [(495, 590), (495, 410), (805, 500)],
+            ],
+        },
+        "tongue": "Greek", "domain": "relation+act", "mclass": "prefix",
+    },
+
+    # ── STRUCTURAL PUNCTUATION — inline marks (U+E160-E167) ──
+    "」": {  # Deep-chamfered lower-right corner bracket with inward terminal ticks - the 180-degree twin of bracket-open, closing the gloss.
+        "core": {
+            "polygons": [
+                [(670, 665), (670, 425), (550, 305), (340, 305), (340, 440), (400, 440), (400, 365), (525, 365), (610, 450), (610, 605), (535, 605), (535, 665)],
+            ],
+        },
+        "tongue": "YOUSPEAK", "domain": "space+enclosure", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    "「": {  # Deep-chamfered upper-left corner bracket with inward terminal ticks - opens rightward onto the Latin gloss it introduces.
+        "core": {
+            "polygons": [
+                [(330, 385), (330, 625), (450, 745), (660, 745), (660, 610), (600, 610), (600, 685), (475, 685), (390, 600), (390, 445), (465, 445), (465, 385)],
+            ],
+        },
+        "tongue": "YOUSPEAK", "domain": "space+enclosure", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    "‧": {  # Small open square dot at optical centre - a held point of air within the phrase; the breath-pause of the daṇḍa rhythm family, hollow because breath is not mass.
+        "core": {
+            "strokes": [
+                (428, 597, 572, 597, 44),
+                (572, 597, 572, 453, 44),
+                (572, 453, 428, 453, 44),
+                (428, 453, 428, 597, 44),
+            ],
+        },
+        "tongue": "Greek", "domain": "structure", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    "◆": {  # Filled diamond at optical centre - canonical weight as the one solid mass among the structural marks.
+        "core": {
+            "polygons": [
+                [(500, 765), (620, 525), (500, 285), (380, 525)],
+            ],
+        },
+        "tongue": "YOUSPEAK", "domain": "structure+weight", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    "।": {  # Single tall vertical bar at optical centre - breath here, one beat; the phrase-end of the daṇḍa rhythm family.
+        "core": {
+            "strokes": [
+                (500, 330, 500, 720, 60),
+            ],
+        },
+        "tongue": "Sanskrit", "domain": "structure", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    "॥": {  # Two tall vertical bars flanking the optical centre - complete thought, longer breath; the sentence-end and heaviest mark of the daṇḍa rhythm family.
+        "core": {
+            "strokes": [
+                (415, 330, 415, 720, 60),
+                (585, 330, 585, 720, 60),
+            ],
+        },
+        "tongue": "Sanskrit", "domain": "structure", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    "↔": {  # Small double-headed arrow on the inline axis - one stem, two opposed wedge-meanings.
+        "core": {
+            "strokes": [
+                (405, 525, 595, 525, 45),
+            ],
+            "polygons": [
+                [(310, 525), (415, 583), (415, 467)],
+                [(690, 525), (585, 467), (585, 583)],
+            ],
+        },
+        "tongue": "YOUSPEAK", "domain": "relation", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
+    "·": {  # Thin short vertical tick at optical centre - the lightest mark in the font; a breath between morphemes.
+        "core": {
+            "strokes": [
+                (500, 445, 500, 605, 52),
+            ],
+        },
+        "tongue": "YOUSPEAK", "domain": "structure", "mclass": "structural",
+        "suppress_class_mark": True,
+    },
 }
 
 
@@ -929,7 +1506,11 @@ def compose_glyph(latin: str) -> dict:
     """Compose a final glyph for a morpheme: core + sigil + class-mark.
 
     Returns a dict with 'strokes' and 'polygons' suitable for font-building.
-    Handles variable stroke-widths if present in the sigil/mark components.
+    Strokes are (x1, y1, x2, y2) at the default STROKE_WIDTH or
+    (x1, y1, x2, y2, width) — sigils and fine detail carry their own
+    thinner widths, which the font-builder and previews honor.
+    A spec may set "suppress_class_mark": True (determinatives and
+    structural punctuation per the S086 family rules).
     """
     spec = CORE_GLYPHS.get(latin)
     if not spec:
@@ -939,22 +1520,23 @@ def compose_glyph(latin: str) -> dict:
     tongue = spec.get("tongue", "English")
     mclass = spec.get("mclass", "content")
 
-    strokes: list = list(core.get("strokes", []))
+    strokes: list = [tuple(s) for s in core.get("strokes", [])]
     polygons: list = list(core.get("polygons", []))
 
-    # Add donor-tongue sigil
+    # Add donor-tongue sigil, tagging its strokes with the sigil's own width
     sigil = DONOR_SIGIL.get(tongue, sigil_english)()
-    if "strokes" in sigil:
-        # Sigil may have its own stroke-width; for v1 we use primary width.
-        # The stroke width parameter is used in font-builder.
-        strokes.extend(sigil["strokes"])
-    if "polygons" in sigil:
-        polygons.extend(sigil["polygons"])
+    sigil_w = sigil.get("stroke_width", STROKE_WIDTH)
+    for s in sigil.get("strokes", []):
+        strokes.append((s[0], s[1], s[2], s[3], s[4] if len(s) >= 5 else sigil_w))
+    polygons.extend(sigil.get("polygons", []))
 
-    # Add class mark
-    mark = CLASS_MARK.get(mclass, mark_content)()
-    if "polygons" in mark:
-        polygons.extend(mark["polygons"])
+    # Add class mark (unless the spec suppresses it)
+    if not spec.get("suppress_class_mark"):
+        mark = CLASS_MARK.get(mclass, mark_content)()
+        mark_w = mark.get("stroke_width", STROKE_WIDTH)
+        for s in mark.get("strokes", []):
+            strokes.append((s[0], s[1], s[2], s[3], s[4] if len(s) >= 5 else mark_w))
+        polygons.extend(mark.get("polygons", []))
 
     return {"strokes": strokes, "polygons": polygons}
 

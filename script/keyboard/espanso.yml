@@ -1,79 +1,109 @@
 # YOUSPEAK input configuration for Espanso
 # https://espanso.org
 #
-# Install this file to your Espanso match directory:
+# GENERATED FILE — do not edit by hand.
+# Regenerate with: python3 script/tools/gen_espanso.py
+# Source of truth: script/morphemes.json + transliterate.CANONICAL_DECOMPOSITIONS
+#
+# Install to the Espanso match directory:
 #   macOS:   ~/Library/Application Support/espanso/match/youspeak.yml
 #   Linux:   ~/.config/espanso/match/youspeak.yml
 #   Windows: %APPDATA%\espanso\match\youspeak.yml
-#
-# Then restart Espanso (`espanso restart` on the command line).
+# Then: espanso restart
 #
 # Usage:
-#   Type a colon-prefixed canon word, e.g., ":doxakallos",
-#   and Espanso substitutes the PUA-encoded glyph sequence.
-#   Renders correctly only if a YOUSPEAK font is installed; otherwise
-#   the glyph positions render as fallback boxes (recoverable via the
-#   reverse transliterator).
-#
-#   To insert just a morpheme (e.g., just doxa, for custom compounds):
-#     ":m:doxa" → <doxa-glyph>
-#
-#   Canon-word triggers are bare-word after colon; morpheme triggers
-#   use ":m:" prefix to avoid accidental substitution of common text.
-#
-# Compatibility:
-#   Espanso runs as a user-space daemon on macOS, Linux, Windows. No
-#   special system permissions beyond Accessibility on macOS (which
-#   Espanso prompts for on first run).
+#   ":doxakallos"  → canon-word glyph sequence
+#   ":m:doxa"      → single morpheme glyph
+#   ":m:det.div"   → determinative class-marker (dots typed as-is after :m:)
+#   ":sep:"        → structural marks by name (sep, gloss, endgloss, pair,
+#                    canon, selah, o, danda, danda2, breath)
+# Glyphs render only with a YOUSPEAK font installed; otherwise fallback boxes
+# (always recoverable via the reverse transliterator).
 
 matches:
 
-  # ----- canon words (triggers: ":word") -----
+  # ----- canon words (':word') -----
 
-  - trigger: ":doxakallos"
-    replace: ""
-  - trigger: ":kallodoxa"
-    replace: ""
-  - trigger: ":orthophanes"
-    replace: ""
-  - trigger: ":doxalgia"
-    replace: ""
+  - trigger: ":algiadoxa"
+    replace: ""
+  - trigger: ":allomance"
+    replace: ""
   - trigger: ":anagnoristasis"
     replace: ""
-  - trigger: ":metastrophesis"
-    replace: ""
-  - trigger: ":athaumasma"
-    replace: ""
-  - trigger: ":synophora"
-    replace: ""
-  - trigger: ":kallophanes"
-    replace: ""
-  - trigger: ":dokimance"
-    replace: ""
+  - trigger: ":anastrophance"
+    replace: ""
   - trigger: ":artiance"
     replace: ""
-  - trigger: ":verisleight"
-    replace: ""
+  - trigger: ":athaumasma"
+    replace: ""
   - trigger: ":candence"
     replace: ""
   - trigger: ":complerescence"
     replace: ""
   - trigger: ":diplosemy"
     replace: ""
-  - trigger: ":veriseem"
-    replace: ""
-  # ----- Core Canon (v2, post-Constitution 2026-04-24) -----
+  - trigger: ":dokimance"
+    replace: ""
+  - trigger: ":doxakallos"
+    replace: ""
+  - trigger: ":doxalgia"
+    replace: ""
+  - trigger: ":doxomme"
+    replace: ""
+  - trigger: ":enkalyptance"
+    replace: ""
+  - trigger: ":gloriandre"
+    replace: ""
+  - trigger: ":gloricedence"
+    replace: ""
+  - trigger: ":glorichorence"
+    replace: ""
+  - trigger: ":glorividence"
+    replace: ""
+  - trigger: ":hypostixance"
+    replace: ""
+  - trigger: ":kairomance"
+    replace: ""
+  - trigger: ":kallodoxa"
+    replace: ""
+  - trigger: ":kallophanes"
+    replace: ""
   - trigger: ":kimance"
     replace: ""
+  - trigger: ":kimme"
+    replace: ""
   - trigger: ":kinqing"
     replace: ""
-  - trigger: ":tacitkin"
-    replace: ""
+  - trigger: ":klimakance"
+    replace: ""
+  - trigger: ":metastrophesis"
+    replace: ""
+  - trigger: ":morphomance"
+    replace: ""
   - trigger: ":mushinance"
     replace: ""
+  - trigger: ":orthophanes"
+    replace: ""
+  - trigger: ":panimqing"
+    replace: ""
+  - trigger: ":parallaxance"
+    replace: ""
+  - trigger: ":sukhance"
+    replace: ""
+  - trigger: ":synaphemia"
+    replace: ""
+  - trigger: ":synlanthescence"
+    replace: ""
+  - trigger: ":synophora"
+    replace: ""
+  - trigger: ":tacitkin"
+    replace: ""
+  - trigger: ":veriseem"
+    replace: ""
+  - trigger: ":verisleight"
+    replace: ""
 
-  # ----- morphemes (triggers: ":m:morpheme") -----
-  # For building compound words not yet in canon
+  # ----- single morphemes (':m:latin') -----
 
   - trigger: ":m:doxa"
     replace: ""
@@ -113,6 +143,42 @@ matches:
     replace: ""
   - trigger: ":m:sema"
     replace: ""
+  - trigger: ":m:anastro"
+    replace: ""
+  - trigger: ":m:kalypt"
+    replace: ""
+  - trigger: ":m:haphe"
+    replace: ""
+  - trigger: ":m:allos"
+    replace: ""
+  - trigger: ":m:parallax"
+    replace: ""
+  - trigger: ":m:hypo"
+    replace: ""
+  - trigger: ":m:stix"
+    replace: ""
+  - trigger: ":m:kairos"
+    replace: ""
+  - trigger: ":m:morphe"
+    replace: ""
+  - trigger: ":m:klimax"
+    replace: ""
+  - trigger: ":m:lanthes"
+    replace: ""
+  - trigger: ":m:sleight"
+    replace: ""
+  - trigger: ":m:seem"
+    replace: ""
+  - trigger: ":m:andros"
+    replace: ""
+  - trigger: ":m:gloria"
+    replace: ""
+  - trigger: ":m:vide"
+    replace: ""
+  - trigger: ":m:cede"
+    replace: ""
+  - trigger: ":m:choro"
+    replace: ""
   - trigger: ":m:ki"
     replace: ""
   - trigger: ":m:qing"
@@ -123,35 +189,108 @@ matches:
     replace: ""
   - trigger: ":m:mushin"
     replace: ""
+  - trigger: ":m:me"
+    replace: ""
+  - trigger: ":m:nam"
+    replace: ""
+  - trigger: ":m:kittu"
+    replace: ""
+  - trigger: ":m:kawil"
+    replace: ""
+  - trigger: ":m:chul"
+    replace: ""
+  - trigger: ":m:kavod"
+    replace: ""
+  - trigger: ":m:jamal"
+    replace: ""
+  - trigger: ":m:brahman"
+    replace: ""
+  - trigger: ":m:haqq"
+    replace: ""
+  - trigger: ":m:dhikr"
+    replace: ""
+  - trigger: ":m:hesych"
+    replace: ""
+  - trigger: ":m:bhakti"
+    replace: ""
+  - trigger: ":m:sukh"
+    replace: ""
+  - trigger: ":m:panim"
+    replace: ""
+  - trigger: ":m:a"
+    replace: ""
+  - trigger: ":m:sis"
+    replace: ""
+  - trigger: ":m:ance"
+    replace: ""
+  - trigger: ":m:mance"
+    replace: ""
+  - trigger: ":m:ence"
+    replace: ""
+  - trigger: ":m:ma"
+    replace: ""
+  - trigger: ":m:iance"
+    replace: ""
+  - trigger: ":m:escence"
+    replace: ""
+  - trigger: ":m:mia"
+    replace: ""
+  - trigger: ":m:ana"
+    replace: ""
+  - trigger: ":m:en"
+    replace: ""
+  - trigger: ":m:com"
+    replace: ""
+  - trigger: ":m:y"
+    replace: ""
+  - trigger: ":m:mi"
+    replace: ""
+  - trigger: ":m:si"
+    replace: ""
+  - trigger: ":m:chu"
+    replace: ""
+  - trigger: ":m:auth"
+    replace: ""
+  - trigger: ":m:det.div"
+    replace: ""
+  - trigger: ":m:det.per"
+    replace: ""
+  - trigger: ":m:det.act"
+    replace: ""
+  - trigger: ":m:det.abs"
+    replace: ""
+  - trigger: ":m:det.prc"
+    replace: ""
+  - trigger: ":m:det.rel"
+    replace: ""
+  - trigger: ":m:det.hid"
+    replace: ""
+  - trigger: ":m:det.tim"
+    replace: ""
+  - trigger: ":m:det.plc"
+    replace: ""
+  - trigger: ":m:det.qnt"
+    replace: ""
 
-  # ----- structural marks -----
+  # ----- structural marks (named triggers) -----
 
-  - trigger: ":ys:sep"       # compound-separator
+  - trigger: ":sep:"
     replace: ""
-  - trigger: ":ys:ro"        # reading-annotation open
+  - trigger: ":gloss:"
     replace: ""
-  - trigger: ":ys:rc"        # reading-annotation close
+  - trigger: ":endgloss:"
     replace: ""
-  - trigger: ":ys:pair"      # diplosemic-pair indicator
+  - trigger: ":pair:"
     replace: ""
-  - trigger: ":ys:canon"     # canon-mark
+  - trigger: ":canon:"
     replace: ""
-
-  # ----- convenience utilities -----
-
-  - trigger: ":ys:help"
-    replace: |
-      YOUSPEAK Input Quick Reference
-      ------------------------------
-      Canon words (type colon + word):
-        :doxakallos :kallodoxa :orthophanes :doxalgia
-        :anagnoristasis :metastrophesis :athaumasma :synophora
-        :kallophanes :dokimance :artiance :verisleight :candence
-        :complerescence :diplosemy :veriseem
-      Morphemes (type :m:morpheme):
-        :m:doxa :m:kallos :m:ortho :m:phanes :m:algia ...
-      Structural:
-        :ys:sep (compound separator)
-        :ys:pair (diplosemic-pair arrow)
-      Help:
-        :ys:help (this reference)
+  - trigger: ":danda:"
+    replace: ""
+  - trigger: ":danda2:"
+    replace: ""
+  - trigger: ":breath:"
+    replace: ""
+  - trigger: ":selah:"
+    replace: ""
+  - trigger: ":o:"
+    replace: ""

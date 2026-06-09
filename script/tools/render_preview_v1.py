@@ -64,10 +64,15 @@ def glyph_svg(latin: str, spec: dict, stroke_w: int, size: int = 100) -> str:
     """
     parts = [f'<g transform="translate(0 {size}) scale({size/1000} {-size/1000})">']
     for stroke in spec.get("strokes", []):
-        x1, y1, x2, y2 = stroke
+        # (x1,y1,x2,y2) at the default width, or (x1,y1,x2,y2,width)
+        if len(stroke) >= 5:
+            x1, y1, x2, y2, w = stroke[:5]
+        else:
+            x1, y1, x2, y2 = stroke
+            w = stroke_w
         parts.append(
             f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" '
-            f'stroke="currentColor" stroke-width="{stroke_w}" stroke-linecap="square"/>'
+            f'stroke="currentColor" stroke-width="{w}" stroke-linecap="square"/>'
         )
     for poly in spec.get("polygons", []):
         if not poly:

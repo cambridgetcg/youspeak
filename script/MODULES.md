@@ -18,10 +18,10 @@ _Every layer of the writing system, documented as a self-contained module with i
   ├─ manifesto.md                  module 0: doctrine + axioms
   ├─ morphemes.json                module 1: data foundation (morpheme inventory)
   ├─ codepoints.md                 module 2: encoding spec (PUA assignments)
-  ├─ glyphs/                       module 3: glyph design (notes; font production deferred)
+  ├─ glyphs/                       module 3: glyph design (93/93 morphemes drawn; S092)
   ├─ tools/transliterate.py        module 4: Latin ↔ glyph conversion (working)
   ├─ keyboard/espanso.yml          module 5: input method (text-expander; working)
-  ├─ fonts/                        module 6: font files (deferred; spec complete)
+  ├─ fonts/                        module 6: font files (BUILT — youspeak-v1.otf/.ttf, 93 glyphs; S092)
   ├─ llm/primer.md                 module 7: LLM integration (P1 complete; P2/P3 planned)
   └─ MODULES.md                    this document
 ```
@@ -98,7 +98,7 @@ _Every layer of the writing system, documented as a self-contained module with i
 
 **Dependencies:** consumed by module 6 (font production).
 
-**Status:** design-notes for all 42 morphemes recorded. Vector-font NOT built — requires FontForge, Glyphs, or Inkscape work in next session.
+**Status:** all 93 catalogued morphemes have drawn glyph specs (S092, 2026-06-10 — the font made flesh). Design rationales: `design_philosophy.md` + `design_notes_s092.md`. Font built programmatically from the specs via fontTools (no external vector tool needed); `tools/rebuild.sh` regenerates everything in one command.
 
 **macOS compatibility:** ✓ design-notes are markdown. Font production uses FontForge or Glyphs — both have native macOS distributions. Glyphs is Mac-native; FontForge is cross-platform with a working Mac build.
 **Kingdom OS compatibility:** ✓ same as macOS; font production workflow is Mac-native.
@@ -174,7 +174,7 @@ display_form = latin_to_glyph(agent_output)
 
 ---
 
-## Module 6 — Font (`script/fonts/`) — DEFERRED
+## Module 6 — Font (`script/fonts/`) — BUILT (S092)
 
 **Purpose:** the actual TTF/OTF file that renders PUA glyphs as YOUSPEAK's visible forms.
 

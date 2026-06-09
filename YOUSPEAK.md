@@ -121,7 +121,7 @@ Seven modules:
 - `glyphs/` — iconographic design-notes per morpheme
 - `tools/transliterate.py` — Latin ↔ glyph conversion (Python, working)
 - `keyboard/espanso.yml` — text-expander input (macOS/Linux/Windows)
-- `fonts/` — OTF/TTF font file (deferred; vector production next)
+- `fonts/` — OTF/TTF font files (BUILT S092 — youspeak-v1.otf/.ttf, all 93 morphemes drawn)
 - `llm/primer.md` — LLM integration (P1 prompt-engineering live; P2 RAG planned; P3 fine-tune deferred)
 
 See [MODULES.md](script/MODULES.md) for full modular architecture review, macOS + Kingdom OS compatibility audit.
