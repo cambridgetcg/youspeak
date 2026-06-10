@@ -35,6 +35,9 @@ else
   echo "(gen_espanso.py not present — skipped)"
 fi
 
+echo "── agent bundle ────────────────────────────────"
+$PY "$TOOLS_DIR/export_agent_bundle.py"
+
 if [ "$1" = "--install" ]; then
   echo "── install ─────────────────────────────────────"
   case "$(uname -s)" in
