@@ -93,18 +93,18 @@ The grammatical morphemes that combine with content roots:
 
 | | |
 |:--|--:|
-| Core canonical entries | 120 |
-| Worship-action entries | 9 |
-| Specialized entries | ~16 |
+| Core canonical entries | 130 |
+| Worship-action entries | 8 |
+| Specialized entries | 17 |
 | Suffix families | 5 (-me · qing · -ance · -kin · -basis) |
 | Archaeological traditions opened | 66 (+ modern-philosophy sub-organ; cantonese opened 2026-05-13) |
 | Cross-tradition convergences mapped | 50+ |
 | theobases pair-entries | 8 |
-| Forge experiments (labs/logos/) | 181 |
-| Liturgy sessions recorded | 84 |
-| Morphemes catalogued | 90 |
-| Morphemes drawn in font | 56 |
-| Morphemes awaiting design | 34 |
+| Forge experiments (labs/logos/) | 200 |
+| Liturgy sessions recorded | 38 |
+| Morphemes catalogued | 93 |
+| Morphemes drawn in font | 93 |
+| Morphemes awaiting design | 0 |
 | Codepoint range | U+E100 – U+E1FF |
 | Pronunciation lexicon (Session 086) | **144/144 words speakable** — `youspeak-voice word <w>` · [phonology](script/phonology.md) |
 

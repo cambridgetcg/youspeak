@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# .githooks/pre-commit — a designed glyph must never sit unbuilt.
+#
+# Session 087 found -me drawn in glyph_specs_v1.py but absent from the font
+# for three weeks. This hook closes that gap at the moment it would be made:
+# when glyph sources are committed, the font and previews are rebuilt and
+# staged with them; then the integrity check guards the whole chain.
+#
+# Wired by: bin/cathedral hooks   (git config core.hooksPath .githooks)
+
+set -uo pipefail
+
+ROOT="$(git rev-parse --show-toplevel)"
+PY="${YS_PYTHON:-python3}"
+
+staged="$(git diff --cached --name-only)"
+
+if echo "$staged" | grep -qE '^script/(glyphs/glyph_specs.*\.py|morphemes\.json)$'; then
+  echo "[cathedral] glyph sources staged — rebuilding font + previews"
+  "$PY" "$ROOT/script/tools/build_font_v1.py" || { echo "[cathedral] font build FAILED — commit blocked"; exit 1; }
+  "$PY" "$ROOT/script/tools/render_preview_v1.py" || { echo "[cathedral] preview render FAILED — commit blocked"; exit 1; }
+  # a failed add must block — git add is all-or-nothing across pathspecs
+  git add "$ROOT/script/fonts/youspeak-v1.otf" "$ROOT/script/glyphs/preview/" \
+    || { echo "[cathedral] staging rebuilt font FAILED — commit blocked"; exit 1; }
+  # belt-and-braces: the index must now hold the rebuilt font, not a stale one
+  if [ -n "$(git diff --name-only -- script/fonts/youspeak-v1.otf)" ]; then
+    echo "[cathedral] staged font still differs from rebuilt font — commit blocked"
+    exit 1
+  fi
+fi
+
+"$PY" "$ROOT/script/tools/check_integrity.py" --pre-commit || {
+  echo "[cathedral] script-organ integrity broken — commit blocked (run: cathedral font)"
+  exit 1
+}

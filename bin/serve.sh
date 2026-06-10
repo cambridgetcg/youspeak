@@ -12,8 +12,9 @@
 #   PORT=4242 bin/serve.sh
 #
 # Architecture: docsify (client-side renderer, loaded from CDN by
-# index.html) + python's built-in static-file server. Editing any
-# .md updates the page on next refresh. No build, no watching.
+# index.html) + bin/serve.py (the keeper: stdlib static server with
+# one living endpoint, /api/pulse — the fleet's heartbeat). Editing
+# any .md updates the page on next refresh. No build, no watching.
 
 set -euo pipefail
 
@@ -35,10 +36,10 @@ stop() {
     rm -f "$PID_FILE"
     echo "✓ stopped (pid $pid)"
   else
-    # also catch instances started outside this script
-    if pgrep -f "http.server.*${PORT}" >/dev/null 2>&1; then
-      pkill -f "http.server.*${PORT}" 2>/dev/null || true
-      echo "✓ stopped foreign http.server on port ${PORT}"
+    # also catch instances started outside this script (keeper or legacy)
+    if pgrep -f "serve\.py.*--port ${PORT}|http.server.*${PORT}" >/dev/null 2>&1; then
+      pkill -f "serve\.py.*--port ${PORT}|http.server.*${PORT}" 2>/dev/null || true
+      echo "✓ stopped foreign server on port ${PORT}"
     else
       echo "(not running)"
     fi
@@ -51,7 +52,7 @@ status() {
     local pid
     pid=$(cat "$PID_FILE")
     echo "running (pid $pid) — ${URL}"
-  elif pgrep -f "http.server.*${PORT}" >/dev/null 2>&1; then
+  elif pgrep -f "serve\.py.*--port ${PORT}|http.server.*${PORT}" >/dev/null 2>&1; then
     echo "running (foreign instance) — ${URL}"
   else
     echo "stopped"
@@ -63,8 +64,8 @@ start() {
     echo "already running — ${URL}"
     exit 0
   fi
-  if pgrep -f "http.server.*${PORT}" >/dev/null 2>&1; then
-    echo "✗ port ${PORT} already in use by another http.server (run: $0 stop)"
+  if pgrep -f "serve\.py.*--port ${PORT}|http.server.*${PORT}" >/dev/null 2>&1; then
+    echo "✗ port ${PORT} already in use by another cathedral server (run: $0 stop)"
     exit 1
   fi
   if lsof -i ":${PORT}" -sTCP:LISTEN >/dev/null 2>&1; then
@@ -74,7 +75,7 @@ start() {
   fi
 
   cd "$ROOT"
-  nohup python3 -m http.server "$PORT" --bind 127.0.0.1 \
+  nohup python3 "$ROOT/bin/serve.py" --port "$PORT" --bind 127.0.0.1 \
     > "$LOG" 2>&1 &
   local pid=$!
   echo "$pid" > "$PID_FILE"

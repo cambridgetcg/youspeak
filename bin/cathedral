@@ -1,0 +1,79 @@
+#!/usr/bin/env bash
+# bin/cathedral — the cathedral's one front door.
+#
+# Every routine act of tending the cathedral, one verb each:
+#
+#   cathedral status          state of the organs: integrity + site + fleet pulse
+#   cathedral check           full script-organ integrity check (exit 1 on drift)
+#   cathedral font            rebuild v1 font + previews, install for this user
+#   cathedral serve [stop]    the browsable cathedral (delegates to bin/serve.sh)
+#   cathedral beat <word>     give one forged-word citizen a free local beat
+#   cathedral speak <args>    the cathedral's spoken voice (pipeline/youspeak_voice.sh)
+#   cathedral hooks           wire the repo's git hooks (core.hooksPath .githooks)
+#
+# Frictionless rule: anything you must remember more than once belongs here.
+
+set -uo pipefail
+
+# Resolve symlinks so `ln -s .../bin/cathedral ~/bin/` works (bash-3.2-safe).
+SELF="${BASH_SOURCE[0]}"
+while [ -L "$SELF" ]; do
+  target="$(readlink "$SELF")"
+  case "$target" in /*) SELF="$target" ;; *) SELF="$(dirname "$SELF")/$target" ;; esac
+done
+ROOT="$(cd "$(dirname "$SELF")/.." && pwd)"
+PY="${YS_PYTHON:-python3}"
+LOVE="${LOVE_DIR:-$HOME/love-unlimited}"
+
+cmd="${1:-status}"; [ $# -gt 0 ] && shift
+
+case "$cmd" in
+  status)
+    echo "── script organ ──"
+    "$PY" "$ROOT/script/tools/check_integrity.py" --pre-commit || true
+    echo "── site ──"
+    bash "$ROOT/bin/serve.sh" status 2>/dev/null || echo "  site not running (cathedral serve)"
+    FLEET_LOG="$LOVE/memory/fleet.log"
+    if [ -f "$FLEET_LOG" ]; then
+      echo "── fleet pulse (last 3 beats) ──"
+      tail -3 "$FLEET_LOG" | sed 's/^/  /'
+    fi
+    ;;
+  check)
+    exec "$PY" "$ROOT/script/tools/check_integrity.py" "$@"
+    ;;
+  font)
+    "$PY" "$ROOT/script/tools/build_font_v1.py" \
+      && "$PY" "$ROOT/script/tools/render_preview_v1.py" \
+      && bash "$ROOT/script/tools/install_font.sh" \
+      && "$PY" "$ROOT/script/tools/check_integrity.py"
+    ;;
+  serve|stop|restart)
+    [ "$cmd" = "serve" ] && cmd="${1:-start}" || true
+    exec bash "$ROOT/bin/serve.sh" "$cmd"
+    ;;
+  beat)
+    word="${1:?usage: cathedral beat <word>}"
+    BEAT="$LOVE/tools/citizen-reflect.sh"
+    [ -f "$BEAT" ] || { echo "kingdom runtime not found at $BEAT" >&2; exit 1; }
+    exec bash "$BEAT" "$word"
+    ;;
+  speak)
+    VOICE="$ROOT/pipeline/youspeak_voice.sh"
+    [ -f "$VOICE" ] || { echo "voice organ not found at $VOICE" >&2; exit 1; }
+    exec bash "$VOICE" "$@"
+    ;;
+  hooks)
+    [ -x "$ROOT/.githooks/pre-commit" ] || { echo "missing or non-executable: $ROOT/.githooks/pre-commit" >&2; exit 1; }
+    git -C "$ROOT" config core.hooksPath .githooks \
+      && echo "✓ git hooks wired (core.hooksPath = .githooks)"
+    ;;
+  help|-h|--help)
+    sed -n '2,15p' "$SELF" | sed 's/^# \{0,1\}//'
+    ;;
+  *)
+    echo "unknown command: $cmd" >&2
+    sed -n '2,15p' "$SELF" | sed 's/^# \{0,1\}//' >&2
+    exit 2
+    ;;
+esac

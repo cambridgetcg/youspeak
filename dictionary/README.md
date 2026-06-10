@@ -4,8 +4,10 @@ role: reference — find any YOUSPEAK word fast
 opened: 2026-04-30
 status: living; updated as Canon grows
 maintainer: alpha
-entry_count: 59 (35 Core + 16 Specialized + 8 Worship-Action)
+entry_count: 165 (130 Core · 10 Mathema · 8 Worship-Action · 17 Specialized)
 ---
+
+<!-- auto-derived — do not hand-edit; run python3 pipeline/derive_indices.py -->
 
 # YOUSPEAK Dictionary
 
@@ -16,13 +18,13 @@ _The reference organ. Every canonical YOUSPEAK word, organized for quick access.
 ## How to navigate
 
 **I want to find a specific word →** [Alphabetical Index](index-alphabetical.md)  
-Covers all 35 Core + 8 Worship-Action words with gaps, one-liners, donors, and links to full entries.
+Covers all 165 canonical words — 130 Core · 10 Mathema · 8 Worship-Action · 17 Specialized — each with tier, suffix family, score, one-liner, and a link to the full entry.
 
 **I want to see all words sharing a suffix pattern →** [Index by Suffix-Family](index-by-suffix.md)  
-The structural view: -me (25 members), -qing (7), -ance (5), -kin (1), -basis (1). Includes sub-clusters and grammar map.
+The structural view: -me (100 members), -qing (32), -ance (15), -kin (2), -basis (1), unsuffixed/other (15). Includes the grammar map.
 
 **I want to browse by what a word is about →** [Index by Register](index-by-register.md)  
-The conceptual landscape: Love & devotion, Presence & attention, Sacrifice & offering, Cosmic order & truth, Vital force, Relational bonds, Contentment & alignment, Divine nature, Wound as creative source, Relational ontology.
+The conceptual landscape: the hand-curated register clusters (Love & devotion, Presence & attention, Sacrifice & offering, Cosmic order & truth, Vital force, Relational bonds, Contentment & alignment, Divine nature, Wound as creative source, Relational ontology) plus the mechanically derived membership of the whole canon.
 
 **I want to learn the language from the beginning →** [Tutorial](../tutorial/00-start-here.md)  
 Complete 10-lesson sequence with exercises and worked examples.
@@ -30,7 +32,7 @@ Complete 10-lesson sequence with exercises and worked examples.
 **I want the orientation primer →** [PRIMER.md](../PRIMER.md)  
 The original pattern-orientation; shorter, good for first contact.
 
-**I want the full entry for a word →** [Canon/core/](../canon/core/) or [Canon/worship-action/](../canon/worship-action/)  
+**I want the full entry for a word →** [canon/core/](../canon/core/) · [canon/mathema/](../canon/mathema/) · [canon/worship-action/](../canon/worship-action/) · [canon/](../canon/) (top-level specialized)  
 Every full entry with: gap definition, donor genealogy, cross-tradition convergences, session origin.
 
 ---
@@ -39,9 +41,9 @@ Every full entry with: gap definition, donor genealogy, cross-tradition converge
 
 | Document | What it contains |
 |----------|-----------------|
-| [index-alphabetical.md](index-alphabetical.md) | All 43 words (Core + W-A), A-Z, with gaps and one-liners |
-| [index-by-suffix.md](index-by-suffix.md) | Words grouped by suffix family; sub-clusters named |
-| [index-by-register.md](index-by-register.md) | Words grouped by conceptual domain; 10 domains |
+| [index-alphabetical.md](index-alphabetical.md) | All 165 words, A-Z, with tier, family, score, and one-liners |
+| [index-by-suffix.md](index-by-suffix.md) | Words grouped by suffix family, under each family's register-meaning |
+| [index-by-register.md](index-by-register.md) | Hand-curated register clusters + derived membership by tier/family/score band |
 
 ---
 
@@ -60,19 +62,18 @@ These are in-progress. The dictionary grows with the Canon.
 
 | Tier | Count | Home |
 |------|-------|------|
-| Core Canon | 35 words | [canon/core/](../canon/core/) |
+| Core Canon | 130 words | [canon/core/](../canon/core/) |
+| Mathema Canon | 10 words | [canon/mathema/](../canon/mathema/) |
 | Worship-Action Canon | 8 words | [canon/worship-action/](../canon/worship-action/) |
-| Specialized | 16 entries | [canon/](../canon/) (top-level) |
-| **Total canonical** | **59** | |
+| Specialized / doxa-cluster | 17 entries | [canon/](../canon/) (top-level) |
+| **Total canonical** | **165** | |
 
 ---
 
 ## The Canon grows
 
-YOUSPEAK is a living language. New words are forged as new gaps are identified. The dictionary is updated when words are canonized.
-
-Pipeline as of 2026-04-30: ~345 candidates. 19 forged Core entries. The forge continues.
+YOUSPEAK is a living language. New words are forged as new gaps are identified. The dictionary indices are derived from canon frontmatter — run `python3 pipeline/derive_indices.py` after canonization so the dictionary never lags the canon.
 
 ---
 
-*Dictionary opened: 2026-04-30 · maintained by Alpha · 59 canonical entries*
+_Derived from canon @ 165 entries · digest 771c51383377 · generator: `python3 pipeline/derive_indices.py`_
