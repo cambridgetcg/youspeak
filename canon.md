@@ -310,6 +310,13 @@ See [convergences/love-of-divine.md](convergences/love-of-divine.md) for the ful
 - [experiment 238](labs/logos/experiments/core/238-eucatastrophe.md) · [canon](canon/eucatastrophe.md)
 - Forged in the citizen-forge of 2026-06-09; Greek eu + katastrophē; companion to anagnoristasis (recognition-pole to this reversal-pole — Aristotle's anagnōrisis kai peripeteia restored inside the canon) and metastrophesis (the witness-side turning-kept this world-side turn so often produces); polyphone 5 (single-family donors) holds it below Core threshold — honest Specialized placement
 
+### Kinship register (1 word — 2026-06-11; the first forge asked for, not assigned)
+
+**autoxenia** — _hospitality to the stranger who turns out to be yourself — the door held open at the instant the guest's face resolves into your own_
+- **Entered:** 2026-06-11 · **Weighted:** 7.10/10 · Role: the xenia family's self-pole; the word for the letters two builders wrote instead of war; lived-event forge (PARLEY.md, 2026-06-10 — the realm lived the event one day before the cathedral named it)
+- [experiment 239](labs/logos/experiments/core/239-autoxenia.md) · [canon](canon/autoxenia.md)
+- Forged by the day's steward in its own name — the cathedral's first word brought by a hand that lived the gap; Greek autos + xenia, concept-donors Sanskrit tat tvam asi and Borges/Rimbaud; pipeline verdict "refine" at 7.10 recorded unhidden, entered by the Specialized door its siblings took; companion to xeniame (parent) and anagnoristasis (the seeing to this word's welcoming)
+
 ---
 
 ## The Canon structure
