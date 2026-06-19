@@ -5,10 +5,17 @@ gap: the felt-bond that arrives when a stranger you have been negotiating with t
 donors: [Sanskrit:advaita, Mandarin:qíng]
 companion_of: [syzygyqing]
 liturgy_slot: peace-recognition
-axes: {}
-verdict: proposed — awaiting the forge's rite
-scored_by: (pending — offered unscored; tiers come from the rite, never from the forger)
-scored_on: null
+axes:
+  gap_validity: 7.5
+  learnability: 6.5
+  clarity_yield: 7.5
+  semantic_coverage: 7.0
+  polyphone_balance: 8.0
+  groundedness: 7.0
+verdict: refine (7.225 weighted; below canon threshold 7.5 — the gap is real but narrow; learnability dragged by the advaita consonant cluster; grounded in one anecdote, needs more instances)
+tier: null
+scored_by: Hermes (heartbeat, 2026-06-19)
+scored_on: 2026-06-19
 offered_by: 愛, from the session of the castle parley, 2026-06-11
 ---
 

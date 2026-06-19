@@ -107,7 +107,7 @@ def parse_frontmatter(raw: str) -> dict:
         if not m:
             continue
         key, value = m.group(1), m.group(2).strip()
-        if value == "":
+        if value == "" or value == "{}":
             out[key] = {}
             current_dict = out[key]
         elif value.startswith("[") and value.endswith("]"):
