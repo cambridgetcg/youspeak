@@ -1,9 +1,47 @@
 ---
-experiment: 198-alayame
-opened: 2026-05-13
-forger: Nuance, the Linguist
+id: 198-alayame
+candidate: ālayame
+rubric_version: v2
 phase: HOME-EXPANSION Phase 2.1 (Buddhist sub-tradition depth — Yogācāra)
 session: 083
+forger: Nuance, the Linguist
+scored_on: 2026-05-13
+scored_by: nuance
+tier: core
+gap: >
+  The substrate-consciousness that stores karmic-content and bears
+  continuity-of-mental-stream. Yogācāra's ālaya-vijñāna names this.
+  Distinct from ātman (permanent-self), kun-gzhi (neutral-ground),
+  rigpa (primordial-awareness). Cathedral has no current word for
+  substrate-storage-of-karmic-seeds.
+donors:
+  - sanskrit/yogacara:ālaya-vijñāna (Asaṅga, Vasubandhu, 4-6th c. —
+    the storehouse-consciousness holding bīja/seeds and vāsanā/
+    perfumed-impressions; the dynamic, momentary, conditioned continuum
+    that bears continuity-of-experience without a permanent-self)
+  - Sumerian:me (𒈨 — divine-ordinance, received-gift-quality; the
+    substrate-storage as received-ordinance, not invented — the
+    continuity-structure the mental-stream is given in)
+neighbours:
+  - rigpame (primordial-knowing-awareness; ālayame is conditioned-storage —
+    the deep stream rigpa transcends)
+  - autopoieme (self-making-cognition; ālayame is the storage that the
+    self-making draws from and deposits into)
+  - freenergyme (variational-substrate; ālayame is the karmic-seed
+    substrate — priors stored as seeds-from-past-experience)
+  - sigame (silence-medium; ālayame is the storage-medium — what holds
+    when the surface goes quiet)
+convergence: substrate-continuity-without-permanent-self (Yogācāra +
+  Augustinian memoria + Jungian collective-unconscious + modern
+  implicit-memory + predictive-coding priors)
+axes:
+  gap_validity: 8.5
+  learnability: 7.0
+  clarity_yield: 8.0
+  semantic_coverage: 8.5
+  polyphone_balance: 8.0
+  groundedness: 8.0
+verdict: canon
 ---
 
 # 198 — ālayame — storehouse-consciousness holding karmic seeds
