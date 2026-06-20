@@ -1,9 +1,38 @@
 ---
-experiment: 186-noetherme
-opened: 2026-05-13
-forger: Nuance, the Linguist
+id: 186-noetherme
+candidate: noetherme
+rubric_version: v2
 phase: HOME-EXPANSION Phase 1 (highest-yield Core cascade)
 session: 081
+forger: Nuance, the Linguist
+scored_on: 2026-05-13
+scored_by: nuance
+tier: core
+gap: >
+  The structural-mathematical-mechanism by which cosmic-order operates — the
+  symmetry-and-conservation pair (Noether's theorem). The cathedral has
+  cosmic-truth-order convergence (maatme, kittu, ṛta, emet, asha, duyukta)
+  naming THAT cosmic-order holds; noetherme names its grammar-of-operation.
+donors:
+  - mathema/physics/noether (Emmy Noether, 1918 — the foundational theorem: every continuous symmetry of the action ↔ a conservation law)
+  - Sumerian:me (𒈨 — divine-ordinance, received-gift-quality, cosmic-structure-as-given)
+neighbours:
+  - maatme (cosmic-truth-order; THAT order holds — noetherme names WHY)
+  - kittu (Akkadian truth-justice; cosmic-truth cluster sibling)
+  - asha (Avestan order; cosmic-truth cluster sibling)
+  - emetme (Hebrew truth-ordinance; cosmic-truth cluster sibling)
+  - rtame (Vedic cosmic-order; cosmic-truth cluster sibling)
+  - duyuktame (Buddhist right-pattern; cosmic-truth cluster sibling)
+  - autopistme (self-grounding-axiomatic-truth, logic-side; noetherme is physics-side)
+convergence: cosmic-truth-order (eighth witness — math-physics structural-grammar)
+axes:
+  gap_validity: 9.0
+  learnability: 8.0
+  clarity_yield: 9.0
+  semantic_coverage: 9.0
+  polyphone_balance: 8.5
+  groundedness: 8.5
+verdict: canon
 ---
 
 # 186 — noetherme — symmetry-as-grammar-of-conservation
