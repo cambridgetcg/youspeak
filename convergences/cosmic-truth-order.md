@@ -1,8 +1,8 @@
 ---
 property: cosmic-truth-order — the unified phenomenon of cosmic-truth + cosmic-justice + cosmic-righteousness + cosmic-order, attested as ONE-thing-not-many across multiple major traditions
 attestations: [Vedic Sanskrit, Avestan, Egyptian, Hebrew, Akkadian, Greek] — six-tradition convergence
-forge_status: triple-witness articulated in YOUSPEAK; three -me forges (ashame, maatme, rtame); three more donor-traditions await possible forging (emetme, kittume, aletheme)
-youspeak_words: ashame (Avestan, S013, Specialized 7.20); maatme (Egyptian, S016, Core threshold-exact 7.50); rtame (Vedic, S017, Specialized 7.20)
+forge_status: six-of-six traditions articulated in YOUSPEAK; six -me forges (ashame, maatme, rtame, emetme, kittume, aletheme); convergence COMPLETE
+youspeak_words: ashame (Avestan, S013, Specialized 7.20); maatme (Egyptian, S016, Core threshold-exact 7.50); rtame (Vedic, S017, Specialized 7.20); emetme (Hebrew, S018, Specialized 7.35); kittume (Akkadian, heartbeat 2026-06-22, Core 7.50); aletheme (Greek, heartbeat 2026-06-22, Specialized 7.25)
 session_first_mapped: archaeology files across S013, S014, S016 (the convergence has been documented progressively across the Avestan and Egyptian deepenings)
 session_consolidated: 017
 sensibility_note: this convergence is the densest cross-tradition convergence in YOUSPEAK; six independent attestations of one fundamental concept; Yu's directive (S017 — "dive deeper into laid out but unformed") prompted consolidation into its own convergence-file
@@ -24,8 +24,8 @@ _Yu's S017 directive ("dive deeper into laid out but unformed") asked for system
 | **Avestan** | *asha* (𐬀𐬴𐬀) | IE Iranian | cosmic-truth + cosmic-ethical (asha vs druj polarity) | **ashame** (S013, Specialized 7.20) |
 | **Egyptian** | *ma'at* (𓂸 / 𓆄) | Afro-Asiatic | cosmic-truth + justice + ritual-correctness; goddess-personified; funerary-judgment | **maatme** (S016, Core threshold-exact 7.50) |
 | **Hebrew** | *emet* (אֱמֶת) | Afro-Asiatic Semitic | firmness-foundation + comprehensive end-to-end (aleph-mem-tav alphabet-spanning) + faithfulness | **emetme** (S018, Specialized 7.35) |
-| **Akkadian** | *kittu* (𒆠𒁴) | Afro-Asiatic Semitic | structural-truth-as-firm-foundation; pairs with mīšaru (justice) | candidate (*kittume* future-forge) |
-| **Greek** | *alētheia* (ἀλήθεια) | IE Hellenic | unconcealment; the unhidden-truth | candidate (*aletheme* future-forge) |
+| **Akkadian** | *kittu* (𒆠𒁴) | Afro-Asiatic Semitic | structural-truth-as-firm-foundation; pairs with mīšaru (justice) | **kittume** (heartbeat 2026-06-22, Core 7.50) |
+| **Greek** | *alētheia* (ἀλήθεια) | IE Hellenic | unconcealment; the unhidden-truth | **aletheme** (heartbeat 2026-06-22, Specialized 7.25) |
 
 **Six independent attestations.** Three traditions are IE (Vedic, Avestan, Greek); two are Afro-Asiatic Semitic (Hebrew, Akkadian); one is Afro-Asiatic non-Semitic (Egyptian). Genetic-family-independence partial: Vedic-Avestan are sister-Indo-Iranian (cognate ṛta-asha); Hebrew-Akkadian are sister-Semitic; Egyptian and Greek are independent of these families.
 
@@ -59,19 +59,16 @@ Vedic ṛta similarly fuses these. Avestan asha similarly. Hebrew emet less expl
 
 ## The forge state
 
-**Four forges yielded** (across Sessions 013, 016, 017, 018):
+**Six forges yielded** (across Sessions 013, 016, 017, 018, and heartbeat 2026-06-22):
 
 1. **ashame** (S013) — Avestan asha + Sumerian me; Specialized 7.20; the Avestan register (cosmic-ethical struggle emphasis)
 2. **maatme** (S016) — Egyptian ma'at + Sumerian me; **Core threshold-exact 7.50**; the Egyptian register (cosmic-justice-fused; goddess-personified)
 3. **rtame** (S017) — Vedic ṛta + Sumerian me; Specialized 7.20; the Vedic register (cosmic-path)
 4. **emetme** (S018) — Hebrew emet + Sumerian me; Specialized 7.35; the Hebrew register (firmness-foundation + comprehensive end-to-end + faithfulness)
+5. **kittume** (heartbeat 2026-06-22) — Akkadian kittu + Sumerian me; **Core 7.50**; the Akkadian register (structural-correctness + pair-with-justice + royal-juridical mandate)
+6. **aletheme** (heartbeat 2026-06-22) — Greek alētheia + Sumerian me; Specialized 7.25; the Greek register (unconcealment + phenomenological clearing + inquiry-register)
 
-The **asha-ṛta-ma'at triple-witness PLUS Hebrew emet** are now articulated in YOUSPEAK working-vocabulary. **Four of six traditions** in the cosmic-truth-order convergence yielded forges.
-
-Two additional traditions await possible forging:
-
-5. **kittume** — Akkadian kittu + Sumerian me. Akkadian + Sumerian = two non-IE families (Mesopotamian-zone) = poly 8. **Core-eligible by polyphone-mathematics**; high-priority next-forge given that Akkadian *kittu* is etymologically-related to Hebrew *emet* via the broader Semitic root-family for "to be firm" — adding kittume would give YOUSPEAK BOTH Semitic-Hebrew (emetme) AND Semitic-Akkadian (kittume) articulations of the firmness-truth-foundation register.
-6. **aletheme** — Greek alētheia + Sumerian me. Greek IE + Sumerian = poly 7. Specialized expected. Could complete the six-tradition articulation.
+**All six traditions** in the cosmic-truth-order convergence are now articulated in YOUSPEAK working-vocabulary. **The convergence is COMPLETE.**
 
 **Combined Amendment I+II ruling** would canonize all four current forges (ashame, maatme, rtame, emetme) into Liturgy-Original tier. Until then: maatme stands at Core (threshold-exact); ashame, rtame, emetme at Specialized.
 
@@ -110,4 +107,4 @@ For YOUSPEAK: this is one of the cathedral's most-load-bearing convergence-attes
 
 ---
 
-_Convergence-entry opened 2026-04-25 in Session 017 Beat 86. Migrated and consolidated from multiple session beats (S013-S017) and archaeology files. **The densest cross-tradition convergence in YOUSPEAK** — six independent attestations of the cosmic-truth-order register — now has its dedicated convergences/ home. Three -me forges articulate the asha-ṛta-ma'at triple-witness in working-vocabulary; three more donor-traditions await possible forging._
+_Convergence-entry opened 2026-04-25 in Session 017 Beat 86. Migrated and consolidated from multiple session beats (S013-S017) and archaeology files. **The densest cross-tradition convergence in YOUSPEAK** — six independent attestations of the cosmic-truth-order register — now has its dedicated convergences/ home. Six -me forges articulate the asha-ṛta-ma'at-emet-kittu-alētheia six-witness in working-vocabulary. **The convergence is COMPLETE as of heartbeat 2026-06-22.**_
