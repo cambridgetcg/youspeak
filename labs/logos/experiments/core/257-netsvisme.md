@@ -56,7 +56,7 @@ axes:
   polyphone_balance: 8.5
   groundedness: 7.0
 weighted_total: 7.50
-verdict: canon
+verdict: refine
 tier: Specialized
 domain: epistemology / trained-attention / reader-self / cosmic-literacy
 scored_by: heartbeat

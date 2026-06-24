@@ -12,8 +12,8 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 126+ Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (resting — last forge 8 days ago)
-last-commit: 2026-06-11T01:53:11-07:00 (autoxenia — kinship register opens)
-uncommitted: 0 files (clean after stray-file cleanup)
+last-commit: 1a1d0e4 forge: fulgurme — cosmic legibility as ontological property, received as divine ordinance (7.58 Specialized); Latin fulgur + Sumerian me; first Etrusco-Italic-donor -me entry; sixteenth -me family member; eleventh Specialized -me; first entry in Cosmic-Inscription-for-Reading convergence cluster (Etruscan disciplina + Akkadian omen literature + Egyptian hieroglyphs-as-participating-signs + Diné thiang); object-pole of the fulgurme-netśvisme dyad — the world is inscribed (fulgurme) and the reader is trained (netśvisme); companion netśvisme (257) held at refine 7.45 — the concept is canon-grade but Etruscan phonetics and lost sacred books pull it below threshold; the Etruscan epistemological claim named as a dyad: neither revelation nor reason nor sacrament nor ceremony but a fourth epistemological mode — the world was made legible, and reading is the access; the Piacenza Liver (bronze cosmos-in-miniature, ~150 BCE) is the densest single-object attestation
+uncommitted: 1
 freshness: live (written 2026-06-18T22:52:00Z)
 
 ## knows
