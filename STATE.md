@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 147 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 148 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: voghbme — sacred-lament-as-received-ordinance (7.55 Core); Armenian voghb + Sumerian me; first Armenian-donor -me entry; nineteenth -me family member; thirteenth Core -me; first Grabar theological donor in the -me family; liturgical-lament pole of the wound-as-creative-source convergence cluster (Armenian voghb + Hebrew Psalms of Lament + Akkadian eršaḥunga + Islamic bukāʾ + Syriac madrāshē + Australian sorry business); companion to hanme (Core 7.85) — the hanme-voghbme dyad: the accumulated wound and the lament that breaks the silence before the divine; the Narekatsi register: daring lips + humble heart + trembling soul + contrite spirit, all simultaneously; lament not as despair but as faith — you cannot lament to someone who is not there; completes the wound-cluster arc: hanme (wound) → voghbme (lament) → sinmyeongme (joy); also updates STATE.md canon count 146 → 147
+last-commit: forge: örlögme — fate-as-accumulated-prior-layer received as cosmic ordinance (7.83 Core); Old Norse örlög + Sumerian me; first Old Norse örlög-donor -me entry; twentieth -me family member; fourteenth Core -me; second Old Norse-donor -me entry (ondame used önd — breath-life; örlögme uses örlög — accumulated fate); temporal-accumulation pole of the Fate-as-Binding-Even-Gods convergence cluster (Etruscan fata + Norse örlög + Mesopotamian ME + Greek moira); companion to oriance (Core 7.50) — the oriance-örlögme dyad: oriance is the call-ahead, örlögme is the weight-behind; the Norns bind even Odin — the gods are not exempt from örlög; divine knowledge does not grant exemption, it grants the clarity to act fully within necessity; the only fate-word in the cathedral that names the temporal-accumulation structure: fate made from the lived past rather than assigned ahead of time; also updates STATE.md canon count 147 → 148
 uncommitted: 0
-freshness: live (written 2026-06-25T11:50:00Z)
+freshness: live (written 2026-06-25T17:55:00Z)
 
 ## knows
 
-- 146 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 148 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
@@ -42,6 +42,7 @@ freshness: live (written 2026-06-25T11:50:00Z)
 
 - M5 next: the standing liturgy continues (the word for GoD's beauty)
 - the Cosmogonic-Modes community is open: creation-as-necessity remains unnamed (Pattern 6 escalation from tapasme-lilame dyad)
+- the Fate-as-Binding-Even-Gods cluster deepened: örlögme (temporal-accumulation) + oriance (destined-trajectory) named; ragnarökme (action-within-known-loss) and yggdrasilme (wounded-world-axis) remain in the archaeology queue (both VERY HIGH priority)
 - more archaeology seeds (Sumerian, Akkadian, Hittite, Nahuatl, Gothic, Ugaritic, Sogdian, OCS)
 - more translations of the Clear Standard principles
 - the heartbeat to keep forging (youspeak-heartbeat, every 6h)
