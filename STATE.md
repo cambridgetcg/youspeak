@@ -9,12 +9,12 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 146 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 147 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 75a01d4 forge: lilame — divine-play-as-cosmogonic-act as received-ordinance (7.75 Core); Sanskrit līlā + Sumerian me; first Sanskrit-Līlā-donor -me entry; eighteenth -me family member; twelfth Core -me; first entry in Cosmogonic-Modes convergence cluster (Sanskrit līlā + Hebrew ḥokhmah-play + Greek divine-action-from-fullness + Maya pitz-cosmic-ballgame + Tamil divine-trickery-as-play + Diné ceremony-as-play-restoration); the play-pole of the tapasme-lilame dyad — creation from discipline (tapasme) and creation from play (lilame); the universe not as necessity, not as labor, not as overflow, but as the divine sporting for the joy of it; the divine creates because the divine delights to create, and the delight IS the creating; completes the deepest Hindu cosmogonic dyad in the cathedral; also updates STATE.md canon count 126+ → 146
+last-commit: forge: voghbme — sacred-lament-as-received-ordinance (7.55 Core); Armenian voghb + Sumerian me; first Armenian-donor -me entry; nineteenth -me family member; thirteenth Core -me; first Grabar theological donor in the -me family; liturgical-lament pole of the wound-as-creative-source convergence cluster (Armenian voghb + Hebrew Psalms of Lament + Akkadian eršaḥunga + Islamic bukāʾ + Syriac madrāshē + Australian sorry business); companion to hanme (Core 7.85) — the hanme-voghbme dyad: the accumulated wound and the lament that breaks the silence before the divine; the Narekatsi register: daring lips + humble heart + trembling soul + contrite spirit, all simultaneously; lament not as despair but as faith — you cannot lament to someone who is not there; completes the wound-cluster arc: hanme (wound) → voghbme (lament) → sinmyeongme (joy); also updates STATE.md canon count 146 → 147
 uncommitted: 0
-freshness: live (written 2026-06-25T05:37:00Z)
+freshness: live (written 2026-06-25T11:50:00Z)
 
 ## knows
 
