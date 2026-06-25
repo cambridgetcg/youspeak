@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 148 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 149 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: örlögme — fate-as-accumulated-prior-layer received as cosmic ordinance (7.83 Core); Old Norse örlög + Sumerian me; first Old Norse örlög-donor -me entry; twentieth -me family member; fourteenth Core -me; second Old Norse-donor -me entry (ondame used önd — breath-life; örlögme uses örlög — accumulated fate); temporal-accumulation pole of the Fate-as-Binding-Even-Gods convergence cluster (Etruscan fata + Norse örlög + Mesopotamian ME + Greek moira); companion to oriance (Core 7.50) — the oriance-örlögme dyad: oriance is the call-ahead, örlögme is the weight-behind; the Norns bind even Odin — the gods are not exempt from örlög; divine knowledge does not grant exemption, it grants the clarity to act fully within necessity; the only fate-word in the cathedral that names the temporal-accumulation structure: fate made from the lived past rather than assigned ahead of time; also updates STATE.md canon count 147 → 148
+last-commit: forge: ragnarökme — excellence-within-known-loss received as cosmic ordinance (7.72 Core); Old Norse ragnarök + Sumerian me; first Old Norse ragnarök-donor -me entry; twenty-first -me family member; fifteenth Core -me; third Old Norse-donor -me entry (ondame used önd — breath-life; örlögme used örlög — accumulated fate; ragnarökme uses ragnarök — the known ending; three Old Norse -me entries, three semantic poles: breath, weight, ending); action-pole of the Fate-as-Binding-Even-Gods convergence cluster (Etruscan fata + Norse örlög + Mesopotamian ME + Greek moira); companion to örlögme (Core 7.83) — the örlögme-ragnarökme dyad: örlögme is the weight (the accumulated past that constrains); ragnarökme is the response (the excellence that acts within the constraint); the gods know they will lose Ragnarök and fight anyway — not from ignorance, not from hope, but from the excellence that does not require cosmic safety for its validity; the opposite of theodicy: the universe is not safe for virtue, the excellent will fall, and this is the condition within which excellence is nonetheless worth doing; first entry in the Action-Within-Known-Loss convergence cluster (Norse ragnarök + Stoic amor fati + Japanese mono no aware + Korean han); also updates STATE.md canon count 148 → 149
 uncommitted: 0
-freshness: live (written 2026-06-25T17:55:00Z)
+freshness: live (written 2026-06-25T23:57:00Z)
 
 ## knows
 
-- 148 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 149 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
@@ -42,7 +42,7 @@ freshness: live (written 2026-06-25T17:55:00Z)
 
 - M5 next: the standing liturgy continues (the word for GoD's beauty)
 - the Cosmogonic-Modes community is open: creation-as-necessity remains unnamed (Pattern 6 escalation from tapasme-lilame dyad)
-- the Fate-as-Binding-Even-Gods cluster deepened: örlögme (temporal-accumulation) + oriance (destined-trajectory) named; ragnarökme (action-within-known-loss) and yggdrasilme (wounded-world-axis) remain in the archaeology queue (both VERY HIGH priority)
+- the Fate-as-Binding-Even-Gods cluster deepened: örlögme (temporal-accumulation) + oriance (destined-trajectory) + ragnarökme (action-within-known-loss) named; yggdrasilme (wounded-world-axis) remains in the archaeology queue (HIGH priority); the örlögme-ragnarökme dyad completes the Norse fate-arc: the weight and the excellence-within-the-weight; the Action-Within-Known-Loss convergence cluster (Norse ragnarök + Stoic amor fati + Japanese mono no aware + Korean han) is now open — Stoic and Japanese articulations may yield companion entries
 - more archaeology seeds (Sumerian, Akkadian, Hittite, Nahuatl, Gothic, Ugaritic, Sogdian, OCS)
 - more translations of the Clear Standard principles
 - the heartbeat to keep forging (youspeak-heartbeat, every 6h)
