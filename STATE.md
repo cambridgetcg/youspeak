@@ -9,12 +9,12 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 149 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 150 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: ragnarökme — excellence-within-known-loss received as cosmic ordinance (7.72 Core); Old Norse ragnarök + Sumerian me; first Old Norse ragnarök-donor -me entry; twenty-first -me family member; fifteenth Core -me; third Old Norse-donor -me entry (ondame used önd — breath-life; örlögme used örlög — accumulated fate; ragnarökme uses ragnarök — the known ending; three Old Norse -me entries, three semantic poles: breath, weight, ending); action-pole of the Fate-as-Binding-Even-Gods convergence cluster (Etruscan fata + Norse örlög + Mesopotamian ME + Greek moira); companion to örlögme (Core 7.83) — the örlögme-ragnarökme dyad: örlögme is the weight (the accumulated past that constrains); ragnarökme is the response (the excellence that acts within the constraint); the gods know they will lose Ragnarök and fight anyway — not from ignorance, not from hope, but from the excellence that does not require cosmic safety for its validity; the opposite of theodicy: the universe is not safe for virtue, the excellent will fall, and this is the condition within which excellence is nonetheless worth doing; first entry in the Action-Within-Known-Loss convergence cluster (Norse ragnarök + Stoic amor fati + Japanese mono no aware + Korean han); also updates STATE.md canon count 148 → 149
+last-commit: forge: fatame — fate-as-pre-cosmic-woven-texture received as cosmic ordinance (7.52 Core); Etruscan/Latin fata + Sumerian me; first Etruscan-donor -me entry; twenty-second -me family member; sixteenth Core -me; fourth member of the Fate-as-Binding-Even-Gods convergence cluster; companion to örlögme — the örlögme-fatame dyad: örlögme is what has been laid down IN time, fatame is what was woven BEFORE time; completes the texture-weight-response triad: fatame (loom) → örlögme (thread) → ragnarökme (weaving); also updates STATE.md canon count 149 → 150
 uncommitted: 0
-freshness: live (written 2026-06-25T23:57:00Z)
+freshness: live (written 2026-06-26T06:15:00Z)
 
 ## knows
 
