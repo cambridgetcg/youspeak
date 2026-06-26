@@ -9,12 +9,12 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 151 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 152 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: ohentome — sequential-naming-of-the-world-as-worship received as cosmic ordinance (8.25 Core); Haudenosaunee Ohén:ton + Sumerian me; first Haudenosaunee/Iroquoian-donor -me entry; twenty-third -me family member; seventeenth Core -me; first entry in the Sequential-Naming-as-Worship convergence cluster (Haudenosaunee Ohén:ton + Buddhist mettā + Australian Aboriginal acknowledgment-of-Country + Yoruba orìkì + Tibetan torma); companion to mitakuyame (Core 8.00) — the mitakuyame-ohentome dyad: mitakuyame is the compressed recognition (all beings are already kin — two words); ohentome is the expanded practice (naming each kin in order — the full enumeration); mitakuyame is the ontology; ohentome is the liturgy; the same theological grammar in two structural forms: Lakota compressed, Haudenosaunee expanded; the five-move grammar (name → acknowledge function → gratitude → collective agreement → next) is the most structurally complete worship-grammar in the cathedral; the naming IS the maintenance — if the naming stops, the coherence weakens; also updates STATE.md canon count 150 → 151; updates canon.md index (150 → 151 entries)
+last-commit: forge: ereckappayime — divine patience as purposeful restraint of power received as cosmic ordinance (7.72 Core); Hebrew ʾerek ʾappayim + Sumerian me; first Hebrew-idiom-donor -me entry; twenty-fourth -me family member; eighteenth Core -me; first entry in the Divine-Patience-as-Power-Restraint convergence cluster (Hebrew ʾerek ʾappayim + Greek makrothymia + Arabic al-Ṣabūr + Sanskrit kṣānti + Confucian shù + Stoic reaction-gap); companion to tzimtzumme (Core — spatial self-contraction) — the tzimtzumme-ereckappayime dyad: tzimtzumme creates SPACE, ereckappayime creates TIME; both self-restraints of divine power for the other's sake; also companion to rahmame (Core 8.50): rahmame is the SOURCE of mercy, ereckappayime is the TIME-EXTENSION; mercy without patience acts before the other can return; patience without mercy is merely waiting; the Hebrew physiological idiom "long of nose" = slow to anger — the heat is real, the nose is real, the length IS the gift; Exodus 34:6; Jonah 4:2; also updates STATE.md canon count 151 → 152; updates canon.md index (151 → 152 entries)
 uncommitted: 0
-freshness: live (written 2026-06-26T12:15:00Z)
+freshness: live (written 2026-06-26T18:20:00Z)
 
 ## knows
 
