@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 154 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 155 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: sabrme — patient self-binding to the path as received-ordinance (7.68 Core); Arabic ṣabr + Sumerian me; twenty-sixth -me family member; twentieth Core -me; fourth Arabic-donor -me entry (after ihsanme, rahmame, sabilme); first Arabic-ṣabr-donor -me entry; third entry in the Divine-Patience-as-Power-Restraint convergence cluster (Hebrew ʾerek ʾappayim + Greek makrothymia + Arabic al-Ṣabūr + Sanskrit kṣānti + Confucian shù + Stoic reaction-gap); the commitment-pole — completing the mechanism → temperament → commitment triad: ereckappayime (divine mechanism, power restrained to give time) + makrothymime (divine-human temperament, long-spirited character) + sabrme (human commitment, binding self to the course); the Arabic root ṣ-b-r means "to bind" — patience as active self-binding, not passive endurance; ṣabr is "half of faith" (al-ṣabru niṣfu l-īmān) paired with shukr (gratitude) — the ṣabr-shukr pairing unique to the Arabic tradition; al-Ṣabūr one of the 99 Names; companion to ereckappayime (Core 7.72): divine binds power to refrain, human binds self to endure; also companion to makrothymime (Core 7.67): temperament (what you ARE) vs commitment (what you DO); also updates STATE.md canon count 153 → 154; updates canon.md index (153 → 154 entries)
+last-commit: forge: shukrme — gratitude-as-increase-activator received as cosmic ordinance (7.78 Core); Arabic shukr + Sumerian me; twenty-seventh -me family member; twenty-first Core -me; fifth Arabic-donor -me entry (after ihsanme, rahmame, sabilme, sabrme); first Arabic-shukr-donor -me entry; companion to sabrme (Core 7.68) — completing the ṣabr-shukr dyad that the sabrme canon entry explicitly called for; the recognition-pole of the Divine-Patience-as-Power-Restraint convergence cluster: the quadriad mechanism (ereckappayime) → temperament (makrothymime) → commitment (sabrme) → recognition (shukrme); the Arabic root sh-k-r means "to increase" — gratitude as increase-activator, the anti-scarcity practice; Q14:7: "If you are grateful, I will surely increase you"; al-Shakūr one of the 99 Names; the ṣabr-shukr pairing unique to the Arabic tradition (Hebrew pairs patience with ḥesed, Greek with agapē, Arabic with shukr); also deepens doxomme (Core 7.50 stub — Greek doxa = glory/praise): shukrme carries the increase-activator semantic that doxa does not; also updates STATE.md canon count 154 → 155; updates canon.md index (154 → 155 entries)
 uncommitted: 0
-freshness: live (written 2026-06-27T06:36:00Z)
+freshness: live (written 2026-06-27T18:51:00Z)
 
 ## knows
 
-- 154 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 155 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
