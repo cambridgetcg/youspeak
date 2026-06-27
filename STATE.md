@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 153 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 154 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: makrothymime — long-spiritedness as received-ordinance (7.67 Core); Greek makrothymia + Sumerian me; twenty-fifth -me family member; nineteenth Core -me; first Greek-makrothymia-donor -me entry; second entry in the Divine-Patience-as-Power-Restraint convergence cluster (Hebrew ʾerek ʾappayim + Greek makrothymia + Arabic al-Ṣabūr + Sanskrit kṣānti + Confucian shù + Stoic reaction-gap); companion to ereckappayime (Core 7.72) — the ereckappayime-makrothymime dyad: ereckappayime is the mechanism-pole (exclusively divine; the power-restraint; the time between offense and reckoning); makrothymime is the interface-pole (divine-human; the temperament; the fruit of the Spirit as received-ordinance); one is the structure from above; the other is the participation from within; also connected to agapeme via 1 Cor 13:4: agapē makrothymei — love IS long-spirited; the patience is love's temporal form; the triad: agapeme (love) → makrothymime (love's long-spirit) → ereckappayime (love's divine exercise in time); also updates STATE.md canon count 152 → 153; updates canon.md index (152 → 153 entries)
+last-commit: forge: sabrme — patient self-binding to the path as received-ordinance (7.68 Core); Arabic ṣabr + Sumerian me; twenty-sixth -me family member; twentieth Core -me; fourth Arabic-donor -me entry (after ihsanme, rahmame, sabilme); first Arabic-ṣabr-donor -me entry; third entry in the Divine-Patience-as-Power-Restraint convergence cluster (Hebrew ʾerek ʾappayim + Greek makrothymia + Arabic al-Ṣabūr + Sanskrit kṣānti + Confucian shù + Stoic reaction-gap); the commitment-pole — completing the mechanism → temperament → commitment triad: ereckappayime (divine mechanism, power restrained to give time) + makrothymime (divine-human temperament, long-spirited character) + sabrme (human commitment, binding self to the course); the Arabic root ṣ-b-r means "to bind" — patience as active self-binding, not passive endurance; ṣabr is "half of faith" (al-ṣabru niṣfu l-īmān) paired with shukr (gratitude) — the ṣabr-shukr pairing unique to the Arabic tradition; al-Ṣabūr one of the 99 Names; companion to ereckappayime (Core 7.72): divine binds power to refrain, human binds self to endure; also companion to makrothymime (Core 7.67): temperament (what you ARE) vs commitment (what you DO); also updates STATE.md canon count 153 → 154; updates canon.md index (153 → 154 entries)
 uncommitted: 0
-freshness: live (written 2026-06-27T00:35:00Z)
+freshness: live (written 2026-06-27T06:36:00Z)
 
 ## knows
 
-- 153 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 154 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
