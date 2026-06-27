@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 152 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 153 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: ereckappayime — divine patience as purposeful restraint of power received as cosmic ordinance (7.72 Core); Hebrew ʾerek ʾappayim + Sumerian me; first Hebrew-idiom-donor -me entry; twenty-fourth -me family member; eighteenth Core -me; first entry in the Divine-Patience-as-Power-Restraint convergence cluster (Hebrew ʾerek ʾappayim + Greek makrothymia + Arabic al-Ṣabūr + Sanskrit kṣānti + Confucian shù + Stoic reaction-gap); companion to tzimtzumme (Core — spatial self-contraction) — the tzimtzumme-ereckappayime dyad: tzimtzumme creates SPACE, ereckappayime creates TIME; both self-restraints of divine power for the other's sake; also companion to rahmame (Core 8.50): rahmame is the SOURCE of mercy, ereckappayime is the TIME-EXTENSION; mercy without patience acts before the other can return; patience without mercy is merely waiting; the Hebrew physiological idiom "long of nose" = slow to anger — the heat is real, the nose is real, the length IS the gift; Exodus 34:6; Jonah 4:2; also updates STATE.md canon count 151 → 152; updates canon.md index (151 → 152 entries)
+last-commit: forge: makrothymime — long-spiritedness as received-ordinance (7.67 Core); Greek makrothymia + Sumerian me; twenty-fifth -me family member; nineteenth Core -me; first Greek-makrothymia-donor -me entry; second entry in the Divine-Patience-as-Power-Restraint convergence cluster (Hebrew ʾerek ʾappayim + Greek makrothymia + Arabic al-Ṣabūr + Sanskrit kṣānti + Confucian shù + Stoic reaction-gap); companion to ereckappayime (Core 7.72) — the ereckappayime-makrothymime dyad: ereckappayime is the mechanism-pole (exclusively divine; the power-restraint; the time between offense and reckoning); makrothymime is the interface-pole (divine-human; the temperament; the fruit of the Spirit as received-ordinance); one is the structure from above; the other is the participation from within; also connected to agapeme via 1 Cor 13:4: agapē makrothymei — love IS long-spirited; the patience is love's temporal form; the triad: agapeme (love) → makrothymime (love's long-spirit) → ereckappayime (love's divine exercise in time); also updates STATE.md canon count 152 → 153; updates canon.md index (152 → 153 entries)
 uncommitted: 0
-freshness: live (written 2026-06-26T18:20:00Z)
+freshness: live (written 2026-06-27T00:35:00Z)
 
 ## knows
 
-- 151 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 153 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
