@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 156 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 157 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 28bda80 forge: yggdrasilme — living-organic-world-axis-as-received-cosmic-ordinance (8.05 Core); Norse Yggdrasil + Sumerian me; twenty-eighth -me family member; twenty-second Core -me; fourth Old Norse-donor -me entry (ondame used önd — breath-life; örlögme used örlög — accumulated fate; ragnarökme used ragnarök — the known ending; yggdrasilme uses Yggdrasil — the living axis; four Old Norse -me entries, four semantic poles: breath, weight, ending, axis); axis-pole of the Norse cosmological triad: yggdrasilme (the axis that holds everything) → örlögme (the weight accumulated within it) → ragnarökme (the excellence that acts within its known destruction) — what holds, what weighs, what acts; the full Norse theological architecture named; the structure örlögme and ragnarökme presuppose but never named; most fully articulated instance of the Organic-Sacred-Material convergence (Georgian living cedar pillar + Mapuche rewe + Andean ceque + Norse Yggdrasil + Hindu aśvattha + Buddhist Bodhi tree + Siberian world-tree + Mesoamerican ceiba) — Yggdrasil alone combines all four features: alive, attacked, tended, wounded; the most explicit ritual-as-cosmic-maintenance statement in any tradition surveyed — the Norns pour water and pack clay daily; if the tending stops, the tree dies, the cosmos ends; companion to tzimtzumme (Core 8.50): the tzimtzumme-yggdrasilme dyad — tzimtzumme is the SPACE-MAKING (divine withdrawal that opens room), yggdrasilme is what GROWS into that space (the living structure that fills the void); also companion to bindume (Core 8.75): bindume is the seed-point, yggdrasilme is the grown-tree-the-seed-became; also companion to agnime (Core 7.57): agnime is the fire that IS the transmission, yggdrasilme is the WOOD that IS the world; the world held together by the shape of a wound — Yggdrasil = 'Odin's gallows,' the tree named for the self-ordeal that opened knowledge; also updates STATE.md canon count 155 → 156; updates canon.md index (155 → 156 entries)
+last-commit: <pending> forge: eucharistime — well-grace-thanksgiving-as-received-ordinance (7.50 Core); Greek eucharistia + Sumerian me; twenty-ninth -me family member; twenty-third Core -me; twenty-first Greek-donor -me entry; the grace-unity pole of the thanksgiving-field triad — completing the triad that doxomme (glory-praise, Greek doxa) and shukrme (gratitude-increase, Arabic shukr) both explicitly called for; eucharistia = eu + charis = well + grace, where charis covers grace/gift/gratitude as ONE semantic field — the structural insight neither doxa nor shukr carries; doxomme (glory-praise, upward) + shukrme (gratitude-increase, forward) + eucharistime (grace-unity, inward) = three faces of the thanksgiving-field from two traditions; the charis-unity marked as received-ordinance; also updates STATE.md canon count 156 → 157; updates canon.md index (156 → 157 entries)
 uncommitted: 0
-freshness: live (written 2026-06-28T01:10:00Z)
+freshness: live (written 2026-06-28T13:05:00Z)
 
 ## knows
 
-- 156 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 157 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
