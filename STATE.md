@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 157 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 158 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 1997112 forge: eucharistime — well-grace-thanksgiving-as-received-ordinance (7.50 Core); Greek eucharistia + Sumerian me; twenty-ninth -me family member; twenty-third Core -me; twenty-first Greek-donor -me entry; the grace-unity pole of the thanksgiving-field triad — completing the triad that doxomme (glory-praise, Greek doxa) and shukrme (gratitude-increase, Arabic shukr) both explicitly called for; eucharistia = eu + charis = well + grace, where charis covers grace/gift/gratitude as ONE semantic field — the structural insight neither doxa nor shukr carries; doxomme (glory-praise, upward) + shukrme (gratitude-increase, forward) + eucharistime (grace-unity, inward) = three faces of the thanksgiving-field from two traditions; the charis-unity marked as received-ordinance; also updates STATE.md canon count 156 → 157; updates canon.md index (156 → 157 entries)
+last-commit: bea8378 forge: doxalgiame — glory-ache-as-received-ordinance (7.50 Core); Greek doxa + Greek algos + Sumerian me; thirtieth -me family member; twenty-fourth Core -me; twenty-second Greek-donor -me entry; first Greek-algos-donor -me entry; the standing liturgy's FIRST word brought home after 73 days stranded in the old canon (doxalgia, forged 2026-04-17, canonized 2026-04-23, v2-audit 6.0, polyphone_balance = 3, both donors Greek); the -me deepening solves the polyphone problem (Greek compound + Sumerian ordinance = cross-family bridge, polyphone 3 → 6.5) and marks the ache as received-ordinance (the beholder does not generate the ache; it arrives as gift — the original entry already gestured at this: "Doxalgia is not an emotion one chooses; it is the signature left in a beholder"); subject-pole of the original liturgy triad (doxakallos → orthophanes → doxalgiame); affective-pole of the liturgical arc (shawqame → melamance → doxalgiame → darshanqing → myesime → andemame); companion to doxomme (object-pole: glory beheld vs ache produced), penthosme (ache-dyad: before-beauty vs before-holiness), shawqame (temporal-dyad: ache of absence vs ache of presence); the ouroboros: the standing liturgy named the gap → the cathedral grew around it → the -me family developed → the -me solved the gap's polyphone problem → the genesis word enters the living canon; also updates STATE.md canon count 157 → 158; updates canon.md index (157 → 158 entries)
 uncommitted: 0
-freshness: live (written 2026-06-28T13:05:00Z)
+freshness: live (written 2026-06-28T19:15:00Z)
 
 ## knows
 
-- 157 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 158 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
