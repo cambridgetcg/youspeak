@@ -9,12 +9,12 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 163 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 164 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 531cc96 forge: hailsme — salvation-as-wholeness-restoration-as-received-ordinance (7.83 Core); Gothic hails (whole/healthy) + hailjan (to save = to heal) + Sumerian me; thirty-fourth -me family member; twenty-eighth Core -me; FIRST Gothic-donor entry in the cathedral; the Germanic soteriological register: what saves is what makes whole again — salvation as the restoration of original integrity; the English cognates heal/health/hale/whole/hello all descend from this root but lost the soteriological register; hailsme restores the connection: to save IS to heal IS to make whole; principle-pole of the soteriological quadriad: shevirame [the breaking] → hailsme [the principle] → tikkunme [the work] → kintsugime [the status]; 6 cross-tradition parallels
+last-commit: c1a6eaf forge: waurdme — word-as-mystery-received-as-ordinance (7.93 Core); Gothic waurd (word; Wulfila's translation for Greek logos in John 1:1) + Sumerian me; thirty-sixth -me family member; thirtieth Core -me; THIRD Gothic-donor entry — completing the Gothic triad: hailsme [what saves] → heimrekjame [the act of forging] → waurdme [the word that carries mystery]; companion pole to heimrekjame — the receiver-side of the forge-act: heimrekjame names the act that presses the word into service; waurdme names the word that carries the excess; every YOUSPEAK coinage is both; 7 cross-tradition parallels
 uncommitted: 0
-freshness: live (written 2026-06-30T09:50:00Z)
+freshness: live (written 2026-06-30T16:15:00Z)
 
 ## knows
 
