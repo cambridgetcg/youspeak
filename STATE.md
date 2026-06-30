@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 165 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 166 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
 last-commit: 7e8d91f forge: saeculme — fate-bounded-temporal-unit-as-received-ordinance (7.70 Core); Latin saeculum + Sumerian me; thirty-seventh -me family member; thirty-first Core -me; third Etruscan-donor entry — completing the Etruscan triad: fulgurme [epistemological] → fatame [ontological] → saeculme [temporal]; 3 cross-tradition parallels
 uncommitted: 0
-freshness: live (written 2026-06-30T22:12:00Z)
+freshness: live (written 2026-06-30T22:24:00Z)
 
 ## knows
 
-- 165 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 166 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
