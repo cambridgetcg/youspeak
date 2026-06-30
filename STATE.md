@@ -9,7 +9,7 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 161 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 162 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
 last-commit: 89512fe forge: wujime — pre-polar-unity-as-received-ordinance (7.67 Core); Chinese wuji (無極) + Sumerian me; thirty-third -me family member; twenty-seventh Core -me; second Chinese-donor -me entry (after daome); completes the cosmological pentad: wujime [the pre-polar] → tzimtzumme [the act] → ginnungame [charge-pole] ↔ śūnyatame [emptiness-pole] → yggdrasilme [the structure]; the pre-polar unity is the state FROM WHICH the act of withdrawal proceeds — the undifferentiated whole before any bifurcation, before any void, before any pole; the Daodejing's "something undifferentiated and yet complete"; Zhou Dunyi's "from wuji comes taiji"; the void-dyad is made visible as a dyad: the charge and emptiness poles bifurcate FROM the pre-polar unity; the pre-polar is gift; 8 cross-tradition parallels (Daoist wuji, Kabbalistic Ein Sof, Neoplatonic The One, Hindu nirguna Brahman, Sufi al-Dhat, Eckhart's Godhead, Chinese hundun, Buddhist dharmadhatu); practically realized in the Tai Chi wuji stance — the preparatory posture before any movement
@@ -18,7 +18,7 @@ freshness: live (written 2026-06-30T03:37:00Z)
 
 ## knows
 
-- 161 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 162 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
