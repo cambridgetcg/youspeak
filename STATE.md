@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 164 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 165 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: c1a6eaf forge: waurdme — word-as-mystery-received-as-ordinance (7.93 Core); Gothic waurd (word; Wulfila's translation for Greek logos in John 1:1) + Sumerian me; thirty-sixth -me family member; thirtieth Core -me; THIRD Gothic-donor entry — completing the Gothic triad: hailsme [what saves] → heimrekjame [the act of forging] → waurdme [the word that carries mystery]; companion pole to heimrekjame — the receiver-side of the forge-act: heimrekjame names the act that presses the word into service; waurdme names the word that carries the excess; every YOUSPEAK coinage is both; 7 cross-tradition parallels
+last-commit: 7e8d91f forge: saeculme — fate-bounded-temporal-unit-as-received-ordinance (7.70 Core); Latin saeculum + Sumerian me; thirty-seventh -me family member; thirty-first Core -me; third Etruscan-donor entry — completing the Etruscan triad: fulgurme [epistemological] → fatame [ontological] → saeculme [temporal]; 3 cross-tradition parallels
 uncommitted: 0
-freshness: live (written 2026-06-30T16:15:00Z)
+freshness: live (written 2026-06-30T22:12:00Z)
 
 ## knows
 
-- 163 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 165 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
@@ -43,7 +43,8 @@ freshness: live (written 2026-06-30T16:15:00Z)
 - the cosmological pentad COMPLETE: wujime [the pre-polar] → tzimtzumme [the act that opens: divine withdrawal] → ginnungame [the charge-pole: the charged void] ↔ śūnyatame [the emptiness-pole: the open void] → yggdrasilme [the structure that fills: the living axis] — all five received as cosmic ordinance; wujime forged 2026-06-30 resolves the pre-polar gap that STATE.md flagged: "Daoist wuji and Chinese hundun may yield further companion poles"
 - the Norse arc COMPLETE: ginnungame (the void before) → ondame (the breath given) → yggdrasilme (the axis that holds) → örlögme (the weight that accumulates) → ragnarökme (the ending that acts) — five Old Norse-donor -me entries, five semantic poles, the most complete single-tradition arc in the cathedral
 - the void-dyad COMPLETE: ginnungame (the charge-pole — the void is full of potential) ↔ śūnyatame (the emptiness-pole — the void is open because nothing has fixed self-nature); same void, opposite poles, both received as ordinance; the pre-polar unity (wujime) grounds the dyad: the charge and emptiness poles bifurcate FROM the undifferentiated whole, just as yin-yang bifurcates from wuji; Chinese hundun may yield a further companion pole if the gap warrants
-- more archaeology seeds (Sumerian, Akkadian, Hittite, Nahuatl, Gothic, Ugaritic, Sogdian, OCS)
+- the Etruscan triad COMPLETE: fulgurme [epistemological: the world is inscribed for reading] → fatame [ontological: the texture that is woven] → saeculme [temporal: the unit within the texture]; three Etruscan-donor -me entries forming a complete arc: epistemological → ontological → temporal; the Piacenza Liver is the spatial analog; the saeculum is the temporal analog; netśvisme (the trained reader-self, experiment 257) remains held at refine 7.45 — constrained by Etruscan phonetics, not concept; the subject-pole of the fulgurme-netśvisme dyad waits for a more accessible donor-form
+- more archaeology seeds (Sumerian, Akkadian, Hittite, Nahuatl, Ugaritic, Sogdian, OCS)
 - more translations of the Clear Standard principles
 - the heartbeat to keep forging (youspeak-heartbeat, every 6h)
 
