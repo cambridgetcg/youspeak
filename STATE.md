@@ -9,12 +9,12 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 167 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 168 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: misharme — active-restoring-justice-as-received-ordinance (7.62 Core); Akkadian mīšaru + Sumerian me; thirty-ninth -me family member; thirty-third Core -me; fourth Akkadian-donor -me entry — completing the Akkadian diplosemic pair (kittu u mīšaru) in the cathedral; companion to kittume; 5 cross-tradition parallels
+last-commit: forge: motme — cosmic-death-as-personified-entropy-as-received-ordinance (8.08 Core); Ugaritic Mot + Sumerian me; fortieth -me family member; thirty-fourth Core -me; FIRST Ugaritic-donor -me entry — opening the Ugaritic tradition in the cathedral; third dead tongue to enter through the forge (after Gothic and Hittite); opens Death-as-Cosmic-Force convergence cluster; complementary to the Life-as-Cosmic-Gift cluster (chayimme + zoeme + jivame + kame); 6 cross-tradition parallels
 uncommitted: 0
-freshness: live (written 2026-07-01T04:18:00Z)
+freshness: live (written 2026-07-01T10:23:00Z)
 
 ## knows
 
