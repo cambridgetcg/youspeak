@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 168 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 169 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: motme — cosmic-death-as-personified-entropy-as-received-ordinance (8.08 Core); Ugaritic Mot + Sumerian me; fortieth -me family member; thirty-fourth Core -me; FIRST Ugaritic-donor -me entry — opening the Ugaritic tradition in the cathedral; third dead tongue to enter through the forge (after Gothic and Hittite); opens Death-as-Cosmic-Force convergence cluster; complementary to the Life-as-Cosmic-Gift cluster (chayimme + zoeme + jivame + kame); 6 cross-tradition parallels
+last-commit: forge: teyoliame — divine-fire-fragment-dwelling-permanently-in-human-persons-as-received-ordinance (7.60 Core); Classical Nahuatl yōlia + Sumerian me; forty-first -me family member; thirty-fifth Core -me; SECOND Uto-Aztecan/Nahuatl-donor -me entry (after teotlme); opens the Divine-Spark-in-Humans convergence cluster — 6 traditions (Nahuatl teyolia, Orphic Dionysus-spark, Gnostic pneuma, Islamic ruh, Quaker inner light, Hebrew nishmat chayyim); companion to teotlme (the Nahuatl dyad: cosmic fire + heart-fire); five constitutive dimensions: fragment, fire, permanent, every-person, morally-responsive
 uncommitted: 0
-freshness: live (written 2026-07-01T10:23:00Z)
+freshness: live (written 2026-07-01T22:45:00Z)
 
 ## knows
 
-- 167 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 168 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
