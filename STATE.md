@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 172 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 173 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: ch'ulme — distributed-soul-essence-as-cosmic-web-as-received-ordinance (8.12 Core); K'iche' Maya ch'ulel + Sumerian me; forty-fourth -me family member; thirty-eighth Core -me; FIRST Mayan-donor -me entry — opening the Mayan tradition in the cathedral's canon; opens Distributed-Soul-Essence convergence cluster; companion to teyoliame (the fire at the heart-node + the web across all nodes)
+last-commit: forge: mugawme — narrating-the-return-of-what-withdrew-as-the-efficacious-act-that-brings-the-return-as-received-ordinance (7.73 Core); Hittite mugawar + Sumerian me; forty-fifth -me family member; thirty-ninth Core -me; second Hittite-donor -me entry; completes the telipme-mugawme dyad (withdrawal → ritual-of-return); deepens 4-tradition Performative-Ontology convergence; also fixes ch'ulme canon.md entry-list drift from previous forge
 uncommitted: 0
-freshness: live (written 2026-07-02T04:50:00Z)
+freshness: live (written 2026-07-02T10:28:00Z)
 
 ## knows
 
-- 172 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 173 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
