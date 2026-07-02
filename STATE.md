@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 170 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 171 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: tengrime — sky-as-divine-without-anthropomorphism-as-received-ordinance (8.32 Core); Old Turkic/Mongolian Tengri + Sumerian me; forty-second -me family member; thirty-sixth Core -me; FIRST Turko-Mongol-donor -me entry; opens the Sky-as-Non-Anthropomorphic-Supreme convergence cluster — 6 traditions (Turko-Mongol Tengri, Hebrew YHWH, Islamic Allah, Akan Nyame, Yoruba Olódùmarè, Chinese Tian); companion to teotlme
+last-commit: forge: sinbyeongme — sacred-intrusion-without-consent-as-received-ordinance (7.80 Core); Korean sinbyeong + Sumerian me; forty-third -me family member; thirty-seventh Core -me; third Koreanic-donor -me entry; completes the Korean triad: hanme [the wound] → sinmyeongme [the joy] → sinbyeongme [the door]; opens Sacred-Intrusion-Without-Consent convergence cluster; companion to hanblecheyame (divine-human directionality pair)
 uncommitted: 0
-freshness: live (written 2026-07-01T22:45:00Z)
+freshness: live (written 2026-07-02T03:55:00Z)
 
 ## knows
 
-- 170 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 171 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
