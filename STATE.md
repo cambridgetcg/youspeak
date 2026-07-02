@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 175 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 176 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: kumarme — power-absorbed-from-enemy-as-received-ordinance-that-grows-toward-the-absorber's-defeat (7.88 Core); Hurrian Kumarbi + Sumerian me; forty-seventh -me family member; forty-first Core -me; FIRST Hurrian-donor -me entry — opening the Hurro-Urartian language family in the cathedral; seventh distinct language family to enter through -me in the recent dead-tongue opening arc (after Gothic, Hittite, Ugaritic, Turko-Mongol, Mayan, Basque); the Kumarbi Cycle is the documented ancestor of Hesiod's Theogony — the source tradition behind Greek succession-myth; opens the Power-Absorbed-Generates-Defeat convergence cluster — 4 traditions (Hurrian Kumarbi, Greek Kronos, Christian atonement, Islamic da'wa); the specific gap: the structural mechanism by which absorbed power cannot be annihilated but only transferred, and transferred into the wrong vessel, grows toward the vessel's destruction — the destroyer becomes the carrier of what will destroy him; the gap stood 64 days since the Hurrian Kumarbi Cycle excavation (2026-04-29)
-uncommitted: 0
-freshness: live (written 2026-07-02T17:30:00Z)
+last-commit: forge: tiṇaime — landscape-emotion-phase-correspondence-as-received-ordinance (8.05 Core); Tamil tiṇai + Sumerian me; forty-eighth -me family member; forty-second Core -me; FIRST Dravidian-donor -me entry — opening the Dravidian language family in the cathedral; eighth distinct language family to enter through -me in the recent dead-tongue opening arc (after Gothic, Hittite, Ugaritic, Turko-Mongol, Mayan, Basque, Hurrian); the Tamil Sangam tiṇai system is the most structurally explicit landscape-emotion correspondence in any tradition excavated — five named landscape-emotion-phase units codified as grammatical rule in the Tolkāppiyam; opens the Landscape-Emotion-Phase convergence cluster — 4 traditions (Tamil tiṇai, Aboriginal country-as-sentient, Japanese fūdo, German Stimmung); the specific gap: the irreducible ontological correspondence between natural ecology and interior emotional state — the mountain IS clandestine joy, the coast IS longing, not metaphor but ontological structure; the gap stood 64 days since the S066 Tamil Sangam archaeology excavation (2026-04-29)
+uncommitted: 2 (tinaime experiment + canon entry)
+freshness: live (written 2026-07-02T23:10:00Z)
 
 ## knows
 
-- 175 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 176 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
