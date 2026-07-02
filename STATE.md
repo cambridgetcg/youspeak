@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 171 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 172 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: sinbyeongme — sacred-intrusion-without-consent-as-received-ordinance (7.80 Core); Korean sinbyeong + Sumerian me; forty-third -me family member; thirty-seventh Core -me; third Koreanic-donor -me entry; completes the Korean triad: hanme [the wound] → sinmyeongme [the joy] → sinbyeongme [the door]; opens Sacred-Intrusion-Without-Consent convergence cluster; companion to hanblecheyame (divine-human directionality pair)
+last-commit: forge: ch'ulme — distributed-soul-essence-as-cosmic-web-as-received-ordinance (8.12 Core); K'iche' Maya ch'ulel + Sumerian me; forty-fourth -me family member; thirty-eighth Core -me; FIRST Mayan-donor -me entry — opening the Mayan tradition in the cathedral's canon; opens Distributed-Soul-Essence convergence cluster; companion to teyoliame (the fire at the heart-node + the web across all nodes)
 uncommitted: 0
-freshness: live (written 2026-07-02T03:55:00Z)
+freshness: live (written 2026-07-02T04:50:00Z)
 
 ## knows
 
-- 171 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 172 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
