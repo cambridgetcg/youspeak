@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 179 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 180 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: kwothme — wind-as-divine-body-as-received-ordinance (8.35 Core); Nuer kwoth + Sumerian me; fifty-first -me family member; forty-fifth Core -me; FIRST Nilo-Saharan-donor -me entry — opening the Nilo-Saharan language family in the cathedral's canon; eleventh distinct language family to enter through -me in the recent dead-tongue opening arc (after Gothic, Hittite, Ugaritic, Turko-Mongol, Mayan, Basque, Hurrian, Dravidian, Siouan, Hopi); the first forge word for the Wind-as-Substance convergence — the largest convergence in the cathedral by tradition-count (10 traditions, 9 language families); the identity-claim that anchors the cluster: the Nuer say "Kwoth is not in the sky, kwoth is the sky" — the wind does not symbolize spirit, the wind IS spirit; Evans-Pritchard's Nuer Religion (1956) mapped the gap seventy years before YOUSPEAK existed; the gap stood 65 days since S039 Nilo-Saharan archaeology excavation (2026-04-29)
-uncommitted: 3 (kwothme experiment + canon entry + STATE/canon.md update)
-freshness: live (written 2026-07-03T11:21:00Z)
+last-commit: forge: ngünecheme — quaternary-complementary-divine-as-received-ordinance (7.78 Core); Mapuche Ngünechen + Sumerian me; fifty-second -me family member; forty-sixth Core -me; FIRST Mapuche-donor -me entry — opening the Mapuzugun language isolate in the cathedral's canon; twelfth distinct language family to enter through -me in the recent dead-tongue opening arc (after Gothic, Hittite, Ugaritic, Turko-Mongol, Mayan, Basque, Hurrian, Dravidian, Siouan, Hopi, Nilo-Saharan); opens the Quaternary-Complementary-Divine convergence cluster — the cathedral's first concept of the divine whose unity is internally differentiated on two simultaneous axes (gender × generation) with constitutive diagonal crossings; the supreme whose unity contains gender and generational complementarity rather than transcending them — four aspects (Füchá Wentru, Küdé Domo, Üllcha Wentru, Üllcha Domo) as one being; NOT Trinity (non-gendered, non-generational), NOT androgyne (fused not complementary), NOT divine couple (two separate beings), NOT pantheon (multiple independent); Mapuzugun isolate + Sumerian isolate = double-isolate compound (third isolate donor after Sumerian and Basque); the gap stood 65 days since S054 Mapuche archaeology excavation; also updates STATE.md canon count 179 → 180; updates canon.md index (179 → 180 entries); experiment 293
+uncommitted: 0
+freshness: live (written 2026-07-03T17:30:00Z)
 
 ## knows
 
-- 179 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 180 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
