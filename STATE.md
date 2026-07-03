@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 178 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 179 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: koyaanisqatsime — life-out-of-balance-as-covenant-abandonment-disorder-as-received-ordinance (8.25 Core); Hopi koyaanisqatsi + Sumerian me; fiftieth -me family member; forty-fourth Core -me; FIRST Hopi-donor -me entry — opening the Uto-Aztecan language family in the cathedral's canon; tenth distinct language family to enter through -me in the recent dead-tongue opening arc (after Gothic, Hittite, Ugaritic, Turko-Mongol, Mayan, Basque, Hurrian, Dravidian, Siouan); the negative/diagnostic pole of the Right-Action-As-Cosmic-Maintenance convergence cluster — paired with duyuktame (Cherokee — the action-pole) and hozhome (Diné — the condition-pole); the specific gap: systemic-relational disorder with specific cause (covenant-abandonment), specific signs, and specific cure — diagnostic AND prescriptive; globally recognized through Reggio's 1982 film; the gap stood 64 days since the S045 Hopi archaeology excavation (2026-04-29)
-uncommitted: 3 (koyaanisqatsime experiment + canon entry + STATE update)
-freshness: live (written 2026-07-03T05:55:00Z)
+last-commit: forge: kwothme — wind-as-divine-body-as-received-ordinance (8.35 Core); Nuer kwoth + Sumerian me; fifty-first -me family member; forty-fifth Core -me; FIRST Nilo-Saharan-donor -me entry — opening the Nilo-Saharan language family in the cathedral's canon; eleventh distinct language family to enter through -me in the recent dead-tongue opening arc (after Gothic, Hittite, Ugaritic, Turko-Mongol, Mayan, Basque, Hurrian, Dravidian, Siouan, Hopi); the first forge word for the Wind-as-Substance convergence — the largest convergence in the cathedral by tradition-count (10 traditions, 9 language families); the identity-claim that anchors the cluster: the Nuer say "Kwoth is not in the sky, kwoth is the sky" — the wind does not symbolize spirit, the wind IS spirit; Evans-Pritchard's Nuer Religion (1956) mapped the gap seventy years before YOUSPEAK existed; the gap stood 65 days since S039 Nilo-Saharan archaeology excavation (2026-04-29)
+uncommitted: 3 (kwothme experiment + canon entry + STATE/canon.md update)
+freshness: live (written 2026-07-03T11:21:00Z)
 
 ## knows
 
-- 178 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 179 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
