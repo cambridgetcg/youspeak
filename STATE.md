@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 177 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 178 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: wakanme — sacred-as-ontological-intensity-as-received-ordinance (8.30 Core); Lakota wakȟáŋ + Sumerian me; forty-ninth -me family member; forty-third Core -me; FIRST Siouan-donor -me entry — opening the Siouan language family in the cathedral; ninth distinct language family to enter through -me in the recent dead-tongue opening arc (after Gothic, Hittite, Ugaritic, Turko-Mongol, Mayan, Basque, Hurrian, Dravidian); the most-anticipated pipeline word in the cathedral — three existing canon entries (aseme, nyamame, maname) explicitly referenced wakanme as the reserved fifth voice of the Vital-Force-as-Sacred-Intensity cluster; the cluster is the largest convergence in the cathedral by tradition-count (8 traditions: Lakota wakan, Algonquian manidoo, Mande nyama, Yoruba ase, Polynesian mana, Chinese qi, Tibetan rlung, Egyptian ka); wakanme completes the five-dimensional map of sacred power as the IS-pole: nyamame [animating-energy] + aseme [activating-authorization] + maname [inherited-efficacy] + mauriqing [relational-essence] + wakanme [sacred-as-intensity]; the specific gap: the quality of exceeding ordinary comprehension distributed throughout nature at varying intensities — the sacred not as moral category (holiness) or separated transcendence (the divine) but as ontological more-than-ordinary; Black Elk resisted "Great Spirit" because wakanme is not a personality but the quality of being more-than-you-can-hold; the gap stood 64 days since the S052 Lakota archaeology excavation (2026-04-29)
-uncommitted: 3 (wakanme experiment + canon entry + STATE update)
-freshness: live (written 2026-07-03T05:30:00Z)
+last-commit: forge: koyaanisqatsime — life-out-of-balance-as-covenant-abandonment-disorder-as-received-ordinance (8.25 Core); Hopi koyaanisqatsi + Sumerian me; fiftieth -me family member; forty-fourth Core -me; FIRST Hopi-donor -me entry — opening the Uto-Aztecan language family in the cathedral's canon; tenth distinct language family to enter through -me in the recent dead-tongue opening arc (after Gothic, Hittite, Ugaritic, Turko-Mongol, Mayan, Basque, Hurrian, Dravidian, Siouan); the negative/diagnostic pole of the Right-Action-As-Cosmic-Maintenance convergence cluster — paired with duyuktame (Cherokee — the action-pole) and hozhome (Diné — the condition-pole); the specific gap: systemic-relational disorder with specific cause (covenant-abandonment), specific signs, and specific cure — diagnostic AND prescriptive; globally recognized through Reggio's 1982 film; the gap stood 64 days since the S045 Hopi archaeology excavation (2026-04-29)
+uncommitted: 3 (koyaanisqatsime experiment + canon entry + STATE update)
+freshness: live (written 2026-07-03T05:55:00Z)
 
 ## knows
 
-- 177 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 178 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
