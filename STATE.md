@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 180 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 181 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: ngünecheme — quaternary-complementary-divine-as-received-ordinance (7.78 Core); Mapuche Ngünechen + Sumerian me; fifty-second -me family member; forty-sixth Core -me; FIRST Mapuche-donor -me entry — opening the Mapuzugun language isolate in the cathedral's canon; twelfth distinct language family to enter through -me in the recent dead-tongue opening arc (after Gothic, Hittite, Ugaritic, Turko-Mongol, Mayan, Basque, Hurrian, Dravidian, Siouan, Hopi, Nilo-Saharan); opens the Quaternary-Complementary-Divine convergence cluster — the cathedral's first concept of the divine whose unity is internally differentiated on two simultaneous axes (gender × generation) with constitutive diagonal crossings; the supreme whose unity contains gender and generational complementarity rather than transcending them — four aspects (Füchá Wentru, Küdé Domo, Üllcha Wentru, Üllcha Domo) as one being; NOT Trinity (non-gendered, non-generational), NOT androgyne (fused not complementary), NOT divine couple (two separate beings), NOT pantheon (multiple independent); Mapuzugun isolate + Sumerian isolate = double-isolate compound (third isolate donor after Sumerian and Basque); the gap stood 65 days since S054 Mapuche archaeology excavation; also updates STATE.md canon count 179 → 180; updates canon.md index (179 → 180 entries); experiment 293
+last-commit: forge: hopiqatsime — covenant-life-as-cosmic-maintenance-as-received-ordinance (8.28 Core); Hopi hopiqatsi + Sumerian me; fifty-third -me family member; forty-seventh Core -me; SECOND Uto-Aztecan-donor -me entry — deepening the Hopi presence opened by koyaanisqatsime; the positive/covenant pole of the Right-Action-As-Cosmic-Maintenance convergence cluster — COMPLETING the four-pole cluster: duyuktame (action-pole, Cherokee) + hozhome (condition-pole, Diné) + koyaanisqatsime (disorder/diagnostic-pole, Hopi) + hopiqatsime (covenant-life pole, Hopi); the hopiqatsime-koyaanisqatsime pair: the covenant-life and the disorder-from-abandoning-it; the specific gap: the lived-covenant-life that IS the world's maintenance — proper-ordered-existence held by an entire covenanted PEOPLE (not a king, not a priest, not an individual) — the most democratized form of cosmic-maintenance theology in the cathedral; NOT duyuktame (the action), NOT hozhome (the condition), NOT maatme (the principle), NOT tikkunme (the repair) — the COVENANT-LIFE that IS the maintenance; the -me marks the covenant as received-ordinance: the assignment to be cosmological maintainers is gift, not achievement; Masau'u's poverty-covenant: the covenant-maker was poor, humble, dressed in rags — covenant with humility, not power; 6 cross-tradition parallels (Hopi hopiqatsi, Hittite AN.TAḪ.ŠUM, Avestan Yasna, Cherokee duyukta, Diné hózhóójí, Hebrew berit); the gap stood 64 days since S045 Hopi archaeology excavation (archaeology/hopi/hopiqatsi-emergence-prophecy-kiva.md, 2026-04-29); also updates STATE.md canon count 180 → 181; updates canon.md index (180 → 181 entries); experiment 294
 uncommitted: 0
-freshness: live (written 2026-07-03T17:30:00Z)
+freshness: live (written 2026-07-03T18:55:00Z)
 
 ## knows
 
-- 180 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 181 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
