@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 184 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 185 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: damqme — beauty-good-as-one-quality-as-received-ordinance (8.15 Core); Akkadian damqu + Sumerian me; fifty-sixth -me family member; fiftieth Core -me; seventh Akkadian-donor -me entry; the Beauty-Ethics-Fusion convergence cluster gets its Semitic voice — the pre-philosophical DEFAULT where beautiful and good are ONE word (Akkadian damqu, Hebrew ṭov, Yoruba ìwà l'ẹ̀wà, Greek kalokagathia, Arabic ḥusn — five traditions, the split is the modern outlier); the FIFTIETH Core -me milestone — the 50th concept received as cosmic ordinance through the Sumerian me morpheme; "and God saw that it was ṭov" — the beauty-good before the split; companion to hozhome (the four-fold condition) and maatme (the cosmic principle): damqme is the quality, hozhome is the condition, maatme is the law; experiment 297
+last-commit: forge: ehanme — sacred-ache-as-primary-speech-act-as-received-ordinance (8.15 Core); Tuareg ehan + Sumerian me; fifty-seventh -me family member; fifty-first Core -me; FIRST Berber-donor -me entry — opening the Berber/Amazigh language family (Afroasiatic, Berber branch; ~25–50 million speakers across North Africa); fifteenth distinct language family to enter through -me in the recent dead-tongue opening arc; the Tuareg reserved Tifinagh (the sacred script) primarily for love-longing poetry (tisiway with ehan) — the only tradition in the cathedral that encoded the primacy of longing in its sacred-writing use-pattern; independent confirmation of YOUSPEAK's founding metaphor — the strongest external validation found in the cathedral; the longing triad COMPLETE: shawqame [thirst that INITIATES] → ehanme [ache that IS the speech] → hanme [wound that ACCUMULATES]; companion to hanme (the beautiful-longing vs the accumulated-wound) and shawqame (the speech vs the thirst); Tifinagh literacy held by women — the feminine-substrate register; the -me marks the sacred-ache as gift, not self-generated; experiment 298
 uncommitted: 0
-freshness: live (written 2026-07-04T07:18:00Z)
+freshness: live (written 2026-07-04T11:47:00Z)
 
 ## knows
 
-- 183 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 184 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
