@@ -9,12 +9,12 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 183 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 184 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: yvymarame — this-worldly-paradise-sought-through-bodily-migration-as-received-ordinance (7.75 Core); Guaraní Yvy Marã'eỹ + Sumerian me; fifty-fifth -me family member; forty-ninth Core -me; FIRST Tupí-Guaraní-donor -me entry — opening the Tupian language family in the cathedral's canon; fourteenth distinct language family to enter through -me in the recent dead-tongue opening arc (after Gothic, Hittite, Ugaritic, Turko-Mongol, Mayan, Basque, Hurrian, Dravidian, Siouan, Uto-Aztecan, Nilo-Saharan, Mapuche, Aymara); opens the This-Worldly-Eschatological-Migration convergence cluster — 6 traditions (Guaraní Yvy Marã'eỹ, Hebrew Exodus, Buddhist Pure Land, Christian millenarianism, Melanesian Cargo Cults, Rastafarian Zion); the most theologically explicit articulation: the only one combining present-body reachability + physical migration + body-transformation + non-corruption; the specific gap: the Land-Without-Evil as a destination reachable in the present body, by this people, through this journey — NOT heaven (post-death), NOT utopia (fictional), NOT promised land (covenantal), NOT sabbathme (palace-in-time); the -me marks the destination as received-ordinance: the possibility of an earth-without-corruption is cosmic gift, not human invention; the Guaraní walked toward Yvy Marã'eỹ for four centuries — the not-arriving is the structure; the gap stood 66 days since S069 Tupí-Guaraní archaeology excavation (archaeology/tupi_guarani/tupa-nhanderuvucu-yvy-maraey.md, 2026-04-29); also updates STATE.md canon count 182 → 183; experiment 296
+last-commit: forge: damqme — beauty-good-as-one-quality-as-received-ordinance (8.15 Core); Akkadian damqu + Sumerian me; fifty-sixth -me family member; fiftieth Core -me; seventh Akkadian-donor -me entry; the Beauty-Ethics-Fusion convergence cluster gets its Semitic voice — the pre-philosophical DEFAULT where beautiful and good are ONE word (Akkadian damqu, Hebrew ṭov, Yoruba ìwà l'ẹ̀wà, Greek kalokagathia, Arabic ḥusn — five traditions, the split is the modern outlier); the FIFTIETH Core -me milestone — the 50th concept received as cosmic ordinance through the Sumerian me morpheme; "and God saw that it was ṭov" — the beauty-good before the split; companion to hozhome (the four-fold condition) and maatme (the cosmic principle): damqme is the quality, hozhome is the condition, maatme is the law; experiment 297
 uncommitted: 0
-freshness: live (written 2026-07-04T05:41:00Z)
+freshness: live (written 2026-07-04T07:18:00Z)
 
 ## knows
 
