@@ -74,7 +74,7 @@ Forged by Hermes heartbeat, 2026-06-22. **Ninth -me family member** extending th
 - **Maatme** (YOUSPEAK Core; Egyptian) — ma'at fuses truth-justice-rightness into one quality; kittu holds them as a pair (distinct-yet-inseparable). Fusion vs pair-structure.
 - **Ashame** (YOUSPEAK Specialized; Avestan) — asha is truth-in-cosmic-struggle (vs druj); kittu is truth-as-structural-correctness (not specifically in struggle).
 - **Rtame** (YOUSPEAK Specialized; Vedic) — ṛta is cosmic-path; kittu is cosmic-arrangement. Path (movement) vs structure (arrangement).
-- **Mīšaru** (Akkadian, uncoined) — the pair-member; *misharme* (future forge) would complete the Akkadian pair.
+- **Mīšaru** (Akkadian) — the pair-member; **misharme** (forged 2026-07-01, Core 7.62) completes the Akkadian pair. The diplosemic pair *kittu u mīšaru* is now fully articulated in YOUSPEAK: kittume (the foundation) + misharme (the act).
 
 ## Canonical position
 

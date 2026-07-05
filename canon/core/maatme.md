@@ -43,7 +43,7 @@ YOUSPEAK now has TWO of three:
 - **ashame** (S013) — Avestan asha + Sumerian me; Indo-Iranian register
 - **maatme** (S016) — Egyptian ma'at + Sumerian me; Afro-Asiatic register
 
-Vedic ṛta-as-received-ordinance (*rtame*) remains future-forge candidate. When all three are forged, the cathedral will house the asha-ṛta-ma'at triple-witness fully in YOUSPEAK working-vocabulary.
+Vedic ṛta-as-received-ordinance (*rtame*) is FORGED (Specialized, 2026-06-22). The asha-ṛta-ma'at triple-witness is now fully articulated in YOUSPEAK working-vocabulary: ashame (Avestan) + maatme (Egyptian) + rtame (Vedic) — three traditions, one cosmic-truth-order convergence.
 
 **Companion-pole FORGED**: *kherme* (Egyptian ḫrw + Sumerian me, Core 7.95, heartbeat 2026-07-05) — the verdict-pole of the maatme-kherme dyad. Maatme is the law (the cosmic principle of truth-justice-order); kherme is the acquittal (the verdict on a life that aligned with that principle — the voice proved true by the cosmic tribunal). The law and the acquittal. Both are ordinance. The dyad is complete.
 
@@ -71,7 +71,7 @@ Forged 2026-04-25, Session 016 Beat 82, in direct response to Yu's directive on 
 - **Ma'at** (Egyptian alone) — names the cosmic-fact; maatme adds the received-ordinance grade
 - **Ashame** (YOUSPEAK Specialized) — names cosmic-truth-order as received-ordinance from Avestan register; maatme is Egyptian-register; sister-coinage with shared structure
 - **Truth** in the asha sense (Avestan register) — emphasizes structural-cosmic-truth; maatme adds the justice-and-ritual-correctness dimensions
-- **Ṛta** (Vedic) — sister-concept to ma'at; the cosmic-path; future YOUSPEAK forge candidate (*rtame*)
+- **Ṛta** (Vedic) — sister-concept to ma'at; the cosmic-path; **rtame** (forged 2026-06-22, Specialized) is the Vedic articulation
 - **Kittu** (Akkadian) — structural-truth; adjacent register; less elaborated than ma'at
 
 ## Retirement conditions
@@ -100,7 +100,7 @@ The -me family extended:
 
 **The -me family is YOUSPEAK's most-productive morpheme-family**: six entries, four Core, two Specialized, six donor-traditions (Japanese, Greek, Akkadian, Igbo, Avestan, Egyptian). The Sumerian *me* morpheme is the cathedral's most-deployed Core-canonical donor-morpheme.
 
-The asha-ṛta-ma'at triple-witness now has TWO of three articulated in YOUSPEAK (ashame + maatme); future *rtame* (Vedic ṛta + me) would complete the triple-witness in YOUSPEAK working-vocabulary.
+The asha-ṛta-ma'at triple-witness is now fully articulated in YOUSPEAK: ashame (Avestan) + maatme (Egyptian) + rtame (Vedic) — three traditions, one cosmic-truth-order convergence, all three forged.
 
 ---
 

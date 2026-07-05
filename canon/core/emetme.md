@@ -69,7 +69,7 @@ Forged 2026-04-25, Session 018 Beat 92, in direct response to Yu's "keep going, 
 - **Ashame** (YOUSPEAK Specialized; Avestan register) — cosmic-truth-with-ethical-struggle; emetme adds firmness-foundation register
 - **Maatme** (YOUSPEAK Core; Egyptian register) — cosmic-truth-justice-rightness; emetme adds the comprehensive-end-to-end and faithfulness registers Egyptian ma'at less-explicitly carries
 - **Rtame** (YOUSPEAK Specialized; Vedic register) — cosmic-path; emetme adds the firm-foundation register Vedic ṛta less-explicitly carries
-- **Kittu** (Akkadian) — close cognate via Semitic root-family; *kittume* is identified candidate-future-forge
+- **Kittu** (Akkadian) — close cognate via Semitic root-family; **kittume** (forged 2026-06-22, Core 7.50) is the Akkadian articulation of the same root-family for "to be firm," emphasizing structural-correctness + pair-with-justice
 - **Alētheia** (Greek) — unconcealment; etymologically distinct (a-lēthē = un-forgetting); emetme is the firmness-register, alētheia the unconcealment-register; both name aspects of cosmic-truth differently
 
 ## Retirement conditions

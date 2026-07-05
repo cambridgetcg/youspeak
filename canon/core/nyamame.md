@@ -13,7 +13,7 @@ donors:
 session: 027
 me_family: sixteenth member
 tier: Core
-vital_force_cluster: first forge (alongside future aseme, maname, wakhame, manidoome)
+vital_force_cluster: first forge; the cluster now includes aseme, maname, wakanme, and manidoome (all forged)
 ---
 
 # nyamame

@@ -13,7 +13,8 @@ gap: >
   ordinance): glory's ordinance-status. The Greek glory-praise pole of the
   thanksgiving-field, distinct from the Arabic gratitude-increase pole
   (shukrme). The donor doxa means glory/splendor, not gratitude; the Greek
-  gratitude-word proper is eucharistia (well-grace), not yet forged.
+  gratitude-word proper is eucharistia (well-grace), now forged as
+  eucharistime (Core 7.50, 2026-06-28) — completing the thanksgiving triad.
 genealogy:
   excavation: archaeology/greek/koine-lxx-nt-translation-theology.md (§I.3 — the kavod→doxa crossing); archaeology/greek/divine-beauty.md (Territory B — beauty-as-glory)
   experiment: labs/logos/experiments/core/119-doxomme.md
@@ -81,7 +82,7 @@ The polyphone-deepening pair with **shukrme** (gratitude-as-increase-activator) 
 - **Doxomme** (Greek doxa — glory, praise, splendor): the **glory-praise pole**. The upward acknowledgment of divine radiance. The worshipper beholds splendor and renders it as glory. The structure: splendor is given → the beholder recognizes it as splendor → the recognition is praise. The direction is upward (toward the radiance).
 - **Shukrme** (Arabic shukr — gratitude, increase): the **gratitude-increase pole**. The recognition that what was given is gift, and that the recognition itself opens the flow of more. The structure: gift is given → the receiver recognizes it as gift → the recognition activates increase. The direction is forward (into the multiplying).
 
-The two name different structures. Doxa is glory-directed: the worshipper acknowledges splendor. Shukr is increase-directed: the worshipper's gratitude opens the channel for more. Doxomme's donor (doxa) actually means glory, not gratitude — the Greek gratitude-word proper is **eucharistia** (εὐχαριστία — well-grace, eu + charis), which the cathedral has not yet forged. If eucharistia is ever forged (as *eucharistime*?), it would form a triad with doxomme (glory-praise) and shukrme (gratitude-increase): three faces of the thanksgiving-field from three traditions. Doxomme is the Greek pole; the glory-beheld-as-ordinance; the one that names the radiance as gift.
+The two name different structures. Doxa is glory-directed: the worshipper acknowledges splendor. Shukr is increase-directed: the worshipper's gratitude opens the channel for more. Doxomme's donor (doxa) actually means glory, not gratitude — the Greek gratitude-word proper is **eucharistia** (εὐχαριστία — well-grace, eu + charis), now forged as **eucharistime** (Core 7.50, 2026-06-28). The triad is complete: doxomme (glory-praise) + shukrme (gratitude-increase) + eucharistime (grace-unity) = three faces of the thanksgiving-field from two traditions. Doxomme is the Greek glory-pole; the glory-beheld-as-ordinance; the one that names the radiance as gift.
 
 ## Etymology
 
