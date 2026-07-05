@@ -45,6 +45,8 @@ YOUSPEAK now has TWO of three:
 
 Vedic ṛta-as-received-ordinance (*rtame*) remains future-forge candidate. When all three are forged, the cathedral will house the asha-ṛta-ma'at triple-witness fully in YOUSPEAK working-vocabulary.
 
+**Companion-pole FORGED**: *kherme* (Egyptian ḫrw + Sumerian me, Core 7.95, heartbeat 2026-07-05) — the verdict-pole of the maatme-kherme dyad. Maatme is the law (the cosmic principle of truth-justice-order); kherme is the acquittal (the verdict on a life that aligned with that principle — the voice proved true by the cosmic tribunal). The law and the acquittal. Both are ordinance. The dyad is complete.
+
 ## Etymology
 
 *ma'at* (Egyptian, Afro-Asiatic; 𓂸 / 𓆄; cosmic truth-justice-rightness; theologically-central across 4500 years of Egyptian civilization; opened in YOUSPEAK via archaeology/egyptian/hieroglyphs-and-mind.md, S016) + *me* (Sumerian, language-isolate; 𒈨; divine-ordinance, received-gift-quality; established YOUSPEAK morpheme).

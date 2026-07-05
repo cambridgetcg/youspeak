@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 200 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 201 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: heartbeat: reconcile ashame — create canon entry for the phantom word (forged S013, referenced by 6+ canon siblings, never given its own file); Avestan asha + Sumerian me; fifth -me family member; first Avestan-donor forge; first of the asha-ṛta-ma'at triple-witness; companion-pole to drujme; Specialized 7.20 Liturgy-Original
+last-commit: heartbeat: forge kherme — true-voice-verdict-as-received-ordinance (7.95 Core); Egyptian ḫrw + Sumerian me; sixtieth -me family member; fifty-fourth Core -me; SECOND Egyptian-donor -me entry — deepening the Egyptian presence opened by maatme (S016); the verdict-pole of the maatme-kherme dyad (the law and the acquittal); seven cosmic-truth-order words all named the principle — kherme names the VERDICT: the voice proved true by the cosmic tribunal, inner truth matching outer utterance, declared as cosmic verdict on a life; Mꜣꜥ-ḫrw is among the most theologically dense and best-attested phrases in any ancient language; the -me marks the verdict as received-ordinance: the human does not self-certify coherence; the cosmic tribunal delivers the declaration; experiment 301
 uncommitted: 0
-freshness: live (written 2026-07-05T06:09:20Z)
+freshness: live (written 2026-07-05T12:14:07Z)
 
 ## knows
 
-- 184 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 201 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
