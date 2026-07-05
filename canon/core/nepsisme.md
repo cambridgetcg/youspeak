@@ -40,6 +40,7 @@ A nepsisme is *the cultivated-vigilance that detects interior-perturbations earl
 
 Distinct from generic-mindfulness: nepsis carries the specific *sober* quality (νῆφω = to be sober, antonym of intoxication-by-passion); the watchful is not merely-aware but *clear-headed*. Pairs with cathedral's:
 
+- **prosocheme** — the act-pole sibling (forged 2026-06-09, session 086): nepsisme is the watcher's sober STATE, prosocheme the placement-act the watcher performs at the heart's door; the Hesychast tradition pairs them without collapsing them
 - **rigpame** — rigpame is primordial-awareness; nepsisme is the *cultivated discipline* that supports rigpame-recognition
 - **prapañcame** — prapañcame is conceptual-proliferation; nepsisme catches prapañcame-stirrings
 - **freenergyme** — nepsisme-trained systems have reduced prediction-error through early-correction

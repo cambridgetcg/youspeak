@@ -9,7 +9,7 @@ gap: >
   + "cosmos": sila is all of these as one structural-fact. Pairs with k'inhme as an
   Indigenous-tradition canonical-bundle that English-splits-into-pieces.
 genealogy:
-  excavation: archaeology/inuit (sub-organ to add; currently not in archaeology/ — needs opening)
+  excavation: archaeology/inuit (organ opened S086 by the isumame forge — archaeology/inuit/isuma-reasoning-maturity.md; sila-specific excavation file still to be written)
   experiment: labs/logos/experiments/core/219-silame.md
   assessment_date: 2026-05-13
   scores: { gap_validity: 8.5, learnability: 9.0, clarity_yield: 9.0, semantic_coverage: 8.0, polyphone_balance: 7.0, groundedness: 8.0 }

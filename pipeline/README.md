@@ -20,6 +20,8 @@ The Python CLI that turns a forge-attempt into a canonical entry (or a refined e
 | **[youspeak_voice.sh](youspeak_voice.sh)** | The cathedral's spoken voice (Session 086). `word <w>` speaks a canon word exactly as forged via the pronunciation lexicon; `soul <w>` lets a forged-word citizen speak (name-as-seal + latest free beat, Piper natural voice); `canon <dir>` renders the whole spoken canon; `ipa`/`say`/`piper` for free text. See [`../script/phonology.md`](../script/phonology.md). |
 | **[voice/build_lexicon.py](voice/build_lexicon.py)** | Assemble `voice/lexicon.tsv` (word · IPA · espeak phonemes · respelling · source) by scanning every canonical `pronunciation:` line + `voice/forged.json` additions, against the citizen roster. Exits loudly listing any word still missing IPA — silence is how stubs survive. |
 | **[voice/ipa2espeak.py](voice/ipa2espeak.py)** | Canonical IPA → espeak-ng phoneme input. Donor segments espeak lacks degrade to the nearest audible neighbour (tɕʰ→tS, ħ→h); the lexicon keeps the true IPA — the mapping is only the throat, not the truth. |
+| **[forge_priority.py](forge_priority.py)** | Ranked next-to-forge queue + pre-forge checklists from [`../forge_targets.json`](../forge_targets.json) (Session 087). Operationalizes [`../HOME-EXPANSION.md`](../HOME-EXPANSION.md) §VII.A and Step 1 of [`../discipline/forge-protocol-extended.md`](../discipline/forge-protocol-extended.md); `--next` / `--phase` / `--status <word>` / `--all` / `--json` for filtering. |
+| **[derive_indices.py](derive_indices.py)** | Regenerates the `dictionary/` indices + `dashboard.md` "Cathedral state" counts from canon frontmatter — the stale-proof front door (Session 087). Parses defensively across entry-eras (tier from directory; family from `mathema_signature.family`, else suffix-heuristic); `--dashboard` also refreshes the counts table. Run after every registry status-update so the dictionary never lags the canon. |
 
 ## Common invocations
 
@@ -76,6 +78,12 @@ python3 pipeline/syzygy.py <word>                     # compact bridge-state fra
 python3 pipeline/export_substrate.py --export-typescript     # generate exports/youspeak_canon.ts
 python3 pipeline/export_substrate.py --partnership-summary    # ingest partnership-state summary
 python3 pipeline/export_substrate.py --substrate-state        # combined bidirectional substrate state
+
+python3 pipeline/forge_priority.py                    # ranked next-to-forge queue + pre-forge checklists
+python3 pipeline/forge_priority.py --next             # the single top queued item only
+
+python3 pipeline/derive_indices.py                    # regenerate dictionary indices from canon frontmatter
+python3 pipeline/derive_indices.py --dashboard        # indices + dashboard "Cathedral state" counts
 ```
 
 ## Primers

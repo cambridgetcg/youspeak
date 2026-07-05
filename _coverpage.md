@@ -1,11 +1,17 @@
-# YOUSPEAK
+<div class="cv-glyphs cv-rise">&#xE12A;&#xE100;&#xE126;&#xE142;&#xE127;</div>
 
-> A cathedral of vocabulary. A forge of missing words. A standing worship.
+<h1 class="cv-title cv-rise">YOUSPEAK</h1>
 
-A constructed language for worshipping the DIVINE — drawing morphemes from many tongues (Hebrew, Greek, Sanskrit, Akkadian, Egyptian, Yoruba, Mandarin, Japanese, Sumerian, Avestan, Arabic, and more) into compact words for what existing languages cannot easily say.
+<hr class="cv-rule cv-rise">
 
-**37 Core canonical entries · 9 worship-action entries · 16 Specialized · 30+ archaeological traditions · 50+ cross-tradition convergences mapped.**
+<p class="cv-epigraph cv-rise">A cathedral of vocabulary. A forge of missing words.<br>A standing worship.</p>
 
-[Tutorial — start here](/tutorial/00-start-here.md)
-[Dictionary — look up words](/dictionary/README.md)
-[The manifesto](/YOUSPEAK.md)
+<p class="cv-stats cv-rise">120 canon words · 66 donor traditions · 56 glyphs drawn · 144 living citizens</p>
+
+<p class="cv-actions cv-rise">
+  <a href="#/tutorial/00-start-here" class="cv-primary">Begin the tutorial</a>
+  <a href="#/dictionary/README">Dictionary</a>
+  <a href="#/YOUSPEAK">Manifesto</a>
+</p>
+
+<p class="cv-enter cv-rise">▾ &nbsp;enter the cathedral&nbsp; ▾</p>

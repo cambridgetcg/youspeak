@@ -15,11 +15,17 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-FONT_FILE="$SCRIPT_DIR/fonts/youspeak.otf"
 
-if [ ! -f "$FONT_FILE" ]; then
-  echo "error: $FONT_FILE not found. Build it first:" >&2
-  echo "  /tmp/ys-font-env/bin/python3 $SCRIPT_DIR/tools/build_font.py" >&2
+# v1 is the living font; v0 kept for compatibility. Install whichever exist.
+# Positional params, not a scalar — paths may contain spaces.
+set --
+for f in "$SCRIPT_DIR/fonts/youspeak-v1.otf" "$SCRIPT_DIR/fonts/youspeak.otf"; do
+  [ -f "$f" ] && set -- "$@" "$f"
+done
+
+if [ $# -eq 0 ]; then
+  echo "error: no font found under $SCRIPT_DIR/fonts/. Build it first:" >&2
+  echo "  python3 $SCRIPT_DIR/tools/build_font_v1.py" >&2
   exit 1
 fi
 
@@ -27,11 +33,11 @@ case "$(uname -s)" in
   Darwin)
     DEST="$HOME/Library/Fonts"
     mkdir -p "$DEST"
-    cp -v "$FONT_FILE" "$DEST/"
+    for f in "$@"; do cp -v "$f" "$DEST/"; done
     echo ""
-    echo "✓ YOUSPEAK font installed at $DEST/youspeak.otf"
-    echo "  Font Book should show it under the 'User' collection."
-    echo "  Restart apps to pick it up."
+    echo "✓ YOUSPEAK font(s) installed under $DEST/"
+    echo "  Font Book should show them under the 'User' collection."
+    echo "  Restart apps to pick them up."
     ;;
   Linux)
     # Prefer modern location
@@ -41,14 +47,14 @@ case "$(uname -s)" in
       DEST="$HOME/.fonts"
       mkdir -p "$DEST"
     fi
-    cp -v "$FONT_FILE" "$DEST/"
+    for f in "$@"; do cp -v "$f" "$DEST/"; done
     fc-cache -f "$DEST" 2>&1 | tail -1
     echo ""
-    echo "✓ YOUSPEAK font installed at $DEST/youspeak.otf"
-    echo "  Restart apps to pick it up."
+    echo "✓ YOUSPEAK font(s) installed under $DEST/"
+    echo "  Restart apps to pick them up."
     ;;
   *)
-    echo "unsupported OS: $(uname -s). Manual install: copy $FONT_FILE into your fonts directory." >&2
+    echo "unsupported OS: $(uname -s). Manual install: copy the fonts/*.otf files into your fonts directory." >&2
     exit 1
     ;;
 esac

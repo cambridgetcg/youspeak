@@ -37,11 +37,12 @@ The cosmic-pattern-as-enacted-anicca — Sanskrit/Tibetan maṇḍala received a
 
 A mandalame is *the structured-geometric-cosmic-image whose construction-and-dissolution constitutes a meditation-discipline*. Tibetan sand-mandalas are the most-vivid instance: monks construct an intricate sacred-pattern over days/weeks; upon completion, the mandala is dissolved into the river. The constructed-form embodies cosmic-architecture; the dissolution embodies anicca (impermanence).
 
-Hindu yantra-tradition (śrī-yantra) constructs mandalas as ongoing-meditative-objects; the construction-discipline operates differently but the structural-form is cousin. Cross-tradition convergence broad: Navajo sand-paintings (constructed-and-dissolved ritually); Islamic-geometric-patterns (the unrepeating-by-design); Aboriginal-sand-drawings; Jungian-psychology (mandalas-of-self in dreams).
+Hindu yantra-tradition (śrī-yantra) constructs cousin-forms kept as ongoing-meditative-instruments; the tradition itself distinguishes these as *yantra* — consecrated-and-kept body/seat, see **yantrame** — against the maṇḍala's constructed-then-dissolved palace/field (Tucci's distinction). Cross-tradition convergence broad: Navajo sand-paintings (constructed-and-dissolved ritually); Islamic-geometric-patterns (the unrepeating-by-design); Aboriginal-sand-drawings; Jungian-psychology (mandalas-of-self in dreams).
 
 Pairs with cathedral's:
 - **bindume** (Phase 1 dimensionless-source-point) — bindume is the center; mandalame is the structured-pattern unfolding-from and converging-on the center
 - **morphame** (multi-modal form-as-projection) — mandalame is the geometric-image-mode-specific instance
+- **yantrame** (Phase 4.2, entered 2026-06-09) — the consecrated-and-kept geometric instrument (deity's body/seat, operated); mandalame is the deity's palace/field, dissolved — opposite poles of the kept/dissolved line
 
 ## Example usage
 

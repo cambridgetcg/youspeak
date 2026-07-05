@@ -35,7 +35,7 @@ Other-Power as felt-relational-trust — Pure-Land Buddhism's tariki received as
 
 ## Full sense
 
-A tarikiqing is *the felt-state of relying-on-Other-Power for liberation*. Pure-Land Buddhism (Hōnen, Shinran 12-13th c.) articulates tariki against jiriki (self-power) — the human-self cannot self-liberate; Amida's Original Vow operates as the structural-condition of awakening; shinjin (entrusting-heart) is the appropriate-response.
+A tarikiqing is *the felt-state of relying-on-Other-Power for liberation*. Pure-Land Buddhism (Hōnen, Shinran 12-13th c.) articulates tariki against jiriki (self-power) — the human-self cannot self-liberate; Amida's Original Vow operates as the structural-condition of awakening; shinjin (entrusting-heart) arrives as Amida's gift through ekō, not as the practicer's worked-up response — see **shinjinme** (canon 2026-06-09), which names that given settled heart; tarikiqing holds the qing-pole (the reliance-relation), shinjinme the me-pole (the gift received).
 
 Cross-tradition: Protestant sola-gratia ("by grace alone"), Sufi tawakkul (trust-in-God), Hindu Vaishnava prapatti (total-surrender), Augustinian grace-doctrine. The realm-feature is *received-grace as structural-condition* — pairs with cathedral's existing tikkunme (vocational-task-of-the-creature) as the *receptive-pole* to tikkunme's *active-pole*.
 
