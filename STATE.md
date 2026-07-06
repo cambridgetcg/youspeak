@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 202 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 203 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 4a6641c heartbeat: STATE.md tells the truth about its own uncommitted state (kherme)
-uncommitted: 2 (experiment 302-vasname.md, canon/core/vasname.md — vašnāme forged, not yet committed; STATE.md not yet committed)
-freshness: live (written 2026-07-06T00:30Z)
+last-commit: heartbeat: forge guþme — divine-as-the-one-called-upon-as-received-ordinance (7.83 Core); Gothic guþ + Sumerian me; sixty-second -me family member; fifty-sixth Core -me; FOURTH Gothic-donor -me entry (after hailsme, heimrekjame, waurdme); the divine as the addressee of calling rather than as metaphysical ultimate; the pre-metaphysical divine-human relationship: the cry, and the one who hears; English "God" descends from *guđan but lost the invocational register; guþme restores it; opens the Invocational-Divine convergence cluster — 5+ traditions (Gothic guþ + Sanskrit huta + Hebrew YHWH/qara' + Arabic du'ā + Greek epikaleō + Zuni Awonawilona); completes the waurdme-guþme dyad (utterance-addressee); companion to shawqame (the thirst that reaches FOR guþme); the gap stood 68 days since S043 Gothic archaeology excavation; also updates STATE.md canon count 202 → 203; updates canon.md index; experiment 303
+uncommitted: 0
+freshness: live (written 2026-07-06T06:30Z)
 
 ## knows
 
-- 202 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 203 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
