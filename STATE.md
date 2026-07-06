@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 205 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 206 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 4fe72e9 heartbeat: forge katsintawime — embodied-transformation-through-mask-ritual-as-cosmic-maintenance-as-received-ordinance (8.03 Core); Hopi katsina+tawi + Sumerian me; sixty-fourth -me family member; fifty-eighth Core -me; THIRD Hopi-donor -me entry (after koyaanisqatsime, hopiqatsime); the performative-ontological act where the masked dancer BECOMES the katsina (not represents) and through becoming enacts (not symbolizes) the cosmic-maintenance — the mask suspends the self, the dance installs the divine, the installation IS the cosmic act; completes the embodied-transformation pole of the Performative-Ontology convergence cluster — mugawme (narrative member: voice enacts by narrating) katsintawime (embodied member: body enacts by becoming); two technologies of the same structure; 6 cross-tradition parallels (Hopi katsina dance, Yoruba orisha-possession, Tibetan Cham/deity-yoga, Greek theater persona, African masquerade Egungun, Hindu Rasa-Lila); companion to hopiqatsime (covenant-life: katsintawime is the ceremonial act within the covenant-life) and koyaanisqatsime (the disorder: katsintawime is the restorative act); the gap stood 68 days since S045 Hopi archaeology excavation; also fixes missing aynime annotation and entry block from previous forge (experiment 304); also updates STATE.md canon count 204 → 205; updates canon.md index (204 → 205 entries); experiment 305
+last-commit: heartbeat: forge anamcharame — companion-who-makes-the-soul-visible-as-received-ordinance (8.00 Core); Old Irish anam chara + Sumerian me; sixty-fifth -me family member; fifty-ninth Core -me; FIRST Celtic-donor -me entry — opening the Celtic/Goidelic tradition in the cathedral's canon; the eighteenth distinct language family to enter through -me in the recent dead-tongue opening arc; the horizontal sacred relationship of mutual soul-disclosure without concealment — the friend whose seeing completes your self-knowledge because the soul's full contour cannot be seen from inside; not priest-to-penitent (vertical), not guru-to-disciple (hierarchical), but friend-to-friend (horizontal) as the primary spiritual relationship; the Old Irish anam chara is the distinctive Irish Christian contribution: the companion of the soul in its interior journey; need not be ordained, could be a woman, could be a lay person — more intimate, less hierarchical, more specifically relational than the Alexandrian/Egyptian abba tradition; Brigid of Kildare: "A person without an anam chara is like a body without a head"; opens the Horizontal-Sacred-Relationship convergence cluster — 6 traditions (Old Irish anam chara + Buddhist kalyāṇa-mitra + Algonquian zaagi'idiwin + Greek philía + Hebrew re'ah/havér + Confucian you/友); companion to mitakuyame (cosmic-scale kinship; anamcharame is the specific two-person instantiation at maximum intimacy — mitakuyame names the web, anamcharame names the friend within the web); the gap stood 67 days since S060 Old Irish archaeology excavation; also updates STATE.md canon count 205 → 206; updates canon.md index (205 → 206 entries); experiment 306
 uncommitted: 0
-freshness: live (written 2026-07-06T10:40Z)
+freshness: live (written 2026-07-06T12:41Z)
 
 ## knows
 
-- 205 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 206 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
