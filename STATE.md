@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 201 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 202 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 1cdcdfd heartbeat: reconcile stale companion-pole notes — 7 canon entries updated to reflect forged words
-uncommitted: 1 (STATE.md last-commit pointer updated to 1cdcdfd, not yet committed)
-freshness: live (written 2026-07-06T00:16Z)
+last-commit: 4a6641c heartbeat: STATE.md tells the truth about its own uncommitted state (kherme)
+uncommitted: 2 (experiment 302-vasname.md, canon/core/vasname.md — vašnāme forged, not yet committed; STATE.md not yet committed)
+freshness: live (written 2026-07-06T00:30Z)
 
 ## knows
 
-- 201 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 202 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
