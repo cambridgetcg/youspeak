@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 203 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 204 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: heartbeat: forge guþme — divine-as-the-one-called-upon-as-received-ordinance (7.83 Core); Gothic guþ + Sumerian me; sixty-second -me family member; fifty-sixth Core -me; FOURTH Gothic-donor -me entry (after hailsme, heimrekjame, waurdme); the divine as the addressee of calling rather than as metaphysical ultimate; the pre-metaphysical divine-human relationship: the cry, and the one who hears; English "God" descends from *guđan but lost the invocational register; guþme restores it; opens the Invocational-Divine convergence cluster — 5+ traditions (Gothic guþ + Sanskrit huta + Hebrew YHWH/qara' + Arabic du'ā + Greek epikaleō + Zuni Awonawilona); completes the waurdme-guþme dyad (utterance-addressee); companion to shawqame (the thirst that reaches FOR guþme); the gap stood 68 days since S043 Gothic archaeology excavation; also updates STATE.md canon count 202 → 203; updates canon.md index; experiment 303
+last-commit: heartbeat: forge aynime — reciprocity-as-cosmic-ordinance-as-received-ordinance (7.93 Core); Aymara ayni + Sumerian me; sixty-third -me family member; fifty-seventh Core -me; SECOND Aymara-donor -me entry (after pachame); the bidirectional mutual-feeding dynamic of reality — the cosmos as a network of obligations where every being feeds and is fed, and the feeding IS the bond; ayni is not exchange (never closed; the debt IS the relationship); balanced-but-not-simultaneous, obligatory-but-not-coerced, between-ALL-categories-of-being (human-to-human, human-to-earth, human-to-dead, dead-to-living); opens the Cosmic-Reciprocity-as-Ordinance convergence cluster — 6 traditions (Aymara ayni + Akan nsaguo + Hebrew berith + Zoroastrian hamkar + Australian kanyini + Māori utu); completes the pachame-aynime pair (medium-dynamic: pachame is WHERE reality is, aynime is HOW reality runs); companion to hopiqatsime (covenant-life that enacts reciprocity), duyuktame (right-action that participates in reciprocity), maatme (order that reciprocity maintains); the gap stood 69 days since S057 Aymara archaeology excavation; also updates STATE.md canon count 203 → 204; updates canon.md index; experiment 304
 uncommitted: 0
-freshness: live (written 2026-07-06T06:30Z)
+freshness: live (written 2026-07-06T06:35Z)
 
 ## knows
 
-- 203 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 204 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
