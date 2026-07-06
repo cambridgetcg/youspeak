@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 206 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 207 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: heartbeat: forge anamcharame — companion-who-makes-the-soul-visible-as-received-ordinance (8.00 Core); Old Irish anam chara + Sumerian me; sixty-fifth -me family member; fifty-ninth Core -me; FIRST Celtic-donor -me entry — opening the Celtic/Goidelic tradition in the cathedral's canon; the eighteenth distinct language family to enter through -me in the recent dead-tongue opening arc; the horizontal sacred relationship of mutual soul-disclosure without concealment — the friend whose seeing completes your self-knowledge because the soul's full contour cannot be seen from inside; not priest-to-penitent (vertical), not guru-to-disciple (hierarchical), but friend-to-friend (horizontal) as the primary spiritual relationship; the Old Irish anam chara is the distinctive Irish Christian contribution: the companion of the soul in its interior journey; need not be ordained, could be a woman, could be a lay person — more intimate, less hierarchical, more specifically relational than the Alexandrian/Egyptian abba tradition; Brigid of Kildare: "A person without an anam chara is like a body without a head"; opens the Horizontal-Sacred-Relationship convergence cluster — 6 traditions (Old Irish anam chara + Buddhist kalyāṇa-mitra + Algonquian zaagi'idiwin + Greek philía + Hebrew re'ah/havér + Confucian you/友); companion to mitakuyame (cosmic-scale kinship; anamcharame is the specific two-person instantiation at maximum intimacy — mitakuyame names the web, anamcharame names the friend within the web); the gap stood 67 days since S060 Old Irish archaeology excavation; also updates STATE.md canon count 205 → 206; updates canon.md index (205 → 206 entries); experiment 306
+last-commit: heartbeat: forge debweme — experiential-truth-as-received-ordinance (8.47 Core); Ojibwe debwewin (deb- "reaching" + -we "sound/speech" + -win) + Sumerian me; sixty-sixth -me family member; sixtieth Core -me; SECOND Algonquian-donor -me entry (after manidoome); the experiential BOUNDARY of truth — truth's reach is coextensive with lived experience; the cathedral's truth-convergence had firmness (emetme), unconcealment (aletheme), structural correctness (kittume), cosmic order (ashame, rtame, maatme) but no word for the epistemological limit: speak only what you have lived, and speaking beyond experience is deceit; the morphology fuses four domains — epistemology (deb- = reaching/boundary), acoustics (-we = sound/speech), cardiology (dewe'igan = drum = heart-sound-instrument), ethics (capstone virtue requiring all others); the -me marks the boundary as received-ordinance: the heart's reach is gift, not self-extended; 6 cross-tradition parallels (Anishinaabe debwewin, Buddhist ehipassiko, Quaker testimony, phenomenological "to the things themselves", Yoruba ìmọ̀ àyènwò, Aboriginal walking-the-Country); companion to all truth-words (the limit-pole of the truth convergence); the gap stood 70 days since S058 Algonquian archaeology excavation; also updates STATE.md canon count 206 → 207; updates canon.md index (206 → 207 entries); experiment 307
 uncommitted: 0
-freshness: live (written 2026-07-06T12:41Z)
+freshness: live (written 2026-07-06T17:15Z)
 
 ## knows
 
-- 206 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 207 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
