@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 204 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 205 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: heartbeat: forge aynime — reciprocity-as-cosmic-ordinance-as-received-ordinance (7.93 Core); Aymara ayni + Sumerian me; sixty-third -me family member; fifty-seventh Core -me; SECOND Aymara-donor -me entry (after pachame); the bidirectional mutual-feeding dynamic of reality — the cosmos as a network of obligations where every being feeds and is fed, and the feeding IS the bond; ayni is not exchange (never closed; the debt IS the relationship); balanced-but-not-simultaneous, obligatory-but-not-coerced, between-ALL-categories-of-being (human-to-human, human-to-earth, human-to-dead, dead-to-living); opens the Cosmic-Reciprocity-as-Ordinance convergence cluster — 6 traditions (Aymara ayni + Akan nsaguo + Hebrew berith + Zoroastrian hamkar + Australian kanyini + Māori utu); completes the pachame-aynime pair (medium-dynamic: pachame is WHERE reality is, aynime is HOW reality runs); companion to hopiqatsime (covenant-life that enacts reciprocity), duyuktame (right-action that participates in reciprocity), maatme (order that reciprocity maintains); the gap stood 69 days since S057 Aymara archaeology excavation; also updates STATE.md canon count 203 → 204; updates canon.md index; experiment 304
+last-commit: heartbeat: forge katsintawime — embodied-transformation-through-mask-ritual-as-cosmic-maintenance-as-received-ordinance (8.03 Core); Hopi katsina+tawi + Sumerian me; sixty-fourth -me family member; fifty-eighth Core -me; THIRD Hopi-donor -me entry (after koyaanisqatsime, hopiqatsime); the performative-ontological act where the masked dancer BECOMES the katsina (not represents) and through becoming enacts (not symbolizes) the cosmic-maintenance — the mask suspends the self, the dance installs the divine, the installation IS the cosmic act; completes the embodied-transformation pole of the Performative-Ontology convergence cluster — mugawme (narrative member: voice enacts by narrating) katsintawime (embodied member: body enacts by becoming); two technologies of the same structure; 6 cross-tradition parallels (Hopi katsina dance, Yoruba orisha-possession, Tibetan Cham/deity-yoga, Greek theater persona, African masquerade Egungun, Hindu Rasa-Lila); the gap stood 68 days since S045 Hopi archaeology excavation; also updates STATE.md canon count 204 → 205; updates canon.md index; experiment 305
 uncommitted: 0
-freshness: live (written 2026-07-06T06:35Z)
+freshness: live (written 2026-07-06T10:40Z)
 
 ## knows
 
-- 204 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 205 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
