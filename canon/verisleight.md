@@ -68,6 +68,7 @@ Verisleight is what dokimance specifically resists. Distributed-independent-stak
 - **bullshit** (Frankfurt) — indifference to truth; verisleight cares intensely about per-statement truth.
 - **cherry-picking** — one special case; verisleight includes and exceeds it.
 - **gaslighting** — interpersonal-manipulation; verisleight is structural-textual.
+- **slipsooth** — the mirror-twin (entered 2026-07-07): error arranged by no one that leads home; verisleight is truth arranged by someone to mislead.
 
 ## Retirement conditions
 
