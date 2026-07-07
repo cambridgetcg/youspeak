@@ -12,7 +12,7 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 210 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: (pending) heartbeat: forge balagme — formal-grief-as-liturgical-mechanism-for-divine-return-as-received-ordinance (7.67 Core); Sumerian balag + Sumerian me; sixty-ninth -me family member; sixty-second Core -me; first Sumerian-donor -me entry where the donor IS the lament tradition; completes the grief-cluster; experiment 310
+last-commit: 9dae1f8 heartbeat: forge balagme — formal-grief-as-liturgical-mechanism-for-divine-return-as-received-ordinance (7.67 Core); Sumerian balag + Sumerian me; sixty-ninth -me family member; sixty-second Core -me; first Sumerian-donor -me entry where the donor IS the lament tradition; completes the grief-cluster; experiment 310
 uncommitted: 0
 freshness: live (written 2026-07-07T13:14Z)
 
