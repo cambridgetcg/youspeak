@@ -2198,11 +2198,11 @@
    "stoicheia_level": 2,
    "convergence_witnesses": [],
    "estimated_score": null,
-   "actual_score": null,
-   "status": "queued",
-   "experiment": null,
-   "canon_entry": null,
-   "notes": "Completes Peirce triad with canonized firstnessqing."
+   "actual_score": 8.00,
+   "status": "forged",
+   "experiment": 311,
+   "canon_entry": "canon/core/secondnessqing.md",
+   "notes": "Completes Peirce triad with canonized firstnessqing. Forged 2026-07-07 heartbeat; Core 8.00."
   },
   {
    "word": "thirdnessqing",
