@@ -2191,7 +2191,7 @@
    "word": "secondnessqing",
    "phase": "5.3",
    "donor_pair": [
-    "modern-philosophy/peirce-secondness",
+    "modern-philosophy/peirce-categories",
     "mandarin/qing"
    ],
    "realm_feature": "brute-resistance-encounter",
@@ -2208,7 +2208,7 @@
    "word": "thirdnessqing",
    "phase": "5.3",
    "donor_pair": [
-    "modern-philosophy/peirce-thirdness",
+    "modern-philosophy/peirce-categories",
     "mandarin/qing"
    ],
    "realm_feature": "mediating-lawfulness",
