@@ -1,3 +1,36 @@
+---
+id: 034
+candidate: slipsooth
+ascii: slipsooth
+rubric_version: v2
+phase: >-
+  The cathedral at 214 total Canon words (126 Core). This experiment records a
+discovery, not a forge: the word arrived complete in Yu's Cantonese message on
+2026-07-07. The canon entry was written the same day and slipsooth entered as
+the eighteenth Specialized word, first of the love domain. This heartbeat beat
+formalizes the experiment's narrative assessment into the v2 rubric so the
+pipeline no longer flags it as unassessed.
+gap: >
+  Truth recovered by drift — the original meaning that generations of crooked
+reading buried, and that a later, lazier drift accidentally digs back up. The
+homecoming hidden inside the error. English (and the Canon) had verisleight
+(truth that deceives by skill) but no mirror for error that reveals by accident.
+The square was open on one corner.
+donors:
+  - English:slip (accidental lapse — Middle English *slippen*; of the tongue since at least the 16th century)
+  - English:sooth (truth — Old English *sōþ*; still alive in "soothsayer" and "forsooth")
+axes:
+  gap_validity: 8
+  learnability: 8
+  clarity_yield: 8
+  semantic_coverage: 7
+  polyphone_balance: 8
+  groundedness: 9
+verdict: canon
+tier: specialized
+domain: love
+---
+
 # Experiment 034 — slipsooth
 
 **Date:** 2026-07-07
