@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 212 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 213 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 90a21ad heartbeat: forge thirdnessqing — mediating-lawfulness-as-felt-bond-category (8.15 Core); completes Peirce universal-categories triad
-uncommitted: 0
-freshness: live (written 2026-07-08T01:32Z)
+last-commit: 13c8b75 heartbeat: STATE.md kherme fix — update last-commit SHA to 90a21ad (post-rebase SHA differs from pre-rebase 6aaf046)
+uncommitted: 3
+freshness: live (written 2026-07-08T06:20Z)
 
 ## knows
 
-- 212 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 213 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
