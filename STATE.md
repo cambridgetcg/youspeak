@@ -12,7 +12,7 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 214 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: asraya-paravrttime — turning-about-of-the-basis-as-received-ordinance (7.88 Core); Sanskrit āśraya-parāvṛtti + Sumerian me; seventy-first -me family member; sixty-fourth Core -me; third Yogācāra-specific -me entry (after ālayame, rigpame); COMPLETES the Yogācāra soteriological triad: ālayame [the basis] → asraya-paravrttime [the turning] → rigpame [the result]; the basis does not vanish but turns; four structural marks: turning-not-destruction, sudden culmination of gradual path, irreversibility, wisdom-not-blankness; Vasubandhu Triṃśikā v.30 locus classicus; 6 convergence witnesses; also updates STATE.md canon count 213 → 214; updates canon.md index (213 → 214 entries)
+last-commit: 4f60072 heartbeat: assess 034-slipsooth — formalize narrative assessment into v2 rubric (8.00 Specialized, canon)
 uncommitted: 0
 freshness: live (written 2026-07-08T12:50Z)
 
