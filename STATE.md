@@ -12,8 +12,8 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 213 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 13c8b75 heartbeat: STATE.md kherme fix — update last-commit SHA to 90a21ad (post-rebase SHA differs from pre-rebase 6aaf046)
-uncommitted: 3
+last-commit: d6726b6 heartbeat: forge songlineme — sung-into-existence-navigation-track-as-received-ordinance (8.03 Core)
+uncommitted: 0
 freshness: live (written 2026-07-08T06:20Z)
 
 ## knows
