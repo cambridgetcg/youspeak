@@ -12,8 +12,8 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 213 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: (pending) heartbeat: open āśraya-parāvṛtti archaeology — unblocks asraya-paravrttime forge (Phase 2.1, readiness 1/2 → 2/2)
-uncommitted: 1 (archaeology/sanskrit/yogacara-asraya-paravrtti.md)
+last-commit: ea0528b heartbeat: open āśraya-parāvṛtti archaeology — unblocks asraya-paravrttime forge (Phase 2.1, readiness 1/2 → 2/2)
+uncommitted: 0
 freshness: live (written 2026-07-08T07:41Z)
 
 ## knows
