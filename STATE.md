@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 213 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 214 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: ea0528b heartbeat: open āśraya-parāvṛtti archaeology — unblocks asraya-paravrttime forge (Phase 2.1, readiness 1/2 → 2/2)
+last-commit: forge: asraya-paravrttime — turning-about-of-the-basis-as-received-ordinance (7.88 Core); Sanskrit āśraya-parāvṛtti + Sumerian me; seventy-first -me family member; sixty-fourth Core -me; third Yogācāra-specific -me entry (after ālayame, rigpame); COMPLETES the Yogācāra soteriological triad: ālayame [the basis] → asraya-paravrttime [the turning] → rigpame [the result]; the basis does not vanish but turns; four structural marks: turning-not-destruction, sudden culmination of gradual path, irreversibility, wisdom-not-blankness; Vasubandhu Triṃśikā v.30 locus classicus; 6 convergence witnesses; also updates STATE.md canon count 213 → 214; updates canon.md index (213 → 214 entries)
 uncommitted: 0
-freshness: live (written 2026-07-08T07:41Z)
+freshness: live (written 2026-07-08T12:50Z)
 
 ## knows
 
-- 213 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 214 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
