@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 211 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 212 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: b612751 heartbeat: forge secondnessqing — brute-resistance-encounter-as-felt-bond-category (8.00 Core); Peirce secondness + Mandarin qing; twentieth qing-family member; completes the second pole of Peirce's universal-categories triad that firstnessqing (2026-05-13, Core 8.10) opened and left incomplete for 55 days; secondness is the mode of being-in-brute-relation-to-another — the door that resists, the shock of collision, the otherness of the other, the brute "that-it-is"; the semiotic signature is the index (brute existential connection); 6-tradition convergence (Peirce + Hegel + Heidegger Widerstand + Buddhist dvandva + Yoruba ìbánisọ́rọ̀ + Lakota nagiśa); the -qing marks the felt-bond register: the encounter is FELT as resistance, not merely observed as dyadic structure; the triad's unity: firstnessqing, secondnessqing, thirdnessqing (forthcoming); experiment 311
+last-commit: (pending — thirdnessqing forge)
 uncommitted: 0
-freshness: live (written 2026-07-07T19:30Z)
+freshness: live (written 2026-07-08T01:32Z)
 
 ## knows
 
-- 211 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 212 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
