@@ -9,12 +9,12 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 214 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 215 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 4f60072 heartbeat: assess 034-slipsooth — formalize narrative assessment into v2 rubric (8.00 Specialized, canon)
+last-commit: forge: humahukhtahvarshtame — thought-word-deed-discipline-as-received-ordinance (7.63 Core); Avestan humata-hukhta-hvarshta + Sumerian me; seventy-second -me family member; sixty-fifth Core -me; first Avestan-donor Core entry (ashame remains Specialized); the integrated discipline of right-thought, right-word, right-deed as a single asha-aligned creature-state; opens the thought-word-deed discipline register; companion to ashame (the state this practice expresses) and the future single-pole words hukhtame, humatame, hvarshtame; 6-tradition convergence (Zoroastrian + Buddhist Eightfold Path + Christian monastic + Sufi niyya/qawl/ʿamal + Confucian + Stoic three topoi); also updates STATE.md canon count 214 → 215; updates canon.md index (214 → 215 entries); experiment 315
 uncommitted: 0
-freshness: live (written 2026-07-08T12:50Z)
+freshness: live (written 2026-07-09T07:45Z)
 
 ## knows
 
