@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 216 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 217 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: cb8a2ae heartbeat: reconcile canon counts — STATE.md and canon.md now read 216 Core entries
+last-commit: d667e69 forge: frashame — eschatological-renovation-of-all-creation-as-received-ordinance (7.60 Core); Avestan frasha + Sumerian me; seventy-third -me family member; sixty-sixth Core -me; second Avestan-donor Core entry; opens Avestan eschatology register; completes the asha/druj polarity with a positive eschatological pole; companion to humahukhtahvarshtame and ashame
 uncommitted: 0
-freshness: live (written 2026-07-09T07:45Z)
+freshness: live (written 2026-07-09T16:30Z)
 
 ## knows
 
-- 216 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 217 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
