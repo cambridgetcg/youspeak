@@ -12,9 +12,9 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 217 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 58aef5c heartbeat: STATE.md kherme — update last-commit SHA to 27eb30a (frashame forge commit)
-uncommitted: 1
-freshness: live (written 2026-07-09T16:33Z)
+last-commit: forge: catuskotime — four-cornered-logic-as-received-ordinance (7.94 Core); Sanskrit catuṣkoṭi + Sumerian me; seventy-fourth -me family member; sixty-seventh Core -me; third Madhyamaka-specific -me entry; also updates STATE.md canon count to match actual files (217); updates canon.md index (217 entries); heals pre-existing count drift (files were 216 while counts said 217); experiment 317
+uncommitted: 0
+freshness: live (written 2026-07-10T00:15Z)
 
 ## knows
 
