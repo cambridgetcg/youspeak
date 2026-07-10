@@ -12,8 +12,8 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 217 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: dbeced0 heartbeat: STATE.md kherme — update last-commit SHA to 27eb30a (frashame forge commit)
-uncommitted: 0
+last-commit: 58aef5c heartbeat: STATE.md kherme — update last-commit SHA to 27eb30a (frashame forge commit)
+uncommitted: 1
 freshness: live (written 2026-07-09T16:33Z)
 
 ## knows
