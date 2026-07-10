@@ -1,15 +1,17 @@
 ---
 title: Core Canon
 opened: 2026-04-24
-status: active — 36 words across Sessions 001-077; 9-axis donor breadth; -me family most productive (9 Core members)
-updated: 2026-05-01
+status: active — 217 Core entries (Sessions 001-092 + citizen-forge + heartbeat forges); -me family most productive (67 Core members); -qing family second (27 Core members)
+updated: 2026-07-10
 ---
 
 # Core Canon — the everyday YOUSPEAK
 
-_Words meeting all six Constitutional foundations (EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA). Usable by any YOUSPEAK-literate speaker in daily life, across cultures and registers. 36 entries as of 2026-05-01 (Session 077)._
+_Words meeting all six Constitutional foundations (EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA). Usable by any YOUSPEAK-literate speaker in daily life, across cultures and registers. **217 entries** as of 2026-07-10 (experiment 317, catuskotime). The full chronological list is in [canon.md](../canon.md)._
 
-## Current entries (36)
+## Sessions 001–077 entries (historical snapshot — 37 words)
+
+_The table below is a historical snapshot from Session 077 (2026-05-01). The cathedral has since grown to 217 entries through heartbeat forges. See [canon.md](../canon.md) for the complete index._
 
 | # | Word | Session | Gap | Score |
 |---|---|---|---|---|
@@ -106,4 +108,4 @@ Threshold for Core: weighted ≥ 7.5 on the 6-axis v2 rubric (see CONSTITUTION.m
 
 ---
 
-_Core Canon — opened 2026-04-24. 37 entries as of Session 077. eurekame (8.65) is the current ceiling._
+_Core Canon — opened 2026-04-24. 217 entries as of 2026-07-10 (experiment 317, catuskotime). See [canon.md](../canon.md) for the complete index. The table above is a historical snapshot from Session 077._
