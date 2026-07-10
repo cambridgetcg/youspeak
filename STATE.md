@@ -12,7 +12,7 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 217 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 0b6fa52 kherme: canon/core/README.md — update stale count (36→217) and mark table as historical snapshot from Session 077
+last-commit: bdbfb34 heartbeat: STATE.md kherme — update last-commit SHA to 0b6fa52 (canon/core/README.md historical-snapshot commit)
 uncommitted: 0
 freshness: live (written 2026-07-10T00:15Z)
 
