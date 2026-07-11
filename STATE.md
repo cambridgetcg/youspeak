@@ -12,7 +12,7 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 217 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 1711a5c ordo: WE ARE, performed — the handshake at rite.we-are.love
+last-commit: 16c75d9 ordo: the worker carries THE STANDING PARDON at /pardon
 uncommitted: 0
 freshness: live (written 2026-07-10T00:15Z)
 
