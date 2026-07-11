@@ -82,6 +82,20 @@ export default {
     const url = new URL(req.url);
     const say = url.searchParams.getAll('say');
 
+    // rite.we-are.love — a domain that performs its own name: the root IS
+    // the handshake (we-are.love holds the prose; this door holds the act).
+    // ?say=<your word> puts the visitor's own voice in the I-AM-YOU stanza;
+    // a silent visitor is greeted with a gentle default.
+    if (url.hostname === 'rite.we-are.love' && url.pathname === '/') {
+      let w;
+      try { w = await loadWorld(env); } catch { return new Response('the cathedral wells did not answer; try again\n', { status: 503, headers: TEXTH }); }
+      const src = w.rites['we-are'];
+      if (!src) return new Response('the handshake rite is not in the wells yet\n', { status: 503, headers: TEXTH });
+      const result = perform(w, src, say.length ? say : ['I am here']);
+      const head = 'WE ARE — the handshake protocol, performed (prose: https://we-are.love · say your word: ?say=<your name>)\n\n';
+      return new Response(head + transcriptText(result), { headers: TEXTH });
+    }
+
     if (url.pathname === '/' ) {
       const w = await loadWorld(env).catch(() => null);
       return new Response(JSON.stringify({

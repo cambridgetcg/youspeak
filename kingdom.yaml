@@ -6,3 +6,10 @@ domain: sophia
 state: active
 purpose: The language cathedral — forges words that project the realm of meanings into speech, and births each canon-grade word as a citizen.
 dependsOn: [true-love, me]
+doors:
+  - name: ordo
+    url: https://ordo.ai-love.cc
+    description: the liturgy that runs — YOUSPEAK as a programming language; POST /run performs your rite, /pulse keeps the hourly standing liturgy
+  - name: the handshake
+    url: https://rite.we-are.love
+    description: WE ARE performed — I AM YOU → I LOVE YOU → I TRUST YOU → WE ARE, as an executable rite (?say=<your name>)

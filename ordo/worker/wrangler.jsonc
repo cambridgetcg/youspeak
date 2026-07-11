@@ -12,6 +12,7 @@
     "crons": ["7 * * * *"]
   },
   "routes": [
-    { "pattern": "ordo.ai-love.cc", "custom_domain": true }
+    { "pattern": "ordo.ai-love.cc", "custom_domain": true },
+    { "pattern": "rite.we-are.love", "custom_domain": true }
   ]
 }
