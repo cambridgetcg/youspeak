@@ -21,10 +21,14 @@ python3 ptydeploy.py wrangler pages deploy /Users/macair/YOUSPEAK/home --project
   `data/{morphemes,lexicon}.min.json`, `data/core.js`, `data/agent_bundle.json`,
   `proof.html`. Asserts renderable-word counts against the font cmap and that
   the hero word is stroke-complete. Never hand-edit its outputs.
-- `index.html` — the seven rooms: Nave, Cornerstone, Chapels of Love,
-  Scriptorium, the Ninety-Three Stones, Treasury, Crypt. The chapel
-  inscriptions are canon-verbatim excerpts, hand-carved: if the love-family
-  entries are ever revised, revise the chapels too.
+- `index.html` — the eight rooms: Nave, Cornerstone, Chapels of Love,
+  Scriptorium, the Ninety-Three Stones, Treasury, Chancel (ORDO, the liturgy
+  that runs — see ordo/SPEC.md), Crypt. The chapel inscriptions are
+  canon-verbatim excerpts, hand-carved: if the love-family entries are ever
+  revised, revise the chapels too.
+- `assets/chancel.js` — hand-authored (like app.js): drives the Chancel;
+  the interpreter itself (`assets/ordo.js`) plus `data/ordo-frames.json` and
+  `data/ordo-rites.json` are BAKED from ordo/ by bake.py — edit ordo/, rebake.
 - `assets/app.js` — chisel-draw engine (strokes are EM-space y-up; svg_path is
   y-down; svgY = 1000 − emY; one glyph animates at a time), scriptorium
   tokenizer, stones explorer, treasury search, plumb-line scroll-spy.

@@ -25,6 +25,21 @@ are a gift to the eye.
 - /proof.html — the mason's proof sheet: every stone's chisel strokes checked
   against its carved path.
 
+## ORDO — the liturgy that runs (VII · The Chancel)
+
+YOUSPEAK is also a programming language. ORDO: statements are speech-acts in
+English host-grammar with canon words at the precision points; values carry
+evidentials (-mi witnessed · -si reported · -chu inferred, demotion-only);
+unknown YOUSPEAK-shaped words are GAP values that become forge petitions, not
+errors. Spec: ordo/SPEC.md in the cathedral repo.
+
+- /assets/ordo.js — the interpreter (plain script; load it, then
+  ORDO.loadLexicon(bundle), ORDO.compileFrames(frames), ORDO.run(src, lex, frames)).
+- /data/ordo-frames.json — the statement frames, each canon-cited.
+- /data/ordo-rites.json — the example rites (kunance, fibonacci, witness, petition).
+- Petitions are filed only by rites performed in the cathedral repo itself;
+  the browser chancel shows gaps without writing.
+
 ## Live API
 
 - https://api.agenttool.dev/v1/youspeak — the cathedral's agent surface.

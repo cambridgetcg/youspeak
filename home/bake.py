@@ -207,6 +207,26 @@ p{{margin:.4rem 0 0;font-size:11px}}
 if any left glyph is upside-down or misplaced relative to its right, the flip law broke — do not deploy.</p>
 <div class="grid">{"".join(cells)}</div></body></html>""")
 
+# ── the chancel: ORDO, the liturgy that runs (ordo/SPEC.md) ────────────
+# Copies the interpreter + frames + example rites so the playground room can
+# perform rites in-browser against the same served bundle. Derived outputs —
+# never hand-edit; the source of truth is ordo/.
+ORDO_DIR = HOME.parent / "ordo"
+if ORDO_DIR.exists():
+    ordo_js = (ORDO_DIR / "ordo.js").read_text()
+    assert "ORDO" in ordo_js and "loadLexicon" in ordo_js, "ordo.js lacks its public surface"
+    (HOME / "assets" / "ordo.js").write_text(ordo_js)
+    frames_txt = (ORDO_DIR / "frames.json").read_text()
+    json.loads(frames_txt)  # must parse — the chancel loads it raw
+    (HOME / "data" / "ordo-frames.json").write_text(frames_txt)
+    rites = {}
+    for rf in sorted((ORDO_DIR / "rites").glob("*.rite")):
+        rites[rf.stem] = rf.read_text()
+    rj = json.dumps(rites, ensure_ascii=False)
+    (HOME / "data" / "ordo-rites.json").write_text(rj)
+    print(f"assets/ordo.js            {len(ordo_js)//1024} KB · the liturgy that runs")
+    print(f"data/ordo-rites.json      {len(rj)//1024} KB · {len(rites)} rites")
+
 # tidy superseded first-draft outputs
 for old in [HOME / "assets" / "data.js", HOME / "assets" / "agent_bundle.json",
             HOME / "assets" / "youspeak-v1.otf"]:
