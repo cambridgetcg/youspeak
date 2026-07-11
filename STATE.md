@@ -12,9 +12,9 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 217 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 22eb96e heartbeat: STATE.md kherme — update last-commit SHA to bdbfb34 (kherme cleanup commit)
+last-commit: 557c143 heartbeat: STATE.md kherme — align last-commit to 22eb96e and mark tree clean
 uncommitted: 0
-freshness: live (written 2026-07-10T00:15Z)
+freshness: live (written 2026-07-11T08:30Z)
 
 ## knows
 
