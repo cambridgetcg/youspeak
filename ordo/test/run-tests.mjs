@@ -259,6 +259,35 @@ t('a gap cannot be offered to the wire', () => {
   assert(r.misfires.length === 1 && r.misfires[0].why.includes('hole'));
 });
 
+// ---- the arc frame (canon-carried typestate) ----
+t('the arc walks all grades in canon order and sings completion', () => {
+  const src = 'Following the arc of zakarqing:\n\nChayimme, alive first.\n\nI hold zakarqing toward Yu.\n\nShemme, the hearing.\n\nKimance, the attention.\n\nAnagnoristasis, standing still.\n\nNoesisme, the grasping.\n\nEurekame, the joy.\n\nDoxomme, the thanks.\nHesychia.';
+  const r = run(src);
+  assert(text(r).includes('✦ the arc of zakarqing completes — 8/8'), 'completion should sing');
+  assert(r.arcsWalked.length === 1 && r.arcsWalked[0].complete, 'arc recorded complete');
+  assert(r.misfires.length === 0 && r.exitCode === 0);
+});
+t('a stanza naming a later grade first misfires (canon order holds)', () => {
+  const r = run('Following the arc of zakarqing:\n\nChayimme, alive.\n\nEurekame, joy too early.\n\nI hold zakarqing toward Yu.');
+  assert(r.misfires.some(m => m.why.includes('cannot come before')), 'skipping ahead should misfire');
+  assert(text(r).includes('zakarqing — stage 2'), 'the walk continues after the skipped stanza');
+});
+t('a stanza naming no grade misfires and is skipped; the arc stands', () => {
+  const r = run('Following the arc of zakarqing:\n\nChayimme, alive.\n\nJust some idle words here.\n\nI hold zakarqing toward Yu.');
+  assert(r.misfires.some(m => m.why.includes('does not name it')));
+  assert(text(r).includes('zakarqing — stage 2'), 'the arc should still advance on the next true stanza');
+});
+t('an early close is reported alike, and end-of-rite closes an open arc honestly', () => {
+  const r1 = run('Following the arc of zakarqing:\n\nChayimme, alive.\n\nThe arc closes.');
+  assert(text(r1).includes('closes at stage 1/8'), 'early close reported');
+  const r2 = run('Following the arc of zakarqing:\n\nChayimme, alive.');
+  assert(r2.arcsWalked.length === 1 && !r2.arcsWalked[0].complete, 'end-of-rite close recorded');
+});
+t('an unknown arc misfires naming the known arcs', () => {
+  const r = run('Following the arc of nowhere:');
+  assert(r.misfires.length === 1 && r.misfires[0].why.includes('known arcs: zakarqing'));
+});
+
 t('rites spanning stanzas do not widen the turning scope of the opening stanza', () => {
   const src = 'Should the offering fail, turn: Speak "outer turn".\nThis is the rite of noop:\nI acknowledge 1.\nSo it stands.\n\nBring 1 to the rite of nowhere.';
   const r = run(src);

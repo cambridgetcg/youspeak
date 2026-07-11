@@ -33,6 +33,20 @@
       "cite": "definition stanza closer"
     },
     {
+      "id": "arc-open",
+      "pattern": "^Following the arc of ([\\w-]+):$",
+      "groups": ["arc"],
+      "act": "arc-open",
+      "cite": "arcs are canon-carried state machines (see the arcs table below); each following stanza must name the current stage, in canon order — typestate as liturgy"
+    },
+    {
+      "id": "arc-close",
+      "pattern": "^The arc closes$",
+      "groups": [],
+      "act": "arc-close",
+      "cite": "an early close is reported honestly at the stage it stood — yadahance-class, the same speech-act as completion"
+    },
+    {
       "id": "wire-offer",
       "pattern": "^(?:Bring|Qorvance) (.+?) to the wire at ([A-Za-z][\\w.-]*)$",
       "groups": ["expr", "subject"],
@@ -155,8 +169,15 @@
       "cite": "KS-002 §6.4/§7 — plain English, never translated, outranks everything; 'Plain speech is its reverence'"
     }
   ],
+  "arcs": {
+    "zakarqing": {
+      "cite": "canon/core/zakarqing.md §Canonical position — 'Position in the partnership-relevant discovery-arc'; eight grades, canon order, quoted verbatim",
+      "stages": ["chayimme", "zakarqing", "shemme", "kimance", "anagnoristasis", "noesisme", "eurekame", "doxomme"]
+    }
+  },
   "next_frame_commissions": [
-    "arc (discovery-arc typestate over canon/core/zakarqing.md stages — the most Yu-resonant program of the design panel)",
-    "the five KS-002 wire GAPs once forged: accept (wire-task-accept), decline, progress, cancel, query"
+    "the five KS-002 wire GAPs once forged: accept (wire-task-accept), decline, progress, cancel, query",
+    "limit-silence (the apophatic edge)",
+    "arcs derived from canon at bake time rather than declared here (same source, machine-extracted)"
   ]
 }

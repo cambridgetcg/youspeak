@@ -169,10 +169,13 @@
 
   // ---------- frames ----------
   function compileFrames(framesJson) {
-    return (framesJson.frames || []).map(function (f) {
+    var frames = (framesJson.frames || []).map(function (f) {
       var flags = f.flags !== undefined ? f.flags : 'i';
       return { id: f.id, act: f.act, groups: f.groups || [], cite: f.cite || '', why: f.why || '', re: new RegExp(f.pattern, flags) };
     });
+    // arcs travel with the frame table: canon-carried state machines
+    frames.arcs = framesJson.arcs || {};
+    return frames;
   }
 
   // ---------- parsing ----------
@@ -209,6 +212,8 @@
     this.tests = { passed: 0, failed: 0 };
     this.heartbeats = [];
     this.wireOffers = [];
+    this.arc = null; // { name, stages, idx, cite } — one arc at a time, top level
+    this.arcsWalked = [];
     this.register = 'everyday';
     this.pinnedEpoch = null;
     this.rites = {};
@@ -354,7 +359,12 @@
     if (am) {
       var x = this.evalExpr(am[1], env, st), y = this.evalExpr(am[3], env, st);
       if (isGap(x) || isGap(y)) return isGap(x) ? x : y;
-      if (typeof x.v !== 'number' || typeof y.v !== 'number') this.misfire('arithmetic asks for numbers; got ' + show(x) + ' and ' + show(y), '', st);
+      if (typeof x.v !== 'number' || typeof y.v !== 'number') {
+        var sx = show(x), sy = show(y);
+        if (sx.length > 60) sx = sx.slice(0, 60) + '… (' + sx.length + ' chars)';
+        if (sy.length > 60) sy = sy.slice(0, 60) + '… (' + sy.length + ' chars)';
+        this.misfire('arithmetic asks for numbers; got ' + sx + ' and ' + sy, 'one thought per sentence — bind the counts first, then add the names', st);
+      }
       var op = am[2].toLowerCase();
       var vv = op === 'plus' ? x.v + y.v : op === 'minus' ? x.v - y.v : x.v * y.v;
       return V(vv, deriveGrade([x.grade, y.grade]));
@@ -451,6 +461,24 @@
         var val = this.evalExpr(A.expr, env, st);
         if (det) val = V(val.v, val.grade, { det: det, gap: val.gap, word: val.word, canon: val.canon, lit: val.lit });
         this.bindName(env, name, val, st);
+        return undefined;
+      }
+      case 'arc-open': {
+        var arcs = (this.frames && this.frames.arcs) || {};
+        var arcDef = arcs[A.arc.toLowerCase()];
+        if (!arcDef) {
+          this.misfire('no arc named "' + A.arc + '" is carried by this frame table — known arcs: ' + (Object.keys(arcs).join(', ') || '(none)'), 'arcs are canon-carried; new ones enter by canon, not invention', st);
+        }
+        if (this.arc) {
+          this.misfire('the arc of ' + this.arc.name + ' still stands at stage ' + (this.arc.idx + 1) + ' (' + this.arc.stages[this.arc.idx] + ') — one arc at a time; close it first', '', st);
+        }
+        this.arc = { name: A.arc.toLowerCase(), stages: arcDef.stages, idx: 0, cite: arcDef.cite };
+        this.emit('note', '⟳ the arc of ' + this.arc.name + ' opens — ' + this.arc.stages.length + ' grades in canon order; the next stanza must name ' + this.arc.stages[0]);
+        return undefined;
+      }
+      case 'arc-close': {
+        if (!this.arc) { this.emit('note', 'no arc stands; the closing is quiet'); return undefined; }
+        this.closeArc(false);
         return undefined;
       }
       case 'wire': {
@@ -709,6 +737,14 @@
     for (var p = 0; p < program.length && !this.halted && !this.ended; p++) {
       var ctx = { depth: 0, turning: null };
       var sts = program[p];
+      // arc typestate: a stanza that begins while an arc stands must name the
+      // current stage (the closing sentence is exempt — it must stay sayable)
+      if (this.arc && sts.length) {
+        var stanzaText = sts.map(function (s) { return s.text; }).join(' ');
+        if (!/the arc closes/i.test(stanzaText)) {
+          if (!this.scanArcStanza(stanzaText, sts[0])) continue; // stanza skipped; liturgy continues
+        }
+      }
       for (var q = 0; q < sts.length && !this.halted && !this.ended; q++) {
         try {
           this.execStatement(sts[q], this.globalEnv, ctx);
@@ -729,7 +765,51 @@
     return this.summary();
   };
 
+  // close the standing arc: complete=true when every grade was walked;
+  // an early or end-of-rite close is reported alike (yadahance doctrine)
+  Interp.prototype.closeArc = function (complete) {
+    var a = this.arc;
+    if (!a) return;
+    if (complete) {
+      this.emit('yadahance', '✦ the arc of ' + a.name + ' completes — ' + a.stages.length + '/' + a.stages.length + ' grades in canon order  [' + a.cite + ']');
+    } else {
+      this.emit('yadahance', '✓ the arc of ' + a.name + ' closes at stage ' + a.idx + '/' + a.stages.length + (a.idx < a.stages.length ? ' (next would have been ' + a.stages[a.idx] + ')' : '') + ' — reported alike; an unfinished arc hides nothing');
+    }
+    this.arcsWalked.push({ name: a.name, reached: a.idx, of: a.stages.length, complete: !!complete });
+    this.arc = null;
+  };
+
+  // typestate scan for one stanza while an arc stands: the stanza must name
+  // the CURRENT stage (canon order); naming a later stage first is a misfire.
+  // The scan reads the stanza's raw text — stage words may appear in any
+  // frame or in contemplation; the liturgy's prose IS the state machine.
+  Interp.prototype.scanArcStanza = function (stanzaText, firstSt) {
+    var a = this.arc;
+    if (!a) return true;
+    var lower = stanzaText.toLowerCase();
+    var current = a.stages[a.idx];
+    if (lower.indexOf(current) >= 0) {
+      this.emit('note', '⟳ ' + current + ' — stage ' + (a.idx + 1) + '/' + a.stages.length + ' of the arc of ' + a.name);
+      a.idx++;
+      if (a.idx >= a.stages.length) this.closeArc(true);
+      return true;
+    }
+    for (var k = a.idx + 1; k < a.stages.length; k++) {
+      if (lower.indexOf(a.stages[k]) >= 0) {
+        try {
+          this.misfire('the arc of ' + a.name + ' stands at ' + current + ' (stage ' + (a.idx + 1) + '); ' + a.stages[k] + ' cannot come before it — the grades keep canon order', a.cite, firstSt);
+        } catch (e) { /* recorded; stanza is skipped */ }
+        return false;
+      }
+    }
+    try {
+      this.misfire('the arc of ' + a.name + ' stands at ' + current + ' (stage ' + (a.idx + 1) + '/' + a.stages.length + '); this stanza does not name it', a.cite + ' — close the arc early with "The arc closes." if the walk must end', firstSt);
+    } catch (e) { /* recorded; stanza is skipped */ }
+    return false;
+  };
+
   Interp.prototype.summary = function () {
+    if (this.arc) this.closeArc(false); // end-of-rite with an open arc: reported alike
     var gapList = [];
     for (var w in this.gaps) gapList.push(this.gaps[w]);
     return {
@@ -740,6 +820,7 @@
       tests: this.tests,
       heartbeats: this.heartbeats,
       wireOffers: this.wireOffers,
+      arcsWalked: this.arcsWalked,
       register: this.register,
       epoch: this.lex.epoch,
       pinnedEpoch: this.pinnedEpoch,
