@@ -14,6 +14,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
+import { execFileSync } from 'node:child_process';
 
 const require = createRequire(import.meta.url);
 const HERE = path.dirname(fileURLToPath(import.meta.url));
@@ -75,6 +76,35 @@ function saveLedger(ledger) {
 function riteRef(riteFile) {
   const rel = path.relative(ROOT, riteFile);
   return rel.startsWith('..') ? riteFile : rel; // outside-repo rites recorded absolute, not as ../.. chains
+}
+
+// ── Stage 3: the wire seam (KS-002, DRAFT — outbox only, no publish) ─────────
+// Envelopes are composed and verified by the kingdom's own reference impl so
+// they are valid by construction. Publishing awaits Yu's adoption (KS-000 §3).
+const WIRE_PY = '/Users/macair/KINGDOM-STANDARDS/impl/wire.py';
+const OUTBOX = path.join(ROOT, 'ordo', 'outbox');
+
+function wireOffer(subject, offer) {
+  if (!fs.existsSync(WIRE_PY)) return { ok: false, error: 'KINGDOM-STANDARDS impl/wire.py is not on this machine' };
+  try {
+    // mint the ordo key on first use (~/.kingdom/keys, 0600, never in git)
+    const keyPath = path.join(process.env.HOME, '.kingdom', 'keys', 'ordo.key');
+    if (!fs.existsSync(keyPath)) {
+      const did = execFileSync('python3', [WIRE_PY, 'keygen', 'ordo'], { encoding: 'utf8' }).trim();
+      console.error(`(minted the ordo wire key — ${did})`);
+    }
+    const body = JSON.stringify(offer);
+    const envJson = execFileSync('python3', [WIRE_PY, 'envelope', '--from', 'ordo', '--to', subject, '--performative', 'task.offer', '--body', body], { encoding: 'utf8' });
+    // verify the roundtrip with the reference impl before keeping anything
+    execFileSync('python3', [WIRE_PY, 'verify', '-'], { input: envJson, encoding: 'utf8' });
+    const env = JSON.parse(envJson);
+    fs.mkdirSync(OUTBOX, { recursive: true });
+    const file = path.join(OUTBOX, `${env.ts.replace(/[:.]/g, '-')}-${subject}.json`);
+    fs.writeFileSync(file, envJson);
+    return { ok: true, id: env.id, path: path.relative(ROOT, file) };
+  } catch (e) {
+    return { ok: false, error: String(e.stderr || e.message).trim().slice(0, 200) };
+  }
 }
 
 function checkResolved(lex, petitions, emit) {
@@ -206,9 +236,31 @@ if (cmd === 'run') {
     if (preNotes.length) saveLedger(petitions);
   }
 
+  // Stage 1 — read the internet: the rite performs synchronously, so its
+  // declared URL sources are gathered BEFORE the liturgy begins (max 8 URLs,
+  // 1 MB each, 10 s; everything fetched is born -si inside the rite)
+  const urls = ORDO.listReceptions(source, world.frames).slice(0, 8);
+  const gathered = {};
+  if (urls.length) {
+    await Promise.all(urls.map(async u => {
+      try {
+        const ctrl = new AbortController();
+        const timer = setTimeout(() => ctrl.abort(), 10000);
+        const resp = await fetch(u, { signal: ctrl.signal, headers: { 'user-agent': 'ordo/0.1 (the liturgy that runs; ai-love.cc)' } });
+        clearTimeout(timer);
+        if (!resp.ok) { gathered[u] = null; return; }
+        const body = await resp.text();
+        gathered[u] = body.length > 1048576 ? body.slice(0, 1048576) : body;
+      } catch { gathered[u] = null; }
+    }));
+    console.log(`(gathered ${urls.filter(u => gathered[u] !== null).length}/${urls.length} sources before the rite — everything from the internet arrives -si)`);
+  }
+
   const result = ORDO.run(source, world.lex, world.frames, {
     read: () => (inputIdx < inputs.length ? inputs[inputIdx++] : null),
-    readFile: p => { try { return fs.readFileSync(path.resolve(path.dirname(riteFile), p), 'utf8'); } catch { return null; } }
+    readFile: p => { try { return fs.readFileSync(path.resolve(path.dirname(riteFile), p), 'utf8'); } catch { return null; } },
+    readURL: u => (u in gathered ? gathered[u] : null),
+    wire: (subject, offer) => wireOffer(subject, offer)
   });
 
   for (const n of preNotes) console.log(n);

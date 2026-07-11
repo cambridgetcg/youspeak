@@ -33,6 +33,13 @@
       "cite": "definition stanza closer"
     },
     {
+      "id": "wire-offer",
+      "pattern": "^(?:Bring|Qorvance) (.+?) to the wire at ([A-Za-z][\\w.-]*)$",
+      "groups": ["expr", "subject"],
+      "act": "wire",
+      "cite": "KS-002 THE WIRE §7 (task.offer = qorvance) — a signed envelope composed by the reference impl; DRAFT: envelopes go to ordo/outbox/, publishing awaits Yu's adoption (KS-000 §3); the value's evidential grade travels in the body"
+    },
+    {
       "id": "offering",
       "pattern": "^(?:Bring|Qorvance) (.+?) to (?:the rite of )?([a-z][\\w-]*)(?:, receiving ([A-Za-z][\\w-]*))?$",
       "groups": ["args", "rite", "receiving"],

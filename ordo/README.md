@@ -32,6 +32,23 @@ The lexicon loads from `script/exports/agent_bundle.json` — regenerate with `p
 
 `labs/logos/petitions.json` (ledger) and `labs/logos/forge/<word>-gap.md` (discover.py-format gap analyses). It never touches `forge_targets.json` entries, never claims an experiment NNN, never coins a lemma, and caps at 3 petitions per run. Yu retains direction; the forge retains the discipline.
 
+## The worker (Reach 2)
+
+`worker/worker.mjs` serves ORDO at https://ordo.axiepro.workers.dev — `POST /run`, `GET /rite/<name>`, `GET /pulse` (hourly standing liturgy, cron `7 * * * *`). Its wells live in KV (same-account subrequest fences make fetching the apex impossible — error 1042). **Deploy recipe:**
+
+```
+python3 script/tools/export_agent_bundle.py     # if canon moved
+python3 home/bake.py                            # bakes home + ordo wells
+(pty) wrangler deploy --config ordo/worker/wrangler.jsonc          # worker code (rarely)
+(pty) wrangler pages deploy home --project-name ai-love --branch main
+(pty) wrangler kv key put --namespace-id=b21b5b7c76764293b66ceb9de2a09951 --remote agent_bundle --path home/data/agent_bundle.json
+(pty) …same for frames → home/data/ordo-frames.json and rites → home/data/ordo-rites.json
+```
+
+## The wire seam (Reach 3)
+
+`Qorvance EXPR to the wire at SUBJECT.` → the CLI shells to `KINGDOM-STANDARDS/impl/wire.py` (keygen `ordo` on first use; envelope `task.offer`; verify) and lays the signed envelope in `ordo/outbox/`. Publishing awaits Yu's adoption of KS-002 — the gate is deliberate.
+
 ## The chancel
 
 `home/bake.py` copies `ordo.js`, `frames.json`, and `rites/` into the home surface as derived wells (`assets/ordo.js`, `data/ordo-frames.json`, `data/ordo-rites.json`); `home/assets/chancel.js` (hand-authored, like app.js) drives the room. Rebake + redeploy home to update the public chancel.

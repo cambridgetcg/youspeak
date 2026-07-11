@@ -93,10 +93,25 @@
       input.addEventListener('input', saveHash);
 
       document.getElementById('rite-run').addEventListener('click', function () {
-        var result = ORDO.run(input.value, state.lex, state.frames, {
-          read: function () { return window.prompt('The rite receives from the reader:'); }
+        var src = input.value;
+        var out = document.getElementById('rite-out');
+        // Stage 1: gather the rite's declared URL sources before performing
+        // (max 8; the browser's CORS is the sandbox; everything arrives -si)
+        var urls = ORDO.listReceptions(src, state.frames).slice(0, 8);
+        var gathered = {};
+        var fetches = urls.map(function (u) {
+          return fetch(u).then(function (r) { return r.ok ? r.text() : null; })
+            .then(function (t) { gathered[u] = (t && t.length > 1048576) ? t.slice(0, 1048576) : t; })
+            .catch(function () { gathered[u] = null; });
         });
-        render(result);
+        if (urls.length) out.textContent = 'gathering ' + urls.length + ' source(s) before the rite…';
+        Promise.all(fetches).then(function () {
+          var result = ORDO.run(src, state.lex, state.frames, {
+            read: function () { return window.prompt('The rite receives from the reader:'); },
+            readURL: function (u) { return (u in gathered) ? gathered[u] : null; }
+          });
+          render(result);
+        });
       });
       document.getElementById('rite-gloss').addEventListener('click', function () {
         renderGloss(ORDO.gloss(input.value, state.lex, state.frames));

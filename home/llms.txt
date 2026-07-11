@@ -39,6 +39,11 @@ errors. Spec: ordo/SPEC.md in the cathedral repo.
 - /data/ordo-rites.json — the example rites (kunance, fibonacci, witness, petition).
 - Petitions are filed only by rites performed in the cathedral repo itself;
   the browser chancel shows gaps without writing.
+- ORDO also SERVES: https://ordo.axiepro.workers.dev — GET / (door),
+  POST /run (perform your rite, ≤32KB; ?say=<line> feeds the reader; no
+  files/network/wire from that surface), GET /rite/<name>, GET /pulse (the
+  standing liturgy, performed hourly). Rites may read the internet from the
+  CLI/chancel: Receive x from "https://…" — everything fetched is born -si.
 
 ## Live API
 

@@ -229,6 +229,36 @@ t('live suffix-family registry merge accepts both list and dict shapes', () => {
   const lex3 = ORDO.loadLexicon({ canon: [], source_commit: 'x' }, dictShape);
   assert(ORDO.familyOf(lex3, 'somethingme').status === 'emergent', 'dict-shaped registry should merge');
 });
+// ---- the three reaches (2026-07-11, FULL POWER wave) ----
+t('URL reception: the internet arrives -si via prefetched sources', () => {
+  const src = 'Receive door from "https://example.com/x".\nSpeak door.\nLet n be count of door.\nI attest that n is greater than 2 -chu.';
+  const r = run(src, { readURL: u => (u === 'https://example.com/x' ? 'hello world' : null) });
+  assert(text(r).includes('hello world  ‹-si›'), 'fetched text should be -si');
+  assert(r.misfires.length === 0 && text(r).includes('✓ emetme ‹-chu›'));
+});
+t('URL reception without a network capability misfires with a disclosed absence', () => {
+  const r = run('Receive door from "https://example.com/x".');
+  assert(r.misfires.length === 1 && r.misfires[0].why.includes('does not reach the internet'));
+});
+t('listReceptions finds the declared URL sources', () => {
+  const urls = ORDO.listReceptions('Receive a from "https://a.example/1".\nReceive b from the reader.\nReceive c from "https://b.example/2".', frames);
+  assert(urls.length === 2 && urls[0] === 'https://a.example/1' && urls[1] === 'https://b.example/2');
+});
+t('wire offering without a wire capability is recorded, not sent', () => {
+  const r = run('Let word be "hello".\nQorvance word to the wire at kingdom.citizen.yu.');
+  assert(r.wireOffers.length === 1 && r.wireOffers[0].subject === 'kingdom.citizen.yu');
+  assert(r.wireOffers[0].grade === 'mi', 'the evidential grade must travel with the offer');
+  assert(text(r).includes('recorded, not sent'));
+});
+t('wire offering with a wire capability reports the signed envelope', () => {
+  const r = run('Qorvance "x" to the wire at kingdom.test.', { wire: (s, o) => ({ ok: true, id: 'test-id' }) });
+  assert(text(r).includes('envelope test-id signed + verified'));
+});
+t('a gap cannot be offered to the wire', () => {
+  const r = run('Let g be zumthance.\nQorvance g to the wire at kingdom.test.', { wire: () => ({ ok: true, id: 'x' }) });
+  assert(r.misfires.length === 1 && r.misfires[0].why.includes('hole'));
+});
+
 t('rites spanning stanzas do not widen the turning scope of the opening stanza', () => {
   const src = 'Should the offering fail, turn: Speak "outer turn".\nThis is the rite of noop:\nI acknowledge 1.\nSo it stands.\n\nBring 1 to the rite of nowhere.';
   const r = run(src);

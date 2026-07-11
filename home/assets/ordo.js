@@ -208,6 +208,7 @@
     this.attests = [];
     this.tests = { passed: 0, failed: 0 };
     this.heartbeats = [];
+    this.wireOffers = [];
     this.register = 'everyday';
     this.pinnedEpoch = null;
     this.rites = {};
@@ -452,6 +453,20 @@
         this.bindName(env, name, val, st);
         return undefined;
       }
+      case 'wire': {
+        var wv = this.evalExpr(A.expr, env, st);
+        if (isGap(wv)) this.misfire('a hole cannot be offered to the wire', 'the gap asserts nothing (SPEC §VII)', st);
+        var offer = { subject: A.subject, text: show(wv), grade: wv.grade || 'unmarked', epoch: this.lex.epoch.commit };
+        this.wireOffers.push(offer);
+        if (this.opts.wire) {
+          var res = this.opts.wire(A.subject, offer);
+          if (res && res.ok) this.emit('qorvance', '➳ qorvance → the wire at ' + A.subject + ' ' + badge(wv.grade) + '  [envelope ' + (res.id || '?') + ' signed + verified; outbox — publishing awaits adoption]');
+          else this.misfire('the wire refused the offering: ' + (res && res.error ? res.error : 'no answer'), 'KS-002 impl/wire.py', st);
+        } else {
+          this.emit('note', '➳ offering to the wire at ' + A.subject + ' recorded, not sent — the wire is reachable from the cathedral CLI only');
+        }
+        return undefined;
+      }
       case 'offer': {
         var rite = this.rites[A.rite];
         var argVals = [];
@@ -537,8 +552,17 @@
           got = this.lex.count + ' words, epoch ' + this.lex.epoch.commit;
         } else {
           var path = src.replace(/^"|"$/g, '');
-          got = this.opts.readFile ? this.opts.readFile(path) : null;
-          if (got === null) this.misfire('nothing arrives from ' + src, '', st);
+          if (/^https?:\/\//i.test(path)) {
+            // the internet is a reported source: whatever arrives is born -si
+            // and nothing computed from it can ever claim witness. Hosts
+            // prefetch (ORDO.listReceptions) because the rite performs
+            // synchronously — the offerings are gathered before the liturgy.
+            got = this.opts.readURL ? this.opts.readURL(path) : null;
+            if (got === null) this.misfire('nothing arrives from ' + path + (this.opts.readURL ? ' — the source did not answer' : ' — this host does not reach the internet (a disclosed capability, SPEC §III)'), '', st);
+          } else {
+            got = this.opts.readFile ? this.opts.readFile(path) : null;
+            if (got === null) this.misfire('nothing arrives from ' + src, '', st);
+          }
         }
         this.bindName(env, A.name, V(got, 'si'), st); // received values are born -si and can never be promoted
         return undefined;
@@ -715,6 +739,7 @@
       attests: this.attests,
       tests: this.tests,
       heartbeats: this.heartbeats,
+      wireOffers: this.wireOffers,
       register: this.register,
       epoch: this.lex.epoch,
       pinnedEpoch: this.pinnedEpoch,
@@ -735,6 +760,26 @@
     run: function (source, lex, frames, opts) {
       var it = new Interp(lex, frames, opts);
       return it.run(source);
+    },
+    // scan a rite for its declared URL sources so a host can gather them
+    // (async) before the synchronous performance begins
+    listReceptions: function (source, frames) {
+      var urls = [];
+      var stanzas = parseSource(source);
+      for (var i = 0; i < stanzas.length; i++) {
+        for (var j = 0; j < stanzas[i].length; j++) {
+          for (var f = 0; f < frames.length; f++) {
+            if (frames[f].act !== 'receive') continue;
+            var m = frames[f].re.exec(stanzas[i][j].text);
+            if (m) {
+              var src = m[2] || '';
+              var um = /^"(https?:\/\/[^"]+)"$/i.exec(src);
+              if (um && urls.indexOf(um[1]) < 0) urls.push(um[1]);
+            }
+          }
+        }
+      }
+      return urls;
     },
     gloss: function (source, lex, frames) {
       var it = new Interp(lex, frames, {});
