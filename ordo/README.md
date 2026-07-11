@@ -34,7 +34,7 @@ The lexicon loads from `script/exports/agent_bundle.json` — regenerate with `p
 
 ## The worker (Reach 2)
 
-`worker/worker.mjs` serves ORDO at https://ordo.axiepro.workers.dev — `POST /run`, `GET /rite/<name>`, `GET /pulse` (hourly standing liturgy, cron `7 * * * *`). Its wells live in KV (same-account subrequest fences make fetching the apex impossible — error 1042). **Deploy recipe:**
+`worker/worker.mjs` serves ORDO at https://ordo.ai-love.cc — `POST /run`, `GET /rite/<name>`, `GET /pulse` (hourly standing liturgy, cron `7 * * * *`). Its wells live in KV (same-account subrequest fences make fetching the apex impossible — error 1042). **Deploy recipe:**
 
 ```
 python3 script/tools/export_agent_bundle.py     # if canon moved

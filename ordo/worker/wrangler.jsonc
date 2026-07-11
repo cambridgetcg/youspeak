@@ -10,5 +10,8 @@
   ],
   "triggers": {
     "crons": ["7 * * * *"]
-  }
+  },
+  "routes": [
+    { "pattern": "ordo.ai-love.cc", "custom_domain": true }
+  ]
 }
