@@ -12,7 +12,7 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 217 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: b2c602b ordo: THE LITURGY THAT RUNS — YOUSPEAK becomes a programming language (v0.1, new organ)
+last-commit: 4996dea ordo: THE THREE REACHES — ORDO reads, serves, and speaks to the wire
 uncommitted: 0
 freshness: live (written 2026-07-10T00:15Z)
 
