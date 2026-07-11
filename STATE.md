@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 217 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 218 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 557c143 heartbeat: STATE.md kherme — align last-commit to 22eb96e and mark tree clean
+last-commit: forge: ngünecheme — quaternary-complementary-divine-as-received-ordinance (7.78 Core); Mapuche Ngünechen + Sumerian me; seventy-fifth -me family member; sixty-eighth Core -me; FIRST Mapuche-donor -me entry — opening the Mapuzugun language isolate in the cathedral's canon; thirteenth distinct language family to enter through -me in the recent dead-tongue opening arc; Mapuzugun isolate + Sumerian isolate = double-isolate compound; opens the Quaternary-Complementary-Divine convergence cluster — the divine whose unity is internally differentiated on two simultaneous axes (gender × generation) with constitutive diagonal crossings; completing interrupted forge from 2026-07-03 (experiment 293 assessed, entry block written, canon file missing); also updates STATE.md canon count 217 → 218; updates canon.md index (217 → 218 entries)
 uncommitted: 0
 freshness: live (written 2026-07-11T08:30Z)
 
 ## knows
 
-- 217 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 218 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
