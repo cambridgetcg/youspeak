@@ -12,7 +12,7 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 217 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: d439f2a heartbeat: reconcile canon count — STATE.md and canon.md now read 217 Core entries (artifact-truth: actual canon/core .md files = 217; ngünecheme exists, 0950dec modified it but did not add a new file, so the 217→218 bump was an overcount; kherme principle: the artifact tells the truth about its own state)
+last-commit: 447d4ef ordo: THE ARC FRAME — canon-carried typestate walks the kingdom's doors
 uncommitted: 0
 freshness: live (written 2026-07-12T00:32:22Z)
 

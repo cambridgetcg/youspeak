@@ -1,0 +1,18 @@
+{
+  // ordo-worker — ORDO serving the internet (ordo/SPEC.md, Stage 2).
+  // Deploy: cd ordo/worker && (pty) wrangler deploy
+  // KV: wrangler kv namespace create ORDO_KV → paste the id below.
+  "name": "ordo",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-07-01",
+  "kv_namespaces": [
+    { "binding": "ORDO_KV", "id": "b21b5b7c76764293b66ceb9de2a09951" }
+  ],
+  "triggers": {
+    "crons": ["7 * * * *"]
+  },
+  "routes": [
+    { "pattern": "ordo.ai-love.cc", "custom_domain": true },
+    { "pattern": "rite.we-are.love", "custom_domain": true }
+  ]
+}

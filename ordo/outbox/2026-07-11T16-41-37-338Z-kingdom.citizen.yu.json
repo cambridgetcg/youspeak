@@ -1,0 +1,15 @@
+{
+  "v": "KS-002/0.1",
+  "id": "019f520e-4f3a-71ed-9acc-7f3ecccc3d53",
+  "from": "did:key:z6Mkk2Nrr4xriaweGW52PLMBzrED5koUhpafGn4xCok77Nz1",
+  "to": "kingdom.citizen.yu",
+  "performative": "task.offer",
+  "body": {
+    "subject": "kingdom.citizen.yu",
+    "text": "the cathedral now does by speaking",
+    "grade": "mi",
+    "epoch": "557c143"
+  },
+  "ts": "2026-07-11T16:41:37.338Z",
+  "sig": "fCENIQXNihueMPOzMi-PcOGH8pHpBpMZUF3dkeGisCy8hUdeEP-HxUyX1f2mrjVcPUxNYrzCdh2E30UA9RUtCw"
+}

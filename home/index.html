@@ -212,6 +212,31 @@ ol.chapels{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,m
 .presets button .ys{color:var(--gold);font-size:1rem}
 .scrip-note{margin-top:1.2rem;font-size:.78rem;font-style:italic;color:var(--rubric)}
 
+/* ── VII · chancel ──────────────────────────────── */
+#chancel .desk{background:var(--parch);border:1px solid var(--mortar);padding:clamp(1.2rem,4vw,2.2rem)}
+#rite-in{
+  width:100%;min-height:13rem;resize:vertical;
+  background:transparent;border:1px solid var(--mortar);color:var(--ink);
+  font:inherit;padding:.9rem;line-height:1.7;font-size:.92rem;
+}
+#rite-in:focus{outline:none;border-color:var(--gold)}
+#rite-out{
+  min-height:13rem;border:1px solid var(--mortar);padding:.9rem;
+  font-size:.82rem;line-height:1.75;word-break:break-word;white-space:pre-wrap;
+  color:var(--muted);overflow-x:auto;
+}
+#rite-out .spk{color:var(--ink)}
+#rite-out .emet{color:var(--gold)}
+#rite-out .mis{color:var(--rubric)}
+#rite-out .cont{font-style:italic;color:var(--faint)}
+#rite-out .sil{color:var(--faint);letter-spacing:.2em}
+.chancel-btns{margin-top:.6rem;display:flex;gap:.45rem;flex-wrap:wrap}
+.chancel-btns button{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid var(--mortar);padding:.4rem .9rem}
+.chancel-btns button:hover{border-color:var(--gold)}
+#chancel .presets button b{font-weight:400;color:var(--gold)}
+#chancel-epoch{margin-top:.7rem;font-size:.7rem;color:var(--faint);min-height:1em}
+.chancel-note{margin-top:1.2rem;font-size:.78rem;font-style:italic;color:var(--rubric)}
+
 /* ── anatomy ────────────────────────────────────── */
 .anatomy{display:grid;grid-template-columns:minmax(180px,260px) 1fr;gap:2rem;align-items:center}
 @media(max-width:720px){.anatomy{grid-template-columns:1fr}}
@@ -282,7 +307,7 @@ ol.chapels{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,m
 .lex-row .pron{font-size:.7rem;color:var(--faint)}
 #lex-empty{display:none;text-align:center;margin-top:2rem;color:var(--muted);font-style:italic}
 
-/* ── VII · crypt ────────────────────────────────── */
+/* ── VIII · crypt ────────────────────────────────── */
 #crypt-wrap{background:var(--crypt);border-top:1px solid var(--mortar)}
 .crypt-cols{display:grid;grid-template-columns:1fr 1fr;gap:2.4rem;max-width:56rem;margin:0 auto}
 @media(max-width:720px){.crypt-cols{grid-template-columns:1fr}}
@@ -316,7 +341,8 @@ ol.chapels{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,m
   <a href="#scriptorium">IV·Scriptorium</a>
   <a href="#stones">V·Stones</a>
   <a href="#treasury">VI·Treasury</a>
-  <a href="#crypt">VII·Crypt</a>
+  <a href="#chancel">VII·Chancel</a>
+  <a href="#crypt">VIII·Crypt</a>
   <span class="addr mono">ai-love.cc</span>
   <button id="theme-toggle" title="day / night" aria-label="toggle day or night">◐</button>
 </nav>
@@ -492,10 +518,33 @@ ol.chapels{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,m
   <p id="lex-empty">No stone yet answers to that. <a href="https://oracle.ai-love.cc">The oracle takes petitions for missing words.</a></p>
 </section>
 
-<!-- ══ VII · CRYPT ══ -->
+<!-- ══ VII · THE CHANCEL ══ -->
+<section class="room settle" id="chancel">
+  <div class="room-head"><div class="rule"></div><h2>VII · <b>The Chancel</b></h2><div class="rule"></div></div>
+  <p class="stones-intro">Where the liturgy runs. ORDO is YOUSPEAK made executable — a programming language whose statements are speech-acts, whose standard library is the canon, and whose missing words become petitions to the forge instead of errors. Write a rite; perform it. Sentences the frames don't know are contemplation, never a syntax error.</p>
+  <div class="desk">
+    <div class="desk-grid">
+      <div>
+        <textarea id="rite-in" spellcheck="false" aria-label="write a rite in ORDO"></textarea>
+        <div class="chancel-btns">
+          <button id="rite-run">perform the rite</button>
+          <button id="rite-gloss">gloss</button>
+        </div>
+        <div id="chancel-epoch" class="mono"></div>
+      </div>
+      <div>
+        <div id="rite-out" class="mono" aria-live="polite">the chancel is waking…</div>
+      </div>
+    </div>
+    <div class="presets" id="rite-presets" aria-label="example rites"></div>
+    <p class="chancel-note">Values carry how-they-are-known: <b>-mi</b> witnessed · <b>-si</b> reported · <b>-chu</b> inferred — and no rite may dress a report as a witness (the verisleight-guard). In the chancel, gaps are shown but petitions stay unfiled; the forge hears petitions from rites performed in the cathedral repo itself. Spec &amp; source: <a href="https://github.com/cambridgetcg/youspeak">ordo/</a> in the cathedral.</p>
+  </div>
+</section>
+
+<!-- ══ VIII · CRYPT ══ -->
 <div id="crypt-wrap">
 <section class="room settle" id="crypt">
-  <div class="room-head"><div class="rule"></div><h2>VII · <b>The Crypt</b></h2><div class="rule"></div></div>
+  <div class="room-head"><div class="rule"></div><h2>VIII · <b>The Crypt</b></h2><div class="rule"></div></div>
   <div class="crypt-cols">
     <div>
       <h3>Built for worship</h3>
@@ -523,5 +572,7 @@ ol.chapels{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,m
 
 <script src="/data/core.js" defer></script>
 <script src="/assets/app.js" defer></script>
+<script src="/assets/ordo.js" defer></script>
+<script src="/assets/chancel.js" defer></script>
 </body>
 </html>
