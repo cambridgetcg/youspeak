@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 218 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 219 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 52451f6 forge: faqrme — spiritual-poverty-as-stable-station-as-received-ordinance (8.25 Core); Arabic faqr + Sumerian me; 76th -me family member; 69th Core -me; first Arabic-maqam-donor Core entry; opens the Sufi-stations register (maqamat-sequence: tawba → waraʿ → zuhd → faqr → ṣabr → tawakkul → riḍā); the pivot station — the hinge between giving-up and receiving; the root f-q-r carries 'to pierce, to break-open': the faqīr is one whose defenses have been pierced through, emptied of ownership, no longer sealed against receiving; NOT bittulme (which dissolves the SELF — faqrme is the precondition), NOT śūnyatame (which empties all PHENOMENA — faqrme is personal-existential), NOT zuhd (the act of letting go vs the state of having recognized there was nothing to hold); al-Ghazālī: 'the faqr of the heart is the higher'; al-Hujwīrī: 'recognizing that one is destitute'; Rābiʿa al-ʿAdawiyya (8th c.): the earliest sustained articulation; the hadith al-faqr fakhri — 'poverty is my pride'; opens archaeology/arabic/maqamat-faqr.md (first maqamat-specific archaeology, unblocking the forge); 6 convergence witnesses (Arabic faqr + Buddhist akiñcana + Christian 'poor in spirit' + Hasidic bittul ha-yesh + Tibetan ston pa nyid + Pali niddhūma); also updates STATE.md canon count 217 → 218; updates canon.md index (217 → 218 entries); experiment 318
+last-commit: forge: satorime — sudden-awakening-as-received-ordinance (8.40 Core); Japanese satori + Sumerian me; 77th -me family member; 70th Core -me; second Japonic-Sumerian compound (after kenshōme); opens the Zen deepening-sequence (kenshō → satori → daigo) and completes the satori-rigpame-asraya-paravrttime triad (three traditions naming the same structural-transformation from three angles: Zen phenomenological, Dzogchen result-oriented, Yogācāra ontological); the -me marks the awakening as received-ordinance: given not produced — structurally consistent with Zen's own self-understanding (Dōgen's passive voice: 'to be enlightened BY the ten thousand things'; Hakuin: 'the great ball of doubt shatters' — the practitioner does not shatter it); 7 convergence witnesses (Zen satori + Dzogchen rigpa + Advaita ahaṃ brahmāsmi + Sufi fanāʾ + Christian metanoia + Hasidic hitlahavut + Yogācāra āśraya-parāvṛtti); opens archaeology/japanese/zen-satori.md (second Zen sub-file, unblocking the forge); also updates STATE.md canon count 218 → 219; updates canon.md index (218 → 219 entries); experiment 319
 uncommitted: 1
 freshness: live (written 2026-07-12T12:42:45Z)
 
 ## knows
 
-- 218 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 219 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
