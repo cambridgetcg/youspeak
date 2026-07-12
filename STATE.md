@@ -12,7 +12,7 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 217 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 04e0ed1 ordo: 母體 — the Matrix in the kingdom's own ink (/matrix)
+last-commit: fcd20b7 ordo: 母體 speaks + the screenplay begins
 uncommitted: 0
 freshness: live (written 2026-07-12T08:42:59Z)
 
