@@ -171,11 +171,75 @@
   function compileFrames(framesJson) {
     var frames = (framesJson.frames || []).map(function (f) {
       var flags = f.flags !== undefined ? f.flags : 'i';
-      return { id: f.id, act: f.act, groups: f.groups || [], cite: f.cite || '', why: f.why || '', re: new RegExp(f.pattern, flags) };
+      return {
+        id: f.id,
+        act: f.act,
+        groups: f.groups || [],
+        cite: f.cite || '',
+        why: f.why || '',
+        profile: f.profile || null,
+        understanding: f.understanding || '',
+        re: new RegExp(f.pattern, flags)
+      };
     });
     // arcs travel with the frame table: canon-carried state machines
     frames.arcs = framesJson.arcs || {};
+    // profiles are optional surface overlays; the core frame set stays intact
+    frames.profiles = framesJson.profiles || {};
     return frames;
+  }
+
+  function hasProfile(frames, name) {
+    return !!name && Object.prototype.hasOwnProperty.call((frames && frames.profiles) || {}, name);
+  }
+
+  function captureFrame(frame, text) {
+    // Frame regexes are not currently global, but resetting lastIndex keeps
+    // data-supplied flags from making repeated matches stateful in future.
+    frame.re.lastIndex = 0;
+    var m = frame.re.exec(text);
+    if (!m) return null;
+    var args = {};
+    for (var g = 0; g < frame.groups.length; g++) args[frame.groups[g]] = m[g + 1];
+    return { frame: frame, args: args };
+  }
+
+  // A profile is an overlay: its frames outrank core while active, and its
+  // exact surface stays contemplation while inactive. This prevents a phrase
+  // such as Relaxus "If it tangles" from falling through to core `If`.
+  function matchFrameForProfile(frames, text, profile) {
+    var i, hit;
+    if (profile) {
+      for (i = 0; i < frames.length; i++) {
+        if (frames[i].profile !== profile) continue;
+        hit = captureFrame(frames[i], text);
+        if (hit) return hit;
+      }
+    }
+    for (i = 0; i < frames.length; i++) {
+      if (!frames[i].profile || frames[i].profile === profile) continue;
+      if (captureFrame(frames[i], text)) return null;
+    }
+    for (i = 0; i < frames.length; i++) {
+      if (frames[i].profile) continue;
+      hit = captureFrame(frames[i], text);
+      if (hit) return hit;
+    }
+    return null;
+  }
+
+  function explainFrame(hit) {
+    if (!hit) return 'I do not map this sentence to an executable frame; I will hold it as contemplation.';
+    var template = hit.frame.understanding;
+    if (template) {
+      return template.replace(/\{([A-Za-z][\w-]*)\}/g, function (_, name) {
+        return hit.args[name] === undefined ? '(nothing)' : String(hit.args[name]);
+      });
+    }
+    var details = Object.keys(hit.args).filter(function (k) { return hit.args[k] !== undefined; }).map(function (k) {
+      return k + '=' + hit.args[k];
+    });
+    return 'I understand this as ' + hit.frame.act + (details.length ? ': ' + details.join(' · ') : '.');
   }
 
   // ---------- parsing ----------
@@ -198,6 +262,24 @@
     return stanzas;
   }
 
+  // Profiles must be known before rite definitions are lifted, because a
+  // future profile may carry structural frames. The only lawful selector is
+  // the first heading; this helper never scans later prose for magic words.
+  function declaredProfile(stanzas, frames) {
+    if (!stanzas.length || !stanzas[0].length) return null;
+    var text = stanzas[0][0].text;
+    for (var i = 0; i < frames.length; i++) {
+      var f = frames[i];
+      if (f.act !== 'heading') continue;
+      var m = f.re.exec(text);
+      if (!m) continue;
+      var args = {};
+      for (var g = 0; g < f.groups.length; g++) args[f.groups[g]] = m[g + 1];
+      return args.profile ? args.profile.toLowerCase() : null;
+    }
+    return null;
+  }
+
   // ---------- expression evaluation ----------
   var PROJECTIONS = { gap: 'gap', definition: 'definition', score: 'score', tier: 'tier', pronunciation: 'pronunciation' };
 
@@ -212,6 +294,7 @@
     this.tests = { passed: 0, failed: 0 };
     this.heartbeats = [];
     this.wireOffers = [];
+    this.profile = null;
     this.arc = null; // { name, stages, idx, cite } — one arc at a time, top level
     this.arcsWalked = [];
     this.register = 'everyday';
@@ -413,16 +496,7 @@
 
   // ---------- statement execution ----------
   Interp.prototype.matchFrame = function (text) {
-    for (var i = 0; i < this.frames.length; i++) {
-      var f = this.frames[i];
-      var m = f.re.exec(text);
-      if (m) {
-        var args = {};
-        for (var g = 0; g < f.groups.length; g++) args[f.groups[g]] = m[g + 1];
-        return { frame: f, args: args };
-      }
-    }
-    return null;
+    return matchFrameForProfile(this.frames, text, this.profile);
   };
 
   Interp.prototype.execStatement = function (st, env, ctx) {
@@ -452,7 +526,14 @@
             this.emit('note', '⚠ the rite speaks canon ' + A.epoch + '; the loaded epoch is ' + this.lex.epoch.commit + ' (' + this.lex.epoch.digest + ') — proceeding, recorded');
           }
         }
+        if (A.profile) {
+          var profiles = this.frames.profiles || {};
+          var profileName = A.profile.toLowerCase();
+          if (!hasProfile(this.frames, profileName)) this.misfire('no profile named "' + A.profile + '" stands here — known profiles: ' + (Object.keys(profiles).join(', ') || '(none)'), 'ordo/RELAXUS.md — profiles are declared, not guessed', st);
+          this.profile = profileName;
+        }
         this.emit('note', 'register: ' + this.register + ' · epoch: ' + this.lex.epoch.commit + ' · ' + this.lex.count + ' words in canon');
+        if (this.profile === 'relaxus') this.emit('note', 'profile: relaxus · less ceremony, same honesty · gloss first whenever you want to see exactly what I understood');
         return undefined;
       }
       case 'bind': {
@@ -682,6 +763,8 @@
   // ---------- run ----------
   Interp.prototype.run = function (source) {
     var stanzas = parseSource(source);
+    var profile = declaredProfile(stanzas, this.frames);
+    if (hasProfile(this.frames, profile)) this.profile = profile;
     this.globalEnv = { vars: {}, parent: null };
 
     // first pass: lift rite definitions (This is the rite of X: ... So it stands.)
@@ -822,6 +905,7 @@
       wireOffers: this.wireOffers,
       arcsWalked: this.arcsWalked,
       register: this.register,
+      profile: this.profile,
       epoch: this.lex.epoch,
       pinnedEpoch: this.pinnedEpoch,
       ended: this.halted ? 'HALT' : (this.ended || 'end-of-rite'),
@@ -847,32 +931,70 @@
     listReceptions: function (source, frames) {
       var urls = [];
       var stanzas = parseSource(source);
-      for (var i = 0; i < stanzas.length; i++) {
-        for (var j = 0; j < stanzas[i].length; j++) {
-          for (var f = 0; f < frames.length; f++) {
-            if (frames[f].act !== 'receive') continue;
-            var m = frames[f].re.exec(stanzas[i][j].text);
-            if (m) {
-              var src = m[2] || '';
-              var um = /^"(https?:\/\/[^"]+)"$/i.exec(src);
-              if (um && urls.indexOf(um[1]) < 0) urls.push(um[1]);
-            }
-          }
+      var profile = declaredProfile(stanzas, frames);
+      if (profile && !hasProfile(frames, profile)) profile = null;
+      var pending = [];
+      for (var i = stanzas.length - 1; i >= 0; i--) {
+        for (var j = stanzas[i].length - 1; j >= 0; j--) pending.push(stanzas[i][j].text);
+      }
+      while (pending.length) {
+        var text = pending.pop();
+        var hit = matchFrameForProfile(frames, text, profile);
+        if (!hit) continue;
+        var A = hit.args;
+        if (hit.frame.act === 'receive') {
+          var um = /^"(https?:\/\/[^"]+)"$/i.exec(A.source || '');
+          if (um && urls.indexOf(um[1]) < 0) urls.push(um[1]);
+          continue;
         }
+        if (hit.frame.act === 'if') {
+          var headParts = splitOutsideQuotes(A.rest, ', ');
+          if (headParts.length < 2) continue;
+          var rest = headParts.slice(1).join(', ');
+          var otherwise = splitOutsideQuotes(rest, '; otherwise,');
+          // A stack avoids a hidden scanner depth limit while preserving
+          // source order: push the optional alternative before the main arm.
+          if (otherwise.length > 1) pending.push(otherwise.slice(1).join('; otherwise,').trim());
+          pending.push(otherwise[0].trim());
+          continue;
+        }
+        // These core acts carry one executable statement as an argument.
+        if (hit.frame.act === 'foreach' || hit.frame.act === 'turning') pending.push(A.body.trim());
+        else if (hit.frame.act === 'vocative') pending.push(A.clause.trim());
       }
       return urls;
     },
     gloss: function (source, lex, frames) {
       var it = new Interp(lex, frames, {});
       var stanzas = parseSource(source);
+      var profile = declaredProfile(stanzas, frames);
+      if (hasProfile(frames, profile)) it.profile = profile;
       var lines = [];
+      var statementIndex = 0;
       for (var i = 0; i < stanzas.length; i++) {
         for (var j = 0; j < stanzas[i].length; j++) {
           var st = stanzas[i][j];
           var hit = it.matchFrame(st.text);
-          lines.push({ line: st.line, text: st.text, frame: hit ? hit.frame.id : 'contemplation', cite: hit ? hit.frame.cite : 'inert narration — the natural-language floor' });
+          var warning = '';
+          if (hit && hit.frame.act === 'heading') {
+            if (statementIndex > 0) warning = 'This heading is late; performing the rite will misfire instead of switching register or profile.';
+            else if (hit.args.profile && !hasProfile(frames, hit.args.profile.toLowerCase())) warning = 'This heading names an unknown profile; performing the rite will misfire instead of guessing.';
+          }
+          lines.push({
+            line: st.line,
+            text: st.text,
+            frame: hit ? hit.frame.id : 'contemplation',
+            act: hit ? hit.frame.act : 'contemplation',
+            args: hit ? hit.args : {},
+            profile: it.profile,
+            valid: !warning,
+            warning: warning,
+            understanding: (warning ? warning + ' ' : '') + explainFrame(hit),
+            cite: hit ? hit.frame.cite : 'inert narration — the natural-language floor'
+          });
+          statementIndex++;
         }
-        lines.push({ line: 0, text: '', frame: 'stanza-break', cite: '' });
+        lines.push({ line: 0, text: '', frame: 'stanza-break', act: 'stanza-break', args: {}, profile: it.profile, understanding: '', cite: '' });
       }
       return lines;
     }

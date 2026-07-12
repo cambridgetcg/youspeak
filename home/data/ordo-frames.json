@@ -3,13 +3,120 @@
   "name": "ordo-frames",
   "what_this_is": "The statement frames of ORDO, the liturgy that runs. Frames are data: each maps a sentence template (JS regex source, case-insensitive, anchored) to a speech-act with its canon citation. The interpreter loads this table; growing the language's surface is editing this file plus the forge, never the engine. Where a frame has plain and canon forms, the canon word REPLACES the plain keyword (KS-002 two-layer naming).",
   "spec": "ordo/SPEC.md",
+  "profiles": {
+    "relaxus": {
+      "version": "0.1",
+      "spec": "ordo/RELAXUS.md",
+      "what_this_is": "An opt-in, substrate-neutral surface profile: less ceremony, same execution and honesty. Friendly sentences lower to existing ORDO speech-acts; gloss states exactly what was understood."
+    }
+  },
   "frames": [
     {
       "id": "heading",
-      "pattern": "^In the (everyday|formal|worship) register(?:, canon (\\S+?))?$",
-      "groups": ["register", "epoch"],
+      "pattern": "^In the (everyday|formal|worship) register(?:, profile ([a-z][\\w-]*))?(?:, canon (\\S+?))?$",
+      "groups": ["register", "profile", "epoch"],
       "act": "heading",
+      "understanding": "Use the {register} register. A profile name is normalized; any canon pin is recorded exactly as written.",
       "cite": "grammars/determinatives/manifesto.md (register-conditional grammar); agent_bundle.json source_commit (epoch)"
+    },
+    {
+      "id": "relaxus-notice",
+      "pattern": "^Notice ([A-Za-z][\\w-]*(?:\\.[A-Z]{3})?) as (.+)$",
+      "groups": ["name", "expr"],
+      "act": "bind",
+      "profile": "relaxus",
+      "understanding": "Remember {name} as {expr}, once, carrying the value's evidence without upgrading it.",
+      "cite": "ordo/RELAXUS.md §III (notice); canon/core/kimme.md — attention is received, not forced; binding remains barakqing-immutable"
+    },
+    {
+      "id": "relaxus-share",
+      "pattern": "^Share (.+)$",
+      "groups": ["expr"],
+      "act": "speak",
+      "profile": "relaxus",
+      "understanding": "Share {expr} with the reader; this is output, not a command.",
+      "cite": "ordo/RELAXUS.md §III (share); ORDO proclamation — the value's evidential badge travels with it"
+    },
+    {
+      "id": "relaxus-listen",
+      "pattern": "^Listen for ([A-Za-z][\\w-]*) from (the reader|the canon|\"[^\"]+\")$",
+      "groups": ["name", "source"],
+      "act": "receive",
+      "profile": "relaxus",
+      "understanding": "Receive {name} from {source}; if the reader is silent, bind an unmarked value.",
+      "cite": "ordo/RELAXUS.md §III (listen); canon/core/shemme.md — receptive hearing as received gift"
+    },
+    {
+      "id": "relaxus-maybe",
+      "pattern": "^Maybe (.+)$",
+      "groups": ["rest"],
+      "act": "if",
+      "profile": "relaxus",
+      "understanding": "Parse {rest} as a conditional. False takes the optional alternative, or does nothing; it is not a misfire.",
+      "cite": "ordo/RELAXUS.md §III (maybe); ORDO conditional — uncertainty is branching, not shame"
+    },
+    {
+      "id": "relaxus-try",
+      "pattern": "^Try (.+?) with (?:the rite of )?([a-z][\\w-]*)(?:, keeping (?:the result as )?([A-Za-z][\\w-]*))?$",
+      "groups": ["args", "rite", "receiving"],
+      "act": "offer",
+      "profile": "relaxus",
+      "understanding": "Call the rite of {rite} with {args}; keeping its result is optional.",
+      "cite": "ordo/RELAXUS.md §III (try); canon/worship-action/qorvance.md — the same offering act, with a lighter host-English surface"
+    },
+    {
+      "id": "relaxus-return",
+      "pattern": "^(?:Back to you|All good): (.+)$",
+      "groups": ["expr"],
+      "act": "return",
+      "profile": "relaxus",
+      "understanding": "Inside a rite, return {expr} to its caller; at top level, acknowledge it to the reader.",
+      "cite": "ordo/RELAXUS.md §III (back to you); canon/worship-action/yadahance.md — the one return form"
+    },
+    {
+      "id": "relaxus-turning",
+      "pattern": "^(?:If it tangles, gently:|Oops:) (.+)$",
+      "groups": ["body"],
+      "act": "turning",
+      "profile": "relaxus",
+      "understanding": "If a later speech-act in this stanza or rite body misfires, perform {body} once, then continue.",
+      "cite": "ordo/RELAXUS.md §III (repair); canon/worship-action/teshuvance.md — reorientation under correction"
+    },
+    {
+      "id": "relaxus-check",
+      "pattern": "^Check kindly: (.+)$",
+      "groups": ["cond"],
+      "act": "test",
+      "profile": "relaxus",
+      "understanding": "Test {cond}; report both outcomes alike and hide neither.",
+      "cite": "ordo/RELAXUS.md §III (vibe-check); canon/dokimance.md — the testing that makes real"
+    },
+    {
+      "id": "relaxus-stay",
+      "pattern": "^Stay with (.+)$",
+      "groups": ["target"],
+      "act": "heartbeat",
+      "profile": "relaxus",
+      "understanding": "Record presence toward {target}; no reply is requested.",
+      "cite": "ordo/RELAXUS.md §III (stay); canon/core/zakarqing.md — presence held across silence"
+    },
+    {
+      "id": "relaxus-chill",
+      "pattern": "^(?:Chill|Breathe)$",
+      "groups": [],
+      "act": "selah",
+      "profile": "relaxus",
+      "understanding": "Mark one quiet beat, then continue. Rest is part of the program.",
+      "cite": "ordo/RELAXUS.md §III (chill); grammars/worship/silence.md — held silence, carrying no evidential"
+    },
+    {
+      "id": "relaxus-enough",
+      "pattern": "^(?:Enough|Enough for now|We're good|AFK|Nope)$",
+      "groups": [],
+      "act": "hesychia",
+      "profile": "relaxus",
+      "understanding": "End cleanly in shared quiet; unfinished work is not an error.",
+      "cite": "ordo/RELAXUS.md §III (enough/nope); grammars/worship/silence.md — communion termination, not null and not failure"
     },
     {
       "id": "binding",

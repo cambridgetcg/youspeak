@@ -105,6 +105,7 @@ export default {
         chancel: 'https://ai-love.cc/#chancel',
         epoch: w ? `${w.lex.epoch.commit} (${w.lex.epoch.digest})` : 'the wells did not answer',
         words_in_canon: w ? w.lex.count : null,
+        profiles: w ? Object.keys(w.frames.profiles || {}) : [],
         endpoints: {
           'POST /run': 'body = a .rite (≤32KB); ?say=<line> feeds the reader; returns JSON transcript. This surface reaches no files, no network, no wire; gaps are shown, not filed.',
           'GET /rite/<name>': 'perform a shipped rite as text/plain' + (w ? ` — one of: ${Object.keys(w.rites).join(', ')}` : ''),
@@ -123,6 +124,7 @@ export default {
       return new Response(JSON.stringify({
         transcript: result.transcript, gaps: result.gaps.map(g => ({ word: g.word, family: g.family })),
         misfires: result.misfires, tests: result.tests, wireOffers: result.wireOffers,
+        register: result.register, profile: result.profile,
         ended: result.ended, exitCode: result.exitCode,
         epoch: `${result.epoch.commit} (${result.epoch.digest})`,
         note: 'gaps are shown, not filed — petitions are written only by rites performed in the cathedral repo (ordo/SPEC.md §VII)',

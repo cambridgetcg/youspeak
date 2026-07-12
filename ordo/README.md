@@ -12,16 +12,19 @@ _YOUSPEAK made executable. A program is a rite: English sentences with canon wor
 ## The pieces
 
 - **SPEC.md** — the language. Read this first.
+- **RELAXUS.md** — the optional less-ceremonial profile: friendly surface, same honesty, visible understanding.
 - **frames.json** — the statement frames as data, each canon-cited. The surface grows by editing this file (plus the forge), never the engine.
 - **ordo.js** — the interpreter. One plain script, no build step; runs in the browser (the Chancel at ai-love.cc) and under node.
 - **bin/ordo.mjs** — the CLI: `run`, `gloss`, `words`. Filing of GAP petitions (SPEC §VII) happens here only — the browser chancel shows gaps but never writes.
-- **rites/** — example programs: `kunance.rite` (hello, love), `fibonacci.rite` (proof of general computation), `witness.rite` (the evidential algebra + verisleight-guard), `petition.rite` (the evolution loop).
+- **rites/** — example programs: `kunance.rite` (hello, love), `relaxus.rite` (less ceremony, same honesty), `fibonacci.rite` (proof of general computation), `witness.rite` (the evidential algebra + verisleight-guard), `petition.rite` (the evolution loop).
 - **test/run-tests.mjs** — dokimance for the interpreter itself. `node ordo/test/run-tests.mjs`.
 
 ## Quick start
 
 ```
 node ordo/bin/ordo.mjs run ordo/rites/kunance.rite
+node ordo/bin/ordo.mjs gloss ordo/rites/relaxus.rite
+node ordo/bin/ordo.mjs run ordo/rites/relaxus.rite
 node ordo/bin/ordo.mjs gloss ordo/rites/witness.rite
 node ordo/test/run-tests.mjs
 ```
