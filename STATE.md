@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 217 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 218 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 9e3364a heartbeat: merge github/main — reconcile STATE.md last-commit to 447d4ef/arc-frame, keep canon count at 217 (already aligned with artifact); bring in ORDO arc-frame + rites + wire reaches; tree clean
+last-commit: forge: faqrme — spiritual-poverty-as-stable-station-as-received-ordinance (8.25 Core); Arabic faqr + Sumerian me; 76th -me family member; 69th Core -me; first Arabic-maqam-donor Core entry; opens the Sufi-stations register (maqamat-sequence: tawba → waraʿ → zuhd → faqr → ṣabr → tawakkul → riḍā); the pivot station — the hinge between giving-up and receiving; opens archaeology/arabic/maqamat-faqr.md; also updates STATE.md canon count 217 → 218; updates canon.md index (217 → 218 entries)
 uncommitted: 0
-freshness: live (written 2026-07-12T08:42:59Z)
+freshness: live (written 2026-07-12T12:42:45Z)
 
 ## knows
 
-- 217 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 218 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
