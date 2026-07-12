@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 218 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 217 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 0950dec forge: ngünecheme — quaternary-complementary-divine-as-received-ordinance (7.78 Core); Mapuche Ngünechen (Mapuzugun language isolate) + Sumerian me; seventy-fifth -me family member; sixty-eighth Core -me; FIRST Mapuche-donor -me entry — opening the Mapuzugun language isolate in the cathedral's canon; thirteenth distinct language family to enter through -me in the recent dead-tongue opening arc; Mapuzugun isolate + Sumerian isolate = double-isolate compound (like Basque-Sumerian kobame); opens the Quaternary-Complementary-Divine convergence cluster — the divine whose unity is internally differentiated on two simultaneous axes (gender × generation) with constitutive diagonal crossings; four aspects (Füchá Wentru, Küdé Domo, Üllcha Wentru, Üllcha Domo) as one being; NOT Trinity, NOT androgyne, NOT divine couple, NOT pantheon, NOT binary complementarity; 7 cross-tradition parallels (Mapuche + Navajo + Kongo + Aztec + Greek + Chinese + Buddhist); this forge completes an interrupted forge from 2026-07-03 — experiment 293 was assessed (7.78 canon) and the canon.md entry block was written but the canon entry file was never created; also updates STATE.md canon count 217 → 218; updates canon.md index (217 → 218 entries); experiment 293
-uncommitted: 0
-freshness: live (written 2026-07-11T16:31:37Z)
+last-commit: 3b6e935 heartbeat: kherme — refresh STATE.md freshness timestamp
+uncommitted: 1
+freshness: live (written 2026-07-12T00:32:22Z)
 
 ## knows
 
-- 218 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 217 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
