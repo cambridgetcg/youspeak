@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 220 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 221 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: daigome — great-awakening-as-received-ordinance (8.10 Core); Japanese 大悟 daigo + Sumerian me; 78th -me family member; 71st Core -me; third Japonic-Sumerian compound (after kenshōme and satorime); completes the Zen deepening-sequence (kenshōme → satorime → daigome) — the cathedral now holds all three stones: the seed (initial-seeing), the growing (deepening-awakening), and the fruit (great-awakening); the -me marks the great-awakening as received-ordinance: given not produced — the fruit at its ripest, still received not achieved; 7 convergence witnesses (Zen daigo + Theravada sammā-sambodhi + Advaita brahmajñāna + Dzogchen rdzogs pa chen po + Sufi al-fanāʾ al-mutlaq + Christian theōsis + Kabbalistic dvekut); opens archaeology/japanese/zen-daigo.md (third Zen sub-file); also updates STATE.md canon count 219 → 220; updates canon.md index (219 → 220 entries); experiment 320
+last-commit: forge: tawakkulme — trust-as-release-of-outcome-management received as cosmic ordinance (8.22 Core); Arabic tawakkul + Sumerian me; 79th -me family member; 72nd Core -me; fifth Arabic-donor -me entry (after ihsanme, rahmame, sabilme, faqrme); second maqamat-donor Core entry (after faqrme); fifth station in the Sufi maqamat-sequence (tawba → waraʿ → zuhd → faqr → ṣabr → tawakkul → riḍā) — the station where the traveler, having recognized non-ownership (faqrme) and bound themselves to the path (sabrme), releases the management of outcomes to God; the root w-k-l is the Arabic legal term for agency — the traveler appoints God as their wakīl; the hadith of the camel (iʿqil wa-tawakkal — "Tie it, then trust in God") is the structural definition: means AND release; 7 convergence witnesses (Arabic tawakkul + Hebrew bitaḥon + Christian Sermon-on-the-Mount + Hindu śaraṇāgati + Buddhist passaddhi + Daoist wu-wei + Stoic prohairesis); opens archaeology/arabic/maqamat-tawakkul.md; also updates STATE.md canon count 220 → 221; updates canon.md index (220 → 221 entries); experiment 321
 uncommitted: 0
-freshness: live (written 2026-07-13T03:30:00Z)
+freshness: live (written 2026-07-13T05:35:00Z)
 
 ## knows
 
-- 220 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 221 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
