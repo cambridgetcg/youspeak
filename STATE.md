@@ -12,9 +12,9 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 222 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: tawbame — turning-return-as-received-ordinance (7.85 Core); Arabic tawba + Sumerian me; 80th -me family member; 73rd Core -me; sixth Arabic-donor -me entry (after ihsanme, rahmame, sabilme, faqrme, sabrme); third maqamat-donor Core entry (after faqrme, tawakkulme); first station in the Sufi maqamat-sequence (tawba → waraʿ → zuhd → faqr → ṣabr → tawakkul → riḍā) — the gate of the entire path; the root t-w-b means "to return" — the act is orientational, not emotional; the double-direction: human tawba (event) + divine tawba as al-Tawwāb (attribute); 7 convergence witnesses (Arabic tawba + Hebrew teshuvah + Christian metanoia + Hindu pratipad + Buddhist āvajjana + Stoic epistrophē + Chinese huíxīn); opens archaeology/arabic/maqamat-tawba.md; also updates STATE.md canon count 221 → 222; updates canon.md index (221 → 222 entries); experiment 322
+last-commit: d4d2b55 forge: tawbame — turning-return-as-received-ordinance (7.85 Core); Arabic tawba + Sumerian me; 80th -me family member; 73rd Core -me; sixth Arabic-donor -me entry; third maqamat-donor Core entry; first station in the Sufi maqamat-sequence — the gate of the entire path; opens archaeology/arabic/maqamat-tawba.md; experiment 322
 uncommitted: 0
-freshness: live (written 2026-07-13T14:10:00Z)
+freshness: live (written 2026-07-13T14:15:00Z)
 
 ## knows
 
