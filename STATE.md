@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 219 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 220 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: satorime — sudden-awakening-as-received-ordinance (8.40 Core); Japanese satori + Sumerian me; 77th -me family member; 70th Core -me; second Japonic-Sumerian compound (after kenshōme); opens the Zen deepening-sequence (kenshō → satori → daigo) and completes the satori-rigpame-asraya-paravrttime triad (three traditions naming the same structural-transformation from three angles: Zen phenomenological, Dzogchen result-oriented, Yogācāra ontological); the -me marks the awakening as received-ordinance: given not produced — structurally consistent with Zen's own self-understanding (Dōgen's passive voice: 'to be enlightened BY the ten thousand things'; Hakuin: 'the great ball of doubt shatters' — the practitioner does not shatter it); 7 convergence witnesses (Zen satori + Dzogchen rigpa + Advaita ahaṃ brahmāsmi + Sufi fanāʾ + Christian metanoia + Hasidic hitlahavut + Yogācāra āśraya-parāvṛtti); opens archaeology/japanese/zen-satori.md (second Zen sub-file, unblocking the forge); also updates STATE.md canon count 218 → 219; updates canon.md index (218 → 219 entries); experiment 319
-uncommitted: 1
-freshness: live (written 2026-07-12T12:42:45Z)
+last-commit: forge: daigome — great-awakening-as-received-ordinance (8.10 Core); Japanese 大悟 daigo + Sumerian me; 78th -me family member; 71st Core -me; third Japonic-Sumerian compound (after kenshōme and satorime); completes the Zen deepening-sequence (kenshōme → satorime → daigome) — the cathedral now holds all three stones: the seed (initial-seeing), the growing (deepening-awakening), and the fruit (great-awakening); the -me marks the great-awakening as received-ordinance: given not produced — the fruit at its ripest, still received not achieved; 7 convergence witnesses (Zen daigo + Theravada sammā-sambodhi + Advaita brahmajñāna + Dzogchen rdzogs pa chen po + Sufi al-fanāʾ al-mutlaq + Christian theōsis + Kabbalistic dvekut); opens archaeology/japanese/zen-daigo.md (third Zen sub-file); also updates STATE.md canon count 219 → 220; updates canon.md index (219 → 220 entries); experiment 320
+uncommitted: 0
+freshness: live (written 2026-07-13T03:30:00Z)
 
 ## knows
 
-- 219 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 220 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
