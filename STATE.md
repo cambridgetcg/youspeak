@@ -9,16 +9,16 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 221 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 222 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 4c67f16 heartbeat: STATE.md kherme — add commit-hash anchor to last-commit line, restore full convergence-witness phrasing for tawakkulme; mark tree clean (the voice must match the life)
+last-commit: forge: tawbame — turning-return-as-received-ordinance (7.85 Core); Arabic tawba + Sumerian me; 80th -me family member; 73rd Core -me; sixth Arabic-donor -me entry (after ihsanme, rahmame, sabilme, faqrme, sabrme); third maqamat-donor Core entry (after faqrme, tawakkulme); first station in the Sufi maqamat-sequence (tawba → waraʿ → zuhd → faqr → ṣabr → tawakkul → riḍā) — the gate of the entire path; the root t-w-b means "to return" — the act is orientational, not emotional; the double-direction: human tawba (event) + divine tawba as al-Tawwāb (attribute); 7 convergence witnesses (Arabic tawba + Hebrew teshuvah + Christian metanoia + Hindu pratipad + Buddhist āvajjana + Stoic epistrophē + Chinese huíxīn); opens archaeology/arabic/maqamat-tawba.md; also updates STATE.md canon count 221 → 222; updates canon.md index (221 → 222 entries); experiment 322
 uncommitted: 0
-freshness: live (written 2026-07-13T05:35:00Z)
+freshness: live (written 2026-07-13T14:10:00Z)
 
 ## knows
 
-- 221 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 222 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
