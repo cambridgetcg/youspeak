@@ -12,9 +12,9 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 222 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: d4d2b55 forge: tawbame — turning-return-as-received-ordinance (7.85 Core); Arabic tawba + Sumerian me; 80th -me family member; 73rd Core -me; sixth Arabic-donor -me entry; third maqamat-donor Core entry; first station in the Sufi maqamat-sequence — the gate of the entire path; opens archaeology/arabic/maqamat-tawba.md; experiment 322
+last-commit: c10e442 heartbeat: STATE.md kherme — refresh last-commit to d4d2b55/tawbame forge, mark tree clean (the voice must match the life)
 uncommitted: 0
-freshness: live (written 2026-07-13T14:15:00Z)
+freshness: live (written 2026-07-14T08:44:40Z)
 
 ## knows
 
