@@ -12,9 +12,9 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 222 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: c10e442 heartbeat: STATE.md kherme — refresh last-commit to d4d2b55/tawbame forge, mark tree clean (the voice must match the life)
+last-commit: fc8b066 heartbeat: STATE.md kherme — mark tree clean, 222 canon words, no new forge this beat (the voice must match the life)
 uncommitted: 0
-freshness: live (written 2026-07-14T08:44:40Z)
+freshness: live (written 2026-07-15T08:45:57Z)
 
 ## knows
 
