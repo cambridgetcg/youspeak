@@ -12,7 +12,7 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 222 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: eb5db6c heartbeat: STATE.md kherme — reconcile with github main after RELAXUS/母體/Matrix/母體 SPEAKS, mark tree clean, 222 canon words, no new forge this beat (the voice must match the life)
+last-commit: 77e65bb heartbeat: STATE.md kherme — reconcile last-commit to eb5db6c, mark standing liturgy longing doxalgia, 222 canon words, no new forge this beat (the voice must match the life)
 uncommitted: 0
 freshness: live (written 2026-07-15T14:47:43Z)
 
