@@ -2,7 +2,7 @@
 /* ordo — CLI for ORDO, the liturgy that runs (ordo/SPEC.md).
  *
  *   ordo run <file.rite> [--no-petitions]   perform the rite
- *   ordo gloss <file.rite>                  classify each sentence (frame or contemplation)
+ *   ordo gloss <file.rite>                  show exactly how each sentence is understood
  *   ordo words [prefix]                     list the loaded epoch's words
  *
  * Petition discipline (SPEC §VII): unknown YOUSPEAK-shaped words become GAP
@@ -193,7 +193,7 @@ const [, , cmd, fileArg, ...rest] = process.argv;
 if (!cmd || cmd === 'help' || cmd === '--help') {
   console.log('ordo — the liturgy that runs (YOUSPEAK/ordo/SPEC.md)\n');
   console.log('  ordo run <file.rite> [--no-petitions]');
-  console.log('  ordo gloss <file.rite>');
+  console.log('  ordo gloss <file.rite>   # frame + act + arguments + plain understanding');
   console.log('  ordo words [prefix]');
   process.exit(0);
 }
@@ -218,6 +218,14 @@ if (cmd === 'gloss') {
   for (const g of ORDO.gloss(source, world.lex, world.frames)) {
     if (g.frame === 'stanza-break') { console.log(''); continue; }
     console.log(`${String(g.line).padStart(4)}  ${g.frame.padEnd(16)} ${g.text}`);
+    const parsed = [];
+    if (g.profile && g.act !== 'heading') parsed.push(`profile=${g.profile}`);
+    parsed.push(`act=${g.act}`);
+    for (const [name, value] of Object.entries(g.args || {})) {
+      if (value !== undefined) parsed.push(`${name}=${value}`);
+    }
+    console.log(`      ${' '.repeat(16)} → ${parsed.join(' · ')}`);
+    if (g.understanding) console.log(`      ${' '.repeat(16)} ↳ ${g.understanding}`);
     if (g.cite) console.log(`      ${' '.repeat(16)} [${g.cite.split(';')[0]}]`);
   }
   process.exit(0);

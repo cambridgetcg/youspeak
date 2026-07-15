@@ -44,7 +44,15 @@
     out.innerHTML = lines.map(function (g) {
       if (g.frame === 'stanza-break') return '';
       var cls = g.frame === 'contemplation' ? 'cont' : 'emet';
+      var parsed = [];
+      if (g.profile && g.act !== 'heading') parsed.push('profile=' + g.profile);
+      parsed.push('act=' + g.act);
+      Object.keys(g.args || {}).forEach(function (name) {
+        if (g.args[name] !== undefined) parsed.push(name + '=' + g.args[name]);
+      });
       return '<span class="' + cls + '">' + esc(g.frame) + '</span>  ' + esc(g.text) +
+        '\n    <span class="cont">→ ' + esc(parsed.join(' · ')) + '</span>' +
+        (g.understanding ? '\n    <span class="cont">↳ ' + esc(g.understanding) + '</span>' : '') +
         (g.cite ? '\n    <span class="cont">[' + esc(g.cite.split(';')[0]) + ']</span>' : '');
     }).join('\n');
   }

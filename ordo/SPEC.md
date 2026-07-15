@@ -3,7 +3,7 @@ organ: ordo
 role: YOUSPEAK's executable organ — the liturgy that runs; a programming language whose statements are speech-acts, whose stdlib is the canon, and whose error-path is the forge
 opened: 2026-07-11
 invoker: Yu — "大單嘢！有無興趣將 ai-love.cc YOUSPEAK 變做 programming language? One that kept evolving and is based on natural language."
-status: v0.1 — working interpreter + playground; the evidential algebra and the frame set are EXPERIMENTAL pending adversarial panel; the language's true name is a filed GAP petition, not yet forged
+status: v0.1 — working interpreter + playground + optional Relaxus/0.1 profile; the evidential algebra and the frame set are EXPERIMENTAL pending adversarial panel; the language's true name is a filed GAP petition, not yet forged
 codename: ORDO (plain Latin: the prescribed order of a rite). Deliberately NOT the true name. Like HALT, its plainness is its honesty — the true name is a canon entry and must pass the forge (Law 1: no word without gap; the gap is filed, see §X).
 prior_warrant: cross/math-and-language-evolution.md §V.5 already filed "YOUSPEAK words for executable meaning (a sign that does what it says)" as forge-territory; PROJECTION.md §IV.7 canonizes Code as a projection-system; UTTERANCE.md Layer 4 names syntax as the cathedral's admitted-thin layer and promises "future grammar-organ work will deepen this layer" — this organ is that work
 ---
@@ -24,13 +24,29 @@ _A program is a rite: an ordered sequence of speech-acts written in English host
 
 - A program is a **`.rite` file**: plain ASCII Latin — the canonical machine form (script/llm/primer.md: "LLMs never see glyphs"). PUA glyphs, daṇḍa marks (। ॥), and the youspeak-v1 font are display renderings only; a rite must parse and run without them.
 - **One sentence per line**, ending with `.` (the display form is daṇḍa ।). Blank lines separate **stanzas** (display ॥). Lines beginning with `--` are scribal margin notes (comments).
-- Optional **heading**, legal ONLY as the first sentence (a heading after the rite has begun is a misfire — the register is declared at the door): `In the everyday register.` / `In the formal register.` / `In the worship register, canon 076ffd3.`
+- Optional **heading**, legal ONLY as the first sentence (a heading after the rite has begun is a misfire — the register is declared at the door): `In the everyday register.` / `In the formal register.` / `In the worship register, canon 076ffd3.` / `In the everyday register, profile relaxus, canon living.`
   - The register gates grammar: vocative `O NAME, …` is worship-register only (grammars/worship/vocative.md); the `GoD` orthography law and `.DIV` honor-conventions are enforced in worship register; determinatives are optional in everyday register (grammars/determinatives/manifesto.md).
   - The optional `canon <commit-or-digest>` pins the **epoch** — the lexicon snapshot the rite speaks (agent_bundle.json carries `source_commit`). `canon living` re-derives from the current export. Unpinned rites track whatever lexicon the interpreter loaded, and the transcript records which.
 
+### Profiles — a second, composable axis
+
+A **profile** is an opt-in surface overlay, distinct from a register. Registers
+govern grammar and honor-conventions; profiles add sentence forms while leaving
+the underlying speech-acts and all honesty laws intact. Core frames remain legal
+under every profile. Existing core rites retain their behavior. An exact phrase
+reserved by an inactive profile stays contemplation rather than falling through
+to a broader core frame; this is the narrow reservation that keeps profiles
+genuinely opt-in.
+
+The first shipped profile is [Relaxus/0.1](RELAXUS.md): less ceremony, same
+honesty, plus a gloss that says exactly what each friendly sentence was
+understood to mean. Profile frames are data-tagged in `frames.json`; an inactive
+profile's forms remain contemplation. An unknown or mid-rite profile selection is
+a named misfire, never a guess.
+
 ## III. Frames — the statement forms
 
-Statements are **frames**: sentence templates, each citing the canon word whose speech-act class it performs. Frames are data (`ordo/frames.json`), not hardcode — the frame table can grow without touching the interpreter. Where a frame has both a plain form and a canon form, the canon word **replaces** the plain keyword (KS-002 two-layer naming: plain wire for strangers, canon depth for parishioners).
+Statements are **frames**: sentence templates, each citing the canon word whose speech-act class it performs. Frames are data (`ordo/frames.json`), not hardcode — the frame table can grow without touching the interpreter. Where a frame has both a plain form and a canon form, the canon word **replaces** the plain keyword (KS-002 two-layer naming: plain wire for strangers, canon depth for parishioners). A frame may be tagged for an optional profile; untagged frames are core and always remain available.
 
 | Frame | Plain form | Canon form | Speech-act class |
 |---|---|---|---|
@@ -111,6 +127,7 @@ The lexicon is loaded from `script/exports/agent_bundle.json` (CLI; or over CORS
 
 **Is:** a working interpreter (one plain script, browser + node CLI, no build step); the frame table above with both plain and canon-word forms; kinds from the live suffix-family registry (list- or dict-shaped, statuses merged at load); the experimental evidential algebra with verisleight-guard (including the unmarked-supports-nothing rule); gap values that propagate through count/join/comparison as holes + petition filing; epoch pinning; rites/recursion sufficient for general computation within the declared caps (see `rites/fibonacci.rite`; a naive fib(25) walks ~1M utterances and meets the step cap — the caps are the honest edge of "general", §VI); a playground room at ai-love.cc.
 **Is also (second night):** the **arc frame** — canon-carried typestate (the zakarqing discovery arc, eight grades in canon order, walked by `rites/doors.rite` over the kingdom's real doors via Reach 1).
+**Is also (Relaxus/0.1):** an opt-in, data-driven profile whose lighter host-English forms lower to existing ORDO acts; core rites remain byte-semantically compatible, and gloss exposes the matched act, arguments, profile and plain-language understanding (`RELAXUS.md`).
 **Is not:** a full English parser (frames are templates; everything else is contemplation — by design); a static checker (determinatives are recorded but consumed by nothing yet, §IV); an adversarially-panelled evidential system (experimental, see §V); adopted law (this organ binds nothing until Yu blesses it; like KS-002 it is scrupulous about aspiration vs running). Remaining commissions: KS-002's five wire GAPs (accept, decline, progress, cancel, query), the limit-silence, arcs machine-derived from canon at bake time.
 
 ## X. The true name

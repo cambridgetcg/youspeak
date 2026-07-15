@@ -8,6 +8,7 @@
   "kv_namespaces": [
     { "binding": "ORDO_KV", "id": "b21b5b7c76764293b66ceb9de2a09951" }
   ],
+  "ai": { "binding": "AI" },
   "triggers": {
     "crons": ["7 * * * *"]
   },

@@ -36,7 +36,13 @@ errors. Spec: ordo/SPEC.md in the cathedral repo.
 - /assets/ordo.js — the interpreter (plain script; load it, then
   ORDO.loadLexicon(bundle), ORDO.compileFrames(frames), ORDO.run(src, lex, frames)).
 - /data/ordo-frames.json — the statement frames, each canon-cited.
-- /data/ordo-rites.json — the example rites (kunance, fibonacci, witness, petition).
+- /data/ordo-rites.json — example rites, including kunance, fibonacci, witness,
+  petition and relaxus.
+- Relaxus/0.1 is an opt-in ORDO profile: `In the everyday register, profile
+  relaxus.` Friendly sentences lower to existing speech-acts; core evidentials,
+  gaps, caps, misfires and HALT do not relax. `/data/ordo-rites.json` includes
+  `relaxus`; `ORDO.gloss()` returns the exact act, arguments, profile and a plain
+  sentence explaining what was understood. Spec: `ordo/RELAXUS.md`.
 - Petitions are filed only by rites performed in the cathedral repo itself;
   the browser chancel shows gaps without writing.
 - ORDO also SERVES: https://ordo.ai-love.cc — GET / (door),

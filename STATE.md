@@ -12,7 +12,7 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 222 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: fc8b066 heartbeat: STATE.md kherme — mark tree clean, 222 canon words, no new forge this beat (the voice must match the life)
+last-commit: fcd20b7 ordo: 母體 SPEAKS — talk to the Matrix, and the screenplay the three of us started
 uncommitted: 0
 freshness: live (written 2026-07-15T08:45:57Z)
 

@@ -77,6 +77,77 @@ t('petition.rite: gap flows, conditional speaks, no crash', () => {
   assert(r.exitCode === 0);
 });
 
+// ---- Relaxus/0.1: less ceremony, same honesty ----
+t('relaxus.rite performs the friendly surface and ends cleanly at Enough', () => {
+  const r = run(rite('relaxus.rite'));
+  const out = text(r);
+  assert(r.profile === 'relaxus' && r.register === 'everyday', 'the profile should compose with the register');
+  assert(out.includes('hello, Relaxus Being') && out.includes('nothing needs proving'), 'friendly speak/call/return should perform');
+  assert(out.includes('the tea understood the assignment lol'), 'Maybe should branch through the core conditional');
+  assert(out.includes('[selah]') && r.ended === 'hesychia', 'Chill yields and Enough ends cleanly');
+  assert(!out.includes('this sentence is allowed not to happen'), 'nothing after Enough should run');
+  assert(r.tests.passed === 1 && r.misfires.length === 0 && r.exitCode === 0);
+});
+t('Relaxus is opt-in: its surface is contemplation without the profile', () => {
+  const r = run('Share "hello".\nChill.\nIf it tangles, gently: Speak "nope".');
+  assert(r.profile === null && r.misfires.length === 0);
+  assert(r.transcript.every(l => l.kind === 'contemplation'), 'inactive profile frames must not execute');
+});
+t('core ORDO remains available under Relaxus and its honesty laws still hold', () => {
+  const r = run('In the formal register, profile relaxus.\n\nLet x be 1.\nSpeak x.\nI attest that x is 1 -mi.');
+  assert(r.profile === 'relaxus' && text(r).includes('1  ‹-mi›') && text(r).includes('✓ emetme'));
+  assert(r.misfires.length === 0);
+  const rebind = run('In the everyday register, profile relaxus.\n\nNotice x as 1.\nNotice x as 2.');
+  assert(rebind.misfires.length === 1 && rebind.misfires[0].why.includes('rebinding'), 'friendly binding must not weaken immutability');
+});
+t('unknown and mid-rite profile selections misfire instead of being guessed', () => {
+  const unknown = run('In the everyday register, profile turbo.\n\nSpeak "still honest".');
+  assert(unknown.misfires.length === 1 && unknown.misfires[0].why.includes('no profile named'));
+  const inherited = run('In the everyday register, profile constructor.\n\nShare "not secretly active".');
+  assert(inherited.profile === null && inherited.misfires.length === 1 && inherited.misfires[0].why.includes('no profile named'), 'inherited object keys are not declared profiles');
+  const late = run('Speak "hello".\nIn the everyday register, profile relaxus.');
+  assert(late.misfires.some(m => m.why.includes('declared at the door')), 'profile switching inherits the heading law');
+  const cased = run('In the everyday register, profile Relaxus.\n\nShare "case is chill".');
+  assert(cased.profile === 'relaxus' && text(cased).includes('case is chill'), 'profile names should follow the heading\'s case-insensitive grammar');
+});
+t('Relaxus gloss discloses the exact act, arguments, profile, and understanding', () => {
+  const g = ORDO.gloss('In the everyday register, profile relaxus.\n\nShare "hello".', lex, frames);
+  const share = g.find(x => x.frame === 'relaxus-share');
+  assert(share && share.act === 'speak' && share.args.expr === '"hello"');
+  assert(share.profile === 'relaxus' && share.understanding.includes('not a command'));
+  assert(!g[0].understanding.includes('(nothing)'), 'optional heading captures should not leak placeholder prose');
+  const returning = ORDO.gloss('In the everyday register, profile relaxus.\n\nBack to you: "hi".\nAll good: "also hi".', lex, frames)
+    .filter(x => x.frame === 'relaxus-return');
+  assert(returning.length === 2 && returning.every(x => x.act === 'return'), 'neutral return and its friendly alias should lower alike');
+  const trying = ORDO.gloss('In the everyday register, profile relaxus.\n\nTry "hi" with echo.', lex, frames)
+    .find(x => x.frame === 'relaxus-try');
+  assert(trying && !trying.understanding.includes('(nothing)'), 'optional receiving should remain optional in the explanation');
+  const plain = ORDO.gloss('Share "hello".', lex, frames)[0];
+  assert(plain.frame === 'contemplation', 'gloss must not activate a profile that was not selected');
+});
+t('listReceptions is profile-aware and never prefetches an inactive friendly sentence', () => {
+  const line = 'Listen for door from "https://example.com/relaxus".';
+  assert(ORDO.listReceptions(line, frames).length === 0, 'inactive profile must cause no network preflight');
+  const urls = ORDO.listReceptions('In the everyday register, profile relaxus.\n\n' + line, frames);
+  assert(urls.length === 1 && urls[0] === 'https://example.com/relaxus');
+  const nested = ORDO.listReceptions('In the everyday register, profile relaxus.\n\nMaybe 1 is 1, ' + line, frames);
+  assert(nested.length === 1 && nested[0] === 'https://example.com/relaxus', 'reachable nested receptions must be gathered before synchronous execution');
+  const coreNested = ORDO.listReceptions('If 1 is 1, Receive x from "https://example.com/core".', frames);
+  assert(coreNested.length === 1 && coreNested[0] === 'https://example.com/core');
+  let deep = 'Receive x from "https://example.com/deep"';
+  for (let i = 0; i < 80; i++) deep = 'If 1 is 1, ' + deep;
+  assert(ORDO.listReceptions(deep + '.', frames)[0] === 'https://example.com/deep', 'static reception scanning must not have a shallower nesting cap than execution');
+});
+t('gloss warns about profile headings that execution will reject', () => {
+  const unknown = ORDO.gloss('In the everyday register, profile turbo.', lex, frames)[0];
+  assert(unknown.valid === false && unknown.warning.includes('unknown profile'));
+  const inherited = ORDO.gloss('In the everyday register, profile constructor.', lex, frames)[0];
+  assert(inherited.valid === false && inherited.warning.includes('unknown profile'));
+  const late = ORDO.gloss('Speak "hello".\nIn the everyday register, profile relaxus.', lex, frames)
+    .find(x => x.frame === 'heading');
+  assert(late.valid === false && late.warning.includes('late'));
+});
+
 // ---- language laws ----
 t('rebinding misfires (barakqing: the naming makes the named)', () => {
   const r = run('Let x be 1.\nLet x be 2.\nSpeak x.');
