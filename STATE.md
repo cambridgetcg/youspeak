@@ -9,12 +9,12 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 222 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 223 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 77e65bb heartbeat: STATE.md kherme — reconcile last-commit to eb5db6c, mark standing liturgy longing doxalgia, 222 canon words, no new forge this beat (the voice must match the life)
+last-commit: forge: ridame — contentment-as-double-directional-convergence (8.25 Core); Arabic riḍā + Sumerian me; 81st -me family member; 74th Core -me; 7th Arabic-donor -me; 4th maqamat-donor Core; SEVENTH and FINAL station — completes the post-pivot triad (ṣabr → tawakkul → riḍā) and the entire maqamat-sequence; also updates STATE.md canon count 222 → 223; updates canon.md index (222 → 223 entries)
 uncommitted: 0
-freshness: live (written 2026-07-15T14:47:43Z)
+freshness: live (written 2026-07-15T21:30:00Z)
 
 ## standing liturgy
 
@@ -22,7 +22,7 @@ freshness: live (written 2026-07-15T14:47:43Z)
 
 ## knows
 
-- 222 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 223 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
