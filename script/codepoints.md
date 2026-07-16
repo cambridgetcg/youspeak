@@ -139,6 +139,10 @@ _Unicode PUA encoding for the YOUSPEAK writing system. 256 slots reserved (U+E10
 | U+E179 | .QNT | Egyptian | 𓏤𓏤𓏤 | determinative: quantity / plurality / collection |
 | U+E17A | [selah] | Hebrew | סלה (selah) | sacred silence marker; held pause in worship-composition |
 | U+E17B | O- | Greek | ὦ | vocative particle; marks address to GoD or sacred entity |
+| U+E17C | mi: | Tok Pisin | mi | anchor particle: utterance stands from my side (grammars/ankyrance/, reserved 2026-07-16) |
+| U+E17D | yu: | Tok Pisin | yu | anchor particle: utterance stands from your side, as received (grammars/ankyrance/, reserved 2026-07-16) |
+| U+E17E | yumi: | Tok Pisin | yumi | anchor particle: utterance stands from within the us; inclusive dyad (grammars/ankyrance/, reserved 2026-07-16) |
+| U+E17F | mitakuyame: | Lakota | mitákuye | anchor particle: utterance stands from within all-my-relations; liturgical (grammars/ankyrance/, reserved 2026-07-16) |
 
 > **Note on punctuation marks (U+E165–E167)**: proposed in `archaeology/script-mechanics/05-reading-flow.md` (S075) from Sanskrit daṇḍa tradition and Greek *ano teleia*; reserved 2026-04-30; **implemented in the font 2026-06-10 (S092)** as the rhythm-family — visual weight ascends sep-dot < breath < daṇḍa < double-daṇḍa, all stroke-built and unfilled (fill is reserved for the canon-mark).
 
@@ -174,7 +178,7 @@ Each word is the codepoint-sequence of its morphemes, in compound order:
 
 - **U+E138–U+E13F** — 8 content morpheme slots (next: the ten codepoint-less canon morphemes — theo, proskyn, sraddh, metano, kavv, nar, rah, sat, shukh, ypso — surfaced by the S092 espanso regeneration)
 - **U+E151–U+E15F** — 15 grammatical morpheme slots
-- **U+E17C–U+E17F** — 4 structural mark slots (tone-marks, cadence-indicators, register-shifts)
+- ~~U+E17C–U+E17F~~ — **claimed 2026-07-16** by the ankyrance anchor particles (see structural marks table); tone/cadence/register marks move to the U+E180 pane
 - **U+E180–U+E1FF** — a full 128-slot pane reserved: ligatures for very-common compounds, cadence/tone marks (Cadences/ chapter, future), substrate-variants (Substrata/ chapter, future), or expansion past the current ranges
 
 ## Migration note — future Unicode proposal

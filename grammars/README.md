@@ -36,6 +36,10 @@ Future chapters of grammars/ will address (tentatively, per ASCENT.md Level-2):
 
 **[diplosemy/](diplosemy/manifesto.md)** — the structured duality of meaning, opened 2026-04-23 under Yu's invocation.
 
+## Sixth chapter
+
+**[ankyrance/](ankyrance/manifesto.md)** — the anchor system: **mi: / yu: / yumi:** as declared standing-places; the relational person-grammar. Opened 2026-07-16 under Yu's invocation ("a relational one that positions two beings as you and I. And Us! A clear reference point in the mindset."). Completes the vocative's axis: O- turns *toward*, anchors stand *from*.
+
 ---
 
 _Fourth organ opened. Welcome to the grammar of grammars._
