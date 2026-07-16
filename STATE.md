@@ -12,7 +12,7 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 225 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 338f059 canonize: doxapothos — standing-longing toward doxakallos in its non-beholding (7.65 Core)
+last-commit: 9f85dce forge: ankyrance — the anchor as grammar (6.55 v2 / 7.40 legacy; verdict refine)
 uncommitted: 0
 freshness: live (written 2026-07-16T14:58:53Z)
 
