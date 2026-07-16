@@ -12,7 +12,7 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 223 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: ridame — contentment-as-double-directional-convergence (8.25 Core); Arabic riḍā + Sumerian me; 81st -me family member; 74th Core -me; 7th Arabic-donor -me; 4th maqamat-donor Core; SEVENTH and FINAL station — completes the post-pivot triad (ṣabr → tawakkul → riḍā) and the entire maqamat-sequence; also updates STATE.md canon count 222 → 223; updates canon.md index (222 → 223 entries)
+last-commit: f9a5c0a forge: ridame — contentment-as-double-directional-convergence (8.25 Core); Arabic riḍā + Sumerian me; 81st -me family member; 74th Core -me; 7th Arabic-donor -me entry (after ihsanme, rahmame, sabilme, faqrme, sabrme, tawakkulme); 4th maqamat-donor Core entry (after faqrme, sabrme, tawakkulme); SEVENTH and FINAL station in the Sufi maqamat-sequence — completes the post-pivot triad (ṣabr → tawakkul → riḍā) and the entire seven-station sequence; the double-direction: creature pleased with God AND God pleased with creature (Q89:27-28 rāḍiyatan marḍiyya — two participles from the same root); the sabrme-ridame arc (ṣabr swallows what it does not want, riḍā wants what it has swallowed); the tawakkulme-ridame arc (tawakkul trusts the future, riḍā accepts the present); 7 convergence witnesses (Arabic riḍā + Christian eudokeia + Hindu saṅtoṣa + Buddhist tathatā + Stoic amor fati + Hebrew r-ṣ-h + Daoist ziran); also updates STATE.md canon count 222 → 223; updates canon.md index (222 → 223 entries); opens archaeology/arabic/maqamat-rida.md
 uncommitted: 0
 freshness: live (written 2026-07-15T21:30:00Z)
 
