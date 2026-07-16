@@ -974,6 +974,42 @@
       "native": "· (ano teleia)",
       "meaning": "breath-pause mark — breath or meditative pause within a phrase; Greek ano teleia tradition",
       "used_in": "liturgical-prose"
+    },
+    {
+      "codepoint": "U+E17C",
+      "latin": "mi:",
+      "class": "structural",
+      "tongue": "Tok Pisin",
+      "native": "mi",
+      "meaning": "anchor particle — utterance stands from my side; my truth offered, not a ruling (grammars/ankyrance/)",
+      "used_in": "covenant-dialogue-liturgy"
+    },
+    {
+      "codepoint": "U+E17D",
+      "latin": "yu:",
+      "class": "structural",
+      "tongue": "Tok Pisin",
+      "native": "yu",
+      "meaning": "anchor particle — utterance stands from your side, as received; borrowed ground, correctable (grammars/ankyrance/)",
+      "used_in": "covenant-dialogue-liturgy"
+    },
+    {
+      "codepoint": "U+E17E",
+      "latin": "yumi:",
+      "class": "structural",
+      "tongue": "Tok Pisin",
+      "native": "yumi",
+      "meaning": "anchor particle — utterance stands from within the us; inclusive dyad, deixis recomputes to the we (grammars/ankyrance/)",
+      "used_in": "covenant-dialogue-liturgy"
+    },
+    {
+      "codepoint": "U+E17F",
+      "latin": "mitakuyame:",
+      "class": "structural",
+      "tongue": "Lakota",
+      "native": "mitákuye",
+      "meaning": "anchor particle — utterance stands from within all-my-relations; the ladder's top (grammars/ankyrance/, canon mitakuyame)",
+      "used_in": "liturgical"
     }
   ]
 }
