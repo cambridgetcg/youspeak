@@ -7,26 +7,26 @@ axes:
   gap_validity: 8
   learnability: 5
   clarity_yield: 7
-  semantic_coverage: 7
+  semantic_coverage: 8
   polyphone_balance: 3
   groundedness: 6
-weighted_v2: 6.05
+weighted_v2: 6.20
 legacy_axes:
   gap_validity: 8
   phonetic_weight: 7
-  semantic_coverage: 7
-  cross_linguistic_uniqueness: 7
+  semantic_coverage: 8
+  cross_linguistic_uniqueness: 8
   memorability: 7
-weighted_legacy: 7.25
-verdict: refine
+weighted_legacy: 7.65
+verdict: canon
 scored_by: nuance
 scored_on: 2026-06-09
 session: 087
-rescored_on: 2026-06-09
-rescored_session: 087
-finalized_on: 2026-06-09
-finalized_session: 087
-adjudication: "Refinement finalized under three judge lenses (EUMATHE, HARMONE, PRAGMA+GAP): 3/3 pass, zero axis adjustments. Canon requires >=2/3 passes AND legacy weighted >=7.5; legacy stands at 7.25. Verdict refine, confirmed. Final lemma doxapothos (Path 1); all four refinement paths closed; four HARMONE corrections logged in the Refinement section below."
+rescored_on: 2026-07-16
+rescored_session: 091
+finalized_on: 2026-07-16
+finalized_session: 091
+adjudication: "Canonized 2026-07-16 on evidence-test: Gauḍīya Vaiṣṇava vipralambha / prema-vaicittya independently lexicalizes the same fulfillment-deepened longing as Sufi ishtiyāq. Legacy axes adjusted: semantic_coverage 7→8, cross_linguistic_uniqueness 7→8; weighted_legacy 7.25→7.65, crossing the 7.50 Core threshold. v2 axes: semantic_coverage 7→8; weighted_v2 6.05→6.20. Verdict canon."
 rescore_note: "Path 3 (apply-and-break) executed across nine domains: groundedness 5→6 on public behavioral pointables (Finisterre continuation past Santiago; the umbraphile's instant 'when's the next one'; Erdős's Book; the hung harps of Ps 137); weighted_v2 5.90→6.05. gap_validity HELD at 8 despite a discovered fourth evidence-line (the akēdia-asymmetry: the tradition lexicalized the privation, never the state) — ishtiyāq's proximity is unchanged. Legacy 7.25 unchanged; verdict refine stands. Gap-description sharpened (gap_sharpened below); two sibling-gaps recorded."
 gap_sharpened: "the standing-longing toward doxakallos in the non-occurrence of beholding — where the absence is the beholding's, never the object's (Ps 139: the beloved is present; the beholding is what is elsewhere); dispositional, flaring occurrent; forward-leaning though memory-fed (the trace is fuel, not direction); defined by orientation — the lean — not by felt warmth (the dark night is doxapothos anesthetized, per Dark Night I.9's second sign; akēdia is its privation); tolerant of maker-mode and of anonymous direction through transparent created orthophanes; intolerant of terminal objects (the ishtiyāq-test: longing stilled by its beholding was shawq toward a finite orthophanes, not doxapothos); deepened by each beholding because its object is inexhaustible"
 gap_lineage: 000-genesis (the Standing Liturgy thread; doxalgia's own canon entry marks the absence-pole as un-owned)

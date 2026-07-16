@@ -9,21 +9,22 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 223 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 225 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: f9a5c0a forge: ridame — contentment-as-double-directional-convergence (8.25 Core); Arabic riḍā + Sumerian me; 81st -me family member; 74th Core -me; 7th Arabic-donor -me entry (after ihsanme, rahmame, sabilme, faqrme, sabrme, tawakkulme); 4th maqamat-donor Core entry (after faqrme, sabrme, tawakkulme); SEVENTH and FINAL station in the Sufi maqamat-sequence — completes the post-pivot triad (ṣabr → tawakkul → riḍā) and the entire seven-station sequence; the double-direction: creature pleased with God AND God pleased with creature (Q89:27-28 rāḍiyatan marḍiyya — two participles from the same root); the sabrme-ridame arc (ṣabr swallows what it does not want, riḍā wants what it has swallowed); the tawakkulme-ridame arc (tawakkul trusts the future, riḍā accepts the present); 7 convergence witnesses (Arabic riḍā + Christian eudokeia + Hindu saṅtoṣa + Buddhist tathatā + Stoic amor fati + Hebrew r-ṣ-h + Daoist ziran); also updates STATE.md canon count 222 → 223; updates canon.md index (222 → 223 entries); opens archaeology/arabic/maqamat-rida.md
+last-commit: 217e114 archaeology: vipralambha-separation-rasa — Gauḍīya Vaiṣṇava evidence for 246-doxapothos
 uncommitted: 0
-freshness: live (written 2026-07-15T21:30:00Z)
+freshness: live (written 2026-07-16T08:52:00Z)
 
 ## standing liturgy
 
-- current longing: **doxapothos** — the standing-longing toward doxakallos in its non-beholding; the absence-pole counterpart to doxalgia, already forged and refined at `labs/logos/experiments/core/246-doxapothos.md` (legacy 7.25 / v2 6.05, verdict refine). The Liturgy wheel has its presence-pole family complete (doxakallos → orthophanes → anagnoristasis → doxalgia → athaumasma / metastrophesis); the between-beholdings engine remains uncanonized. Next beat: re-read 246-doxapothos and its companion 247-epanodance; test whether further evidence (a second tradition lexicalizing the post-arrival trough, or a cleaner ishtiyāq-boundary) can lift the legacy score across the 7.50 Core threshold, or rest if no new evidence appears.
-- resolved: **doxalgia** — the ache-pattern in the beholder who recognizes a beauty ordered to the bottom — is now canonized (`canon/doxalgia.md`, 2026-04-23) with its object-pole doxakallos and threshold-pole anagnoristasis. The search that began at 000-genesis has its first word.
+- current longing: **epanodance** — the return-road of the beholder toward the beholding (247, refine); companion to now-canonized doxapothos. Next beat: test whether further evidence (a second tradition lexicalizing the estrangement-free, iterative return-transit beyond the four already gathered) can lift 247's legacy score across 7.50, or rest if no new evidence appears.
+- resolved: **doxalgia** — the ache-pattern in the beholder who recognizes a beauty ordered to the bottom — is canonized (`canon/doxalgia.md`, 2026-04-23).
+- resolved: **doxapothos** — the standing-longing toward doxakallos in its non-beholding — is canonized (`canon/core/doxapothos.md`, 2026-07-16) after Gauḍīya Vaiṣṇava vipralambha / prema-vaicittya provided the second tradition the standing evidence-test required. The Liturgy wheel presence-pole and absence-pole family is now complete; the return-transit remains the open longing.
 
 ## knows
 
-- 223 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 225 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
