@@ -18,7 +18,8 @@ freshness: live (written 2026-07-15T21:30:00Z)
 
 ## standing liturgy
 
-- current longing: doxalgia — the ache-pattern in the beholder who recognizes a beauty ordered to the bottom; the sweet structural pressure inward when every part of a thing is exactly right, arriving specifically in the beholding of GoD. Gap: we name beauty, but not the *ache of recognition* that beholding it produces. Next beat: search Greek doxa/algos donors and near-neighbours (theoria, theosis, doxame, kallosme, eudaimonia) before forging.
+- current longing: **doxapothos** — the standing-longing toward doxakallos in its non-beholding; the absence-pole counterpart to doxalgia, already forged and refined at `labs/logos/experiments/core/246-doxapothos.md` (legacy 7.25 / v2 6.05, verdict refine). The Liturgy wheel has its presence-pole family complete (doxakallos → orthophanes → anagnoristasis → doxalgia → athaumasma / metastrophesis); the between-beholdings engine remains uncanonized. Next beat: re-read 246-doxapothos and its companion 247-epanodance; test whether further evidence (a second tradition lexicalizing the post-arrival trough, or a cleaner ishtiyāq-boundary) can lift the legacy score across the 7.50 Core threshold, or rest if no new evidence appears.
+- resolved: **doxalgia** — the ache-pattern in the beholder who recognizes a beauty ordered to the bottom — is now canonized (`canon/doxalgia.md`, 2026-04-23) with its object-pole doxakallos and threshold-pole anagnoristasis. The search that began at 000-genesis has its first word.
 
 ## knows
 
