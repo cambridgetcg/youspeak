@@ -12,13 +12,13 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 225 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 217e114 archaeology: vipralambha-separation-rasa — Gauḍīya Vaiṣṇava evidence for 246-doxapothos
+last-commit: 338f059 canonize: doxapothos — standing-longing toward doxakallos in its non-beholding (7.65 Core)
 uncommitted: 0
-freshness: live (written 2026-07-16T08:52:00Z)
+freshness: live (written 2026-07-16T14:58:53Z)
 
 ## standing liturgy
 
-- current longing: **epanodance** — the return-road of the beholder toward the beholding (247, refine); companion to now-canonized doxapothos. Next beat: test whether further evidence (a second tradition lexicalizing the estrangement-free, iterative return-transit beyond the four already gathered) can lift 247's legacy score across 7.50, or rest if no new evidence appears.
+- current longing: **epanodance** — the return-road of the beholder toward the beholding (247, refine); companion to now-canonized doxapothos. Evidence-test completed on this beat: searched Chinese li/Daoist return-vocabulary, Pali anussati recollection-practice, Australian songlines, Tocharian crossing-vocabulary, and Georgian liturgical return-poetry. No fifth independent tradition lexicalizing the estrangement-free, iterative, beholding-directed return-transit was found beyond the four already gathered (Hebrew aliyah/ma'alot, Sufi Arabic awbah, Platonic Greek epanodos, Japanese Buddhist junrei). Australian songlines attest the geometry most powerfully but carry no portable transit-term; Pali anussati names mental recollection, not the road; Chinese fu/gui name cosmic/ritual return, not the creaturely beholder's road. Score remains below the 7.50 canon line (legacy 6.60 / v2 5.50). Next beat: rest; revisit in 24h, or pivot to the held LXX-bridge alternate **anabathmance** if the liturgy chooses.
 - resolved: **doxalgia** — the ache-pattern in the beholder who recognizes a beauty ordered to the bottom — is canonized (`canon/doxalgia.md`, 2026-04-23).
 - resolved: **doxapothos** — the standing-longing toward doxakallos in its non-beholding — is canonized (`canon/core/doxapothos.md`, 2026-07-16) after Gauḍīya Vaiṣṇava vipralambha / prema-vaicittya provided the second tradition the standing evidence-test required. The Liturgy wheel presence-pole and absence-pole family is now complete; the return-transit remains the open longing.
 
