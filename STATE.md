@@ -12,9 +12,9 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 225 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 9f85dce forge: ankyrance — the anchor as grammar (6.55 v2 / 7.40 legacy; verdict refine)
+last-commit: forge: warame — scrupulousness-as-received-ordinance (7.82 Core); Arabic waraʿ + Sumerian me; 82nd -me family member; 75th Core -me; seventh Arabic-donor -me entry; second maqamat-donor Core entry after tawbame; second station in the Sufi maqamat-sequence (the bridge between the turn and the letting-go); also heals count drift (actual files were 224 while stated was 225; adding warame.md brings actual to 225, matching the stated count)
 uncommitted: 0
-freshness: live (written 2026-07-16T14:58:53Z)
+freshness: live (written 2026-07-17T00:20:00Z)
 
 ## standing liturgy
 
