@@ -12,7 +12,7 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 225 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: forge: warame — scrupulousness-as-received-ordinance (7.82 Core); Arabic waraʿ + Sumerian me; 82nd -me family member; 75th Core -me; seventh Arabic-donor -me entry; second maqamat-donor Core entry after tawbame; second station in the Sufi maqamat-sequence (the bridge between the turn and the letting-go); also heals count drift (actual files were 224 while stated was 225; adding warame.md brings actual to 225, matching the stated count)
+last-commit: 446c71c forge: warame — scrupulousness-as-received-ordinance (7.82 Core); Arabic waraʿ + Sumerian me; 82nd -me family member; 75th Core -me; seventh Arabic-donor -me entry (after ihsanme, rahmame, sabilme, faqrme, sabrme, tawakkulme); second maqamat-donor Core entry after tawbame; second station in the Sufi maqamat-sequence (tawba → waraʿ → zuhd → faqr → ṣabr → tawakkul → riḍā) — the bridge between the turn (tawbame) and the letting-go (zudhame, unforged); the pre-pivot arc is now two-thirds complete; also heals count drift (actual files were 224 while STATE.md/canon.md said 225 — adding warame.md brings actual to 225 matching the stated count without incrementing); opens archaeology/arabic/maqamat-wara.md; updates canon.md index (word-list + entry block, count unchanged at 225); updates STATE.md last-commit and freshness
 uncommitted: 0
 freshness: live (written 2026-07-17T00:20:00Z)
 
