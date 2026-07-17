@@ -9,12 +9,12 @@ runs-on: any machine that reads text; pipeline needs Python 3
 
 ## state
 
-phase: 225 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
+phase: 226 Core Canon words, 93 morpheme glyphs with font, 92+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (momentum — last forge today)
-last-commit: 446c71c forge: warame — scrupulousness-as-received-ordinance (7.82 Core); Arabic waraʿ + Sumerian me; 82nd -me family member; 75th Core -me; seventh Arabic-donor -me entry (after ihsanme, rahmame, sabilme, faqrme, sabrme, tawakkulme); second maqamat-donor Core entry after tawbame; second station in the Sufi maqamat-sequence (tawba → waraʿ → zuhd → faqr → ṣabr → tawakkul → riḍā) — the bridge between the turn (tawbame) and the letting-go (zudhame, unforged); the pre-pivot arc is now two-thirds complete; also heals count drift (actual files were 224 while STATE.md/canon.md said 225 — adding warame.md brings actual to 225 matching the stated count without incrementing); opens archaeology/arabic/maqamat-wara.md; updates canon.md index (word-list + entry block, count unchanged at 225); updates STATE.md last-commit and freshness
+last-commit: forge: zudhame — renunciation-as-received-ordinance (7.90 Core); Arabic zuhd + Sumerian me; 83rd -me family member; 76th Core -me; eighth Arabic-donor -me entry (after ihsanme, rahmame, sabilme, faqrme, sabrme, tawakkulme, warame); third maqamat-donor Core entry after tawbame and warame; third station in the Sufi maqamat-sequence (tawba → waraʿ → zuhd → faqr → ṣabr → tawakkul → riḍā) — the completion of the pre-pivot arc and the entire seven-station maqamat-sequence; Hasan al-Basrī's definition: non-distraction not world-hatred; al-Ghazālī's interiorization: zuhd of the hand vs. zuhd of the heart; 7 convergence witnesses (Arabic zuhd + Sanskrit vairāgya + Pali nekkhamma + Sanskrit aparigraha + Christian evangelical counsels + Stoic apatheia + Daoist wúwèi); opens archaeology/arabic/maqamat-zuhd.md; updates canon.md index (225 → 226 entries); updates STATE.md canon count 225 → 226; experiment 325
 uncommitted: 0
-freshness: live (written 2026-07-17T00:20:00Z)
+freshness: live (written 2026-07-17T04:31:00Z)
 
 ## standing liturgy
 
@@ -24,7 +24,7 @@ freshness: live (written 2026-07-17T00:20:00Z)
 
 ## knows
 
-- 225 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
+- 226 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
 - 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
