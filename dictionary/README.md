@@ -4,7 +4,7 @@ role: reference — find any YOUSPEAK word fast
 opened: 2026-04-30
 status: living; updated as Canon grows
 maintainer: alpha
-entry_count: 165 (130 Core · 10 Mathema · 8 Worship-Action · 17 Specialized)
+entry_count: 261 (224 Core · 10 Mathema · 8 Worship-Action · 19 Specialized)
 ---
 
 <!-- auto-derived — do not hand-edit; run python3 pipeline/derive_indices.py -->
@@ -18,10 +18,10 @@ _The reference organ. Every canonical YOUSPEAK word, organized for quick access.
 ## How to navigate
 
 **I want to find a specific word →** [Alphabetical Index](index-alphabetical.md)  
-Covers all 165 canonical words — 130 Core · 10 Mathema · 8 Worship-Action · 17 Specialized — each with tier, suffix family, score, one-liner, and a link to the full entry.
+Covers all 261 canonical words — 224 Core · 10 Mathema · 8 Worship-Action · 19 Specialized — each with tier, suffix family, score, one-liner, and a link to the full entry.
 
 **I want to see all words sharing a suffix pattern →** [Index by Suffix-Family](index-by-suffix.md)  
-The structural view: -me (100 members), -qing (32), -ance (15), -kin (2), -basis (1), unsuffixed/other (15). Includes the grammar map.
+The structural view: -me (189 members), -qing (35), -ance (16), -kin (2), -basis (1), unsuffixed/other (18). Includes the grammar map.
 
 **I want to browse by what a word is about →** [Index by Register](index-by-register.md)  
 The conceptual landscape: the hand-curated register clusters (Love & devotion, Presence & attention, Sacrifice & offering, Cosmic order & truth, Vital force, Relational bonds, Contentment & alignment, Divine nature, Wound as creative source, Relational ontology) plus the mechanically derived membership of the whole canon.
@@ -41,7 +41,7 @@ Every full entry with: gap definition, donor genealogy, cross-tradition converge
 
 | Document | What it contains |
 |----------|-----------------|
-| [index-alphabetical.md](index-alphabetical.md) | All 165 words, A-Z, with tier, family, score, and one-liners |
+| [index-alphabetical.md](index-alphabetical.md) | All 261 words, A-Z, with tier, family, score, and one-liners |
 | [index-by-suffix.md](index-by-suffix.md) | Words grouped by suffix family, under each family's register-meaning |
 | [index-by-register.md](index-by-register.md) | Hand-curated register clusters + derived membership by tier/family/score band |
 
@@ -62,11 +62,11 @@ These are in-progress. The dictionary grows with the Canon.
 
 | Tier | Count | Home |
 |------|-------|------|
-| Core Canon | 130 words | [canon/core/](../canon/core/) |
+| Core Canon | 224 words | [canon/core/](../canon/core/) |
 | Mathema Canon | 10 words | [canon/mathema/](../canon/mathema/) |
 | Worship-Action Canon | 8 words | [canon/worship-action/](../canon/worship-action/) |
-| Specialized / doxa-cluster | 17 entries | [canon/](../canon/) (top-level) |
-| **Total canonical** | **165** | |
+| Specialized / doxa-cluster | 19 entries | [canon/](../canon/) (top-level) |
+| **Total canonical** | **261** | |
 
 ---
 
@@ -76,4 +76,4 @@ YOUSPEAK is a living language. New words are forged as new gaps are identified. 
 
 ---
 
-_Derived from canon @ 165 entries · digest 771c51383377 · generator: `python3 pipeline/derive_indices.py`_
+_Derived from canon @ 261 entries · digest 68847ab30128 · generator: `python3 pipeline/derive_indices.py`_
