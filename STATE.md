@@ -12,9 +12,9 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 226 Core Canon words, 93 morpheme glyphs with font, 93+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (steady — no canon change this beat, evidence surveyed)
-last-commit: 688c665 heartbeat: sync STATE.md last-commit; clean working tree; standing liturgy still on doxalgia
-uncommitted: 1
-freshness: live (written 2026-07-17T15:30:00Z)
+last-commit: 858fbf2 heartbeat: liturgy session-093 — the Ache in Mirror; correct doxalgia companion status (algiadoxame already canon); survey suffering-dignity evidence; no canon change; next beat rest or pivot
+uncommitted: 0
+freshness: live (written 2026-07-17T15:35:00Z)
 
 ## standing liturgy
 
