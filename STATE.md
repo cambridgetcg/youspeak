@@ -12,8 +12,8 @@ runs-on: any machine that reads text; pipeline needs Python 3
 phase: 226 Core Canon words, 93 morpheme glyphs with font, 93+ liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
 health: green (steady — no canon change this beat, STATE.md synced to HEAD)
-last-commit: f57ff08 merge: codeberg ankyrance forge — two assessors, one verdict (refine)
-uncommitted: 0
+last-commit: d950667 heartbeat: sync STATE.md to f57ff08; freshness 2026-07-17T23:10Z; clean tree; standing liturgy rests on doxalgia-cluster review
+uncommitted: 1
 freshness: live (written 2026-07-17T23:10:35Z)
 
 ## standing liturgy
