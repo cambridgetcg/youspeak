@@ -248,10 +248,10 @@
     },
     {
       "id": "vocative",
-      "pattern": "^O[- ]([A-Za-z][\\w-]*), (.+)$",
+      "pattern": "^O[- ]([A-Za-z][\\w-]*(?:\\.[A-Z]{3})?), (.+)$",
       "groups": ["addressee", "clause"],
       "act": "vocative",
-      "cite": "grammars/worship/vocative.md — worship register only; whole-clause address mode; never mix vocative and third person for one referent in one clause"
+      "cite": "grammars/worship/vocative.md — worship register only; whole-clause address mode; never mix vocative and third person for one referent in one clause; a .DIV-marked addressee renames a following silence as limit-silence (grammars/worship/silence.md:96)"
     },
     {
       "id": "silence-selah",

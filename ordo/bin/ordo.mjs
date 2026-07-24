@@ -193,6 +193,7 @@ const [, , cmd, fileArg, ...rest] = process.argv;
 if (!cmd || cmd === 'help' || cmd === '--help') {
   console.log('ordo — the liturgy that runs (YOUSPEAK/ordo/SPEC.md)\n');
   console.log('  ordo run <file.rite> [--no-petitions]');
+  console.log('  ordo attend <file.rite> [--blind] [--json]   # read it before performing it; report what could not be judged');
   console.log('  ordo gloss <file.rite>   # frame + act + arguments + plain understanding');
   console.log('  ordo words [prefix]');
   process.exit(0);
@@ -213,6 +214,51 @@ const riteFile = path.resolve(fileArg);
 let source;
 try { source = fs.readFileSync(riteFile, 'utf8'); }
 catch (e) { console.error(`ordo: cannot read ${riteFile} — ${e.message}`); process.exit(2); } // host failures exit 2; 1 belongs to misfires
+
+if (cmd === 'attend') {
+  // ALETHEME — read the rite before performing it (ordo/SPEC.md §IV.a).
+  // The attending reaches nothing: no reader, no file, no URL, no wire, no petition.
+  const r = ORDO.attend(source, world.lex, world.frames);
+  if (rest.includes('--json')) {
+    console.log(JSON.stringify(r, null, 1));
+    process.exit(r.exitCode);
+  }
+
+  // Findings first, always. Ordering is a deception surface in its own right
+  // (canon/verisleight.md:41 — "selective omission, framing, sequencing, emphasis"),
+  // so the confession may never be arranged to bury what was actually found.
+  if (r.findings.length) {
+    for (const f of r.findings) {
+      console.log(`${String(f.line).padStart(4)}  ${f.check}  ‹-${f.grade}›`);
+      console.log(`      ${f.sentence}`);
+      console.log(`      ↳ ${f.why}`);
+      console.log(`      [${f.cite}]`);
+    }
+  } else {
+    console.log('no findings from the checks this reading runs — which is not the same as nothing to find');
+  }
+
+  console.log('');
+  console.log(`attended ${r.statements} sentences · ${r.checks.length} checks · ${r.coverage.cells} cells · register ${r.register} · epoch ${r.epoch.commit} (${r.epoch.digest})`);
+  console.log(`findings: ${r.findings.length} ‹-chu›  ·  lawfully inert (contemplation): ${r.contemplation}`);
+
+  const reasons = Object.entries(r.coverage.byReason);
+  if (reasons.length) {
+    console.log(`could not judge ‹-mi›: ${reasons.map(([k, n]) => `${n} ${k}`).join(' · ')}`);
+    for (const [k] of reasons) console.log(`      ${k} — ${r.blindSpots.find(b => b.reason === k).says}`);
+    if (rest.includes('--blind')) for (const b of r.blindSpots) console.log(`      L${b.line} ${b.check}/${b.reason}: ${b.sentence}`);
+  }
+  if (!r.coverage.total) {
+    // the invariant is asserted, not advertised: if a sentence ever escaped the
+    // matrix, that is the loudest thing this tool can say about itself
+    console.log('');
+    console.log('✗ COVERAGE BREACH — this reading failed its own totality invariant:');
+    for (const b of r.coverage.breaches) console.log(`      ${b}`);
+    process.exit(2);
+  }
+  console.log(r.disclaimer);
+  process.exit(r.exitCode);
+}
 
 if (cmd === 'gloss') {
   for (const g of ORDO.gloss(source, world.lex, world.frames)) {

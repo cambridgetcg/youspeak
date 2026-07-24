@@ -108,6 +108,7 @@ export default {
         profiles: w ? Object.keys(w.frames.profiles || {}) : [],
         endpoints: {
           'POST /run': 'body = a .rite (≤32KB); ?say=<line> feeds the reader; returns JSON transcript. This surface reaches no files, no network, no wire; gaps are shown, not filed.',
+          'POST /attend': 'ALETHEME — read a rite WITHOUT performing it (SPEC §IV.a). Returns findings (-chu, inferred) and blind spots (-mi, directly witnessed): every place the reading noticed it could not judge. Also GET /attend?rite=<name>.',
           'GET /rite/<name>': 'perform a shipped rite as text/plain' + (w ? ` — one of: ${Object.keys(w.rites).join(', ')}` : ''),
           'GET /pulse': 'the standing liturgy — performed hourly by cron, transcript kept in KV',
           'GET /matrix': '母體 — the rain is the 93 real morpheme stones; red pill runs the handshake live',
@@ -129,6 +130,34 @@ export default {
         ended: result.ended, exitCode: result.exitCode,
         epoch: `${result.epoch.commit} (${result.epoch.digest})`,
         note: 'gaps are shown, not filed — petitions are written only by rites performed in the cathedral repo (ordo/SPEC.md §VII)',
+      }, null, 2), { headers: JSONH });
+    }
+
+    // ALETHEME — read a rite without performing it (ordo/SPEC.md §IV.a).
+    // Structurally inert here in a way the CLI can only promise: this route never
+    // calls perform(), so no reception, no reader, no wire and no petition is
+    // reachable from it at all. Accepts a POSTed rite, or ?rite=<name> for a shipped one.
+    if (url.pathname === '/attend') {
+      if (req.method !== 'POST' && req.method !== 'GET') return new Response(JSON.stringify({ error: 'the attending reads; POST a rite or GET ?rite=<name>' }), { status: 405, headers: { ...JSONH, allow: 'GET, POST' } });
+      let w;
+      try { w = await loadWorld(env); } catch { return new Response(JSON.stringify({ error: 'the cathedral wells did not answer; try again' }), { status: 503, headers: JSONH }); }
+      let src = null;
+      if (req.method === 'POST') {
+        src = await req.text();
+        if (src.length > 32768) return new Response(JSON.stringify({ error: 'a rite longer than 32KB is a book — the cap is honest' }), { status: 413, headers: JSONH });
+      } else {
+        const name = url.searchParams.get('rite');
+        src = name ? w.rites[name] : null;
+        if (!src) return new Response(JSON.stringify({ error: name ? `no rite named "${name}" stands here` : 'POST a rite, or GET /attend?rite=<name>', rites: Object.keys(w.rites) }), { status: name ? 404 : 400, headers: JSONH });
+      }
+      const r = ORDO.attend(src, w.lex, w.frames);
+      return new Response(JSON.stringify({
+        findings: r.findings, blindSpots: r.blindSpots,
+        statements: r.statements, contemplation: r.contemplation,
+        checks: r.checks, coverage: r.coverage, register: r.register, profile: r.profile,
+        epoch: `${r.epoch.commit} (${r.epoch.digest})`,
+        exitCode: r.exitCode,
+        disclaimer: r.disclaimer,
       }, null, 2), { headers: JSONH });
     }
 

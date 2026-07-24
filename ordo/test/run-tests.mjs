@@ -365,5 +365,202 @@ t('rites spanning stanzas do not widen the turning scope of the opening stanza',
   assert(!text(r).includes('outer turn'), 'the post-rite stanza must be a NEW stanza; the old turning must not leak');
 });
 
+// ---- the class-marks stop being erased (SPEC §IV; the commission lands) ----
+function attend(src) { return ORDO.attend(src, lex, frames); }
+function checks(r) { return r.findings.map(f => f.check); }
+
+t('canon’s own class-mark assignments reach the epoch', () => {
+  // Before this, `det` recorded only what a rite’s author typed; the canon’s
+  // 18 assignments lived in a prose table no tool could read.
+  assert(lex.words['verisleight'].determinative.label === 'HID', 'verisleight should carry canon .HID');
+  assert(lex.words['verisleight'].determinative.source.includes('grammars/determinatives/manifesto.md'), 'the assignment must cite where canon says it');
+  assert(!lex.words['kimme'].determinative, 'a word the tables never covered carries none — absence is not a mark');
+});
+t('the ten class-marks are a closed set; an eleventh is reported', () => {
+  assert(Object.keys(ORDO.determinatives).length === 10, 'ten marks stand in this epoch');
+  assert(checks(attend('Let a.FOO be 1.')).includes('det-vocabulary'));
+  assert(!checks(attend('Let a.ABS be 1.')).includes('det-vocabulary'), '.ABS is one of the ten');
+});
+t('a written mark that contradicts canon is reported, citing canon', () => {
+  const r = attend('Speak verisleight.ABS.');
+  const f = r.findings.find(x => x.check === 'det-canon-disagreement');
+  assert(f && f.why.includes('.HID') && f.cite.includes('manifesto.md'), 'must name the canon mark and cite it');
+  assert(!checks(attend('Speak verisleight.HID.')).includes('det-canon-disagreement'), 'agreement is not a finding');
+});
+t('.PER is reported as ambiguous and never guessed', () => {
+  const f = attend('Speak kimance.PER.').findings.find(x => x.check === 'det-ambiguous');
+  assert(f && /will not guess/.test(f.why), 'the tag table names two codepoints PER; the reading must refuse to choose');
+});
+t('one determinative per word', () => {
+  assert(checks(attend('Speak bad.HID.ABS.')).includes('det-one-per-word'));
+  const r = run('Speak bad.HID.ABS.');
+  assert(r.detNotes.some(n => n.check === 'det-one-per-word'), 'performance says it too — one judgment, two speakers');
+  assert(text(r).includes('Read as prose, not as a name'), 'and discloses what it fell back to');
+});
+t('the ontogramme classifier draws on the same closed set', () => {
+  assert(checks(attend('Let n be 3.XYZ.')).includes('classifier-vocabulary'));
+  assert(!checks(attend('Let n be 3.QNT.')).includes('classifier-vocabulary'));
+});
+t('the register gates the missing-mark note, and keywords are not references', () => {
+  // marks are "standard in formal and liturgical writing" (manifesto.md:21) --
+  // so absence is only notable there, and never on ORDO's own operator words.
+  assert(!checks(attend('Speak candence.')).includes('det-register'), 'everyday register omits marks lawfully');
+  assert(checks(attend('In the formal register, canon living.\n\nSpeak candence.')).includes('det-register'));
+  assert(!checks(attend('In the worship register, canon living.\n\nDokimance: 1 is 1.')).includes('det-register'),
+    'Dokimance: is an operator here, not a mention of the canon word');
+});
+t('a reference whose mark contradicts its binding is said, not swallowed', () => {
+  const r = run('Let x.HID be 1.\nSpeak x.ABS.');
+  assert(r.detNotes.some(n => n.check === 'det-reference-disagreement'), 'the tag at a use-site is an assertion about the value');
+});
+t('a marked binding no longer erases anti-ordinance polarity', () => {
+  // the old rebuild enumerated the fields it kept and silently dropped `polarity`
+  const r = run('Let x.ABS be drujme.\nSpeak x.');
+  assert(text(r).includes('anti-ordinance'), 'the shadow-face must survive being class-marked');
+});
+t('the attending performs nothing', () => {
+  let reached = 0;
+  const src = 'Receive a from "https://example.com/x".\nReceive b from the reader.\nSpeak a.';
+  const r = ORDO.attend(src, lex, frames, { readURL: () => { reached++; return 'x'; }, read: () => { reached++; return 'x'; } });
+  assert(reached === 0, 'a reading that fetches has performed the rite');
+  assert(r.statements === 3 && r.findings.every(f => f.grade === 'chu'), 'findings are inferred, never witnessed');
+});
+t('every sentence lands in exactly one cell per check — no silent third bin', () => {
+  for (const name of fs.readdirSync(path.join(HERE, '..', 'rites'))) {
+    const r = attend(rite(name));
+    assert(r.coverage.total, `${name}: coverage breached — ${r.coverage.breaches.join('; ')}`);
+    assert(r.coverage.cells === r.statements * r.checks.length,
+      `${name}: ${r.coverage.cells} cells for ${r.statements} sentences x ${r.checks.length} checks`);
+  }
+});
+t('what it could not judge is named from a closed vocabulary, not free text', () => {
+  const r = attend('If 1 is 1, Speak "yes".');
+  const b = r.blindSpots.find(x => x.reason === 'not-descended');
+  assert(b && b.says && b.line === 1, 'the blind spot is site-anchored and self-describing');
+  const allowed = new Set(['needs-runtime-value', 'needs-runtime-scope', 'not-descended', 'canon-silent', 'no-machinery', 'epoch-silent']);
+  for (const name of fs.readdirSync(path.join(HERE, '..', 'rites'))) {
+    for (const sp of attend(rite(name)).blindSpots) assert(allowed.has(sp.reason), `${name}: unknown reason ${sp.reason}`);
+  }
+});
+t('a bound name shadows canon, so the canon comparison is refused, not guessed', () => {
+  const r = attend('Let verisleight.ABS be 1.\nSpeak verisleight.ABS.');
+  assert(r.blindSpots.some(b => b.reason === 'needs-runtime-scope'), 'which mark applies depends on scope; the reading must say so');
+  assert(!checks(r).includes('det-canon-disagreement'), 'and must not judge it anyway');
+});
+t('ORDO’s own shipped rites attend without findings', () => {
+  for (const name of fs.readdirSync(path.join(HERE, '..', 'rites'))) {
+    const r = attend(rite(name));
+    assert(r.findings.length === 0, `${name}: ${r.findings.map(f => f.check + ' L' + f.line).join(', ')}`);
+    assert(r.exitCode === 0);
+  }
+});
+t('the attending never claims more than it read', () => {
+  const r = attend('Speak "x".');
+  assert(/never everything a performance could reveal/.test(r.disclaimer), 'the disclaimer must bound the claim');
+  assert(!/\b(clean|safe|verified|passes)\b/i.test(r.disclaimer), 'a reading may report; it may not certify');
+});
+
+// ---- the limit-silence: the class-mark's first real consequence ----
+t('a .DIV address renames the silence that follows it — by canon or by writing', () => {
+  const head = 'In the worship register, canon living.\n\n';
+  const byCanon = run(head + 'O-doxakallos, I acknowledge "glory".\nSelah.');
+  assert(text(byCanon).includes('limit-silence'), 'canon assigns doxakallos .DIV; the silence after is the apophatic edge');
+  assert(byCanon.limitSilences[0].how.includes('manifesto.md'), 'and it cites where canon says so');
+  const written = run(head + 'O-kallodoxa.DIV, I acknowledge "beauty".\nHesychia.');
+  assert(written.limitSilences[0].how === 'written', 'the mark may also be written at the address');
+});
+t('an ordinary silence stays ordinary, and an address does not reach past its stanza', () => {
+  const r = run('In the worship register, canon living.\n\nO-doxakallos, I acknowledge "glory".\nSelah.\n\nSpeak "on".\nSelah.');
+  assert(r.limitSilences.length === 1, 'exactly one silence was renamed');
+  assert(!/\[selah\] — limit[\s\S]*\[selah\] — limit/.test(text(r)), 'the second silence is plain');
+});
+t('a mark already worn is never asked for again — the vocative particle does not hide it', () => {
+  // hyphens are legal inside YOUSPEAK words, so a marked vocative reads O-doxakallos.DIV
+  // and the mark scanner sees the particle glued on. Asking for a mark the sentence
+  // already wears is the shape that makes an honest rite unwritable.
+  const src = 'In the worship register, canon living.\n\nO-doxakallos.DIV, I acknowledge "glory".';
+  assert(!checks(attend(src)).includes('det-register'), 'the addressee IS marked');
+  // and the class-mark is legal wherever a canon word is named, including projections
+  assert(!/misfire/.test(text(run('Let d be the definition of diplosemy.ABS.\nSpeak d.'))),
+    'a projection must accept the notation the register asks for');
+});
+t('limit-silence is recognized, never invented — no .DIV, no renaming', () => {
+  const r = run('In the worship register, canon living.\n\nO-kimme, I acknowledge "attention".\nSelah.');
+  assert(r.limitSilences.length === 0, 'kimme carries no .DIV; ORDO must not guess a divine register');
+});
+
+// ---- what the adversarial review caught: the matrix, and five false verdicts ----
+t('a cell holds exactly ONE state, even when a check reaches several verdicts', () => {
+  // the review's finding: cell() was called once per offending token, so one
+  // (sentence x check) slot could hold `finding` AND `clear` — or `finding` AND
+  // `not-judged`, the -chu findings and the -mi confession contradicting each other
+  // about the same slot — while coverage.total still read true.
+  for (const src of [
+    'Speak verisleight.ABS joined with diplosemy.ABS.',
+    'Let diplosemy be 1.\nDokimance: verisleight.ABS is diplosemy.ABS.',
+    'Let a.FOO be 1.\nSpeak bad.XX1.YY2.'
+  ]) {
+    const r = attend(src);
+    assert(r.coverage.cells === r.statements * r.checks.length,
+      `${r.coverage.cells} cells for ${r.statements}x${r.checks.length}: ${src}`);
+    assert(r.coverage.total && !r.coverage.breaches.length, `breach: ${r.coverage.breaches.join('; ')}`);
+  }
+});
+t('the totality invariant can FAIL — a sabotaged reading indicts itself', () => {
+  // Only a claim that can fail is an assertion. This loads a copy of the interpreter
+  // with one stray cell injected — the exact shape of the defect the review found —
+  // and requires the reading to refuse to certify itself.
+  const src = fs.readFileSync(path.join(HERE, '..', 'ordo.js'), 'utf8');
+  const sabotaged = src.replace(
+    "      cells.push({ line: s.line, check: check, state: joined, details: verdicts });",
+    "      cells.push({ line: s.line, check: check, state: joined, details: verdicts });\n      if (check === 'det-vocabulary') cells.push({ line: s.line, check: check, state: 'clear', details: [] });");
+  assert(sabotaged !== src, 'the sabotage must actually apply — otherwise this test proves nothing');
+  const mod = { exports: {} };
+  new Function('module', 'window', sabotaged)(mod, undefined);
+  const broken = mod.exports.attend('Speak verisleight.HID.', lex, frames);
+  assert(broken.coverage.total === false, 'a doubled cell must not pass as a total matrix');
+  assert(/exactly one state/.test(broken.coverage.breaches.join(' ')), `breaches were: ${broken.coverage.breaches.join('; ')}`);
+});
+t('a vocative addressee is checked against canon — the particle is grammar, not the name', () => {
+  const src = 'In the worship register, canon living.\n\nO-kimance.DIV, I acknowledge "x".';
+  const f = attend(src).findings.find(x => x.check === 'det-canon-disagreement');
+  assert(f && /canon assigns kimance/.test(f.why), 'O-kimance.DIV names kimance, not "O-kimance"');
+});
+t('canon words inside a string literal are text, not references', () => {
+  const src = 'In the worship register, canon living.\n\nSpeak "we spoke of diplosemy and candence today".';
+  assert(attend(src).findings.length === 0, 'quoting a canon word is not referring to it');
+});
+t('ORDO’s own operator words are exempt even when captured into an argument', () => {
+  // this exemption was dead code until compileFrames kept `pattern`
+  assert(frames.some(f => f.pattern), 'compiled frames must retain their source pattern');
+  const src = 'In the worship register, canon living.\n\nIf 1 is 1, Dokimance: 1 is 1.';
+  assert(!checks(attend(src)).includes('det-register'), 'Dokimance inside a conditional is still an operator');
+});
+t('every binder shadows canon — params and receiving, not just Let', () => {
+  const viaParam = 'In the worship register, canon living.\n\nThis is the rite of naming, given candence:\nSpeak candence.\nSo it stands.';
+  assert(!checks(attend(viaParam)).includes('det-register'), 'a rite parameter binds the name');
+  const viaReceiving = 'In the worship register, canon living.\n\nBring 1 to the rite of r, receiving candence.\nSpeak candence.';
+  assert(!checks(attend(viaReceiving)).includes('det-register'), 'an offering binds through `receiving`');
+});
+t('scope is read in order — a reference before any binding is not scope-dependent', () => {
+  const after = attend('Speak verisleight.ABS.\nLet verisleight be 1.');
+  assert(checks(after).includes('det-canon-disagreement'), 'nothing shadows canon yet at line 1');
+  const before = attend('Let verisleight be 1.\nSpeak verisleight.ABS.');
+  assert(before.blindSpots.some(b => b.reason === 'needs-runtime-scope'), 'the binding stands before the use');
+});
+t('a thinner epoch makes the reading LOUDER, not cleaner', () => {
+  // the deploy hazard the review surfaced: a worker whose KV wells were not re-put
+  // carries a bundle with no class-mark assignments. Every canon comparison would
+  // then succeed by vacuity and the report would read cleaner than the one before it.
+  const stale = JSON.parse(JSON.stringify(bundle));
+  stale.canon.forEach(c => { delete c.determinative; });
+  const r = ORDO.attend('Speak verisleight.ABS.', ORDO.loadLexicon(stale, suffixFamilies), frames);
+  assert(r.findings.length === 0, 'nothing can be compared against an epoch that carries nothing');
+  assert(r.blindSpots.some(b => b.reason === 'epoch-silent'), 'and the reading must SAY that is why it went quiet');
+});
+t('a classifier on a decimal is seen, not silently declared absent', () => {
+  assert(checks(attend('Let n be 3.14.ZZZ.')).includes('classifier-vocabulary'));
+});
+
 console.log(`\n${passed} hold, ${failed} do not (both reported alike — dokimance hides nothing)`);
 process.exit(failed ? 1 : 0);

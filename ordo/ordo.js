@@ -32,6 +32,78 @@
 
   function badge(grade) { return grade ? '‹-' + grade + '›' : '‹unmarked›'; }
 
+  // ---------- determinatives (SPEC §IV; the class-marks, U+E170–U+E179) ----------
+  // The v1 set is ten (grammars/determinatives/manifesto.md:41-53). It is NOT closed:
+  // ":54 — "Additional determinatives can be added for specialized domains if usage
+  // demands." Nothing has been added since 2026-04-24, so ten is what a tag may be
+  // today, and an eleventh is a finding about THIS epoch, not a law of the language.
+  // The authoritative Latin tags are script/codepoints.md:130-139 — NOT the manifesto's
+  // own table, which labels two different codepoints `PER` (person at :44, perception
+  // at :47) while the registry names the second `.PRC`. That collision is a defect in
+  // the checker's source of truth; ORDO reports it and resolves nothing (SPEC §IV.b).
+  var DETERMINATIVES = {
+    DIV: { cp: 'U+E170', marks: 'divine register' },
+    PER: { cp: 'U+E171', marks: 'person / agent', ambiguous: 'grammars/determinatives/manifesto.md:44 labels U+E171 PER (person) and :47 labels U+E174 PER (perception); script/codepoints.md:134 names the second .PRC — the tag table disagrees with the registry' },
+    ACT: { cp: 'U+E172', marks: 'act / event / process' },
+    ABS: { cp: 'U+E173', marks: 'abstract quality / concept' },
+    PRC: { cp: 'U+E174', marks: 'perception / seeing / attending' },
+    REL: { cp: 'U+E175', marks: 'relation / between-persons' },
+    HID: { cp: 'U+E176', marks: 'hidden / concealed / deceptive' },
+    TIM: { cp: 'U+E177', marks: 'time / temporal event' },
+    PLC: { cp: 'U+E178', marks: 'place / locus' },
+    QNT: { cp: 'U+E179', marks: 'quantity / plurality / collection' }
+  };
+
+  // A class-mark is NOT a taint and NOT a provenance grade: "Determinatives ONLY
+  // carry semantic class" (manifesto.md:139), and evidentiality is listed at :135
+  // under what determinatives explicitly do not cover. So the mark never propagates
+  // through derivation, and canon publishes no meet-rule for what .QNT joined with
+  // .HID would be. Derived values therefore carry NO mark, and the attending names
+  // that as a disclosed blind spot rather than inventing a lattice (SPEC §IV.c).
+  function knownDet(tag) { return Object.prototype.hasOwnProperty.call(DETERMINATIVES, tag); }
+
+  // What canon assigns, as opposed to what the rite's author typed. Present only
+  // for the 18 words the manifesto's tables cover; absent means canon assigns none.
+  function canonDet(lex, word) {
+    var e = lex && lex.words && lex.words[String(word).toLowerCase()];
+    return (e && e.determinative) || null;
+  }
+
+  // ONE judgment, two speakers. The performance emits these as notes (a wrong
+  // optional annotation is not an infelicity — the mark is "omissible in compact
+  // writing", manifesto.md:21); the attending reports the identical records as
+  // findings before anything is performed. Sharing the function is the point: a
+  // checker whose verdict can drift from the interpreter's is worse than none.
+  var DET_RE = /^([\w-]+)\.([A-Z]{3})$/;
+
+  function examineDet(lex, word, tag) {
+    var found = [];
+    if (!tag) return found;
+    if (!knownDet(tag)) {
+      found.push({
+        check: 'det-vocabulary',
+        why: '"' + tag + '" is not one of the v1 ten class-marks (' + Object.keys(DETERMINATIVES).join(' ') + ') — extensible by canon, but nothing has been added',
+        cite: 'grammars/determinatives/manifesto.md:41-53; script/codepoints.md:130-139'
+      });
+      return found; // an unknown tag cannot be compared against canon
+    }
+    if (DETERMINATIVES[tag].ambiguous) {
+      found.push({ check: 'det-ambiguous', why: '.' + tag + ' is ambiguous — ' + DETERMINATIVES[tag].ambiguous, cite: 'grammars/determinatives/manifesto.md:44 and :47; script/codepoints.md:134' });
+    }
+    var cd = canonDet(lex, word);
+    if (cd && cd.label !== tag) {
+      // The manifesto's tables predate the .PRC rename, so a canon label of PER
+      // whose rationale reads "perception" means U+E174. Say both; decide neither.
+      var intent = (cd.label === 'PER' && /percept/i.test(cd.rationale || '')) ? ' (its rationale reads "' + cd.rationale + '", i.e. U+E174, which the registry names .PRC)' : '';
+      found.push({
+        check: 'det-canon-disagreement',
+        why: 'canon assigns ' + word + ' the mark .' + cd.label + intent + '; this reference marks it .' + tag,
+        cite: cd.source
+      });
+    }
+    return found;
+  }
+
   // ---------- values ----------
   function V(v, grade, extra) {
     var o = { v: v, grade: grade === undefined ? null : grade };
@@ -179,6 +251,7 @@
         why: f.why || '',
         profile: f.profile || null,
         understanding: f.understanding || '',
+        pattern: f.pattern,   // kept: attend() reads it to find ORDO's own operator words
         re: new RegExp(f.pattern, flags)
       };
     });
@@ -291,6 +364,9 @@
     this.gaps = {};      // word -> { word, family, sites: [{line, sentence}] }
     this.misfires = [];
     this.attests = [];
+    this.detNotes = [];  // class-mark findings raised while performing (SPEC §IV)
+    this.divineAddress = null; // a standing .DIV address; the next silence is limit-silence
+    this.limitSilences = [];
     this.tests = { passed: 0, failed: 0 };
     this.heartbeats = [];
     this.wireOffers = [];
@@ -350,13 +426,32 @@
     return V(null, null, { gap: true, word: w });
   };
 
+  // A mark written at a use-site is an ASSERTION about the value, not decoration.
+  // Before this, `Speak x.ABS` parsed the tag and threw it away unexamined, so a
+  // reference could contradict its own binding in silence.
+  Interp.prototype.noteDet = function (word, tag, st) {
+    var self = this;
+    examineDet(this.lex, word, tag).forEach(function (f) {
+      self.emit('note', '⚠ ' + f.why + '  [' + f.cite + ']');
+      self.detNotes.push({ check: f.check, why: f.why, cite: f.cite, line: st ? st.line : 0, sentence: st ? st.text : '' });
+    });
+  };
+
   Interp.prototype.lookupName = function (name, env, st) {
-    var key = name; // determinatives are erased annotations: strip .TAG
+    var key = name;
     var det = null;
-    var dm = /^([\w-]+)\.([A-Z]{3})$/.exec(name);
-    if (dm) { key = dm[1]; det = dm[2]; }
+    var dm = DET_RE.exec(name);
+    if (dm) { key = dm[1]; det = dm[2]; this.noteDet(key, det, st); }
     for (var e = env; e; e = e.parent) {
-      if (Object.prototype.hasOwnProperty.call(e.vars, key)) return e.vars[key];
+      if (Object.prototype.hasOwnProperty.call(e.vars, key)) {
+        var bound = e.vars[key];
+        // the reference's mark must agree with the binding's mark
+        if (det && bound && bound.det && bound.det !== det) {
+          this.emit('note', '⚠ this reference marks ' + key + ' .' + det + ' but the binding carries .' + bound.det + ' — one determinative per word, and the naming already made the named');
+          this.detNotes.push({ check: 'det-reference-disagreement', why: 'reference marks ' + key + ' .' + det + '; binding carries .' + bound.det, cite: 'grammars/determinatives/manifesto.md:123', line: st ? st.line : 0, sentence: st ? st.text : '' });
+        }
+        return bound;
+      }
     }
     var lw = this.lex.words[key.toLowerCase()];
     if (lw) {
@@ -376,14 +471,29 @@
     var sm = /^"([^"]*)"$/.exec(s);
     if (sm) return V(sm[1], 'mi', { lit: true });
 
-    // number with optional ontogramme classifier (3.QNT)
+    // number with optional ontogramme classifier (3.QNT). On a number the .TAG slot
+    // is the CLASSIFIER — it declares the category being counted before the count
+    // (grammars/structures/coinages/ontogramme.md) — not a word's semantic class.
+    // Same closed vocabulary, different slot: there is no canon word to disagree with.
     var nm = /^(-?\d+(?:\.\d+)?)(?:\.([A-Z]{3}))?$/.exec(s);
-    if (nm) return V(parseFloat(nm[1]), 'mi', nm[2] ? { det: nm[2] } : undefined);
+    if (nm) {
+      if (nm[2] && !knownDet(nm[2])) {
+        this.emit('note', '⚠ "' + nm[2] + '" is not one of the v1 ten class-marks — the ontogramme classifier draws on the same inventory  [grammars/determinatives/manifesto.md:41-53]');
+        this.detNotes.push({ check: 'classifier-vocabulary', why: '"' + nm[2] + '" is not one of the v1 ten class-marks', cite: 'grammars/determinatives/manifesto.md:41-53', line: st ? st.line : 0, sentence: st ? st.text : '' });
+      }
+      return V(parseFloat(nm[1]), 'mi', nm[2] ? { classifier: nm[2] } : undefined);
+    }
 
     // projection: the gap of W / the definition of W / ...
-    var pm = /^the (gap|definition|score|tier|pronunciation|family) of ([\w-]+)$/i.exec(s);
+    // The class-mark is legal wherever a canon word is named. Before this the
+    // projection forms rejected it, so a worship-register rite could be asked for
+    // a mark its own grammar refused to accept — the checker demanding what the
+    // language forbids. The notation is uniform or it is not notation.
+    var pm = /^the (gap|definition|score|tier|pronunciation|family) of ([\w-]+(?:\.[A-Z]{3})?)$/i.exec(s);
     if (pm) {
       var field = pm[1].toLowerCase(), target = pm[2];
+      var pdm = DET_RE.exec(target);
+      if (pdm) { target = pdm[1]; this.noteDet(target, pdm[2], st); }
       if (field === 'family') {
         var fam = familyOf(this.lex, target);
         return V(fam ? fam.family + ' (' + fam.status + ')' : '(no registered family)', 'si');
@@ -455,6 +565,16 @@
 
     // bare name / canon word / gap
     if (/^[\w-]+(?:\.[A-Z]{3})?$/.test(s)) return this.lookupName(s, env, st);
+
+    // A word wearing two class-marks matches no name pattern and would fall
+    // through to prose below — becoming a silent string instead of a value.
+    // "One determinative per word (primary class)" is the one uncontested,
+    // mechanically checkable determinative law in the repo.
+    var mm = /^([\w-]+)((?:\.[A-Z]{3}){2,})$/.exec(s);
+    if (mm) {
+      this.emit('note', '⚠ ' + mm[1] + ' wears ' + mm[2].split('.').filter(Boolean).length + ' class-marks (' + mm[2] + ') — one determinative per word; choose the dominant class. Read as prose, not as a name.  [grammars/determinatives/manifesto.md:123]');
+      this.detNotes.push({ check: 'det-one-per-word', why: mm[1] + ' wears ' + mm[2] + ' — one determinative per word (primary class)', cite: 'grammars/determinatives/manifesto.md:123', line: st ? st.line : 0, sentence: st ? st.text : '' });
+    }
 
     // quoted-less prose expression: treat as a spoken literal (natural-language tissue)
     return V(s, null);
@@ -537,10 +657,18 @@
         return undefined;
       }
       case 'bind': {
-        var name = A.name, dm = /^([\w-]+)\.([A-Z]{3})$/.exec(name);
-        var det = null; if (dm) { name = dm[1]; det = dm[2]; }
+        var name = A.name, dm = DET_RE.exec(name);
+        var det = null; if (dm) { name = dm[1]; det = dm[2]; this.noteDet(name, det, st); }
         var val = this.evalExpr(A.expr, env, st);
-        if (det) val = V(val.v, val.grade, { det: det, gap: val.gap, word: val.word, canon: val.canon, lit: val.lit });
+        if (det) {
+          // carry the whole value and override one field. The old form enumerated
+          // the fields it kept ({det, gap, word, canon, lit}) and so silently
+          // dropped `polarity` — a marked binding erased the anti-ordinance flag.
+          var carried = {};
+          for (var vk in val) if (vk !== 'v' && vk !== 'grade') carried[vk] = val[vk];
+          carried.det = det;
+          val = V(val.v, val.grade, carried);
+        }
         this.bindName(env, name, val, st);
         return undefined;
       }
@@ -732,17 +860,29 @@
         if (/^g\W?o\W?d$/i.test(A.addressee) && A.addressee !== 'GoD') {
           this.misfire('the Name is written GoD — capital G, capital D, always', 'grammars/worship/manifesto.md, sacred-convention rule 1', st);
         }
-        this.emit('vocative', 'O ' + A.addressee + ' — the clause turns to face its addressee');
+        // THE LIMIT-SILENCE SEAM (SPEC §IV.d — the second named commission).
+        // The class-mark's first real consequence in the running organ, and it is
+        // recognition, not prohibition: "when a passage ends in silence after a
+        // .DIV-marked vocative, the silence is specifically-divine-silence
+        // (limit-silence toward the sacred)" — grammars/worship/silence.md:96.
+        // The mark selects WHICH of the three silences just happened.
+        var vm = DET_RE.exec(A.addressee), vword = vm ? vm[1] : A.addressee, vtag = vm ? vm[2] : null;
+        if (vm) this.noteDet(vword, vtag, st);
+        var vcd = canonDet(this.lex, vword);
+        if (vtag === 'DIV' || (vcd && vcd.label === 'DIV')) {
+          this.divineAddress = { word: vword, how: vtag === 'DIV' ? 'written' : 'canon (' + vcd.source + ')' };
+        }
+        this.emit('vocative', 'O ' + vword + ' — the clause turns to face its addressee');
         this.execStatement({ text: A.clause, line: st.line }, env, ctx);
         return undefined;
       }
       case 'selah': {
-        this.emit('silence', '[selah]');
+        this.emit('silence', '[selah]' + this.limitSilence('held'));
         return undefined;
       }
       case 'hesychia': {
         this.ended = 'hesychia';
-        this.emit('silence', '[hesychia — the rite ends in shared silence]');
+        this.emit('silence', '[hesychia — the rite ends in shared silence' + this.limitSilence('communion') + ']');
         return undefined;
       }
       case 'halt': {
@@ -820,6 +960,7 @@
     for (var p = 0; p < program.length && !this.halted && !this.ended; p++) {
       var ctx = { depth: 0, turning: null };
       var sts = program[p];
+      this.divineAddress = null; // the address does not reach past its own stanza
       // arc typestate: a stanza that begins while an arc stands must name the
       // current stage (the closing sentence is exempt — it must stay sayable)
       if (this.arc && sts.length) {
@@ -891,6 +1032,19 @@
     return false;
   };
 
+  // The third silence, recognized rather than guessed. ORDO ships Selah (held) and
+  // Hesychia (communion); limit-silence is the apophatic edge, and canon gives it no
+  // keyword of its own — silence.md:96 says it is a silence already spoken that the
+  // .DIV-marked address RENAMES. So no new frame: the same silence, correctly named.
+  Interp.prototype.limitSilence = function (kind) {
+    if (!this.divineAddress) return '';
+    var d = this.divineAddress;
+    this.limitSilences.push({ addressee: d.word, how: d.how, kind: kind });
+    this.divineAddress = null; // one naming per address; a later silence is plain again
+    return ' — limit-silence: the ' + kind + ' silence stands after an address to ' +
+      d.word + ', which carries .DIV by ' + d.how + '; what lies beyond the said is honoured, not asserted  [grammars/worship/silence.md:96]';
+  };
+
   Interp.prototype.summary = function () {
     if (this.arc) this.closeArc(false); // end-of-rite with an open arc: reported alike
     var gapList = [];
@@ -900,6 +1054,8 @@
       gaps: gapList,
       misfires: this.misfires,
       attests: this.attests,
+      detNotes: this.detNotes,
+      limitSilences: this.limitSilences,
       tests: this.tests,
       heartbeats: this.heartbeats,
       wireOffers: this.wireOffers,
@@ -912,6 +1068,310 @@
       exitCode: this.halted ? 3 : (this.misfires.length && !this.ended ? 1 : 0)
     };
   };
+
+  // ---------- ALETHEME — the attending (SPEC §IV.a) ----------
+  // A pre-performance reading. It performs nothing: no reception, no file, no URL,
+  // no wire, no petition. It opens the rite and reports what became visible, and
+  // — with equal ceremony — every place it NOTICED it could not judge.
+  //
+  // The name is canon: aletheme, truth as the EVENT of becoming-visible, a- (privative)
+  // + lēthē (concealment). What the reading did not un-hide simply remains in lēthē,
+  // and saying so is part of the word's meaning, not a failure report
+  // (canon/core/aletheme.md). The report's register is candence: precise about the
+  // defect, never degrading toward the rite's author (canon/candence.md:61).
+  //
+  // Why the confession is load-bearing and not decoration: verisleight is defined as
+  // fully true statements arranged — "by selective omission, framing, sequencing,
+  // emphasis" — to produce a conclusion the speaker knows is false (canon/verisleight.md:41).
+  // A checker that reports only what it could judge, accurately, IS that shape. So the
+  // coverage is a matrix, not a list, and the code asserts its own totality below.
+
+  // Closed vocabularies. A reason outside this list cannot be recorded, which is what
+  // keeps the confession from becoming a free-text place to hide things.
+  var ATTEND_CHECKS = [
+    { id: 'det-vocabulary', reads: 'class-marks written in the sentence', cite: 'grammars/determinatives/manifesto.md:41-53 (the v1 ten) and :54 (extensible by canon); script/codepoints.md:130-139' },
+    { id: 'det-ambiguous', reads: 'class-marks whose Latin tag names two codepoints', cite: 'grammars/determinatives/manifesto.md:44 and :47; script/codepoints.md:134' },
+    { id: 'det-canon-disagreement', reads: 'a written mark against the mark canon assigns that word', cite: 'grammars/determinatives/manifesto.md:58-96' },
+    { id: 'det-one-per-word', reads: 'words wearing more than one class-mark', cite: 'grammars/determinatives/manifesto.md:123' },
+    { id: 'classifier-vocabulary', reads: 'the ontogramme classifier on a number', cite: 'ordo/SPEC.md:73; grammars/structures/coinages/ontogramme.md' },
+    { id: 'det-register', reads: 'canon words left unmarked where the register makes marks standard', cite: 'grammars/determinatives/manifesto.md:21, :125; archaeology/egyptian/determinatives.md:77' },
+    { id: 'heading-late', reads: 'a register declared after the rite has begun', cite: 'ordo/SPEC.md §II — the heading is the first sentence' }
+  ];
+
+  var NOT_JUDGED = {
+    'needs-runtime-value': 'the verdict depends on a value only performance produces',
+    'needs-runtime-scope': 'the word is bound somewhere in this rite, so which mark applies depends on scope at that point',
+    'not-descended': 'the sentence carries executable sub-statements this reading did not enter as statements',
+    'canon-silent': 'canon publishes no rule to judge by',
+    'epoch-silent': 'the loaded epoch carries no class-mark assignments at all, so no written mark can be compared against what canon assigns',
+    'no-machinery': 'ORDO has no judge for this construct'
+  };
+
+  // Marks written outside quotes. A mark inside a string literal is text, not notation.
+  function marksIn(text) {
+    var out = [], inQ = false, cur = '';
+    var s = String(text == null ? '' : text);
+    for (var i = 0; i <= s.length; i++) {
+      var ch = s[i];
+      if (ch === '"') { inQ = !inQ; cur = ''; continue; }
+      if (!inQ && ch !== undefined && /[\w.\-]/.test(ch)) { cur += ch; continue; }
+      if (cur) {
+        var m = /^(-?\d+(?:\.\d+)?|[\w-]+?)((?:\.[A-Z]{3})+)$/.exec(cur);
+        if (m) {
+          // the vocative particle is grammar, not part of the name: "O-doxakallos.DIV"
+          // must yield doxakallos, or the word is never found in the lexicon at all
+          var w = /^O-(.+)$/.exec(m[1]);
+          out.push({ token: cur, word: w ? w[1] : m[1], tags: m[2].split('.').filter(Boolean), isNumber: /^-?\d+(\.\d+)?$/.test(m[1]) });
+        }
+        cur = '';
+      }
+    }
+    return out;
+  }
+
+  function attend(source, lex, frames, opts) {
+    opts = opts || {};
+    var stanzas = parseSource(source);
+    var profile = declaredProfile(stanzas, frames);
+    var it = new Interp(lex, frames, {});
+    if (hasProfile(frames, profile)) it.profile = profile;
+
+    // Flatten with positions preserved, and read the declared register from the door.
+    var stmts = [], register = 'everyday';
+    for (var i = 0; i < stanzas.length; i++) {
+      for (var j = 0; j < stanzas[i].length; j++) {
+        var st = stanzas[i][j];
+        var hit = it.matchFrame(st.text);
+        stmts.push({ line: st.line, text: st.text, stanza: i, hit: hit, act: hit ? hit.frame.act : 'contemplation' });
+      }
+    }
+    for (var h = 0; h < stmts.length; h++) {
+      if (stmts[h].act === 'heading' && stmts[h].hit.args.register) { register = String(stmts[h].hit.args.register).toLowerCase(); break; }
+    }
+    var marksStandard = register === 'formal' || register === 'liturgical' || register === 'worship';
+    var epochHasAssignments = false;
+    for (var lw in lex.words) { if (lex.words[lw] && lex.words[lw].determinative) { epochHasAssignments = true; break; } }
+
+    // Names bound anywhere in this rite. A bound name shadows canon, so any
+    // canon-comparison over such a word is scope-dependent and must not be judged.
+    // ORDO binds through three groups, not one: `name` (Let/Receive/litany/rite-open),
+    // `receiving` (an offering's result), and `params` (a rite's given-list). Missing
+    // two of them meant a locally-bound name was judged against canon — a false clean,
+    // the most dangerous state this reading can produce.
+    var boundNames = {};
+    function bind(n, line) {
+      if (!n) return;
+      var k = String(n).replace(DET_RE, '$1').toLowerCase().trim();
+      if (k && (!boundNames[k] || line < boundNames[k].line)) boundNames[k] = { line: line };
+    }
+    stmts.forEach(function (s) {
+      if (!s.hit) return;
+      var a = s.hit.args || {};
+      bind(a.name, s.line);
+      bind(a.receiving, s.line);
+      if (a.params) String(a.params).split(/(?:,| and) /).forEach(function (p) { bind(p, s.line); });
+    });
+
+    var ACT_LEVEL = { 'if': 1, foreach: 1, turning: 1, vocative: 1 };
+
+    // Words that are NOT references when they appear: ORDO's own keywords (a canon
+    // word promoted to an operator — `Dokimance:` opens a test, it does not mention
+    // the word) and the arc-stage names, which the engine reads out of a stanza's
+    // PROSE on purpose (ordo.js: "the liturgy's prose IS the state machine").
+    // Asking a rite to write `Dokimance.ACT:` would be asking it to mark a keyword.
+    var notAReference = {};
+    (frames || []).forEach(function (f) {
+      String(f.pattern || '').replace(/[A-Za-z][\w-]*/g, function (tok) {
+        if (lex.words[tok.toLowerCase()]) notAReference[tok.toLowerCase()] = true;
+        return tok;
+      });
+    });
+    var arcs = (frames && frames.arcs) || {};
+    for (var an in arcs) {
+      (arcs[an].stages || []).forEach(function (sg) { notAReference[String(sg).toLowerCase()] = true; });
+    }
+
+    var cells = [], findings = [], blindSpots = [], contemplation = 0;
+
+    // THE CELL IS THE UNIT. A check may reach several verdicts within one sentence
+    // (two marked words, three bad tags); they collapse into ONE cell whose state is
+    // the join, with the individual verdicts carried inside it. Before this, cell()
+    // was called once per offending token, so a single (sentence x check) slot could
+    // hold `finding` AND `clear` — or, worse, `finding` AND `not-judged`, which is the
+    // -chu findings list and the -mi confession contradicting each other about the
+    // same slot while coverage.total still read true. The invariant this organ states
+    // twice in prose was, until this repair, not the invariant the code enforced.
+    var RANKS = { 'not-applicable': 0, clear: 1, 'not-judged': 2, finding: 3 };
+    function resolve(s, check, verdicts) {
+      var joined = 'not-applicable', i;
+      for (i = 0; i < verdicts.length; i++) {
+        if (RANKS[verdicts[i].state] > RANKS[joined]) joined = verdicts[i].state;
+      }
+      cells.push({ line: s.line, check: check, state: joined, details: verdicts });
+      for (i = 0; i < verdicts.length; i++) {
+        var v = verdicts[i];
+        if (v.state === 'finding') findings.push({ line: s.line, sentence: s.text, check: check, why: v.why, cite: v.cite, grade: 'chu' });
+        if (v.state === 'not-judged') blindSpots.push({ line: s.line, sentence: s.text, act: s.act, check: check, reason: v.reason, says: NOT_JUDGED[v.reason] });
+      }
+    }
+    function F(why, cite) { return { state: 'finding', why: why, cite: cite }; }
+    function NJ(reason) { return { state: 'not-judged', reason: reason }; }
+    function NA(why) { return [{ state: 'not-applicable', why: why }]; }
+    var CLEAR = [{ state: 'clear' }];
+
+    stmts.forEach(function (s) {
+      if (s.act === 'contemplation') contemplation++;
+      var marks = marksIn(s.text);
+      var descends = !!ACT_LEVEL[s.act];
+
+      ATTEND_CHECKS.forEach(function (chk) {
+        var v = [];
+        switch (chk.id) {
+          case 'det-one-per-word': {
+            if (!marks.length) { v = NA('no class-mark written here'); break; }
+            marks.forEach(function (m) {
+              if (m.tags.length > 1) v.push(F(m.word + ' wears ' + m.tags.length + ' class-marks (.' + m.tags.join(' .') + ') — one determinative per word; choose the dominant class', chk.cite));
+            });
+            if (!v.length) v = CLEAR;
+            break;
+          }
+          case 'det-vocabulary': {
+            var named = marks.filter(function (m) { return !m.isNumber; });
+            if (!named.length) { v = NA('no class-mark on a name here'); break; }
+            named.forEach(function (m) {
+              m.tags.forEach(function (t) { if (!knownDet(t)) v.push(F('"' + t + '" is not one of the v1 ten class-marks (' + Object.keys(DETERMINATIVES).join(' ') + ') — the inventory is extensible by canon, and nothing has been added', chk.cite)); });
+            });
+            if (!v.length) v = CLEAR;
+            break;
+          }
+          case 'classifier-vocabulary': {
+            var nums = marks.filter(function (m) { return m.isNumber; });
+            if (!nums.length) { v = NA('no classifier on a number here'); break; }
+            nums.forEach(function (m) {
+              m.tags.forEach(function (t) { if (!knownDet(t)) v.push(F('"' + t + '" is not one of the v1 ten class-marks — the ontogramme classifier draws on the same inventory', chk.cite)); });
+            });
+            if (!v.length) v = CLEAR;
+            break;
+          }
+          case 'det-ambiguous': {
+            if (!marks.length) { v = NA('no class-mark written here'); break; }
+            marks.forEach(function (m) {
+              m.tags.forEach(function (t) { if (knownDet(t) && DETERMINATIVES[t].ambiguous) v.push(F('.' + t + ' is ambiguous — ' + DETERMINATIVES[t].ambiguous + '. This reading will not guess which class was meant.', chk.cite)); });
+            });
+            if (!v.length) v = CLEAR;
+            break;
+          }
+          case 'det-canon-disagreement': {
+            var cands = marks.filter(function (m) { return !m.isNumber && m.tags.length === 1 && knownDet(m.tags[0]); });
+            if (!cands.length) { v = NA('no single well-formed class-mark on a name here'); break; }
+            // A reading that got quieter because its DATA got thinner must say so.
+            // If the epoch carries no assignments (a stale bundle, a worker whose KV
+            // wells were not re-put), every comparison would silently succeed and the
+            // report would read cleaner than the one before it. That is the exact
+            // direction a checker may never fail in.
+            if (!epochHasAssignments) { v = [NJ('epoch-silent')]; break; }
+            var judged = 0;
+            cands.forEach(function (m) {
+              var w = m.word.toLowerCase();
+              var b = boundNames[w];
+              // Position-aware: a binding shadows canon only from where it stands.
+              // A reference BEFORE any binding of that name is not scope-dependent.
+              if (b && b.line <= s.line) { v.push(NJ('needs-runtime-scope')); judged++; return; }
+              var cd = canonDet(lex, w);
+              if (!cd) return; // canon assigns this word no mark: nothing to disagree with
+              judged++;
+              if (cd.label === m.tags[0]) { v.push({ state: 'clear' }); return; }
+              var intent = (cd.label === 'PER' && /percept/i.test(cd.rationale || '')) ? ' (its rationale reads "' + cd.rationale + '", i.e. U+E174, which the registry names .PRC)' : '';
+              v.push(F('canon assigns ' + w + ' the mark .' + cd.label + intent + '; this sentence marks it .' + m.tags[0], cd.source));
+            });
+            if (!judged) v = NA('canon assigns these words no class-mark');
+            break;
+          }
+          case 'det-register': {
+            if (!marksStandard) { v = NA('the register is ' + register + ', where marks are omissible (manifesto.md:21)'); break; }
+            if (!s.hit) { v = NA('contemplation — inert narration refers to nothing'); break; }
+            // A mark WRITTEN is always a claim, so marks are read from the whole
+            // sentence. A mark MISSING is only missing where a word is actually
+            // being referred to — so absence is read from argument positions only,
+            // and quoted spans are blanked: a canon word inside a string literal is
+            // text, exactly as marksIn already treats a mark inside one.
+            var bare = [], args = s.hit.args || {};
+            Object.keys(args).forEach(function (k) {
+              String(args[k] == null ? '' : args[k]).replace(/"[^"]*"/g, ' ').split(/[^\w-]+/).forEach(function (tok) {
+                if (!tok || marks.some(function (m) { return m.word === tok; })) return;
+                var lw = tok.toLowerCase();
+                if (notAReference[lw] || boundNames[lw]) return;
+                var cd = canonDet(lex, lw);
+                if (cd && !bare.some(function (x) { return x.w === tok; })) bare.push({ w: tok, cd: cd });
+              });
+            });
+            bare.forEach(function (b) {
+              v.push(F(b.w + ' carries the canon mark .' + b.cd.label + ', and in the ' + register + ' register marks are standard — this sentence leaves it bare. Omissible, not forbidden: a note, not a fault.', chk.cite));
+            });
+            if (!v.length) v = CLEAR;
+            break;
+          }
+          case 'heading-late': {
+            if (s.act !== 'heading') { v = NA('not a heading'); break; }
+            v = (s.line === stmts[0].line && s.text === stmts[0].text) ? CLEAR
+              : [F('the register is declared at the door — performing this rite would misfire here rather than switch register', chk.cite)];
+            break;
+          }
+        }
+        resolve(s, chk.id, v.length ? v : NA('this check reached no verdict'));
+      });
+
+      // Act-level blindness, disclosed at the site that caused it. The class-mark
+      // checks above DO see marks inside a nested body, because the body is a
+      // substring of this sentence; what this reading does not do is understand
+      // the sub-statement AS a statement (its own frame, act and arguments).
+      if (descends) {
+        blindSpots.push({ line: s.line, sentence: s.text, act: s.act, check: 'act-level', reason: 'not-descended', says: NOT_JUDGED['not-descended'] });
+      }
+    });
+
+    // The totality invariant, asserted rather than claimed: every (sentence × check)
+    // pair resolved to exactly one state, and no state outside the closed set.
+    var STATES = { finding: 1, clear: 1, 'not-applicable': 1, 'not-judged': 1 };
+    var seen = {}, breaches = [];
+    cells.forEach(function (c) {
+      if (!STATES[c.state]) breaches.push('line ' + c.line + ' check ' + c.check + ' holds an unknown state "' + c.state + '"');
+      var k = c.line + '|' + c.check;
+      seen[k] = (seen[k] || 0) + 1;
+    });
+    stmts.forEach(function (s, idx) {
+      ATTEND_CHECKS.forEach(function (chk) {
+        var k = s.line + '|' + chk.id;
+        var want = stmts.filter(function (o) { return o.line === s.line; }).length; // statements CAN share a line
+        if (!seen[k]) breaches.push('line ' + s.line + ' was never put to the ' + chk.id + ' check — a silent third bin');
+        // "exactly one" was, until this repair, only ever tested for zero. A cell
+        // holding two states is the same failure as a cell holding none: the matrix
+        // stops being a function, and a `clear` can sit beside a `finding` unseen.
+        else if (idx === stmts.map(function (o) { return o.line; }).indexOf(s.line) && seen[k] !== want) {
+          breaches.push('line ' + s.line + ' holds ' + seen[k] + ' cells for the ' + chk.id + ' check where ' + want + ' statement(s) stand there — a cell must resolve to exactly one state');
+        }
+      });
+    });
+
+    var byReason = {};
+    blindSpots.forEach(function (b) { byReason[b.reason] = (byReason[b.reason] || 0) + 1; });
+
+    return {
+      epoch: lex.epoch,
+      register: register,
+      profile: it.profile,
+      statements: stmts.length,
+      contemplation: contemplation,
+      checks: ATTEND_CHECKS.map(function (c) { return c.id; }),
+      findings: findings,            // born -chu: inferred from the text, witnessed no run
+      blindSpots: blindSpots,        // born -mi: it directly witnessed which cells it skipped
+      coverage: { cells: cells.length, byReason: byReason, breaches: breaches, total: breaches.length === 0 },
+      // Said in full, every run, because a checker's silence about its own reach is
+      // the exact shape it exists to catch.
+      disclaimer: 'the attending read ' + stmts.length + ' sentences and performed none of them; its findings are inferred (-chu) and name only what this reading was instrumented to notice, never everything a performance could reveal',
+      exitCode: findings.length ? 1 : 0
+    };
+  }
 
   // ---------- public surface ----------
   var ORDO = {
@@ -964,6 +1424,9 @@
       }
       return urls;
     },
+    determinatives: DETERMINATIVES,
+    attend: attend,
+
     gloss: function (source, lex, frames) {
       var it = new Interp(lex, frames, {});
       var stanzas = parseSource(source);

@@ -109,7 +109,47 @@ def first_definition(text: str) -> str:
     return " ".join(m.group(1).split()) if m else ""
 
 
-def collect_canon() -> list[dict]:
+def collect_determinatives() -> dict[str, dict]:
+    """The word→class-mark assignments, read from the one place canon states them.
+
+    grammars/determinatives/manifesto.md carries the assignments as prose tables
+    ("Applied to the Canon"), and nowhere else in the repo are they machine-readable.
+    Until this function existed, a tool reading the bundle could not tell what class
+    ANY canon word belongs to — so ORDO's `word.TAG` notation recorded only what the
+    rite's author typed, never what the canon assigns.
+
+    The raw label is carried through UNRESOLVED on purpose. The manifesto labels two
+    different codepoints `PER` (U+E171 person at :44, U+E174 perception at :47) while
+    script/codepoints.md:134 names the second `.PRC`. Resolving that silently here
+    would decide a doctrine conflict inside an export script; instead the rationale
+    text travels with the label so a reader (or a checker) can say what the table
+    intends AND that the table disagrees with the registry.
+    """
+    path = ROOT / "grammars" / "determinatives" / "manifesto.md"
+    # The assignments are now a required input, not a nicety: a silent {} here makes
+    # ORDO's attending GREENER, not louder — the one direction a checker must never
+    # fail in. Raise, and let the export stop.
+    lines = path.read_text().splitlines()
+    out: dict[str, dict] = {}
+    row = re.compile(r"^\|\s*\*\*([\w-]+)\*\*\s*\|\s*([A-Z]{3})\s*(?:\(([^)]*)\))?\s*\|")
+    for n, line in enumerate(lines, 1):
+        m = row.match(line.strip())
+        if not m:
+            continue
+        word, label, rationale = m.group(1), m.group(2), (m.group(3) or "").strip()
+        if word in out:  # one determinative per word (manifesto.md:123) — first wins, collision recorded
+            out[word].setdefault("collisions", []).append({"label": label, "line": n})
+            continue
+        out[word] = {
+            "label": label,
+            "rationale": rationale,
+            "source": f"{path.relative_to(ROOT)}:{n}",
+        }
+    return out
+
+
+def collect_canon() -> tuple[list[dict], int]:
+    dets = collect_determinatives()
     entries = []
     seen = set()
     for path in sorted(ROOT.glob("canon/**/*.md")):
@@ -134,8 +174,11 @@ def collect_canon() -> list[dict]:
             "pronunciation": fm.get("pronunciation", ""),
             "entered": fm.get("entered", ""),
             "path": str(path.relative_to(ROOT)),
+            # absent for the 200+ words the manifesto's tables never covered —
+            # absence means "canon assigns none", not "canon assigns nothing"
+            "determinative": dets.get(word),
         })
-    return entries
+    return entries, len(dets)
 
 
 # ── main ────────────────────────────────────────────────────────────────
@@ -173,7 +216,7 @@ def main() -> int:
             "rationale": note.get("rationale", ""),
         })
 
-    canon = collect_canon()
+    canon, det_count = collect_canon()
 
     canon_words = []
     canon_by_word = {c["word"]: c for c in canon}
@@ -241,7 +284,7 @@ def main() -> int:
     out.write_text(json.dumps(bundle, ensure_ascii=False))
     size_kb = out.stat().st_size // 1024
     print(f"wrote {out} ({size_kb} KB): {len(morphemes)} morphemes · "
-          f"{len(canon)} canon entries · {len(canon_words)} decomposed words · "
+          f"{len(canon)} canon entries ({det_count} class-marked) · {len(canon_words)} decomposed words · "
           f"{len(docs)} docs · fonts {list(fonts)}")
 
     if "--copy-to" in sys.argv:
