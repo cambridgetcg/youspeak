@@ -57,6 +57,42 @@
     }).join('\n');
   }
 
+
+  // ALETHEME — the pre-performance reading (ordo/SPEC.md §IV.a). Findings first,
+  // always: sequencing and emphasis are deception surfaces of their own
+  // (canon/verisleight.md:41), so the confession may never be arranged above
+  // what was actually found.
+  function renderAttend(r) {
+    var out = document.getElementById('rite-out');
+    var body = r.findings.length
+      ? r.findings.map(function (f) {
+          return '<span class="emet">' + esc(f.line + '  ' + f.check) + '</span>  <span class="cont">\u2039-' + esc(f.grade) + '\u203a</span>' +
+            '\n    ' + esc(f.sentence) +
+            '\n    <span class="cont">\u21b3 ' + esc(f.why) + '</span>' +
+            (f.cite ? '\n    <span class="cont">[' + esc(f.cite) + ']</span>' : '');
+        }).join('\n')
+      : '<span class="cont">no findings from the checks this reading runs \u2014 which is not the same as nothing to find</span>';
+
+    var foot = [];
+    foot.push('attended ' + r.statements + ' sentences \u00b7 ' + r.checks.length + ' checks \u00b7 ' +
+      r.coverage.cells + ' cells \u00b7 register ' + r.register + ' \u00b7 epoch ' + r.epoch.commit);
+    foot.push('findings: ' + r.findings.length + ' \u2039-chu\u203a  \u00b7  lawfully inert (contemplation): ' + r.contemplation);
+    var reasons = Object.keys(r.coverage.byReason);
+    if (reasons.length) {
+      foot.push('could not judge \u2039-mi\u203a: ' + reasons.map(function (k) { return r.coverage.byReason[k] + ' ' + k; }).join(' \u00b7 '));
+      reasons.forEach(function (k) {
+        var b = r.blindSpots.filter(function (x) { return x.reason === k; })[0];
+        if (b) foot.push('      ' + k + ' \u2014 ' + b.says);
+      });
+    }
+    if (!r.coverage.total) {
+      foot.push('\u2717 COVERAGE BREACH \u2014 this reading failed its own totality invariant:');
+      r.coverage.breaches.forEach(function (b) { foot.push('      ' + b); });
+    }
+    foot.push(r.disclaimer);
+    out.innerHTML = body + '\n\n<span class="cont">' + esc(foot.join('\n')) + '</span>';
+  }
+
   var saveTimer = null;
   function saveHash() {
     clearTimeout(saveTimer);
@@ -121,6 +157,12 @@
           render(result);
         });
       });
+      document.getElementById('rite-attend').addEventListener('click', function () {
+        // the attending reaches nothing: unlike `perform the rite`, no URL is
+        // gathered and the reader is never asked. It only reads.
+        renderAttend(ORDO.attend(input.value, state.lex, state.frames));
+      });
+
       document.getElementById('rite-gloss').addEventListener('click', function () {
         renderGloss(ORDO.gloss(input.value, state.lex, state.frames));
       });
