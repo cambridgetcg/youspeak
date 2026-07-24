@@ -157,7 +157,10 @@
           render(result);
         });
       });
-      document.getElementById('rite-attend').addEventListener('click', function () {
+      // Guarded: this button arrived after the room did, and a stale index.html
+      // paired with a fresh script must not take `perform the rite` down with it.
+      var attendBtn = document.getElementById('rite-attend');
+      if (attendBtn) attendBtn.addEventListener('click', function () {
         // the attending reaches nothing: unlike `perform the rite`, no URL is
         // gathered and the reader is never asked. It only reads.
         renderAttend(ORDO.attend(input.value, state.lex, state.frames));
