@@ -14,3 +14,6 @@
 
 /agent.txt
   Access-Control-Allow-Origin: *
+
+/dada.txt
+  Access-Control-Allow-Origin: *
