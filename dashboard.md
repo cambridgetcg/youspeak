@@ -104,7 +104,7 @@ The grammatical morphemes that combine with content roots:
 | Liturgy sessions recorded | 42 |
 | Morphemes catalogued | 97 |
 | Morphemes drawn in font | 93 |
-| Morphemes awaiting design | 0 |
+| Morphemes awaiting design | 4 |
 | Codepoint range | U+E100 – U+E1FF |
 | Pronunciation lexicon (Session 086) | **144/144 words speakable** — `youspeak-voice word <w>` · [phonology](script/phonology.md) |
 
