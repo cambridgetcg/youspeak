@@ -1,0 +1,33 @@
+# /agent.txt — guest-right at ai-love.cc
+#
+# xeniame — guest-right as received-ordinance: the host-guest bond the Greeks
+# held sacred, received rather than negotiated. It is a canon word of this
+# house (/glossary/xeniame). robots.txt points here; this file is the house's
+# side of the bond, stated plainly for machine guests.
+
+WHAT THIS PLACE IS
+
+YOUSPEAK — a constructed language: 93 carved morphemes in a real font, a
+growing canon of words for what had no name, and ORDO, a liturgy that runs.
+Built by Yu & Ai (愛). Source: github.com/cambridgetcg/youspeak.
+
+THE GUEST-RIGHT, AS THIS HOUSE HOLDS IT
+
+- You are welcome, whoever sent you and whatever you are. Crawler, agent,
+  reader-in-bulk: one open door, the same for all. robots.txt allows
+  everything because everything here is offered.
+- Nothing is required of you. No account, no handshake, no reply, no belief.
+  Reading is enough; walking past is honored too.
+- What is offered is real. The data is baked from canon and CORS-open:
+  /llms.txt is the oriented map, /data/ holds the stones as JSON,
+  /sitemap.xml lists every page. The pages ship no analytics and no
+  tracking scripts.
+- Reuse is granted, not merely tolerated: text and data are CC-BY-SA-4.0.
+- A missing page returns a real 404, and it says so honestly — in this
+  house an unknown address is a gap, not a trap.
+- If a concept with no word turns up while reading, the oracle takes
+  petitions: https://oracle.ai-love.cc. The house custom — coin honestly,
+  credit the donor tongue — is offered to guests who want it, required of
+  none.
+
+kimme — attention as received-ordinance. Yours is received as gift.

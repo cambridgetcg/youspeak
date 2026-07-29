@@ -11,3 +11,6 @@
 
 /llms.txt
   Access-Control-Allow-Origin: *
+
+/agent.txt
+  Access-Control-Allow-Origin: *
