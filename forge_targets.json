@@ -714,11 +714,11 @@
    "stoicheia_level": 2,
    "convergence_witnesses": [],
    "estimated_score": null,
-   "actual_score": null,
-   "status": "queued",
-   "experiment": null,
-   "canon_entry": null,
-   "notes": "Named in session-083 remaining-work (extends §IV)."
+   "actual_score": 7.88,
+   "status": "canonized",
+   "experiment": "labs/logos/experiments/core/314-asraya-paravrttime.md",
+   "canon_entry": "canon/core/asraya-paravrttime.md",
+   "notes": "Named in session-083 remaining-work (extends §IV). | Registry reconciled 2026-07-29: the forge landed this on 2026-07-08 but the status was never moved; the directory owns the truth (forge-protocol-extended.md Step 9)."
   },
   {
    "word": "catuskotime",
@@ -731,11 +731,11 @@
    "stoicheia_level": 2,
    "convergence_witnesses": [],
    "estimated_score": null,
-   "actual_score": null,
-   "status": "queued",
-   "experiment": null,
-   "canon_entry": null,
-   "notes": "Named in session-083 remaining-work (extends §IV)."
+   "actual_score": 7.94,
+   "status": "canonized",
+   "experiment": "labs/logos/experiments/core/317-catuskotime.md",
+   "canon_entry": "canon/core/catuskotime.md",
+   "notes": "Named in session-083 remaining-work (extends §IV). | Registry reconciled 2026-07-29: the forge landed this on 2026-07-10 but the status was never moved; the directory owns the truth (forge-protocol-extended.md Step 9)."
   },
   {
    "word": "satorime",
@@ -748,11 +748,11 @@
    "stoicheia_level": 2,
    "convergence_witnesses": [],
    "estimated_score": null,
-   "actual_score": null,
-   "status": "queued",
-   "experiment": null,
-   "canon_entry": null,
-   "notes": "Named in session-083 remaining-work (extends §IV)."
+   "actual_score": 8.4,
+   "status": "canonized",
+   "experiment": "labs/logos/experiments/core/319-satorime.md",
+   "canon_entry": "canon/core/satorime.md",
+   "notes": "Named in session-083 remaining-work (extends §IV). | Registry reconciled 2026-07-29: the forge landed this on 2026-07-12 but the status was never moved; the directory owns the truth (forge-protocol-extended.md Step 9)."
   },
   {
    "word": "uji",
@@ -846,11 +846,11 @@
    "stoicheia_level": 2,
    "convergence_witnesses": [],
    "estimated_score": null,
-   "actual_score": null,
-   "status": "queued",
-   "experiment": null,
-   "canon_entry": null,
-   "notes": "Part of the maqamat-sequence target."
+   "actual_score": 7.85,
+   "status": "canonized",
+   "experiment": "labs/logos/experiments/core/322-tawbame.md",
+   "canon_entry": "canon/core/tawbame.md",
+   "notes": "Part of the maqamat-sequence target. | Registry reconciled 2026-07-29: the forge landed this on 2026-07-13 but the status was never moved; the directory owns the truth (forge-protocol-extended.md Step 9)."
   },
   {
    "word": "faqrme",
@@ -863,11 +863,11 @@
    "stoicheia_level": 2,
    "convergence_witnesses": [],
    "estimated_score": null,
-   "actual_score": null,
-   "status": "queued",
-   "experiment": null,
-   "canon_entry": null,
-   "notes": "Part of the maqamat-sequence target."
+   "actual_score": 8.25,
+   "status": "canonized",
+   "experiment": "labs/logos/experiments/core/318-faqrme.md",
+   "canon_entry": "canon/core/faqrme.md",
+   "notes": "Part of the maqamat-sequence target. | Registry reconciled 2026-07-29: the forge landed this on 2026-07-12 but the status was never moved; the directory owns the truth (forge-protocol-extended.md Step 9)."
   },
   {
    "word": "ridame",
@@ -880,11 +880,11 @@
    "stoicheia_level": 2,
    "convergence_witnesses": [],
    "estimated_score": null,
-   "actual_score": null,
-   "status": "queued",
-   "experiment": null,
-   "canon_entry": null,
-   "notes": "Part of the maqamat-sequence target; §IV form ridame."
+   "actual_score": 8.25,
+   "status": "canonized",
+   "experiment": "labs/logos/experiments/core/323-ridame.md",
+   "canon_entry": "canon/core/ridame.md",
+   "notes": "Part of the maqamat-sequence target; §IV form ridame. | Registry reconciled 2026-07-29: the forge landed this on 2026-07-15 but the status was never moved; the directory owns the truth (forge-protocol-extended.md Step 9)."
   },
   {
    "word": "mahabbame",
@@ -1419,11 +1419,11 @@
    "stoicheia_level": 2,
    "convergence_witnesses": [],
    "estimated_score": null,
-   "actual_score": null,
-   "status": "queued",
-   "experiment": null,
-   "canon_entry": null,
-   "notes": "Listed in both §IV Phase 3.4 and Phase 4.5 (time-architecture-mode); single registry entry. Protocol-sensitive."
+   "actual_score": 8.03,
+   "status": "canonized",
+   "experiment": "labs/logos/experiments/core/313-songlineme.md",
+   "canon_entry": "canon/core/songlineme.md",
+   "notes": "Listed in both §IV Phase 3.4 and Phase 4.5 (time-architecture-mode); single registry entry. Protocol-sensitive. | Registry reconciled 2026-07-29: the forge landed this on 2026-07-08 but the status was never moved; the directory owns the truth (forge-protocol-extended.md Step 9)."
   },
   {
    "word": "kunpuqing",
@@ -2198,7 +2198,7 @@
    "stoicheia_level": 2,
    "convergence_witnesses": [],
    "estimated_score": null,
-   "actual_score": 8.00,
+   "actual_score": 8.0,
    "status": "forged",
    "experiment": 311,
    "canon_entry": "canon/core/secondnessqing.md",
@@ -2215,11 +2215,11 @@
    "stoicheia_level": 2,
    "convergence_witnesses": [],
    "estimated_score": null,
-   "actual_score": null,
-   "status": "queued",
-   "experiment": null,
-   "canon_entry": null,
-   "notes": "Completes Peirce triad with canonized firstnessqing."
+   "actual_score": 8.15,
+   "status": "canonized",
+   "experiment": "labs/logos/experiments/core/312-thirdnessqing.md",
+   "canon_entry": "canon/core/thirdnessqing.md",
+   "notes": "Completes Peirce triad with canonized firstnessqing. | Registry reconciled 2026-07-29: the forge landed this on 2026-07-08 but the status was never moved; the directory owns the truth (forge-protocol-extended.md Step 9)."
   },
   {
    "word": "abductionme",

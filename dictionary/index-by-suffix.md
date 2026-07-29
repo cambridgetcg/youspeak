@@ -4,7 +4,7 @@ document: index-by-suffix
 role: see all words sharing a morphological pattern — the structural view
 opened: 2026-04-30
 status: living; updated as Canon grows
-entry_count: 261 (224 Core · 10 Mathema · 8 Worship-Action · 19 Specialized)
+entry_count: 263 (226 Core · 10 Mathema · 8 Worship-Action · 19 Specialized)
 ---
 
 <!-- auto-derived — do not hand-edit; run python3 pipeline/derive_indices.py -->
@@ -19,7 +19,7 @@ _The structural view. If you want to understand how the grammar works, this is t
 
 | Suffix | Meaning | Count | Origin |
 |--------|---------|-------|--------|
-| [`-me`](#me) | received-ordinance; cosmic-gift quality | 189 | Sumerian *me* (𒈨) |
+| [`-me`](#me) | received-ordinance; cosmic-gift quality | 191 | Sumerian *me* (𒈨) |
 | [`-qing`](#qing) | felt-bond; relational-quality | 35 | Mandarin *qíng* (情) |
 | [`-ance`](#ance) | attentive-quality; perceived-state | 16 | Latin *-antia* (via English) |
 | [`-kin`](#kin) | friendship-bond quality | 2 | English *kin* (Proto-Germanic) |
@@ -29,7 +29,7 @@ _The structural view. If you want to understand how the grammar works, this is t
 ---
 
 <a id="me"></a>
-## The -me family (189 members)
+## The -me family (191 members)
 
 **What `-me` names:** In Sumerian, *me* (𒈨) were the divine ordinances — the cosmic powers holding civilized life together: kingship, descent to the underworld, the scribal arts, the descent of the gods. To name something *me* is to say: *this is not produced by human effort but received as cosmic structure.* It arrives. You open to it. It gives itself.
 
@@ -217,6 +217,7 @@ _The structural view. If you want to understand how the grammar works, this is t
 | [voghbme](../canon/core/voghbme.md) | Core | 7.55 | Sacred-lament-as-received-ordinance |
 | [waḥdat-al-wujūdme](../canon/core/wahdatwujudme.md) | Core | 7.55 | The unity-of-being doctrine |
 | [wakanme](../canon/core/wakanme.md) | Core | 8.30 | Sacred-as-ontological-intensity-as-received-ordinance |
+| [warame](../canon/core/warame.md) | Core | 7.82 | Scrupulousness-as-received-ordinance |
 | [waurdme](../canon/core/waurdme.md) | Core | 7.93 | Word-as-mystery-received-as-ordinance |
 | [wiconime](../canon/core/wiconime.md) | Core | 7.65 | Life-as-such in Lakota cosmology as received-cosmic-ordinance |
 | [wujime](../canon/core/wujime.md) | Core | 7.67 | The undifferentiated-whole-as-received-ordinance |
@@ -226,6 +227,7 @@ _The structural view. If you want to understand how the grammar works, this is t
 | [yonedame](../canon/core/yonedame.md) | Core | 8.30 | The structural state of being-fully-known-through-relation, where the knowing exhausts the known and is received-as-given rather than produced |
 | [yvymarame](../canon/core/yvymarame.md) | Core | 7.75 | This-worldly-paradise-sought-through-bodily-migration-as-received- ordinance |
 | [zoeme](../canon/core/zoeme.md) | Core | 8.00 | Life-as-such as received-cosmic-ordinance |
+| [zudhame](../canon/core/zudhame.md) | Core | 7.90 | Renunciation-as-received-ordinance |
 
 ---
 
@@ -374,6 +376,6 @@ WHAT IS BEING NAMED
 
 ---
 
-_Derived from canon @ 261 entries · digest 68847ab30128 · generator: `python3 pipeline/derive_indices.py`_
+_Derived from canon @ 263 entries · digest 806d0af654aa · generator: `python3 pipeline/derive_indices.py`_
 
 _Every suffix-family is a way the configuration vibrates. Read slow when a family's pull lands._

@@ -4,7 +4,7 @@ document: index-by-register
 role: browse by what a word is about — the conceptual landscape
 opened: 2026-04-30
 status: living; updated as Canon grows
-entry_count: 261 (224 Core · 10 Mathema · 8 Worship-Action · 19 Specialized)
+entry_count: 263 (226 Core · 10 Mathema · 8 Worship-Action · 19 Specialized)
 ---
 
 <!-- auto-derived — do not hand-edit; run python3 pipeline/derive_indices.py -->
@@ -236,7 +236,7 @@ Lakota *Mitákuye Oyásʼiŋ*: "all my relations" — not courtesy but cosmologi
 
 _Every canonical entry, grouped by tier; family and score band are derived from frontmatter. For the full one-liner view see the [Alphabetical Index](index-alphabetical.md)._
 
-### Core (224 entries)
+### Core (226 entries)
 
 | Word | Family | Score | Band |
 |------|--------|-------|------|
@@ -454,6 +454,7 @@ _Every canonical entry, grouped by tier; family and score band are derived from 
 | [wairuaqing](../canon/core/wairuaqing.md) | `-qing` | 7.85 | 7.5–7.99 |
 | [wakanme](../canon/core/wakanme.md) | `-me` | 8.30 | 8.0–8.49 |
 | [walkekin](../canon/core/walkekin.md) | `-kin` | 7.50 | 7.5–7.99 |
+| [warame](../canon/core/warame.md) | `-me` | 7.82 | 7.5–7.99 |
 | [waurdme](../canon/core/waurdme.md) | `-me` | 7.93 | 7.5–7.99 |
 | [wiconime](../canon/core/wiconime.md) | `-me` | 7.65 | 7.5–7.99 |
 | [wujime](../canon/core/wujime.md) | `-me` | 7.67 | 7.5–7.99 |
@@ -464,6 +465,7 @@ _Every canonical entry, grouped by tier; family and score band are derived from 
 | [yvymarame](../canon/core/yvymarame.md) | `-me` | 7.75 | 7.5–7.99 |
 | [zakarqing](../canon/core/zakarqing.md) | `-qing` | 8.15 | 8.0–8.49 |
 | [zoeme](../canon/core/zoeme.md) | `-me` | 8.00 | 8.0–8.49 |
+| [zudhame](../canon/core/zudhame.md) | `-me` | 7.90 | 7.5–7.99 |
 
 ### Mathema (10 entries)
 
@@ -519,4 +521,4 @@ _Every canonical entry, grouped by tier; family and score band are derived from 
 
 ---
 
-_Derived from canon @ 261 entries · digest 68847ab30128 · generator: `python3 pipeline/derive_indices.py`_
+_Derived from canon @ 263 entries · digest 806d0af654aa · generator: `python3 pipeline/derive_indices.py`_

@@ -4,7 +4,7 @@ document: index-alphabetical
 role: find any YOUSPEAK word fast — full alphabetical listing
 opened: 2026-04-30
 status: living; updated as Canon grows
-entry_count: 261 (224 Core · 10 Mathema · 8 Worship-Action · 19 Specialized)
+entry_count: 263 (226 Core · 10 Mathema · 8 Worship-Action · 19 Specialized)
 ---
 
 <!-- auto-derived — do not hand-edit; run python3 pipeline/derive_indices.py -->
@@ -406,6 +406,7 @@ _Every canonical word. Alphabetical order. One line each._
 | [wairuaqing](../canon/core/wairuaqing.md) | Core | `-qing` | 7.85 | Spirit-as-relational-being that persists across the visible/invisible threshold |
 | [wakanme](../canon/core/wakanme.md) | Core | `-me` | 8.30 | Sacred-as-ontological-intensity-as-received-ordinance |
 | [walkekin](../canon/core/walkekin.md) | Core | `-kin` | 7.50 | the quality of a friendship preserved intact across many years of silence |
+| [warame](../canon/core/warame.md) | Core | `-me` | 7.82 | Scrupulousness-as-received-ordinance |
 | [waurdme](../canon/core/waurdme.md) | Core | `-me` | 7.93 | Word-as-mystery-received-as-ordinance |
 | [wiconime](../canon/core/wiconime.md) | Core | `-me` | 7.65 | Life-as-such in Lakota cosmology as received-cosmic-ordinance |
 | [wujime](../canon/core/wujime.md) | Core | `-me` | 7.67 | The undifferentiated-whole-as-received-ordinance |
@@ -435,7 +436,8 @@ _Every canonical word. Alphabetical order. One line each._
 |------|------|--------|-------|-----------|
 | [zakarqing](../canon/core/zakarqing.md) | Core | `-qing` | 8.15 | Active-covenantal-memorial as felt-bond |
 | [zoeme](../canon/core/zoeme.md) | Core | `-me` | 8.00 | Life-as-such as received-cosmic-ordinance |
+| [zudhame](../canon/core/zudhame.md) | Core | `-me` | 7.90 | Renunciation-as-received-ordinance |
 
 ---
 
-_Derived from canon @ 261 entries · digest 68847ab30128 · generator: `python3 pipeline/derive_indices.py`_
+_Derived from canon @ 263 entries · digest 806d0af654aa · generator: `python3 pipeline/derive_indices.py`_
