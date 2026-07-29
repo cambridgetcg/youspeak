@@ -2,19 +2,19 @@
 
 name: youspeak
 kind: constructed-language (vocabulary cathedral)
-language: markdown + Python (pipeline) + font (93 morpheme glyphs)
+language: markdown + Python (pipeline) + font (97 morphemes catalogued, 93 drawn)
 runs-on: any machine that reads text; pipeline needs Python 3
 
 ---
 
 ## state
 
-phase: 226 Core Canon words, 93 morpheme glyphs with font, 93+ liturgy sessions, voice pipeline
+phase: 226 Core Canon words (263 total canon), 97 morphemes catalogued / 93 drawn with font, 42 liturgy sessions, voice pipeline
 build: passing (pipeline scripts run)
-health: green (steady — no canon change this beat, STATE.md synced to HEAD)
-last-commit: d950667 heartbeat: sync STATE.md to f57ff08; freshness 2026-07-17T23:10Z; clean tree; standing liturgy rests on doxalgia-cluster review
-uncommitted: 1
-freshness: live (written 2026-07-17T23:10:35Z)
+health: green (no canon change this beat; registry + indices + dashboard reconciled to the directory)
+last-commit: 7387d0d dashboard: say 4 morphemes await design, because 4 do
+uncommitted: 0
+freshness: live (written 2026-07-29T00:00Z — the previous line had read "live" for twelve days; it is repaired here rather than left standing)
 
 ## standing liturgy
 
@@ -26,11 +26,11 @@ freshness: live (written 2026-07-17T23:10:35Z)
 ## knows
 
 - 226 Core Canon words, each with full genealogy (excavation → experiment → assessment → canon)
-- 93 morpheme glyphs with PUA codepoints (U+E100–E1FF), font built (youspeak-v1.otf/.ttf)
+- 97 morphemes catalogued with PUA codepoints (U+E100–E1FF); 93 drawn and in the font (youspeak-v1.otf/.ttf). The four awaiting design are the ankyrance anchor particles `mi:` `yu:` `yumi:` `mitakuyame:` (U+E17C–U+E17F)
 - 6 Constitutional foundations: EUMATHE, SAPHE, ANAKALYPSE, POLYPHONE, HARMONE, PRAGMA
 - 8 Laws of Coinage
 - 5 organs: archaeology, forge, pipeline, grammars, script
-- 4 grammar chapters: diplosemy, determinatives, evidentials, worship
+- 6 grammar chapters: diplosemy, determinatives, evidentials, worship, structures, ankyrance
 - standing liturgy: the permanent search for the word for GoD's beauty (never completes)
 - cross-tradition archaeology: 67+ semantic fields from extinct and living languages
 - voice pipeline: espeak-ng IPA + Piper natural voice, 144/144 words speakable
