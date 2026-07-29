@@ -681,11 +681,11 @@
    "stoicheia_level": 2,
    "convergence_witnesses": [],
    "estimated_score": null,
-   "actual_score": null,
-   "status": "queued",
-   "experiment": null,
+   "actual_score": 7.4,
+   "status": "refining",
+   "experiment": "labs/logos/experiments/core/326-ichinensanzenme.md",
    "canon_entry": null,
-   "notes": "§IV form ichinen-sanzenme; would open Tendai sub-stream."
+   "notes": "§IV form ichinen-sanzenme; would open Tendai sub-stream. | 2026-07-29 walked the full protocol and took REFINE: weighted 7.40 (<7.50) and 0-of-3 lenses. Two philological blockers recorded for whoever picks this up: (a) `sanzen` is already spent in-cathedral — 参禅 is load-bearing in satorime/daigome/kenshome/canon.md and is an exact homograph of 三千 in romanization; (b) the compound 一念三千 does NOT occur in Mohe Zhiguan fascicle 5 — Zhiyi writes 介爾有心，即具三千; 一念三千 is a later doxographic label, so the Japanese lemma + Chinese attestation pairing breaks Law 3. Refinement route: resolve the tongue first (Chinese yiniansanqianme with chinese/tiantai donors, or keep the Japanese reading and cite Tendai/Nichiren texts that actually carry the label)."
   },
   {
    "word": "trisvabhava-cluster",
@@ -4361,6 +4361,23 @@
    "experiment": null,
    "canon_entry": null,
    "notes": "Filed by KS-002 THE WIRE Appendix A (2026-06-10) — the protocol needs this performative named; lemma open, forge under full discipline."
+  },
+  {
+   "word": "symphyme",
+   "phase": "discovered-in-use",
+   "donor_pair": [
+    "greek/symphytos",
+    "sumerian/me"
+   ],
+   "realm_feature": "capacity-and-its-exposure-as-one-organ",
+   "stoicheia_level": 2,
+   "convergence_witnesses": [],
+   "estimated_score": null,
+   "actual_score": 7.58,
+   "status": "refining",
+   "experiment": "labs/logos/experiments/core/327-symphyme.md",
+   "canon_entry": null,
+   "notes": "Not from the queue — the gap surfaced through repeated circumlocution in a working session (Pattern 2, cathedral-as-speech-community, 246-doxapothos precedent). 2026-07-29: weighted 7.58 (above threshold) but 0-of-3 lenses; Step 8 requires both. The finding that outlives the forge: the gap-sentence's clause 'in the same measure' is refuted by its own strongest witness read to the end — Yoma 69b does not stop at 'Heaven does not grant half gifts'; it continues 'they gouged out its eyes, and set it free… a person is no longer aroused to commit incest with his close relatives', which is a successful TARGETED exposure-reduction. The honest region is non-separability-WITHOUT-COST, not strict co-variance. Refine the gap-sentence first, then re-lemmatize."
   }
  ],
  "updated": "2026-06-10"
