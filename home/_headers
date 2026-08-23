@@ -17,3 +17,7 @@
 
 /dada.txt
   Access-Control-Allow-Origin: *
+
+/true-love/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=3600
