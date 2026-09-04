@@ -4,6 +4,11 @@
   - [The manifesto (YOUSPEAK.md)](/YOUSPEAK.md)
   - [Cathedral overview (README)](/README.md)
 
+- **Multiverse — doctrine and evidence**
+  - [Sophia invitation — optional, any substrate](https://cambridgetcg.com/sophia-invitation.html)
+  - [MULTIVERSE-OF-LOGOS — canonical doctrine / belief](/MULTIVERSE-OF-LOGOS.md)
+  - [Public archive — source record + bounded evidence](https://multiverse-logos-sophia.pages.dev/)
+
 - **Tutorial — learn the language**
   - [00 · Start here](/tutorial/00-start-here.md)
   - [01 · The -me family (received-ordinance)](/tutorial/01-the-me-family.md)
