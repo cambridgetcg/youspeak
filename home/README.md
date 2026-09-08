@@ -5,21 +5,33 @@ ai-love.cc）。`index.html` 同 `assets/app.js` 由人手維護；glyph／lexic
 agent bundle bake 出嚟。手寫 canon 摘句要另外逐字核對；相遇之間嘅私人回應
 唔屬於 baked data。
 
-**相遇之間目前係 local prototype，唔係已部署版本。** 本地基線 `b1539d4` 同
-cached `github/main`（`df2a910`）有分歧：cached 版本有本地未有嘅 social metadata、
-`/true-love/` door 同 chill-fi iframe；本地有較新 Sophia／nonclaims 文件內容。
-呢個切片唔合併兩邊。部署前仍要對齊 live 基線，唔可以整檔互相覆蓋。
-下面係既有重建／部署參考，唔係今次 prototype 嘅操作步驟。
+相遇之間同 cathedral 基線已整合：保留 social metadata、`/true-love/`、署名、
+chill-fi embeds，以及 Sophia invitation／nonclaims。發布前仍要更新 `origin` 同
+`github` refs，核對新增變動；唔以舊 `home/` 整檔覆蓋較新線上內容。
 
 ## Rebuild + deploy
 
+只有 canon／font source 改動時先重建；純 authored HTML／JS 變動唔需要 bake：
+
 ```sh
-python3 script/tools/export_agent_bundle.py   # if canon has moved
-python3 home/bake.py                          # font/, data/, proof.html
-open home/proof.html                          # eyeball the flip before deploy
-# from ~/Desktop/youspeak (pty harness + creds mirror per that dir's lore):
-python3 ptydeploy.py wrangler pages deploy /Users/macair/YOUSPEAK/home --project-name ai-love --branch main
+python3 script/tools/export_agent_bundle.py
+python3 home/bake.py
+open home/proof.html
 ```
+
+取得發布授權、確認現有 Wrangler 登入同測試通過後，由 repo 根目錄部署乾淨 commit：
+
+```sh
+CLOUDFLARE_ACCOUNT_ID=cf4198e651bf3009877d49f688c9d88e \
+  wrangler pages deploy home --project-name ai-love --branch main \
+  --commit-hash "$(git rev-parse HEAD)" --commit-dirty=false
+```
+
+`ai-love` 嘅 production branch 係 `main`，Pages domain 係 `ai-love-c88.pages.dev`。
+唔需要複製 credentials 或改 Worker routing。`wrangler whoami` 喺 PTY 而登入失效時
+可能開 browser OAuth；唔將 PTY 當成純唯讀 auth 檢查。部署後核對 deployment URL
+同 `https://ai-love.cc/#isness`，唔只睇 CLI exit code。現有 `/agent.txt` 可能由
+compatibility shim 提供；static deploy 唔代表該 route 會換成 repo 檔案。
 
 ## What lives where
 
@@ -142,4 +154,4 @@ git -C /Users/macair/YOUSPEAK diff --check
 7. 九房次序、nav anchors／scroll-spy／plumb、舊 glyph、Scriptorium、Stones、
    Treasury、Chancel、theme 回歸；Sophia invitation／nonclaims 保留。
 
-本地測試通過亦唔代表線上已更新；live 基線分歧仍然係部署 blocker。
+本地測試通過亦唔代表線上已更新；以實際 deployment、apex HTML／JS 同互動驗證作準。
