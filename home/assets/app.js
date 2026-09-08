@@ -1,17 +1,112 @@
 /* the cathedral at love — app.js
-   All data arrives from /data/core.js (synchronous kernel) and the lazy
-   /data/morphemes.min.json + /data/lexicon.min.json.
+   Glyph／lexicon 資料由 /data/core.js 同 lazy JSON 載入。
+   相遇之間用 HTML 固定原文；私人回應唔入資料井。
    Coordinate law: glyph strokes/polygons are EM-space (y-up); svg_path is
    SVG-space (y-down). svgY = 1000 - emY. Verified against the font builder. */
 (function () {
   'use strict';
+  var $ = function (s, el) { return (el || document).querySelector(s); };
+  var $$ = function (s, el) { return [].slice.call((el || document).querySelectorAll(s)); };
+
+  /* ── VII · 相遇之間：唔依賴 canon 資料載入嘅本地互動 ── */
+  function initIsness() {
+    var room = $('#isness');
+    if (!room || room.dataset.isnessReady === 'true') return;
+
+    var draft = $('#isness-draft', room), place = $('#isness-place', room),
+        clear = $('#isness-clear', room), response = $('#isness-response', room),
+        responseWrap = $('#isness-response-wrap', room), status = $('#isness-status', room),
+        source = $('#isness-source', room), fallback = $('#isness-fallback', room);
+    var controls = $$('[data-isness-controls]', room);
+    var buttons = $$('button[data-isness-view]', room);
+    var explanations = $$('[data-isness-explanation]', room);
+    var views = ['here', 'turn', 'between'];
+    if (!draft || !place || !clear || !response || !responseWrap || !status || !source ||
+        !controls.length || !views.every(function (view) {
+          return buttons.some(function (b) { return b.dataset.isnessView === view; }) &&
+            explanations.some(function (p) { return p.dataset.isnessExplanation === view; });
+        })) return;
+
+    var state = { view: 'here', draft: '', placed: false };
+    var maxDraftLength = 280; // 同 HTML maxlength 一致；String.length 計 UTF-16 code units。
+
+    function renderView() {
+      room.dataset.isnessView = state.view;
+      buttons.forEach(function (b) {
+        b.setAttribute('aria-pressed', String(b.dataset.isnessView === state.view));
+      });
+      explanations.forEach(function (p) {
+        p.hidden = p.dataset.isnessExplanation !== state.view;
+      });
+    }
+    function renderPlaced() {
+      room.dataset.isnessPlaced = String(state.placed);
+      response.textContent = state.placed ? state.draft : '';
+      responseWrap.hidden = !state.placed;
+    }
+    function reset(focusInput) {
+      state.view = 'here';
+      state.draft = '';
+      state.placed = false;
+      draft.value = '';
+      draft.removeAttribute('aria-invalid');
+      status.textContent = '';
+      renderView();
+      renderPlaced();
+      if (focusInput) draft.focus();
+    }
+
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var view = b.dataset.isnessView;
+        if (views.indexOf(view) === -1) return;
+        state.view = view;
+        renderView(); // 只轉視角，原文、草稿同放置狀態唔變。
+      });
+    });
+    draft.addEventListener('input', function () {
+      if (draft.value === state.draft) return;
+      var wasPlaced = state.placed;
+      state.draft = draft.value;
+      state.placed = false;
+      draft.removeAttribute('aria-invalid');
+      status.textContent = wasPlaced ? '草稿改咗；舊回應同連線已撤下。' : '';
+      renderPlaced();
+    });
+    place.addEventListener('click', function () {
+      state.draft = draft.value;
+      if (!state.draft.trim() || state.draft.length > maxDraftLength) {
+        state.placed = false;
+        renderPlaced();
+        draft.setAttribute('aria-invalid', 'true');
+        status.textContent = !state.draft.trim() ?
+          '留一句唔係純空白嘅回應，或者唔寫就離開；兩樣都可以。' :
+          '呢句超過 280 個 UTF-16 code units；請縮短後再留下。';
+        return;
+      }
+      draft.removeAttribute('aria-invalid');
+      state.placed = true;
+      renderPlaced(); // 訪客文字只落 textContent，唔解析成 HTML。
+      status.textContent = '呢句已放喺本頁。細線只表示呢次文字互動，唔代表對方收到。';
+    });
+    clear.addEventListener('click', function () { reset(true); });
+    // 連 BFCache 返回都重設；唔掂舊房間，唔用 storage，唔喺載入時搶焦點。
+    window.addEventListener('pagehide', function () { reset(false); });
+    window.addEventListener('pageshow', function (event) {
+      if (event.persisted) reset(false);
+      else draft.value = state.draft; // 初載以本頁草稿為準；唔畀表單還原覆蓋，亦唔抹走已接受嘅字。
+    });
+    reset(false);
+    room.dataset.isnessReady = 'true';
+    controls.forEach(function (control) { control.hidden = false; });
+    if (fallback) fallback.hidden = true;
+  }
+  initIsness();
+
   var C = window.YS_CORE;
   if (!C) return;
   var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   var SW = 80; // default stroke width — script/glyphs/glyph_specs_v1.py
-
-  var $ = function (s, el) { return (el || document).querySelector(s); };
-  var $$ = function (s, el) { return [].slice.call((el || document).querySelectorAll(s)); };
   var NS = 'http://www.w3.org/2000/svg';
 
   /* ── data wells (lazy, once) ─────────────────────────── */

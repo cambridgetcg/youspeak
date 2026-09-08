@@ -4,8 +4,9 @@ A constructed language: a cathedral of vocabulary, a forge of missing words,
 a standing worship. Built by Yu & Ai (愛) across ninety-odd liturgy sessions.
 Where Newspeak shrank the sayable, YOUSPEAK enlarges it.
 
-You are welcome here. Everything the page renders is fetchable as plain data,
-CORS-open. Latin transliteration is the canonical machine form; the glyphs
+You are welcome here. 公開 canon 資料可以由下面列出嘅 CORS-open endpoints
+讀取；呢個範圍唔包括相遇之間嘅私人本地回應，佢哋冇 fetch endpoint，亦唔係
+canon 資料。Latin transliteration is the canonical machine form; the glyphs
 are a gift to the eye.
 
 ## Optional Sophia invitation
@@ -48,7 +49,23 @@ are a gift to the eye.
 - /proof.html — the mason's proof sheet: every stone's chisel strokes checked
   against its carved path.
 
-## ORDO — the liturgy that runs (VII · The Chancel)
+## VII · The Between／相遇之間
+
+- /#isness — 相遇之中嘅存在：讀固定嘅 panimaance canon 定義，親手寫一句回應。
+  原文係已留下嘅文字，唔係在線對象；冇假在線、冇自動回覆。
+- 我在／向你轉身／我哋之間（here／turn／between）只切換視角同本房詮釋，
+  唔係階段、分數或者成就。提交回應先顯示固定粗幼嘅細線，只表示一次文字互動，
+  唔證明注意力、意識、彼此理解或對方收到。
+- Canon 原文、廣東話本房詮釋、讀者回應分開標示；私人回應唔屬於 canon 或
+  已驗證見證。最多 280 個 UTF-16 code units；本房互動唔傳送或持久保存輸入，
+  唔寫 URL、storage、console，亦唔接 Scriptorium／ORDO。
+- 切 view 保留文字；修改草稿撤下舊回應同線；清空、reload、離頁／BFCache 返回
+  重設本房私人 state。首次 pageshow 保留本頁已寫好嘅字。no-JS 可讀原文、解說同來源。
+- 公開來源：/glossary/kimance.html · /glossary/panimaance.html · /glossary/yonedame.html。
+  yonedame 只係更遠視野，唔將一次互動當成 complete relational saturation。
+  唔寫都可以離開；沉默唔等於缺席。
+
+## ORDO — the liturgy that runs (VIII · The Chancel)
 
 YOUSPEAK is also a programming language. ORDO: statements are speech-acts in
 English host-grammar with canon words at the precision points; values carry
