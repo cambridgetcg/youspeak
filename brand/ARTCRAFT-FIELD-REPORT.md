@@ -151,7 +151,7 @@ photocraft-cli run --new '{"width":1200,"height":400,"background":"#1E1813"}' \
 - **Expected:** Chisel bevels look the same whatever the edge orientation.
 - **Workaround:** `smooth` technique, or a mirrored render, as og:tablet did.
 
-### P2. PhotoCraft: clipped layers disappear when the clipping base's Fill is 0. REPRODUCED
+### P2. PhotoCraft: clipped layers disappear when the clipping base's Fill is 0. REPRODUCED — but NOT a bug: this is Photoshop's default "Blend Clipped Layers as Group" (see §7)
 *Reported by og:tablet.*
 ```sh
 photocraft-cli run --new '{"width":200,"height":200,"background":"#ffffff"}' \
@@ -287,7 +287,25 @@ effectcraft-cli script r11.jsx $PWD/r11.ecproj                       # adds ec.s
 
 ---
 
-## 7. Issues worth filing upstream (drafts only; nothing filed)
+## 7. Issues worth filing upstream
+
+**Filed 2026-10-09** after each draft was re-run on the latest releases (VectorCraft 0.7.0, PhotoCraft 0.5.0, EffectCraft 0.6.0), checked against upstream issues and main, and reviewed by a second agent who re-ran the repro as written:
+
+| draft | outcome |
+|---|---|
+| 1 | not filed: already upstream as [vectorcraft#550](https://github.com/storytold/vectorcraft/issues/550), fixed on main (b832599) one commit after v0.7.0 |
+| 2 | [vectorcraft#784](https://github.com/storytold/vectorcraft/issues/784) |
+| 3 | [vectorcraft#785](https://github.com/storytold/vectorcraft/issues/785) |
+| 4 | [vectorcraft#786](https://github.com/storytold/vectorcraft/issues/786) |
+| 5 | [vectorcraft#787](https://github.com/storytold/vectorcraft/issues/787) |
+| 6 | [vectorcraft#788](https://github.com/storytold/vectorcraft/issues/788) |
+| 7 | [photocraft#1926](https://github.com/storytold/photocraft/issues/1926) |
+| 8 | **withdrawn — our mistake.** Clipped layers fading with the base's Fill is Photoshop's default ("Blend Clipped Layers as Group"); PhotoCraft matches it |
+| 9 | [effectcraft#440](https://github.com/storytold/effectcraft/issues/440) |
+| 10 | [effectcraft#441](https://github.com/storytold/effectcraft/issues/441) |
+
+The filed texts were corrected in review and differ from the drafts below; the issues are the record.
+
 
 Each draft is ready to paste. The environment line for all of them: *macOS 15.7 (Darwin 24.6.0), Apple M3; vectorcraft-cli 0.7.0 / photocraft-cli 0.5.0 (e5e3e3975) / effectcraft-cli 0.6.0; headless CLI.* PhotoCraft's repo is storytold/photocraft (per ARTCRAFT-NOTES). I did not verify the VectorCraft and EffectCraft repo names.
 
