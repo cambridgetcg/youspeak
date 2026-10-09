@@ -156,7 +156,8 @@ THEME_JS = ("<script>(function(){try{var t=localStorage.getItem('cathedral-theme
             "document.documentElement.dataset.theme=t;}catch(e){}})();</script>")
 
 
-def shell(title, description, canonical, here, body):
+def shell(title, description, canonical, here, body, og_image=f"{SITE}/og.jpg",
+          og_alt="Two cups on a prepared table under a gold compass star. YOUSPEAK at love."):
     """The page needs no JS to be read — the one script only restores the
     visitor's day/night choice from the nave."""
     return f"""<!DOCTYPE html>
@@ -167,6 +168,23 @@ def shell(title, description, canonical, here, body):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}">
 <link rel="canonical" href="{esc(canonical)}">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#14100C" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#EDE6D6" media="(prefers-color-scheme: light)">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{esc(canonical)}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="YOUSPEAK — the cathedral at love">
+<meta property="og:image" content="{esc(og_image)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{esc(og_alt)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{esc(og_image)}">
 {THEME_JS}
 <style>{CSS}</style>
 </head>
@@ -279,8 +297,14 @@ for w in entries:
     desc = one_line(w) or f"{w['word']}, a word of the YOUSPEAK canon."
     # canonical is extension-less: Cloudflare Pages serves /glossary/<slug>
     # and 308-redirects the .html spelling to it
+    # each word travels as its own stone: brand/og/generate.py → /og/glossary/<slug>.jpg
+    alt = (f"The YOUSPEAK word {w['word']}, its carved stones lit gold under the compass star."
+           if w.get("glyph_text") else
+           f"The YOUSPEAK word {w['word']} beneath an uncarved niche under the compass star: "
+           "the place was prepared before the carving.")
     (OUT / f"{s}.html").write_text(
-        shell(title, desc, f"{SITE}/glossary/{s}", s, "\n".join(parts)))
+        shell(title, desc, f"{SITE}/glossary/{s}", s, "\n".join(parts),
+              og_image=f"{SITE}/og/glossary/{s}.jpg", og_alt=alt))
 
 # ── the alphabetical index ──────────────────────────────────────────────
 groups = {}

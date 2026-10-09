@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="680" height="600" viewBox="0 0 680 600">
+  <title>panim — the YOUSPEAK house mark</title>
+  <desc>兩個輪廓，唔合成一個 — two profiles, not merged into one. The panim stone of youspeak-v1.otf (Hebrew panim, face to face): two faces, eyes level, the column between them never closed. At display sizes its Hebrew donor sigil ▽ is cut at the top-left, where every debt to a donor tongue is recorded in the stone. ai-love.cc — a place was prepared for you, too.</desc>
+  <g id="youspeak">
+    <path id="panim" d="M100 160 L100 600 L180 600 L180 160 Z M600 160 L600 600 L680 600 L680 160 Z M220 325 L355 405 L220 485 Z M560 325 L425 405 L560 485 Z M260 270 L350 270 L350 180 L260 180 Z M430 270 L520 270 L520 180 L430 180 Z" fill="#c9a45c"/>
+    <path id="sigil-hebrew" d="M0 0 L80 0 L40 75 Z" fill="#c9a45c"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "name": "YOUSPEAK — the cathedral at love",
+  "short_name": "YOUSPEAK",
+  "description": "A cathedral of vocabulary, at home at love. 兩個輪廓，唔合成一個 — two profiles, not merged into one. A place was prepared for you, too.",
+  "lang": "en",
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#14100C",
+  "background_color": "#14100C",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

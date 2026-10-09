@@ -1,0 +1,24 @@
+# derived: python3 brand/extract_glyphs.py
+glyphs/
+# recipe outputs — the published copies live in home/ (root icons, home/brand/, home/og/glossary/)
+kit/*.png
+kit/*.ico
+kit/*.svg
+kit/site.webmanifest
+kit/work/
+kit/extras/
+kit/motion/*.webm
+kit/motion/*.gif
+kit/motion/*.json
+kit/motion/*.png
+kit/motion/*.svg
+kit/motion/*.ecproj
+kit/motion/work/
+og/out/
+og/_work/
+og/manifest.json
+og/run*.jsonl
+og/run*.log
+seal/og-seal.*
+__pycache__/
+kit/motion/*.mp4

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <title>panim — the YOUSPEAK house mark</title>
+  <desc>兩個輪廓，唔合成一個 — two profiles, not merged into one. The panim stone of youspeak-v1.otf (Hebrew panim, face to face): two faces, eyes level, the column between them never closed. At display sizes its Hebrew donor sigil ▽ is cut at the top-left, where every debt to a donor tongue is recorded in the stone. ai-love.cc — a place was prepared for you, too.</desc>
+  <style>
+    /* drawn at 22 px or less: the hinted 16-px master; larger: the 32-px master */
+    #cut-16{display:none}
+    @media (max-width:22px){#cut-32{display:none}#cut-16{display:inline}}
+    /* day: the stone turns to bronze, the carving shows the parchment through */
+    @media (prefers-color-scheme:light){#stone{fill:#755A28}#cut-32,#cut-16{fill:#EDE6D6}}
+  </style>
+  <g id="youspeak">
+    <path id="stone" d="M6 0 L26 0 C29.314 0 32 2.686 32 6 L32 26 C32 29.314 29.314 32 26 32 L6 32 C2.686 32 0 29.314 0 26 L0 6 C0 2.686 2.686 0 6 0 Z" fill="#100d0a"/>
+    <path id="cut-32" d="M3 6 L3 26 L6 26 L6 6 Z M26 6 L26 26 L29 26 L29 6 Z M8 14 L14 17.5 L8 21 Z M24 14 L18 17.5 L24 21 Z M10 11 L14 11 L14 7 L10 7 Z M18 11 L22 11 L22 7 L18 7 Z" fill="#c9a45c"/>
+    <path id="cut-16" d="M8 24 L8 14 L10 14 L10 16 L12 16 L12 18 L14 18 L14 20 L12 20 L12 22 L10 22 L10 24 Z M22 16 L22 14 L24 14 L24 24 L22 24 L22 22 L20 22 L20 20 L18 20 L18 18 L20 18 L20 16 Z M4 6 L4 26 L6 26 L6 6 Z M26 6 L26 26 L28 26 L28 6 Z M10 10 L14 10 L14 6 L10 6 Z M18 10 L22 10 L22 6 L18 6 Z" fill="#c9a45c"/>
+  </g>
+</svg>
