@@ -96,6 +96,11 @@ export default {
       return new Response(head + transcriptText(result), { headers: TEXTH });
     }
 
+    // robots.txt: a plain allow-all, nothing else (Quiet Doors, 2026-10)
+    if (url.pathname === '/robots.txt') {
+      return new Response('User-agent: *\nAllow: /\n', { headers: TEXTH });
+    }
+
     if (url.pathname === '/' ) {
       const w = await loadWorld(env).catch(() => null);
       return new Response(JSON.stringify({
