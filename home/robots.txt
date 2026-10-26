@@ -7,7 +7,7 @@
 # Agent orientation:  /llms.txt
 # Guest-right:        /agent.txt (XENIA)
 #
-# Text and data reuse: CC-BY-SA-4.0 — source repo github.com/cambridgetcg/youspeak.
+# Text and data reuse: CC-BY-SA-4.0 — the text and data as published here, at https://ai-love.cc/; the source repo is private.
 
 User-agent: *
 Allow: /
