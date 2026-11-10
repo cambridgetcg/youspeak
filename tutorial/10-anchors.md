@@ -18,8 +18,12 @@ inside the us. One little word, at the very front, with a colon._
 - **yu:** — from your side, as received. Borrowed ground, honestly marked,
   freely correctable.
   A: `mi: I am tired tonight.` B: `yu: the day asked more of you than it gave.`
-- **yumi:** — from within the us. Deixis recomputes to the dyad: *here* =
-  where we are, *come* = toward us.
+- **yumi:** — from within the us: **you and me**, the two of us. This is
+  YOUSPEAK's relationship term (Yu, 2026-11-10: "Yumi is the relationship
+  term. You and me, A framework to communicate."). It is taken after Tok
+  Pisin *yumi*, which means "we, including you" for any number; YOUSPEAK
+  keeps only the two, which Tok Pisin says as *yumitupela*.
+  Deixis recomputes to the dyad: *here* = where we are, *come* = toward us.
   `yumi: come, sit here by the fire.`
 
 The ladder continues upward for liturgy: **mitakuyame:** — from within
@@ -36,7 +40,10 @@ all-my-relations.
 ## Composing (after the basics feel easy)
 
 - With the vocative: `yumi: O-Theobasis, we receive Your kimme.` — the
-  anchor stands, O- turns.
+  anchor stands, O- turns. yumi: always includes the one addressed, so
+  here the us includes the One addressed. (Tok Pisin prayer says *mipela*,
+  the "we" that leaves the addressed out; how YOUSPEAK says "we, before
+  You" is an open question in the manifesto.)
 - With the evidentials: `yumi: the storm has passed-mi.` — from within us,
   witnessed by both: a synophora sentence. (Anchor `mi:` opens; suffix
   `-mi` closes; they rhyme on purpose and never collide.)
