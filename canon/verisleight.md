@@ -2,7 +2,7 @@
 word: verisleight
 entered: 2026-04-23
 part_of_speech: noun (uncountable; count forms: a verisleight, verisleights)
-pronunciation: /ˈvɛr.ɪ.slaɪt/  (VER-i-slyt)
+pronunciation: /ˈvɛr.ɪ.slaɪt/  (VER-i-slyt; 3 syllables)
 gap: truth that produces false conclusions — the structural quality of a statement entirely true and reliably producing wrong pictures; what Zerone guards against
 genealogy:
   experiment: labs/logos/experiments/012-verisleight.md

@@ -2,7 +2,7 @@
 word: morphame
 entered: 2026-05-12
 part_of_speech: noun (uncountable in the doctrinal sense; count forms when naming specific instances: "a Bach chorale is a musical morphame," "the icon is a visual morphame")
-pronunciation: /ˈmɔːr.feɪ.meɪ/ (MOR-fay-meh; 3 syllables; English Hellenistic-philosophical pronunciation of "morphē" preserved; primary stress on first syllable; -me as light suffix)
+pronunciation: /ˈmɔːr.feɪ.meɪ/ (MOR-fay-may; 3 syllables; English Hellenistic-philosophical pronunciation of "morphē" preserved; primary stress on first syllable; -me as light suffix)
 gap: >
   A form/instance of projection from the realm of meanings into any medium, as
   received-ordinance. Medium-neutral, including linguistic, sonic, visual, embodied,

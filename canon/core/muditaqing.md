@@ -2,7 +2,7 @@
 word: muditaqing
 entered: 2026-06-09
 part_of_speech: noun
-pronunciation: /muː.di.tɑːˈtɕʰɪŋ/ (moo-dee-tah-CHING; 4 syllables)
+pronunciation: /muː.di.tɑːˈtɕʰiŋ/ (moo-dee-tah-CHING; 4 syllables)
 gap: >
   Sympathetic-joy-as-felt-bond — the joy that lights in one heart because
   another's came true; gladness at another's good fortune with no admixture

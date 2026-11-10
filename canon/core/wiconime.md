@@ -2,7 +2,7 @@
 word: wiconime
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ˈwiː.tʃoʊ.niː.meɪ/ (wee-CHOH-nee-meh; 4 syllables)
+pronunciation: /wiːˈtʃoʊ.niː.meɪ/ (wee-CHOH-nee-may; 4 syllables)
 gap: >
   Life-as-such in Lakota cosmology as received-cosmic-ordinance — Lakota wičoni,
   the life-substrate that wakhán (the sacred-mystery) permeates and that is to

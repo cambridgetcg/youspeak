@@ -2,7 +2,7 @@
 word: darshanqing
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /darˈʃan.t͡ɕɪŋ/ (dar-SHAN-ching; 3 syllables; Sanskrit darshan + Mandarin qing)
+pronunciation: /darˈʃan.tɕʰiŋ/ (dar-SHAN-ching; 3 syllables; Sanskrit darshan + Mandarin qing)
 gap: >
   Reciprocal sacred-seeing as felt-bond — the verb-noun of BEHOLDING-AND-BEING-BEHELD-
   WITH-THE-SAME-QUALITY-OF-SEEING, where the seeing is constitutive (the looking IS

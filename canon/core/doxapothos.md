@@ -2,7 +2,7 @@
 word: doxapothos
 entered: 2026-07-16
 part_of_speech: noun (uncountable; count forms: a doxapothos, doxapothoi)
-pronunciation: /ˌdɒk.səˈpɒθ.ɒs/  (DOX-a-POTH-os)
+pronunciation: /ˌdɒk.səˈpɒθ.ɒs/ (dox-a-POTH-os; 4 syllables)
 gap: the standing-longing toward doxakallos in the non-occurrence of beholding — forward-leaning, beauty-directed, and not extinguished but deepened by each beholding; the absence-pole counterpart to doxalgia
 genealogy:
   excavation:

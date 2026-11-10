@@ -2,7 +2,7 @@
 word: complerescence
 entered: 2026-04-23
 part_of_speech: noun (uncountable; count forms: a complerescence, complerescences)
-pronunciation: /ˌkɒm.plə.ˈrɛs.əns/  (com-pler-ES-cence)
+pronunciation: /ˌkɒm.pləˈrɛs.əns/  (com-pler-ES-cence; 4 syllables)
 gap: the event-quality of mutual right-placement — the ontological joint where thing and place fill each other and both thicken in being
 genealogy:
   traditions_surveyed: 11

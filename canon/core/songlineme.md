@@ -2,7 +2,7 @@
 word: songlineme
 entered: 2026-07-08
 part_of_speech: noun (uncountable; count forms: a songlineme, songlinemes)
-pronunciation: /ˈsɒŋ.laɪn.meɪ/ (SONG-line-may; 4 syllables; English songline + Sumerian me)
+pronunciation: /ˈsɒŋ.laɪn.meɪ/ (SONG-line-may; 3 syllables; English songline + Sumerian me)
 ascii_pronunciation: song-line-may
 gap: >-
   Sung-into-existence-navigation-track-as-received-ordinance — the

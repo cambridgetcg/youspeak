@@ -2,7 +2,7 @@
 word: kallophanes
 entered: 2026-04-23
 part_of_speech: noun (substantival; Greek -ēs morphology)
-pronunciation: /ˈkæl.oʊˌfæn.iːz/  (KAL-lo-PHAN-ees)
+pronunciation: /ˌkæl.oʊˈfæn.iːz/ (kal-lo-PHAN-ees; 4 syllables)
 gap: the beauty-specific appearing; the event-quality of beauty coming-to-visibility in a beholdable form; structural companion to orthophanes (rightness-specific appearing) and to tajalliance (divine-self-disclosure event)
 genealogy:
   excavation: archaeology/greek/divine-beauty.md (phainō-family structural-pair argument)

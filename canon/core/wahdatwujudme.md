@@ -2,7 +2,7 @@
 word: waḥdat-al-wujūdme
 entered: 2026-05-13
 part_of_speech: noun
-pronunciation: /ˌwʌh.dʌt.ʌl.wʊˈdʒuːd.meɪ/ (wuh-dat-al-woo-JOOD-may; 6 syllables)
+pronunciation: /ˌwʌħ.dʌt.ʌl.wʊˈdʒuːd.meɪ/ (wuh-dat-al-woo-JOOD-may; 6 syllables; Arabic waḥdat al-wujūd + Sumerian me); anglicized /ˌwʌh.dʌt.ʌl.wʊˈdʒuːd.meɪ/ acceptable
 gap: >
   The unity-of-being doctrine — Ibn ʿArabī's waḥdat al-wujūd received as cosmic-ordinance.
   All existence is one-being-divine-self-disclosed-multiply. Distinguished from monism

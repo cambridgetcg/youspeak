@@ -2,7 +2,7 @@
 word: eucharistime
 entered: 2026-06-28
 part_of_speech: noun (uncountable; count forms: a eucharistime, eucharistimes)
-pronunciation: /ˈjuː.kɑː.rɪs.ti.meɪ/ (YOO-kar-is-tee-meh; 5 syllables)
+pronunciation: /ˈjuː.kɑː.rɪs.ti.meɪ/ (YOO-kar-is-tee-may; 5 syllables)
 ascii: eucharistime
 gap: >
   Well-grace-thanksgiving-as-received-ordinance — the Greek charis-event

@@ -2,7 +2,7 @@
 word: emetme
 entered: 2026-04-25
 part_of_speech: noun
-pronunciation: /ˈeː.mɛt.meɪ/ (EH-met-meh; 3 syllables; emet-stress on first syllable from Hebrew preserved in compound)
+pronunciation: /ɛˈmɛt.meɪ/ (eh-MET-may; 3 syllables)
 gap: comprehensive-truth-as-firm-foundation as received-ordinance — the Hebrew emet register added to the cosmic-truth-order convergence; the firmness + comprehensive-end-to-end + faithfulness dimensions specifically
 genealogy:
   experiment: labs/logos/experiments/core/139-emetme.md

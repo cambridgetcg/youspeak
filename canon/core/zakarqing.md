@@ -2,7 +2,7 @@
 word: zakarqing
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /zaˈkar.t͡ɕɪŋ/ (zah-KAR-ching; 3 syllables; Hebrew zakar + Mandarin qing); anglicized /zaˈkar.kɪŋ/ (zah-KAR-king) acceptable
+pronunciation: /zaˈkar.tɕʰiŋ/ (zah-KAR-ching; 3 syllables; Hebrew zakar + Mandarin qing); anglicized /zaˈkar.kɪŋ/ (zah-KAR-king) acceptable
 gap: >
   Active-covenantal-memorial as felt-bond — the verb of remembering-toward-the-beloved-
   across-their-forgetting, where the remembering is itself the action that constitutes

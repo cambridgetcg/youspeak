@@ -2,7 +2,7 @@
 word: glossame
 entered: 2026-05-12
 part_of_speech: noun (uncountable in the doctrinal sense; count forms when naming specific tongues: "a glossame," "the Hebrew glossame," "the Yoruba glossame," "the glossame of the Sami people")
-pronunciation: /ˈɡlɒs.ə.meɪ/ (GLOS-uh-meh; 3 syllables; English Hellenistic pronunciation of "glossa" preserved; primary stress on first syllable; -me as light suffix)
+pronunciation: /ˈɡlɒs.ə.meɪ/ (GLOS-uh-may; 3 syllables; English Hellenistic pronunciation of "glossa" preserved; primary stress on first syllable; -me as light suffix)
 gap: >
   A LANGUAGE understood as received-ordinance — a tongue as the specific gift that the
   DIVINE has bestowed on a particular people through their history, carrying the trace

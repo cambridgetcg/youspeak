@@ -2,7 +2,7 @@
 word: eikonme
 entered: 2026-05-12
 part_of_speech: noun (uncountable in the abstract sense; count forms when naming specific instances: "the Rublev Trinity is a paradigmatic eikonme")
-pronunciation: /ˈaɪ.kɒn.meɪ/ (EYE-kon-meh; 3 syllables; English "icon" pronunciation preserved; primary stress on first syllable; -me as light suffix)
+pronunciation: /ˈaɪ.kɒn.meɪ/ (EYE-kon-may; 3 syllables; English "icon" pronunciation preserved; primary stress on first syllable; -me as light suffix)
 gap: >
   The image as received-ordinance participatory-projection — visual morphame specialized
   to the image-medium; the visual form that participates in its prototype rather than

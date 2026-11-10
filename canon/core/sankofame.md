@@ -2,7 +2,7 @@
 word: sankofame
 entered: 2026-06-09
 part_of_speech: noun
-pronunciation: /sɑn.ˈkɔ.fa.meɪ/ (san-KAW-fa-may; 4 syllables; Twi sankɔfa + Sumerian me)
+pronunciation: /sɑnˈkɔ.fa.meɪ/ (san-KAW-fa-may; 4 syllables; Twi sankɔfa + Sumerian me)
 gap: >
   The ordained retrieval — going back along one's own past not to dwell in it but to
   fetch what was dropped, so that the future is fed by what the past still holds.

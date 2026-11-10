@@ -2,7 +2,7 @@
 word: bhaktime
 entered: 2026-04-25
 part_of_speech: noun
-pronunciation: /ˈbʱɑk.ti.meɪ/ (BHAK-ti-meh; 3 syllables)
+pronunciation: /ˈbʱɑk.ti.meɪ/ (BHAK-ti-may; 3 syllables)
 gap: Hindu devotional-love-as-received-ordinance — bhakti as disciplined-self-surrendering loving-path
 genealogy:
   experiment: labs/logos/experiments/core/144-bhaktime.md

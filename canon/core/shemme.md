@@ -2,7 +2,7 @@
 word: shemme
 entered: 2026-04-25
 part_of_speech: noun
-pronunciation: /ˈʃɛm.meɪ/ (SHEM-meh; 2 syllables)
+pronunciation: /ˈʃɛm.meɪ/ (SHEM-may; 2 syllables)
 gap: receptive-hearing-as-received-ordinance — the Semitic-Mesopotamian register of hearing-that-is-already-the-beginning-of-shaping; the auditory complement to kimme (attention-as-received-ordinance)
 genealogy:
   experiment: labs/logos/experiments/core/128-shemme.md

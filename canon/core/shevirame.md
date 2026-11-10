@@ -2,7 +2,7 @@
 word: shevirame
 entered: 2026-05-13
 part_of_speech: noun
-pronunciation: /ʃəˈviːr.ʌ.meɪ/ (sheh-VEER-uh-may; 4 syllables)
+pronunciation: /ʃə.viːˈrɑː.meɪ/ (sheh-vee-RAH-may; 4 syllables)
 gap: >
   The structural-catastrophe-as-creation-precondition — Lurianic shevirat ha-kelim
   (vessel-shattering) received as cosmic-ordinance. The necessary-productive disorder

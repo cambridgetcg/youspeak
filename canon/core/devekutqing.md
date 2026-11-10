@@ -2,7 +2,7 @@
 word: devekutqing
 entered: 2026-05-13
 part_of_speech: noun
-pronunciation: /dəˈveː.kuːt.tɕʰiŋ/ (deh-VEH-koot-ching; 4 syllables)
+pronunciation: /də.vɛˈkuːt.tɕʰiŋ/ (deh-veh-KOOT-ching; 4 syllables)
 gap: >
   The state of cleaving-to-the-Divine felt as continuous-relational-bond — Hasidic /
   Kabbalist devekut (דבקות, "cleaving, adhesion") received as felt-bond-quality. The

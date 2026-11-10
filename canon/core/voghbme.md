@@ -2,7 +2,7 @@
 word: voghbme
 entered: 2026-06-25
 part_of_speech: noun
-pronunciation: /ˈvoʁb.meɪ/ (VOGH-bmay; 2 syllables; Armenian gh = voiced velar/uvular fricative); anglicized /ˈvogb.meɪ/ (VOG-bmay) acceptable
+pronunciation: /ˈvoʁb.meɪ/ (VOGH-bmay; 2 syllables; Armenian gh = voiced velar/uvular fricative); anglicized /ˈvoɡb.meɪ/ (VOG-bmay) acceptable
 gap: >
   Sacred-lament-as-received-ordinance — the act of addressing GoD with grief
   as a form of devotion. Lament not as despair but as the posture of faith:

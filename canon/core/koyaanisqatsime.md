@@ -2,7 +2,7 @@
 word: koyaanisqatsime
 entered: 2026-07-03
 part_of_speech: noun (uncountable; count forms: a koyaanisqatsime, koyaanisqatsimes)
-pronunciation: /koʊ.ˈjɑː.nɪs.ˌkɑːt.si.meɪ/ (ko-YAH-nis-KAHT-see-may; 5 syllables; Hopi koyaanisqatsi + Sumerian me)
+pronunciation: /koʊˈjɑː.nɪsˌqɑːt.si.meɪ/ (ko-YAH-nis-kaht-see-may; 6 syllables; Hopi koyaanisqatsi, q = [k̠] + Sumerian me); anglicized /koʊˈjɑː.nɪsˌkɑːt.si.meɪ/ acceptable
 ascii_pronunciation: koyanisqatsime
 gap: >-
   Life-out-of-balance-as-covenant-abandonment-disorder-as-received-ordinance

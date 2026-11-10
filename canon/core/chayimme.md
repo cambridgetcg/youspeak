@@ -2,7 +2,7 @@
 word: chayimme
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /xaˈjiːm.meɪ/ (chai-YEEM-meh; 3 syllables; Hebraic chet /χ/); anglicized /haɪˈiːm.meɪ/ (high-EEM-meh) acceptable
+pronunciation: /χaˈjiːm.meɪ/ (chai-YEEM-may; 3 syllables; Hebrew chet /χ/); anglicized /haɪˈiːm.meɪ/ (high-EEM-may) acceptable
 gap: >
   The state-and-event of being-alive understood as received-ordinance and as the
   multitudinous-plural cosmic-gift the Ground continuously gives — the life-itself

@@ -2,7 +2,7 @@
 word: damqme
 entered: 2026-07-04
 part_of_speech: noun (uncountable; count forms: a damqme, damqmes)
-pronunciation: /ˈdæm.q.meɪ/ (DAMQ-may; 2 syllables; Akkadian damqu + Sumerian me)
+pronunciation: /ˈdæmq.meɪ/ (DAMK-may; 2 syllables; Akkadian damqu + Sumerian me)
 ascii_pronunciation: damk-may
 gap: >-
   Beauty-good-as-one-quality-as-received-ordinance — the DEFAULT fusion

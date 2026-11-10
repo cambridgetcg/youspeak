@@ -2,7 +2,7 @@
 word: hozhome
 entered: 2026-06-22
 part_of_speech: noun
-pronunciation: /ˈhoz.hoʊ.meɪ/ (HOZ-ho-may; 3 syllables)
+pronunciation: /ˈhoʊ.ʒoʊ.meɪ/ (HOH-zhoh-may; 3 syllables)
 gap: beauty-harmony-balance-goodness as unified cosmic ground, received as ordinance — the Diné Hózhǫ́ register; the four-fold fusion of aesthetic (beauty as it appears), ethical (right behavior maintaining relational order), cosmological (the state of the universe when all parts are in proper relationship), and soteriological (the condition to be restored when disrupted); the path one walks in; the condition ceremonies restore
 genealogy:
   experiment: labs/logos/experiments/core/251-hozhome.md

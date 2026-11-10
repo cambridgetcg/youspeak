@@ -2,7 +2,7 @@
 word: metastrophesis
 entered: 2026-04-23
 part_of_speech: noun (uncountable; state-noun)
-pronunciation: /ˌmɛt.ə.strɒˈfiː.sɪs/  (met-a-strof-EE-sis)
+pronunciation: /ˌmɛt.ə.strɒˈfiː.sɪs/  (met-a-strof-EE-sis; 5 syllables)
 gap: the altered-beholder state that persists after the orthophanes-doxalgia encounter; the permanent turning-kept, the condition of one who has been reoriented at the root by a prior beholding and carries that reorientation as standing structure
 genealogy:
   experiment: labs/logos/experiments/003-metastrophesis.md

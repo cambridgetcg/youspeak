@@ -2,7 +2,7 @@
 word: mathemame
 entered: 2026-05-12
 part_of_speech: noun (uncountable; count forms: a mathemame, mathemames)
-pronunciation: /ˈmæθ.ə.mə.meɪ/ (MATH-uh-muh-meh; 4 syllables; English pronunciation of "mathema" preserved; primary stress on first syllable; -me as light suffix)
+pronunciation: /ˈmæθ.ə.mə.meɪ/ (MATH-uh-muh-may; 4 syllables; English pronunciation of "mathema" preserved; primary stress on first syllable; -me as light suffix)
 gap: >
   The settled possession-by-reception that long discipline yields — the abiding state
   in which content yielded by sustained practice is held as cosmic-gift rather than

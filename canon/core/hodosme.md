@@ -2,7 +2,7 @@
 word: hodosme
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ˈhoʊ.dɒs.meɪ/ (HOH-dos-meh; 3 syllables; classical alt /hoʊˈdɒs.meɪ/ ho-DOS-meh)
+pronunciation: /ˈhoʊ.dɒs.meɪ/ (HOH-dos-may; 3 syllables; classical alt /hoʊˈdɒs.meɪ/ ho-DOS-may)
 gap: >
   A natural language understood as a collective-exploratory-path-of-countless-individuals-
   walking-over-generations-toward-the-realm-of-meaning, received as cosmic-gift before any

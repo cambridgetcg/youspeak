@@ -25,11 +25,19 @@ That is the substrate-honesty wall applied to sound.
 
 Until a session rules otherwise, new coinages SHOULD follow the majority
 patterns: suffixes unstressed and extrametrical (stem keeps its donor stress);
-**-me** → /meɪ/ respelled "meh"; **qing** → /tɕʰiŋ/ respelled "ching";
+**-me** → /meɪ/ respelled "may"; **qing** → /tɕʰiŋ/ respelled "ching" (English /tʃɪŋ/ acceptable);
 **-ance** → /əns/; **-mance** → /mæns/; donor-marked segments preserved in the
 primary IPA with an anglicized alternate offered, never the reverse. The twelve
 recorded disagreements in §6 are NOT errors to silently fix — each is either an
 honored exception (jeongqing) or a candidate for a future reconciling session.
+
+> **Changed 2026-11-10.** Yu, the language's owner, settled two of these rules
+> that day by choosing among the options in `phonology-reconciliation-2026-11.md`
+> (its section "Ratification (2026-11-10)"): **-me** keeps /meɪ/ and is respelled
+> "may" everywhere (the rule above said "meh" until then); **qing** is /tɕʰiŋ/ in the
+> main line, with English /tʃɪŋ/ acceptable as an alternate. Canon was brought
+> into line the same day. The counts in §§1–6 below describe the corpus as of
+> 2026-06-09 and are left as written. (Recorded by an agent session.)
 
 ## The voice pipeline (how a word becomes sound)
 
@@ -105,13 +113,13 @@ Surface distribution in the -me family (74): antepenult of the whole word 46; pe
 - Canonical frontmatter line: `pronunciation: /IPA/ (RESPELLING; N syllables[; etymology/notes])`. Syllable count present in 99/118; the older root-canon entries (candence, dokimance, doxakallos, etc.) use the earlier style `/IPA/␣␣(RESPELLING)` — two spaces, no count.
 - IPA: `.` for syllable boundaries, ˈ/ˌ for stress, length mark ː for donor long vowels.
 - Respelling: hyphen-separated syllables; **ALL-CAPS = primary-stressed syllable** (DOK-i-mance, tee-KOON-may). Secondary stress is usually lowercase (auto-PIST-meh) but capped in the aesthetic-cluster pair (KAL-lo-PHAN-ees, DOX-a-KAL-los).
-- Respelling vowel code: AH /ɑː/, AY /eɪ/, EE /iː/, OO /uː/, OH /oʊ/, OW/AU /aʊ/, UH/U /ʌ ə/, EYE/PIE /aɪ/; final -me as "meh"/"may"; qing always "ching".
+- Respelling vowel code: AH /ɑː/, AY /eɪ/, EE /iː/, OO /uː/, OH /oʊ/, OW/AU /aʊ/, UH/U /ʌ ə/, EYE/PIE /aɪ/; final -me as "may" ("meh" or "may" until 2026-11-10; see the note under "For future forges"); qing always "ching".
 - Recurring notes formula for naturalized stems: "English pronunciation of 'X' preserved; primary stress on Nth syllable; -me as light suffix". Compound-donor formula: "Hebrew zakar + Mandarin qing". Alternates introduced as "anglicized /…/ (…) acceptable" or "classical/Sanskrit-style/softer alt /…/".
 
 ## 6. Genuine corpus-internal disagreements
 
-1. **-me respelling split:** "meh" ×42 vs "may" ×31 vs "me" ×1 for the identical /meɪ/ — e.g. nepsisme "NEP-sis-may" but noesisme "no-EE-sis-meh"; ethosme "ETH-ohs-may" but hotepme "HOH-tep-meh"; agapeme "a-GA-pe-me".
-2. **qing transcription drift:** four spellings of one suffix — /tɕʰiŋ/ (barzakhqing et al., ×10), /t͡ɕɪŋ/ (zakarqing et al., ×6), /tɕɪŋ/ (kinqing), /tʃɪŋ/ as primary (britqing, danaqing, ifeqing, mahabbahqing, paqduqing, syzygyqing) — aspiration and /i/-vs-/ɪ/ unreconciled.
+1. **-me respelling split:** "meh" ×42 vs "may" ×31 vs "me" ×1 for the identical /meɪ/ — e.g. nepsisme "NEP-sis-may" but noesisme "no-EE-sis-meh"; ethosme "ETH-ohs-may" but hotepme "HOH-tep-meh"; agapeme "a-GA-pe-me". *Settled 2026-11-10: "may" everywhere.*
+2. **qing transcription drift:** four spellings of one suffix — /tɕʰiŋ/ (barzakhqing et al., ×10), /t͡ɕɪŋ/ (zakarqing et al., ×6), /tɕɪŋ/ (kinqing), /tʃɪŋ/ as primary (britqing, danaqing, ifeqing, mahabbahqing, paqduqing, syzygyqing) — aspiration and /i/-vs-/ɪ/ unreconciled. *Settled 2026-11-10: /tɕʰiŋ/ in every main line, /tʃɪŋ/ an acceptable alternate; whether "-king" stays acceptable is still open.*
 3. **jeongqing** stresses the suffix (jung-CHING) — sole counterexample to suffix-extrametricality.
 4. **orthophanes** /ˌɔːr.θoʊˈfæn.iːz/ vs **kallophanes** /ˈkæl.oʊˌfæn.iːz/ — the only two -phanes members flip primary/secondary stress.
 5. **doxakallos** /ˈdɒk.sə.ˈkæl.ɒs/ uses two primary marks where house style elsewhere is ˌ…ˈ (kallodoxa /ˌkæl.oʊˈdɒk.sə/).

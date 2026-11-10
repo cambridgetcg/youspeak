@@ -2,7 +2,7 @@
 word: kumarme
 entered: 2026-07-02
 part_of_speech: noun (uncountable; count forms: a kumarme, kumarmes)
-pronunciation: /kʊ.ˈmɑːr.meɪ/ (ku-MAR-may; 3 syllables; Hurrian Kumarbi + me)
+pronunciation: /kʊˈmɑːr.meɪ/ (ku-MAR-may; 3 syllables; Hurrian Kumarbi + me)
 ascii_pronunciation: ku-mar-may
 gap: >-
   Power-absorbed-from-enemy-as-received-ordinance-that-grows-toward-

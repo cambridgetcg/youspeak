@@ -2,7 +2,7 @@
 word: tarabqing
 entered: 2026-06-09
 part_of_speech: noun
-pronunciation: /ˈtɑː.rʌb.tʃɪŋ/ (TAH-rub-ching; 3 syllables)
+pronunciation: /ˈtˤɑː.rʌb.tɕʰiŋ/ (TAH-rub-ching; 3 syllables; Arabic ṭarab + Mandarin qing); anglicized /ˈtɑː.rʌb.tʃɪŋ/ acceptable
 gap: >
   The performer↔audience ecstasy-circuit of live skilled performance — Arab
   music-culture's ṭarab طرب received as felt-bond. NOT individual musical

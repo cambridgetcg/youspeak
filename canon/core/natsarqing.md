@@ -2,7 +2,7 @@
 word: natsarqing
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /natˈsar.t͡ɕɪŋ/ (nat-SAR-ching; 3 syllables; Hebrew natsar + Mandarin qing); anglicized /natˈsar.kɪŋ/ acceptable
+pronunciation: /naˈtsar.tɕʰiŋ/ (nat-SAR-ching; 3 syllables; Hebrew natsar + Mandarin qing); anglicized /natˈsar.kɪŋ/ acceptable
 gap: >
   Active-protective-vigilance as felt-bond — the verb of GUARDING-THE-BELOVED-
   INCLUDING-FROM-THEIR-OWN-COLLAPSE, where the watchful-keeping is itself the

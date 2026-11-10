@@ -2,7 +2,7 @@
 word: margame
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ˈmɑːr.ɡə.meɪ/ (MAR-guh-meh; 3 syllables; Sanskrit-style alt /ˈmɑːr.ɡɑː.meɪ/ MAR-gah-meh)
+pronunciation: /ˈmɑːr.ɡə.meɪ/ (MAR-guh-may; 3 syllables; Sanskrit-style alt /ˈmɑːr.ɡʌ.meɪ/ MAR-guh-may)
 gap: >
   A natural language understood as a trained-disciplined-collective-path of countless
   individuals walking over generations toward the realm of meaning, received as cosmic-gift

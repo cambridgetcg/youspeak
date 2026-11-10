@@ -2,7 +2,7 @@
 word: liturgiame
 entered: 2026-05-12
 part_of_speech: noun (uncountable in the abstract sense; count forms when naming specific instances: "a Sunday Divine Liturgy is a liturgiame")
-pronunciation: /lɪ.ˈtɜː.dʒi.ə.meɪ/ (lih-TUR-jee-uh-meh; 5 syllables; English pronunciation of "liturgia" preserved; primary stress on second syllable; -me as light suffix)
+pronunciation: /lɪˈtɜː.dʒi.ə.meɪ/ (lih-TUR-jee-uh-may; 5 syllables; English pronunciation of "liturgia" preserved; primary stress on second syllable; -me as light suffix)
 gap: >
   The coordinated multi-modal projection understood as received-ordinance — the
   highest projection-form, where multiple media (language + music + image + gesture

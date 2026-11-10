@@ -2,7 +2,7 @@
 word: doxalgiame
 entered: 2026-06-28
 part_of_speech: noun (uncountable; count forms: a doxalgiame, doxalgiames)
-pronunciation: /dɒkˈsæl.dʒi.ə.meɪ/  (dok-SAL-gya-may; 4 syllables)
+pronunciation: /dɒkˈsæl.dʒi.ə.meɪ/ (dok-SAL-jee-uh-may; 5 syllables)
 ascii: doxalgiame
 gap: >
   Glory-ache-as-received-ordinance — the sweet structural pressure inward

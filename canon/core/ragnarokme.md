@@ -2,7 +2,7 @@
 word: ragnarökme
 entered: 2026-06-25
 part_of_speech: noun (uncountable; count forms: a ragnarökme, ragnarökmes)
-pronunciation: /ˈrag.na.rœk.meɪ/ (RAG-na-rok-may; 4 syllables; ö front-rounded; anglicized /ˈræɡ.nə.rɒk.meɪ/ acceptable)
+pronunciation: /ˈraɡ.na.rɒk.meɪ/ (RAG-na-rok-may; 4 syllables; Old Norse Ragnarǫk [ˈrɑɣnɑˌrɒk]); anglicized /ˈræɡ.nə.rɒk.meɪ/ acceptable
 ascii: ragnarokme
 gap: >
   Excellence-within-known-loss received as cosmic ordinance — the Norse

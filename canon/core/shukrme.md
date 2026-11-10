@@ -2,7 +2,7 @@
 word: shukrme
 entered: 2026-06-27
 part_of_speech: noun (uncountable; count forms: a shukrme, shukrmes)
-pronunciation: /ˈʃʊk.r̩.meɪ/ (SHUKR-meh; 2 syllables)
+pronunciation: /ˈʃʊk.r̩.meɪ/ (SHUKR-may; 2 syllables)
 ascii: shukrme
 gap: >
   Gratitude-as-increase-activator received as cosmic ordinance — the recognition

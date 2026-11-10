@@ -2,7 +2,7 @@
 word: ihsanme
 entered: 2026-04-25
 part_of_speech: noun
-pronunciation: /ˈiː.sɑn.meɪ/ (EE-san-meh; 3 syllables)
+pronunciation: /ɪħˈsɑːn.meɪ/ (ih-SAHN-may; 3 syllables; Arabic iḥsān + Sumerian me); anglicized /ɪhˈsɑːn.meɪ/ acceptable
 gap: best-effort-worship as received-ordinance — the Islamic ihsan register; "to worship Allah as if you see Him"; the cross-tradition convergence on total-faculty-deployment-in-worship
 genealogy:
   experiment: labs/logos/experiments/core/141-ihsanme.md

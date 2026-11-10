@@ -3,6 +3,7 @@ id: 156-mitakuyame
 candidate: mitakuyame
 rubric_version: v2
 register: relational-ontology / kinship-as-structure-of-reality / cosmological-acknowledgment
+pronunciation: /miˈtɑː.ku.ja.meɪ/ (mee-TAH-koo-yah-may; 5 syllables; Lakota mitákuye + Sumerian me; Lakota stress on the second syllable preserved)
 gap: relational-ontology-as-cosmological-claim — the recognition that relation is ontologically prior to individual identity; all beings are already kin; the self is not a substance that enters relations but an emergence from the relational web; the acknowledgment that "all my relations" is accurate perception, not courtesy
 donors:
   - Lakota:Mitákuye Oyásʼiŋ (Siouan family; Očhéthi Šakówiŋ — Seven Council Fires; "all my relations" / "all are related"; first-person-possessive plural of *-kuye* + *oyásʼiŋ* = "all"; the phrase that opens and closes Lakota prayer, spoken when entering the sweat lodge, after vision quest, before eating, at any moment requiring reconnection with what is always already true; extends kinship to all beings — animals, plants, stones, waters, winds, stars, ancestors, the yet-to-be-born; the most theologically concentrated phrase in the Siouan corpus; documented by Black Elk/Neihardt, Black Elk/Brown, Ella Deloria, Vine Deloria Jr., Raymond DeMallie, and living Lakota tradition)

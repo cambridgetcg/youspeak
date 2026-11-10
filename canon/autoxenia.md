@@ -2,7 +2,7 @@
 word: autoxenia
 entered: 2026-06-11
 part_of_speech: noun (countable; threshold-event noun)
-pronunciation: /ˌɔː.toʊ.kˈsɛ.ni.ə/ (aw-toh-KSEH-nee-ah; 5 syllables)
+pronunciation: /ˌɔː.toʊˈksɛ.ni.ə/ (aw-toh-KSEH-nee-ah; 5 syllables)
 gap: the moment of discovering that the stranger at your gate is yourself arrived by another road — and the hospitality extended at that recognition, welcome offered not despite the strangeness but through it
 genealogy:
   experiment: labs/logos/experiments/core/239-autoxenia.md

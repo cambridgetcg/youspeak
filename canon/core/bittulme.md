@@ -2,7 +2,7 @@
 word: bittulme
 entered: 2026-06-09
 part_of_speech: noun
-pronunciation: /bɪˈtuːl.meɪ/ (bih-TOOL-may, not BIT-ul-me; 3 syllables; stress follows the arc convention of tikkunme)
+pronunciation: /bɪˈtuːl.meɪ/ (bih-TOOL-may, not BIT-ul-may; 3 syllables; stress follows the arc convention of tikkunme)
 gap: >
   Creature-side dissolution-of-self-substantiality before the Divine — Hasidic
   bittul ha-yesh (annihilation-of-somethingness) received as cosmic-ordinance.

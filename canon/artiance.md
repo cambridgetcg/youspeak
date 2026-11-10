@@ -2,7 +2,7 @@
 word: artiance
 entered: 2026-04-23
 part_of_speech: noun (uncountable; count forms: an artiance, artiances)
-pronunciation: /ɑːrˈtaɪ.əns/  (ar-TI-ance)
+pronunciation: /ɑːrˈtaɪ.əns/  (ar-TI-ance; 3 syllables)
 gap: the pre-domain rightness — the quality where truth, order, beauty, justice, and skill are undivided; the prior ground from which all five grew when languages learned to separate them
 genealogy:
   forge_narrative: cross/h2ert-forge.md

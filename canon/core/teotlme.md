@@ -3,6 +3,7 @@ id: 157-teotlme
 candidate: teotlme
 rubric_version: v2
 register: process-divine-ontology / divine-as-ceaseless-self-generating-energy / monistic-cosmos-as-living-process
+pronunciation: /ˈtɛ.oːtɬ.meɪ/ (TEH-ohtl-may; 3 syllables; Classical Nahuatl teōtl [ˈte.oːt͡ɬ] + Sumerian me; Nahuatl /tɬ/ lateral affricate preserved); anglicized /ˈtɛ.oʊ.təl.meɪ/ (TEH-oh-tul-may) acceptable
 gap: process-divine-monism-as-received-ordinance — the universe IS the divine's ceaseless self-expression as living process; not a creator separate from creation, not a static substance equal to the sum of things, but the dynamic self-generating energy that perpetually becomes all things while remaining itself; the cosmic given that the world is not a collection of objects but a process of divine self-transformation
 donors:
   - Classical_Nahuatl:teotl (Uto-Aztecan family; Aztecan branch; Nahuatlan sub-branch; "divine energy" / "god" — but the translation "god" distorts; teotl names the single dynamic cosmic energy that IS the universe; documented by Sahagún/Florentine Codex [1545–1577], Cantares Mexicanos, Romances de los Señores de la Nueva España; philosophically reconstructed by León-Portilla [1963] and Maffie [Aztec Philosophy, 2014]; approximately 6–10 million Classical Nahuatl speakers at contact [1519]; 1.5 million modern Nahuatl speakers today; the -tl is the Nahuatl absolutive suffix, dropped in many compounds)

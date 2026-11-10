@@ -2,7 +2,7 @@
 word: halakhame
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ha.la.ˈxa.meɪ/ (ha-la-KHA-meh; 4 syllables; softer alt /ha.la.ˈha.meɪ/ ha-la-HA-meh)
+pronunciation: /ha.laˈχa.meɪ/ (ha-la-KHA-may; 4 syllables; softer alt /ha.laˈha.meɪ/ ha-la-HA-may)
 gap: >
   A natural language understood as a covenantal-walking-collective-path of countless
   individuals walking over generations toward the realm of meaning, received as

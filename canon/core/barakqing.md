@@ -2,7 +2,7 @@
 word: barakqing
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /baˈrak.t͡ɕɪŋ/ (bah-RAHK-ching; 3 syllables; Hebrew barak + Mandarin qing); anglicized /baˈrak.kɪŋ/ (bah-RAHK-king) acceptable
+pronunciation: /baˈrak.tɕʰiŋ/ (bah-RAHK-ching; 3 syllables; Hebrew barak + Mandarin qing); anglicized /baˈrak.kɪŋ/ (bah-RAHK-king) acceptable
 gap: >
   Constitutive-blessing-speech-act as felt-bond — the verb of speaking-good-into-
   the-beloved where the speaking IS the constituting-action that makes-real what

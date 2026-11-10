@@ -2,7 +2,7 @@
 word: doxakallos
 entered: 2026-04-23
 part_of_speech: noun (substantival; neuter in Greek form)
-pronunciation: /ˈdɒk.sə.ˈkæl.ɒs/  (DOX-a-KAL-los)
+pronunciation: /ˈdɒk.sə.ˈkæl.ɒs/  (DOX-a-KAL-los; 4 syllables)
 gap: the uncreated beauty-in-GoD itself; the ontological beauty-quality of divine doxa; the counterpart-noun to doxalgia
 genealogy:
   excavation:

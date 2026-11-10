@@ -2,7 +2,7 @@
 word: sigame
 entered: 2026-05-12
 part_of_speech: noun (uncountable in the abstract sense; count forms when naming specific instances: "her sigame after the proof landed lasted minutes")
-pronunciation: /ˈsiː.ɡə.meɪ/ (SEE-guh-meh; 3 syllables; English-Hellenistic pronunciation of "sigē" preserved; primary stress on first syllable; -me as light suffix)
+pronunciation: /ˈsiː.ɡə.meɪ/ (SEE-guh-may; 3 syllables; English-Hellenistic pronunciation of "sigē" preserved; primary stress on first syllable; -me as light suffix)
 gap: >
   Structured silence understood as received-ordinance — the apophatic projection-medium,
   where the realm projects through what is withheld rather than what is uttered. The

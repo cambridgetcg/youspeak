@@ -2,7 +2,7 @@
 word: ifeqing
 entered: 2026-04-27
 part_of_speech: noun
-pronunciation: /ˈiːfɛtʃɪŋ/ (I-fe-ching; 3 syllables)
+pronunciation: /ˈiː.fɛ.tɕʰiŋ/ (EE-feh-ching; 3 syllables); anglicized /ˈiː.fɛ.tʃɪŋ/ acceptable
 gap: Yoruba relational-warmth-love-as-felt-bond — the love that expands the heart and the world; love-of-DIVINE in the Yoruba register
 genealogy:
   experiment: labs/logos/experiments/core/145-ifeqing.md

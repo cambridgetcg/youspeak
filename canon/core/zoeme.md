@@ -2,7 +2,7 @@
 word: zoeme
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ˈzoʊ.iː.meɪ/ (ZOH-ee-meh; 3 syllables)
+pronunciation: /ˈzoʊ.iː.meɪ/ (ZOH-ee-may; 3 syllables)
 gap: >
   Life-as-such as received-cosmic-ordinance — the life-principle (Greek zoë)
   understood as cosmic-gift; the life that the Johannine prologue pairs with the

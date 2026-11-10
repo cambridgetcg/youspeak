@@ -2,7 +2,7 @@
 word: walkekin
 entered: 2026-04-24
 part_of_speech: noun
-pronunciation: /ˈwɑl.kə.kɪn/ (WAL-kə-kin)
+pronunciation: /ˈwɑl.kə.kɪn/ (WAL-kuh-kin; 3 syllables)
 gap: the quality of a friendship preserved intact across many years of silence — the bond whose substance is demonstrated precisely by the long gap it tolerates
 genealogy:
   experiment: labs/logos/experiments/core/121-walkekin.md

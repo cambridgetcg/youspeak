@@ -2,7 +2,7 @@
 word: autopistme
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ˌɔːtəˈpɪst.meɪ/ (auto-PIST-meh; 4 syllables)
+pronunciation: /ˌɔː.toʊˈpɪst.meɪ/ (aw-toh-PIST-may; 4 syllables)
 gap: >
   The grade of truth that is self-grounding — proceeds from the ground rather than
   toward it; does not require argument because it grounds the arguments. The

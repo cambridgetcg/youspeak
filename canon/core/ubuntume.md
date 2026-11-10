@@ -2,7 +2,7 @@
 word: ubuntume
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /uˈbʊn.tuː.meɪ/ (oo-BOON-too-meh; 4 syllables)
+pronunciation: /uˈbʊn.tuː.meɪ/ (oo-BOON-too-may; 4 syllables)
 gap: >
   Humanity-through-relation as received-cosmic-ordinance — Bantu ubuntu, the
   ontological-relational-grade of being-human ("a person is a person through

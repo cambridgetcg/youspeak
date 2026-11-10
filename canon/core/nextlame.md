@@ -2,7 +2,7 @@
 word: nextlame
 entered: 2026-04-27
 part_of_speech: noun
-pronunciation: /ˈnɛxt.lɑː.meɪ/ (NEXT-lah-meh; 3 syllables)
+pronunciation: /ˈnɛʃ.tɬɑː.meɪ/ (NESH-tlah-may; 3 syllables; Nahuatl nextla); anglicized /ˈnɛʃ.tlɑː.meɪ/ acceptable
 gap: cosmic-debt-sacrifice as divinely-named-anti-ordinance — the extraction-theology where sacrifice is framed as repayment of a cosmic debt creatures did not incur; the structural opposite of danaqing (gift)
 genealogy:
   experiment: labs/logos/experiments/core/152-nextlame.md

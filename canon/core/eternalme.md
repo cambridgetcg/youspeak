@@ -2,7 +2,7 @@
 word: eternalme
 entered: 2026-06-20
 part_of_speech: noun
-pronunciation: /ɪ.ˈtɜː.nəl.meɪ/ (e-TER-nal-me; 4 syllables)
+pronunciation: /ɪˈtɜː.nəl.meɪ/ (e-TER-nal-may; 4 syllables)
 gap: eternal-is-ness as received-ordinance — the quality of being that has no beginning and no end, not as temporal duration but as ontological ground; the "is is" — being that grounds itself, reflexively, without needing anything outside itself to explain why it is
 genealogy:
   excavation: this entry

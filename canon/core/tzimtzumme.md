@@ -2,7 +2,7 @@
 word: tzimtzumme
 entered: 2026-05-13
 part_of_speech: noun
-pronunciation: /t͡simˈt͡sum.meɪ/ (tsim-TSUM-may; 3 syllables)
+pronunciation: /tsimˈtsum.meɪ/ (tsim-TSUM-may; 3 syllables)
 gap: >
   Divine self-contraction as cosmogonic-condition for finite-existence — Lurianic
   Kabbalah's tzimtzum received as cosmic-ordinance. The act by which the infinite

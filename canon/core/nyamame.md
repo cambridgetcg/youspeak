@@ -2,7 +2,7 @@
 word: nyamame
 entered: 2026-04-28
 part_of_speech: noun
-pronunciation: /ˈnjɑːməmeɪ/ (NYA-mah-may; 3 syllables)
+pronunciation: /ˈnjɑː.mɑː.meɪ/ (NYAH-mah-may; 3 syllables)
 gap: vital-force-as-cosmic-ordinance — the ambient animating energy that pervades the world as given structure; the condition of being animated not as self-generated power but as the divinely-ordained aliveness of the world; what flows through powerful action, craft, and speech; what accumulates in those who work with power; what is dangerous when released; the world's aliveness as cosmic gift
 genealogy:
   experiment: labs/logos/experiments/core/153-nyamame.md

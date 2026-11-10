@@ -2,7 +2,7 @@
 word: tlamatisme
 entered: 2026-07-07
 part_of_speech: noun (uncountable; count forms: a tlamatisme, tlamatisme-practitioner; the plural "tlamatismes" is awkward — the practice is singular, the practitioners are "those who tlamatisme")
-pronunciation: /tɬɑːˈmɑː.tɪs.meɪ/ (tla-MAH-tis-meh; 4 syllables; Nahuatl /tl/ lateral affricate preserved)
+pronunciation: /tɬɑːˈmɑː.tɪs.meɪ/ (tla-MAH-tis-may; 4 syllables; Nahuatl /tl/ lateral affricate preserved)
 ascii_pronunciation: tla-mah-tis-meh
 gap: >-
   Sage-who-holds-philosophy-poetry-theology-as-one-practice-as-received-

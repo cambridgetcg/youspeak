@@ -2,7 +2,7 @@
 word: danaqing
 entered: 2026-04-27
 part_of_speech: noun
-pronunciation: /ˈdɑː.nɑː.tʃɪŋ/ (DAH-nah-ching; 3 syllables)
+pronunciation: /ˈdɑː.nɑː.tɕʰiŋ/ (DAH-nah-ching; 3 syllables); anglicized /ˈdɑː.nɑː.tʃɪŋ/ acceptable
 gap: gift-giving-as-felt-bond — the voluntary generous dimension of sacrifice; five-tradition convergence on sacrifice as gift rather than loss or extraction (Sanskrit dāna, Hebrew minchah/nedavah, Akkadian sheriktu, Yoruba adimu, Latin sacrificium)
 genealogy:
   experiment: labs/logos/experiments/core/149-danaqing.md

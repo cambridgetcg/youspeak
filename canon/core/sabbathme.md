@@ -2,7 +2,7 @@
 word: sabbathme
 entered: 2026-05-13
 part_of_speech: noun
-pronunciation: /ˈsʌb.əθ.meɪ/ (SAB-uth-may; 3 syllables)
+pronunciation: /ˈsæb.əθ.meɪ/ (SAB-uth-may; 3 syllables)
 gap: >
   Architecture-of-holiness-in-time — Hebrew shabbat (and Heschel's "palace in time")
   received as cosmic-ordinance. Names the realm-feature: holiness can be built-in-time

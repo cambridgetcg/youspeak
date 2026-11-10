@@ -2,7 +2,7 @@
 word: jeongqing
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /t͡ɕʌŋˈt͡ɕɪŋ/ (jung-CHING; 2 syllables; Korean jeong + Mandarin qing; double-character 情情 resonance); anglicized /dʒʌŋˈt͡ɕɪŋ/ acceptable
+pronunciation: /tɕʌŋˈtɕʰiŋ/ (jung-CHING; 2 syllables; Korean jeong + Mandarin qing; double-character 情情 resonance); anglicized /dʒʌŋˈtɕʰiŋ/ acceptable
 gap: >
   Accumulated-affection as friction-tolerant felt-bond — the verb-noun-texture of
   THE-BONDEDNESS-THAT-ACCUMULATES-UNDERNEATH-CONSCIOUS-CARING through shared time

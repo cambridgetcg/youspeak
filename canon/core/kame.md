@@ -2,7 +2,7 @@
 word: kame
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ˈkɑː.meɪ/ (KAH-meh; 2 syllables)
+pronunciation: /ˈkɑː.meɪ/ (KAH-may; 2 syllables)
 gap: >
   Vital-essence-as-spiritual-double as received-cosmic-ordinance — Egyptian ka,
   the vital-life-essence given at birth by Khnum, animating the embodied person

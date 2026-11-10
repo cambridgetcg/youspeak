@@ -2,7 +2,7 @@
 word: yvymarame
 entered: 2026-07-04
 part_of_speech: noun (uncountable; count forms: a yvymarame, yvymarames)
-pronunciation: /ɪ.vɪ.mɑ.ˈɾɑ.meɪ/ (ee-vee-mah-RAH-may; 5 syllables; Guaraní yvy + marã + 'eỹ + me)
+pronunciation: /ɪ.vɪ.mɑˈɾɑ.meɪ/ (ee-vee-mah-RAH-may; 5 syllables; Guaraní yvy + marã + 'eỹ + me)
 ascii_pronunciation: yvi-ma-ra-may
 gap: >-
   This-worldly-paradise-sought-through-bodily-migration-as-received-

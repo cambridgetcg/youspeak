@@ -2,7 +2,7 @@
 word: wakanme
 entered: 2026-07-03
 part_of_speech: noun (uncountable; count forms: a wakanme, wakanmes)
-pronunciation: /wa.ˈkɑn.meɪ/ (wa-KAN-may; 3 syllables; Lakota wakȟáŋ + me)
+pronunciation: /waˈkɑn.meɪ/ (wa-KAN-may; 3 syllables; Lakota wakȟáŋ + me)
 ascii_pronunciation: wa-kan-may
 gap: >-
   Sacred-as-ontological-intensity-as-received-ordinance — the quality of

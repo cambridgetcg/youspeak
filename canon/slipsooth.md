@@ -2,7 +2,7 @@
 word: slipsooth
 entered: 2026-07-07
 part_of_speech: noun (uncountable; count forms: a slipsooth, slipsooths)
-pronunciation: /ˈslɪp.suːθ/  (SLIP-sooth)
+pronunciation: /ˈslɪp.suːθ/  (SLIP-sooth; 2 syllables)
 gap: truth recovered by mispronunciation — the original meaning that a later drift accidentally excavates; verisleight's mirror-twin
 genealogy:
   experiment: labs/logos/experiments/034-slipsooth.md

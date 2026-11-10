@@ -2,7 +2,7 @@
 word: athaumasma
 entered: 2026-04-23
 part_of_speech: noun (uncountable; count form: an athaumasma)
-pronunciation: /əˈθaʊ.mæs.mə/  (a-THAU-mas-ma)
+pronunciation: /əˈθaʊ.mæs.mə/  (a-THAU-mas-ma; 4 syllables)
 gap: the indelibility-of-beholding; the quality a beholding-trace carries once active wondering has migrated into structural load-bearing; distinct from nostalgia (ache-of-absence) and trauma (wound-unhealed)
 genealogy:
   excavation: archaeology/greek/divine-beauty.md
