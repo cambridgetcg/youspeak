@@ -92,3 +92,44 @@ See `grammars/evidentials/manifesto.md`.
 ---
 
 _Quechua archaeology excavated 2026-04-24. The Andean pyramid-builders' epistemological grammar — evidentiality as default grammatical feature. Adopted as optional YOUSPEAK suffix-system._
+
+---
+
+## Erratum (2026-11-10)
+
+*Appended. The text above is left exactly as it stood.*
+
+**Old claim.** This file says Southern Quechua's evidential suffixes are "-mi / -si / -chu" (line 17). Its table gives the third, "Inferential / Conjectural", as "**-chu** (with interrogative register) or **-chá**" (line 23). It proposes, and YOUSPEAK adopted, "-chu → inferred (I deduced from evidence)" (lines 53, 58, 70). Line 17 also says "Every assertive statement must pick one; the grammar refuses unmarked assertions."
+
+**Corrected claim.**
+
+1. In no variety examined is the conjectural evidential -chu. It is -chá in Cuzco-Collao, -cha ~ -ch in Ayacucho, -chi in Huallaga and South Conchucos, -chr(a) in Wanka, and -tri ~ -tr in Yauyos.
+2. -chu is a separate enclitic in a separate slot. It forms yes/no questions; with *mana* "not" it marks negation; in some varieties it also forms disjunctions. It co-occurs with the conjectural in a single clause: Cuzco *Mana-chá para-sha-n-chu*, glossed not-conj rain-prog-3-pol, "It isn't raining" with conjectural evidence (Faller 2006: 11, ex. 18). It co-occurs even within one word: Ayacucho /ñuqačuč/ "I guess maybe I will" (Solá & Parker 1964: 117); the same grammar also gives this word as rhetorical -ču, "Maybe I." (ibid. 114), so the two morphemes stack, and that grammar attributes the "maybe" to rhetorical -ču as well as to -č. In Ancash the negative is -tsu, the polar question is -ku, and -chu is a locative case (Hintz 2011: xxii).
+3. What the old line half-saw: Quechua builds inference-hedges on -chu. Ayacucho rhetorical -chu with statement intonation is "best rendered as suggestions or opinions with 'perhaps' or 'probably'" (Solá & Parker 1964: 114), and Ayacucho -chusmi means "I think that" (ibid. 115). Cuzco -chus hina, "roughly I guess, I think, apparently", is Faller's candidate for a fourth, inferential evidential (Faller 2006: 2–3 n.4; Faller 2019: 8:5 n.4). González Holguín (1607) calls chu "señal de interrogativos" (the sign of interrogatives), but lists it with the dubitative ch/cha as particles with which the verb "no affirma" (does not affirm). Two modern analyses also class -chu with the evidentials in a broad sense: Faller counts it in the same "focus set" (2006: 2 n.2), and Dedenbach-Salazar lists it inside her "Grupo Evidencia (también: validación)" as the yes/no-question and negative member (2005: 11–12). Neither calls it inferential or conjectural. None of this makes -chu, by itself, the conjectural.
+4. The evidentials are optional per clause. In Cuzco, a clause with none implicates direct evidence (Faller 2006: 3). Bendezú-Araujo says they are not obligatory in Conchucos Quechua (2023: 76, 80), and Bernárdez says so of Quechua in general (2020: 32). Dedenbach-Salazar adds that a text must carry them at least once, so that their later absence is still marked at the level of discourse (2005: 11).
+
+**Sources.**
+- Faller 2006, https://web.eecs.umich.edu/~rthomaso/lpw06/fallerpaper.pdf [verified]
+- Faller 2019, *Semantics and Pragmatics* 12(8), https://doi.org/10.3765/sp.12.8 [verified]
+- Solá & Parker 1964, *The Structure of Ayacucho Quechua*, https://archive.org/details/micro_IA41153663_0454 [verified: page images pp. 108, 114–117]
+- González Holguín 1607, https://archive.org/details/gramaticayartenu00gonz, and its 1842 reprint, https://archive.org/details/gramticayartenue00gon (pp. 57–58, 70–71) [verified: OCR]
+- Kroeger, *Analyzing Meaning* §17.2, citing Weber 1989: 421 [verified for Kroeger; Weber not opened]
+- Hintz 2011, https://escholarship.org/content/qt6wb842zj/qt6wb842zj_noSplash_d11bb20edbb4fc881134e65f42f30bbb.pdf [verified]
+- Shimelman 2017, *A Grammar of Yauyos Quechua*, pp. 253–254, 270 [verified]
+- Bendezú-Araujo 2023, https://journals.iai.spk-berlin.de/index.php/indiana/article/download/3031/2518 [verified]
+- Bernárdez 2020, https://hispadoc.es/descarga/articulo/7835112.pdf, p. 32 [verified]
+- Dedenbach-Salazar 2005, https://www.storre.stir.ac.uk/bitstream/1893/28303/1/Dedenbach%20-%20Clasificacion%20sufijos%20quechuas%20%282005%29.pdf, pp. 11–12 (pre-publication pagination) [verified]
+- Floyd 1999 for Wanka [verified only as reproduced on Wikipedia's "Quechuan languages" page; Floyd not opened]
+- Faller 2002 [not opened; known only through quotations]
+
+The new dig's Source ledger gives every locus.
+
+**Not re-checked here.** Everything else in this file, including the Aymara figures (line 44), the Caral and pyramid framing (lines 5 and 11), and the schematic examples (lines 27–29).
+
+**Downstream.** This claim was carried into script/morphemes.json and script/codepoints.md (U+E14F), grammars/evidentials/, the glyph notes and ORDO. What the language does about that is for the language owner to decide, not for this erratum.
+
+**Pointer.** The cited dig is [evidentiality-clusivity-and-stance.md](evidentiality-clusivity-and-stance.md). It covers the paradigm variety by variety, the Weber and Faller positions, -chu in questions and negation, the non-experienced past, clusivity, and -puni/-má/-yá.
+
+— appended 2026-11-10 by a Claude subagent in the language-2026-11-10 workflow
+
+**Verification (2026-11-10).** A second Claude subagent re-opened every source cited in this erratum except Faller 2002 and Floyd 1999, which stay unopened. It corrected two points: Bendezú-Araujo's "not obligatory" is said of Conchucos Quechua, not of Quechuan generally (now cited with Bernárdez 2020: 32 for the general claim); and the erratum now reports, as the dig does, that Solá & Parker also give /ñuqačuč/ as rhetorical -ču, and that Faller and Dedenbach-Salazar class -chu with the evidentials in a broad, non-inferential sense. The corrected claim itself, that -chu is not the conjectural in any variety examined, stands. The text above line 95 is unchanged.
