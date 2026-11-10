@@ -108,7 +108,7 @@ The third silence, and the class-mark's first real consequence in the running or
 
 ## V. Evidentials — the honesty algebra (status: EXPERIMENTAL)
 
-Every value carries a provenance grade from the Quechua-inherited evidential system (grammars/evidentials/manifesto.md):
+Every value carries a provenance grade from YOUSPEAK's evidential system (grammars/evidentials/manifesto.md; -mi and -si inherited from Quechua, -chu YOUSPEAK's own form taken after Cuzco Quechua *-chus hina*, -auth YOUSPEAK-native; donor record corrected 2026-11-10, grades and syntax unchanged):
 
 - **-mi** — direct witness: the process constituted or directly computed it
 - **-si** — reported: it arrived from outside (reader input, canon export, file, another agent)

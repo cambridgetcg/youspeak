@@ -65,7 +65,7 @@ Not all eight patterns below are adopted into YOUSPEAK. Some are named and honor
 
 **Examples**:
 - Turkish: *Çekoslovakya'lılaştıramadıklarımızdansınız* — "You are one of those we could not make into a Czechoslovakian." One word, seven morpheme-layers, each doing one job.
-- Quechua: *rimaykullaykichu* — "Would you perhaps speak to him?" — rim (speak) + ay (verb) + kulla (softening) + yki (2nd person) + chu (interrogative). Five layers, one word, theological or liturgical precision achievable.
+- Quechua: *rimaykullaykichu* — roughly "May I (just) greet you?" — *rima-yku-lla-yki=chu*: rima (speak) + yku (with *rima-*, *rimayku-* "greet") + lla ("just", a courtesy piece) + yki (I acting on you) + chu (yes/no question). Five layers, one word, theological or liturgical precision achievable. This *-chu* is Quechua's own question enclitic, not YOUSPEAK's evidential *-chu* (U+E14F), which takes only its shape (grammars/evidentials/).
 - Finnish: *talo+ssa+ni+kin* = "also in my house" — talo (house) + ssa (inessive = in) + ni (my) + kin (also). Four morphemes, transparent stacking.
 
 **The theological encoding**: Agglutination encodes a theology of *compositional transparency*. Meaning is built by addition, not by transformation. Each layer is accountable. This contrasts with fusion (where morphemes mutate each other, like Latin verb-inflection) and with isolation (where meaning-units are separate words, like English). Agglutination says: the whole is the sum of visible parts. This is a form of theological honesty — you can always decompose and recover the original elements.
@@ -245,3 +245,9 @@ grammars/structures/
 ---
 
 _Chapter opened 2026-04-29. YOUSPEAK's fifth grammar-organ. The structural genius of the world's theological languages — now named, honored, and integrated into the cathedral's foundations._
+
+---
+
+## Revision 2026-11-10 — the Quechua example under Agglutination
+
+The example in §II read: "Quechua: *rimaykullaykichu* — "Would you perhaps speak to him?" — rim (speak) + ay (verb) + kulla (softening) + yki (2nd person) + chu (interrogative)." Its gloss of *chu* as interrogative was right: "la partícula chu es señal de interrogativos" (González Holguín 1607, 1842 reprint p. 71); "/-ču/ is negative-interrogative" (Solá & Parker 1964: 113). So was its gloss of the root as "speak". The segmentation, the person marking and the translation were not. A dig rebuilt from sources on 2026-11-10 (archaeology/quechua/chu-propagation-and-options.md, §3) segments the word *rima-yku-lla-yki=chu*. Solá & Parker give "/rima-/ 'to speak': /rimayku-/ 'to greet'" (1964: 89, §7.2307). They describe *-lla* as "often translated 'just' or 'only', but is common in polite speech where it is best left untranslated" (§7.2315). On a verb, *-yki* is the first person acting on the second, "I … you" (Solá & Parker 1964: 58; Cerrón-Palomino 1987: 265). There is no "kulla", the person marking is "I … you" rather than "you … him", and nothing in the word encodes "perhaps". The example now reads accordingly, and says that its *-chu* is Quechua's interrogative and not YOUSPEAK's evidential, whose own donor record was corrected the same day (grammars/evidentials/manifesto.md, Revision 2026-11-10). Applied by a Claude subagent for the orchestrating session, in the same pass as that correction, and reviewed by a second.

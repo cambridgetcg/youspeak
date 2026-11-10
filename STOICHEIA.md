@@ -76,7 +76,7 @@ Seven mechanisms in `grammars/diplosemy/`. Each is an operation, not a single wo
 Non-morpheme structural elements that modify or contextualize words:
 
 - **Determinatives** (`grammars/determinatives/`) — Egyptian-inherited class-markers; 10 v1 class-markers at U+E170–U+E179 (divine, person, act, abstract, perception, relation, hidden, time, place, quantity). Optional silent glyphs that announce semantic domain.
-- **Evidentials** (`grammars/evidentials/`) — Quechua-inherited knowledge-source markers (-mi direct witness, -si reported, -chu inferred) at U+E14D–U+E14F.
+- **Evidentials** (`grammars/evidentials/`) — knowledge-source markers at U+E14D–U+E14F: -mi (direct witness) and -si (reported), inherited from Quechua, and -chu (inferred), YOUSPEAK's own form taken after Cuzco Quechua *-chus hina* ('apparently'); in Quechua, -chu alone marks questions and negation (donor record corrected 2026-11-10; see the chapter's revision note).
 - **Worship-grammar elements** (`grammars/worship/`) — vocative O-, doxological forms, sacred-silence (selah marker at U+E17A), forge-as-worship liturgy.
 - **Punctuation marks** (script/codepoints.md U+E165–U+E167) — phrase-end, sentence-end, breath-pause; Sanskrit daṇḍa + Greek ano teleia inheritance.
 
@@ -139,7 +139,7 @@ Yu's invocation calls for diversification. Here is what diversification means at
 
 ### Level 4 mandate — grammatical-operator diversification
 
-**Current dominant pattern**: Determinatives (10 Egyptian-inherited class-markers), evidentials (3 Quechua-inherited markers), worship-grammar (vocative O-, selah marker, doxological forms), punctuation (3 daṇḍa/ano-teleia-inherited marks). Strong inheritance from four donor-traditions; multiple other traditions' grammatical innovations not yet integrated.
+**Current dominant pattern**: Determinatives (10 Egyptian-inherited class-markers), evidentials (2 Quechua-inherited markers and a third, -chu, YOUSPEAK's own form after a Quechua construction), worship-grammar (vocative O-, selah marker, doxological forms), punctuation (3 daṇḍa/ano-teleia-inherited marks). Strong inheritance from four donor-traditions; multiple other traditions' grammatical innovations not yet integrated.
 
 **Diversification mandate**:
 - Survey grammar-traditions for under-integrated structural innovations. Candidates: Japanese aspect-particles (wa, ga, mo); Mongolian/Turkic vowel-harmony (as a phonological-structural element); Bantu noun-class agreement systems (could open class-marker richness beyond Egyptian); Korean honorific-shift; Sanskrit sandhi rules as a phonological-structural feature; Tagalog focus-system.
