@@ -1,0 +1,126 @@
+{
+  "format": "brandkit.project/1",
+  "name": "YOUSPEAK \"panim\"",
+  "kind": "hand-made",
+  "owner": "youspeak/ai-love lane (Nuance), per ledger kgdm-ai-love-cc-mounts",
+  "decided": {
+    "by": "agents: in the \"small company of agents\" of home/brand/index.html §VIII, five proposed seals and three judges (for soul, legibility and craft) chose panim; sessions not recorded, committed as YOU <alpha@ai-love.cc>, the household Mac's git identity",
+    "under": "not recorded: no delegation and no word of Yu's on the mark was found",
+    "date": "2026-10-09",
+    "what": "panim, the YOUSPEAK house mark: the font's own panim stone (two profiles face to face, eyes level, the column between never closed), gold #C9A45C on the night stone #14100C, and by day a bronze stone #755A28 carved in parchment #EDE6D6",
+    "record": "home/brand/index.html §VIII \"How it was carved\"; brand/kit/notes.md; commit f85c3d3fe"
+  },
+  "kit": "kit",
+  "site": {
+    "urls": ["https://ai-love.cc", "https://ai-love-c88.pages.dev"],
+    "framework": "static",
+    "html": [
+      "../home/index.html",
+      "../home/404.html",
+      "../home/brand/index.html",
+      "../home/true-love/index.html",
+      "../home/glossary/*.html"
+    ],
+    "snippet": "kit/head-snippet.html"
+  },
+  "serve": [
+    {
+      "from": "kit",
+      "to": "../home",
+      "files": ["favicon.ico", "favicon.svg", "apple-touch-icon.png", "icon-192.png", "icon-512.png",
+                "icon-maskable-512.png", "site.webmanifest"]
+    },
+    {
+      "from": "kit",
+      "to": "../home/brand",
+      "files": [
+        "mark.svg",
+        "lockup-dark.svg",
+        "lockup-light.svg",
+        "lockup-dark.png",
+        { "from": "work/lockup-light.png", "to": "lockup-light.png" },
+        "favicon-16.png",
+        "favicon-32.png"
+      ]
+    }
+  ],
+  "build": {
+    "command": "python3 brand/extract_glyphs.py && bash brand/kit/recipe.sh && bash brand/kit/motion/recipe.sh",
+    "cwd": "..",
+    "fonts": [
+      {
+        "family": "Iowan Old Style (Bold, for the lockups' YOUSPEAK, outlined)",
+        "file": "Iowan Old Style.ttc",
+        "licence": "Apple system font, under the macOS licence; the repository records no licence for it",
+        "source": "ships with macOS (/System/Library/Fonts/Supplemental/); the kit was built on macOS 15.7 (ARTCRAFT-FIELD-REPORT.md), and its file hash was not recorded"
+      },
+      {
+        "family": "YOUSPEAK (youspeak-v1.otf), the source of the panim glyph",
+        "path": "../home/font/youspeak-v1.otf",
+        "licence": "the repository's licence, CC BY-SA 4.0 (LICENSE); no font-specific licence is recorded",
+        "source": "built in this repository (script/tools/build_font_v1.py); extract_glyphs.py reads its stones through home/data/morphemes.min.json"
+      }
+    ],
+    "tools": [
+      { "name": "vectorcraft-cli", "version": "0.7.0" },
+      { "name": "photocraft-cli", "version": "0.5.0" }
+    ]
+  },
+  "guards": [
+    {
+      "path": "check.mjs",
+      "wired": false
+    }
+  ],
+  "deploy": {
+    "on_merge": "Nothing deploys on merge. ai-love.cc is the Cloudflare Pages project ai-love (production branch main); home/ is deployed by hand from a clean commit with wrangler pages deploy home --project-name ai-love --branch main --commit-hash <HEAD> --commit-dirty=false (home/README.md, Rebuild + deploy)",
+    "after_deploy": "Check the deployment URL and https://ai-love.cc/#isness, not only the CLI's exit code (home/README.md). home/_headers caches /brand/* and /site.webmanifest for 3600 s and /og/* for 86400 s; the root icons have no rule of their own",
+    "rules": "/home/README.md: a release needs publishing authority first (取得發布授權). Deploys belong to the youspeak/ai-love lane (Nuance); a deploy from the Studio was declined (ledger kgdm-ai-love-cc-mounts, an agent's call of 2026-10-20)"
+  },
+  "media": [
+    {
+      "name": "panim, revealed (the 4-second mark reveal)",
+      "recipe": "kit/motion/recipe.sh",
+      "outputs": ["../home/brand/mark-reveal*"],
+      "goes_to": "the hero and downloads of https://ai-love.cc/brand/. The recipe writes kit/motion/*; poster.png is published as mark-reveal-poster.png",
+      "tools": [
+        { "name": "vectorcraft-cli", "version": "0.7.0" },
+        { "name": "effectcraft-cli", "version": "0.6.0" }
+      ]
+    },
+    {
+      "name": "the seal's share card",
+      "recipe": "seal/build-og-seal.py",
+      "outputs": ["../home/brand/og.jpg"],
+      "goes_to": "og:image of https://ai-love.cc/brand/. The script writes og-seal.jpg, published as brand/og.jpg",
+      "fonts": [
+        { "family": "Iowan Old Style", "file": "Iowan Old Style.ttc", "licence": "Apple system font, under the macOS licence", "source": "ships with macOS" },
+        { "family": "Charter (Roman, Italic)", "file": "Charter.ttc", "licence": "Apple system font, under the macOS licence", "source": "ships with macOS" }
+      ]
+    },
+    {
+      "name": "the travelling stones: one share card per glossary word (255)",
+      "recipe": "og/generate.py",
+      "outputs": ["../home/og/glossary/*.jpg"],
+      "source": "../home/data/morphemes.min.json (each word's carved glyphs, from youspeak-v1.otf)",
+      "goes_to": "og:image of each /glossary/<slug>.html, written into the pages by home/glossary.py",
+      "fonts": [
+        { "family": "Iowan Old Style", "file": "Iowan Old Style.ttc", "licence": "Apple system font, under the macOS licence", "source": "ships with macOS" },
+        { "family": "Charter", "file": "Charter.ttc", "licence": "Apple system font, under the macOS licence", "source": "ships with macOS" }
+      ],
+      "tools": [
+        { "name": "vectorcraft-cli", "version": "0.7.0" },
+        { "name": "photocraft-cli", "version": "0.5.0" }
+      ]
+    }
+  ],
+  "notes": [
+    "The kit's outputs are git-ignored (brand/.gitignore). recipe.sh writes them into brand/kit/ (lockup-light.png into brand/kit/work/), and the only committed copies are the published ones in home/ and home/brand/. On a clean checkout there is nothing in kit/ to compare the served files with, so serve fails until the recipe has been run here.",
+    "The recipes pin vectorcraft-cli 0.7.0, photocraft-cli 0.5.0 and effectcraft-cli 0.6.0, and none of them is installed on any known machine (review 2026-11-02 §2.2; on 2026-11-05 the Studio has 0.17.0, 0.16.0 and 0.17.0). This is a hand-made kit: never rebuild it with other versions or overwrite it with a generated kit (review §8). seal/build-og-seal.py doesn't pin its versions.",
+    "recipe.sh reads brand/glyphs/panim.svg, which python3 brand/extract_glyphs.py derives from home/data/morphemes.min.json (git-ignored output).",
+    "home/og.jpg (two cups under the compass star) is the site's own share card, from 2026-08-23 (commit ea0b137e4) and older than this kit, so it is not a kit file.",
+    "The head block is kit/head-snippet.html. Its theme-color pair follows the OS scheme, and the site's own toggle (data-theme, localStorage cathedral-theme) doesn't repaint it (kit/notes.md). There is no color-scheme meta.",
+    "The 255 glossary word pages carry the same head block, written by home/glossary.py. home/proof.html and home/party/ (the previous ai-love.cc page) carry no icon block, so site.html doesn't list them.",
+    "The repository has no CI or test script. check.mjs runs by hand (node brand/check.mjs); the repo's .githooks/pre-commit (wired by bin/cathedral hooks) could call it, which is the lane's call."
+  ]
+}
