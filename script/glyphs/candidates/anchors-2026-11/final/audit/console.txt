@@ -1,0 +1,192 @@
+wrote final/audit/build/anchor-candidates-audit.otf
+  glyphs: 112 (109 YOUSPEAK)
+  format: OTF, stroke_width=80
+wrote final/audit/results.json
+wrote final/audit/neighbours.png and final/audit/neighbours_16px.png
+
+== 16 px ==
+  calib iou identity      NN median 0.583 p90 0.733 max 0.818  closest -ance~-mance identity
+  calib iou any_transform NN median 0.618 p90 0.739 max 0.828  closest compler~qing rot90
+  calib ncc identity      NN median 0.900 p90 0.948 max 0.967  closest -ence~-mia identity
+  calib ncc any_transform NN median 0.905 p90 0.948 max 0.967  closest -ence~-mia identity
+  A mi:          iou/ide anagno:0.49 p26   | iou/any [selah]:0.55 p31   | ncc/ide anagno:0.83 p16   | ncc/any kin:0.88 p28  
+  A yu:          iou/ide O-:0.44 p13   | iou/any dokim:0.48 p18   | ncc/ide O-:0.75 p1   | ncc/any morphe:0.83 p6  
+  A yumi:        iou/ide panim:0.43 p10   | iou/any stasis:0.43 p6   | ncc/ide panim:0.84 p18   | ncc/any panim:0.84 p11  
+  A mitakuyame:  iou/ide meta:0.41 p3   | iou/any meta:0.41 p1   | ncc/ide mushin:0.77 p2   | ncc/any sema:0.80 p2  
+     A internal mi:~yu:: iou id 0.46 any 0.46 p9; ncc id 0.72 any 0.72 p0
+     A internal mi:~yumi:: iou id 0.14 any 0.22 p0; ncc id 0.45 any 0.60 p0
+     A internal mi:~mitakuyame:: iou id 0.35 any 0.35 p0; ncc id 0.73 any 0.77 p1
+     A internal yu:~yumi:: iou id 0.22 any 0.22 p0; ncc id 0.69 any 0.69 p0
+     A internal yu:~mitakuyame:: iou id 0.18 any 0.18 p0; ncc id 0.49 any 0.51 p0
+     A internal yumi:~mitakuyame:: iou id 0.21 any 0.21 p0; ncc id 0.58 any 0.58 p0
+  B mi:          iou/ide parallax:0.51 p32   | iou/any andros:0.60 p48   | ncc/ide parallax:0.85 p26   | ncc/any andros:0.87 p25  
+  B yu:          iou/ide kin:0.55 p46   | iou/any ki:0.58 p40   | ncc/ide kin:0.84 p19   | ncc/any ki:0.88 p30  
+  B yumi:        iou/ide stasis:0.52 p33   | iou/any stasis:0.52 p21   | ncc/ide stasis:0.87 p36   | ncc/any stasis:0.87 p24  
+  B mitakuyame:  iou/ide hesych:0.53 p34   | iou/any hesych:0.53 p21   | ncc/ide sema:0.84 p19   | ncc/any gloria:0.87 p28  
+     B internal mi:~yu:: iou id 0.49 any 0.61 p50; ncc id 0.74 any 0.91 p57
+     B internal mi:~yumi:: iou id 0.74 any 0.74 p91; ncc id 0.91 any 0.91 p52
+     B internal mi:~mitakuyame:: iou id 0.53 any 0.53 p22; ncc id 0.82 any 0.82 p4
+     B internal yu:~yumi:: iou id 0.74 any 0.74 p91; ncc id 0.90 any 0.90 p41
+     B internal yu:~mitakuyame:: iou id 0.44 any 0.44 p7; ncc id 0.79 any 0.80 p2
+     B internal yumi:~mitakuyame:: iou id 0.49 any 0.49 p19; ncc id 0.86 any 0.86 p19
+  C mi:          iou/ide qing:0.39 p3   | iou/any en-:0.59 p47   | ncc/ide qing:0.77 p2   | ncc/any parallax:0.85 p18  
+  C yu:          iou/ide stasis:0.41 p3   | iou/any phora:0.43 p6   | ncc/ide stasis:0.77 p2   | ncc/any stasis:0.77 p1  
+  C yumi:        iou/ide sema:0.36 p1   | iou/any sema:0.45 p8   | ncc/ide hesych:0.72 p1   | ncc/any kavod:0.78 p1  
+  C mitakuyame:  iou/ide me:0.38 p2   | iou/any en-:0.39 p1   | ncc/ide anagno:0.76 p2   | ncc/any anagno:0.77 p1  
+     C internal mi:~yu:: iou id 0.24 any 0.40 p1; ncc id 0.47 any 0.72 p0
+     C internal mi:~yumi:: iou id 0.45 any 0.45 p7; ncc id 0.75 any 0.75 p0
+     C internal mi:~mitakuyame:: iou id 0.19 any 0.34 p0; ncc id 0.52 any 0.70 p0
+     C internal yu:~yumi:: iou id 0.20 any 0.32 p0; ncc id 0.56 any 0.63 p0
+     C internal yu:~mitakuyame:: iou id 0.17 any 0.26 p0; ncc id 0.42 any 0.59 p0
+     C internal yumi:~mitakuyame:: iou id 0.56 any 0.56 p37; ncc id 0.77 any 0.77 p1
+  f mi:          iou/ide seem:0.48 p24   | iou/any en-:0.56 p36   | ncc/ide seem:0.83 p16   | ncc/any en-:0.88 p30  
+  f yu:          iou/ide phora:0.48 p19   | iou/any en-:0.62 p52   | ncc/ide kin:0.83 p16   | ncc/any en-:0.91 p52  
+  f yumi:        iou/ide panim:0.39 p3   | iou/any kavod:0.45 p8   | ncc/ide panim:0.76 p2   | ncc/any sukh:0.80 p2  
+  f mitakuyame:  iou/ide kawil:0.40 p3   | iou/any parallax:0.45 p8   | ncc/ide mushin:0.78 p4   | ncc/any mushin:0.80 p2  
+     f internal mi:~yu:: iou id 0.20 any 0.64 p55; ncc id 0.62 any 0.89 p35
+     f internal mi:~yumi:: iou id 0.23 any 0.25 p0; ncc id 0.56 any 0.57 p0
+     f internal mi:~mitakuyame:: iou id 0.21 any 0.35 p0; ncc id 0.61 any 0.74 p0
+     f internal yu:~yumi:: iou id 0.27 any 0.27 p0; ncc id 0.59 any 0.61 p0
+     f internal yu:~mitakuyame:: iou id 0.15 any 0.31 p0; ncc id 0.48 any 0.74 p0
+     f internal yumi:~mitakuyame:: iou id 0.56 any 0.56 p37; ncc id 0.74 any 0.74 p0
+
+== 24 px ==
+  calib iou identity      NN median 0.542 p90 0.676 max 0.857  closest -ance~-mance identity
+  calib iou any_transform NN median 0.575 p90 0.713 max 0.857  closest -ance~-mance identity
+  calib ncc identity      NN median 0.853 p90 0.916 max 0.951  closest -sis~। identity
+  calib ncc any_transform NN median 0.871 p90 0.936 max 0.955  closest compler~qing mirror_diag
+  A mi:          iou/ide me:0.42 p14   | iou/any en-:0.57 p48   | ncc/ide .REL:0.76 p12   | ncc/any en-:0.83 p17  
+  A yu:          iou/ide O-:0.66 p87   | iou/any O-:0.66 p81   | ncc/ide O-:0.81 p26   | ncc/any dokim:0.84 p25  
+  A yumi:        iou/ide panim:0.37 p5   | iou/any diplos:0.42 p6   | ncc/ide panim:0.76 p12   | ncc/any panim:0.77 p4  
+  A mitakuyame:  iou/ide gloria:0.39 p9   | iou/any gloria:0.41 p6   | ncc/ide doxa:0.71 p4   | ncc/any sema:0.72 p0  
+     A internal mi:~yu:: iou id 0.43 any 0.43 p9; ncc id 0.72 any 0.72 p1
+     A internal mi:~yumi:: iou id 0.11 any 0.17 p0; ncc id 0.28 any 0.46 p0
+     A internal mi:~mitakuyame:: iou id 0.26 any 0.32 p0; ncc id 0.61 any 0.61 p0
+     A internal yu:~yumi:: iou id 0.26 any 0.26 p0; ncc id 0.60 any 0.60 p0
+     A internal yu:~mitakuyame:: iou id 0.24 any 0.27 p0; ncc id 0.51 any 0.52 p0
+     A internal yumi:~mitakuyame:: iou id 0.20 any 0.26 p0; ncc id 0.47 any 0.53 p0
+  B mi:          iou/ide phora:0.51 p34   | iou/any hypo:0.52 p26   | ncc/ide phora:0.78 p15   | ncc/any hypo:0.82 p15  
+  B yu:          iou/ide stasis:0.41 p13   | iou/any phora:0.61 p61   | ncc/ide kin:0.75 p6   | ncc/any phora:0.84 p28  
+  B yumi:        iou/ide stasis:0.53 p45   | iou/any stasis:0.55 p41   | ncc/ide stasis:0.86 p52   | ncc/any stasis:0.87 p47  
+  B mitakuyame:  iou/ide sema:0.49 p29   | iou/any sema:0.49 p16   | ncc/ide sema:0.82 p29   | ncc/any sema:0.82 p15  
+     B internal mi:~yu:: iou id 0.30 any 0.53 p34; ncc id 0.55 any 0.84 p25
+     B internal mi:~yumi:: iou id 0.44 any 0.44 p9; ncc id 0.77 any 0.77 p4
+     B internal mi:~mitakuyame:: iou id 0.31 any 0.35 p0; ncc id 0.63 any 0.68 p0
+     B internal yu:~yumi:: iou id 0.69 any 0.69 p89; ncc id 0.86 any 0.86 p39
+     B internal yu:~mitakuyame:: iou id 0.41 any 0.41 p6; ncc id 0.72 any 0.72 p2
+     B internal yumi:~mitakuyame:: iou id 0.47 any 0.47 p11; ncc id 0.79 any 0.79 p4
+  C mi:          iou/ide seem:0.41 p11   | iou/any en-:0.61 p61   | ncc/ide qing:0.71 p4   | ncc/any en-:0.88 p59  
+  C yu:          iou/ide stasis:0.42 p14   | iou/any en-:0.46 p9   | ncc/ide stasis:0.73 p4   | ncc/any en-:0.78 p4  
+  C yumi:        iou/ide panim:0.35 p4   | iou/any kairos:0.36 p1   | ncc/ide panim:0.65 p0   | ncc/any kairos:0.70 p0  
+  C mitakuyame:  iou/ide hypo:0.35 p4   | iou/any phora:0.39 p3   | ncc/ide syn:0.67 p0   | ncc/any .ACT:0.68 p0  
+     C internal mi:~yu:: iou id 0.10 any 0.43 p9; ncc id 0.34 any 0.75 p4
+     C internal mi:~yumi:: iou id 0.20 any 0.31 p0; ncc id 0.43 any 0.60 p0
+     C internal mi:~mitakuyame:: iou id 0.18 any 0.33 p0; ncc id 0.41 any 0.61 p0
+     C internal yu:~yumi:: iou id 0.21 any 0.25 p0; ncc id 0.46 any 0.54 p0
+     C internal yu:~mitakuyame:: iou id 0.15 any 0.31 p0; ncc id 0.36 any 0.60 p0
+     C internal yumi:~mitakuyame:: iou id 0.63 any 0.63 p66; ncc id 0.82 any 0.82 p15
+  f mi:          iou/ide seem:0.43 p17   | iou/any en-:0.55 p41   | ncc/ide seem:0.73 p5   | ncc/any en-:0.85 p32  
+  f yu:          iou/ide stasis:0.56 p59   | iou/any en-:0.59 p54   | ncc/ide stasis:0.84 p43   | ncc/any en-:0.87 p48  
+  f yumi:        iou/ide sema:0.40 p11   | iou/any kairos:0.43 p9   | ncc/ide kalypt:0.72 p4   | ncc/any kairos:0.76 p4  
+  f mitakuyame:  iou/ide mushin:0.39 p9   | iou/any qing:0.41 p6   | ncc/ide kavod:0.70 p2   | ncc/any kin:0.71 p0  
+     f internal mi:~yu:: iou id 0.16 any 0.64 p70; ncc id 0.39 any 0.85 p37
+     f internal mi:~yumi:: iou id 0.20 any 0.27 p0; ncc id 0.49 any 0.57 p0
+     f internal mi:~mitakuyame:: iou id 0.18 any 0.36 p1; ncc id 0.42 any 0.65 p0
+     f internal yu:~yumi:: iou id 0.22 any 0.31 p0; ncc id 0.48 any 0.59 p0
+     f internal yu:~mitakuyame:: iou id 0.20 any 0.38 p2; ncc id 0.45 any 0.68 p0
+     f internal yumi:~mitakuyame:: iou id 0.61 any 0.61 p61; ncc id 0.79 any 0.79 p5
+
+== 32 px ==
+  calib iou identity      NN median 0.513 p90 0.644 max 0.917  closest -ance~-mance identity
+  calib iou any_transform NN median 0.559 p90 0.644 max 0.917  closest -ance~-mance identity
+  calib ncc identity      NN median 0.801 p90 0.889 max 0.970  closest -ance~-mance identity
+  calib ncc any_transform NN median 0.829 p90 0.895 max 0.970  closest -ance~-mance identity
+  A mi:          iou/ide O-:0.50 p39   | iou/any kallos:0.51 p30   | ncc/ide O-:0.72 p10   | ncc/any [selah]:0.82 p41  
+  A yu:          iou/ide O-:0.55 p64   | iou/any O-:0.55 p50   | ncc/ide O-:0.76 p22   | ncc/any dokim:0.76 p9  
+  A yumi:        iou/ide arti:0.30 p3   | iou/any diplos:0.36 p1   | ncc/ide arti:0.60 p1   | ncc/any cand:0.62 p0  
+  A mitakuyame:  iou/ide gloria:0.38 p6   | iou/any sema:0.38 p1   | ncc/ide doxa:0.67 p5   | ncc/any sema:0.70 p2  
+     A internal mi:~yu:: iou id 0.42 any 0.42 p5; ncc id 0.70 any 0.70 p2
+     A internal mi:~yumi:: iou id 0.08 any 0.12 p0; ncc id 0.20 any 0.32 p0
+     A internal mi:~mitakuyame:: iou id 0.30 any 0.31 p0; ncc id 0.63 any 0.63 p0
+     A internal yu:~yumi:: iou id 0.14 any 0.15 p0; ncc id 0.39 any 0.40 p0
+     A internal yu:~mitakuyame:: iou id 0.23 any 0.24 p0; ncc id 0.48 any 0.48 p0
+     A internal yumi:~mitakuyame:: iou id 0.12 any 0.17 p0; ncc id 0.33 any 0.40 p0
+  B mi:          iou/ide -chu:0.40 p10   | iou/any hypo:0.46 p10   | ncc/ide -chu:0.74 p18   | ncc/any hypo:0.75 p6  
+  B yu:          iou/ide cede:0.38 p6   | iou/any -escence:0.41 p3   | ncc/ide cede:0.68 p5   | ncc/any -escence:0.72 p3  
+  B yumi:        iou/ide stasis:0.46 p25   | iou/any -si:0.47 p14   | ncc/ide stasis:0.80 p44   | ncc/any stasis:0.80 p28  
+  B mitakuyame:  iou/ide sema:0.50 p39   | iou/any sema:0.50 p29   | ncc/ide sema:0.79 p42   | ncc/any sema:0.79 p24  
+     B internal mi:~yu:: iou id 0.22 any 0.51 p30; ncc id 0.39 any 0.77 p15
+     B internal mi:~yumi:: iou id 0.31 any 0.31 p0; ncc id 0.58 any 0.61 p0
+     B internal mi:~mitakuyame:: iou id 0.31 any 0.31 p0; ncc id 0.59 any 0.59 p0
+     B internal yu:~yumi:: iou id 0.31 any 0.35 p1; ncc id 0.58 any 0.64 p0
+     B internal yu:~mitakuyame:: iou id 0.24 any 0.27 p0; ncc id 0.51 any 0.54 p0
+     B internal yumi:~mitakuyame:: iou id 0.43 any 0.43 p8; ncc id 0.71 any 0.71 p2
+  C mi:          iou/ide qing:0.34 p4   | iou/any -si:0.49 p20   | ncc/ide qing:0.64 p1   | ncc/any -si:0.77 p11  
+  C yu:          iou/ide seem:0.38 p6   | iou/any seem:0.40 p1   | ncc/ide kin:0.68 p5   | ncc/any 「:0.70 p2  
+  C yumi:        iou/ide sema:0.37 p4   | iou/any sema:0.38 p1   | ncc/ide sema:0.65 p2   | ncc/any sema:0.66 p0  
+  C mitakuyame:  iou/ide doxa:0.35 p4   | iou/any gloria:0.35 p1   | ncc/ide doxa:0.60 p1   | ncc/any .REL:0.62 p0  
+     C internal mi:~yu:: iou id 0.15 any 0.42 p5; ncc id 0.35 any 0.70 p2
+     C internal mi:~yumi:: iou id 0.25 any 0.35 p1; ncc id 0.47 any 0.62 p0
+     C internal mi:~mitakuyame:: iou id 0.16 any 0.38 p1; ncc id 0.32 any 0.64 p0
+     C internal yu:~yumi:: iou id 0.15 any 0.26 p0; ncc id 0.35 any 0.54 p0
+     C internal yu:~mitakuyame:: iou id 0.14 any 0.29 p0; ncc id 0.32 any 0.54 p0
+     C internal yumi:~mitakuyame:: iou id 0.61 any 0.61 p78; ncc id 0.78 any 0.78 p17
+  f mi:          iou/ide seem:0.38 p6   | iou/any 「:0.46 p10   | ncc/ide seem:0.68 p6   | ncc/any 「:0.75 p6  
+  f yu:          iou/ide .PLC:0.35 p4   | iou/any gloria:0.43 p8   | ncc/ide -escence:0.67 p5   | ncc/any 「:0.76 p8  
+  f yumi:        iou/ide sema:0.36 p4   | iou/any sema:0.37 p1   | ncc/ide sema:0.64 p1   | ncc/any sema:0.64 p0  
+  f mitakuyame:  iou/ide .ACT:0.34 p3   | iou/any parallax:0.35 p1   | ncc/ide .ACT:0.63 p1   | ncc/any parallax:0.64 p0  
+     f internal mi:~yu:: iou id 0.12 any 0.61 p78; ncc id 0.29 any 0.84 p55
+     f internal mi:~yumi:: iou id 0.17 any 0.26 p0; ncc id 0.41 any 0.52 p0
+     f internal mi:~mitakuyame:: iou id 0.12 any 0.36 p1; ncc id 0.31 any 0.62 p0
+     f internal yu:~yumi:: iou id 0.18 any 0.28 p0; ncc id 0.40 any 0.51 p0
+     f internal yu:~mitakuyame:: iou id 0.17 any 0.32 p0; ncc id 0.38 any 0.59 p0
+     f internal yumi:~mitakuyame:: iou id 0.63 any 0.63 p85; ncc id 0.80 any 0.80 p30
+
+== 11 px ==
+  calib iou identity      NN median 0.620 p90 0.875 max 1.000  closest -ance~-ence identity
+  calib iou any_transform NN median 0.632 p90 0.875 max 1.000  closest -ance~-ence identity
+  calib ncc identity      NN median 0.924 p90 0.978 max 1.000  closest .ABS~.PLC identity
+  calib ncc any_transform NN median 0.928 p90 0.978 max 1.000  closest .ABS~.PLC identity
+  A mi:          iou/ide .HID:0.60 p48   | iou/any -si:0.64 p50   | ncc/ide .HID:0.95 p68   | ncc/any .HID:0.95 p66  
+  A yu:          iou/ide O-:0.58 p40   | iou/any dhikr:0.67 p64   | ncc/ide .HID:0.85 p10   | ncc/any dokim:0.90 p16  
+  A yumi:        iou/ide arti:0.50 p17   | iou/any arti:0.50 p8   | ncc/ide panim:0.90 p32   | ncc/any panim:0.90 p21  
+  A mitakuyame:  iou/ide qing:0.45 p5   | iou/any .ACT:0.53 p15   | ncc/ide mushin:0.91 p44   | ncc/any mushin:0.93 p48  
+     A internal mi:~yu:: iou id 0.55 any 0.55 p22; ncc id 0.88 any 0.88 p8
+     A internal mi:~yumi:: iou id 0.17 any 0.24 p0; ncc id 0.51 any 0.68 p0
+     A internal mi:~mitakuyame:: iou id 0.29 any 0.38 p1; ncc id 0.73 any 0.81 p1
+     A internal yu:~yumi:: iou id 0.11 any 0.43 p3; ncc id 0.50 any 0.75 p0
+     A internal yu:~mitakuyame:: iou id 0.24 any 0.40 p1; ncc id 0.67 any 0.75 p0
+     A internal yumi:~mitakuyame:: iou id 0.25 any 0.25 p0; ncc id 0.58 any 0.58 p0
+  B mi:          iou/ide parallax:0.53 p28   | iou/any meta:0.71 p74   | ncc/ide parallax:0.87 p12   | ncc/any meta:0.91 p36  
+  B yu:          iou/ide meta:0.60 p48   | iou/any ki:0.67 p64   | ncc/ide meta:0.91 p37   | ncc/any meta:0.91 p30  
+  B yumi:        iou/ide haqq:0.46 p5   | iou/any gloria:0.52 p11   | ncc/ide kin:0.87 p14   | ncc/any gloria:0.89 p10  
+  B mitakuyame:  iou/ide kalypt:0.48 p9   | iou/any doxa:0.48 p3   | ncc/ide jamal:0.90 p30   | ncc/any jamal:0.90 p18  
+     B internal mi:~yu:: iou id 0.33 any 0.60 p40; ncc id 0.74 any 0.87 p5
+     B internal mi:~yumi:: iou id 0.71 any 0.71 p71; ncc id 0.90 any 0.90 p16
+     B internal mi:~mitakuyame:: iou id 0.38 any 0.43 p3; ncc id 0.81 any 0.82 p2
+     B internal yu:~yumi:: iou id 0.71 any 0.71 p71; ncc id 0.90 any 0.90 p16
+     B internal yu:~mitakuyame:: iou id 0.43 any 0.43 p3; ncc id 0.82 any 0.82 p2
+     B internal yumi:~mitakuyame:: iou id 0.46 any 0.46 p3; ncc id 0.90 any 0.90 p22
+  C mi:          iou/ide -y:0.40 p2   | iou/any en-:0.60 p40   | ncc/ide diplos:0.79 p2   | ncc/any -si:0.90 p22  
+  C yu:          iou/ide .DIV:0.45 p5   | iou/any en-:0.70 p71   | ncc/ide dokim:0.82 p4   | ncc/any en-:0.91 p36  
+  C yumi:        iou/ide brahman:0.48 p9   | iou/any brahman:0.48 p3   | ncc/ide brahman:0.87 p14   | ncc/any panim:0.91 p30  
+  C mitakuyame:  iou/ide .REL:0.45 p5   | iou/any .PER:0.50 p8   | ncc/ide .REL:0.79 p2   | ncc/any .PER:0.83 p2  
+     C internal mi:~yu:: iou id 0.36 any 0.67 p64; ncc id 0.75 any 0.89 p10
+     C internal mi:~yumi:: iou id 0.35 any 0.35 p1; ncc id 0.70 any 0.70 p0
+     C internal mi:~mitakuyame:: iou id 0.17 any 0.27 p0; ncc id 0.62 any 0.68 p0
+     C internal yu:~yumi:: iou id 0.26 any 0.33 p1; ncc id 0.69 any 0.74 p0
+     C internal yu:~mitakuyame:: iou id 0.25 any 0.36 p1; ncc id 0.62 any 0.73 p0
+     C internal yumi:~mitakuyame:: iou id 0.44 any 0.44 p3; ncc id 0.66 any 0.73 p0
+  f mi:          iou/ide en-:0.50 p17   | iou/any en-:0.80 p87   | ncc/ide qing:0.85 p10   | ncc/any en-:0.95 p63  
+  f yu:          iou/ide [selah]:0.50 p17   | iou/any ।:0.57 p29   | ncc/ide nam:0.87 p14   | ncc/any ki:0.90 p15  
+  f yumi:        iou/ide brahman:0.54 p28   | iou/any brahman:0.54 p16   | ncc/ide brahman:0.88 p15   | ncc/any panim:0.90 p14  
+  f mitakuyame:  iou/ide ortho:0.42 p3   | iou/any ortho:0.50 p8   | ncc/ide mushin:0.88 p15   | ncc/any mushin:0.88 p8  
+     f internal mi:~yu:: iou id 0.33 any 0.45 p3; ncc id 0.73 any 0.81 p1
+     f internal mi:~yumi:: iou id 0.33 any 0.33 p1; ncc id 0.65 any 0.74 p0
+     f internal mi:~mitakuyame:: iou id 0.22 any 0.38 p1; ncc id 0.66 any 0.78 p0
+     f internal yu:~yumi:: iou id 0.30 any 0.30 p0; ncc id 0.68 any 0.68 p0
+     f internal yu:~mitakuyame:: iou id 0.43 any 0.43 p3; ncc id 0.73 any 0.73 p0
+     f internal yumi:~mitakuyame:: iou id 0.68 any 0.68 p64; ncc id 0.87 any 0.87 p4
+
+checks: {"scratch_build_vs_shipped_font": {"16": {"glyphs_compared": 93, "glyphs_with_any_binary_pixel_difference": []}, "24": {"glyphs_compared": 93, "glyphs_with_any_binary_pixel_difference": []}, "32": {"glyphs_compared": 93, "glyphs_with_any_binary_pixel_difference": []}, "11": {"glyphs_compared": 93, "glyphs_with_any_binary_pixel_difference": []}}, "svg_json_vs_composed_specs": {"A-address-kin": {"mi:": {"pixels_differing_at_200px": 0, "ink_pixels": 3716}, "yu:": {"pixels_differing_at_200px": 0, "ink_pixels": 3726}, "yumi:": {"pixels_differing_at_200px": 0, "ink_pixels": 4900}, "mitakuyame:": {"pixels_differing_at_200px": 0, "ink_pixels": 4279}}, "B-standing-ground": {"mi:": {"pixels_differing_at_200px": 0, "ink_pixels": 3889}, "yu:": {"pixels_differing_at_200px": 0, "ink_pixels": 3889}, "yumi:": {"pixels_differing_at_200px": 0, "ink_pixels": 5626}, "mitakuyame:": {"pixels_differing_at_200px": 0, "ink_pixels": 7363}}, "C-bond-first": {"mi:": {"pixels_differing_at_200px": 0, "ink_pixels": 3762}, "yu:": {"pixels_differing_at_200px": 0, "ink_pixels": 3456}, "yumi:": {"pixels_differing_at_200px": 0, "ink_pixels": 7038}, "mitakuyame:": {"pixels_differing_at_200px": 0, "ink_pixels": 5066}}, "final": {"mi:": {"pixels_differing_at_200px": 0, "ink_pixels": 3040}, "yu:": {"pixels_differing_at_200px": 0, "ink_pixels": 3463}, "yumi:": {"pixels_differing_at_200px": 0, "ink_pixels": 6431}, "mitakuyame:": {"pixels_differing_at_200px": 0, "ink_pixels": 4352}}}, "existing_glyphs_with_no_ink_afte
+geom vs font: {"16": {"measure": "IoU between the FreeType and the supersampled-geometry binary renders of the same glyph, uncentred", "n": 109, "min": 0.0, "p10": 0.8076, "q1": 0.8889, "median": 0.9737, "q3": 1.0, "p90": 1.0, "max": 1.0, "mean": 0.925}, "24": {"measure": "IoU between the FreeType and the supersampled-geometry binary renders of the same glyph, uncentred", "n": 109, "min": 0.5882, "p10": 0.8114, "q1": 0.8889, "median": 0.9533, "q3": 0.9759, "p90": 1.0, "max": 1.0, "mean": 0.9249}, "32": {"measure": "IoU between the FreeType and the supersampled-geometry binary renders of the same glyph, uncentred", "n": 109, "min": 0.6786, "p10": 0.8564, "q1": 0.9259, "median": 0.9718, "q3": 0.9906, "p90": 1.0, "max": 1.0, "mean": 0.9439}, "11": {"measure": "IoU between the FreeType and the supersampled-geometry binary renders of the same glyph, uncentred", "n": 109, "min": 0.0, "p10": 0.7455, "q1": 0.8182, "median": 0.8889, "q3": 1.0, "p90": 1.0, "max": 1.0, "mean": 0.8707}}
