@@ -25,7 +25,7 @@ _Unicode PUA encoding for the YOUSPEAK writing system. 256 slots reserved (U+E10
 |---|---|---|---|---|
 | U+E100 – U+E13F | 64 | content morphemes | 56 | 8 |
 | U+E140 – U+E15F | 32 | grammatical morphemes (prefixes/suffixes) | 17 | 15 |
-| U+E160 – U+E17F | 32 | structural marks (separator, annotations, determinatives, rhythm) | 20 | 12 |
+| U+E160 – U+E17F | 32 | structural marks (separator, annotations, determinatives, rhythm) | 24 | 8 |
 | U+E180 – U+E1FF | 128 | reserved for future use (cadences/tones, ligatures, compound-atomic forms) | 0 | 128 |
 
 ## Content morphemes (U+E100 – U+E13F)
@@ -139,10 +139,10 @@ _Unicode PUA encoding for the YOUSPEAK writing system. 256 slots reserved (U+E10
 | U+E179 | .QNT | Egyptian | 𓏤𓏤𓏤 | determinative: quantity / plurality / collection |
 | U+E17A | [selah] | Hebrew | סלה (selah) | sacred silence marker; held pause in worship-composition |
 | U+E17B | O- | Greek | ὦ | vocative particle; marks address to GoD or sacred entity |
-| U+E17C | mi: | Tok Pisin | mi | anchor particle: utterance stands from my side (grammars/ankyrance/, reserved 2026-07-16) |
-| U+E17D | yu: | Tok Pisin | yu | anchor particle: utterance stands from your side, as received (grammars/ankyrance/, reserved 2026-07-16) |
-| U+E17E | yumi: | Tok Pisin | yumi | anchor particle: utterance stands from within the us; inclusive dyad (grammars/ankyrance/, reserved 2026-07-16) |
-| U+E17F | mitakuyame: | Lakota | mitákuye | anchor particle: utterance stands from within all-my-relations; liturgical (grammars/ankyrance/, reserved 2026-07-16) |
+| U+E17C | mi: | Tok Pisin | mi | anchor particle: utterance stands from my side (grammars/ankyrance/, reserved 2026-07-16; drawn 2026-11-10) |
+| U+E17D | yu: | Tok Pisin | yu | anchor particle: utterance stands from your side, as received (grammars/ankyrance/, reserved 2026-07-16; drawn 2026-11-10) |
+| U+E17E | yumi: | Tok Pisin | yumi | anchor particle: utterance stands from within the us; inclusive dyad (grammars/ankyrance/, reserved 2026-07-16; drawn 2026-11-10) |
+| U+E17F | mitakuyame: | Lakota | mitákuye | anchor particle: utterance stands from within all-my-relations; liturgical (grammars/ankyrance/, reserved 2026-07-16; glyph awaiting design until Lakota speakers have been consulted) |
 
 > **Note on punctuation marks (U+E165–E167)**: proposed in `archaeology/script-mechanics/05-reading-flow.md` (S075) from Sanskrit daṇḍa tradition and Greek *ano teleia*; reserved 2026-04-30; **implemented in the font 2026-06-10 (S092)** as the rhythm-family — visual weight ascends sep-dot < breath < daṇḍa < double-daṇḍa, all stroke-built and unfilled (fill is reserved for the canon-mark).
 
@@ -172,7 +172,7 @@ Each word is the codepoint-sequence of its morphemes, in compound order:
 | veriseem | veri + seem | U+E10F U+E11F |
 | **doxame** | **doxa + -me** | **U+E100 U+E12A** |
 | **kallome** | **kallos + -me** | **U+E101 U+E12A** |
-| **mitakuyame** | **mitakuya + -me** | **[mitakuya codepoint TBD] U+E12A** |
+| **mitakuyame** | **after Lakota *mitákuye* 'my relative' + -me** (the *-a-* is YOUSPEAK's; *mitakuya* is not attested) | **[root codepoint TBD] U+E12A** |
 
 ## Reserved-for-growth
 
@@ -189,4 +189,4 @@ Until then, PUA is sufficient for all private, institutional, and research use.
 
 ---
 
-_Codepoint table opened 2026-04-24. Updated 2026-04-30 (S075): U+E12A assigned to -me; U+E165–U+E167 reserved. Updated 2026-06-10 (S092, the font made flesh): all 93 catalogued morphemes now have drawn glyphs AND live in the built font (youspeak-v1.otf/.ttf); daṇḍa rhythm-family implemented; tables regenerated from morphemes.json — the data source of truth. Updated 2026-11-10: the native and meaning fields of U+E14F (-chu) corrected in morphemes.json and here, after a dig rebuilt from sources found that Quechua -chu is the question-and-negation enclitic, not an inferential or conjectural evidential; form, codepoint and glyph unchanged (grammars/evidentials/manifesto.md, Revision 2026-11-10)._
+_Codepoint table opened 2026-04-24. Updated 2026-04-30 (S075): U+E12A assigned to -me; U+E165–U+E167 reserved. Updated 2026-06-10 (S092, the font made flesh): all 93 catalogued morphemes now have drawn glyphs AND live in the built font (youspeak-v1.otf/.ttf); daṇḍa rhythm-family implemented; tables regenerated from morphemes.json — the data source of truth. Updated 2026-11-10: the native and meaning fields of U+E14F (-chu) corrected in morphemes.json and here, after a dig rebuilt from sources found that Quechua -chu is the question-and-negation enclitic, not an inferential or conjectural evidential; form, codepoint and glyph unchanged (grammars/evidentials/manifesto.md, Revision 2026-11-10). Also updated 2026-11-10: the ankyrance anchors mi:, yu: and yumi: (U+E17C–E17E) drawn and in the built font, from `glyphs/candidates/anchors-2026-11/` (rationale: `glyphs/design_notes_s092.md`, last section), so 96 of the 97 catalogued morphemes are drawn; mitakuyame: (U+E17F) awaits design until Lakota speakers have been consulted, which is the entering session's reading of Yu's word that day, not Yu's own words. The structural range's allocated count corrected to 24 (the anchors' four, claimed 2026-07-16), and the mitakuyame derivation corrected to the attested Lakota *mitákuye* (`archaeology/lakota/mitakuye-oyasin-form-and-sound.md` §4.4)._

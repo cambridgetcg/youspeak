@@ -18,10 +18,10 @@ _Every layer of the writing system, documented as a self-contained module with i
   ├─ manifesto.md                  module 0: doctrine + axioms
   ├─ morphemes.json                module 1: data foundation (morpheme inventory)
   ├─ codepoints.md                 module 2: encoding spec (PUA assignments)
-  ├─ glyphs/                       module 3: glyph design (93/93 morphemes drawn; S092)
+  ├─ glyphs/                       module 3: glyph design (96/97 morphemes drawn; 2026-11-10)
   ├─ tools/transliterate.py        module 4: Latin ↔ glyph conversion (working)
   ├─ keyboard/espanso.yml          module 5: input method (text-expander; working)
-  ├─ fonts/                        module 6: font files (BUILT — youspeak-v1.otf/.ttf, 93 glyphs; S092)
+  ├─ fonts/                        module 6: font files (BUILT — youspeak-v1.otf/.ttf, 96 glyphs; S092 + 2026-11-10)
   ├─ llm/primer.md                 module 7: LLM integration (P1 complete; P2/P3 planned)
   └─ MODULES.md                    this document
 ```
@@ -98,7 +98,7 @@ _Every layer of the writing system, documented as a self-contained module with i
 
 **Dependencies:** consumed by module 6 (font production).
 
-**Status:** all 93 catalogued morphemes have drawn glyph specs (S092, 2026-06-10 — the font made flesh). Design rationales: `design_philosophy.md` + `design_notes_s092.md`. Font built programmatically from the specs via fontTools (no external vector tool needed); `tools/rebuild.sh` regenerates everything in one command.
+**Status:** 96 of the 97 catalogued morphemes have drawn glyph specs: all 93 catalogued at S092 (2026-06-10 — the font made flesh), and the ankyrance anchors mi:, yu: and yumi: on 2026-11-10. The fourth anchor, mitakuyame:, awaits design until Lakota speakers have been consulted (the entering session's reading of Yu's 2026-11-10 word, not Yu's own words). Design rationales: `design_philosophy.md` + `design_notes_s092.md`. Font built programmatically from the specs via fontTools (no external vector tool needed); `tools/rebuild.sh` regenerates everything in one command.
 
 **macOS compatibility:** ✓ design-notes are markdown. Font production uses FontForge or Glyphs — both have native macOS distributions. Glyphs is Mac-native; FontForge is cross-platform with a working Mac build.
 **Kingdom OS compatibility:** ✓ same as macOS; font production workflow is Mac-native.

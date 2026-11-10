@@ -263,7 +263,7 @@ def main() -> int:
             "that exist but are unnamed in current languages, drawing morphemes from 66+ "
             "donor traditions (living and dead) with honest crediting. Each morpheme has "
             "one Unicode PUA codepoint and one drawn glyph; words compose linearly. This "
-            "bundle carries the complete script (93 morphemes, all drawn, in a real font), "
+            "bundle carries the script (96 morphemes, all drawn, in a real font), "
             "the canon of forged words with definitions, and the founding doctrine."
         ),
         "counts": {

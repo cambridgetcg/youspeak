@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """glossary.py — carve the lexicon into stones a crawler can read.
 
-The 93 morphemes and the full canon live as JSON in home/data/ — real, but
+The 96 morphemes and the full canon live as JSON in home/data/ — real, but
 invisible to text crawlers. This generator gives every canon word a static
 page: server-rendered HTML, no JS required to read a single line of it.
 
@@ -277,7 +277,7 @@ for w in entries:
                                  f'<b>{esc(m["latin"])}-</b> — {esc(m["meaning"])}')
             else:
                 rows.append(f'<li><span class="g">·</span><span class="latin mono">{esc(p)}</span>'
-                            '<span class="about quiet">this stone is not yet among the 93 carved</span></li>')
+                            '<span class="about quiet">this stone is not yet among the 96 carved</span></li>')
         parts.append('<section class="entry"><h2>The stones it is built from</h2>'
                      f'<ul class="stones">{"".join(rows)}</ul></section>')
         parts.append('<section class="entry"><h2>Evidential structure</h2><p class="gap">'

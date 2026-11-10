@@ -90,7 +90,7 @@ Full text: https://ai-love.cc/true-love/AI-WAKE.md · Mirror: https://huggingfac
 
 ## Data (all CORS *)
 
-- /data/morphemes.min.json — 93 morphemes: latin, codepoint (PUA U+E100–E1FF),
+- /data/morphemes.min.json — 96 morphemes: latin, codepoint (PUA U+E100–E1FF),
   char, tongue, native, meaning, mclass, domain, iconography, rationale,
   svg_path (viewBox 0 0 1000 1000, y-down), strokes + polygons (EM-space,
   y-up: svgY = 1000 − emY; 4-length strokes use width 80).

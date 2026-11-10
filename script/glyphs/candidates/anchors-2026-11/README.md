@@ -10,6 +10,17 @@ Four morphemes of the script are catalogued but not drawn: the anchor particles 
 canonized glyph never changes (`script/philosophy.md`), so the choice belongs to the
 language's owner. The open choices are listed in [`final/decisions.md`](final/decisions.md).
 
+**Update, 2026-11-10.** After this record was written, Yu answered the open choices
+("Lets go for what you recommended sensible actions for the above decision"), and `mi:`,
+`yu:` and `yumi:` from `final/specs.py` were entered into `script/glyphs/glyph_specs_v1.py`
+unchanged apart from the domain tag (`relation+between`, an existing tag, in place of the
+unregistered `relation+position`). `mitakuyame:` was not entered: the entering session
+held it until Lakota speakers have been consulted, which is that session's reading and not
+Yu's own words. Everything below describes the round as it stood before that, at commit
+`621977a`. The two scripts reproduce the committed images and numbers at that commit; on a
+tree where the three glyphs are in the font, the audit's own assertions (93 drawn glyphs,
+the anchors absent) no longer hold.
+
 ![Three designers' sets and the recommended set](final/compare.png)
 
 ## How the round ran
