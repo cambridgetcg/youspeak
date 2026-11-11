@@ -40,7 +40,7 @@ compatibility shim 提供；static deploy 唔代表該 route 會換成 repo 檔�
   `proof.html`. Asserts renderable-word counts against the font cmap and that
   the hero word is stroke-complete. Never hand-edit its outputs.
 - `index.html` — 九個房間，次序係 I Nave、II Cornerstone、III Chapels of Love、
-  IV Scriptorium、V the Ninety-Three Stones、VI Treasury、VII The Between
+  IV Scriptorium、V the Ninety-Six Stones、VI Treasury、VII The Between
   （`/#isness`／相遇之間）、VIII Chancel（ORDO，見 `ordo/SPEC.md`）、IX Crypt。
   Chapels 同 Between 嘅 canon 摘句係人手逐字保留；來源修訂時，要同步核對摘句，
   唔靠 bake 自動更新。Between 嘅 CSS 同靜態解說亦由呢個檔案維護。
