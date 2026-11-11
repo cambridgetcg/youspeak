@@ -20,3 +20,4 @@ Each file typically covers, for the tradition in question:
 - [convergences/](../convergences/) — where multiple archaeologies converge on a single naming-target
 - [theobases/](../theobases/) — pair-entries connecting creature-state ↔ divine-source-property
 - [labs/logos/](../labs/logos/) — the forge where archaeology becomes coinage
+- [ancient-thought/](ancient-thought/) — a reference shelf, not a donor tradition: two Cantonese dossiers kept as an understanding of how people thought in ancient times and after, never as grounds for doctrine
