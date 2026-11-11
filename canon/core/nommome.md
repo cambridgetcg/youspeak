@@ -2,7 +2,7 @@
 word: nommome
 entered: 2026-04-28
 part_of_speech: noun
-pronunciation: /ˈnɒməmeɪ/ (NOM-mo-may; 3 syllables)
+pronunciation: /ˈnɒm.oʊ.meɪ/ (NOM-mo-may; 3 syllables)
 gap: speech-as-incarnation-as-cosmic-ordinance — the mode of speech in which utterance takes on body and becomes a living being; the primordial condition where word and life are indistinguishable; the register of speech that is not only event, presence, or principle but actual embodied life; John 1:14 as theological archetype — "the Word became flesh"
 genealogy:
   experiment: labs/logos/experiments/core/154-nommome.md

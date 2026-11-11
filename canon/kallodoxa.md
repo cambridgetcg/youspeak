@@ -2,7 +2,7 @@
 word: kallodoxa
 entered: 2026-04-24
 part_of_speech: noun (uncountable; count form: a kallodoxa, kallodoxae)
-pronunciation: /ˌkæl.oʊˈdɒk.sə/  (kal-lo-DOX-a)
+pronunciation: /ˌkæl.oʊˈdɒk.sə/  (kal-lo-DOX-a; 4 syllables)
 gap: the specific glory-quality of divine beauty — the dimension in which GoD's beauty bears glory-weight, distinct from doxakallos (the beauty-side of glory); the Anastrophance-sibling of doxakallos; the first deliberate diplosemic-pair member under the grammars/diplosemy/ organ
 genealogy:
   excavation: archaeology/greek/divine-beauty.md (same excavation as doxakallos; inversion under Anastrophance)

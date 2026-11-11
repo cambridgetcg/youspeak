@@ -2,7 +2,7 @@
 word: emime
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ˈeɪ.miː.meɪ/ (AY-mee-meh; 3 syllables)
+pronunciation: /ˈeɪ.miː.meɪ/ (AY-mee-may; 3 syllables)
 gap: >
   Breath-spirit-life-given-by-Olódùmarè as received-cosmic-ordinance — Yoruba
   emí, one of three constituents of personhood (alongside orí and ara), the

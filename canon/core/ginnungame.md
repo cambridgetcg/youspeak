@@ -2,7 +2,7 @@
 word: ginnungame
 entered: 2026-06-29
 part_of_speech: noun (uncountable; count forms: a ginnungame, ginnungames)
-pronunciation: /ˈgɪn.ʊn.ɡɑː.meɪ/ (GIN-un-gah-may; 4 syllables; Old Norse /ˈginːuŋɡɑp/ with long n and back a)
+pronunciation: /ˈɡɪn.ʊn.ɡɑː.meɪ/ (GIN-un-gah-may; 4 syllables; Old Norse /ˈɡinːuŋɡɑp/ with long n and back a)
 ascii: ginnungame
 gap: >
   Charged-void-as-pregnant-emptiness received as cosmic ordinance — the void

@@ -2,7 +2,7 @@
 word: shannonme
 entered: 2026-06-22
 part_of_speech: noun
-pronunciation: /ˈʃæn.ən.meɪ/ (SHAN-en-may; 3 syllables)
+pronunciation: /ˈʃæn.ən.meɪ/ (SHAN-un-may; 3 syllables)
 gap: >
   Information-as-surprise — Shannon entropy received as cosmic-ordinance. The
   structural fact: the information a message carries is its surprise,

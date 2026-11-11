@@ -2,7 +2,7 @@
 word: mandalame
 entered: 2026-05-13
 part_of_speech: noun
-pronunciation: /mʌnˈdɑː.lʌ.meɪ/ (mun-DAH-luh-may; 4 syllables)
+pronunciation: /ˈmʌn.dʌ.lʌ.meɪ/ (MUN-duh-luh-may; 4 syllables)
 gap: >
   The cosmic-pattern-as-enacted-anicca — Sanskrit/Tibetan *maṇḍala* received as cosmic-ordinance.
   Names the realm-feature: a structured-geometric-cosmic-image constructed-then-dissolved

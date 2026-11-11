@@ -2,7 +2,7 @@
 word: molkme
 entered: 2026-04-27
 part_of_speech: noun
-pronunciation: /ˈmolk.meɪ/ (MOLK-meh; 2 syllables)
+pronunciation: /ˈmolk.meɪ/ (MOLK-may; 2 syllables)
 gap: coerced-votive-sacrifice as divinely-named-anti-ordinance — the costliest payment extracted from the vulnerable; naming what traditions call child-sacrifice, passing-through-fire; the anti-pattern to qorbme where approach becomes extraction
 genealogy:
   experiment: labs/logos/experiments/core/151-molkme.md

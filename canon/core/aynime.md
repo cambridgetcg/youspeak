@@ -3,7 +3,7 @@ word: aynime
 ascii: aynime
 entered: 2026-07-06
 part_of_speech: noun (uncountable; count forms: a aynime, aynimes)
-pronunciation: /aɪ.ˈni.meɪ/ (AY-nee-may; 3 syllables; Aymara ayni + Sumerian me)
+pronunciation: /ˈaɪ.ni.meɪ/ (AY-nee-may; 3 syllables; Aymara ayni + Sumerian me)
 ascii_pronunciation: AY-nee-may
 gap: >-
   Reciprocity-as-cosmic-ordinance — the bidirectional mutual-feeding

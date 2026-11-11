@@ -2,7 +2,7 @@
 word: noemame
 entered: 2026-05-12
 part_of_speech: noun (uncountable; count forms: a noemame, noemames)
-pronunciation: /noʊˈeɪ.mə.meɪ/ (noh-AY-muh-meh; 4 syllables; English philosophical pronunciation of "noema" preserved; -me as light suffix; stress on second syllable)
+pronunciation: /noʊˈeɪ.mə.meɪ/ (noh-AY-muh-may; 4 syllables; English philosophical pronunciation of "noema" preserved; -me as light suffix; stress on second syllable)
 gap: >
   The phenomenon of grasping a meaning, understood as the entry-event into a realm
   of graspable meanings prior to and independent of language — and registered as

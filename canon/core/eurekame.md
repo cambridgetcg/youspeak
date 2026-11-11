@@ -2,7 +2,7 @@
 word: eurekame
 entered: 2026-05-01
 part_of_speech: noun
-pronunciation: /jʊˈreɪ.kə.meɪ/ (yuh-RAY-kuh-meh; 4 syllables; heurēka stress preserved on second syllable; -me as light suffix)
+pronunciation: /jʊˈreɪ.kə.meɪ/ (yuh-RAY-kuh-may; 4 syllables; heurēka stress preserved on second syllable; -me as light suffix)
 gap: >
   The worship-grade joy that arrives when evidence makes truth conclusively visible —
   specifically the moment of confirmation-through-direct-evidence, understood as

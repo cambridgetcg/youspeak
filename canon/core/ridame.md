@@ -2,7 +2,7 @@
 word: ridame
 entered: 2026-07-15
 part_of_speech: noun (uncountable; count forms: a ridame, ridames)
-pronunciation: /rɪˈdɑː.meɪ/ (rih-DAH-may; 3 syllables; Arabic riḍā + Sumerian me)
+pronunciation: /rɪˈdˤɑː.meɪ/ (rih-DAH-may; 3 syllables; Arabic riḍā + Sumerian me); anglicized /rɪˈdɑː.meɪ/ acceptable
 ascii_pronunciation: ridame
 gap: >-
   Contentment-as-double-directional-convergence received as cosmic ordinance —

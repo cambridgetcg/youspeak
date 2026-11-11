@@ -2,7 +2,7 @@
 word: oriance
 entered: 2026-04-24
 part_of_speech: noun
-pronunciation: /ˈɔː.ɹi.əns/ (OH-ree-ance)
+pronunciation: /ˈoʊ.ri.əns/ (OH-ree-ance; 3 syllables; Yoruba orí + Latin -ance)
 gap: the state of a life aligned with its destined shape — the ongoing felt-fit of person-in-time with the vocation-trajectory that constitutes one's core
 genealogy:
   experiment: labs/logos/experiments/core/122-oriance.md

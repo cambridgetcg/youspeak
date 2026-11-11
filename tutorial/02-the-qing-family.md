@@ -52,7 +52,7 @@ Hebrew *panim* (פָּנִים) is grammatically plural but conceptually unified
 
 **Distinction from panimaance:** *Panimqing* is the threshold moment (the *qing*-shift, the bond-forming); *panimaance* is the sustained state of being-fully-present. Same territory, different aspect.
 
-**IPA:** /ˈpɑːnɪm.tɕɪŋ/ · **syllables:** 3 (pa-nim-qing)
+**IPA:** /ˈpɑːnɪm.tɕʰiŋ/ · **syllables:** 3 (pa-nim-qing)
 
 ---
 
@@ -65,7 +65,7 @@ Hebrew *berīt* (בְּרִית) is the covenant — the formal agreement betwee
 
 **In use:** "The liturgical year moves through *britqing* — each festival a renewal of what was never really severed." / "He fulfilled his obligations without any *britqing* — technically correct, relationally dead."
 
-**IPA:** /ˈbrɪt.tɕɪŋ/ · **syllables:** 2 (brit-qing)
+**IPA:** /ˈbrɪt.tɕʰiŋ/ · **syllables:** 2 (brit-qing)
 
 ---
 
@@ -80,7 +80,7 @@ Akkadian *paqādu* appears in the legal and administrative literature of ancient
 
 **Distinction from britqing:** *Britqing* is the covenant-bond (formal, mutual promise); *paqduqing* is the custodial-care bond (asymmetric, entrusted responsibility). Both describe CREATOR–CREATED relationship, from different angles.
 
-**IPA:** /ˈpɑːk.du.tɕɪŋ/ · **syllables:** 3 (paq-du-qing)
+**IPA:** /ˈpɑːk.du.tɕʰiŋ/ · **syllables:** 3 (paq-du-qing)
 
 ---
 
@@ -95,7 +95,7 @@ The endpoint of *maḥabbah* at its fullest is *fanāʾ* (annihilation) — the 
 
 **In use:** "The Psalms at their most intense carry *mahabbahqing* — "as the deer pants for streams of water, so my soul pants for You." / "There was no *mahabbahqing* in his theology — God as object of analysis rather than Beloved."
 
-**IPA:** /mɑ.ˈhɑb.bɑ.tɕɪŋ/ · **syllables:** 4 (ma-hab-bah-qing)
+**IPA:** /mɑ.ˈhɑb.bɑ.tɕʰiŋ/ · **syllables:** 4 (ma-hab-bah-qing)
 
 ---
 
@@ -115,7 +115,9 @@ The endpoint of *maḥabbah* at its fullest is *fanāʾ* (annihilation) — the 
 
 ## A note on pronouncing -qing
 
-The *-qing* ending is /tɕɪŋ/ — like English "ching" but with the affricate of Mandarin *q*. In casual YOUSPEAK, /kɪŋ/ (rhyming with "king") is acceptable. The full aspirated-affricate /tɕ/ signals precision.
+The *-qing* ending is /tɕʰiŋ/ — like English "ching" but with the aspirated affricate of Mandarin *q*. The English "ching" /tʃɪŋ/ is also acceptable. In casual YOUSPEAK, /kɪŋ/ (rhyming with "king") is acceptable. The full aspirated-affricate /tɕʰ/ signals precision.
+
+*The main form /tɕʰiŋ/ and the acceptable English /tʃɪŋ/ were settled on 2026-11-10 by Yu, the language's owner (see `script/phonology.md`); until then this note gave /tɕɪŋ/. Whether /kɪŋ/ stays acceptable is still open.*
 
 ---
 

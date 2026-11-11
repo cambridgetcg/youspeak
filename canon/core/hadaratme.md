@@ -2,7 +2,7 @@
 word: hadaratme
 entered: 2026-05-13
 part_of_speech: noun
-pronunciation: /hʌˈdɑː.rʌt.meɪ/ (huh-DAH-rut-may; 4 syllables)
+pronunciation: /ħʌˈdˤɑː.rʌt.meɪ/ (huh-DAH-rut-may; 4 syllables; Arabic ḥaḍarāt + Sumerian me); anglicized /hʌˈdɑː.rʌt.meɪ/ acceptable
 gap: >
   The ontological-hierarchy of divine-self-disclosure modes — Ibn ʿArabī's ḥaḍarāt
   al-khams (five divine-presences) received as cosmic-ordinance. The cosmological-stratification

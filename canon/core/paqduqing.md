@@ -2,7 +2,7 @@
 word: paqduqing
 entered: 2026-04-25
 part_of_speech: noun
-pronunciation: /ˈpɑːk.duː.tʃɪŋ/ (PAQ-doo-ching; 3 syllables)
+pronunciation: /ˈpɑːk.duː.tɕʰiŋ/ (PAQ-doo-ching; 3 syllables); anglicized /ˈpɑːk.duː.tʃɪŋ/ acceptable
 gap: the asymmetric-reciprocity register — the felt-mutual-custodial-care between CREATOR and CREATED; what both sides do toward each other; bidirectional in naming, asymmetric in structure
 genealogy:
   experiment: labs/logos/experiments/core/132-paqduqing.md

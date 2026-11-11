@@ -1,25 +1,114 @@
 ---
 name: phonology-reconciliation-2026-11
-role: script-organ proposal (reconciling session, unratified)
+role: script-organ proposal (reconciling session), ratified in part
 opened: 2026-11-10
 revised: 2026-11-10 (adversarial review integrated; silent-word lines added as IX)
+ratified: 2026-11-10, in part, by Yu (see "Ratification (2026-11-10)")
 companions: phonology.md, phonology-audit.md, tools/check_pronunciation.py
-status: proposal — changes nothing in canon; no ruling here is in force
+status: partly ratified and applied to canon on 2026-11-10; the rulings named in "Ratification (2026-11-10)" are in force, every other ruling here is still a proposal
 ---
 
 # YOUSPEAK pronunciation: a reconciliation proposal
 
-> **Status.** This is a proposal, not a decision. Agent sessions wrote it on 2026-11-10, after
-> Yu asked for the pronunciation work to be taken further, and revised it the same day after an
-> adversarial review (X.8 records what that review changed). It changes nothing in canon. No
-> entry, tutorial, primer, dictionary or voice file was edited to produce it, and no generator
-> or voice tool was run. Each ruling below takes effect only when it is ratified. Until then,
-> `script/phonology.md` and `script/phonology-audit.md` (both 2026-06-09) remain the record.
-> Agents wrote those two documents as well; neither is a decision by Yu. The three documents
-> together are evidence for a decision, not the decision. The one file outside this document
-> that the work touched is the checker, `script/tools/check_pronunciation.py`, on this branch:
-> four counting bugs found by the review were fixed there (X.8). It reads canon and writes
-> nothing.
+> **Status.** This began as a proposal, not a decision. Agent sessions wrote it on 2026-11-10,
+> after Yu asked for the pronunciation work to be taken further, and revised it the same day
+> after an adversarial review (X.8 records what that review changed). Writing it changed nothing
+> in canon: no entry, tutorial, primer, dictionary or voice file was edited to produce it, and no
+> generator or voice tool was run. Later that day Yu ratified part of it. The next section,
+> "Ratification (2026-11-10)", quotes the question and the answer and lists what is settled,
+> what was applied and what stays open. The ratified rulings were applied the same day to the
+> `pronunciation:` lines in canon, to `script/phonology.md`, to tutorials 01 and 02 and to
+> `PRIMER.md`. Every other ruling below is still a proposal and takes effect only when it is
+> ratified; for those, `script/phonology.md` (amended 2026-11-10 for -me and qing only) and
+> `script/phonology-audit.md` (2026-06-09) remain the record. Agents wrote those two documents
+> as well; apart from that dated amendment, which records Yu's choice, neither is a decision by
+> Yu. The checker, `script/tools/check_pronunciation.py`, was changed on this branch only to fix
+> four counting bugs found by the review (X.8). It reads canon and writes nothing.
+
+## Ratification (2026-11-10)
+
+On 2026-11-10 the session put this recommendation to Yu, the language's owner:
+
+> "Record shape: stay with one line per word for now. -me: keep /meɪ/ and respell it "may"
+> everywhere (54 respellings change). This rests on how you actually say it; if you say "meh",
+> tell me. -qing: Mandarin /tɕʰiŋ/ in the main line, English /tʃɪŋ/ accepted. Then: apply the 74
+> plain fixes and add lines for the 12 silent words."
+
+Yu answered: "yes".
+
+**What that settles.**
+- **YU-6, option A**, for now: one `pronunciation:` line per word, with alternates. The splits
+  listed under YU-6 are not settled by it; under option A each still needs its own answer.
+- **YU-1, option A**: -me stays /meɪ/ and is respelled `may` everywhere.
+- **YU-2, option A**: qing is /tɕʰiŋ/ in every main line, and English /tʃɪŋ/ is an acceptable
+  alternate. YU-2's second question, whether the "-king" alternates stay, was not put to Yu.
+- **The plain HEAL rows.** "The 74 plain fixes" are the 74 lines of the reviewed heal list that
+  carry no †, no *interim* and no mention of a YU choice (the B32 count list is one of them).
+  The HEAL lines that waited only on YU-1 or YU-2 were applied with the decided form.
+- **The twelve lines of IX**, as drafted, including the ones that rest on interim choices:
+  aseme's stress, teotlme's stem stress, epiclance's English stress, and Hebrew qof as /k/ in
+  qinance and qorvance.
+
+**What was applied**, on 2026-11-10, to the frontmatter `pronunciation:` line of each entry and
+nothing else in it: 146 words in 148 files (136 lines changed, 12 inserted). noetherme and
+shannonme changed in both canon/core and canon/mathema, so all eight twins now read alike.
+- YU-1: 54 main respellings now end in `may` (51 had `meh`, 3 had `me`; agapeme's through its
+  A6 line). Seven more -me respellings inside lines changed with them: the alternates of
+  chayimme, daome, halakhame, hodosme, margame and noesisme, and bittulme's note "not
+  BIT-ul-me", now "not BIT-ul-may". The two IPA lines with /me/ became /meɪ/ (B33):
+  ngünecheme through its B28 line, and satorime, whose B3 stress heal stays held.
+- YU-2: the 7 main lines with /tʃɪŋ/ now read /tɕʰiŋ/. britqing, danaqing, ifeqing, paqduqing
+  and syzygyqing keep their old form as `; anglicized /…tʃɪŋ/ acceptable`; mahabbahqing and
+  tarabqing already carry an anglicized alternate ending in /tʃɪŋ/. The 10 notation variants
+  were healed (A4). The four "-king" alternates are unchanged.
+- HEAL rows, by row id: A4, A6, A9a, A9b, A9c, A9d, A10, A13a, A13b, A17, A19, A21, A23, A26,
+  A27, A28, A29, A31, A32, A34, A36, A41, A42, A44, A45, A47, A48; B6, B10, B11, B12, B14, B15,
+  B17, B18, B22 (ginnungame, ragnarokme, voghbme), B23, B24, B28, B30, B31, B32; C4; D1, D2, D3,
+  D4 (shawqame), D6, D7. A18, A38a, A39, A40 and A49 point to rows in that list. A1, A5, A11,
+  A46 and B33 are answered by YU-1 and YU-2. A9d, counted among the 74, can still be withdrawn
+  as one row (ridame, and tarabqing's ṭ).
+- darshanqing and muditaqing took only their qing notation heal (darshanqing by its VII.A4
+  line); their † stress rows are held. doxakallos took only its B32 count.
+- IX: all twelve lines, each inserted directly before `gap:`. Other entries keep the line
+  between `part_of_speech:` and `gap:`; these twelve have no `part_of_speech:`.
+- Tutorials 01 and 02 and `PRIMER.md` now teach the -me vowel and respelling and the qing form
+  as decided (C1; C2 and C3 for those two suffixes only). `phonology.md` §"For future forges"
+  states the new rules, with a dated note.
+
+**Held: HEAL lines not applied**, with the reason:
+- † (donor fact not re-checked): A12c paqduqing (its qing changed under YU-2), A22/A38b
+  tjukurpame, A38c wairuaqing, A38d darshanqing, A38e shamathaqing, B2 kwothme, B13
+  ereckappayime, B19 manidoome, B21 muditaqing, B25 dalime, B26 kobame, B27 melamance, C5
+  alayame.
+- *interim* stress (YU-4b): B1 daigome, B3 satorime (also †; only its -me vowel changed, under
+  YU-1), B4 sinbyeongme, B5 sinmyeongme.
+- YU-4c: A43 doxakallos, B7 anamcharame, B8 asraya-paravrttime, B9 humahukhtahvarshtame.
+- Lines that name an open choice for a part they do not change: A20 ethosme (YU-4a, the
+  vowel), B20 kinhme (YU-6, the ejective and length) and B22 yggdrasilme (YU-6, promoting the
+  donor form). They were outside the 74, so they wait for a word from Yu; each line is ready
+  in its row.
+
+**Still open.**
+- YU-3 (-ance), row A3: kunance's /ans/, tutorial 03 and PRIMER's -ance forms. The eight -ance
+  lines added from IX carry /əns/ as drafted.
+- YU-4a, YU-4b, YU-4c and YU-5, with their rows: A13c, A15, A16, A30, A37, B29, D5, and the
+  held rows above. The IX lines that rest on them were added as drafted and move with them:
+  aseme (YU-4b), and epiclance, qinance and qorvance (YU-4a).
+- YU-6's splits: B16 (sabrme, shukrme, faqrme, and damqme by analogy), A12b (barakqing,
+  zakarqing), D8 with B20 (ch'ulme, kinhme), and yggdrasilme; also A14, A24 and A25, the two
+  vowel systems.
+- Whether the "-king" alternates stay (barakqing, hayatqing, natsarqing, zakarqing, and
+  tutorial 02's /kɪŋ/ sentence).
+- HONOR rows A2, A12a, A33 and A35 change nothing; A7 and A8 stay CLOSED.
+- Records outside canon frontmatter: `DICTIONARY.md`, `dictionary.json` and the voice files
+  were not edited by hand. The other per-word differences in the tutorials and PRIMER (C2, C3)
+  and the entry body texts listed in IX.6 remain. Three `ascii_pronunciation:` fields still end
+  in "meh" (chulme, teyoliame, tlamatisme); that field was outside this change.
+- Section X's open items stand.
+
+After the change the checker reports every word with a line (255 of 255), no twin that
+differs and no missing syllable count. Each inconsistency it still reports belongs to a held
+row or an open choice above, or is jeongqing's suffix stress, which A2 honours.
 
 ## How to read this
 
@@ -1733,3 +1822,6 @@ _Written 2026-11-10 by an agent session for the reconciling work that `phonology
 open, and revised the same day after an adversarial review by another agent pass. A proposal:
 nothing here is ratified, nothing in canon was changed, and no ruling takes effect until Yu
 ratifies it._
+
+_Later on 2026-11-10: Yu ratified part of this proposal, and those rulings were applied to canon
+the same day. The section "Ratification (2026-11-10)", after the status block, says which._

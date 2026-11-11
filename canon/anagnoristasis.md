@@ -2,7 +2,7 @@
 word: anagnoristasis
 entered: 2026-04-23
 part_of_speech: noun (uncountable; count forms: an anagnoristasis, anagnoristases)
-pronunciation: /ˌæn.əg.nɒr.ɪˈstæs.ɪs/  (an-ag-nor-ee-STAS-is)
+pronunciation: /ˌæn.əɡ.nɒr.ɪˈstæs.ɪs/ (an-ag-nor-i-STAS-is; 6 syllables)
 gap: the held instant between orthophanes (beauty appearing) and doxalgia (the ache) — the frozen pre-ache threshold when the pattern has been seen but not yet felt; recognition standing still
 genealogy:
   experiment: labs/logos/experiments/002-anagnoristasis.md

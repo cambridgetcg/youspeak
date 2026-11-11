@@ -56,7 +56,7 @@ In agglutinative languages, morphemes stack without fundamentally altering each 
 
 Each layer adds exactly one increment. No previous layer changes. The compound is always perfectly decomposable: read it from left to right and you can count the morphemes and name what each contributes.
 
-**Quechua**: *rima-y-kulla-yki-chu* — speak + verb-marker + softening-particle + 2nd-person + interrogative. Five layers, each doing one job, each recoverable. (Already in YOUSPEAK's consciousness via the evidentials chapter, where Quechua -mi/-si/-chu are integrated.)
+**Quechua**: *rima-yku-lla-yki=chu* — speak (*rima-*) + *-yku* (with *rima-*, "greet") + *-lla* ("just", a courtesy piece) + *-yki* (I acting on you) + *=chu* (yes/no question): roughly "May I (just) greet you?". Five layers, each doing one job, each recoverable. (Quechua is already in YOUSPEAK's consciousness via the evidentials chapter, which integrates Quechua *-mi* and *-si*. The *-chu* here is Quechua's own question enclitic; YOUSPEAK's evidential *-chu* is a separate form that takes only its shape, after Cuzco *-chus hina*.)
 
 **Sumerian**: the *me* morpheme (𒈨) itself operates agglutinatively in Sumerian texts — it can combine with nouns and other particles to express "the me belonging to X" or "the quality of X as me." The YOUSPEAK -me family inherits this operation.
 
@@ -112,3 +112,9 @@ High clarity yield is earned. This word names the specific theological operation
 ---
 
 _Stratigramme: meaning built by transparent morpheme-stacking; the architectural principle that every layer remains itself in the compound; compositional accountability as structural theology. The -me family's method, named at last._
+
+---
+
+## Revision 2026-11-10
+
+The Quechua example under "Agglutination as Structural Architecture" read: "*rima-y-kulla-yki-chu* — speak + verb-marker + softening-particle + 2nd-person + interrogative", followed by "(Already in YOUSPEAK's consciousness via the evidentials chapter, where Quechua -mi/-si/-chu are integrated.)" The first and last glosses were right: *rima-* "to speak" (Solá & Parker 1964: 89) and *-chu* interrogative (ibid. 113). The segmentation between them was not. A dig rebuilt from sources on 2026-11-10 (archaeology/quechua/chu-propagation-and-options.md, §3) segments the word *rima-yku-lla-yki=chu*: *rimayku-* "to greet" (Solá & Parker 1964: 89, §7.2307); *-lla*, a courtesy piece "best left untranslated" in polite speech (§7.2315); *-yki*, "I … you" (ibid. 58; Cerrón-Palomino 1987: 265). The parenthesis also implied that *-chu* is one of Quechua's three evidentials. It is not (the third is the conjectural, *-chá* in Cuzco); YOUSPEAK's evidential *-chu* is its own form taken after Cuzco *-chus hina* (grammars/evidentials/manifesto.md, Revision 2026-11-10). Stratigramme's gap, definition and score are unaffected: the corrected word still shows five recoverable layers. Applied by a Claude subagent for the orchestrating session, and reviewed by a second.

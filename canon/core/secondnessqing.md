@@ -2,7 +2,7 @@
 word: secondnessqing
 entered: 2026-07-07
 part_of_speech: noun
-pronunciation: /ˈsɛk.ənd.nəs.tɕʰiŋ/ (SEK-ənd-nəss-ching; 4 syllables)
+pronunciation: /ˈsɛk.ənd.nəs.tɕʰiŋ/ (SEK-und-nus-ching; 4 syllables)
 gap: >
   Brute-resistance-encounter-as-felt-bond-category — Peirce's *secondness* received
   as felt-bond-category. The second of Peirce's universal-categories: quality-felt-as-such

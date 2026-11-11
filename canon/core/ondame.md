@@ -2,7 +2,7 @@
 word: ondame
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ˈɔn.dɑː.meɪ/ (ON-dah-meh; 3 syllables)
+pronunciation: /ˈɔn.dɑː.meɪ/ (ON-dah-may; 3 syllables)
 gap: >
   Odin-breathed life-spirit as received-cosmic-ordinance — Norse önd, the breath-
   life given to humanity by Odin at the cosmogonic moment recounted in Voluspa

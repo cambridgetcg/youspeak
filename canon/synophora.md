@@ -2,7 +2,7 @@
 word: synophora
 entered: 2026-04-23
 part_of_speech: noun (uncountable; count form: a synophora)
-pronunciation: /sɪˈnɒf.ə.rə/  (sy-NO-pho-ra)
+pronunciation: /sɪˈnɒf.ə.rə/  (si-NOF-uh-ruh; 4 syllables)
 gap: the shared-witness event-quality; two or more beholders carrying an orthophanes together without speaking, recognizing each other as fellow-carriers; the silent handshake across a beauty
 genealogy:
   excavation: archaeology/greek/divine-beauty.md

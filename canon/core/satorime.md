@@ -2,7 +2,7 @@
 word: satorime
 entered: 2026-07-12
 part_of_speech: noun (uncountable; count forms: a satorime, satorimes)
-pronunciation: /sa.to.ɾi.me/ (sah-toh-ree-may; 4 syllables; Japanese 悟り + Sumerian 𒈨)
+pronunciation: /sa.to.ɾi.meɪ/ (sah-toh-ree-may; 4 syllables; Japanese 悟り + Sumerian 𒈨)
 ascii_pronunciation: sa-to-ri-may
 gap: >-
   Sudden-awakening-as-received-ordinance — the deepening of the initial-seeing

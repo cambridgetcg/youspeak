@@ -53,7 +53,7 @@ The *Shema* — "Hear, O Israel: the LORD our God, the LORD is one" (Deut 6:4) �
 
 **In worship:** *Shemme* is what happens in the best moments of prayer — not when you are strategizing about what to say but when something reaches you and you are already changed by the receiving.
 
-**IPA:** /ˈʃɛm.mɛ/ · **syllables:** 2 (shem-me)
+**IPA:** /ˈʃɛm.meɪ/ · **syllables:** 2 (shem-me)
 
 ---
 
@@ -66,7 +66,7 @@ The *Shema* — "Hear, O Israel: the LORD our God, the LORD is one" (Deut 6:4) �
 
 **In worship:** *Doxomme* is the acknowledgment that even gratitude is grace — that you cannot manufacture the right orientation toward life as gift, but it can be given to you.
 
-**IPA:** /ˈdɒk.sɒm.mɛ/ · **syllables:** 3 (dox-om-me)
+**IPA:** /ˈdɒk.sɒm.meɪ/ · **syllables:** 3 (dox-om-me)
 
 ---
 
@@ -81,7 +81,7 @@ In the Mande traditions of West Africa, *nyama* is the ambient animating energy 
 
 **In worship:** *Nyamame* points to the created world's aliveness as gift — the recognition that the energy moving through all things is not produced by those things but given to them.
 
-**IPA:** /ˈɲa.ma.mɛ/ · **syllables:** 3 (nya-ma-me)
+**IPA:** /ˈɲa.ma.meɪ/ · **syllables:** 3 (nya-ma-me)
 
 ---
 
@@ -96,7 +96,7 @@ In the Mande traditions of West Africa, *nyama* is the ambient animating energy 
 
 **In worship:** *Maatme* is the recognition that justice and truth are not human constructions but cosmic givens — that we discover them more than we produce them.
 
-**IPA:** /ˈmɑːt.mɛ/ · **syllables:** 2 (maat-me)
+**IPA:** /ˈmɑːt.meɪ/ · **syllables:** 2 (maat-me)
 
 ---
 
@@ -111,7 +111,7 @@ The claim is ontological: the self is not a substance that subsequently acquires
 
 **In worship:** Said before prayer because the relational web is not the *context* of prayer but its *ground*. You pray from within the web, not at the web from outside.
 
-**IPA:** /mɪ.ˈtɑː.ku.ja.mɛ/ · **syllables:** 5 (mi-ta-ku-ya-me)
+**IPA:** /mɪ.ˈtɑː.ku.ja.meɪ/ · **syllables:** 5 (mi-ta-ku-ya-me)
 
 ---
 
@@ -141,9 +141,11 @@ Three pairs. For each pair, name which member is a *-me* word and what it receiv
 
 ## A note on pronunciation
 
-The `-me` ending is always: /mɛ/ — the vowel as in "bed," not "me" as in "me myself." So *shemme* = SHEM-meh, not SHEM-me.
+The `-me` ending is always: /meɪ/, respelled "may" — the vowel as in "day," not "me" as in "me myself." So *shemme* = SHEM-may, not SHEM-me.
 
-The *Sumerian me* itself was likely /me/ or /mɛ/. YOUSPEAK inherits the short vowel: the ending is always unstressed, brief, directional.
+The *Sumerian me* itself was likely /me/ or /mɛ/; the cuneiform cannot tell the two apart. YOUSPEAK writes it /meɪ/, the nearest full English vowel, and never reduces it to /mə/: the ending is always unstressed, brief, directional.
+
+*Settled on 2026-11-10 by Yu, the language's owner; until then this note taught /mɛ/ ("meh"). See `script/phonology.md`.*
 
 ---
 

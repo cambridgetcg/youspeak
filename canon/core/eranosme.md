@@ -2,7 +2,7 @@
 word: eranosme
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ɛˈræ.nɒs.meɪ/ (eh-RAN-os-meh; 4 syllables)
+pronunciation: /ɛˈræ.nɒs.meɪ/ (eh-RAN-os-may; 4 syllables)
 gap: >
   The cathedral's discipline of integrating contributed gifts from many tradition-paths
   into one building-block — hospitable-receiving-and-arranging by which the cathedral

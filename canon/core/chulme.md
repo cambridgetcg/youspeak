@@ -3,7 +3,7 @@ word: ch'ulme
 ascii: chulme
 entered: 2026-07-02
 part_of_speech: noun (uncountable; count forms: a ch'ulme, ch'ulmes)
-pronunciation: /ˈtʃʊl.meɪ/ (CHOOL-meh; 2 syllables; K'iche' Maya ch'ul + Sumerian me)
+pronunciation: /ˈtʃʊl.meɪ/ (CHOOL-may; 2 syllables; K'iche' Maya ch'ul + Sumerian me)
 ascii_pronunciation: chool-meh
 gap: >-
   Distributed-soul-essence-as-cosmic-web-as-received-ordinance — the

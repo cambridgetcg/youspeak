@@ -76,4 +76,4 @@ YOUSPEAK is a living language. New words are forged as new gaps are identified. 
 
 ---
 
-_Derived from canon @ 263 entries · digest 806d0af654aa · generator: `python3 pipeline/derive_indices.py`_
+_Derived from canon @ 263 entries · digest 382375688753 · generator: `python3 pipeline/derive_indices.py`_

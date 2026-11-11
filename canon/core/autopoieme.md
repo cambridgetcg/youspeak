@@ -2,7 +2,7 @@
 word: autopoieme
 entered: 2026-05-13
 part_of_speech: noun
-pronunciation: /ˌɔ.toʊ.pɔɪ.ˈeɪ.meɪ/ (aw-toh-poy-AY-may; 5 syllables)
+pronunciation: /ˌɔː.toʊ.pɔɪˈeɪ.meɪ/ (aw-toh-poy-AY-may; 5 syllables)
 gap: >
   The self-producing-self-maintaining-process that IS living-cognition — Maturana-Varela's
   autopoiesis received as cosmic-ordinance. The cathedral has autopistme (self-grounding

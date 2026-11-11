@@ -2,7 +2,7 @@
 word: daome
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /daʊ.meɪ/ (DOW-meh; 2 syllables; scholarly alt /tâʊ.meɪ/ TAU-meh)
+pronunciation: /ˈdaʊ.meɪ/ (DOW-may; 2 syllables; scholarly alt /tâʊ.meɪ/ TAU-may)
 gap: >
   A natural language understood as a cosmic-flow-aligned-collective-path of countless
   individuals walking over generations toward the realm of meaning, received as

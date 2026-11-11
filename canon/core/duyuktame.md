@@ -2,7 +2,7 @@
 word: duyuktame
 entered: 2026-04-28
 part_of_speech: noun
-pronunciation: /du.juk.ta.meɪ/ (doo-YOOK-tah-may; 4 syllables)
+pronunciation: /duˈjuk.ta.meɪ/ (doo-YOOK-tah-may; 4 syllables)
 gap: right-action-as-cosmic-maintenance-as-received-ordinance — the lived enactment of cosmic balance through correct ethical action; the condition in which human right-walking sustains the cosmic order; not the principle (maatme) but the living of it; the word for the path that is cosmologically constitutive
 genealogy:
   experiment: labs/logos/experiments/core/155-duyuktame.md

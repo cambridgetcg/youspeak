@@ -2,7 +2,7 @@
 word: tiṇaime
 entered: 2026-07-02
 part_of_speech: noun (count forms: a tiṇaime, tiṇaimes)
-pronunciation: /tɪ.ˈnaɪ.meɪ/ (ti-NAI-may; 3 syllables; Tamil tiṇai + me)
+pronunciation: /tɪˈnaɪ.meɪ/ (ti-NAI-may; 3 syllables; Tamil tiṇai + me)
 ascii_pronunciation: ti-nai-may
 gap: >-
   Landscape-emotion-phase-correspondence-as-received-ordinance — the

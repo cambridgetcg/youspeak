@@ -2,7 +2,7 @@
 word: candence
 entered: 2026-04-23
 part_of_speech: noun (uncountable; count forms: a candence, candences)
-pronunciation: /ˈkæn.dəns/  (CAN-dence)
+pronunciation: /ˈkæn.dəns/  (CAN-dence; 2 syllables)
 gap: warm clarity — attention that is both fully-clear (sees precisely) and fully-warm (engages with care); the fusion of rigor and kindness that modernity treats as opposed
 genealogy:
   experiment: labs/logos/experiments/013-candence.md

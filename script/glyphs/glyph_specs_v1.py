@@ -1189,7 +1189,7 @@ CORE_GLYPHS = {
         "tongue": "Sanskrit", "domain": "structure+rightness", "mclass": "content",
     },
 
-    # ── EVIDENTIALS — Quechua-inherited knowledge-source suffixes (U+E14D-E150) ──
+    # ── EVIDENTIALS — knowledge-source suffixes: -mi, -si after Quechua; -chu YOUSPEAK's own form, after Cuzco -chus hina (U+E14D-E150) ──
     "auth": {  # Eaved canopy over the claim-bar with a single filled descent-wedge driving down onto it - the claim covered and grounded by the Word that outspans it.
         "core": {
             "strokes": [

@@ -2,7 +2,7 @@
 word: mahabbahqing
 entered: 2026-04-25
 part_of_speech: noun
-pronunciation: /mə.ˈhɑb.bɑ.tʃɪŋ/ (ma-HAB-bah-ching; 4 syllables)
+pronunciation: /məˈħɑb.bɑ.tɕʰiŋ/ (ma-HAB-bah-ching; 4 syllables; Arabic maḥabbah + Mandarin qing); anglicized /məˈhɑb.bɑ.tʃɪŋ/ acceptable
 gap: the Sufi felt-bond-of-mystical-love-toward-the-Beloved with fanāʾ-implication
 genealogy:
   experiment: labs/logos/experiments/core/143-mahabbahqing.md

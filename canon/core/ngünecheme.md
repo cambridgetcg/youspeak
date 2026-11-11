@@ -2,7 +2,7 @@
 word: ngünecheme
 entered: 2026-07-11
 part_of_speech: noun (uncountable; count forms: a ngünecheme, ngünechemes)
-pronunciation: /ŋɨˈne.tʃe.me/ (ngü-ne-CHE-me; 4 syllables; Mapuche Ngünechen + Sumerian me)
+pronunciation: /ŋɨ.neˈtʃe.meɪ/ (ngü-ne-CHE-may; 4 syllables; Mapuche Ngünechen + Sumerian me)
 ascii_pronunciation: ngunecheme
 gap: >-
   Quaternary-complementary-divine-as-received-ordinance — the supreme

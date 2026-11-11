@@ -2,7 +2,7 @@
 word: noesisme
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /noʊˈiːsɪs.meɪ/ (no-EE-sis-meh; 4 syllables; classical-Greek-style alternative /noʊˈɛsɪs.meɪ/ no-EH-sis-meh)
+pronunciation: /noʊˈiː.sɪs.meɪ/ (no-EE-sis-may; 4 syllables; alternative /noʊˈɛ.sɪs.meɪ/ no-EH-sis-may)
 gap: >
   The act of grasping a meaning understood as received-ordinance and as the
   entry-event into the realm of meanings — the cognitive transit-moment itself,

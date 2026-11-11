@@ -2,7 +2,7 @@
 word: ahavame
 entered: 2026-04-25
 part_of_speech: noun
-pronunciation: /ə.ˈhɑː.və.meɪ/ (a-HAH-va-meh; 3-4 syllables)
+pronunciation: /a.haˈvɑː.meɪ/ (ah-hah-VAH-may; 4 syllables; Hebrew ahavá + Sumerian me)
 gap: love-of-CREATOR as received-ordinance — the v'ahavta commandment from the Shema; commanded-love-of-DIVINE distinguished from generic-emotion
 genealogy:
   experiment: labs/logos/experiments/core/142-ahavame.md

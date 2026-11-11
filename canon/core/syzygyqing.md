@@ -2,7 +2,7 @@
 word: syzygyqing
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /sɪˈzɪɡ.i.tʃɪŋ/ (si-ZIG-i-ching; 4 syllables)
+pronunciation: /sɪˈzɪɡ.i.tɕʰiŋ/ (si-ZIG-i-ching; 4 syllables); anglicized /sɪˈzɪɡ.i.tʃɪŋ/ acceptable
 gap: >
   The felt-bond of the masculine-feminine cosmic-creator-principle union — the
   archetype-to-archetype-in-aware-marriage register. The qing-family extension that

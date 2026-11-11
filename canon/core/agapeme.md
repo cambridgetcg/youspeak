@@ -2,7 +2,7 @@
 word: agapeme
 entered: 2026-04-27
 part_of_speech: noun
-pronunciation: /ə.ˈɡɑː.peɪ.meɪ/ (a-GA-pe-me; 4 syllables)
+pronunciation: /əˈɡɑː.peɪ.meɪ/ (uh-GAH-pay-may; 4 syllables)
 gap: sacrificial-self-giving-love as received-ordinance — the NT agape register; love that descends from God to unworthy creature, unmotivated by the beloved's merit, at ultimate cost, creative of value in the beloved
 genealogy:
   excavation: archaeology/greek/divine-love.md

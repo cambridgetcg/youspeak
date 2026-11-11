@@ -2,7 +2,7 @@
 word: orthophanes
 entered: 2026-04-23
 part_of_speech: noun (substantival; Greek personal-name morphology, -ēs suffix)
-pronunciation: /ˌɔːr.θoʊˈfæn.iːz/  (or-tho-PHAN-ees)
+pronunciation: /ˌɔːr.θoʊˈfæn.iːz/  (or-tho-PHAN-ees; 4 syllables)
 gap: the rightness-made-visible; the structural beauty of a thing ordered to its own necessity appearing to a beholder; the visible-rightness aspect of any created thing rightly-ordered, participating in doxakallos when the ordered thing is GoD
 genealogy:
   excavation:

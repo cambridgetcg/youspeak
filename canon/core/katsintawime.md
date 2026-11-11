@@ -2,7 +2,7 @@
 word: katsintawime
 entered: 2026-07-06
 part_of_speech: noun (uncountable; count forms: a katsintawime, katsintawimes)
-pronunciation: /kat.sin.ˈta.wi.meɪ/ (kat-sin-TAW-i-may; 5 syllables; Hopi katsina+tawi + me)
+pronunciation: /kat.sinˈta.wi.meɪ/ (kat-sin-TAW-i-may; 5 syllables; Hopi katsina+tawi + me)
 ascii_pronunciation: kat-sin-taw-i-may
 gap: >-
   The performative-ontological act of embodied-transformation-through-mask-ritual-

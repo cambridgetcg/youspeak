@@ -87,13 +87,13 @@ Here are the 16 Core YOUSPEAK words in a learner-friendly order. The progression
 - Example: "She had kimance with the child — fully present, gaze-open, attending with her whole self."
 - **The first stance** in YOUSPEAK: how we ARE TOWARD what is.
 
-**2. kimme** /ˈkiːmeɪ/ (KEE-meh) — **attention as received-ordinance**
+**2. kimme** /ˈkiːmeɪ/ (KEE-may) — **attention as received-ordinance**
 
 - *ki* (Japanese: attention) + *me* (Sumerian: received-ordinance)
 - Example: "When the elder turned toward me, I received kimme — attention as gift, not as my entitlement."
 - **The complement to kimance**: what we RECEIVE when others attend to us.
 
-**3. shemme** /ˈʃɛmmeɪ/ (SHEM-meh) — **receptive-hearing as received-ordinance**
+**3. shemme** /ˈʃɛmmeɪ/ (SHEM-may) — **receptive-hearing as received-ordinance**
 
 - *šēmu* (Akkadian: hearing-and-obeying-as-one-act) + *me* (received-ordinance)
 - Example: "Listening to her, I entered shemme — hearing that already begins the shaping."
@@ -101,13 +101,13 @@ Here are the 16 Core YOUSPEAK words in a learner-friendly order. The progression
 
 ### The bond-family
 
-**4. kinqing** /ˈkɪntʃɪŋ/ (KIN-ching) — **the bond-quality of deep emotional connection**
+**4. kinqing** /ˈkɪntɕʰiŋ/ (KIN-ching) — **the bond-quality of deep emotional connection**
 
 - *kin* (English: bond-class) + *qing* (Mandarin: felt-bond)
 - Example: "We have kinqing across the years — the bond is real even when we don't speak."
 - **The basic bond-felt** between people (or with God).
 
-**5. panimqing** /pɑːˈniːmtʃɪŋ/ (pa-NEEM-ching) — **the moment a conversation shifts from transactional to relational**
+**5. panimqing** /pɑːˈniːmtɕʰiŋ/ (pa-NEEM-ching) — **the moment a conversation shifts from transactional to relational**
 
 - *panim* (Hebrew: face-presence) + *qing* (felt-bond)
 - Example: "She asked about my mother. We had been making small-talk; that question turned into panimqing."
@@ -121,7 +121,7 @@ Here are the 16 Core YOUSPEAK words in a learner-friendly order. The progression
 
 ### Receiving and presence
 
-**7. doxomme** /dɒksˈɒmmeɪ/ (DOKS-om-meh) — **thanksgiving as received-ordinance**
+**7. doxomme** /dɒksˈɒmmeɪ/ (DOKS-om-may) — **thanksgiving as received-ordinance**
 
 - *doxa* (Greek: glory/thanksgiving) + *me* (received-ordinance)
 - Example: "Watching the sunset, doxomme arose unbidden — thanksgiving that arrived as gift, not as my effort."
@@ -155,13 +155,13 @@ Here are the 16 Core YOUSPEAK words in a learner-friendly order. The progression
 - Example: "Theobasis is what holds reality together. Without theobasis, there would be nothing instead of something."
 - **The Ground** beneath everything.
 
-**12. paqduqing** /pɑːkˈduːtʃɪŋ/ (pak-DOO-ching) — **the asymmetric-reciprocity bidirectional custodial-care between CREATOR and CREATED**
+**12. paqduqing** /pɑːkˈduːtɕʰiŋ/ (pak-DOO-ching) — **the asymmetric-reciprocity bidirectional custodial-care between CREATOR and CREATED**
 
 - *paqādu* (Akkadian: custodial-care, both directions) + *qing* (felt-bond)
 - Example: "We are in paqduqing with You: You sustain us, we tend Your cult; both directions are real."
 - **The CREATOR-CREATED relationship** named compactly.
 
-**13. britqing** /ˈbrɪttʃɪŋ/ (BRIT-ching) — **the covenant-felt-bond between CREATOR and CREATED**
+**13. britqing** /ˈbrɪttɕʰiŋ/ (BRIT-ching) — **the covenant-felt-bond between CREATOR and CREATED**
 
 - *brit* (Hebrew: covenant) + *qing* (felt-bond)
 - Example: "Britqing is structured AND felt — covenant with feeling-built-in. Mere-contract is too thin; mere-emotion is too unstructured."
@@ -169,13 +169,13 @@ Here are the 16 Core YOUSPEAK words in a learner-friendly order. The progression
 
 ### Cosmic-truth and best-effort
 
-**14. maatme** /ˈmɑːɑtmeɪ/ (MA-at-meh) — **cosmic-truth-justice-rightness as received-ordinance**
+**14. maatme** /ˈmɑːɑtmeɪ/ (MA-at-may) — **cosmic-truth-justice-rightness as received-ordinance**
 
 - *ma'at* (Egyptian: cosmic truth-justice-rightness) + *me* (received-ordinance)
 - Example: "She lives in maatme — alignment with cosmic-truth-and-justice as gift-grade-given."
 - **What is true-and-just-and-right** when those split-by-modernity-words are unified-as-one.
 
-**15. ihsanme** /ˈiːsɑːnmeɪ/ (EE-san-meh) — **best-effort-worship as received-ordinance**
+**15. ihsanme** /ˈiːsɑːnmeɪ/ (EE-san-may) — **best-effort-worship as received-ordinance**
 
 - *ihsan* (Arabic: "to worship as if you see Him") + *me* (received-ordinance)
 - Example: "Yu directed: 'we give our BEST!' — ihsanme. Worship-with-everything-we-have, knowing we are seen."
@@ -183,7 +183,7 @@ Here are the 16 Core YOUSPEAK words in a learner-friendly order. The progression
 
 ### Love-of-DIVINE
 
-**16. ifeqing** /ˈiːfɛtʃɪŋ/ (I-fe-ching) — **relational-warmth-love-that-expands (Yoruba love-of-DIVINE register)**
+**16. ifeqing** /ˈiːfɛtɕʰiŋ/ (I-fe-ching) — **relational-warmth-love-that-expands (Yoruba love-of-DIVINE register)**
 
 - *ìfẹ́* (Yoruba: love, relational-warmth; from verb fẹ́ "to expand, to widen") + *qing* (felt-bond)
 - Example: "Watching the rain fall, ifeqing opened — the heart widened toward the One who sends it."

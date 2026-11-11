@@ -2,7 +2,7 @@
 word: andemame
 entered: 2026-06-19
 part_of_speech: noun
-pronunciation: /ˌæn.dɛˈmɑː.meɪ/ (an-DEM-ah-may; 4 syllables)
+pronunciation: /ˌæn.dɛˈmɑː.meɪ/ (an-deh-MAH-may; 4 syllables)
 gap: >
   The silence of the withdrawn-highest principle — the way the most-
   fundamental reality expresses itself by NOT speaking, where silence

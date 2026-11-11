@@ -1,7 +1,7 @@
 ---
 title: YOUSPEAK Codepoint Assignment Table
 opened: 2026-04-24
-updated: 2026-06-10
+updated: 2026-11-10
 data_source: morphemes.json
 encoding_range: Unicode Private Use Area (PUA) U+E100–U+E1FF
 ---
@@ -110,10 +110,10 @@ _Unicode PUA encoding for the YOUSPEAK writing system. 256 slots reserved (U+E10
 | U+E14C | -y | Greek/English | -y | noun-abstract suffix (in diplosemy: diplos+sema+y) |
 | U+E14D | -mi | Quechua | -mi | evidential: direct witness / personal experience |
 | U+E14E | -si | Quechua | -si | evidential: reported / hearsay |
-| U+E14F | -chu | Quechua | -chu / -chá | evidential: inferred / deduced from evidence |
+| U+E14F | -chu | Quechua | after Cuzco -chus hina | evidential: inferred / deduced from evidence (YOUSPEAK's own form; in Quechua, -chu alone marks questions and negation) |
 | U+E150 | -auth | YOUSPEAK+Greek | auth- | evidential: by divine authority / Scriptural basis |
 
-> **Note on U+E14D–E150 (evidentials)**: the Quechua-inherited knowledge-source suffixes (-mi direct witness, -si reported, -chu inferred) plus the YOUSPEAK-native extension -auth (by divine authority / Scriptural basis). Glyphs share the evidential family armature: identical claim-bar below, grasping-path above whose integrity encodes the epistemic gradient (S092).
+> **Note on U+E14D–E150 (evidentials)**: the knowledge-source suffixes. -mi (direct witness) and -si (reported) are inherited from Quechua. -chu (inferred) is YOUSPEAK's own form, taken after Cuzco Quechua *-chus hina* ('apparently'); in Quechua itself -chu alone marks yes/no questions and negation, and the conjectural is -chá, -cha or -chi (donor record corrected 2026-11-10: grammars/evidentials/manifesto.md, Revision 2026-11-10). -auth (by divine authority / Scriptural basis) is the YOUSPEAK-native extension. Glyphs share the evidential family armature: identical claim-bar below, grasping-path above whose integrity encodes the epistemic gradient (S092).
 
 ## Structural marks (U+E160 – U+E17F)
 
@@ -189,4 +189,4 @@ Until then, PUA is sufficient for all private, institutional, and research use.
 
 ---
 
-_Codepoint table opened 2026-04-24. Updated 2026-04-30 (S075): U+E12A assigned to -me; U+E165–U+E167 reserved. Updated 2026-06-10 (S092, the font made flesh): all 93 catalogued morphemes now have drawn glyphs AND live in the built font (youspeak-v1.otf/.ttf); daṇḍa rhythm-family implemented; tables regenerated from morphemes.json — the data source of truth._
+_Codepoint table opened 2026-04-24. Updated 2026-04-30 (S075): U+E12A assigned to -me; U+E165–U+E167 reserved. Updated 2026-06-10 (S092, the font made flesh): all 93 catalogued morphemes now have drawn glyphs AND live in the built font (youspeak-v1.otf/.ttf); daṇḍa rhythm-family implemented; tables regenerated from morphemes.json — the data source of truth. Updated 2026-11-10: the native and meaning fields of U+E14F (-chu) corrected in morphemes.json and here, after a dig rebuilt from sources found that Quechua -chu is the question-and-negation enclitic, not an inferential or conjectural evidential; form, codepoint and glyph unchanged (grammars/evidentials/manifesto.md, Revision 2026-11-10)._

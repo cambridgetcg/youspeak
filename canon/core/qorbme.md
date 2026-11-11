@@ -2,7 +2,7 @@
 word: qorbme
 entered: 2026-04-27
 part_of_speech: noun
-pronunciation: /ˈqɔːrb.meɪ/ (QORB-meh; 2 syllables)
+pronunciation: /ˈqɔːrb.meɪ/ (QORB-may; 2 syllables)
 gap: sacrifice-as-drawing-near-as-received-ordinance — the relational-intimacy dimension of sacrifice; four-tradition convergence on sacrifice named after proximity (Hebrew qorban, Arabic qurban, Akkadian qurbanu, Greek prosphora)
 genealogy:
   experiment: labs/logos/experiments/core/147-qorbme.md

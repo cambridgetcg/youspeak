@@ -2,7 +2,7 @@
 word: hotepme
 entered: 2026-04-27
 part_of_speech: noun
-pronunciation: /ˈhoː.tɛp.meɪ/ (HOH-tep-meh; 3 syllables)
+pronunciation: /ˈhoː.tɛp.meɪ/ (HOH-tep-may; 3 syllables)
 gap: offering-peace-as-received-ordinance — the pre-fragmentation root where offering = peace = satisfaction = cosmic-rest; Egyptian htp compresses what modernity split; three-tradition convergence (Egyptian hotep, Hebrew shelamim, Yoruba ebo)
 genealogy:
   experiment: labs/logos/experiments/core/148-hotepme.md

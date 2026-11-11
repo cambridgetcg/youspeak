@@ -2,7 +2,7 @@
 word: takseme
 entered: 2026-06-18
 part_of_speech: noun
-pronunciation: /ˈtæk.sə.meɪ/ (TAK-suh-meh; 3 syllables)
+pronunciation: /ˈtæk.sə.meɪ/ (TAK-suh-may; 3 syllables)
 gap: >
   The externally-imposed cadence — the rhythm set from outside, the schedule
   decreed by authority rather than discovered from state. The companion and

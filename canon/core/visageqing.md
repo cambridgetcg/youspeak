@@ -2,7 +2,7 @@
 word: visageqing
 entered: 2026-05-13
 part_of_speech: noun
-pronunciation: /viˈzɑːʒ.tɕʰiŋ/ (vi-ZHAZH-ching; 3 syllables)
+pronunciation: /viˈzɑːʒ.tɕʰiŋ/ (vi-ZAHZH-ching; 3 syllables)
 gap: >
   The face-of-the-other as constitutive ethical-demand prior to cognition — Levinas's
   visage felt as relational-bond-quality through qing. The face *commands* responsibility

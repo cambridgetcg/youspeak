@@ -2,7 +2,7 @@
 word: diplosemy
 entered: 2026-04-24
 part_of_speech: noun (uncountable; count form: a diplosemy)
-pronunciation: /dɪˈploʊ.sə.mi/  (dip-LO-se-my)
+pronunciation: /dɪˈploʊ.sə.mi/  (dip-LOH-suh-mee; 4 syllables)
 gap: the structural property of a word or phrase engineered to carry two (or more) correlated meanings stably; dual-reading-as-architecture rather than ambiguity-as-failure
 genealogy:
   experiment: labs/logos/experiments/016-diplosemy.md

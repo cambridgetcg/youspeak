@@ -3,7 +3,7 @@ word: panimqing
 entered: 2026-04-24
 enriched: 2026-06-29
 part_of_speech: noun (count: a panimqing, panimqings; uncountable in register-use)
-pronunciation: /paˈniːm.t͡ɕɪŋ/ (pah-NEEM-ching; 3 syllables)
+pronunciation: /paˈniːm.tɕʰiŋ/ (pah-NEEM-ching; 3 syllables)
 ascii: panimqing
 gap: >
   The moment a conversation shifts from transactional to relational — from

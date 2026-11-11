@@ -2,7 +2,7 @@
 word: algiadoxame
 entered: 2026-07-05
 part_of_speech: noun (uncountable; count forms: an algiadoxame, algiadoxames)
-pronunciation: /ˌæl.dʒi.əˈdɒk.sə.meɪ/  (al-gi-a-DOK-sa-may; 5 syllables)
+pronunciation: /ˌæl.dʒi.əˈdɒk.sə.meɪ/ (al-jee-uh-DOK-suh-may; 6 syllables)
 ascii: algiadoxame
 gap: >-
   Glory-inhering-in-ache-as-received-ordinance — the dignity-weight of

@@ -2,7 +2,7 @@
 word: maatme
 entered: 2026-04-25
 part_of_speech: noun
-pronunciation: /ˈmɑː.ɑt.meɪ/ (MA-at-meh; 3 syllables)
+pronunciation: /ˈmɑː.ɑt.meɪ/ (MA-at-may; 3 syllables)
 gap: cosmic-truth-justice-rightness as received-ordinance — the Egyptian ma'at-aligned state understood as gift-grade-given from cosmic-order, not as self-generated rectitude
 genealogy:
   experiment: labs/logos/experiments/core/136-maatme.md

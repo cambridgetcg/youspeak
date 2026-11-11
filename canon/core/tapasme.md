@@ -2,7 +2,7 @@
 word: tapasme
 entered: 2026-04-27
 part_of_speech: noun
-pronunciation: /ˈtɑː.pɑːs.meɪ/ (TAH-pas-meh; 3 syllables)
+pronunciation: /ˈtɑː.pʌs.meɪ/ (TAH-pus-may; 3 syllables)
 gap: inner-fire-self-discipline-as-received-ordinance — the internalized sacrifice where external fire becomes inner fire; five-tradition convergence on the movement from material-sacrifice to self-transformation-as-offering (Vedic tapas, Islamic jihad al-nafs, Pauline logikē latreia, Sufi fanāʾ, Buddhist viriya)
 genealogy:
   experiment: labs/logos/experiments/core/150-tapasme.md

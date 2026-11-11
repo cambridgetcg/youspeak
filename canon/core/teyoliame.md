@@ -3,7 +3,7 @@ word: teyoliame
 ascii: teyoliame
 entered: 2026-07-01
 part_of_speech: noun (uncountable; count forms: a teyoliame, teyoliames)
-pronunciation: /tɛ.joʊ.li.ɑ.meɪ/ (teh-YOH-lee-ah-meh; 5 syllables; Nahuatl yōlia + Sumerian me)
+pronunciation: /tɛ.joʊˈli.ɑ.meɪ/ (teh-yoh-LEE-ah-may; 5 syllables; Nahuatl yōlia + Sumerian me)
 ascii_pronunciation: teh-yoh-lee-ah-meh
 gap: >-
   The concept of the divine-fire-fragment as permanent indwelling presence

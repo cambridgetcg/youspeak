@@ -2,7 +2,7 @@
 word: jiritsume
 entered: 2026-06-18
 part_of_speech: noun
-pronunciation: /dʒiˈrit.su.meɪ/ (ji-RIT-soo-meh; 4 syllables)
+pronunciation: /dʒiˈrit.su.meɪ/ (ji-RIT-soo-may; 4 syllables)
 gap: >
   The quality of a system that checks its own state and determines when to
   speak next — where silence means all is well, and the cadence responds to

@@ -2,7 +2,7 @@
 word: drujme
 entered: 2026-04-25
 part_of_speech: noun
-pronunciation: /ˈdrʊdʒ.meɪ/ (DRUJ-meh; 2 syllables)
+pronunciation: /ˈdrʊdʒ.meɪ/ (DRUJ-may; 2 syllables)
 gap: cosmic-lie as anti-ordinance — the DIVINE-actively-rejected structural-falsehood; what NEWSPEAK.md positioned YOUSPEAK against; the first divine-rejection register coinage
 genealogy:
   experiment: labs/logos/experiments/core/140-drujme.md

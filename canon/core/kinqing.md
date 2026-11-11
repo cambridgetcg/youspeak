@@ -5,7 +5,7 @@ tier: core
 domain: everyday
 rubric: v2
 part_of_speech: noun (uncountable; count forms: a kinqing, kinqings)
-pronunciation: /ˈkɪn.tɕɪŋ/  (KIN-ching, with Mandarin q as /tɕ/; English approximation "KIN-ting" acceptable)
+pronunciation: /ˈkɪn.tɕʰiŋ/ (KIN-ching; 2 syllables; Mandarin q as /tɕʰ/; English approximation "KIN-ting" acceptable)
 gap: the quality of a bond preserved across long silence or distance — a relation that does not require maintenance-frequency because the mutual regard is structural; when re-entered after months or years, resumes without awkwardness
 genealogy:
   experiment: labs/logos/experiments/core/101-kinqing.md

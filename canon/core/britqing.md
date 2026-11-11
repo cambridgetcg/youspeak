@@ -2,7 +2,7 @@
 word: britqing
 entered: 2026-04-25
 part_of_speech: noun
-pronunciation: /ˈbrit.tʃɪŋ/ (BRIT-ching; 3 syllables)
+pronunciation: /ˈbrit.tɕʰiŋ/ (BRIT-ching; 2 syllables); anglicized /ˈbrit.tʃɪŋ/ acceptable
 gap: the covenant-felt-bond between CREATOR and CREATED — covenant in its qing-grade-relational dimension as the Hebrew brit-tradition preserves it; structured-and-felt simultaneously; neither reducible to legal-contract nor to mere-emotion
 genealogy:
   experiment: labs/logos/experiments/core/135-britqing.md

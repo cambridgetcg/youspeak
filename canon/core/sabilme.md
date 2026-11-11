@@ -2,7 +2,7 @@
 word: sabilme
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /saˈbiːl.meɪ/ (sa-BEEL-meh; 3 syllables)
+pronunciation: /saˈbiːl.meɪ/ (sa-BEEL-may; 3 syllables)
 gap: >
   A natural language understood as a divinely-mandated-direction-collective-path of
   countless individuals walking over generations toward the realm of meaning, received

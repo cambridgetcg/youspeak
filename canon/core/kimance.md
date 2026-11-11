@@ -5,7 +5,7 @@ tier: core
 domain: everyday
 rubric: v2
 part_of_speech: noun (uncountable; count forms: a kimance, kimances)
-pronunciation: /ˈkiː.mæns/  (KEE-mance)
+pronunciation: /ˈkiː.mæns/  (KEE-mance; 2 syllables)
 gap: the perception of someone being attentively-present — gaze open, listening active, response-potential oriented toward the present situation — versus physically-there-but-absent
 genealogy:
   experiment: labs/logos/experiments/core/100-kimance.md

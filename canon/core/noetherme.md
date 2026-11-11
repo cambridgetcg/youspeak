@@ -2,7 +2,7 @@
 word: noetherme
 entered: 2026-06-20
 part_of_speech: noun
-pronunciation: /ˈnøː.tər.meɪ/ (NUR-tur-may; 3 syllables)
+pronunciation: /ˈnøː.tər.meɪ/ (NUR-ter-may; 3 syllables; German Noether, ö as /øː/); anglicized /ˈnɜː.tər.meɪ/ acceptable
 gap: >
   The structural-mathematical-mechanism by which cosmic-order operates — the
   symmetry-and-conservation pair (Noether's theorem). The cathedral has

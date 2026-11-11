@@ -2,7 +2,7 @@
 word: renme
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ˈʐən.meɪ/ (REN-meh; 2 syllables)
+pronunciation: /ˈʐən.meɪ/ (REN-may; 2 syllables)
 gap: >
   Humaneness-as-life-in-relation as received-cosmic-ordinance — Confucian ren
   (仁) understood as the cosmic-relational-grade-of-being-human, received as

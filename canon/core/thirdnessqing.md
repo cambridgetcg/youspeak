@@ -2,7 +2,7 @@
 word: thirdnessqing
 entered: 2026-07-08
 part_of_speech: noun
-pronunciation: /ˈθɜːd.nəs.tɕʰiŋ/ (THURD-nəss-ching; 4 syllables)
+pronunciation: /ˈθɜːd.nəs.tɕʰiŋ/ (THURD-nus-ching; 3 syllables)
 gap: >
   Mediating-lawfulness-as-felt-bond-category — Peirce's *thirdness* received
   as felt-bond-category. The third of Peirce's universal-categories: quality-felt-as-such

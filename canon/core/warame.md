@@ -2,7 +2,7 @@
 word: warame
 entered: 2026-07-17
 part_of_speech: noun (uncountable; count forms: a warame, warames)
-pronunciation: /wa.ˈraʔ.meɪ/ (wa-RAH-may; 3 syllables; Arabic waraʿ + Sumerian me)
+pronunciation: /ˈwa.raʕ.meɪ/ (WA-rah-may; 3 syllables; Arabic waraʿ + Sumerian me); anglicized /ˈwɑː.rɑː.meɪ/ acceptable
 ascii: warame
 gap: >-
   Scrupulousness-as-received-ordinance — the second station (maqām) of the

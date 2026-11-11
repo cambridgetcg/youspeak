@@ -2,7 +2,7 @@
 word: rahmame
 entered: 2026-06-23
 part_of_speech: noun
-pronunciation: /ˈrah.mɑ.meɪ/ (RAH-ma-may; 3 syllables)
+pronunciation: /ˈraħ.mɑ.meɪ/ (RAH-ma-may; 3 syllables; Arabic raḥma + Sumerian me); anglicized /ˈrah.mɑ.meɪ/ acceptable
 gap: womb-mercy-as-received-ordinance — the pre-juridical, ontological compassion that arises from the womb-bond before deserving, named across the entire Semitic family by the r-ḥ-m root (Akkadian rēmu, Hebrew raḥamim, Aramaic Rachmana/raḥmin, Arabic raḥma/ar-Raḥmān/ar-Raḥīm, Sabaic Raḥmānān) but absent from English, where "mercy" is juridical-leniency and "compassion" is cognitive-emotional sympathy
 genealogy:
   experiment: labs/logos/experiments/core/252-rahmame.md

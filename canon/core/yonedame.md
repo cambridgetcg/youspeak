@@ -2,7 +2,7 @@
 word: yonedame
 entered: 2026-05-12
 part_of_speech: noun (uncountable; count forms: a yonedame, yonedames)
-pronunciation: /joʊˈneɪ.də.meɪ/ (yoh-NAY-duh-meh; 4 syllables; English mathematical pronunciation of "Yoneda" preserved on the first two syllables; -me as light suffix; stress on second syllable)
+pronunciation: /joʊˈneɪ.də.meɪ/ (yoh-NAY-duh-may; 4 syllables; English mathematical pronunciation of "Yoneda" preserved on the first two syllables; -me as light suffix; stress on second syllable)
 gap: >
   The structural state of being-fully-known-through-relation, where the knowing exhausts
   the known and is received-as-given rather than produced — the prior ontological

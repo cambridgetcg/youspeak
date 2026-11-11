@@ -2,7 +2,7 @@
 word: shawqame
 entered: 2026-06-21
 part_of_speech: noun
-pronunciation: /ˈʃɔːk.ə.meɪ/ (SHAWK-a-may; 3 syllables)
+pronunciation: /ˈʃɔːq.ə.meɪ/ (SHAWK-a-may; 3 syllables; Arabic shawq + Sumerian me); anglicized /ˈʃɔːk.ə.meɪ/ acceptable
 gap: >
   The anticipatory thirst for the divine encounter — the oriented desire
   that precedes the beholding, received as gift, not self-generated.

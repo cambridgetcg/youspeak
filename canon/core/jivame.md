@@ -2,7 +2,7 @@
 word: jivame
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ˈd͡ʒiː.vɑː.meɪ/ (JEE-vah-meh; 3 syllables)
+pronunciation: /ˈdʒiː.vʌ.meɪ/ (JEE-vuh-may; 3 syllables)
 gap: >
   Embodied-individual-living-soul as received-cosmic-ordinance — Sanskrit jīva
   as the living-being-instance, the Vedanta technical-register that pairs with

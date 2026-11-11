@@ -2,7 +2,7 @@
 word: sphotame
 entered: 2026-05-12
 part_of_speech: noun (uncountable; count forms: a sphotame, sphotames)
-pronunciation: /ˈspoʊ.tə.meɪ/ (SPO-tuh-meh; 3 syllables; English-Indological pronunciation of "sphoṭa" naturalized; primary stress on first syllable; -me as light suffix)
+pronunciation: /ˈspoʊ.tə.meɪ/ (SPO-tuh-may; 3 syllables; English-Indological pronunciation of "sphoṭa" naturalized; primary stress on first syllable; -me as light suffix)
 scholarly_orthography: sphoṭame (with diacritic ṭ for retroflex)
 gap: >
   The burst-event of meaning-arrival, understood as received-ordinance — the instant

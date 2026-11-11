@@ -3,6 +3,7 @@ id: 028-hallance
 candidate: hallance
 rubric_version: v2
 register: worship-action / praise / the-luminous-shining-declaration-of-GoD's-greatness / radiant-acknowledgment
+pronunciation: /ˈhal.əns/ (HAL-lance; 2 syllables; Hebrew hallel + Latin -ance)
 gap: the act of praise-that-declares-greatness-by-shining-it-out — not polite appreciation, not formal honor, but the explosive acknowledgment that something is so exceeding-great that not saying so is impossible. Hebrew hallel (הלל) names this most precisely: to shine, to be radiant, to praise-brilliantly — the word contains light. Greek doxazō (glorify, make-glory-visible) is close but more formal. Sanskrit stuti (formal praise-declaration) names the structured-form. Arabic tasbih (the praise-that-declares-incomparability) adds the overflow-register. Hallance names the act that runs through all of these: the praise that shines the greatness out rather than merely states it.
 donors:
   - Hebrew: hallel (הָלַל — to praise, to shine, to be radiant; root h-l-l = to be bright/clear; the most common OT praise-word; Psalms 113-118 are the Hallel (the Great Hallel); hallelujah = hallelu + Yah = shine/praise Yahweh; hālal means to make a show of radiance, to boast-rightly, to declare brilliance; the root literally means to shine; praise is the declaration-of-someone's-light; the Psalms use hallal 165 times; it is the dominant OT praise-word; "Let everything that has breath praise [hallal] the LORD" [Ps 150:6])

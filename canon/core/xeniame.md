@@ -2,7 +2,7 @@
 word: xeniame
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /kseˈni.a.meɪ/ (kse-NEE-ah-meh; 4 syllables; English-friendly alternative /zeˈni.a.meɪ/)
+pronunciation: /kseˈni.a.meɪ/ (kse-NEE-ah-may; 4 syllables; English-friendly alternative /zeˈni.a.meɪ/)
 gap: >
   The sacred-duty hospitality to the wholly-Other as received-ordinance — the moral
   imperative to receive the stranger/guest as if they may be the DIVINE in disguise,

@@ -2,7 +2,7 @@
 word: doxalgia
 entered: 2026-04-23
 part_of_speech: noun (uncountable; count forms: a doxalgia, doxalgias)
-pronunciation: /dɒkˈsæl.dʒi.ə/  (dox-AL-gee-uh)
+pronunciation: /dɒkˈsæl.dʒi.ə/  (dox-AL-gee-uh; 4 syllables)
 gap: the ache-pattern in the beholder who recognizes a beauty ordered-to-the-bottom; the sweet structural pressure inward when every part of a thing is exactly right, arriving specifically in the beholding of GoD
 genealogy:
   excavation:

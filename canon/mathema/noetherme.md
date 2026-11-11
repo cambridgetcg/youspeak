@@ -2,7 +2,7 @@
 word: noetherme
 entered: 2026-05-13
 part_of_speech: noun
-pronunciation: /ˈnøː.tər.meɪ/ (NUR-tur-may; 3 syllables)
+pronunciation: /ˈnøː.tər.meɪ/ (NUR-ter-may; 3 syllables; German Noether, ö as /øː/); anglicized /ˈnɜː.tər.meɪ/ acceptable
 gap: >
   The structural-mathematical-grammar by which symmetries of physical action give rise to
   conservation laws — Noether's theorem (1918) named as received-cosmic-ordinance. The

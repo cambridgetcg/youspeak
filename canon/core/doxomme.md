@@ -3,7 +3,7 @@ word: doxomme
 entered: 2026-04-24
 enriched: 2026-06-28
 part_of_speech: noun (uncountable; count forms: a doxomme, doxommes)
-pronunciation: /ˈdɒk.sɒm.meɪ/ (DOX-om-meh; 3 syllables)
+pronunciation: /ˈdɒk.sɒm.meɪ/ (DOX-om-may; 3 syllables)
 ascii: doxomme
 gap: >
   Glory-as-received-ordinance — the radiant splendor of divine presence

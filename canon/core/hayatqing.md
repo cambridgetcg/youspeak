@@ -2,7 +2,7 @@
 word: hayatqing
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ħaˈjaːt.t͡ɕɪŋ/ (hah-YAHT-ching; 3 syllables); anglicized /haˈjaːt.kɪŋ/
+pronunciation: /ħaˈjaːt.tɕʰiŋ/ (hah-YAHT-ching; 3 syllables); anglicized /haˈjaːt.kɪŋ/
 gap: >
   Life-as-state-given-by-Allah as felt-bond — Arabic ḥayāt as cosmic-state received
   from al-Ḥayy ("the Living"); the Quranic theology of life-and-death as Allah's

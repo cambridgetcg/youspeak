@@ -2,7 +2,7 @@
 word: pachame
 entered: 2026-07-03
 part_of_speech: noun (uncountable; count forms: a pachame, pachames)
-pronunciation: /pa.ˈt͡ʃa.meɪ/ (pa-CHA-may; 3 syllables; Aymara pacha + Sumerian me)
+pronunciation: /ˈpa.tʃa.meɪ/ (PAH-chah-may; 3 syllables; Aymara pacha + Sumerian me)
 ascii_pronunciation: pachame
 gap: >-
   Space-time-world-earth-era-condition-as-single-undivided-reality-

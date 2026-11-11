@@ -2,7 +2,7 @@
 word: sabrme
 entered: 2026-06-27
 part_of_speech: noun (uncountable; count forms: a sabrme, sabrmes)
-pronunciation: /ˈsɑb.r̩.meɪ/ (SABR-meh; 2 syllables)
+pronunciation: /ˈsɑb.r̩.meɪ/ (SABR-may; 2 syllables)
 ascii: sabrme
 gap: >
   Patient self-binding to the path as received-ordinance — the patience that

@@ -2,7 +2,7 @@
 word: hopiqatsime
 entered: 2026-07-03
 part_of_speech: noun (uncountable; count forms: a hopiqatsime, hopiqatsimes)
-pronunciation: /ho.pi.ˈqɑːt.si.meɪ/ (ho-pi-KAHT-see-may; 5 syllables; Hopi hopiqatsi + Sumerian me)
+pronunciation: /ho.piˈqɑːt.si.meɪ/ (ho-pi-KAHT-see-may; 5 syllables; Hopi hopiqatsi, q = [k̠] + Sumerian me); anglicized /ho.piˈkɑːt.si.meɪ/ acceptable
 ascii_pronunciation: hopiqatsime
 gap: >-
   Covenant-life-as-cosmic-maintenance-as-received-ordinance — the

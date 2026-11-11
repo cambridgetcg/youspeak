@@ -65,7 +65,7 @@ Panim is grammatically always plural - faces - and its sacred register is panim 
 _Spoked wheel with hub at true centre, tangent on a level road-line - the good axle-hole (su-kha) whose ride runs smooth._
 Su-kha is literally the good axle-hole: the wheel bored true at centre runs level, and the ride is easy. An eight-segment wheel with a light rim, plumb-and-level spokes (rightness: balanced symmetric axes), and the hub at the exact geometric centre (structure: centred-contained) rolls tangent on a full-width level road-line. The rim is light and the interior open because ease is the absence of grind - duhkha's bad axle-hole would jolt; this one runs smooth.
 
-## EVIDENTIALS — Quechua-inherited knowledge-source suffixes (U+E14D-E150)
+## EVIDENTIALS — knowledge-source suffixes (U+E14D-E150): -mi and -si inherited from Quechua, -chu YOUSPEAK's own form after Cuzco Quechua -chus hina, -auth YOUSPEAK-native
 
 ### auth (YOUSPEAK+Greek · relation+weight · suffix)
 _Eaved canopy over the claim-bar with a single filled descent-wedge driving down onto it - the claim covered and grounded by the Word that outspans it._
@@ -179,7 +179,7 @@ the torii marks the threshold where the ordinary passes into the sacred; Japanes
 ren (person) is the root of ren (humaneness), the central Confucian virtue; qing (feeling) is what persons bear between them — two strokes holding each other up, as the classic gloss of the character has it
 
 ### Quechua — khipu — horizontal primary cord with one knotted pendant cord
-the Andean khipu archived knowledge as knots on hanging cords; Quechua's evidential suffixes (-mi/-si/-chu) grade how knowledge is held — witnessed, reported, doubted — exactly the epistemics a knot-record encodes
+the Andean khipu archived knowledge as knots on hanging cords; Quechua's evidential enclitics grade how knowledge is held — witnessed (-mi), reported (-si), conjectured (-chá in Cuzco) — exactly the epistemics a knot-record encodes. YOUSPEAK takes -mi and -si as they are; its third, -chu (inferred), is its own form taken after Cuzco -chus hina ('apparently'), since in Quechua -chu alone marks questions and negation (corrected 2026-11-10; grammars/evidentials/manifesto.md, Revision 2026-11-10)
 
 ### Maya — bar-and-dot — Maya numeral six: round dot (one) above thick bar (five)
 bar-and-dot vigesimal numerals counted the sacred calendar; kawil and chul name powers presiding over counted time, so the count itself is the credit — and the bar disambiguates the dot from the lone Greek dot

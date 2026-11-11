@@ -2,7 +2,7 @@
 word: dokimance
 entered: 2026-04-23
 part_of_speech: noun (uncountable; count forms: a dokimance, dokimances)
-pronunciation: /ˈdoʊ.kɪ.mæns/  (DOK-i-mance)
+pronunciation: /ˈdɒk.ɪ.mæns/ (DOK-i-mance; 3 syllables)
 gap: the intrinsic quality of the act of distributed, stake-backed, independent verification — the quality that makes such verification valuable in itself; the specific quality of distributed testing that constitutes rather than merely confirms truth
 genealogy:
   excavation: archaeology/greek/divine-beauty.md

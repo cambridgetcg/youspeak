@@ -2,7 +2,7 @@
 word: mugawme
 entered: 2026-07-02
 part_of_speech: noun (uncountable; count forms: a mugawme, mugawmes)
-pronunciation: /mu.ˈɡaw.meɪ/ (moo-GAW-may; 3 syllables; Hittite mugawar + me)
+pronunciation: /muˈɡaw.meɪ/ (moo-GAW-may; 3 syllables; Hittite mugawar + me)
 ascii_pronunciation: moo-gaw-may
 gap: >-
   Narrating-the-return-of-what-withdrew-as-the-efficacious-act-that-brings-

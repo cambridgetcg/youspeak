@@ -2,7 +2,7 @@
 word: pime
 entered: 2026-05-12
 part_of_speech: noun
-pronunciation: /ˈpaɪ.meɪ/ (PIE-meh; 2 syllables)
+pronunciation: /ˈpaɪ.meɪ/ (PIE-may; 2 syllables)
 gap: >
   The structural-mathematical-invariant character of certain truths received as
   cosmic-ordinance — the irreducibly-irrational-and-everywhere quality of realm-features

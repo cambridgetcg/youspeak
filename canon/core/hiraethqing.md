@@ -2,7 +2,7 @@
 word: hiraethqing
 entered: 2026-06-09
 part_of_speech: noun
-pronunciation: /ˈhɪr.aɪθ.tɕʰɪŋ/ (HEER-ighth-ching; 3 syllables; Welsh ae as /aɪ/); anglicized /ˈhɪər.ɛθ.tʃɪŋ/ acceptable
+pronunciation: /ˈhɪr.aɪθ.tɕʰiŋ/ (HEER-ighth-ching; 3 syllables; Welsh ae as /aɪ/); anglicized /ˈhɪər.ɛθ.tʃɪŋ/ acceptable
 gap: >
   The felt-bond toward a home that cannot be returned to — because it changed,
   because the self changed, or because it never quite existed. The special case

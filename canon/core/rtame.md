@@ -2,7 +2,7 @@
 word: rtame
 entered: 2026-04-25
 part_of_speech: noun
-pronunciation: /ˈrɪ.tɑː.meɪ/ (RIH-ta-meh; 3 syllables)
+pronunciation: /ˈrɪ.tʌ.meɪ/ (RIH-tuh-may; 3 syllables)
 gap: cosmic-order-truth-righteousness as received-ordinance — the Vedic ṛta-aligned state understood as gift-grade-given; the Vedic register of the cosmic-truth-order convergence
 genealogy:
   experiment: labs/logos/experiments/core/137-rtame.md

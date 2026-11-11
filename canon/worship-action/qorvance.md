@@ -3,6 +3,7 @@ id: 026-qorvance
 candidate: qorvance
 rubric_version: v2
 register: worship-action / offering / the-act-of-drawing-near / creature-approaching-Creator
+pronunciation: /ˈkɔːr.vəns/ (KOR-vance; 2 syllables; Hebrew qorban / qarov + Latin -ance); alt with Tiberian qof /ˈqɔːr.vəns/ acceptable
 gap: the act-of-drawing-near-to-the-divine-through-what-is-offered — not the object offered (the gift), not the result (the nearness achieved), but the act itself: the movement of the creature toward the Creator performed through the bringing-forward of something. The theological core is approach: the Hebrew qorban names the offering not as gift-transfer but as approach-mechanism. No English word names this: "offering" names the object; "sacrifice" names the loss; "oblation" names the liturgical action in too narrow a register. Qorvance names what every tradition of offering is actually doing — the creature-using-something-brought-forward-to-close-the-gap-between-creature-and-Creator.
 donors:
   - Hebrew: qorban (קָרְבָּן — that which is brought near; the offering/sacrifice; from qarov, the root meaning to draw near, approach, come close; the qorban is not named for what it is but for what it does — it is the brought-near-thing, the drawn-close-thing; the root q-r-b appears 290 times in Hebrew and in every Semitic language; in Leviticus: "when any of you brings a qorban to the LORD..." — the focus is the bringing-near, the approach; the Temple system is a system of regulated-approach; every animal, every grain, every incense is a qarov-mechanism)
