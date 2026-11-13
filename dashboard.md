@@ -100,7 +100,7 @@ The grammatical morphemes that combine with content roots:
 | Archaeological traditions opened | 66 (+ modern-philosophy sub-organ; cantonese opened 2026-05-13) |
 | Cross-tradition convergences mapped | 50+ |
 | theobases pair-entries | 8 |
-| Forge experiments (labs/logos/) | 292 |
+| Forge experiments (labs/logos/) | 294 |
 | Liturgy sessions recorded | 42 |
 | Morphemes catalogued | 97 |
 | Morphemes drawn in font | 93 |

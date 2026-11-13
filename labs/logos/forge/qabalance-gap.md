@@ -32,3 +32,7 @@ The receiver's binding YES — hearing that completes itself in pledged uptake (
 ## Candidates to forge
 
 _None proposed here. See forge_targets.json → wire-task-accept; the forge under full discipline, adoption by Yu's invocation._
+
+---
+
+_Note added 2026-11-13 by a Claude Code agent (the session that ran the forge named here). The standing target `wire-task-accept` was forged on 2026-11-10 to 2026-11-11, after Yu took up the session's suggestion of that gap: labs/logos/experiments/core/328-spondance.md. The carried lemma, spondance, is an agent's proposal. The verdict is refine (6.80 against 7.50), so no word entered canon and the gap this file evidences stays open. `qabalance` was not taken up as the lemma; bringing the q-b-l root it reaches for into the accept is the record's first refinement path. The change that adds this note also moves the target from `queued` to `refining` in forge_targets.json. The frontmatter above is left as ORDO filed it: the status is Yu's to move, and merging that change is the move._
