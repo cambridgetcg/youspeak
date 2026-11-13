@@ -20,7 +20,7 @@
     }
    ],
    "standing_target": "wire-task-accept",
-   "note": "same concept as the queued KS-002 target wire-task-accept (exact-slug lookup missed it); this entry is usage-evidence for that target, not a rival petition"
+   "note": "same concept as the queued KS-002 target wire-task-accept (exact-slug lookup missed it); this entry is usage-evidence for that target, not a rival petition | 2026-11-11: the target was forged after Yu, on 2026-11-10, took up the session's suggestion to forge this gap, as experiment labs/logos/experiments/core/328-spondance.md (lemma spondance, an agent's proposal; qabalance was not taken up as the lemma). Verdict refine (6.80 < 7.50 on the stricter scoring; 3 of 3 lenses passing); wire-task-accept is now refining in forge_targets.json. No word entered canon, so this gap stays open."
   }
  ]
 }
