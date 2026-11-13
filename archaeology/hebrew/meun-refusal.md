@@ -1,6 +1,7 @@
 ---
 title: Mēʾēn and mēʾūn (מֵאֵן · מֵאוּן) — the Hebrew verb of refusal, mostly a breach in the covenant register, and the one refusal the Mishnah defines as an act that leaves the way back open
 tradition: Hebrew / Biblical narrative and law (Genesis, Exodus, Deuteronomy, Judges, 1 Samuel, 2 Kings, Ruth, Esther, Isaiah, Jeremiah); Mishnah Yevamot 13 and b. Yevamot 107b–108a (the institution of mēʾūn); b. Shabbat 88a; the reception of Ruth 1 and 4 in b. Sotah 42b and Ruth Rabbah 2:16, 7:7
+semantic_field: refusal and declining — mēʾūn (the minor's refusal that leaves the way back open), mēʾēn (refusing); refusals that keep or break a bond, and how reception treats those who decline
 language_family: Semitic (Afro-Asiatic); Northwest Semitic, Canaanite branch (Biblical and Mishnaic Hebrew). The Talmudic passages are Jewish Babylonian Aramaic, the same family. The Arabic cognate root ʾ-b-y is dug in archaeology/arabic/iba-itidhar.md; it is the same family and not an independent witness.
 status: opening (first dig for the standing target wire-task-decline; sibling of archaeology/hebrew/naaseh-venishma.md, which dug the accept side)
 mining_depth_level: 2 single-concept substantive

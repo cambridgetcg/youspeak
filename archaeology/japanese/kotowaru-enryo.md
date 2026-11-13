@@ -1,6 +1,7 @@
 ---
 title: Kotowaru, enryo, jitai (断る · 遠慮 · 辞退) — refusing by giving reasons, the reserve that is expected and was once a punishment, and Kaguya-hime's "I did not accept" that kept the emperor's letters for three years
 tradition: Japanese / Heian narrative prose (Taketori monogatari 竹取物語, 9th–10th c.); the lexicographic record of Nihon kokugo daijiten (abridged Seisen-ban, via kotobank.jp) and Daijisen, with their first citations (Nihon shoki kun glosses, Tsurezuregusa, Imakagami, Kyōgen, Edo law, Hepburn's 1867 dictionary); Edo legal practice as summarised in the Heibonsha and Britannica encyclopedias on kotobank
+semantic_field: refusal and declining — kotowaru (declining by giving reasons), enryo (required reserve), jitai; the refusals of Kaguya-hime in Taketori monogatari
 language_family: 'Japonic (Japanese). *Kotowaru* is a native Japonic compound and independent by descent. *Enryo* and *jitai* are Sino-Japanese loans from Classical Chinese 遠慮 and 辭退 (archaeology/chinese/ci-rang-declining.md): contact, not independent witnesses.'
 status: opening (Japonic dig for the standing target wire-task-decline; follows up lead D5 of archaeology/hebrew/uptake-convergence-notes.md and pairs with its accept lead A6, 承る uketamawaru)
 mining_depth_level: 2 single-concept substantive

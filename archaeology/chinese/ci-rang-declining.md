@@ -1,6 +1,7 @@
 ---
 title: 辭 cí and 讓 ràng — declining as words, as pleading and as leave-taking; yielding in another's favour; the ritual refusal (禮辭 · 固辭) that is a stage of consent, and the refusals in Mengzi and Zhuangzi that are not
 tradition: Classical Chinese / Ru (Confucian) ritual and moral texts (Yili 儀禮 "Shi guan li" 士冠禮; Liji 禮記 "Qu li shang" 曲禮上 and "Zhongyong" 中庸; Lunyu 論語 8.1, 15.12; Mengzi 孟子 2A6, 2B3, 2B5, 5B4–5B6) and the Zhuangzi 莊子 ("Xiaoyao you" 逍遙遊); lexical evidence from the Kangxi dictionary (1716), quoting the Shuowen jiezi and earlier glosses, and from Unihan
+semantic_field: refusal and declining — 辭 (declining with words), 讓 (yielding); the scripted ritual decline (禮辭, 固辭, 終辭) and the refusals argued in Mengzi and Zhuangzi
 language_family: Sino-Tibetan; Sinitic (Old and Middle Chinese as written in Classical Chinese). Independent by descent of Semitic, Indo-European and Japonic. Japanese 辞退 jitai and 遠慮 enryo are loans from this vocabulary (archaeology/japanese/kotowaru-enryo.md), so they are contact, not independent witnesses.
 status: opening (Sinitic dig for the standing target wire-task-decline; follows up lead D4 of archaeology/hebrew/uptake-convergence-notes.md)
 mining_depth_level: 2 single-concept substantive

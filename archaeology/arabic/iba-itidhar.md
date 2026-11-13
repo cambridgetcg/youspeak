@@ -1,6 +1,7 @@
 ---
 title: ʾAbā and iʿtidhār (أَبَى · اِعْتِذَار) — one verb for Iblīs's refusal and for the heavens' unblamed decline of the Trust, and the excuse that is weighed
 tradition: Arabic / the Qur'an (Q 2:34; 20:116; 33:72; 9:66, 9:90–94; 7:164), with the modern exegesis al-Tafsīr al-Muyassar; lexical evidence from Wiktionary (citing Lane, Wehr and others)
+semantic_field: refusal and declining — ʾabā (refusal of a command; the decline of an offer), iʿtidhār (the excuse that is weighed); the Trust declined in Q 33:72
 language_family: 'Semitic (Afro-Asiatic); Central Semitic, Arabic. Same family as Hebrew (archaeology/hebrew/meun-refusal.md): the root ʾ-b-y is cognate with Hebrew ʾābāh "be willing", and the Qur''an is in documented contact with the Israelite covenant narrative (archaeology/hebrew/uptake-convergence-notes.md §3). Not an independent witness of the Hebrew.'
 status: opening (second Semitic dig for the standing target wire-task-decline; Qur'anic strand only)
 mining_depth_level: 1 surface-survey (Qur'anic loci and one modern tafsir; the classical tafsir tradition and the lexica in the original were not opened)

@@ -1,6 +1,7 @@
 ---
 title: Excūsāre and recūsāre (ex- / re- + causa) — refusal as pleading a cause; the excuse from a public burden that must be proved, the novice's "liber discede", the monk's patient "causes of impossibility", and the guests who begged off (Luke 14:18, Greek παραιτέομαι)
 tradition: Latin / Roman law (Justinian, Institutes 1.25; the Digest as quoted by Lewis & Short) · Classical prose (Cicero, Caesar, Quintilian as quoted by Lewis & Short) · Regula Benedicti 58 and 68 (6th c.) · Vulgate Luke 14; with the Greek of Luke 14 (SBLGNT) and LSJ s.v. παραιτέομαι as contact witnesses
+semantic_field: refusal and declining — excusare and recusare (the decline as a plea with a cause); the excused guardian, Rule of Benedict 58 and 68, the excuses of Luke 14
 language_family: 'Indo-European; Italic branch, Latino-Faliscan (Latin). The Greek forms (Hellenic branch) are the same family and, in Luke 14, in direct contact: the Vulgate translates the Greek. Not independent of each other.'
 status: opening (Latin side of the decline target; companion to archaeology/latin/suscipere.md, whose RB 58 finding "aut excusare aut suscipere" this file reads from the decline side)
 mining_depth_level: 2 single-concept substantive
