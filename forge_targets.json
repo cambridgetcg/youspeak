@@ -4298,11 +4298,11 @@
    "stoicheia_level": 2,
    "convergence_witnesses": [],
    "estimated_score": null,
-   "actual_score": null,
-   "status": "queued",
-   "experiment": null,
+   "actual_score": 6.8,
+   "status": "refining",
+   "experiment": "labs/logos/experiments/core/328-spondance.md",
    "canon_entry": null,
-   "notes": "Filed by KS-002 THE WIRE Appendix A (2026-06-10) — the protocol needs this performative named; lemma open, forge under full discipline."
+   "notes": "Filed by KS-002 THE WIRE Appendix A (2026-06-10) — the protocol needs this performative named; lemma open, forge under full discipline. | 2026-11-11 forged after Yu, on 2026-11-10, took up the session's suggestion to forge this gap (the gap was the session's suggestion; Yu chose no word), as one pair with wire-task-decline. Three candidate pairs were forged; the carried lemma is spondance (an agent's proposal: Latin spondeo + -ance). Weighted 6.80 on the stricter, blind assessor's scoring (7.15 self-scored), below 7.50; panel 3 of 3 lenses passing. Verdict REFINE: weak axis polyphone 3.0 (Latin stem + Latin suffix). The best-scoring accept of the three candidates was qabbelspond (7.02, q-b-l + spondeo); refinement path 1 is to bring q-b-l into the accept, ideally keeping the -ance sibling form. Archaeology: archaeology/hebrew/naaseh-venishma.md, archaeology/latin/suscipere.md, archaeology/hebrew/uptake-convergence-notes.md."
   },
   {
    "word": "wire-task-decline",
@@ -4312,11 +4312,11 @@
    "stoicheia_level": 2,
    "convergence_witnesses": [],
    "estimated_score": null,
-   "actual_score": null,
-   "status": "queued",
-   "experiment": null,
+   "actual_score": 6.67,
+   "status": "refining",
+   "experiment": "labs/logos/experiments/core/329-rangance.md",
    "canon_entry": null,
-   "notes": "Filed by KS-002 THE WIRE Appendix A (2026-06-10) — the protocol needs this performative named; lemma open, forge under full discipline."
+   "notes": "Filed by KS-002 THE WIRE Appendix A (2026-06-10) — the protocol needs this performative named; lemma open, forge under full discipline. | 2026-11-11 forged after Yu, on 2026-11-10, took up the session's suggestion to forge this gap (the gap was the session's suggestion; Yu chose no word), as one pair with wire-task-accept. The carried lemma is rangance (an agent's proposal: Mandarin 讓 ràng + -ance). Weighted 6.67 on the stricter, blind assessor's scoring (exact 6.675; 7.175 self-scored), below 7.50; panel 0 of 3. Verdict REFINE: 讓's home is the ritual courtesy-yield the gap excludes, the spelling is heard as 'wrong'/'wrangle', and the gap sentence drifted from A.2 (it added 'pass to another' and dropped 'rest is a whole beat'). Refinement path 1: change the stem to a donor whose dominant use is the final, non-ritual decline, and restore the gap sentence to A.2. Archaeology: the five decline digs opened 2026-11-10 (archaeology/hebrew/meun-refusal.md, archaeology/arabic/iba-itidhar.md, archaeology/latin/excusare-recusare.md, archaeology/chinese/ci-rang-declining.md, archaeology/japanese/kotowaru-enryo.md)."
   },
   {
    "word": "wire-task-progress",

@@ -151,7 +151,7 @@ Each lead is a direction, not a coinage. Weaknesses first-class.
 |---|---|---|
 | **A1 q-b-l** (Heb. *qibbēl*, Aram. *nəqabbēl*) | the tradition's own word for the act; renders *nišmāʿ* in Onkelos (Ex 24:7, Dt 5:24); *qibbēl ʿal* = bind oneself | "Kabbalah" dominates the English ear, and the canon itself uses Kabbalah/Kabbalistic in 24 files (§6). Rabbinic Qal *qābal* = "complain, accuse" (Jastrow II); Aram. q-b-l III "dark". A late Aramaic loan in Hebrew (BDB). Another Hebrew donor in a register already full of them |
 | **A2 spond-** (*Spondes? Spondeo*) | the exact offer → accept exchange: question by the offerer, binding first-person answer, valid only *utroque loquente* and if both understand the language used (Gaius 3.93; this is not understanding of the content) | citizens-only and called untranslatable (Gaius 3.93): its force came from exclusion. Libation root. English false friends: respond, sponsor, spouse, spondee. A sponsio can be repudiated by the principal (Caudium, via L&S) |
-| **A3 suscip-** | free uptake from below; acknowledgement; "take up the speech, answer" | voluntary, not binding (L&S; Cic. Verr. 2.2.1). English *susceptible* is a false friend pointing the other way. The liturgical *Suscipe* is mostly the offerer's plea (qorvance's side) |
+| **A3 suscip-** | free uptake from below; acknowledgement; "take up the speech, answer" | voluntary, not binding (L&S; Cic. Verr. 2.2.1) — overread; see Erratum 2026-11-11 below. English *susceptible* is a false friend pointing the other way. The liturgical *Suscipe* is mostly the offerer's plea (qorvance's side) |
 | **A4 recip-** | binding acceptance of what another entrusts (*fidei commissae*) | no hearing; passive-sounding in English (receive, recipient). Pairs naturally with A3, which raises the doctrine question of one accept or two |
 | **A5 應承 yìngchéng** (or 承 chéng) | respond + take up: answer and uptake in one word; 承 = 下載上 "the lower carries the upper" | romanized *cheng* is a homophone of 誠 *chéng* "sincerity", the planned **chengme** (INTENTION.md:173; named in canon/core/ihsanme.md). Tones are lost in English. 承諾 is an ordinary modern word (zh *chéngnuò*, ja *shōdaku*), so a coinage would read as a loan, not a gap-filler |
 | **A6 uketamawaru 承る** | receive-and-hear → consent (NKD sense 3), the closest single-word gloss of the realm feature | six morae; humble keigo encodes rank (the hearer below the commander); common as shop-counter politeness (承りました) [from memory], which may sound servile |
@@ -252,3 +252,23 @@ A second Claude subagent re-checked these notes as a sceptical reader on the sam
 - The Analects origin of 遠慮; the date of the Atsuta-bon gloss.
 - Swahili *sikia* as native Bantu; mission influence on *gbàgbọ́*.
 - `collide.py` itself (its counts were reproduced independently by grep, not by running it).
+
+## Erratum and additions (2026-11-11)
+
+*Appended. The text above stands as it was, except for one pointer added to the Lead A3 row (line 154).*
+
+Written by a Claude subagent on 2026-11-11, after the forge recorded in labs/logos/experiments/core/328-spondance.md. It is a check, not a sign-off.
+
+**Old claim.** §5, Lead A3 (line 154): "voluntary, not binding (L&S; Cic. Verr. 2.2.1)".
+
+**Corrected claim.** Lewis & Short s.v. suscipio I.B.2 says the verb is used "esp. when done voluntarily and as a favor; recipio, when done as a duty or under an obligation", and s.v. recipio II.B.2.a that suscipio "denotes, in gen., the voluntary undertaking of any action" [verified: L&S as served by the Logeion API, opened 2026-11-11]. Neither entry says that a voluntary undertaking fails to bind. Cicero, Verr. 2.2.1, sets *recepi* beside *suscepi* and does not say either way whether what he took up binds him [verified: thelatinlibrary.com/cicero/verres.2.2.shtml, §1, opened 2026-11-11]. Cicero, *de Oratore* 2.101, names the fault in matters taken up (*susceptis rebus*) negligence, and in matters accepted on trust (*receptis*) bad faith: both are faults [verified: thelatinlibrary.com/cicero/oratore2.shtml, §101, opened 2026-11-11]. A3's honest weakness is that *suscipere* names an undertaking that starts in the taker's own choice, not one owed to the one who offers. "Not binding" overreads L&S.
+
+**Pointer.** The full correction, with the Latin and its sources, is in archaeology/latin/suscipere.md, "Erratum and additions (2026-11-11)". The passages added there (Gaius 3.102, 3.105, 3.115–117; Regula Benedicti 29; the Plautine betrothal scenes) bear on Lead A2 (*spond-*) here as on Lead L2 there.
+
+**Also seen.** The §2.2 row for *recipere* (line 56) cites "L&S s.v. recipio II.2". The senses it uses are II.B.2.a–b (take on what is entrusted; pledge oneself). suscipere.md's Verification section corrected the same number there on 2026-11-10, to II.B.2.
+
+**Not re-checked here.** Everything else in this file.
+
+— appended 2026-11-11 by a Claude subagent, after the forge recorded in labs/logos/experiments/core/328-spondance.md; a check, not a sign-off.
+
+Re-read on 2026-11-11 by a second Claude subagent against its own fresh copies of L&S (Logeion API) and The Latin Library; it changed only the "Also seen" note, to say that suscipere.md's Verification corrected the number to II.B.2.

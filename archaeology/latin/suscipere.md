@@ -239,7 +239,7 @@ House note: this section departs from the template on purpose. This dig is excav
 
 | Donor | What it would carry | Weakness | Note |
 |---|---|---|---|
-| *suscipere* | free uptake from below; acknowledgement; answering | not binding per L&S; *susceptible* false friend | the sketched donor |
+| *suscipere* | free uptake from below; acknowledgement; answering | not binding per L&S (overread; see Erratum 2026-11-11 below); *susceptible* false friend | the sketched donor |
 | *spondere / Spondeo* | the binding first-person answer to a question | citizen-only; sacrificial root; Caudium | strongest structural match to an offer→accept exchange |
 | *recipere* | binding acceptance of an entrusted task | no hearing; passive-sounding in English | Cicero's *recepi causam* |
 | *oboedire* | hearing-toward as obeying | hierarchy; no freedom | the Vulgate's choice for *nišmāʿ* |
@@ -311,3 +311,88 @@ A second Claude subagent re-checked this file as a sceptical reader on the same 
 - The offertory *Suscipe, sancte Pater*; the Spanish autograph of SpEx 234; Gallican vs iuxta Hebraeos labels.
 - Tertullian's *sponsio salutis*; Vulg. 1 Pet 3:21.
 - Classical and ecclesiastical IPA conventions (the values were spot-checked for stress and quantity and found consistent).
+
+## Erratum and additions (2026-11-11)
+
+*Appended. The text above stands as it was, except for one pointer added to the §9 table (line 242).*
+
+Written by a Claude subagent on 2026-11-11, after the forge recorded in labs/logos/experiments/core/328-spondance.md. That forge's blind assessor found the "not binding" reading below, and passages read during the forge were missing from this file. I opened every source quoted here myself on 2026-11-11, in copies I fetched that day: Lewis & Short through the Logeion API, and The Latin Library for the Latin texts. I did not rely on the copies fetched during the forge. This is a check, not a sign-off.
+
+### 1. Correction: "not binding per L&S"
+
+**Old claim.** §9 (line 242) gives *suscipere*'s weakness as "not binding per L&S". The lede (line 16: "Latin puts the binding mostly in recipere, spondere and stipulatio, and the free taking-up in suscipere") and Lead L1's first weakness (line 221) lean the same way. §1 property 2 (line 49) states L&S's distinction correctly.
+
+**What L&S says** [verified: L&S as served by the Logeion API, anastrophe.uchicago.edu/logeion-api, opened 2026-11-11; the Perseus page refused the request (HTTP 403)]:
+- s.v. suscipio I.B.2: "To take upon one, undertake, assume, begin, incur, enter upon (esp. when done voluntarily and as a favor; recipio, when done as a duty or under an obligation). α Of actions, obligations, etc. (class. and freq.)". Its examples include *aes alienum amicorum* (Cic. Off. 2, 16, 56) and *votum* (Plaut. Am.; Liv. 27, 45, 8).
+- s.v. recipio II.B.2.a: "To take upon one's self, undertake, accept the performance of a task consigned or intrusted to one (whereas suscipio denotes, in gen., the voluntary undertaking of any action; cf.: spondeo, stipulor, polliceor)".
+
+**Corrected claim.** L&S separates two grounds for an undertaking: the taker's own choice (*suscipio*) and a duty or a trust given by another (*recipio*). It marks the line with "esp.", and it lists obligations among the things one takes up. It does not say that what is freely taken up fails to bind. The primary texts read for this erratum do not say so either:
+- Cicero, *de Oratore* 2.101 (L&S s.v. recipio cites it as 2, 24, 101, and prints it without *quidem* or the commas): *in quo est illa quidem magna offensio vel neglegentiae, susceptis rebus, vel perfidiae, receptis*, "in which there is indeed that great offence: of negligence, in matters taken up, or of bad faith, in matters accepted on trust" (translation mine) [verified: thelatinlibrary.com/cicero/oratore2.shtml, §101, opened 2026-11-11]. Failing either is a fault, but not the same fault: negligence for what was taken up, and a breach of faith (*perfidia*) only for what was accepted on trust.
+- RB 58 (quoted in §3): the yoke the novice "was free either to decline or to take up" is the yoke he may not afterwards shake off, and the next sentence has him promise [verified: thelatinlibrary.com/benedict.html, Caput 58, opened 2026-11-11].
+- Cicero, Verr. 2.2.1 (quoted in §3): Cicero speaks of *hoc onere suscepto*, "this burden taken up". He does not say whether what he took up binds him. In that sentence, *hoc onere suscepto et recepta causa Siciliensi* uses *suscipere* of "this burden" and *recipere* of the Sicilian cause. By my reading, "this burden" points back to *hoc negotium*, the prosecution Sicily drew him into, so here both verbs touch the commissioned case [verified: thelatinlibrary.com/cicero/verres.2.2.shtml, §1, opened 2026-11-11; the reading is mine]. The forge's assessor wrote that *suscepi causam* "commits him" to the prosecution. In the passage, *suscepi causam* is said of the causes Cicero embraced beyond the Sicilian one (*amplexus animo sum aliquanto amplius. Suscepi enim causam totius ordinis, suscepi causam rei publicae*); the passage says he took them up, and nothing either way about binding force.
+
+So *suscipere*'s honest weakness for "binding acceptance" is that it names an undertaking that starts in the taker's own choice, not one owed to the one who offers. "Not binding" overreads L&S. For Lead L1, the first weakness should be read that way; the other weaknesses stand.
+
+### 2. Additions: passages read during the forge and missing here
+
+**Gaius, Institutes 3.102: the answer must match the question** [verified: thelatinlibrary.com/gaius3.html, §102, opened 2026-11-11]:
+
+> *Adhuc inutilis est stipulatio, si quis ad id, quod interrogatus erit, non responderit, uelut si sestertia X a te dari stipuler, et tu nummum sestertium V milia promittas, aut si ego pure stipuler, tu sub condicione promittas.*
+> "Further, a stipulation is void if someone does not answer to what he was asked: for example, if I stipulate for ten thousand sesterces to be given by you and you promise five thousand, or if I stipulate without condition and you promise under a condition." (translation mine)
+
+*For the leads.* Lead L2's exchange holds only if the answer meets the question as asked. An answer that changes the sum or adds a condition leaves the stipulation void.
+
+**Gaius 3.105: each party must hear the other** [verified: same page, §105]:
+
+> *Mutum neque stipulari neque promittere posse palam est. idem etiam in surdo receptum est; quia et is, qui stipulatur, uerba promittentis, et qui promittit, uerba stipulantis exaudire debet.*
+> "It is plain that a mute person can neither stipulate nor promise. The same has been accepted for a deaf person, because the one who stipulates must hear the words of the one who promises, and the one who promises must hear the words of the one who stipulates." (translation mine)
+
+*For the leads.* Hearing is a condition of the pledge's validity, and so is speech: the section first excludes the mute. The hearing half is nearer the target's "hearing that completes itself in pledged uptake" than L2's "valid only if both speak".
+
+**Gaius 3.115–117: the sponsor, surety for another's debt** [verified: same page, §§115–117]:
+
+> *115. Pro eo quoque, qui promittit, solent alii obligari, quorum alios sponsores, alios fidepromissores, alios fideiussores appellamus. 116. Sponsor ita interrogatur: IDEM DARI SPONDES? … 117. Sponsores quidem et fidepromissores et fideiussores saepe solemus accipere, dum curamus, ut diligentius nobis cautum sit; …*
+> "115. Others too are commonly bound on behalf of the one who promises; some of them we call sponsors, some fidepromissors, some fideiussors. 116. The sponsor is asked thus: 'Do you pledge that the same will be given?' … 117. We often take sponsors, fidepromissors and fideiussors when we want to be more carefully secured; …" (translation mine)
+
+*For the leads.* In law *spondeo* is also the surety's word: the sponsor binds himself for another man's debt, as security for the creditor. Lead L2 carries this sense with it.
+
+**Regula Benedicti 29: pledge, then be received again.** The page prints chapter headings and no verse numbers. The heading is *Caput 29: Si debeant fratres exeuntes de monasterio item recipi*, "Whether brothers who leave the monastery should be received again" (translation mine) [verified: thelatinlibrary.com/benedict.html, Caput 29, opened 2026-11-11]:
+
+> *Frater qui proprio vitio egreditur de monasterio, si reverti voluerit, spondeat prius omnem emendationem pro quo egressus est, et sic in ultimo gradu recipiatur, ut ex hoc eius humilitas conprobetur. Quod si denuo exierit, usque tertio ita recipiatur, iam postea sciens omnem sibi reversionis aditum denegari.*
+> "A brother who leaves the monastery through his own fault, if he wants to return, must first pledge full amendment of that for which he left; and so let him be received in the last place, so that his humility may be proved by it. If he leaves again, let him be received in this way up to a third time, knowing that after that every way back is refused him." (translation mine)
+
+*For the leads.* Here *spondere* is the speaker's pledge about his own future conduct, and the pledge is the Rule's condition for being received (*recipiatur*) again. It qualifies §3's "After profession, leaving is rupture" and the §9 note on *excusare*: a monk who leaves through his own fault may be received back, in the last place, up to a third time.
+
+**Plautus, the betrothal scenes** [verified: thelatinlibrary.com/plautus/aulularia.shtml, trinummus.shtml, curculio.shtml, opened 2026-11-11]. They answer "Plautus not opened" in §2 (line 63), §10 and the Verification section, for these scenes only. The Latin Library prints a line number at the end of every fifth verse and names no edition; the numbers below are counted from those printed markers. L&S s.v. spondeo numbers the Aulularia and Trinummus lines as the page does (its Trin. 1158 quotation starts with a question the page prints at 1157). Its Curculio number differs: it gives 671 for *Spondesne*, which the page prints at 674. Its quotations also differ from the page: in Curculio after *Spondeo*, L&S has "Ph. Et ego huic victum spondeo", the page *Cvrc. Et ego hoc idem una spondeo*; in Trinummus, L&S has *sponden tu ergo* (page, 1157: *Sponden ergo*) and *sponden' mihi* (page, 1162: *sponden mi*).
+
+- *Aulularia* 255–256. Only Megadorus and Euclio speak:
+  > *MEG. Quid nunc? etiam mihi despondes filiam? EVCL. Illis legibus, cum illa dote quam tibi dixi. MEG. Sponden ergo? EVCL. Spondeo.*
+  > "MEG. Well then? Do you betroth your daughter to me? EUC. On those terms, with the dowry I told you of. MEG. You pledge it, then? EUC. I pledge." (translation mine)
+
+  At 782–783 the match is broken off: *LYC. Eam tu despondisti, opinor, meo avonculo. … Is me nunc renuntiare repudium iussit tibi*, "You betrothed her, I think, to my uncle. … He has told me to announce to you that he breaks off the match" (translation mine). The daughter's only words on the page are a cry in labour (691–692); the page's text of the play breaks off before its end and is followed by *Fragmenta*.
+- *Trinummus* 502–504. Philto has asked Lesbonicus for his sister without a dowry, and Lesbonicus is silent. Stasimus is Lesbonicus's slave; the page's *Argumentum* says the son has ruined the estate (*male rem perdit filius*):
+  > *PHIL. Quin fabulare 'di bene vortant, spondeo'? STAS. Eheu ubi usus nil erat dicto, spondeo dicebat; nunc hic, quom opus est, non quit dicere.*
+  > "PHIL. Why don't you say 'may the gods make it turn out well, I pledge'? STAS. Oh dear: when there was no use for the word, he used to say 'I pledge'; now, when it is needed, he can't say it." (translation mine)
+- *Trinummus* 569–573:
+  > *PHIL. De dote mecum convenire nil potest: quid tibi lubet tute agito cum nato meo. nunc tuam sororem filio posco meo. quae res bene vortat. quid nunc? etiam consulis? LESB. Quid istic? quando ita vis: di bene vortant. spondeo.*
+  > "PHIL. On the dowry you can reach no agreement with me: whatever you like, settle it yourself with my son. Now I ask your sister for my son. May it turn out well. Well? Are you still deliberating? LESB. Very well. Since you want it so: may the gods make it turn out well. I pledge." (translation mine)
+- *Trinummus* 1156–1163. Charmides, the father, is asked whether he is willing; the daughter is not in the page's list of characters:
+  > *CHARM. Filiam meam tibi desponsam esse audio. LYS. Nisi tu nevis. CH. Immo haud nolo. L. Sponden ergo tuam gnatam uxorem mihi? CHARM. Spondeo, et mille auri Philippum dotis. … LYS. Impetrabit te advocato atque arbitro. istac lege filiam tuam sponden mi uxorem dari? CH. Spondeo. C. Et ego spondeo idem hoc.*
+  > "CHARM. I hear my daughter has been betrothed to you. LYS. Unless you are against it. CH. No, I am not against it. LYS. Then you pledge your daughter to me as wife? CHARM. I pledge, and a thousand gold Philippi as dowry. … LYS. He shall have it, with you as advocate and judge. On that condition, do you pledge that your daughter will be given me as wife? CH. I pledge. CALL. And I pledge the same." (translation mine)
+- *Curculio* 671–675. Planesium calls the soldier Therapontigonus "my brother":
+  > *Phaed. … Vt mihi hanc despondeas. Cvrc. Quid cessas, miles, hanc huic uxorem dare? T. Si haec volt. Pl. Mi frater, cupio. T. Fiat. C. Bene facis. Phaed. Spondesne, miles, mi hanc uxorem? Ther. Spondeo. Cvrc. Et ego hoc idem una spondeo.*
+  > "PHAED. … That you betroth her to me. CURC. Why are you holding back, soldier, from giving her to him as wife? THER. If she wants it. PLAN. My brother, I want it. THER. So be it. CURC. Good. PHAED. Do you pledge her to me as wife, soldier? THER. I pledge. CURC. And I pledge the same along with him." (translation mine)
+
+The forge's PRAGMA lens noted that only in the Curculio is the woman asked, and said that in every case "the speaker binds a dependant who does not speak". That holds for the Aulularia scene and both Trinummus scenes. It does not hold for Curculio: there her brother makes his consent depend on her wish (*Si haec volt*), and she answers in her own voice, *Mi frater, cupio*, though the *spondeo* is still his. In all four scenes the woman never says *spondeo*. In two (Trin. 1163, Curc. 675) a second man adds "I pledge the same"; I report the wording only and did not check what part such a second pledge plays.
+
+*For the leads.* In these scenes *spondeo* binds, but what it pledges is a daughter or sister, and she never says it. Once it is given "since you want it so" (Trin. 573), and once the match is broken off (Aul. 783). These passages support "binds" in Lead L2. They do not support "free": the record's gloss of the donor as "the free answer that binds" (328-spondance.md, in its candidate table and under "Choices left to the owner") finds no support in them.
+
+### 3. What was opened, and what was not
+
+**Opened on 2026-11-11.** L&S s.vv. suscipio, recipio, spondeo (Logeion API). The Latin Library: gaius3.html (§§100–118), benedict.html (Caput 29; Caput 58 re-read), cicero/verres.2.2.shtml (§§1–2), cicero/oratore2.shtml (§101), and the three Plautus pages (the scenes above and the printed line markers; the character lists of the Aulularia and Trinummus pages, since the Curculio page prints none).
+
+**Not checked here.** The other loci L&S gives for *suscipere*, including Cic. Off. 2.16.56 (seen only as L&S quotes them). Which editions The Latin Library follows (its pages do not say). Whether the comic betrothal *spondeo* matches the stipulation as Gaius describes it. Livy 9 and the Digest. Everything else in this file.
+
+— appended 2026-11-11 by a Claude subagent, after the forge recorded in labs/logos/experiments/core/328-spondance.md; a check, not a sign-off; not reviewed by a Latinist.
+
+Re-read on 2026-11-11 by a second Claude subagent against its own fresh copies of every source above (L&S via the Logeion API, Perseus again refusing with HTTP 403; The Latin Library); it changed L&S's Plautus numbers and readings, "Philippics" to "Philippi", de Or. 2.101's two distinct faults, the Verr. 2.2.1 reply to the assessor, the Gaius 3.102 and 3.105 notes, PRAGMA's own Curculio exception, the Aulularia's fragmentary end, and the Curculio page's missing character list.
