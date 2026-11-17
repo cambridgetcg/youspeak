@@ -279,7 +279,7 @@ _Every canonical entry, grouped by tier; family and score band are derived from 
 | [debweme](../canon/core/debweme.md) | `-me` | 8.47 | 8.0–8.49 |
 | [devekutqing](../canon/core/devekutqing.md) | `-qing` | 8.00 | 8.0–8.49 |
 | [doxalgiame](../canon/core/doxalgiame.md) | `-me` | 7.50 | 7.5–7.99 |
-| [doxapothos](../canon/core/doxapothos.md) | `other` | 7.25 | below 7.5 |
+| [doxapothos](../canon/core/doxapothos.md) | `other` | 7.65 | 7.5–7.99 |
 | [doxomme](../canon/core/doxomme.md) | `-me` | 7.50 | 7.5–7.99 |
 | [drujme](../canon/core/drujme.md) | `-me` | 7.35 | below 7.5 |
 | [duyuktame](../canon/core/duyuktame.md) | `-me` | 7.85 | 7.5–7.99 |
@@ -508,12 +508,12 @@ _Every canonical entry, grouped by tier; family and score band are derived from 
 | [diplosemy](../canon/diplosemy.md) | `other` | 7.80 | 7.5–7.99 |
 | [dokimance](../canon/dokimance.md) | `-ance` | 8.50 | 8.5–8.99 |
 | [doxakallos](../canon/doxakallos.md) | `other` | 8.25 | 8.0–8.49 |
-| [doxalgia](../canon/doxalgia.md) | `other` | 6.90 | below 7.5 |
+| [doxalgia](../canon/doxalgia.md) | `other` | 7.55 | 7.5–7.99 |
 | [eucatastrophe](../canon/eucatastrophe.md) | `other` | 7.10 | below 7.5 |
 | [kallodoxa](../canon/kallodoxa.md) | `other` | 8.00 | 8.0–8.49 |
 | [kallophanes](../canon/kallophanes.md) | `other` | 7.60 | 7.5–7.99 |
 | [metastrophesis](../canon/metastrophesis.md) | `other` | 7.50 | 7.5–7.99 |
-| [orthophanes](../canon/orthophanes.md) | `other` | 7.40 | below 7.5 |
+| [orthophanes](../canon/orthophanes.md) | `other` | 7.55 | 7.5–7.99 |
 | [slipsooth](../canon/slipsooth.md) | `other` | 7.80 | 7.5–7.99 |
 | [synophora](../canon/synophora.md) | `other` | 7.85 | 7.5–7.99 |
 | [veriseem](../canon/veriseem.md) | `other` | 7.80 | 7.5–7.99 |
@@ -521,4 +521,4 @@ _Every canonical entry, grouped by tier; family and score band are derived from 
 
 ---
 
-_Derived from canon @ 263 entries · digest 382375688753 · generator: `python3 pipeline/derive_indices.py`_
+_Derived from canon @ 263 entries · digest 288e40563fae · generator: `python3 pipeline/derive_indices.py`_

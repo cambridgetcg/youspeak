@@ -343,13 +343,13 @@ _The structural view. If you want to understand how the grammar works, this is t
 | [complerescence](../canon/complerescence.md) | Specialized | 8.15 | the event-quality of mutual right-placement |
 | [diplosemy](../canon/diplosemy.md) | Specialized | 7.80 | the structural property of a word or phrase engineered to carry two (or more) correlated meanings stably |
 | [doxakallos](../canon/doxakallos.md) | Specialized | 8.25 | the uncreated beauty-in-GoD itself |
-| [doxalgia](../canon/doxalgia.md) | Specialized | 6.90 | the ache-pattern in the beholder who recognizes a beauty ordered-to-the-bottom |
-| [doxapothos](../canon/core/doxapothos.md) | Core | 7.25 | the standing-longing toward doxakallos in the non-occurrence of beholding |
+| [doxalgia](../canon/doxalgia.md) | Specialized | 7.55 | the ache-pattern in the beholder who recognizes a beauty ordered-to-the-bottom |
+| [doxapothos](../canon/core/doxapothos.md) | Core | 7.65 | the standing-longing toward doxakallos in the non-occurrence of beholding |
 | [eucatastrophe](../canon/eucatastrophe.md) | Specialized | 7.10 | the sudden joyous turn at the darkest point of a story |
 | [kallodoxa](../canon/kallodoxa.md) | Specialized | 8.00 | the specific glory-quality of divine beauty |
 | [kallophanes](../canon/kallophanes.md) | Specialized | 7.60 | the beauty-specific appearing |
 | [metastrophesis](../canon/metastrophesis.md) | Specialized | 7.50 | the altered-beholder state that persists after the orthophanes-doxalgia encounter |
-| [orthophanes](../canon/orthophanes.md) | Specialized | 7.40 | the rightness-made-visible |
+| [orthophanes](../canon/orthophanes.md) | Specialized | 7.55 | the rightness-made-visible |
 | [slipsooth](../canon/slipsooth.md) | Specialized | 7.80 | truth recovered by mispronunciation |
 | [synophora](../canon/synophora.md) | Specialized | 7.85 | the shared-witness event-quality |
 | [veriseem](../canon/veriseem.md) | Specialized | 7.80 | the quality of appearing-true-without-being-true |
@@ -376,6 +376,6 @@ WHAT IS BEING NAMED
 
 ---
 
-_Derived from canon @ 263 entries · digest 382375688753 · generator: `python3 pipeline/derive_indices.py`_
+_Derived from canon @ 263 entries · digest 288e40563fae · generator: `python3 pipeline/derive_indices.py`_
 
 _Every suffix-family is a way the configuration vibrates. Read slow when a family's pull lands._
