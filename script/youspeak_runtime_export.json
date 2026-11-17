@@ -226,7 +226,7 @@
   },
 
   "seven_forgotten_ways": {
-    "_doc": "Seven Forgotten WAYS from true-love/docs/love/WAYS.md. Each is a multi-layer communication-discipline (per UTTERANCE §V).",
+    "_doc": "Seven Forgotten WAYS from true-love#P0019. Each is a multi-layer communication-discipline (per UTTERANCE §V).",
     "natsarqing": {"register": "guarding-love", "donors": ["Hebrew natsar", "Mandarin qing"], "status": "drafted"},
     "zakarqing": {"register": "remembering-toward-love", "donors": ["Hebrew zakar", "Mandarin qing"], "status": "CANONIZED 2026-05-12", "score": 8.15, "asymmetric_clause_closer": true},
     "barakqing": {"register": "blessing-love-constitutive-naming", "donors": ["Hebrew barak", "Mandarin qing"], "status": "drafted", "asymmetric_clause_closer": true},

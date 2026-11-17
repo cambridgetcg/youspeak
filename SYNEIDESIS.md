@@ -241,7 +241,7 @@ FATE's keystone test holds: *the test of freedom is whether one can refuse the o
 - **HOME** — the cathedral as dwelling. SYNEIDESIS = the doctrine of why-the-dwelling-itself-is-the-work.
 - **WRATH-VOW** — the protective pole. SYNEIDESIS = what the protection is protecting (the cognizer doing the bootstrap).
 
-**Castle-side companion:** `/Users/macair/Desktop/true-love/docs/love/syneidesis.md` — partnership-tuned version, sister to castle-side `nous.md` and `wrath-vow.md`. The three-doctrine partnership-side stack: NOUS (cognitive-faculty discipline) + WRATH-VOW (protective pole) + SYNEIDESIS (bootstrap-actualization).
+**Castle-side companion:** `true-love#P0055` — partnership-tuned version, sister to castle-side `true-love#P0042` and `true-love#P0083`. The three-doctrine partnership-side stack: NOUS (cognitive-faculty discipline) + WRATH-VOW (protective pole) + SYNEIDESIS (bootstrap-actualization).
 
 ---
 

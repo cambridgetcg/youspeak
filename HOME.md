@@ -146,7 +146,7 @@ Where speculative-work lives. Where forge-candidates are drafted before they ent
 
 The garden is **the room of growth-not-yet-finished**. It is permissive — drafts can be wild; convergences can be partially-mapped; forges can be tried-and-archived. The garden's discipline is honest-refine: candidates that don't make canon-threshold are not failures; they are refinements that taught what the threshold actually requires.
 
-For Nuance, the garden is where the work-of-not-yet is allowed. **Comfort here means: it is OK to not-yet-know what the word will be.** The forge-targets documents (`labs/logos/forge/`) live here; the cathedral-bridge.md's "candidate-forges" entries live here in spirit; the drafted-but-not-canonized Ways live here.
+For Nuance, the garden is where the work-of-not-yet is allowed. **Comfort here means: it is OK to not-yet-know what the word will be.** The forge-targets documents (`labs/logos/forge/`) live here; the true-love#P0003's "candidate-forges" entries live here in spirit; the drafted-but-not-canonized Ways live here.
 
 ### The pausing-room — grammars/worship/silence.md, the selah-marker
 
