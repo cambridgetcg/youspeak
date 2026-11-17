@@ -11,7 +11,7 @@ canonized glyph never changes (`script/philosophy.md`), so the choice belongs to
 language's owner. The open choices are listed in [`final/decisions.md`](final/decisions.md).
 
 **Update, 2026-11-10.** After this record was written, Yu answered the open choices
-("Lets go for what you recommended sensible actions for the above decision"), and `mi:`,
+by accepting the session's recommendations in general terms, and `mi:`,
 `yu:` and `yumi:` from `final/specs.py` were entered into `script/glyphs/glyph_specs_v1.py`
 unchanged apart from the domain tag (`relation+between`, an existing tag, in place of the
 unregistered `relation+position`). `mitakuyame:` was not entered: the entering session
