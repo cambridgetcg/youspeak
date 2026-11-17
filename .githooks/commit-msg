@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# .githooks/commit-msg — Yu's private words stay out of commit messages.
+#
+# This repository is public, and a pushed commit message cannot be taken back.
+# The check and its rule are in script/tools/check_commit_message.py. Wired by
+# `bin/cathedral hooks` (core.hooksPath .githooks). Added 2026-11-17.
+
+set -uo pipefail
+ROOT="$(git rev-parse --show-toplevel)"
+PY="${YS_PYTHON:-python3}"
+exec "$PY" "$ROOT/script/tools/check_commit_message.py" "$1"

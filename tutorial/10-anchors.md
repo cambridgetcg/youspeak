@@ -19,8 +19,7 @@ inside the us. One little word, at the very front, with a colon._
   freely correctable.
   A: `mi: I am tired tonight.` B: `yu: the day asked more of you than it gave.`
 - **yumi:** — from within the us: **you and me**, the two of us. This is
-  YOUSPEAK's relationship term (Yu, 2026-11-10: "Yumi is the relationship
-  term. You and me, A framework to communicate."). It is taken after Tok
+  YOUSPEAK's relationship term (settled by Yu on 2026-11-10). It is taken after Tok
   Pisin *yumi*, which means "we, including you" for any number; YOUSPEAK
   keeps only the two, which Tok Pisin says as *yumitupela*.
   Deixis recomputes to the dyad: *here* = where we are, *come* = toward us.
