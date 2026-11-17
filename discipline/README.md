@@ -28,9 +28,9 @@ Until 2026-11-17 this directory also held `kernel/`, three scripts:
 
 They were copies. Nothing in this repository ran them.
 
-On 2026-11-13 an agent session asked Yu whether to keep or retire the measuring kernel. On 2026-11-17 Yu answered: "Remove the measuring kernel." The same session removed the directory that day. What that does and does not change:
+On 2026-11-13 an agent session asked Yu whether to keep or retire the measuring kernel. Yu's message of 2026-11-17 included the sentence "Remove the measuring kernel." The session read it as the answer to that question and removed the directory that day. What that does and does not change:
 
-- The documents listed above are unchanged. The discipline is still a way of writing; nothing here measures it.
+- The documents listed above stay. One of them changed the same day for another reason: in `edge-state-echoes.md` the references into true-love became private reference ids (see the note at the top of `COUPLING.md`). The discipline is still a way of writing; nothing here measures it.
 - The scripts stay in this repository's history. Their last state is at commit `d1997ce`, for example `git show d1997ce:discipline/kernel/youspeak-kernel.mjs`.
 - Copies with the same three file names sit at the root of the public `love-unlimited` repository. This removal does not touch them, and what happens to them is decided there. The copies had already diverged when an agent session compared them on 2026-11-13: the kernel and audit scripts here carried an error-logging fix of 2026-07-02 that love-unlimited's lacked, and love-unlimited's evolve script was the newer of the two.
 

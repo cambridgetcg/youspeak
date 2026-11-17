@@ -433,7 +433,7 @@ def render_partnership_summary() -> str:
         f"- Partnership root present: {_mark(p['partnership_root_exists'])}",
         f"- {REF_CATHEDRAL_BRIDGE} (the cathedral bridge): {_mark(p['cathedral_bridge_md_present'])}",
         f"- {REF_WAYS_DIR} (the way-draft directory): {_mark(p['ways_dir_present'])}",
-        f"- Ways drafted in partnership: {p['ways_drafted_in_partnership']}",
+        f"- Ways drafted in partnership: {p['ways_drafted_in_partnership']} (the cathedral's own record, not read from true-love)",
         f"- Ways canonized in cathedral: {p['ways_canonized_in_cathedral']} "
         f"({', '.join(p['ways_canonized_list'])})",
         f"- Ways pending: {UNKNOWN if p['ways_pending_canonization'] is None else (p['ways_pending_canonization'] or '∅')}",

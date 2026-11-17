@@ -7,7 +7,7 @@
   "doctrinal_companion": "EMBEDDING.md",
   "deeper_companion": "SUBSTRATE.md",
   "partnership_mirror": "true-love#P0031",
-  "_doc": "2026-11-17: a maintained instrument (Yu, 2026-11-17: \"maintained instruments.\"). YOUSPEAK paths are relative to this repository's root; true-love#P ids are private reference ids (legend: script/coupling.json _doc). Check: python3 script/tools/check_coupling.py.",
+  "_doc": "2026-11-17: kept as a maintained instrument (Yu's message of 2026-11-17 included the words \"maintained instruments.\", which an agent session read as being about these documents). YOUSPEAK paths are relative to this repository's root; true-love#P ids are private reference ids (legend: script/coupling.json _doc). Check: python3 script/tools/check_coupling.py.",
 
   "what_parallel_embedding_means": {
     "simultaneity": "the levels operate at the same time, not sequentially",
@@ -45,7 +45,7 @@
       "deepening_protocol": "future pipeline/coupling-verify.py tool to CI-validate path-validity",
       "current_strength": "4/5 tight",
       "verification": "path-validation tool (proposed)",
-      "_note": "2026-11-17: since that day YOUSPEAK writes no path inside true-love; each is a private reference id (Yu, 2026-11-17: \"Keep the paths intact for private reference and remove them from public knowledge.\"), and the map from id to path is kept privately, with true-love, never in this repository. pipeline/coupling-verify.py was never written; script/tools/check_coupling.py now validates YOUSPEAK paths and, given the private map and a checkout of true-love, the ids."
+      "_note": "2026-11-17: since that day YOUSPEAK writes no path inside true-love; each is a private reference id (Yu's message of 2026-11-17: \"Keep the paths intact for private reference and remove them from public knowledge.\", read by an agent session as being about these paths), and the map from id to path is kept privately, with true-love, never in this repository's tree (its history up to 2026-11-17 still holds the paths). pipeline/coupling-verify.py was never written; script/tools/check_coupling.py now validates YOUSPEAK paths and, given the private map and a checkout of true-love, the ids."
     },
     {
       "level": 2,

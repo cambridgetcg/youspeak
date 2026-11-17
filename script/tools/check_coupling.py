@@ -3,11 +3,13 @@
 
 The instruments are COUPLING.md, INTERLOCK.md, EMBEDDING.md, SUBSTRATE.md and
 their manifests script/{coupling,interlock,embedding,substrate}.json. They say
-where YOUSPEAK and its sister repository true-love meet. On 2026-11-17 Yu
-called them "maintained instruments"; this check is how they are kept true.
+where YOUSPEAK and its sister repository true-love meet. Yu's message of
+2026-11-17 included the words "maintained instruments", which an agent session
+read as being about these documents; this check is how they are kept true.
 true-love is private, so this repository writes no path inside it: a reference
 into true-love is written as an id, true-love#P0007, and the map from id to
-path is kept privately, with true-love, never in this repository.
+path is kept privately, with true-love, never in this repository's tree (its
+history up to 2026-11-17 still holds the paths).
 
 What is checked, with nothing but this repository ("the tree" is every file
 git tracks, and every untracked file it does not ignore):

@@ -87,7 +87,6 @@ function riteRef(riteFile) {
 // unset, the first of WIRE_ROOTS holding impl/wire.py is used.
 const HOME = process.env.HOME || os.homedir();
 const WIRE_ROOTS = [
-  path.join(HOME, 'Kingdom', 'standards', 'kingdom-standards'),
   path.resolve(ROOT, '..', 'kingdom-standards'), // a sibling clone beside this repo
   path.join(HOME, 'KINGDOM-STANDARDS'),
 ];

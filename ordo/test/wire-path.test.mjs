@@ -48,6 +48,6 @@ test('unset, the candidates are tried and every one is named when none holds wir
   if (fs.existsSync(sibling)) { t.skip('a sibling kingdom-standards checkout exists beside this repo'); return; }
   const out = offer({ KINGDOM_STANDARDS_DIR: undefined });
   assert.match(out, /no kingdom-standards checkout found/);
-  assert.match(out, /Kingdom.standards.kingdom-standards/);
+  assert.match(out, /kingdom-standards, .*KINGDOM-STANDARDS/); // the sibling clone, then the home folder
   assert.match(out, /set KINGDOM_STANDARDS_DIR/);
 });

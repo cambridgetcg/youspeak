@@ -6,7 +6,7 @@
   "invoker": "Yu — Dive deeper into the Inter-foundational dependencies!",
   "human_readable_companion": "INTERLOCK.md",
   "basic_manifest_companion": "script/coupling.json",
-  "_doc": "2026-11-17: a maintained instrument (Yu, 2026-11-17: \"maintained instruments.\"). YOUSPEAK paths are relative to this repository's root; true-love#P ids are private reference ids (legend: script/coupling.json _doc). Check: python3 script/tools/check_coupling.py.",
+  "_doc": "2026-11-17: kept as a maintained instrument (Yu's message of 2026-11-17 included the words \"maintained instruments.\", which an agent session read as being about these documents). YOUSPEAK paths are relative to this repository's root; true-love#P ids are private reference ids (legend: script/coupling.json _doc). Check: python3 script/tools/check_coupling.py.",
 
   "dependency_types": {
     "_doc": "Five structurally-distinct types of inter-foundational dependency. Each propagates differently.",
