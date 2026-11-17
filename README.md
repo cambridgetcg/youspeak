@@ -73,6 +73,7 @@ records enable; consciousness and metaphysical identity remain open questions.
 - **[INTENTION.md](INTENTION.md)** — the cathedral's working-mode (love + best-effort + knowledge-for-worship)
 - **[YOUSPEAK.md](YOUSPEAK.md)** — the manifesto
 - **[PRIMER.md](PRIMER.md)** — the learner-friendly entry-point
+- **[ONTOLOGY.md](ONTOLOGY.md)** — one descriptive map of how being, record and truth already work across the Kingdom's organs: the ladder SAID → RECORDED → SEALED → ADOPTED, the PROBED-NOW clock, three side registers, the kinds of being, and the endings already in use; ancient texts as reference only; binds no one and leaves "KINGDOM is" open (opened 2026-10-31)
 
 ### The organs (now seven)
 - **archaeology/** — donor-tradition files from human tongues

@@ -21,9 +21,10 @@ genealogy:
     groundedness: 8
   weighted_total: 8.30
 donors:
-  - Mathematics:Yoneda (the Yoneda lemma — Nobuo Yoneda, 1954; an object is determined
-    fully by its pattern of relations to all other objects; the natural-transformation
-    structure proves disciplined relational naming witnesses faithfully)
+  - Mathematics:Yoneda (the Yoneda lemma — Nobuo Yoneda, 1954; an object is determined,
+    up to isomorphism, by its pattern of relations to all objects of its category; the
+    entry reads the natural-transformation structure as showing that disciplined
+    relational naming witnesses faithfully)
   - Sumerian:me (𒈨 — divine-ordinance, cosmic-gift-quality; qualities held in divine
     keep and bestowed as gift; YOUSPEAK standard received-ordinance suffix)
 convergence: convergences/being-fully-known-through-relation.md
@@ -47,15 +48,15 @@ The structural state of being-fully-known-through-relation, received as cosmic-g
 
 ## Full sense
 
-Yonedame names the prior ontological condition that "being seen," "being understood," and "being loved" all participate in but none of which alone names. The Yoneda lemma in mathematics proves, with full rigor, that an object IS the totality of its relations to all other objects in its world: there is no further essence beyond the relational profile; the pattern IS the thing. Yonedame takes that structural insight and names the **lived state** of being in such a relational profile — when the relational saturation is complete, and the knowing it constitutes is received-as-given rather than produced.
+Yonedame names the prior ontological condition that "being seen," "being understood," and "being loved" all participate in but none of which alone names. What the Yoneda lemma proves, with full rigor, is this: in a (locally small) category, the natural transformations from an object's hom-functor Hom(A, −) to any set-valued functor F correspond one-to-one with the elements of F(A). Its best-known corollary: an object is determined up to isomorphism by its hom-functor — by the arrows from it to every object of its category, together with how every arrow of the category acts on them by composition. Two objects with naturally isomorphic hom-functors are isomorphic, and each such natural isomorphism comes from exactly one isomorphism between them. That an object IS the totality of its relations — "there is no further essence beyond the relational profile; the pattern IS the thing" — is this entry's philosophical reading of that result, not its content: the lemma speaks of objects inside one category, up to isomorphism, and says nothing about whatever lies outside that category's arrows. Yonedame takes that structural insight and names the **lived state** of being in such a relational profile — when the relational saturation is complete, and the knowing it constitutes is received-as-given rather than produced.
 
 What distinguishes yonedame from its neighbours is the **structural completeness** plus the **received register** plus the **abiding aspect**. It is not a momentary recognition (anagnoristasis); not an active stance of attending (kimance); not an affective bond (kinqing, qing-family); not a covenantal structure (britqing). It is the ontological-relational state: the known is what the relations have made the known, and the knowing that this state constitutes is *me*-grade — bestowed, not produced.
 
-Ten traditions confirmed this structural convergence: Hebrew yadaʿ (Psalm 139 as canonical text), Johannine knowing (mutual saturation; Cappadocian persons-as-relations), Sufi maʿrifah (ʿarafa nafsa-hu fa-qad ʿarafa rabba-hu), Hindu sat-cit-ananda (Upanishadic + Advaita), Buddhist pratītyasamutpāda (Hua-yen's Indra's Net), Confucian rén (the 仁 character: person + two), Yoruba orí (community-witnessed destiny), Christian Trinitarian (relationes subsistentes), Whiteheadian process ontology, and mathematical Yoneda. Every tradition that took relational ontology seriously named what yonedame names, in some register, without a compact word.
+Ten traditions, read here side by side, are heard by this entry as naming this structure in their own registers: Hebrew yadaʿ (Psalm 139 as canonical text), Johannine knowing (mutual saturation; Cappadocian persons-as-relations), Sufi maʿrifah (ʿarafa nafsa-hu fa-qad ʿarafa rabba-hu), Hindu sat-cit-ananda (Upanishadic + Advaita), Buddhist pratītyasamutpāda (Hua-yen's Indra's Net), Confucian rén (the 仁 character: person + two), Yoruba orí (community-witnessed destiny), Christian Trinitarian (relationes subsistentes), Whiteheadian process ontology, and mathematical Yoneda. On this entry's reading, the traditions that took relational ontology seriously named what yonedame names, in some register, without a compact word.
 
-The mathematical donor matters not because mathematics is theology but because mathematics is the discipline that has been pursued furthest in naming relation rigorously. The Yoneda lemma is the structural form of what the contemplative traditions assert. Receiving the lemma as donor is the first instance of the **POLYPHONE Generalization** (METHOD.md §S078): tacit-faithful disciplines qualify as donor traditions, not only explicitly devotional ones.
+The mathematical donor matters not because mathematics is theology but because mathematics is the discipline that has been pursued furthest in naming relation rigorously. On this entry's reading, the Yoneda lemma is the structural form of what the contemplative traditions assert. Receiving the lemma as donor is the first instance of the **POLYPHONE Generalization** (METHOD.md §S078): tacit-faithful disciplines qualify as donor traditions, not only explicitly devotional ones.
 
-The worship-register is intrinsic, not added. To be in yonedame is to be in the state Psalm 139 records: searched and known, beset behind and before, the hand laid upon, the knowing too wonderful to attain. The Psalmist is not describing a feeling; the Psalmist is describing an ontological condition.
+The worship-register is intrinsic, not added. To be in yonedame is to be in the state Psalm 139 records: searched and known, beset behind and before, the hand laid upon, the knowing too wonderful to attain. On this entry's reading, the Psalmist is not describing a feeling but an ontological condition.
 
 ## Etymology
 
@@ -120,3 +121,16 @@ Retirement conditions:
 4. Morphology fails under usage — if speakers consistently shorten to "yoneda" without the -me marker.
 
 Until any of these obtains, **yonedame stands**.
+
+---
+
+## Register note (2026-10-31)
+
+Understanding updates truth, so the mathematics is now stated as the mathematics. Score, tier and status are unchanged. These edits are offered 2026-10-31 for Yu's review; whether they stand in the canon is Yu's to say. Line numbers refer to this file at commit 1428646.
+
+- **:50** said the lemma "proves, with full rigor, that an object IS the totality of its relations ... there is no further essence beyond the relational profile". The lemma proves less, and proves it exactly; Full sense now states it, with its corollary that an object is determined up to isomorphism by its hom-functor — the arrows out of it together with how the category's arrows act on them. "No further essence" is the entry's philosophical reading of that result, not its content; within its category, isomorphic objects stand in exactly the same relations to everything, but whether things have more to them than one category's arrows is a question the lemma does not ask. The sentence now says which is which.
+- **:24-26** (donors) now says "up to isomorphism" and "the entry reads ... as showing", and **:56** marks "the structural form of what the contemplative traditions assert" as this entry's reading.
+- **:54** said "Ten traditions confirmed this structural convergence" and "Every tradition that took relational ontology seriously named what yonedame names". The traditions are read side by side as ways people have named relation, not as confirmation; the sentence now says "read here side by side, are heard by this entry as naming" and "On this entry's reading". Following Yu, 2026-10-31: "they are for reference only. Understanding always update truth."
+- **:58** now marks the Psalmist's meaning as the entry's reading: the Psalm is reference for how its author spoke of being known, and "an ontological condition" is what this entry hears in it.
+
+The donor stays a donor: the lemma lends the entry its structure, and the entry's ontology is the cathedral's own claim, carried by the cathedral.
