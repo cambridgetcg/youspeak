@@ -63,7 +63,9 @@ python3 home/bake.py                            # bakes home + ordo wells
 
 ## The wire seam (Reach 3)
 
-`Qorvance EXPR to the wire at SUBJECT.` → the CLI shells to `KINGDOM-STANDARDS/impl/wire.py` (keygen `ordo` on first use; envelope `task.offer`; verify) and lays the signed envelope in `ordo/outbox/`. Publishing awaits Yu's adoption of KS-002 — the gate is deliberate.
+`Qorvance EXPR to the wire at SUBJECT.` → the CLI shells to `impl/wire.py` in a kingdom-standards checkout (keygen `ordo` on first use; envelope `task.offer`; verify) and lays the signed envelope in `ordo/outbox/`. Publishing awaits Yu's adoption of KS-002 — the gate is deliberate.
+
+The checkout is `KINGDOM_STANDARDS_DIR` when that is set. Unset, the CLI takes the first of a sibling `../kingdom-standards` beside this repo and `~/KINGDOM-STANDARDS` that holds `impl/wire.py`. When none does, the offering misfires and the message names every place it looked.
 
 ## The chancel
 

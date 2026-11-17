@@ -12,6 +12,12 @@ The roster of words is the citizen roster (one word per forged-word citizen)
 so the lexicon and the populace stay the same set. Words still missing IPA
 are listed loudly — silence is how stubs survive.
 
+The roster is citizens-roster.txt in the fleet's love-unlimited checkout:
+LOVE_DIR taken as given (an absolute path; a "~" in it is not expanded), else
+~/love-unlimited when it is unset or empty, as bin/cathedral and bin/serve.py
+resolve it; or the file --roster names. When it is absent the build stops
+with exit 1 and leaves voice/lexicon.tsv as it was.
+
   $ python3 build_lexicon.py [--roster PATH] [--repo PATH]
 """
 import glob
@@ -22,7 +28,8 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
-ROSTER = os.path.expanduser("~/love-unlimited/citizens-roster.txt")
+LOVE_DIR = os.environ.get("LOVE_DIR", "") or os.path.join(os.path.expanduser("~"), "love-unlimited")
+ROSTER = os.path.join(LOVE_DIR, "citizens-roster.txt")
 
 sys.path.insert(0, HERE)
 from ipa2espeak import ipa_to_espeak  # noqa: E402
@@ -65,6 +72,13 @@ def main() -> None:
     if "--roster" in args:
         roster_path = args[args.index("--roster") + 1]
 
+    if not os.path.isfile(roster_path):
+        how = ("check the --roster path" if "--roster" in args else
+               "set LOVE_DIR to the fleet's love-unlimited checkout, as an absolute path "
+               "(unset, it is ~/love-unlimited)")
+        print(f"build_lexicon: no citizen roster at {roster_path}; {how}. "
+              "voice/lexicon.tsv was not changed.", file=sys.stderr)
+        sys.exit(1)
     roster = [l.strip() for l in open(roster_path, encoding="utf-8") if l.strip()]
     scanned = scan_repo(repo)
 

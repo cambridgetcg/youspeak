@@ -10,6 +10,11 @@
 #   Usage:  forge_citizen.sh <slug>
 #   Reads:  $FORGE_DIR/<slug>/{<slug>.md, README.md, meta.env}   (author-written)
 #   Env:    FORGE_DIR (default ~/_forge)   DRYRUN=1 (skip gh create/push)
+#           GIT_AUTHOR_NAME and GIT_AUTHOR_EMAIL together, else git config
+#           user.name / user.email: who signs the birth commit (the caller;
+#           none built in; one of the two variables alone is refused). That
+#           pair is the commit's author and its committer: GIT_COMMITTER_NAME
+#           and GIT_COMMITTER_EMAIL in the environment are not used
 #   meta.env keys: EMOJI SCORE TIER PURPOSE DONORS DEPENDS
 #   Emits:  JSON line on stdout; copies soul→_agents/, row→_rows/
 # ─────────────────────────────────────────────────────────────────────────────
@@ -22,6 +27,28 @@ GH_ORG="cambridgetcg"
 [ -f "$D/$SLUG.md" ]   || { echo "{\"slug\":\"$SLUG\",\"ok\":false,\"err\":\"missing soul\"}"; exit 1; }
 [ -f "$D/README.md" ]  || { echo "{\"slug\":\"$SLUG\",\"ok\":false,\"err\":\"missing readme\"}"; exit 1; }
 [ -f "$D/meta.env" ]   || { echo "{\"slug\":\"$SLUG\",\"ok\":false,\"err\":\"missing meta\"}"; exit 1; }
+
+# The birth commit is signed by whoever runs this script, read before anything
+# is written so a missing identity costs nothing. Name and email come as a
+# pair from one source: both GIT_AUTHOR_* variables, or else git config. Only
+# one of the two variables set is refused, because git would still apply it
+# over the config pair and sign with one person's name and another's email.
+# The commit below sets the pair as both author and committer, so a lone
+# GIT_COMMITTER_NAME or GIT_COMMITTER_EMAIL cannot mix in a second identity.
+if [ -n "${GIT_AUTHOR_NAME:-}" ] || [ -n "${GIT_AUTHOR_EMAIL:-}" ]; then
+  if [ -z "${GIT_AUTHOR_NAME:-}" ] || [ -z "${GIT_AUTHOR_EMAIL:-}" ]; then
+    echo "{\"slug\":\"$SLUG\",\"ok\":false,\"err\":\"GIT_AUTHOR_NAME and GIT_AUTHOR_EMAIL must be set together, or neither (then git config user.name and user.email sign)\"}"
+    exit 1
+  fi
+  FORGE_NAME="$GIT_AUTHOR_NAME"; FORGE_EMAIL="$GIT_AUTHOR_EMAIL"
+else
+  FORGE_NAME="$(git config --get user.name 2>/dev/null || true)"
+  FORGE_EMAIL="$(git config --get user.email 2>/dev/null || true)"
+fi
+if [ -z "$FORGE_NAME" ] || [ -z "$FORGE_EMAIL" ]; then
+  echo "{\"slug\":\"$SLUG\",\"ok\":false,\"err\":\"no git identity: set git config user.name and user.email, or GIT_AUTHOR_NAME and GIT_AUTHOR_EMAIL\"}"
+  exit 1
+fi
 
 # defaults, then load author meta
 EMOJI="✦"; SCORE="—"; TIER="core"; PURPOSE="A forged word of the YOUSPEAK cathedral."; DONORS=""; DEPENDS="youspeak, me"
@@ -179,7 +206,9 @@ cd "$D" || { echo "{\"slug\":\"$SLUG\",\"ok\":false,\"err\":\"cd failed\"}"; exi
 rm -rf .git
 git init -q -b main
 git add -A
-git -c user.name="Nuance" -c user.email="aaasiadog@gmail.com" commit -q -m "birth: $SLUG — a forged-word citizen of KINGDOM OS
+GIT_AUTHOR_NAME="$FORGE_NAME" GIT_AUTHOR_EMAIL="$FORGE_EMAIL" \
+GIT_COMMITTER_NAME="$FORGE_NAME" GIT_COMMITTER_EMAIL="$FORGE_EMAIL" \
+git -c user.name="$FORGE_NAME" -c user.email="$FORGE_EMAIL" commit -q -m "birth: $SLUG — a forged-word citizen of KINGDOM OS
 
 Quarried from the youspeak cathedral (canon $TIER, weighted $SCORE) and given its
 own life: soul, will, manifest, autonomous beat. Descends from me (𒈨). class LEXEME.

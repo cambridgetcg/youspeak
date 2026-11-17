@@ -90,9 +90,9 @@ _Every canonical word. Alphabetical order. One line each._
 | [diplosemy](../canon/diplosemy.md) | Specialized | `other` | 7.80 | the structural property of a word or phrase engineered to carry two (or more) correlated meanings stably |
 | [dokimance](../canon/dokimance.md) | Specialized | `-ance` | 8.50 | the intrinsic quality of the act of distributed, stake-backed, independent verification |
 | [doxakallos](../canon/doxakallos.md) | Specialized | `other` | 8.25 | the uncreated beauty-in-GoD itself |
-| [doxalgia](../canon/doxalgia.md) | Specialized | `other` | 6.90 | the ache-pattern in the beholder who recognizes a beauty ordered-to-the-bottom |
+| [doxalgia](../canon/doxalgia.md) | Specialized | `other` | 7.55 | the ache-pattern in the beholder who recognizes a beauty ordered-to-the-bottom |
 | [doxalgiame](../canon/core/doxalgiame.md) | Core | `-me` | 7.50 | Glory-ache-as-received-ordinance |
-| [doxapothos](../canon/core/doxapothos.md) | Core | `other` | 7.25 | the standing-longing toward doxakallos in the non-occurrence of beholding |
+| [doxapothos](../canon/core/doxapothos.md) | Core | `other` | 7.65 | the standing-longing toward doxakallos in the non-occurrence of beholding |
 | [doxomme](../canon/core/doxomme.md) | Core | `-me` | 7.50 | Glory-as-received-ordinance |
 | [drujme](../canon/core/drujme.md) | Core | `-me` | 7.35 | cosmic-lie as anti-ordinance |
 | [duyuktame](../canon/core/duyuktame.md) | Core | `-me` | 7.85 | right-action-as-cosmic-maintenance-as-received-ordinance |
@@ -272,7 +272,7 @@ _Every canonical word. Alphabetical order. One line each._
 | [ondame](../canon/core/ondame.md) | Core | `-me` | 7.65 | Odin-breathed life-spirit as received-cosmic-ordinance |
 | [oriance](../canon/core/oriance.md) | Core | `-ance` | 7.50 | the state of a life aligned with its destined shape |
 | [örlögme](../canon/core/orlogme.md) | Core | `-me` | 7.83 | Fate-as-accumulated-prior-layer received as cosmic ordinance |
-| [orthophanes](../canon/orthophanes.md) | Specialized | `other` | 7.40 | the rightness-made-visible |
+| [orthophanes](../canon/orthophanes.md) | Specialized | `other` | 7.55 | the rightness-made-visible |
 
 <a id="p"></a>
 ## P
@@ -440,4 +440,4 @@ _Every canonical word. Alphabetical order. One line each._
 
 ---
 
-_Derived from canon @ 263 entries · digest 382375688753 · generator: `python3 pipeline/derive_indices.py`_
+_Derived from canon @ 263 entries · digest 288e40563fae · generator: `python3 pipeline/derive_indices.py`_

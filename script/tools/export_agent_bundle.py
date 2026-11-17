@@ -12,7 +12,9 @@ Usage:
     python3 script/tools/export_agent_bundle.py --copy-to <dir>   # also vendor a copy
 
 Output: script/exports/agent_bundle.json  (regenerate after any canon/glyph change;
-        script/tools/rebuild.sh runs this as its final step)
+        script/tools/rebuild.sh runs this as its final step; home/bake.py then
+        copies it verbatim to home/data/agent_bundle.json)
+Test:   python3 -B tests/script/tools/test_export_agent_bundle.py
 """
 from __future__ import annotations
 
@@ -87,17 +89,312 @@ def parse_design_notes() -> dict[str, dict]:
     return out
 
 
-# ── canon parsing ───────────────────────────────────────────────────────
+# ── canon frontmatter: the YAML subset canon entries are written in ─────
+#
+# About half of canon/**/*.md frontmatter is not valid YAML: on 2026-11-17
+# PyYAML 6.0.3 refused 133 of the 263 files. 130 of them failed with "mapping
+# values are not allowed here", because a prose value carries ": "
+# (`part_of_speech: noun (uncountable; count forms: an anagnoristasis, …)`);
+# the other 3 (canon/core/allostasisqing.md, andemame.md, noetherme.md) failed
+# with "could not find expected ':'" in a donor list item that runs across lines.
+# The other readers in the repo (pipeline/assess.py, pipeline/derive_indices.py,
+# script/tools/check_pronunciation.py) each read only the shapes they need.
+# This reader is tolerant where canon breaks YAML and follows YAML where canon
+# follows it; on the 291 canon and experiment files PyYAML accepts, it agreed
+# with PyYAML on every value except the deliberate differences noted below:
+#
+#   key: value          a plain value runs to the end of the line, ": " included;
+#                       more-indented lines after it continue it (folded with a
+#                       space), even when they look like `key:` — canon prose
+#                       wraps that way
+#   key: > / >- / | / |-   block scalars: folded or literal, with chomping and
+#                       an optional indentation digit, as YAML 1.2 reads them
+#   key: "…" / '…'      unquoted only when the quotes wrap the whole value;
+#                       `"a quote" — and prose after it` stays as written
+#   key: [a, b] / {k: v}   flow collections, also across lines
+#   key:                then a more-indented block: a nested mapping or list, or
+#                       a plain value that starts on the next line
+#   key: # note         a value that is only a comment is empty, as is `null`/`~`;
+#                       a " #" inside a value is kept (YAML would cut it there),
+#                       since canon writes "names Mechanism #2 of Diplosemy"
+#   - item              list items are text (continuations folded in), except an
+#                       item whose `key: value` is followed by more keys at its
+#                       column, which is a mapping (experiment `scored_history:`);
+#                       YAML would make a lone `- Yoruba: àṣẹ …` a mapping too
+#
+# Every value is a string (or None, list, dict). Dates and numbers are not cast,
+# so `session: 024` stays "024" (PyYAML reads it as the octal 20).
+
+_FM_KEY = re.compile(r"^(?P<key>[A-Za-z_][\w-]*):(?:[ \t]+(?P<value>.*?))?[ \t]*$")
+_FM_ITEM = re.compile(r"^-(?:[ \t]+(?P<value>.*?))?[ \t]*$")
+_BLOCK_HEADER = re.compile(r"^([|>])([+-]?)([1-9]?)([+-]?)(?:[ \t]+#.*)?$")
+_YAML_ESCAPES = {"0": "\0", "a": "\a", "b": "\b", "t": "\t", "n": "\n", "v": "\v",
+                 "f": "\f", "r": "\r", "e": "\x1b", " ": " ", '"': '"', "/": "/",
+                 "\\": "\\", "N": "\x85", "_": "\xa0"}
+
+
+def _indent(line: str) -> int:
+    return len(line) - len(line.lstrip(" "))
+
+
+def _next_significant(lines: list[str], i: int) -> int:
+    while i < len(lines) and (not lines[i].strip() or lines[i].lstrip().startswith("#")):
+        i += 1
+    return i
+
+
+def _unquote(value: str) -> str:
+    if m := re.fullmatch(r'"((?:[^"\\]|\\.)*)"', value, re.S):
+        return re.sub(r"\\(.)", lambda e: _YAML_ESCAPES.get(e.group(1), e.group(0)), m.group(1))
+    if m := re.fullmatch(r"'((?:[^']|'')*)'", value, re.S):
+        return m.group(1).replace("''", "'")
+    return value
+
+
+def _fold(lines: list[str]) -> str:
+    """YAML line folding for a `>` block (content indentation already removed)."""
+    out, prev, breaks = [], None, 0
+    for line in lines:
+        if not line:
+            breaks += 1
+            continue
+        kind = "more" if line[0] in " \t" else "text"
+        if prev is None:
+            out.append("\n" * breaks)
+        elif prev == kind == "text":
+            out.append("\n" * breaks if breaks else " ")
+        else:  # a more-indented line keeps its line breaks
+            out.append("\n" * (breaks + 1))
+        out.append(line)
+        prev, breaks = kind, 0
+    return "".join(out)
+
+
+def _block_scalar(lines: list[str], i: int, parent: int, header: re.Match):
+    style, chomp, width = header.group(1), header.group(2) or header.group(4), header.group(3)
+    column = parent + int(width) if width else None
+    body: list[str] = []
+    while i < len(lines):
+        line = lines[i]
+        if line.strip():
+            if column is None:
+                if _indent(line) <= parent:
+                    break
+                column = _indent(line)
+            if _indent(line) < column:
+                break
+            body.append(line[column:])
+        else:
+            body.append("")
+        i += 1
+    trailing = 0
+    while body and not body[-1]:
+        body.pop()
+        trailing += 1
+    text = "\n".join(body) if style == "|" else _fold(body)
+    if body and chomp != "-":
+        text += "\n" * (1 + trailing if chomp == "+" else 1)
+    return text, i
+
+
+def _flow_split(inner: str) -> list[str]:
+    """Split a flow collection's inside on its top-level commas."""
+    parts, depth, quote, cur = [], 0, None, ""
+    for ch in inner:
+        if quote:
+            quote = None if ch == quote else quote
+        elif ch in "\"'" and (not cur.strip() or cur.rstrip().endswith(":")):
+            quote = ch  # a quote opens a scalar only where a scalar starts
+        elif ch in "[{":
+            depth += 1
+        elif ch in "]}":
+            depth -= 1
+        elif ch == "," and depth == 0:
+            parts.append(cur.strip())
+            cur = ""
+            continue
+        cur += ch
+    if cur.strip():
+        parts.append(cur.strip())
+    return parts
+
+
+def _flow(text: str):
+    """A flow collection as a list or dict, or None when the text is not one."""
+    close = {"[": "]", "{": "}"}.get(text[:1])
+    if not close or not text.endswith(close):
+        return None
+    if close == "]":
+        return [_scalar(part) for part in _flow_split(text[1:-1])]
+    out = {}
+    for part in _flow_split(text[1:-1]):
+        key, sep, rest = part.partition(":")
+        if sep and (not rest or rest[0] in " \t"):
+            out[_unquote(key.strip())] = _scalar(rest.strip()) if rest.strip() else None
+        else:  # `{a, b}`: keys without values
+            out[_unquote(part)] = None
+    return out
+
+
+def _scalar(text: str):
+    """One inline value: a flow collection when it is one, YAML's null as None, else the text unquoted."""
+    if text in ("~", "null", "Null", "NULL"):
+        return None
+    flow = _flow(text) if text[:1] in "[{" else None
+    return _unquote(text) if flow is None else flow
+
+
+def _continued(lines: list[str], i: int, parent: int, first: str):
+    """A plain value and the more-indented lines that continue it (YAML folding)."""
+    parts, breaks = [first.strip()], 0
+    while i < len(lines):
+        if not lines[i].strip():
+            breaks += 1
+        elif _indent(lines[i]) > parent:
+            parts.append("\n" * breaks if breaks else " ")
+            parts.append(lines[i].strip())
+            breaks = 0
+        else:
+            break
+        i += 1
+    return "".join(parts), i
+
+
+def _value(lines: list[str], i: int, parent: int, value: str):
+    """The node for `key: value`, where `key` sits at column `parent`; returns (node, next line)."""
+    if not value or value.startswith("#"):
+        j = _next_significant(lines, i)
+        if j < len(lines):
+            col = _indent(lines[j])
+            item = _FM_ITEM.match(lines[j][col:])
+            if item and col >= parent:
+                return _list(lines, j, col)
+            if col > parent and _FM_KEY.match(lines[j][col:]):
+                return _mapping(lines, j, col)
+            if col > parent:  # `key:` and its plain value on the lines below
+                text, i = _continued(lines, j + 1, parent, lines[j])
+                return _scalar(text), i
+        return None, i
+    if header := _BLOCK_HEADER.match(value):
+        return _block_scalar(lines, i, parent, header)
+    text, i = _continued(lines, i, parent, value)
+    return _scalar(text), i
+
+
+def _mapping(lines: list[str], i: int, col: int):
+    out: dict = {}
+    while (i := _next_significant(lines, i)) < len(lines):
+        line = lines[i]
+        if _indent(line) < col:
+            break
+        m = _FM_KEY.match(line[col:]) if _indent(line) == col else None
+        if not m:
+            i += 1  # a line no key claims (a stray "- x" or prose): skipped, as before
+            continue
+        out[m.group("key")], i = _value(lines, i + 1, col, m.group("value") or "")
+    return out, i
+
+
+def _list(lines: list[str], i: int, col: int):
+    out: list = []
+    while (i := _next_significant(lines, i)) < len(lines):
+        line = lines[i]
+        item = _FM_ITEM.match(line[col:]) if _indent(line) == col else None
+        if _indent(line) < col or (_indent(line) == col and not item):
+            break
+        if not item:
+            i += 1
+            continue
+        text = item.group("value") or ""
+        inner = len(line) - len(line[col + 1:].lstrip(" "))  # the column after "- "
+        pair = _FM_KEY.match(text)
+        nxt = _next_significant(lines, i + 1)
+        if not text or text.startswith("#"):
+            node, i = _value(lines, i + 1, col, "")
+        elif pair and nxt < len(lines) and _indent(lines[nxt]) == inner and _FM_KEY.match(lines[nxt][inner:]):
+            first, i = _value(lines, i + 1, inner, pair.group("value") or "")
+            rest, i = _mapping(lines, i, inner)
+            node = {pair.group("key"): first, **rest}
+        elif header := _BLOCK_HEADER.match(text):
+            node, i = _block_scalar(lines, i + 1, col, header)
+        else:
+            node, i = _continued(lines, i + 1, col, text)
+            node = _scalar(node)
+        out.append(node)
+    return out, i
+
 
 def parse_frontmatter(text: str) -> dict:
-    m = re.match(r"^---\n(.*?)\n---\n", text, re.S)
-    fm = {}
-    if m:
-        for line in m.group(1).splitlines():
-            kv = re.match(r"^(\w[\w_]*):\s*(.+)$", line)
-            if kv and not line.startswith(" "):
-                fm[kv.group(1)] = kv.group(2).strip()
-    return fm
+    """The frontmatter between a first line `---` and the next `---` line, parsed."""
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        return {}
+    end = next((n for n in range(1, len(lines)) if lines[n].strip() == "---"), None)
+    if end is None:
+        return {}
+    return _mapping(lines[1:end], 0, 0)[0]
+
+
+def text_field(fm: dict, key: str) -> str:
+    """A scalar field as one clean line of text, the way the bundle carries it."""
+    value = fm.get(key)
+    return value.strip() if isinstance(value, str) else ""
+
+
+# "score": the entry's weighted score. A canon entry writes it in one of three
+# places, read in this order. The first one written with a value is the score
+# (null if that value holds no number); a lower one is never read in its place.
+# pipeline/derive_indices.py reads the same three in the same order (until
+# 2026-11-17 it also matched the nested genealogy.prior_assessment.weighted_total,
+# so dictionary/index-alphabetical.md showed doxalgia, doxapothos and orthophanes
+# at the score a refinement had superseded). genealogy.prior_assessment is never
+# read here.
+SCORE_FIELDS = (
+    ("genealogy", "weighted_total"),  # pipeline/canonize.py writes it here; a refinement rewrites it
+    ("weighted_total",),              # entries kept in the experiment-record shape carry it top-level
+    ("genealogy", "weighted_v2"),     # kimance and kinqing write it here
+)
+# "score_v2_audit": v2_audit.weighted_v2, or null. 17 entries carry it beside
+# genealogy.weighted_total. 16 come from CANON-AUDIT.md (2026-04-24), which
+# re-scored them on the v2 rubric of CONSTITUTION.md's Six Foundations against a
+# threshold of 7.5, listed their genealogy figure as "v1 was", and reclassified
+# all 16 as Specialized. doxapothos's audit is dated 2026-07-16; its note says
+# "legacy rubric governs Core threshold for this cluster". The files do not say
+# which of the two figures is the entry's score. An agent session chose on
+# 2026-11-17 that "score" carries the figure dictionary/index-alphabetical.md
+# shows (genealogy.weighted_total) and that "score_v2_audit" carries the audit
+# figure beside it. Until that day "score" was null for 236 of the 255 entries
+# and the v2 audit figure for these 17.
+V2_AUDIT_FIELD = ("v2_audit", "weighted_v2")
+
+
+def _field(fm: dict, keys: tuple[str, ...]):
+    node = fm
+    for key in keys:
+        node = node.get(key) if isinstance(node, dict) else None
+    return node
+
+
+def _number(text: str) -> float | None:
+    """The first number in a written score, as pipeline/derive_indices.py's as_float reads it."""
+    m = re.search(r"-?\d+(?:\.\d+)?", text)
+    return float(m.group(0)) if m else None
+
+
+def final_score(fm: dict) -> float | None:
+    for keys in SCORE_FIELDS:
+        node = _field(fm, keys)
+        if isinstance(node, str) and node.strip():
+            return _number(node)  # None when it holds no number; a lower field is not read
+    return None
+
+
+def v2_audit_score(fm: dict) -> float | None:
+    node = _field(fm, V2_AUDIT_FIELD)
+    return _number(node) if isinstance(node, str) else None
+
+
+# ── canon parsing ───────────────────────────────────────────────────────
 
 
 def first_definition(text: str) -> str:
@@ -157,22 +454,19 @@ def collect_canon() -> tuple[list[dict], int]:
             continue
         text = path.read_text()
         fm = parse_frontmatter(text)
-        word = fm.get("word") or path.stem
+        word = text_field(fm, "word") or path.stem
         if word in seen or word.startswith("_"):
             continue
         seen.add(word)
-        weighted = None
-        wm = re.search(r"weighted(?:_v2)?:\s*([\d.]+)", text)
-        if wm:
-            weighted = float(wm.group(1))
         entries.append({
             "word": word,
-            "tier": fm.get("tier") or ("core" if "core" in str(path.parent.name) else path.parent.name),
-            "gap": fm.get("gap", ""),
+            "tier": text_field(fm, "tier") or ("core" if "core" in str(path.parent.name) else path.parent.name),
+            "gap": text_field(fm, "gap"),
             "definition": first_definition(text),
-            "score": weighted,
-            "pronunciation": fm.get("pronunciation", ""),
-            "entered": fm.get("entered", ""),
+            "score": final_score(fm),
+            "score_v2_audit": v2_audit_score(fm),
+            "pronunciation": text_field(fm, "pronunciation"),
+            "entered": text_field(fm, "entered"),
             "path": str(path.relative_to(ROOT)),
             # absent for the 200+ words the manifesto's tables never covered —
             # absence means "canon assigns none", not "canon assigns nothing"
@@ -255,7 +549,7 @@ def main() -> int:
     bundle = {
         "schema_version": "1.0",
         "name": "youspeak-agent-bundle",
-        "source": "https://codeberg.org/zerone-dev/youspeak",
+        "source": "https://github.com/cambridgetcg/youspeak",
         "source_commit": commit,
         "what_this_is": (
             "YOUSPEAK is a constructed language — 'a cathedral of vocabulary, a forge of "

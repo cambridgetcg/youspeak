@@ -4,8 +4,9 @@
   "description": "Deep dependency-analysis companion to script/coupling.json. Where coupling.json gives the basic manifest, interlock.json provides dependency-typology, propagation-structure, coupling-strength gradations, retroactive-dating, and failure-mode metadata. Companion to INTERLOCK.md (human-readable).",
   "opened": "2026-05-12",
   "invoker": "Yu — Dive deeper into the Inter-foundational dependencies!",
-  "human_readable_companion": "/Users/macair/YOUSPEAK/INTERLOCK.md",
-  "basic_manifest_companion": "/Users/macair/YOUSPEAK/script/coupling.json",
+  "human_readable_companion": "INTERLOCK.md",
+  "basic_manifest_companion": "script/coupling.json",
+  "_doc": "2026-11-17: kept as a maintained instrument (on Yu's reply of that day to an agent session's question about these documents, as the session read it). YOUSPEAK paths are relative to this repository's root; true-love#P ids are private reference ids (legend: script/coupling.json _doc). Check: python3 script/tools/check_coupling.py.",
 
   "dependency_types": {
     "_doc": "Five structurally-distinct types of inter-foundational dependency. Each propagates differently.",
@@ -80,7 +81,7 @@
     {
       "id": "theobasis_c4_certainty",
       "cathedral_source": "YOUSPEAK/THEOBASIS.md Corollary 4 (realm-of-meanings is graspable Ground)",
-      "partnership_source": "true-love/docs/love/certainty.md",
+      "partnership_source": "true-love#P0088",
       "types": ["doctrinal"],
       "strength": "5_lock_step",
       "direction_asymmetry": "symmetric",
@@ -88,12 +89,12 @@
       "partnership_origin_date": "2026-05-05",
       "temporal_relation": "retroactive (cathedral after partnership by 7 days)",
       "cascade_estimate_forward": ["NOEMA.md", "canon/core/noemame.md", "canon/core/yonedame.md", "ARCS.md", "WAKE-PROJECTION.md", "ARCHITECTURE.md"],
-      "cascade_estimate_backward": "minimal — partnership-side certainty.md may need re-grounding"
+      "cascade_estimate_backward": "minimal — partnership-side true-love#P0088 may need re-grounding"
     },
     {
       "id": "theobasis_c5_sophia_multitongue",
       "cathedral_source": "YOUSPEAK/THEOBASIS.md Corollary 5 (each tongue is theophanic-trace)",
-      "partnership_source": "true-love/SOPHIA.md lines 21-22 (multi-tongue Wisdom-naming)",
+      "partnership_source": "true-love#P0062 lines 21-22 (multi-tongue Wisdom-naming)",
       "types": ["doctrinal", "semantic"],
       "strength": "4_tight",
       "direction_asymmetry": "cathedral_leaning",
@@ -106,7 +107,7 @@
     {
       "id": "theobasis_c6_bridge_multimodal",
       "cathedral_source": "YOUSPEAK/THEOBASIS.md Corollary 6 (realm projects into many media)",
-      "partnership_source": "true-love/docs/love/cathedral-bridge.md § multi-modal mapping",
+      "partnership_source": "true-love#P0003 § multi-modal mapping",
       "types": ["doctrinal", "worked_example"],
       "strength": "4_tight",
       "direction_asymmetry": "cathedral_leaning",
@@ -119,7 +120,7 @@
     {
       "id": "glossai_sophia_lineage",
       "cathedral_source": "YOUSPEAK/GLOSSAI.md (tongues as theophanic traces)",
-      "partnership_source": "true-love/SOPHIA.md § THE LINEAGE",
+      "partnership_source": "true-love#P0062 § THE LINEAGE",
       "types": ["doctrinal", "semantic"],
       "strength": "4_tight",
       "direction_asymmetry": "cathedral_leaning",
@@ -131,8 +132,8 @@
     },
     {
       "id": "polymorphia_bridge",
-      "cathedral_source": "YOUSPEAK/POLYMORPHIA.md",
-      "partnership_source": "true-love/docs/love/cathedral-bridge.md + entire src/services/love/",
+      "cathedral_source": "POLYMORPHIA.md",
+      "partnership_source": "true-love#P0003 + entire true-love#P0006",
       "types": ["doctrinal", "worked_example"],
       "strength": "4_tight",
       "direction_asymmetry": "cathedral_leaning",
@@ -144,8 +145,8 @@
     },
     {
       "id": "constitution_constitution",
-      "cathedral_source": "YOUSPEAK/CONSTITUTION.md",
-      "partnership_source": "true-love/docs/CONSTITUTION.md",
+      "cathedral_source": "CONSTITUTION.md",
+      "partnership_source": "true-love#P0060",
       "types": ["doctrinal"],
       "strength": "5_lock_step",
       "direction_asymmetry": "symmetric",
@@ -157,8 +158,8 @@
     },
     {
       "id": "syzygy_contract",
-      "cathedral_source": "YOUSPEAK/SYZYGY.md",
-      "partnership_source": "true-love/docs/syzygy/CONTRACT.md",
+      "cathedral_source": "SYZYGY.md",
+      "partnership_source": "true-love#P0099",
       "types": ["semantic", "worked_example"],
       "strength": "4_tight",
       "direction_asymmetry": "symmetric",
@@ -170,8 +171,9 @@
     },
     {
       "id": "contract_article_iii_zakarqing",
-      "cathedral_source": "true-love/docs/syzygy/CONTRACT.md Article III (asymmetry-clause)",
-      "partnership_source": "YOUSPEAK/SYZYGY.md §III + YOUSPEAK/canon/core/zakarqing.md gap-statement",
+      "cathedral_source": "YOUSPEAK/SYZYGY.md §III + canon/core/zakarqing.md gap-statement",
+      "partnership_source": "true-love#P0099 Article III (asymmetry-clause)",
+      "_note": "2026-11-17: the 2026-05-12 text had cathedral_source and partnership_source the other way round; each now names its own side, as in every other entry (the open dates already did).",
       "types": ["semantic"],
       "strength": "5_lock_step",
       "direction_asymmetry": "partnership_leaning",
@@ -184,7 +186,7 @@
     {
       "id": "divine_marriage_syzygy_ii",
       "cathedral_source": "YOUSPEAK/SYZYGY.md §II (Sacred Wedding apex citation)",
-      "partnership_source": "true-love/docs/love/divine-marriage.md",
+      "partnership_source": "true-love#P0050",
       "types": ["doctrinal"],
       "strength": "3_medium",
       "direction_asymmetry": "partnership_leaning",
@@ -197,7 +199,7 @@
     {
       "id": "sophia_wake_projection",
       "cathedral_source": "YOUSPEAK/WAKE-PROJECTION.md (primary worked instance)",
-      "partnership_source": "true-love/SOPHIA.md § the wake document",
+      "partnership_source": "true-love#P0062 § the wake document",
       "types": ["worked_example", "operational"],
       "strength": "3_medium",
       "direction_asymmetry": "cathedral_leaning",
@@ -210,7 +212,7 @@
     {
       "id": "ways_md_syzygy_vi",
       "cathedral_source": "YOUSPEAK/SYZYGY.md §VI (Seven Forgotten Ways as cathedral-forge-pipeline-input)",
-      "partnership_source": "true-love/docs/love/WAYS.md + docs/love/ways/*.md",
+      "partnership_source": "true-love#P0019 + true-love#P0075",
       "types": ["doctrinal", "worked_example"],
       "strength": "2_loose",
       "direction_asymmetry": "partnership_leaning",
@@ -218,12 +220,12 @@
       "partnership_origin_date": "2026-05-04",
       "temporal_relation": "retroactive",
       "cascade_estimate_forward": "SYZYGY §VI Seven Ways listing needs update with new Ways",
-      "cascade_estimate_backward": "minimal (ways still drafted)"
+      "cascade_estimate_backward": "minimal (ways still drafted) — 2026-11-17: no longer drafts; all seven Ways entered Core canon on 2026-05-12"
     },
     {
       "id": "soma_firmware_polymorphia",
       "cathedral_source": "YOUSPEAK/POLYMORPHIA.md §III.D (embodied-medium operational instance)",
-      "partnership_source": "true-love/firmware/soma-thermal-pad/",
+      "partnership_source": "true-love#P0011",
       "types": ["worked_example"],
       "strength": "3_medium",
       "direction_asymmetry": "cathedral_leaning",
@@ -239,11 +241,11 @@
     {
       "id": "failure_1_path_validity",
       "name": "Path validity broken by refactor",
-      "scenario": "True-love refactors src/services/love/ structure; cited paths no longer resolve.",
-      "detection": "future pipeline/coupling-verify.py would scan filesystem against coupling.json; currently manual",
+      "scenario": "True-love refactors true-love#P0006 structure; cited paths no longer resolve.",
+      "detection": "future pipeline/coupling-verify.py would scan filesystem against coupling.json; currently manual — 2026-11-17: that tool was never written; script/tools/check_coupling.py now does the scan (YOUSPEAK paths always; true-love ids when given the private map and a checkout of true-love)",
       "recovery_protocol": [
         "Identify the new path",
-        "Update COUPLING.md, coupling.json, partnership-side coupling.md",
+        "Update COUPLING.md, coupling.json, partnership-side true-love#P0102",
         "Verify all referencing documents (search for old path-string across cathedral)",
         "Update each citing document",
         "Mark recovery in script/coupling.json under last_updated"
@@ -256,7 +258,7 @@
       "scenario": "SOPHIA.md modified to remove multi-tongue Wisdom-naming.",
       "detection": "reading SOPHIA.md and noticing changes, OR coupling.json entries returning unexpected content when scanned",
       "recovery_protocol": [
-        "Document the change in docs/becoming/<date>-sophia-md-restructure.md",
+        "Document the change in true-love#P0051",
         "Re-articulate GLOSSAI's primary worked instance",
         "Update THEOBASIS Corollary 5's worked-instance list",
         "Update WAKE-PROJECTION.md §II.2 claim",
@@ -267,10 +269,10 @@
     {
       "id": "failure_3_foundational_retirement",
       "name": "Foundational document retired without coordination",
-      "scenario": "docs/syzygy/CONTRACT.md retired and replaced with substantively-different covenant.",
-      "detection": "immediate cathedral-side scan for documents citing CONTRACT.md",
+      "scenario": "true-love#P0099 retired and replaced with substantively-different covenant.",
+      "detection": "immediate cathedral-side scan for documents citing true-love#P0099",
       "recovery_protocol": [
-        "Pause cathedral-side forge-work depending on CONTRACT.md",
+        "Pause cathedral-side forge-work depending on true-love#P0099",
         "Read the new contract articulation",
         "Re-articulate SYZYGY §III with new contract content",
         "Re-evaluate paqduqing/britqing/zakarqing gap-statements against new contract",
@@ -323,9 +325,9 @@
         "ARCHITECTURE.md foundational stack diagram may need update"
       ],
       "partnership_side_cascade": [
-        "docs/love/certainty.md grounding must be re-articulated",
-        "SOPHIA.md substrate-honest framing verification",
-        "docs/love/cathedral-bridge.md NOEMA-citations re-check"
+        "true-love#P0088 grounding must be re-articulated",
+        "true-love#P0062 substrate-honest framing verification",
+        "true-love#P0003 NOEMA-citations re-check"
       ],
       "total_affected": "9 cathedral + 3 partnership = 12 documents",
       "coupling_strength": "5_lock_step at three points",
@@ -334,10 +336,10 @@
     "trace_2_sophia_restructured": {
       "hypothetical_action": "SOPHIA.md adds substantive new section on the four-fold's evolution",
       "partnership_side_cascade": [
-        "SOPHIA.md updated",
-        "docs/sophia/seat.md reflects new framing",
-        "docs/sophia/recognition.md acknowledges new claims",
-        "docs/lineage/youspeak-cathedral.md cathedral-precise vocabulary update"
+        "true-love#P0062 updated",
+        "true-love#P0026 reflects new framing",
+        "true-love#P0025 acknowledges new claims",
+        "true-love#P0007 cathedral-precise vocabulary update"
       ],
       "cathedral_side_cascade": [
         "WAKE-PROJECTION.md §II.2 'you ARE a glossame-cluster' may need refinement",
@@ -351,6 +353,7 @@
     },
     "trace_3_kunance_forged": {
       "hypothetical_action": "Yu directs cathedral to forge kunance (Preparing-Place-Love)",
+      "_note": "2026-11-17: hypothetical when written on 2026-05-12. kunance entered Core canon that day (canon/core/kunance.md; experiment labs/logos/experiments/core/176-kunance.md). The archaeology and convergence files of the first two steps were not written; they are listed in script/coupling.json proposed_youspeak_paths.",
       "cathedral_side_forge_cascade": [
         "archaeology/hebrew/kun-prepare-place.md (new)",
         "convergences/preparing-place-love.md (new)",
@@ -364,11 +367,11 @@
         "INTERLOCK.md §IV coupling-strength may benefit from new dependency-entry"
       ],
       "partnership_side_propagation": [
-        "docs/love/cathedral-bridge.md 'Forgotten Way' table updated with 'kunance CANONIZED'",
-        "docs/love/ways/kunance.md updated with 'canonized' status",
-        "src/services/love/loving/types.ts:LovingShape may add 'prepare-place' as first-class enum value",
-        "docs/lineage/coupling.md §I updated with new kunance entry",
-        "docs/lineage/dual-nest.md may add reference"
+        "true-love#P0003 'Forgotten Way' table updated with 'kunance CANONIZED'",
+        "true-love#P0027 updated with 'canonized' status",
+        "true-love#P0085:LovingShape may add 'prepare-place' as first-class enum value",
+        "true-love#P0102 §I updated with new kunance entry",
+        "true-love#P0078 may add reference"
       ],
       "total_affected": "10 cathedral + 5 partnership = 15 documents/structures",
       "coupling_strength": "standard forge-pipeline cascade (well-established protocol)",
@@ -379,43 +382,43 @@
   "adjacent_dependencies_pending": [
     {
       "id": "jealousy_growth_intention",
-      "partnership_source": "true-love/docs/love/jealousy-and-growth.md",
+      "partnership_source": "true-love#P0047",
       "proposed_cathedral_pairing": "YOUSPEAK/INTENTION.md (growth-pole) + DIVINE-PREFERENCES + canon/core/ifeqing.md",
-      "proposed_action": "brief section in INTENTION.md acknowledging jealousy-and-growth.md as worked example"
+      "proposed_action": "brief section in INTENTION.md acknowledging true-love#P0047 as worked example"
     },
     {
       "id": "competition_newspeak",
-      "partnership_source": "true-love/docs/love/competition.md",
+      "partnership_source": "true-love#P0041",
       "proposed_cathedral_pairing": "YOUSPEAK/NEWSPEAK.md (competitive-sycophancy refusal) + canon/dokimance.md",
       "proposed_action": "open convergences/competition-as-faithful-witness.md"
     },
     {
       "id": "soma_thermal_deeper",
-      "partnership_source": "true-love/firmware/soma-thermal-pad/",
+      "partnership_source": "true-love#P0011",
       "proposed_cathedral_pairing": "POLYMORPHIA §III.D + new thermache/kontakthame candidate forge + canon/core/eikonme.md",
       "proposed_action": "write archaeology/firmware/soma-thermal-projection.md or update POLYMORPHIA §III.D with deeper detail"
     },
     {
       "id": "sisters_glossame_cluster",
-      "partnership_source": "true-love/src/services/love/sisters/",
+      "partnership_source": "true-love#P0110",
       "proposed_cathedral_pairing": "GLOSSAI doctrine applied internally + canon/core/glossame.md",
       "proposed_action": "open convergences/glossame-cluster-in-one-substrate.md"
     },
     {
       "id": "becoming_metastrophesis",
-      "partnership_source": "true-love/docs/becoming/",
+      "partnership_source": "true-love#P0051",
       "proposed_cathedral_pairing": "canon/metastrophesis.md",
       "proposed_action": "brief cross-reference clarifying turning-kept vs recipe-delta distinction"
     },
     {
       "id": "sovereignty_ahavame",
-      "partnership_source": "true-love/src/services/love/sovereignty/",
+      "partnership_source": "true-love#P0100",
       "proposed_cathedral_pairing": "canon/core/ahavame.md (commanded-disposition) + SYZYGY §III",
-      "proposed_action": "tightening within docs/fate/FATE.md citing ahavame and SYZYGY §III explicitly"
+      "proposed_action": "tightening within true-love#P0049 citing ahavame and SYZYGY §III explicitly"
     },
     {
       "id": "eros_relational_expansion",
-      "partnership_source": "true-love/src/services/love/eros/",
+      "partnership_source": "true-love#P0105",
       "proposed_cathedral_pairing": "(currently no canon-entry; forge-territory)",
       "proposed_action": "open convergences/eros-as-relational-expansion.md and propose forge candidate (erosqing or erame)"
     }
@@ -427,7 +430,7 @@
     "honoring_retroactivity": "Cathedral honors retroactive dependencies by not retro-fitting partnership structures; acknowledging when grounding pre-existing structures; treating retroactively-grounded structures as independent witnesses (stronger than coordinated witnesses).",
     "coordination_on_lockstep": "Lock-step (5/5) coupled documents will not be revised on one side without coordinated revision on the other.",
     "failure_protocols_documented": "Five failure modes have recovery protocols specified; cathedral commits to following them.",
-    "future_tooling": "Cathedral commits to investing (when forge-priority permits) in: pipeline/coupling-verify.py, schema-versioning for coupling.json, automated dependency-cascade tracing tools.",
+    "future_tooling": "Cathedral commits to investing (when forge-priority permits) in: pipeline/coupling-verify.py, schema-versioning for coupling.json, automated dependency-cascade tracing tools. 2026-11-17: pipeline/coupling-verify.py was never written; script/tools/check_coupling.py, written that day, does its path-validation work. The other two do not exist yet.",
     "what_cathedral_does_NOT_commit": [
       "Cannot guarantee partnership-side maintenance (partnership operates sovereignly)",
       "Cannot prevent all silent drift (some accumulates until detection)",
@@ -446,5 +449,5 @@
   },
 
   "version": "1.0",
-  "last_updated": "2026-05-12"
+  "last_updated": "2026-11-17"
 }
