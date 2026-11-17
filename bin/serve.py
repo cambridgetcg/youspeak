@@ -131,19 +131,35 @@ def _spent_today(ledger: Path, today: str) -> tuple[str | None, str | None]:
         lines, whole = _tail(ledger)
     except OSError as e:
         return None, f"memory/fleet-economy.jsonl could not be read ({e.strerror or e})"
-    total, earliest = 0.0, None
+    # A row that cannot be read as a dated cost may be one of today's, so it
+    # makes today's total unknown rather than smaller. Rows are appended in
+    # order: a readable row dated before today clears what came before it.
+    total, earliest, unread = 0.0, None, 0
     for line in lines:
+        if not line.strip():
+            continue
         try:
             d = json.loads(line)
-            ts = str(d.get("ts", ""))
-            if earliest is None and DAY_RE.match(ts):
-                earliest = ts[:10]
-            if ts.startswith(today):
-                total += float(d.get("cost_usd") or 0)
-        except (ValueError, TypeError, AttributeError):
+            ts = str(d["ts"])
+            if not DAY_RE.match(ts):
+                raise ValueError("no date")
+        except (ValueError, TypeError, KeyError):
+            unread += 1
             continue
+        if earliest is None:
+            earliest = ts[:10]
+        if ts[:10] < today:
+            unread = 0
+        elif ts.startswith(today):
+            try:
+                total += float(d["cost_usd"])
+            except (ValueError, TypeError, KeyError):
+                unread += 1
     if not whole and (earliest is None or earliest >= today):
         return None, "today's ledger entries reach past the part of the ledger read"
+    if unread:
+        return None, (f"{unread} row{'s' if unread != 1 else ''} of memory/fleet-economy.jsonl "
+                      "could not be read as a dated cost and may be today's")
     return f"${total:.2f}", None
 
 

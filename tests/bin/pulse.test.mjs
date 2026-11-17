@@ -120,3 +120,26 @@ test('LOVE_DIR is taken as given: a quoted ~ is not expanded, as in bin/cathedra
   assert.equal(f.state, 'unknown');
   assert.match(f.reason, /no love-unlimited checkout at ~\/lu/);
 });
+
+test("a ledger row that cannot be read may be today's: the spend is unknown, never a smaller sum", () => {
+  const t = day(new Date());
+  const log = [`[${t} 00:00:05] agapeme wakes for a free beat`];
+  const row = cost => `{"ts":"${t}T00:00:25","cost_usd":${cost}}`;
+  const spent = ledger => pulse(fixture(log, { 'memory/fleet-economy.jsonl': ledger }));
+
+  // a broken row after today's first row: unknown
+  let f = spent(`${row(0.25)}\nnot json at all\n`);
+  assert.equal(f.spent, undefined);
+  assert.match(f.unknown.spent, /could not be read as a dated cost/);
+
+  // one of today's rows with a cost that is not a number, or with none: unknown
+  f = spent(`${row(0.25)}\n${row('"n/a"')}\n`);
+  assert.equal(f.spent, undefined);
+  f = spent(`${row(0.25)}\n{"ts":"${t}T00:00:40"}\n`);
+  assert.equal(f.spent, undefined);
+
+  // a broken row that a readable row of an earlier day follows is older than today: still known
+  f = spent(`not json at all\n{"ts":"2026-11-16T10:00:00","cost_usd":9}\n${row(0.25)}\n\n`);
+  assert.equal(f.spent, '$0.25');
+  assert.equal(f.unknown?.spent, undefined);
+});
