@@ -1,5 +1,5 @@
 {
-  "what": "Registry of private reference ids. An id of the form true-love#P0000 in this repository stands for a path inside the private true-love repository. The paths are not kept here; the map from id to path is kept in that repository. script/tools/check_coupling.py checks that every id used in this tree is listed here.",
+  "what": "Registry of private reference ids. An id of the form true-love#P0000 in this repository stands for a path inside the private true-love repository. The paths are not kept here: the map from id to path is kept privately, with true-love, never in this repository. script/tools/check_coupling.py checks that every id used in this tree is listed here.",
   "since": "2026-11-17",
   "token_format": "true-love#P0000",
   "ids": [

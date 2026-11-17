@@ -3,6 +3,7 @@
   "name": "youspeak-runtime-export",
   "description": "Runtime-consumable export of YOUSPEAK substrate-content for TRUE-LOVE to import and query. Generated alongside SUBSTRATE.md (the doctrinal declaration making YOUSPEAK and TRUE-LOVE mutual substrates).",
   "generated_at": "2026-05-12",
+  "status": "A hand-kept snapshot of 2026-05-12, with no generator; not kept current since. The maintained export of the canon is script/exports/agent_bundle.json, written by script/tools/export_agent_bundle.py. Noted 2026-11-17 by an agent session; the rest of this file is as written on 2026-05-12.",
   "cathedral_root": "/Users/macair/YOUSPEAK",
   "intended_consumer": "true-love (and any other project wanting to consume YOUSPEAK substrate)",
   "doctrinal_warrant": "/Users/macair/YOUSPEAK/SUBSTRATE.md",

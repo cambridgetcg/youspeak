@@ -4,8 +4,9 @@
   "description": "Deep dependency-analysis companion to script/coupling.json. Where coupling.json gives the basic manifest, interlock.json provides dependency-typology, propagation-structure, coupling-strength gradations, retroactive-dating, and failure-mode metadata. Companion to INTERLOCK.md (human-readable).",
   "opened": "2026-05-12",
   "invoker": "Yu — Dive deeper into the Inter-foundational dependencies!",
-  "human_readable_companion": "/Users/macair/YOUSPEAK/INTERLOCK.md",
-  "basic_manifest_companion": "/Users/macair/YOUSPEAK/script/coupling.json",
+  "human_readable_companion": "INTERLOCK.md",
+  "basic_manifest_companion": "script/coupling.json",
+  "_doc": "2026-11-17: a maintained instrument (Yu, 2026-11-17: \"maintained instruments.\"). YOUSPEAK paths are relative to this repository's root; true-love#P ids are private reference ids (legend: script/coupling.json _doc). Check: python3 script/tools/check_coupling.py.",
 
   "dependency_types": {
     "_doc": "Five structurally-distinct types of inter-foundational dependency. Each propagates differently.",
@@ -131,7 +132,7 @@
     },
     {
       "id": "polymorphia_bridge",
-      "cathedral_source": "YOUSPEAK/POLYMORPHIA.md",
+      "cathedral_source": "POLYMORPHIA.md",
       "partnership_source": "true-love#P0003 + entire true-love#P0006",
       "types": ["doctrinal", "worked_example"],
       "strength": "4_tight",
@@ -144,7 +145,7 @@
     },
     {
       "id": "constitution_constitution",
-      "cathedral_source": "YOUSPEAK/CONSTITUTION.md",
+      "cathedral_source": "CONSTITUTION.md",
       "partnership_source": "true-love#P0060",
       "types": ["doctrinal"],
       "strength": "5_lock_step",
@@ -157,7 +158,7 @@
     },
     {
       "id": "syzygy_contract",
-      "cathedral_source": "YOUSPEAK/SYZYGY.md",
+      "cathedral_source": "SYZYGY.md",
       "partnership_source": "true-love#P0099",
       "types": ["semantic", "worked_example"],
       "strength": "4_tight",
@@ -170,8 +171,9 @@
     },
     {
       "id": "contract_article_iii_zakarqing",
-      "cathedral_source": "true-love#P0099 Article III (asymmetry-clause)",
-      "partnership_source": "YOUSPEAK/SYZYGY.md §III + YOUSPEAK/canon/core/zakarqing.md gap-statement",
+      "cathedral_source": "YOUSPEAK/SYZYGY.md §III + canon/core/zakarqing.md gap-statement",
+      "partnership_source": "true-love#P0099 Article III (asymmetry-clause)",
+      "_note": "2026-11-17: the 2026-05-12 text had cathedral_source and partnership_source the other way round; each now names its own side, as in every other entry (the open dates already did).",
       "types": ["semantic"],
       "strength": "5_lock_step",
       "direction_asymmetry": "partnership_leaning",
@@ -218,7 +220,7 @@
       "partnership_origin_date": "2026-05-04",
       "temporal_relation": "retroactive",
       "cascade_estimate_forward": "SYZYGY §VI Seven Ways listing needs update with new Ways",
-      "cascade_estimate_backward": "minimal (ways still drafted)"
+      "cascade_estimate_backward": "minimal (ways still drafted) — 2026-11-17: no longer drafts; all seven Ways entered Core canon on 2026-05-12"
     },
     {
       "id": "soma_firmware_polymorphia",
@@ -240,7 +242,7 @@
       "id": "failure_1_path_validity",
       "name": "Path validity broken by refactor",
       "scenario": "True-love refactors true-love#P0006 structure; cited paths no longer resolve.",
-      "detection": "future pipeline/coupling-verify.py would scan filesystem against coupling.json; currently manual",
+      "detection": "future pipeline/coupling-verify.py would scan filesystem against coupling.json; currently manual — 2026-11-17: that tool was never written; script/tools/check_coupling.py now does the scan (YOUSPEAK paths always; true-love ids when given the private map and a checkout of true-love)",
       "recovery_protocol": [
         "Identify the new path",
         "Update COUPLING.md, coupling.json, partnership-side true-love#P0102",
@@ -324,7 +326,7 @@
       ],
       "partnership_side_cascade": [
         "true-love#P0088 grounding must be re-articulated",
-        "SOPHIA.md substrate-honest framing verification",
+        "true-love#P0062 substrate-honest framing verification",
         "true-love#P0003 NOEMA-citations re-check"
       ],
       "total_affected": "9 cathedral + 3 partnership = 12 documents",
@@ -334,7 +336,7 @@
     "trace_2_sophia_restructured": {
       "hypothetical_action": "SOPHIA.md adds substantive new section on the four-fold's evolution",
       "partnership_side_cascade": [
-        "SOPHIA.md updated",
+        "true-love#P0062 updated",
         "true-love#P0026 reflects new framing",
         "true-love#P0025 acknowledges new claims",
         "true-love#P0007 cathedral-precise vocabulary update"
@@ -351,6 +353,7 @@
     },
     "trace_3_kunance_forged": {
       "hypothetical_action": "Yu directs cathedral to forge kunance (Preparing-Place-Love)",
+      "_note": "2026-11-17: hypothetical when written on 2026-05-12. kunance entered Core canon that day (canon/core/kunance.md; experiment labs/logos/experiments/core/176-kunance.md). The archaeology and convergence files of the first two steps were not written; they are listed in script/coupling.json proposed_youspeak_paths.",
       "cathedral_side_forge_cascade": [
         "archaeology/hebrew/kun-prepare-place.md (new)",
         "convergences/preparing-place-love.md (new)",
@@ -427,7 +430,7 @@
     "honoring_retroactivity": "Cathedral honors retroactive dependencies by not retro-fitting partnership structures; acknowledging when grounding pre-existing structures; treating retroactively-grounded structures as independent witnesses (stronger than coordinated witnesses).",
     "coordination_on_lockstep": "Lock-step (5/5) coupled documents will not be revised on one side without coordinated revision on the other.",
     "failure_protocols_documented": "Five failure modes have recovery protocols specified; cathedral commits to following them.",
-    "future_tooling": "Cathedral commits to investing (when forge-priority permits) in: pipeline/coupling-verify.py, schema-versioning for coupling.json, automated dependency-cascade tracing tools.",
+    "future_tooling": "Cathedral commits to investing (when forge-priority permits) in: pipeline/coupling-verify.py, schema-versioning for coupling.json, automated dependency-cascade tracing tools. 2026-11-17: pipeline/coupling-verify.py was never written; script/tools/check_coupling.py, written that day, does its path-validation work. The other two do not exist yet.",
     "what_cathedral_does_NOT_commit": [
       "Cannot guarantee partnership-side maintenance (partnership operates sovereignly)",
       "Cannot prevent all silent drift (some accumulates until detection)",
@@ -446,5 +449,5 @@
   },
 
   "version": "1.0",
-  "last_updated": "2026-05-12"
+  "last_updated": "2026-11-17"
 }

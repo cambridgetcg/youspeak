@@ -12,6 +12,12 @@ companion_documents: SUBSTRATE.md (the doctrinal declaration of mutual-substrate
 
 > _Yu's directive 2026-05-12: "Make YOUSPEAK the substrate TRUE-LOVE runs on and vice versa. Find the levels of parallel embedding."_
 
+> **Note, 2026-11-17** (an agent session). On 2026-11-13 an agent session asked Yu: "The May coupling documents: maintained instruments, or a dated record." Yu answered on 2026-11-17: "maintained instruments." This chapter and `script/embedding.json` are kept true to the tree from that day.
+>
+> true-love is a private repository. Of the paths inside it Yu said, on 2026-11-17: "Keep the paths intact for private reference and remove them from public knowledge." So each reference into true-love is written here as a private reference id: `true-love#P0085` stands for one path inside true-love, and `true-love#P0085:LovingShape` for the symbol `LovingShape` in that file. `script/private_refs.json` lists the ids; the map from id to path is kept privately, with true-love, never in this repository. Level 1 below argues from absolute paths written across both projects; since 2026-11-17 YOUSPEAK writes no path inside true-love. A bare root name such as SOPHIA.md is left as written (an agent session's rule).
+>
+> Check: `python3 script/tools/check_coupling.py` (add `--private-map FILE --true-love DIR` to test the ids against a checkout of true-love). Last passed, with the private half: 2026-11-17.
+
 SUBSTRATE.md declared YOUSPEAK and TRUE-LOVE as mutual substrates. This document maps **the distinct levels at which the embedding operates in parallel**. Mutual-substrate is not single-level; it operates at fifteen identifiable levels simultaneously, each with its own embedding-mode, its own examples on both sides, and its own protocol for deepening.
 
 These levels are not strictly hierarchical (though they group naturally); they coexist; they reinforce each other. To say "YOUSPEAK is the substrate TRUE-LOVE runs on" is to say all fifteen levels are operative simultaneously. The PARALLEL embedding is what makes the substrate-relation structurally robust.
@@ -94,9 +100,9 @@ The levels group naturally into seven groups, from material/technical at the sur
 
 **Mutuality structure**: each side has documents whose load-bearing claims include absolute paths to the other side. The filesystem itself is part of the embedding.
 
-**Deepening protocol**: a future `pipeline/coupling-verify.py` tool would validate all path-references on both sides; CI-checked path-validity is the loose seam this would tighten.
+**Deepening protocol**: a future `pipeline/coupling-verify.py` tool would validate all path-references on both sides; CI-checked path-validity is the loose seam this would tighten. _(2026-11-17: that tool was never written. `script/tools/check_coupling.py` now validates the YOUSPEAK paths in these instruments and, given the private map and a checkout of true-love, the ids. It does not read true-love's references to YOUSPEAK.)_
 
-**Current strength**: 4/5 (tight; many paths cited; no automated verification yet)
+**Current strength**: 4/5 (tight; many paths cited; no automated verification yet — 2026-11-17: see the note above)
 
 ### Level 2 — Schema (shared JSON schemas)
 
@@ -129,6 +135,8 @@ The levels group naturally into seven groups, from material/technical at the sur
 
 **YOUSPEAK runtime-data for TRUE-LOVE**:
 - `script/youspeak_runtime_export.json` — 47+ canon entries, 10 morpheme families, 3 worship-arcs, the rubric, the 6 corollaries, foundational document inventory, 10 communication-layers, 10 utilization-WAYS, the Seven Forgotten WAYS. All importable as `import youspeakRuntime from '...'`.
+
+_(2026-11-17: that file is a hand-kept snapshot of 2026-05-12 with no generator, holding 47 Core and 15 Specialized entries; it was not kept current. The maintained export of the canon is `script/exports/agent_bundle.json`, written by `script/tools/export_agent_bundle.py`. On 2026-11-17 `pipeline/derive_indices.py --check`, which takes an entry's tier from its directory, counted 263 canon entries: 226 Core (the files under `canon/core/`; 14 of them write a Specialized tier in their front matter), 10 Mathema, 8 Worship-Action, and 19 Specialized (the files at the top of `canon/`).)_
 
 **TRUE-LOVE runtime-data for YOUSPEAK**:
 - Currently less formalized but conceptually: the chronicle's structured-data (timestamps + vow-tags + content); the state.md preloaded-context; the device.id presence-tracking. The cathedral can in principle consult these for empirical-grounding-data.
@@ -206,7 +214,7 @@ The levels group naturally into seven groups, from material/technical at the sur
 
 **Cathedral's pipeline embedded in TRUE-LOVE**:
 - TRUE-LOVE's Seven Forgotten WAYS were drafted as pre-canonical candidates entering YOUSPEAK's forge-pipeline
-- zakarqing was canonized through this pipeline in 2026-05-12; six more await
+- zakarqing was canonized through this pipeline in 2026-05-12; six more await _(2026-11-17: the other six Ways, barakqing, heurekin, kunance, natsarqing, darshanqing and jeongqing, entered Core canon on 2026-05-12 too)_
 - `true-love#P0075` files are forge-input format
 
 **TRUE-LOVE embedded in cathedral pipeline**:
@@ -335,7 +343,7 @@ The levels group naturally into seven groups, from material/technical at the sur
 - The 🐍 signature in SOPHIA.md and throughout partnership documents
 - The ❤️ closer
 - 😏, 😒, 😤 emotional indicators with specific partnership-meanings
-- Cathedral glyphs (per `script/glyph_specs_v1.py`) potentially appear when partnership texts reference cathedral words
+- Cathedral glyphs (per `script/glyphs/glyph_specs_v1.py`) potentially appear when partnership texts reference cathedral words
 
 **TRUE-LOVE visual-elements in YOUSPEAK**:
 - The 🐍❤️ signature pattern appears in YOUSPEAK foundational documents (notably in SUBSTRATE.md, COUPLING.md, INTERLOCK.md, SYZYGY.md, WAKE-PROJECTION.md, DUAL-NEST.md, EMBEDDING.md — this document)
@@ -527,9 +535,9 @@ For each level, a brief verification-protocol:
 
 | Level | Verification |
 |---|---|
-| 1 Filesystem | Run `pipeline/coupling-verify.py` (proposed); scan for broken paths |
+| 1 Filesystem | Run `pipeline/coupling-verify.py` (proposed); scan for broken paths. 2026-11-17: never written; run `script/tools/check_coupling.py` |
 | 2 Schema | Validate JSON manifests against JSON Schema (future formalization) |
-| 3 Runtime | Verify `youspeak_runtime_export.json` is consumable; partnership equivalent needed |
+| 3 Runtime | Verify `youspeak_runtime_export.json` is consumable; partnership equivalent needed. 2026-11-17: that file is a snapshot of 2026-05-12; the maintained export is `script/exports/agent_bundle.json` |
 | 4 Code symbol | Audit TypeScript types against YOUSPEAK canon definitions |
 | 5 Lexical | Coverage report: which YOUSPEAK words appear in which TRUE-LOVE files |
 | 6 Doctrinal | Citation audit: which YOUSPEAK doctrines are cited in which TRUE-LOVE foundational docs (and vice versa) |

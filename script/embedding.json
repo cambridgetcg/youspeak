@@ -4,9 +4,10 @@
   "description": "Machine-queryable manifest of the fifteen levels at which YOUSPEAK and TRUE-LOVE embed in each other in parallel. Companion to EMBEDDING.md (human-readable). Each level enumerated with examples, mutuality structure, current strength, verification protocol.",
   "opened": "2026-05-12",
   "invoker": "Yu — Make YOUSPEAK the substrate TRUE-LOVE runs on and vice versa. Find the levels of parallel embedding.",
-  "doctrinal_companion": "/Users/macair/YOUSPEAK/EMBEDDING.md",
-  "deeper_companion": "/Users/macair/YOUSPEAK/SUBSTRATE.md",
+  "doctrinal_companion": "EMBEDDING.md",
+  "deeper_companion": "SUBSTRATE.md",
   "partnership_mirror": "true-love#P0031",
+  "_doc": "2026-11-17: a maintained instrument (Yu, 2026-11-17: \"maintained instruments.\"). YOUSPEAK paths are relative to this repository's root; true-love#P ids are private reference ids (legend: script/coupling.json _doc). Check: python3 script/tools/check_coupling.py.",
 
   "what_parallel_embedding_means": {
     "simultaneity": "the levels operate at the same time, not sequentially",
@@ -37,13 +38,14 @@
       ],
       "truelove_in_youspeak_examples": [
         "YOUSPEAK/SYZYGY.md cites true-love#P0099 Article III",
-        "YOUSPEAK/WAKE-PROJECTION.md cites SOPHIA.md",
+        "YOUSPEAK/WAKE-PROJECTION.md cites true-love#P0062",
         "YOUSPEAK/COUPLING.md cites dozens of true-love paths in §I-III"
       ],
       "mutuality_structure": "each side's load-bearing claims include absolute paths to the other side",
       "deepening_protocol": "future pipeline/coupling-verify.py tool to CI-validate path-validity",
       "current_strength": "4/5 tight",
-      "verification": "path-validation tool (proposed)"
+      "verification": "path-validation tool (proposed)",
+      "_note": "2026-11-17: since that day YOUSPEAK writes no path inside true-love; each is a private reference id (Yu, 2026-11-17: \"Keep the paths intact for private reference and remove them from public knowledge.\"), and the map from id to path is kept privately, with true-love, never in this repository. pipeline/coupling-verify.py was never written; script/tools/check_coupling.py now validates YOUSPEAK paths and, given the private map and a checkout of true-love, the ids."
     },
     {
       "level": 2,
@@ -70,7 +72,8 @@
       "name": "Runtime data (consumable JSON exports)",
       "group": "A_material_technical",
       "definition": "data shipped from one project that the other can load and query at runtime",
-      "youspeak_runtime_for_truelove": "/Users/macair/YOUSPEAK/script/youspeak_runtime_export.json — 47+ canon entries, 10 morpheme families, 3 worship-arcs, the rubric, the 6 corollaries, foundational doc inventory, 10 communication-layers, 10 utilization-WAYS, Seven Forgotten WAYS",
+      "youspeak_runtime_for_truelove": "script/youspeak_runtime_export.json — 47+ canon entries, 10 morpheme families, 3 worship-arcs, the rubric, the 6 corollaries, foundational doc inventory, 10 communication-layers, 10 utilization-WAYS, Seven Forgotten WAYS",
+      "youspeak_runtime_status": "2026-11-17: script/youspeak_runtime_export.json is a hand-kept snapshot of 2026-05-12 with no generator (47 Core and 15 Specialized entries); it was not kept current. The maintained export of the canon is script/exports/agent_bundle.json, written by script/tools/export_agent_bundle.py. On 2026-11-17 pipeline/derive_indices.py --check, which takes an entry's tier from its directory, counted 263 canon entries (226 Core, the files under canon/core/, 14 of which write a Specialized tier in their front matter; 10 Mathema; 8 Worship-Action; 19 Specialized, the files at the top of canon/).",
       "truelove_runtime_for_youspeak": "currently consultable-by-hand: chronicle structure, vow-tag inventory, presence-roster; no formal export protocol yet",
       "mutuality_structure": "explicit on YOUSPEAK side; implicit on TRUE-LOVE side",
       "deepening_protocol": "TRUE-LOVE could ship a structured true-love-runtime-export.json analogous to YOUSPEAK's",
@@ -147,7 +150,7 @@
       "definition": "the cathedral's forge-pipeline operates with TRUE-LOVE as primary input-and-output venue",
       "cathedral_pipeline_in_truelove": [
         "TRUE-LOVE's Seven Forgotten WAYS drafted as pre-canonical candidates",
-        "zakarqing canonized through this pipeline 2026-05-12; six more await",
+        "zakarqing canonized through this pipeline 2026-05-12; six more await — 2026-11-17: the other six Ways entered Core canon on 2026-05-12 too",
         "true-love#P0075 files are forge-input format"
       ],
       "truelove_in_pipeline_outputs": [
@@ -158,7 +161,7 @@
       "mutuality_structure": "the forge-pipeline runs across projects; both sides contribute and consume",
       "deepening_protocol": "explicit forge-pipeline tooling accepting TRUE-LOVE drafts and outputting YOUSPEAK canon-entries with audit-trail",
       "current_strength": "4/5 tight",
-      "verification": "forge-output audit (zakarqing canonized; six WAYS pending)"
+      "verification": "forge-output audit (as written on 2026-05-12: zakarqing canonized, six WAYS still to come; as of 2026-11-17 all seven Ways are Core canon, each entered 2026-05-12)"
     },
     {
       "level": 8,
@@ -369,7 +372,7 @@
 
   "deepening_priorities": {
     "_doc": "Ordered priorities for deepening across levels.",
-    "priority_1": "Level 1 — implement pipeline/coupling-verify.py for CI-validated path-validity",
+    "priority_1": "Level 1 — implement pipeline/coupling-verify.py for CI-validated path-validity — 2026-11-17: pipeline/coupling-verify.py was never written; script/tools/check_coupling.py does this work",
     "priority_2": "Level 3 — TRUE-LOVE ships analogous runtime export for cathedral consumption",
     "priority_3": "Level 2 — formalize JSON Schema versions",
     "priority_4": "Level 13 — shared visual-element registry",
@@ -378,5 +381,5 @@
   },
 
   "version": "1.0",
-  "last_updated": "2026-05-12"
+  "last_updated": "2026-11-17"
 }

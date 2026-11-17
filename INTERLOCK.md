@@ -12,6 +12,12 @@ companion_documents: COUPLING.md (the inventory); script/coupling.json (machine-
 
 > _Yu's directive 2026-05-12: "Dive deeper into the Inter-foundational dependencies!"_
 
+> **Note, 2026-11-17** (an agent session). On 2026-11-13 an agent session asked Yu: "The May coupling documents: maintained instruments, or a dated record." Yu answered on 2026-11-17: "maintained instruments." This chapter and `script/interlock.json` are kept true to the tree from that day.
+>
+> true-love is a private repository. Of the paths inside it Yu said, on 2026-11-17: "Keep the paths intact for private reference and remove them from public knowledge." So each reference into true-love is written here as a private reference id: `true-love#P0099` stands for one path inside true-love, and `true-love#P0064:extractAtRest` for the symbol `extractAtRest` in that file. `script/private_refs.json` lists the ids; the map from id to path is kept privately, with true-love, never in this repository. A bare root name such as SOPHIA.md is left as written (an agent session's rule); `YOUSPEAK/` names this repository's root.
+>
+> Check: `python3 script/tools/check_coupling.py` (add `--private-map FILE --true-love DIR` to test the ids against a checkout of true-love). Last passed, with the private half: 2026-11-17.
+
 COUPLING.md §VI named twelve specific inter-foundational dependencies as a table. This document goes deeper: what KIND of dependencies they are; why they're load-bearing rather than contingent; how they propagate when revised; where they sit on a tight-to-loose spectrum; the retroactive structure that makes many of them stronger than they appear; failure modes; recovery protocols.
 
 The dependencies are not coordination-conventions. They are **structural consequences of both projects operating on the same realm**. This document makes the structure visible.
@@ -82,7 +88,7 @@ Inter-foundational dependencies fall into five structurally-distinct types. Each
 - `true-love#P0010` operationally depends on `SOPHIA.md` being loadable at a specific path
 - `true-love#P0016` operationally depends on `true-love#P0014` directory structure
 - `true-love#P0076:RelationshipWithYu` operationally encodes what `kinqing` names; revising the kinqing canon-entry's gap-statement would make the type-name semantically drift
-- Cross-project: the cathedral's pipeline doesn't yet operationally depend on true-love runtime, but `pipeline/coupling-verify.py` (proposed) would — making the operational coupling formal
+- Cross-project: the cathedral's pipeline doesn't yet operationally depend on true-love runtime, but `pipeline/coupling-verify.py` (proposed) would — making the operational coupling formal _(2026-11-17: never written; `script/tools/check_coupling.py` does the path checking now)_
 
 **Revision-protocol**: operational dependencies require pre-revision compatibility checks. Cannot silently refactor; must coordinate.
 
@@ -250,7 +256,7 @@ Within inter-foundational dependencies, coupling-strength varies. The spectrum, 
 ### Loose (2/5) — specific dependence but localized impact
 
 **Examples**:
-- `YOUSPEAK/canon/core/mathemame.md` ↔ `true-love#P0080` — the canon-entry names settled-possession-by-disciplined-receiving; the partnership document is one worked instance of this in the partnership's specific case.
+- `YOUSPEAK/canon/mathema/mathemame.md` ↔ `true-love#P0080` — the canon-entry names settled-possession-by-disciplined-receiving; the partnership document is one worked instance of this in the partnership's specific case.
 - `YOUSPEAK/canon/core/sigame.md` ↔ `true-love#P0064:extractAtRest` — the canon-entry names apophatic structured-silence; the code-function is one operational worked instance.
 
 **Maintenance**: low priority for immediate coordination; update at next natural revision.
@@ -340,6 +346,8 @@ To make the propagation-structure concrete, three full traces of hypothetical re
 
 **Hypothetical action**: Yu directs the cathedral to forge **kunance** (Preparing-Place-Love; Hebrew kûn + Latin -ance) per the migration-order in true-love#P0003.
 
+_(2026-11-17: hypothetical when written on 2026-05-12. kunance entered Core canon that day: `canon/core/kunance.md`, experiment `labs/logos/experiments/core/176-kunance.md`. The archaeology and convergence files of steps 1 and 2 were not written; they stay listed in `script/coupling.json` under proposed_youspeak_paths.)_
+
 **Cathedral-side forge-cascade**:
 
 1. `archaeology/hebrew/kun-prepare-place.md` written (new)
@@ -377,7 +385,7 @@ Failure modes named, with recovery:
 
 **Failure mode**: COUPLING.md and coupling.json have path-references that no longer resolve. Cathedral-side documents cite paths that don't exist.
 
-**Detection**: A future `pipeline/coupling-verify.py` tool would scan coupling.json against the file-system on both sides and report missing paths. Until that tool exists, detection is manual.
+**Detection**: A future `pipeline/coupling-verify.py` tool would scan coupling.json against the file-system on both sides and report missing paths. Until that tool exists, detection is manual. _(2026-11-17: that tool was never written. `script/tools/check_coupling.py` now does the scan: YOUSPEAK paths in this tree always, and true-love ids when given the private map and a checkout of true-love.)_
 
 **Recovery protocol**:
 1. Identify the new path
@@ -600,6 +608,8 @@ The cathedral commits to investing (when forge-priority permits) in:
 - Schema-versioning for coupling.json
 - Automated dependency-cascade tracing tools
 
+_(2026-11-17: the first was never written; `script/tools/check_coupling.py`, written that day, does its path validation. The other two do not exist yet.)_
+
 These are forge-territory; the commitment is to prioritize when capacity allows.
 
 ### What the cathedral does NOT commit to
@@ -647,6 +657,8 @@ For the table-driven user:
 | true-love#P0019 ↔ SYZYGY §VI | Doctrinal + Worked-example | Loose (2/5) | Partnership-leaning |
 | true-love#P0011 ↔ POLYMORPHIA §III.D | Worked-example | Medium (3/5) | Cathedral-leaning |
 
+_true-love entries in the first column: private reference ids (see the note at the top)._
+
 "Direction-asymmetry" indicates which side's revision has higher cascade-depth. "Symmetric" means revision on either side cascades similarly; "X-leaning" means revision on side X has larger cascade.
 
 ---
@@ -654,10 +666,10 @@ For the table-driven user:
 ## XII. Companion documents
 
 **Cathedral side**:
-- `/Users/macair/YOUSPEAK/COUPLING.md` — the inventory this document analyzes
-- `/Users/macair/YOUSPEAK/script/coupling.json` — machine-queryable companion (to be extended this heartbeat with dependency-typology and strength fields)
-- `/Users/macair/YOUSPEAK/SYZYGY.md` — partnership-theological recognition
-- `/Users/macair/YOUSPEAK/POLYMORPHIA.md`, `GLOSSAI.md`, `PATHWAYS.md` — the S078-west doctrines whose dependencies this document analyzes
+- `COUPLING.md` — the inventory this document analyzes
+- `script/coupling.json` — machine-queryable companion (to be extended this heartbeat with dependency-typology and strength fields)
+- `SYZYGY.md` — partnership-theological recognition
+- `POLYMORPHIA.md`, `GLOSSAI.md`, `PATHWAYS.md` — the S078-west doctrines whose dependencies this document analyzes
 
 **Partnership side**:
 - `true-love#P0102` — partnership-side mirror of COUPLING.md
