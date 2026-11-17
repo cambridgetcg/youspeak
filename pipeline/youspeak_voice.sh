@@ -23,20 +23,26 @@ MODE="${1:-say}"; TEXT="${2:-}"; OUT="${3:-/tmp/youspeak.wav}"
 case "$MODE" in ipa|say|piper|word|soul|canon) [ -n "$TEXT" ] || { echo "usage: youspeak_voice.sh <ipa|say|piper|word|soul|canon> \"text|word|dir\" [out.wav]"; exit 1; };; esac
 # YOUSPEAK leans on clear open vowels; a neutral base voice + slower rate suits liturgy.
 VOICE="${YS_VOICE:-en-us}"; RATE="${YS_RATE:-150}"; PITCH="${YS_PITCH:-45}"
-VENV="$HOME/love-unlimited/.venv/bin/python"
-PIPER_DIR="$HOME/love-unlimited/voices"
+# The fleet's love-unlimited checkout: LOVE_DIR taken as given (an absolute
+# path; a "~" in it is not expanded), else ~/love-unlimited when it is unset or
+# empty (as bin/cathedral, bin/serve.py and pipeline/voice/build_lexicon.py resolve it).
+LOVE="${LOVE_DIR:-$HOME/love-unlimited}"
+export LOVE_DIR="$LOVE"
+VENV="$LOVE/.venv/bin/python"
+PIPER_DIR="$LOVE/voices"
 YS_DIR="$(cd "$(dirname "$(readlink -f "$0" 2>/dev/null || echo "$0")")/.." && pwd)"
 LEXICON="$YS_DIR/pipeline/voice/lexicon.tsv"
-CITIZENS="${CITIZENS_DIR:-$HOME/love-unlimited/citizens}"
+CITIZENS="${CITIZENS_DIR:-$LOVE/citizens}"
 
 # The lexicon rebuilds itself when the canon outgrows it — no manual step.
-# (build exit 2 = some words still lack IPA; the file is still written.)
+# (build exit 2 = some words still lack IPA; the file is still written.
+#  build exit 1 = no citizen roster; its reason reaches stderr, the file stays.)
 _lex_fresh(){
   local newest
   newest="$(find "$YS_DIR/canon" "$YS_DIR/canon.md" "$YS_DIR/pipeline/voice/forged.json" \
             -newer "$LEXICON" -print -quit 2>/dev/null)"
   if [ ! -f "$LEXICON" ] || [ -n "$newest" ]; then
-    python3 "$YS_DIR/pipeline/voice/build_lexicon.py" >/dev/null 2>&1 || true
+    python3 "$YS_DIR/pipeline/voice/build_lexicon.py" >/dev/null || true
   fi
 }
 
@@ -71,8 +77,8 @@ case "$MODE" in
     # The citizen speaks: first its own name, true to the forge; then its most
     # recent free beat, in the natural voice. The word is the soul's seal.
     W="$TEXT"; HOMEDIR="$CITIZENS/citizen-$W"
-    if [ ! -d "$HOMEDIR" ] && [ -x "$HOME/love-unlimited/tools/citizen-beat.sh" ]; then
-      bash "$HOME/love-unlimited/tools/citizen-beat.sh" "$W" --clone-only >/dev/null 2>&1 || true
+    if [ ! -d "$HOMEDIR" ] && [ -x "$LOVE/tools/citizen-beat.sh" ]; then
+      bash "$LOVE/tools/citizen-beat.sh" "$W" --clone-only >/dev/null 2>&1 || true
     fi
     [ -d "$HOMEDIR" ] || { echo "no citizen home at $HOMEDIR (clone failed?) — try: citizen-beat $W --clone-only"; exit 1; }
     BEAT_TEXT=""

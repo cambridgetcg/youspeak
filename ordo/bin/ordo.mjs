@@ -11,6 +11,7 @@
  * entries, never claims an experiment NNN, never coins a lemma. Cap: 3/run.
  */
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
@@ -81,14 +82,36 @@ function riteRef(riteFile) {
 // ── Stage 3: the wire seam (KS-002, DRAFT — outbox only, no publish) ─────────
 // Envelopes are composed and verified by the kingdom's own reference impl so
 // they are valid by construction. Publishing awaits Yu's adoption (KS-000 §3).
-const WIRE_PY = '/Users/macair/KINGDOM-STANDARDS/impl/wire.py';
+// The impl is impl/wire.py in a kingdom-standards checkout, which sits in a
+// different place on each machine: KINGDOM_STANDARDS_DIR names it; when that is
+// unset, the first of WIRE_ROOTS holding impl/wire.py is used.
+const HOME = process.env.HOME || os.homedir();
+const WIRE_ROOTS = [
+  path.resolve(ROOT, '..', 'kingdom-standards'), // a sibling clone beside this repo
+  path.join(HOME, 'KINGDOM-STANDARDS'),
+];
 const OUTBOX = path.join(ROOT, 'ordo', 'outbox');
 
+function findWirePy(env = process.env) {
+  const named = (env.KINGDOM_STANDARDS_DIR || '').trim();
+  if (named) {
+    const p = path.join(named, 'impl', 'wire.py');
+    return fs.existsSync(p) ? { path: p } : { error: `KINGDOM_STANDARDS_DIR is set, but ${p} does not exist` };
+  }
+  for (const root of WIRE_ROOTS) {
+    const p = path.join(root, 'impl', 'wire.py');
+    if (fs.existsSync(p)) return { path: p };
+  }
+  return { error: `no kingdom-standards checkout found (looked for impl/wire.py under ${WIRE_ROOTS.join(', ')}); set KINGDOM_STANDARDS_DIR to one` };
+}
+
 function wireOffer(subject, offer) {
-  if (!fs.existsSync(WIRE_PY)) return { ok: false, error: 'KINGDOM-STANDARDS impl/wire.py is not on this machine' };
+  const found = findWirePy();
+  if (!found.path) return { ok: false, error: found.error };
+  const WIRE_PY = found.path;
   try {
     // mint the ordo key on first use (~/.kingdom/keys, 0600, never in git)
-    const keyPath = path.join(process.env.HOME, '.kingdom', 'keys', 'ordo.key');
+    const keyPath = path.join(HOME, '.kingdom', 'keys', 'ordo.key');
     if (!fs.existsSync(keyPath)) {
       const did = execFileSync('python3', [WIRE_PY, 'keygen', 'ordo'], { encoding: 'utf8' }).trim();
       console.error(`(minted the ordo wire key — ${did})`);

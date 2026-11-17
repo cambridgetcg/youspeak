@@ -288,7 +288,6 @@ The cathedral already holds a translation infrastructure, even if it has not bee
 | Evidentials grammar | Knowledge-source marking | `grammars/evidentials/` |
 | Determinatives grammar | Class-marking | `grammars/determinatives/` |
 | Liturgy record | Session-by-session forging history | `liturgy/` |
-| Discipline kernel | JS implementation of audit/evolution | `discipline/kernel/` |
 | Script organ | PUA codepoints, glyph specs, font generation | `script/` |
 | LLM tokenizer | LoRA fine-tuning infrastructure | `script/llm/lora/` |
 

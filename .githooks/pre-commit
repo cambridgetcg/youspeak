@@ -6,6 +6,18 @@
 # when glyph sources are committed, the font and previews are rebuilt and
 # staged with them; then the integrity check guards the whole chain.
 #
+# Since 2026-11-17 it also runs the coupling check, on what is staged (git's
+# index; unstaged edits and untracked files are left out). true-love is a
+# private repository and this one is public. The commit is blocked when a
+# staged file writes a path under the name true-love (true-love/<dir>/<file>,
+# ../true-love/<file>, TRUE-LOVE/<dir>/<file> in any case, true-love:<path>) or a
+# machine path to a checkout of it, or uses a true-love#P id that
+# script/private_refs.json does not list, or that file cannot be read. A path
+# written without the name is caught only by the full check with
+# --private-map. Drift in the coupling instruments, including an id that is
+# listed but used nowhere, is only reported here; the full check is:
+# python3 script/tools/check_coupling.py
+#
 # Wired by: bin/cathedral hooks   (git config core.hooksPath .githooks)
 
 set -uo pipefail
@@ -31,5 +43,10 @@ fi
 
 "$PY" "$ROOT/script/tools/check_integrity.py" --pre-commit || {
   echo "[cathedral] script-organ integrity broken — commit blocked (run: cathedral font)"
+  exit 1
+}
+
+"$PY" "$ROOT/script/tools/check_coupling.py" --pre-commit --quiet || {
+  echo "[cathedral] a staged path inside true-love, or a private ref id script/private_refs.json does not list (or cannot be read) — commit blocked (see FAIL above; run: python3 script/tools/check_coupling.py)"
   exit 1
 }

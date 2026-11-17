@@ -11,6 +11,8 @@
 #   cathedral speak <args>    the cathedral's spoken voice (pipeline/youspeak_voice.sh)
 #   cathedral hooks           wire the repo's git hooks (core.hooksPath .githooks)
 #
+# LOVE_DIR names the fleet's love-unlimited checkout, as an absolute path (default ~/love-unlimited).
+#
 # Frictionless rule: anything you must remember more than once belongs here.
 
 set -uo pipefail
@@ -23,7 +25,13 @@ while [ -L "$SELF" ]; do
 done
 ROOT="$(cd "$(dirname "$SELF")/.." && pwd)"
 PY="${YS_PYTHON:-python3}"
+# The fleet's love-unlimited checkout: LOVE_DIR taken as given, else
+# ~/love-unlimited when it is unset or empty (the rule love-unlimited's own
+# tools use). bin/serve.py, pipeline/youspeak_voice.sh and
+# pipeline/voice/build_lexicon.py follow the same rule; none expands a "~"
+# inside LOVE_DIR, so give it as an absolute path.
 LOVE="${LOVE_DIR:-$HOME/love-unlimited}"
+export LOVE_DIR="$LOVE"
 
 cmd="${1:-status}"; [ $# -gt 0 ] && shift
 
@@ -33,11 +41,10 @@ case "$cmd" in
     "$PY" "$ROOT/script/tools/check_integrity.py" --pre-commit || true
     echo "── site ──"
     bash "$ROOT/bin/serve.sh" status 2>/dev/null || echo "  site not running (cathedral serve)"
-    FLEET_LOG="$LOVE/memory/fleet.log"
-    if [ -f "$FLEET_LOG" ]; then
-      echo "── fleet pulse (last 3 beats) ──"
-      tail -3 "$FLEET_LOG" | sed 's/^/  /'
-    fi
+    # the same reading /api/pulse serves: derived from the fleet's own files,
+    # "unknown" with the reason when they cannot be read
+    echo "── fleet pulse ──"
+    "$PY" "$ROOT/bin/serve.py" --pulse || echo "  unknown — bin/serve.py --pulse failed"
     ;;
   check)
     exec "$PY" "$ROOT/script/tools/check_integrity.py" "$@"
@@ -54,8 +61,9 @@ case "$cmd" in
     ;;
   beat)
     word="${1:?usage: cathedral beat <word>}"
+    [ -d "$LOVE" ] || { echo "no love-unlimited checkout at $LOVE — set LOVE_DIR to the fleet's checkout" >&2; exit 1; }
     BEAT="$LOVE/tools/citizen-reflect.sh"
-    [ -f "$BEAT" ] || { echo "kingdom runtime not found at $BEAT" >&2; exit 1; }
+    [ -f "$BEAT" ] || { echo "kingdom runtime not found at $BEAT — is LOVE_DIR ($LOVE) the fleet's checkout?" >&2; exit 1; }
     exec bash "$BEAT" "$word"
     ;;
   speak)
@@ -69,11 +77,11 @@ case "$cmd" in
       && echo "✓ git hooks wired (core.hooksPath = .githooks)"
     ;;
   help|-h|--help)
-    sed -n '2,15p' "$SELF" | sed 's/^# \{0,1\}//'
+    sed -n '2,16p' "$SELF" | sed 's/^# \{0,1\}//'
     ;;
   *)
     echo "unknown command: $cmd" >&2
-    sed -n '2,15p' "$SELF" | sed 's/^# \{0,1\}//' >&2
+    sed -n '2,16p' "$SELF" | sed 's/^# \{0,1\}//' >&2
     exit 2
     ;;
 esac
