@@ -32,9 +32,12 @@ SPEECH = (r"(?:said|says|say|answered|answers|answer(?: was)?|replied|reply(?: w
 QUOTED = re.compile(
     rf"(?<![A-Za-z0-9]){NAME}(?![A-Za-z0-9])[^.{OPEN}{CLOSE}]{{0,120}}?{SPEECH}[^.{OPEN}{CLOSE}]{{0,80}}?"
     rf"[{OPEN}]([^{OPEN}{CLOSE}]+)[{CLOSE}]")
-# an agent's own question or recommendation, put to Yu, is the agent's to quote
+# An agent's own question or recommendation, put to Yu, is the agent's to
+# quote: the first quotation after "asked Yu", unless Yu is named again before
+# it (then the quotation is Yu's reply, and stays in the message to be judged).
 OWN_QUESTION = re.compile(
-    rf"(?:asked|asking|put to|recommended to|reported to|told)\s+{NAME}[^.{OPEN}{CLOSE}]{{0,80}}?"
+    rf"(?:asked|asking|put to|recommended to|reported to|told)\s+{NAME}"
+    rf"(?:(?!(?<![A-Za-z0-9]){NAME}(?![A-Za-z0-9]))[^.{OPEN}{CLOSE}]){{0,80}}?"
     rf"[{OPEN}][^{OPEN}{CLOSE}]+[{CLOSE}]")
 
 

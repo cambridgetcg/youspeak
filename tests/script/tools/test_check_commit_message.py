@@ -28,6 +28,8 @@ REFUSED = {
     "word was": f'Yu\'s word was "{Q}", and the door is green.',
     "in brackets after a date": f'Merged on Yu\'s word of 2026-11-17 ("{Q}").',
     "message included": f'Yu\'s message of 2026-11-17 included the words "{Q}."',
+    "a reply after an unquoted question": f"An agent asked Yu to choose a colour, and Yu replied: “{Q}.”",
+    "a reply after a quoted question": f'An agent asked Yu: "which colour for the door?" Yu answered: "{Q}."',
 }
 ALLOWED = {
     "a dated statement with no quoted words": "door: paint it green\n\nOn Yu's word of 2026-11-17, the door is green.",
