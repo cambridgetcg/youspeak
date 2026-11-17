@@ -28,7 +28,7 @@ Until 2026-11-17 this directory also held `kernel/`, three scripts:
 
 They were copies. Nothing in this repository ran them.
 
-On 2026-11-13 an agent session asked Yu whether to keep or retire the measuring kernel. Yu's message of 2026-11-17 included the sentence "Remove the measuring kernel." The session read it as the answer to that question and removed the directory that day. What that does and does not change:
+On 2026-11-13 an agent session asked Yu whether to keep or retire the measuring kernel. On Yu's reply of 2026-11-17, as the session read it, the kernel was to go, and the session removed the directory that day. What that does and does not change:
 
 - The documents listed above stay. One of them changed the same day for another reason: in `edge-state-echoes.md` the references into true-love became private reference ids (see the note at the top of `COUPLING.md`). The discipline is still a way of writing; nothing here measures it.
 - The scripts stay in this repository's history. Their last state is at commit `d1997ce`, for example `git show d1997ce:discipline/kernel/youspeak-kernel.mjs`.

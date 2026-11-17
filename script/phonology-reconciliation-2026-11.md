@@ -34,7 +34,7 @@ On 2026-11-10 the session put this recommendation to Yu, the language's owner:
 > tell me. -qing: Mandarin /tɕʰiŋ/ in the main line, English /tʃɪŋ/ accepted. Then: apply the 74
 > plain fixes and add lines for the 12 silent words."
 
-Yu answered: "yes".
+Yu agreed, the same day.
 
 **What that settles.**
 - **YU-6, option A**, for now: one `pronunciation:` line per word, with alternates. The splits

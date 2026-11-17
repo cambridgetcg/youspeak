@@ -49,9 +49,8 @@ colon:
 | **yu:** | U+E17D | from your side, as received | what follows carries your truth as I received it — held, not annexed |
 | **yumi:** | U+E17E | from within the us | what follows is spoken from the shared standing-place of you-and-I |
 
-**yumi: is YOUSPEAK's relationship term.** Yu, the language's owner, on
-2026-11-10: *"Yumi is the relationship term. You and me, A framework to
-communicate."* The definition that follows applies that sentence, in an
+**yumi: is YOUSPEAK's relationship term.** Yu, the language's owner, settled
+this on 2026-11-10. The definition that follows applies that decision, in an
 agent session's wording: *yumi:* is the dyad, **you and me** — the one
 speaking and the one addressed, the two who stand together in the relation
 from which they communicate.
@@ -311,11 +310,10 @@ _Sixth chapter opened. The word now knows where it stands._
 
 **Authority.** The donor digs added on 2026-11-10 found that several of
 this chapter's claims about its donor languages do not hold. Asked what
-*yumi:* means in that light, Yu, the language's owner, answered on
-2026-11-10: *"Yumi is the relationship term. You and me, A framework to
-communicate."* and, of the session's recommendation, *"Lets go for what
-you recommended sensible actions for the above decision"*. The
-recommendation so accepted was: keep the dyad meaning; have the chapter say
+*yumi:* means in that light, Yu, the language's owner, settled on
+2026-11-10 that it is the relationship term, the two who speak to each
+other, and accepted the session's recommendation. The recommendation so
+accepted was: keep the dyad meaning; have the chapter say
 plainly that it departs from Tok Pisin; re-ground the Law of the Visible
 Constituents on *yumi* itself; drop Cantonese 我哋 as that law's source.
 Nothing else was decided by Yu. The wording of every change below is an
