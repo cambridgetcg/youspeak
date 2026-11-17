@@ -713,7 +713,7 @@ def build(entry, glyphs, work, morphemes_override=None, fallback=False):
     stones = [(m, glyphs.get(m)) for m in morphs]
     for m, g in stones:
         if g is None:
-            log(f"{word}: morpheme '{m}' is not among the 93 carved glyphs; an empty niche stands in its place")
+            log(f"{word}: morpheme '{m}' is not among the 96 carved glyphs; an empty niche stands in its place")
     carved = bool(stones)
     n = len(stones) or 1
     s, step, total_w = row_metrics(n)

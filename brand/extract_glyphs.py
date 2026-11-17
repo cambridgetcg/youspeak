@@ -1,4 +1,4 @@
-"""extract_glyphs.py — lay the 93 stones out as SVG files for the brand recipes.
+"""extract_glyphs.py — lay the 96 stones out as SVG files for the brand recipes.
 
 Reads home/data/morphemes.min.json (baked by home/bake.py — never edit it) and
 writes brand/glyphs/<latin>.svg (viewBox 0 0 1000 1000, y-down, exactly the

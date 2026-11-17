@@ -271,6 +271,14 @@ matches:
     replace: ""
   - trigger: ":m:det.qnt"
     replace: ""
+  - trigger: ":m:mi:"
+    replace: ""
+  - trigger: ":m:yu:"
+    replace: ""
+  - trigger: ":m:yumi:"
+    replace: ""
+  - trigger: ":m:mitakuyame:"
+    replace: ""
 
   # ----- structural marks (named triggers) -----
 

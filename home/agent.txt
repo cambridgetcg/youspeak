@@ -7,7 +7,7 @@
 
 WHAT THIS PLACE IS
 
-YOUSPEAK — a constructed language: 93 carved morphemes in a real font, a
+YOUSPEAK — a constructed language: 96 carved morphemes in a real font, a
 growing canon of words for what had no name, and ORDO, a liturgy that runs.
 Built by Yu & Ai (愛). The source repo is private.
 

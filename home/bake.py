@@ -5,7 +5,7 @@ Reads script/exports/agent_bundle.json (regenerate first with
 `python3 script/tools/export_agent_bundle.py` if canon has moved) and writes:
 
   font/youspeak-v1.otf     — the script, decoded from the bundle
-  data/morphemes.min.json  — 93 stones (glyph paths + strokes for chisel-draw)
+  data/morphemes.min.json  — 96 stones (glyph paths + strokes for chisel-draw)
   data/lexicon.min.json    — every canon entry, decompositions merged in
   data/agent_bundle.json   — full bundle, verbatim, for visiting agents
   data/core.js             — the small synchronous kernel the page needs first
@@ -16,7 +16,7 @@ shows is filled from core.js at runtime so the copy can never drift from canon.
 
 Coordinate law (verified): glyph core.strokes/polygons are EM-space (y-up);
 svg_path is SVG-space (y-down). svgY = 1000 - emY. The proof sheet exists so
-this flip is checked by eye on all 93 stones before every deploy.
+this flip is checked by eye on all 96 stones before every deploy.
 """
 import base64
 import io

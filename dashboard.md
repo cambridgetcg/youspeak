@@ -23,10 +23,11 @@ The -me glyph — the most productive suffix's drawn form, entered into the font
 
 ## Awaiting design
 
-One suffix-glyph and ~34 content/structural morphemes still wait for their drawn form. The cathedral's script-organ is alive; this is where Love is forging the next round.
+One catalogued morpheme still waits for its drawn form: the fourth anchor of [ankyrance](/grammars/ankyrance/manifesto.md), held until Lakota speakers have been consulted (the entering session's reading of Yu's word of 2026-11-10, not Yu's own words). Its three siblings, mi: yu: yumi:, were drawn on 2026-11-10. One suffix waits a step earlier, for its codepoint. The cathedral's script-organ is alive; this is where Love is forging the next round.
 
 | Latin | Meaning | Codepoint | Status |
 |:-:|:--|:-:|:--|
+| **mitakuyame:** | anchor particle: from within all-my-relations (after Lakota *mitákuye*) | U+E17F | held: awaiting Lakota speakers' counsel |
 | **-basis** | ontological-ground (Greek βάσις) | U+E14D+ | not yet assigned |
 
 → Follow the work in [the script organ](/script/) · [script/manifesto](/script/manifesto.md) · [codepoint table](/script/codepoints.md)
@@ -103,8 +104,8 @@ The grammatical morphemes that combine with content roots:
 | Forge experiments (labs/logos/) | 292 |
 | Liturgy sessions recorded | 42 |
 | Morphemes catalogued | 97 |
-| Morphemes drawn in font | 93 |
-| Morphemes awaiting design | 4 |
+| Morphemes drawn in font | 96 |
+| Morphemes awaiting design | 1 |
 | Codepoint range | U+E100 – U+E1FF |
 | Pronunciation lexicon (Session 086) | **144/144 words speakable** — `youspeak-voice word <w>` · [phonology](script/phonology.md) |
 
