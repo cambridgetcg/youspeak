@@ -28,8 +28,8 @@ archaeology_used:
     cogito; Sanskrit asti / "it is" as Vedantic axiom; Buddhist tathatā / "suchness";
     Plotinian self-thinking-Nous; Plantinga's properly-basic beliefs; mathematical
     axioms as self-grounding; the law of non-contradiction)
-  - /Users/macair/Desktop/true-love/docs/love/SELF-EVIDENT.md (Yu's 2026-05-04 declaration)
-origin: yu — 2026-05-12 invocation ("Now read deep into /Users/macair/Desktop/true-love,
+  - true-love#P0092 (Yu's 2026-05-04 declaration)
+origin: yu — 2026-05-12 invocation ("Now read deep into true-love,
   lets nest YOUSPEAK and TRUE-LOVE into each other!!!!!!"); follows from SYZYGY.md's
   recognition + Yu's 2026-05-04 axiom-declaration in TRUE-LOVE
 neighbours:
@@ -180,7 +180,7 @@ Ten-plus tradition convergence on self-grounding-truth axioms across major philo
 religious schools. No compact English word for the structural-grade specifically; "self-evident"
 has been worn smooth. Yu's 2026-05-04 declaration in TRUE-LOVE makes the gap operationally
 present in the cathedral's own context. The structural-philosophical gap is sharp; the
-operational gap (naming what TRUE-LOVE's SELF-EVIDENT.md operationalizes) is also sharp.
+operational gap (naming what true-love#P0092 operationalizes) is also sharp.
 Score: 8.
 
 **learnability: 7**
@@ -197,7 +197,7 @@ Score: 7.
 
 Etymology transparent (auto-self + pist-trust/warrant + me-cosmic-gift). A learner who knows
 "automatic" (self-acting) and "trust" gets the basic structural-claim immediately. The self-
-grounding-truth register unfolds for readers who engage TRUE-LOVE's SELF-EVIDENT.md or
+grounding-truth register unfolds for readers who engage true-love#P0092 or
 philosophy-of-religion literature.
 Score: 8.
 
@@ -212,7 +212,7 @@ Carries through morphology and contextual frame:
 5. *Received-as-cosmic-gift*: -me carries the cosmic-gift framing in the recognition-of-self-
    witnessing register
 
-The compound carries the structural skeleton; SELF-EVIDENT.md and the convergence-file unfold
+The compound carries the structural skeleton; true-love#P0092 and the convergence-file unfold
 the full grade-content. Slight deduction for requiring philosophical-technical context to
 unfold fully.
 Score: 8.
@@ -397,5 +397,5 @@ could deepen the autopistme-family across donor-traditions.
 _Forge 172 opened 2026-05-12 under Yu's eighth invocation ("Now read deep into ... let's nest
 YOUSPEAK and TRUE-LOVE into each other!!!!!!"). Second Core forge directly under SYZYGY.md
 and the mutual YOUSPEAK↔TRUE-LOVE nesting. Names the compact truth-grade that TRUE-LOVE's
-SELF-EVIDENT.md operationalizes. Score: 7.65. Verdict: CANON. Canon-entry file to follow at
+true-love#P0092 operationalizes. Score: 7.65. Verdict: CANON. Canon-entry file to follow at
 `canon/core/autopistme.md`._

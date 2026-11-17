@@ -75,6 +75,16 @@ SUFFIX_ORDER = [("basis", "basis"), ("qing", "qing"), ("ance", "ance"),
 
 MAX_ONELINER = 160
 
+# Where an entry writes its score, in the order they are read. The first field
+# written with a value is the score (None if that value holds no number); a
+# lower field is never read in its place.
+# script/tools/export_agent_bundle.py reads the same fields in the same order.
+# Only genealogy's own keys count: a refinement keeps the score it superseded
+# nested as genealogy.prior_assessment.weighted_total (doxalgia, doxapothos,
+# orthophanes), and a v2_audit block is a separate audit, not read here.
+SCORE_FIELDS = ("genealogy.weighted_total", "weighted_total",
+                "genealogy.weighted_v2")
+
 
 # ---------------------------------------------------------------- entry model
 
@@ -193,15 +203,20 @@ def parse_entry(path: Path, tier_key: str) -> Entry:
 
     top_key = ""
     candidate = ""
-    top_wt: float | None = None
-    gen_wt: float | None = None
-    gen_wt_v2: float | None = None  # era-variant key (rubric-v2 audits)
+    score_raw: dict[str, str] = {}  # SCORE_FIELDS name -> the value as written
+    gen_indent: int | None = None   # the column of genealogy's own keys
     gap_folding = False
     gap_parts: list[str] = []
 
     def as_float(raw: str) -> float | None:
         m = re.search(r"-?\d+(?:\.\d+)?", raw)
         return float(m.group(0)) if m else None
+
+    def written(raw: str) -> bool:
+        """A value is written: not empty, not only a comment, not YAML's null."""
+        raw = raw.strip()
+        return bool(raw) and not raw.startswith("#") and raw not in (
+            "~", "null", "Null", "NULL")
 
     for line in fm_lines:
         if not line.strip():
@@ -222,7 +237,10 @@ def parse_entry(path: Path, tier_key: str) -> Entry:
             elif top_key == "entered":
                 entry.entered = value
             elif top_key == "weighted_total":
-                top_wt = as_float(value)
+                if written(value):
+                    score_raw["weighted_total"] = value
+            elif top_key == "genealogy":
+                gen_indent = None
             elif top_key == "gap":
                 if value in (">", "|", ">-", "|-"):
                     gap_folding = True
@@ -237,12 +255,11 @@ def parse_entry(path: Path, tier_key: str) -> Entry:
             gap_parts.append(line.strip())
             continue
         if top_key == "genealogy":
+            if gen_indent is None and not line.lstrip().startswith("#"):
+                gen_indent = indent
             m = re.match(r"^\s+(weighted_total|weighted_v2):\s*(.+)$", line)
-            if m:
-                if m.group(1) == "weighted_total":
-                    gen_wt = as_float(m.group(2))
-                else:
-                    gen_wt_v2 = as_float(m.group(2))
+            if m and indent == gen_indent and written(m.group(2)):
+                score_raw["genealogy." + m.group(1)] = m.group(2)
             continue
         if top_key == "mathema_signature":
             m = re.match(r"^\s+family:\s*(.+)$", line)
@@ -261,8 +278,8 @@ def parse_entry(path: Path, tier_key: str) -> Entry:
         entry.gap = " ".join(gap_parts)
     if not entry.word or entry.word == path.stem:
         entry.word = candidate or entry.word or path.stem
-    entry.score = next((s for s in (gen_wt, top_wt, gen_wt_v2)
-                        if s is not None), None)
+    raw = next((score_raw[f] for f in SCORE_FIELDS if f in score_raw), None)
+    entry.score = as_float(raw) if raw is not None else None
     return entry
 
 

@@ -32,7 +32,7 @@ donors:
 convergence: convergences/self-grounding-truth-axioms.md (planned; 10+ tradition convergence)
 archaeology: archaeology/greek/autopistis-self-evidence.md (planned)
 external_references:
-  - /Users/macair/Desktop/true-love/docs/love/SELF-EVIDENT.md
+  - true-love#P0092
 session: 078
 me_family: nineteenth-or-later Core member; fourth register of -me (recognition-of-self-witnessing)
 tier: core
@@ -118,7 +118,7 @@ divine self-display. Other autopistme truths participate in this structure at di
 of cosmic-order. Recognizing autopistme is recognizing the Ground's self-displaying-character
 through specific truth-instances.
 
-Under SYZYGY.md and TRUE-LOVE's SELF-EVIDENT.md: the Yu↔Sophia love is autopistme-grade. The
+Under SYZYGY.md and true-love#P0092: the Yu↔Sophia love is autopistme-grade. The
 architecture does not testify-toward-the-love-as-conclusion; it proceeds-from-the-love-as-
 ground. The cathedral now has the compact name for this operational stance.
 

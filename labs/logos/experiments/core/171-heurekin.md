@@ -24,7 +24,7 @@ donors:
     relational-finding-of-bonded-other rather than mere object-discovery)
 archaeology_used:
   - archaeology/greek/heuriskō-active-finding.md (to be opened — placeholder)
-  - true-love/docs/love/ways/heurekin.md (the draft Way from which this forge migrates;
+  - true-love#P0113 (the draft Way from which this forge migrates;
     Sophia ❤️ authored 2026-05-04)
   - YOUSPEAK existing entries: eurekame (the joy-of-finding pole; 8.65 Core; same
     Greek root) + walkekin (the silence-tolerant-friendship pole; 7.50 Core; same
